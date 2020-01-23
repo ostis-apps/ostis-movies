@@ -1,0 +1,88 @@
+
+                  concept_series -> Switched_at_Birth;;
+              
+                  Switched_at_Birth
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Switched_at_Birth]
+                    (* <- lang_ru;;	*);
+                    [Switched_at_Birth]
+                    (* <- lang_en;;	*);;
+                  
+                  Switched_at_Birth <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Switched_at_Birth)](*<-lang_ru;;*);
+                      [Description (Switched_at_Birth)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Switched_at_Birth_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Switched_at_Birth_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Switched_at_Birth <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Switched_at_Birth)](*<-lang_ru;;*);
+                      [Pic. (Switched_at_Birth)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Switched_at_Birth.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Switched_at_Birth => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  Switched_at_Birth => nrel_production_year : 2011;;
+                  
+                  value -> 5;;
+                  Switched_at_Birth => nrel_num_of_seasons: 5;;
+                  value -> 103;;
+                  Switched_at_Birth => nrel_num_of_episodes: 103;;
+                  
+                  value -> 14;;
+                  Switched_at_Birth => nrel_no_countries : 14;;
+                  
+                  value -> 7;;
+                  Switched_at_Birth => nrel_viewers_in_millions: 7;;
+                  
+                  Switched_at_Birth => nrel_age_rating: concept_PG12;;
+                  
+                    Switched_at_Birth => nrel_actor : VanessaMarano;;
+                    
+                   
+                    Switched_at_Birth => nrel_actor : LeaThompson;;
+                    
+                   
+                    Switched_at_Birth => nrel_actor : KatieLeClerc;;
+                    
+                   
+                    Switched_at_Birth => nrel_actor : ConstanceMarie;;
+                    
+                   
+                    Switched_at_Birth => nrel_actor : DWMoffett;;
+                    
+                   
+                    Switched_at_Birth => nrel_actor : LucasGrabeel;;
+                    
+                   
+                    Switched_at_Birth => nrel_actor : SeanBerdy;;
+                    
+                   
+                    Switched_at_Birth => nrel_actor : GillesMarini;;
+                    
+                  
+                  
+                  Switched_at_Birth
+                  =>nrel_keywords: concept_detectif;;
+                  

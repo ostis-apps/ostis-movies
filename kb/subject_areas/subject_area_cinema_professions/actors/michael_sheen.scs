@@ -1,0 +1,54 @@
+concept_human -> michael_sheen;;
+ 
+ michael_sheen <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майкл Шин)](*<-lang_ru;;*);
+ 		[Description (Michael Sheen)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michael_sheen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michael_sheen <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майкл Шин)](*<-lang_ru;;*);
+ 		[Pic. (Michael Sheen)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michael_sheen.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michael_sheen => nrel_main_idtf : [Майкл Шин](*<-lang_ru;;*);;
+ michael_sheen => nrel_main_idtf : [Michael Sheen](*<-lang_en;;*);;
+ 
+ 
+ michael_sheen => nrel_birth_date : 1969;;
+ 
+ concept_goverment -> UK;;
+ michael_sheen => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ michael_sheen => nrel_to_star_in : apostle;;
+apostle => nrel_main_idtf : [Apostle](*<-lang_en;;*);;
+apostle => nrel_main_idtf : [Апостол](*<-lang_ru;;*);;
+michael_sheen => nrel_to_star_in : alice_through_the_looking_glass;;
+alice_through_the_looking_glass => nrel_main_idtf : [Alice Through the Looking Glass](*<-lang_en;;*);;
+alice_through_the_looking_glass => nrel_main_idtf : [Алиса в Зазеркалье](*<-lang_ru;;*);;
+michael_sheen => nrel_to_star_in : passengers;;
+passengers => nrel_main_idtf : [Passengers](*<-lang_en;;*);;
+passengers => nrel_main_idtf : [Пассажиры](*<-lang_ru;;*);;
+michael_sheen => nrel_to_star_in : alice_in_wonderland;;
+alice_in_wonderland => nrel_main_idtf : [Alice in Wonderland](*<-lang_en;;*);;
+alice_in_wonderland => nrel_main_idtf : [Алиса в стране чудес](*<-lang_ru;;*);;
+

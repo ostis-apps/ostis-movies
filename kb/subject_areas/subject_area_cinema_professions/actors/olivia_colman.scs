@@ -1,0 +1,48 @@
+concept_human -> olivia_colman;;
+ 
+ olivia_colman <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Оливия Колман)](*<-lang_ru;;*);
+ 		[Description (Olivia Colman)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/olivia_colman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ olivia_colman <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Оливия Колман)](*<-lang_ru;;*);
+ 		[Pic. (Olivia Colman)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/olivia_colman.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ olivia_colman => nrel_main_idtf : [Оливия Колман](*<-lang_ru;;*);;
+ olivia_colman => nrel_main_idtf : [Olivia Colman](*<-lang_en;;*);;
+ 
+ 
+ olivia_colman => nrel_birth_date : 1974;;
+ 
+ concept_goverment -> UK;;
+ olivia_colman => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ olivia_colman => nrel_to_star_in : murder_on_the_orient_express;;
+murder_on_the_orient_express => nrel_main_idtf : [Murder on the Orient Express](*<-lang_en;;*);;
+murder_on_the_orient_express => nrel_main_idtf : [Убийство в Восточном экспрессе](*<-lang_ru;;*);;
+olivia_colman => nrel_to_star_in : locke;;
+locke => nrel_main_idtf : [Locke](*<-lang_en;;*);;
+locke => nrel_main_idtf : [Лок](*<-lang_ru;;*);;
+

@@ -1,0 +1,91 @@
+
+                  concept_series -> Shades_of_Blue;;
+              
+                  Shades_of_Blue
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Shades_of_Blue]
+                    (* <- lang_ru;;	*);
+                    [Shades_of_Blue]
+                    (* <- lang_en;;	*);;
+                  
+                  Shades_of_Blue <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Shades_of_Blue)](*<-lang_ru;;*);
+                      [Description (Shades_of_Blue)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Shades_of_Blue_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Shades_of_Blue_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Shades_of_Blue <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Shades_of_Blue)](*<-lang_ru;;*);
+                      [Pic. (Shades_of_Blue)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Shades_of_Blue.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Shades_of_Blue => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Shades_of_Blue => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  Shades_of_Blue => nrel_num_of_seasons: 3;;
+                  value -> 36;;
+                  Shades_of_Blue => nrel_num_of_episodes: 36;;
+                  
+                  value -> 11;;
+                  Shades_of_Blue => nrel_no_countries : 11;;
+                  
+                  value -> 8;;
+                  Shades_of_Blue => nrel_viewers_in_millions: 8;;
+                  
+                  Shades_of_Blue => nrel_age_rating: concept_PG12;;
+                  
+                    Shades_of_Blue => nrel_actor : HamptonFluker;;
+                    
+                   
+                    Shades_of_Blue => nrel_actor : RayLiotta;;
+                    
+                   
+                    Shades_of_Blue => nrel_actor : VincentLaresca;;
+                    
+                   
+                    Shades_of_Blue => nrel_actor : DreadeMatteo;;
+                    
+                   
+                    Shades_of_Blue => nrel_actor : JenniferLopez;;
+                    
+                   
+                    Shades_of_Blue => nrel_actor : DayoOkeniyi;;
+                    
+                   
+                    Shades_of_Blue => nrel_actor : SarahJeffery;;
+                    
+                   
+                    Shades_of_Blue => nrel_actor : WarrenKole;;
+                    
+                   
+                    Shades_of_Blue => nrel_actor : GinoAnthonyPesi;;
+                    
+                  
+                  
+                  Shades_of_Blue
+                  =>nrel_keywords: concept_detectif;;
+                  

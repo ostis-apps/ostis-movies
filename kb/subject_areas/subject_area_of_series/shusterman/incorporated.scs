@@ -1,0 +1,82 @@
+
+                  concept_series -> Incorporated;;
+              
+                  Incorporated
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Инкорпорейтед]
+                    (* <- lang_ru;;	*);
+                    [Incorporated]
+                    (* <- lang_en;;	*);;
+                  
+                  Incorporated <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Инкорпорейтед)](*<-lang_ru;;*);
+                      [Description (Incorporated)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Incorporated_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Incorporated_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Incorporated <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Инкорпорейтед)](*<-lang_ru;;*);
+                      [Pic. (Incorporated)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Incorporated.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Incorporated => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Incorporated => nrel_production_year : 2016;;
+                  
+                  value -> 1;;
+                  Incorporated => nrel_num_of_seasons: 1;;
+                  value -> 10;;
+                  Incorporated => nrel_num_of_episodes: 10;;
+                  
+                  value -> 4;;
+                  Incorporated => nrel_no_countries : 4;;
+                  
+                  value -> 12;;
+                  Incorporated => nrel_viewers_in_millions: 12;;
+                  
+                  Incorporated => nrel_age_rating: concept_PG12;;
+                  
+                    Incorporated => nrel_actor : JuliaOrmond;;
+                    
+                   
+                    Incorporated => nrel_actor : EddieRamos;;
+                    
+                   
+                    Incorporated => nrel_actor : AllisonMiller;;
+                    
+                   
+                    Incorporated => nrel_actor : SeanTeale;;
+                    
+                   
+                    Incorporated => nrel_actor : DennisHaysbert;;
+                    
+                   
+                    Incorporated => nrel_actor : DenyseTontz;;
+                    
+                  
+                  
+                  Incorporated
+                  =>nrel_keywords: concept_detectif;;
+                  

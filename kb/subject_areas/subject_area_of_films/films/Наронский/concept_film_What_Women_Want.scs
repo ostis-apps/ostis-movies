@@ -1,0 +1,29 @@
+concept_film_What_Women_Want
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Чего хотят женщины]
+	(* <- lang_ru;;	*);
+	[What Women Want]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Чего хотят женщины)](*<-lang_ru;;*);
+		[Description (What Women Want)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Чего хотят женщины.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/What Women Want.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_drunkenness;		
+=>nrel_age_rating: concept_PG16;;	

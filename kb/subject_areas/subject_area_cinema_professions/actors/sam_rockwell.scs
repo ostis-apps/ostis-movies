@@ -1,0 +1,54 @@
+concept_human -> sam_rockwell;;
+ 
+ sam_rockwell <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сэм Рокуэлл)](*<-lang_ru;;*);
+ 		[Description (Sam Rockwell)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/sam_rockwell_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ sam_rockwell <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сэм Рокуэлл)](*<-lang_ru;;*);
+ 		[Pic. (Sam Rockwell)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/sam_rockwell.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ sam_rockwell => nrel_main_idtf : [Сэм Рокуэлл](*<-lang_ru;;*);;
+ sam_rockwell => nrel_main_idtf : [Sam Rockwell](*<-lang_en;;*);;
+ 
+ 
+ sam_rockwell => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Usa;;
+ sam_rockwell => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ sam_rockwell => nrel_to_star_in : vice;;
+vice => nrel_main_idtf : [Vice](*<-lang_en;;*);;
+vice => nrel_main_idtf : [Власть](*<-lang_ru;;*);;
+sam_rockwell => nrel_to_star_in : iron_man_2;;
+iron_man_2 => nrel_main_idtf : [Iron Man 2](*<-lang_en;;*);;
+iron_man_2 => nrel_main_idtf : [Железный человек 2](*<-lang_ru;;*);;
+sam_rockwell => nrel_to_star_in : charlies_angels;;
+charlies_angels => nrel_main_idtf : [Charlie's Angels](*<-lang_en;;*);;
+charlies_angels => nrel_main_idtf : [Ангелы Чарли](*<-lang_ru;;*);;
+sam_rockwell => nrel_to_star_in : the_green_mile;;
+the_green_mile => nrel_main_idtf : [The Green Mile](*<-lang_en;;*);;
+the_green_mile => nrel_main_idtf : [Зеленая миля](*<-lang_ru;;*);;
+

@@ -1,0 +1,45 @@
+concept_human -> kevin_spacey;;
+ 
+ kevin_spacey <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кевин Спейси)](*<-lang_ru;;*);
+ 		[Description (Kevin Spacey)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kevin_spacey_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kevin_spacey <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кевин Спейси)](*<-lang_ru;;*);
+ 		[Pic. (Kevin Spacey)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kevin_spacey.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kevin_spacey => nrel_main_idtf : [Кевин Спейси](*<-lang_ru;;*);;
+ kevin_spacey => nrel_main_idtf : [Kevin Spacey](*<-lang_en;;*);;
+ 
+ 
+ kevin_spacey => nrel_birth_date : 1959;;
+ 
+ concept_goverment -> Usa;;
+ kevin_spacey => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kevin_spacey => nrel_to_star_in : se7en;;
+se7en => nrel_main_idtf : [Se7en](*<-lang_en;;*);;
+se7en => nrel_main_idtf : [Семь](*<-lang_ru;;*);;
+

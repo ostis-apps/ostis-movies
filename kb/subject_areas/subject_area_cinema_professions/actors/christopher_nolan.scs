@@ -1,0 +1,72 @@
+concept_human -> christopher_nolan;;
+ 
+ christopher_nolan <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристофер Нолан)](*<-lang_ru;;*);
+ 		[Description (Christopher Nolan)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/christopher_nolan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ christopher_nolan <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристофер Нолан)](*<-lang_ru;;*);
+ 		[Pic. (Christopher Nolan)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/christopher_nolan.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ christopher_nolan => nrel_main_idtf : [Кристофер Нолан](*<-lang_ru;;*);;
+ christopher_nolan => nrel_main_idtf : [Christopher Nolan](*<-lang_en;;*);;
+ 
+ 
+ christopher_nolan => nrel_birth_date : 1970;;
+ 
+ concept_goverment -> UK;;
+ christopher_nolan => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ christopher_nolan => nrel_to_star_in : dunkirk;;
+dunkirk => nrel_main_idtf : [Dunkirk](*<-lang_en;;*);;
+dunkirk => nrel_main_idtf : [Дюнкерк](*<-lang_ru;;*);;
+christopher_nolan => nrel_to_star_in : interstellar;;
+interstellar => nrel_main_idtf : [Interstellar](*<-lang_en;;*);;
+interstellar => nrel_main_idtf : [Интерстеллар](*<-lang_ru;;*);;
+christopher_nolan => nrel_to_star_in : the_dark_knight_rises;;
+the_dark_knight_rises => nrel_main_idtf : [The Dark Knight Rises](*<-lang_en;;*);;
+the_dark_knight_rises => nrel_main_idtf : [Темный рыцарь: Возрождение легенды](*<-lang_ru;;*);;
+christopher_nolan => nrel_to_star_in : inception;;
+inception => nrel_main_idtf : [Inception](*<-lang_en;;*);;
+inception => nrel_main_idtf : [Начало](*<-lang_ru;;*);;
+christopher_nolan => nrel_to_star_in : the_dark_knight;;
+the_dark_knight => nrel_main_idtf : [The Dark Knight](*<-lang_en;;*);;
+the_dark_knight => nrel_main_idtf : [Темный рыцарь](*<-lang_ru;;*);;
+christopher_nolan => nrel_to_star_in : the_prestige;;
+the_prestige => nrel_main_idtf : [The Prestige](*<-lang_en;;*);;
+the_prestige => nrel_main_idtf : [Престиж](*<-lang_ru;;*);;
+christopher_nolan => nrel_to_star_in : batman_begins;;
+batman_begins => nrel_main_idtf : [Batman Begins](*<-lang_en;;*);;
+batman_begins => nrel_main_idtf : [Бэтмен: Начало](*<-lang_ru;;*);;
+christopher_nolan => nrel_to_star_in : insomnia;;
+insomnia => nrel_main_idtf : [Insomnia](*<-lang_en;;*);;
+insomnia => nrel_main_idtf : [Бессонница](*<-lang_ru;;*);;
+christopher_nolan => nrel_to_star_in : memento;;
+memento => nrel_main_idtf : [Memento](*<-lang_en;;*);;
+memento => nrel_main_idtf : [Помни](*<-lang_ru;;*);;
+christopher_nolan => nrel_to_star_in : following;;
+following => nrel_main_idtf : [Following](*<-lang_en;;*);;
+following => nrel_main_idtf : [Преследование](*<-lang_ru;;*);;
+

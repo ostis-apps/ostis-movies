@@ -1,0 +1,54 @@
+concept_human -> meryl_streep;;
+ 
+ meryl_streep <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мерил Стрип)](*<-lang_ru;;*);
+ 		[Description (Meryl Streep)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/meryl_streep_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ meryl_streep <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мерил Стрип)](*<-lang_ru;;*);
+ 		[Pic. (Meryl Streep)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/meryl_streep.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ meryl_streep => nrel_main_idtf : [Мерил Стрип](*<-lang_ru;;*);;
+ meryl_streep => nrel_main_idtf : [Meryl Streep](*<-lang_en;;*);;
+ 
+ 
+ meryl_streep => nrel_birth_date : 1949;;
+ 
+ concept_goverment -> Usa;;
+ meryl_streep => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ meryl_streep => nrel_to_star_in : mamma_mia_here_we_go_again;;
+mamma_mia_here_we_go_again => nrel_main_idtf : [Mamma Mia! Here We Go Again](*<-lang_en;;*);;
+mamma_mia_here_we_go_again => nrel_main_idtf : [Mamma Mia! 2](*<-lang_ru;;*);;
+meryl_streep => nrel_to_star_in : big_little_lies;;
+big_little_lies => nrel_main_idtf : [Big Little Lies](*<-lang_en;;*);;
+big_little_lies => nrel_main_idtf : [Большая маленькая ложь](*<-lang_ru;;*);;
+meryl_streep => nrel_to_star_in : the_devil_wears_prada;;
+the_devil_wears_prada => nrel_main_idtf : [The Devil Wears Prada](*<-lang_en;;*);;
+the_devil_wears_prada => nrel_main_idtf : [Дьявол носит Prada](*<-lang_ru;;*);;
+meryl_streep => nrel_to_star_in : silkwood;;
+silkwood => nrel_main_idtf : [Silkwood](*<-lang_en;;*);;
+silkwood => nrel_main_idtf : [Силквуд](*<-lang_ru;;*);;
+

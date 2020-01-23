@@ -1,0 +1,51 @@
+concept_human -> ben_foster;;
+ 
+ ben_foster <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Бен Фостер)](*<-lang_ru;;*);
+ 		[Description (Ben Foster)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ben_foster_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ben_foster <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Бен Фостер)](*<-lang_ru;;*);
+ 		[Pic. (Ben Foster)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ben_foster.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ben_foster => nrel_main_idtf : [Бен Фостер](*<-lang_ru;;*);;
+ ben_foster => nrel_main_idtf : [Ben Foster](*<-lang_en;;*);;
+ 
+ 
+ ben_foster => nrel_birth_date : 1980;;
+ 
+ concept_goverment -> Usa;;
+ ben_foster => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ ben_foster => nrel_to_star_in : inferno;;
+inferno => nrel_main_idtf : [Inferno](*<-lang_en;;*);;
+inferno => nrel_main_idtf : [Инферно](*<-lang_ru;;*);;
+ben_foster => nrel_to_star_in : the_mechanic;;
+the_mechanic => nrel_main_idtf : [The Mechanic](*<-lang_en;;*);;
+the_mechanic => nrel_main_idtf : [Механик](*<-lang_ru;;*);;
+ben_foster => nrel_to_star_in : xmen_the_last_stand;;
+xmen_the_last_stand => nrel_main_idtf : [X-Men: The Last Stand](*<-lang_en;;*);;
+xmen_the_last_stand => nrel_main_idtf : [Люди Икс: Последняя битва](*<-lang_ru;;*);;
+

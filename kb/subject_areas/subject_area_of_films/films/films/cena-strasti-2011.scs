@@ -1,0 +1,67 @@
+film_cena_strasti_2011
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Цена страсти]
+(* <- lang_ru;;    *);
+[The Ledge]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Цена страсти)](*<-lang_ru;;*);
+[Description (The Ledge)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/cena-strasti-2011_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/cena-strasti-2011_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Цена страсти)](*<-lang_ru;;*);
+		[Pic. (The Ledge)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/cena-strasti-2011.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;germany;saudi_arabia;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [One life. One chance. One step.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.05.2011](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.05.2011](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H41M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H41M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_cena_strasti_2011 =>nrel_keywords: film;;
+
+film_cena_strasti_2011 <- concept_drama;concept_romance;concept_thriller;;
+
+film_cena_strasti_2011 => nrel_main_actor : charlie_hunnam;terrence_howard;patrick_wilson;liv_tyler;;
+film_cena_strasti_2011 => nrel_producer : matthew_chapman;;

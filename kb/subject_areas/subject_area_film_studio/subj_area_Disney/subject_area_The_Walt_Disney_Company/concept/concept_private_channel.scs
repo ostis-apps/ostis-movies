@@ -1,0 +1,22 @@
+concept_private_channel <- sc_node_not_relation;
+
+=> nrel_main_idtf:[закрытый канал] (* <- lang_ru;; *);
+=> nrel_idtf:[private channel] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (закрытый канал)] (* <- lang_ru;; *);
+							   [Def. (private channel)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_private_channel_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_private_channel_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);;
+
+

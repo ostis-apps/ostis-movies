@@ -1,0 +1,40 @@
+nrel_the_head_of_the_company <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+
+=> nrel_main_idtf:
+    [the head of the company*](*<- lang_en;;*);
+    [президент компании*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (президент компании*)](*<- lang_ru;;*);
+        [Def. (the head of the company*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_the_head_of_the_company_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_the_head_of_the_company_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+=> nrel_first_domain: concept_company;
+=> nrel_second_domain: concept_human;
+=> nrel_definitional_domain: concept_human;
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (президент компании*)](*<-lang_ru;;*);
+		    [Pic. (the head of the company*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/nrel_the_head_of_the_company.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

@@ -1,0 +1,48 @@
+concept_human -> zoey_deutch;;
+ 
+ zoey_deutch <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Зои Дойч)](*<-lang_ru;;*);
+ 		[Description (Zoey Deutch)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/zoey_deutch_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ zoey_deutch <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Зои Дойч)](*<-lang_ru;;*);
+ 		[Pic. (Zoey Deutch)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/zoey_deutch.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ zoey_deutch => nrel_main_idtf : [Зои Дойч](*<-lang_ru;;*);;
+ zoey_deutch => nrel_main_idtf : [Zoey Deutch](*<-lang_en;;*);;
+ 
+ 
+ zoey_deutch => nrel_birth_date : 1994;;
+ 
+ concept_goverment -> Usa;;
+ zoey_deutch => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ zoey_deutch => nrel_to_star_in : set_it_up;;
+set_it_up => nrel_main_idtf : [Set It Up](*<-lang_en;;*);;
+set_it_up => nrel_main_idtf : [Подстава](*<-lang_ru;;*);;
+zoey_deutch => nrel_to_star_in : vampire_academy;;
+vampire_academy => nrel_main_idtf : [Vampire Academy](*<-lang_en;;*);;
+vampire_academy => nrel_main_idtf : [Академия вампиров](*<-lang_ru;;*);;
+

@@ -1,0 +1,51 @@
+concept_human -> emma_stone;;
+ 
+ emma_stone <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эмма Стоун)](*<-lang_ru;;*);
+ 		[Description (Emma Stone)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/emma_stone_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ emma_stone <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эмма Стоун)](*<-lang_ru;;*);
+ 		[Pic. (Emma Stone)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/emma_stone.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ emma_stone => nrel_main_idtf : [Эмма Стоун](*<-lang_ru;;*);;
+ emma_stone => nrel_main_idtf : [Emma Stone](*<-lang_en;;*);;
+ 
+ 
+ emma_stone => nrel_birth_date : 1988;;
+ 
+ concept_goverment -> Usa;;
+ emma_stone => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ emma_stone => nrel_to_star_in : la_la_land;;
+la_la_land => nrel_main_idtf : [La La Land](*<-lang_en;;*);;
+la_la_land => nrel_main_idtf : [Ла-Ла Ленд](*<-lang_ru;;*);;
+emma_stone => nrel_to_star_in : movie_43;;
+movie_43 => nrel_main_idtf : [Movie 43](*<-lang_en;;*);;
+movie_43 => nrel_main_idtf : [Муви 43](*<-lang_ru;;*);;
+emma_stone => nrel_to_star_in : gangster_squad;;
+gangster_squad => nrel_main_idtf : [Gangster Squad](*<-lang_en;;*);;
+gangster_squad => nrel_main_idtf : [Охотники на гангстеров](*<-lang_ru;;*);;
+

@@ -1,0 +1,45 @@
+concept_human -> courteney_cox;;
+ 
+ courteney_cox <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кортни Кокс)](*<-lang_ru;;*);
+ 		[Description (Courteney Cox)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/courteney_cox_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ courteney_cox <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кортни Кокс)](*<-lang_ru;;*);
+ 		[Pic. (Courteney Cox)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/courteney_cox.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ courteney_cox => nrel_main_idtf : [Кортни Кокс](*<-lang_ru;;*);;
+ courteney_cox => nrel_main_idtf : [Courteney Cox](*<-lang_en;;*);;
+ 
+ 
+ courteney_cox => nrel_birth_date : 1964;;
+ 
+ concept_goverment -> Usa;;
+ courteney_cox => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ courteney_cox => nrel_to_star_in : ace_ventura_pet_detective;;
+ace_ventura_pet_detective => nrel_main_idtf : [Ace Ventura: Pet Detective](*<-lang_en;;*);;
+ace_ventura_pet_detective => nrel_main_idtf : [Эйс Вентура: Розыск домашних животных](*<-lang_ru;;*);;
+

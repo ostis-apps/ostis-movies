@@ -1,0 +1,73 @@
+
+                  concept_series -> Samurai_Jack;;
+              
+                  Samurai_Jack
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Samurai _ Ну ск]
+                    (* <- lang_ru;;	*);
+                    [Samurai_Jack]
+                    (* <- lang_en;;	*);;
+                  
+                  Samurai_Jack <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Samurai _ Ну ск)](*<-lang_ru;;*);
+                      [Description (Samurai_Jack)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Samurai_Jack_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Samurai_Jack_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Samurai_Jack <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Samurai _ Ну ск)](*<-lang_ru;;*);
+                      [Pic. (Samurai_Jack)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Samurai_Jack.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Samurai_Jack => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2001;;
+                  2001 => nrel_main_idtf : [2001 год](*<-lang_ru;;*);;
+                  2001 => nrel_main_idtf : [year of 2001](*<-lang_en;;*);;
+                  Samurai_Jack => nrel_production_year : 2001;;
+                  
+                  value -> 5;;
+                  Samurai_Jack => nrel_num_of_seasons: 5;;
+                  value -> 62;;
+                  Samurai_Jack => nrel_num_of_episodes: 62;;
+                  
+                  value -> 7;;
+                  Samurai_Jack => nrel_no_countries : 7;;
+                  
+                  value -> 4;;
+                  Samurai_Jack => nrel_viewers_in_millions: 4;;
+                  
+                  Samurai_Jack => nrel_age_rating: concept_PG12;;
+                  
+                    Samurai_Jack => nrel_actor : PhilLaMarr;;
+                    
+                   
+                    Samurai_Jack => nrel_actor : GregBaldwin;;
+                    
+                   
+                    Samurai_Jack => nrel_actor : Mako;;
+                    
+                  
+                  
+                  Samurai_Jack
+                  =>nrel_keywords: concept_detectif;;
+                  

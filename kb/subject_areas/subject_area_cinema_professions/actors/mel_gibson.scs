@@ -1,0 +1,45 @@
+concept_human -> mel_gibson;;
+ 
+ mel_gibson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэл Гибсон)](*<-lang_ru;;*);
+ 		[Description (Mel Gibson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/mel_gibson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ mel_gibson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэл Гибсон)](*<-lang_ru;;*);
+ 		[Pic. (Mel Gibson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/mel_gibson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ mel_gibson => nrel_main_idtf : [Мэл Гибсон](*<-lang_ru;;*);;
+ mel_gibson => nrel_main_idtf : [Mel Gibson](*<-lang_en;;*);;
+ 
+ 
+ mel_gibson => nrel_birth_date : 1956;;
+ 
+ concept_goverment -> Usa;;
+ mel_gibson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ mel_gibson => nrel_to_star_in : dragged_across_concrete;;
+dragged_across_concrete => nrel_main_idtf : [Dragged Across Concrete](*<-lang_en;;*);;
+dragged_across_concrete => nrel_main_idtf : [Закатать в асфальт](*<-lang_ru;;*);;
+

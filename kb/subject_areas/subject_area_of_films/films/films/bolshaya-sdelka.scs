@@ -1,0 +1,67 @@
+film_bolshaya_sdelka
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Большая сделка]
+(* <- lang_ru;;    *);
+[Major Deal]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Большая сделка)](*<-lang_ru;;*);
+[Description (Major Deal)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bolshaya-sdelka_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bolshaya-sdelka_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Большая сделка)](*<-lang_ru;;*);
+		[Pic. (Major Deal)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bolshaya-sdelka.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Get signed or die trying.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [15.09.2016](*<-lang_ru;;*);;
+    => nrel_main_idtf : [15.09.2016](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H5M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H5M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_bolshaya_sdelka =>nrel_keywords: film;;
+
+film_bolshaya_sdelka <- concept_comedy;;
+
+film_bolshaya_sdelka => nrel_main_actor : keraun_harris;simone_shepherd;joey_abril;tony_baker;;
+film_bolshaya_sdelka => nrel_producer : kevin_fredericks;;

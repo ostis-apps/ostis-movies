@@ -1,0 +1,57 @@
+concept_human -> steven_spielberg;;
+ 
+ steven_spielberg <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Стивен Спилберг)](*<-lang_ru;;*);
+ 		[Description (Steven Spielberg)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/steven_spielberg_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ steven_spielberg <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Стивен Спилберг)](*<-lang_ru;;*);
+ 		[Pic. (Steven Spielberg)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/steven_spielberg.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ steven_spielberg => nrel_main_idtf : [Стивен Спилберг](*<-lang_ru;;*);;
+ steven_spielberg => nrel_main_idtf : [Steven Spielberg](*<-lang_en;;*);;
+ 
+ 
+ steven_spielberg => nrel_birth_date : 1947;;
+ 
+ concept_goverment -> Usa;;
+ steven_spielberg => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ steven_spielberg => nrel_to_star_in : ready_player_one;;
+ready_player_one => nrel_main_idtf : [Ready Player One](*<-lang_en;;*);;
+ready_player_one => nrel_main_idtf : [Первому игроку приготовиться](*<-lang_ru;;*);;
+steven_spielberg => nrel_to_star_in : the_terminal;;
+the_terminal => nrel_main_idtf : [The Terminal](*<-lang_en;;*);;
+the_terminal => nrel_main_idtf : [Терминал](*<-lang_ru;;*);;
+steven_spielberg => nrel_to_star_in : catch_me_if_you_can;;
+catch_me_if_you_can => nrel_main_idtf : [Catch Me If You Can](*<-lang_en;;*);;
+catch_me_if_you_can => nrel_main_idtf : [Поймай меня, если сможешь](*<-lang_ru;;*);;
+steven_spielberg => nrel_to_star_in : saving_private_ryan;;
+saving_private_ryan => nrel_main_idtf : [Saving Private Ryan](*<-lang_en;;*);;
+saving_private_ryan => nrel_main_idtf : [Спасти рядового Райана](*<-lang_ru;;*);;
+steven_spielberg => nrel_to_star_in : schindlers_list;;
+schindlers_list => nrel_main_idtf : [Schindler's List](*<-lang_en;;*);;
+schindlers_list => nrel_main_idtf : [Список Шиндлера](*<-lang_ru;;*);;
+

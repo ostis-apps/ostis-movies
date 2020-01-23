@@ -1,0 +1,67 @@
+film_armageddon_1998
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Армагеддон]
+(* <- lang_ru;;    *);
+[Armageddon]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Армагеддон)](*<-lang_ru;;*);
+[Description (Armageddon)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/armageddon-1998_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/armageddon-1998_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Армагеддон)](*<-lang_ru;;*);
+		[Pic. (Armageddon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/armageddon-1998.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Time To Kick Some Asteroid See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [01.07.1998](*<-lang_ru;;*);;
+    => nrel_main_idtf : [01.07.1998](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H31M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H31M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_armageddon_1998 =>nrel_keywords: film;;
+
+film_armageddon_1998 <- concept_action;concept_adventure;concept_sci_fi;concept_thriller;;
+
+film_armageddon_1998 => nrel_main_actor : bruce_willis;billy_bob_thornton;ben_affleck;liv_tyler;;
+film_armageddon_1998 => nrel_producer : michael_bay;;

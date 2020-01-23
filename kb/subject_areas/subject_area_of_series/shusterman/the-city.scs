@@ -1,0 +1,214 @@
+
+                  concept_series -> Holby_City;;
+              
+                  Holby_City
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Holby_City]
+                    (* <- lang_ru;;	*);
+                    [Holby_City]
+                    (* <- lang_en;;	*);;
+                  
+                  Holby_City <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Holby_City)](*<-lang_ru;;*);
+                      [Description (Holby_City)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Holby_City_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Holby_City_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Holby_City <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Holby_City)](*<-lang_ru;;*);
+                      [Pic. (Holby_City)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Holby_City.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Holby_City => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 1999;;
+                  1999 => nrel_main_idtf : [1999 год](*<-lang_ru;;*);;
+                  1999 => nrel_main_idtf : [year of 1999](*<-lang_en;;*);;
+                  Holby_City => nrel_production_year : 1999;;
+                  
+                  value -> 21;;
+                  Holby_City => nrel_num_of_seasons: 21;;
+                  value -> 1004;;
+                  Holby_City => nrel_num_of_episodes: 1004;;
+                  
+                  value -> 5;;
+                  Holby_City => nrel_no_countries : 5;;
+                  
+                  value -> 7;;
+                  Holby_City => nrel_viewers_in_millions: 7;;
+                  
+                  Holby_City => nrel_age_rating: concept_PG12;;
+                  
+                    Holby_City => nrel_actor : HughQuarshie;;
+                    
+                   
+                    Holby_City => nrel_actor : RosieMarcel;;
+                    
+                   
+                    Holby_City => nrel_actor : TinaHobley;;
+                    
+                   
+                    Holby_City => nrel_actor : JayeJacobs;;
+                    
+                   
+                    Holby_City => nrel_actor : PatsyKensit;;
+                    
+                   
+                    Holby_City => nrel_actor : SharonDClarke;;
+                    
+                   
+                    Holby_City => nrel_actor : TomChambers;;
+                    
+                   
+                    Holby_City => nrel_actor : LauraSadler;;
+                    
+                   
+                    Holby_City => nrel_actor : GeorgeIrving;;
+                    
+                   
+                    Holby_City => nrel_actor : DenisLawson;;
+                    
+                   
+                    Holby_City => nrel_actor : SiobhanRedmond;;
+                    
+                   
+                    Holby_City => nrel_actor : DavidAmes;;
+                    
+                   
+                    Holby_City => nrel_actor : JamesAnderson;;
+                    
+                   
+                    Holby_City => nrel_actor : CatherineRussell;;
+                    
+                   
+                    Holby_City => nrel_actor : ChizzyAkudolu;;
+                    
+                   
+                    Holby_City => nrel_actor : BobBarrett;;
+                    
+                   
+                    Holby_City => nrel_actor : LucindaDryzek;;
+                    
+                   
+                    Holby_City => nrel_actor : KayeWragg;;
+                    
+                   
+                    Holby_City => nrel_actor : CamillaArfwedson;;
+                    
+                   
+                    Holby_City => nrel_actor : EleanorFanyinka;;
+                    
+                   
+                    Holby_City => nrel_actor : JemmaRedgrave;;
+                    
+                   
+                    Holby_City => nrel_actor : AlexWalkinshaw;;
+                    
+                   
+                    Holby_City => nrel_actor : JoeMcFadden;;
+                    
+                   
+                    Holby_City => nrel_actor : GuyHenry;;
+                    
+                   
+                    Holby_City => nrel_actor : ChristianVit;;
+                    
+                   
+                    Holby_City => nrel_actor : JohnMichie;;
+                    
+                   
+                    Holby_City => nrel_actor : NiamhMcGrady;;
+                    
+                   
+                    Holby_City => nrel_actor : AmandaMealing;;
+                    
+                   
+                    Holby_City => nrel_actor : VeronaJoseph;;
+                    
+                   
+                    Holby_City => nrel_actor : RobOstlere;;
+                    
+                   
+                    Holby_City => nrel_actor : PhoebeThomas;;
+                    
+                   
+                    Holby_City => nrel_actor : SharonMaughan;;
+                    
+                   
+                    Holby_City => nrel_actor : LukeRoberts;;
+                    
+                   
+                    Holby_City => nrel_actor : PaulBradley;;
+                    
+                   
+                    Holby_City => nrel_actor : MichaelThomson;;
+                    
+                   
+                    Holby_City => nrel_actor : MichaelFrench;;
+                    
+                   
+                    Holby_City => nrel_actor : DuncanPow;;
+                    
+                   
+                    Holby_City => nrel_actor : JeremyEdwards;;
+                    
+                   
+                    Holby_City => nrel_actor : HariDhillon;;
+                    
+                   
+                    Holby_City => nrel_actor : RobertPowell;;
+                    
+                   
+                    Holby_City => nrel_actor : LisaFaulkner;;
+                    
+                   
+                    Holby_City => nrel_actor : IanAspinall;;
+                    
+                   
+                    Holby_City => nrel_actor : JimmyAkingbola;;
+                    
+                   
+                    Holby_City => nrel_actor : MarkMoraghan;;
+                    
+                   
+                    Holby_City => nrel_actor : LaurenDrummond;;
+                    
+                   
+                    Holby_City => nrel_actor : PatriciaPotter;;
+                    
+                   
+                    Holby_City => nrel_actor : RakieAyola;;
+                    
+                   
+                    Holby_City => nrel_actor : NadineLewington;;
+                    
+                   
+                    Holby_City => nrel_actor : JanPearson;;
+                    
+                   
+                    Holby_City => nrel_actor : LuisaBradshawWhite;;
+                    
+                  
+                  
+                  Holby_City
+                  =>nrel_keywords: concept_detectif;;
+                  

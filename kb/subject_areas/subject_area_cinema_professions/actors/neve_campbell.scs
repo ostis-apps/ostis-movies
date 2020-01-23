@@ -1,0 +1,45 @@
+concept_human -> neve_campbell;;
+ 
+ neve_campbell <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Нив Кэмпбелл)](*<-lang_ru;;*);
+ 		[Description (Neve Campbell)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/neve_campbell_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ neve_campbell <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Нив Кэмпбелл)](*<-lang_ru;;*);
+ 		[Pic. (Neve Campbell)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/neve_campbell.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ neve_campbell => nrel_main_idtf : [Нив Кэмпбелл](*<-lang_ru;;*);;
+ neve_campbell => nrel_main_idtf : [Neve Campbell](*<-lang_en;;*);;
+ 
+ 
+ neve_campbell => nrel_birth_date : 1973;;
+ 
+ concept_goverment -> Canada;;
+ neve_campbell => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ neve_campbell => nrel_to_star_in : skyscraper;;
+skyscraper => nrel_main_idtf : [Skyscraper](*<-lang_en;;*);;
+skyscraper => nrel_main_idtf : [Небоскреб](*<-lang_ru;;*);;
+

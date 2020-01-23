@@ -1,0 +1,67 @@
+film_bbc_poteryannye_bogi_ostrova_pashi_2000
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[BBC: Потерянные Боги Острова Пасхи]
+(* <- lang_ru;;    *);
+[The Lost Gods of Easter Island]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (BBC: Потерянные Боги Острова Пасхи)](*<-lang_ru;;*);
+[Description (The Lost Gods of Easter Island)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bbc-poteryannye-bogi-ostrova-pashi-2000_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bbc-poteryannye-bogi-ostrova-pashi-2000_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (BBC: Потерянные Боги Острова Пасхи)](*<-lang_ru;;*);
+		[Pic. (The Lost Gods of Easter Island)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bbc-poteryannye-bogi-ostrova-pashi-2000.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The Lost Gods of Easter Island](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [24.04.2000](*<-lang_ru;;*);;
+    => nrel_main_idtf : [24.04.2000](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT49M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT49M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_bbc_poteryannye_bogi_ostrova_pashi_2000 =>nrel_keywords: film;;
+
+film_bbc_poteryannye_bogi_ostrova_pashi_2000 <- concept_documentary;;
+
+film_bbc_poteryannye_bogi_ostrova_pashi_2000 => nrel_main_actor : david_attenborough;;
+film_bbc_poteryannye_bogi_ostrova_pashi_2000 => nrel_producer : kate_broome;;

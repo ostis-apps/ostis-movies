@@ -1,0 +1,51 @@
+concept_human -> Samuel_Jackson;;
+
+Samuel_Jackson
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сэмюэл Лерой Джексон]
+	(* <- lang_ru;;	*);
+	[Samuel Leroy Jackson]
+	(* <- lang_en;;	*);;
+	
+Samuel_Jackson <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сэмюэл Лерой Джексон)](*<-lang_ru;;*);
+		[Description (Samuel Leroy Jackson)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        concept_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Samuel_Jackson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Samuel_Jackson_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Samuel_Jackson <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сэмюэл Лерой Джексон)](*<-lang_ru;;*);
+		[Pic. (Samuel Leroy Jackson)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Samuel_Jackson.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1948;;
+Samuel_Jackson=>nrel_date_of_birth: 1948;;
+1948=>nrel_main_idtf:[1948 год](*<-lang_ru;;*);;
+1948=>nrel_main_idtf:[year of 1948](*<-lang_en;;*);;
+
+concept_calendar_date-> 1972;;
+Samuel_Jackson=>nrel_career_start_date: 1972;;
+1972=>nrel_main_idtf:[1972 год](*<-lang_ru;;*);;
+1972=>nrel_main_idtf:[year of 1972](*<-lang_en;;*);;
+
+Samuel_Jackson =>nrel_cityzenship:Usa;;

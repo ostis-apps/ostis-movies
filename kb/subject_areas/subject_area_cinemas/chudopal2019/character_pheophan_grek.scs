@@ -1,0 +1,33 @@
+character_pheophan_grek
+	=> nrel_main_idtf:
+	[Феофан Грек]
+	(* <- lang_ru;;	*);
+	[Pheophan Grek]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: nikolay_sergeev;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Феофан Грек)](* <- lang_ru;; *);
+		[Desctiption (Pheophan Grek)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_pheophan_grek">Феофан Грек</sc_element></b> — наставник <sc_element sys_idtf="character_andrei_rubliov">Андрея Рублева</sc_element>](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_pheophan_grek">Pheophan Grek</sc_element></b> — the mentor of <sc_element sys_idtf="character_andrei_rubliov">Andrei Rubliov</sc_element>.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Феофан Грек)](*<-lang_ru;;*);
+		[Pic. (Pheophan Grek)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Grek.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

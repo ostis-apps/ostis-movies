@@ -1,0 +1,136 @@
+
+                  concept_series -> Arrow;;
+              
+                  Arrow
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Стрела]
+                    (* <- lang_ru;;	*);
+                    [Arrow]
+                    (* <- lang_en;;	*);;
+                  
+                  Arrow <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Стрела)](*<-lang_ru;;*);
+                      [Description (Arrow)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Arrow_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Arrow_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Arrow <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Стрела)](*<-lang_ru;;*);
+                      [Pic. (Arrow)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Arrow.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Arrow => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2012;;
+                  2012 => nrel_main_idtf : [2012 год](*<-lang_ru;;*);;
+                  2012 => nrel_main_idtf : [year of 2012](*<-lang_en;;*);;
+                  Arrow => nrel_production_year : 2012;;
+                  
+                  value -> 8;;
+                  Arrow => nrel_num_of_seasons: 8;;
+                  value -> 170;;
+                  Arrow => nrel_num_of_episodes: 170;;
+                  
+                  value -> 8;;
+                  Arrow => nrel_no_countries : 8;;
+                  
+                  value -> 9;;
+                  Arrow => nrel_viewers_in_millions: 9;;
+                  
+                  Arrow => nrel_age_rating: concept_PG12;;
+                  
+                    Arrow => nrel_actor : StephenAmell;;
+                    
+                   
+                    Arrow => nrel_actor : DavidRamsey;;
+                    
+                   
+                    Arrow => nrel_actor : EmilyBettRickards;;
+                    
+                   
+                    Arrow => nrel_actor : PaulBlackthorne;;
+                    
+                   
+                    Arrow => nrel_actor : WillaHolland;;
+                    
+                   
+                    Arrow => nrel_actor : KatieCassidy;;
+                    
+                   
+                    Arrow => nrel_actor : EchoKellum;;
+                    
+                   
+                    Arrow => nrel_actor : ColtonHaynes;;
+                    
+                   
+                    Arrow => nrel_actor : RickGonzalez;;
+                    
+                   
+                    Arrow => nrel_actor : JohnBarrowman;;
+                    
+                   
+                    Arrow => nrel_actor : JulianaHarkavy;;
+                    
+                   
+                    Arrow => nrel_actor : SusannaThompson;;
+                    
+                   
+                    Arrow => nrel_actor : ManuBennett;;
+                    
+                   
+                    Arrow => nrel_actor : KatieCassidy;;
+                    
+                   
+                    Arrow => nrel_actor : ColinDonnell;;
+                    
+                   
+                    Arrow => nrel_actor : KirkAcevedo;;
+                    
+                   
+                    Arrow => nrel_actor : JoshSegarra;;
+                    
+                   
+                    Arrow => nrel_actor : BenLewis;;
+                    
+                   
+                    Arrow => nrel_actor : KatherineMcNamara;;
+                    
+                   
+                    Arrow => nrel_actor : SeaShimooka;;
+                    
+                   
+                    Arrow => nrel_actor : JosephDavidJones;;
+                    
+                   
+                    Arrow => nrel_actor : LaMonicaGarrett;;
+                    
+                   
+                    Arrow => nrel_actor : RickGonzalez;;
+                    
+                   
+                    Arrow => nrel_actor : JulianaHarkavy;;
+                    
+                  
+                  
+                  Arrow
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,79 @@
+
+                  concept_series -> Rick_and_Morty;;
+              
+                  Rick_and_Morty
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Rick_and_Morty]
+                    (* <- lang_ru;;	*);
+                    [Rick_and_Morty]
+                    (* <- lang_en;;	*);;
+                  
+                  Rick_and_Morty <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Rick_and_Morty)](*<-lang_ru;;*);
+                      [Description (Rick_and_Morty)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Rick_and_Morty_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Rick_and_Morty_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Rick_and_Morty <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Rick_and_Morty)](*<-lang_ru;;*);
+                      [Pic. (Rick_and_Morty)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Rick_and_Morty.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Rick_and_Morty => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Rick_and_Morty => nrel_production_year : 2013;;
+                  
+                  value -> 4;;
+                  Rick_and_Morty => nrel_num_of_seasons: 4;;
+                  value -> 36;;
+                  Rick_and_Morty => nrel_num_of_episodes: 36;;
+                  
+                  value -> 9;;
+                  Rick_and_Morty => nrel_no_countries : 9;;
+                  
+                  value -> 7;;
+                  Rick_and_Morty => nrel_viewers_in_millions: 7;;
+                  
+                  Rick_and_Morty => nrel_age_rating: concept_PG12;;
+                  
+                    Rick_and_Morty => nrel_actor : JustinRoiland;;
+                    
+                   
+                    Rick_and_Morty => nrel_actor : JustinRoiland;;
+                    
+                   
+                    Rick_and_Morty => nrel_actor : SpencerGrammer;;
+                    
+                   
+                    Rick_and_Morty => nrel_actor : SarahChalke;;
+                    
+                   
+                    Rick_and_Morty => nrel_actor : ChrisParnell;;
+                    
+                  
+                  
+                  Rick_and_Morty
+                  =>nrel_keywords: concept_detectif;;
+                  

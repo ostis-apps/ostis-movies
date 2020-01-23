@@ -1,0 +1,29 @@
+concept_goverment <- sc_node_not_relation;
+
+=> nrel_main_idtf:
+    [goverment](*<- lang_en;;*);
+    [госудраство](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (госудраство)](*<- lang_ru;;*);
+        [Def. (goverment)](*<- lang_en;;*);;
+    
+	<= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_goverment_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_goverment_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (государство)](*<-lang_ru;;*);
+		    [Pic. (goverment)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/goverment.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

@@ -1,0 +1,48 @@
+concept_human -> josh_duhamel;;
+ 
+ josh_duhamel <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джош Дюамель)](*<-lang_ru;;*);
+ 		[Description (Josh Duhamel)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/josh_duhamel_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ josh_duhamel <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джош Дюамель)](*<-lang_ru;;*);
+ 		[Pic. (Josh Duhamel)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/josh_duhamel.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ josh_duhamel => nrel_main_idtf : [Джош Дюамель](*<-lang_ru;;*);;
+ josh_duhamel => nrel_main_idtf : [Josh Duhamel](*<-lang_en;;*);;
+ 
+ 
+ josh_duhamel => nrel_birth_date : 1972;;
+ 
+ concept_goverment -> Usa;;
+ josh_duhamel => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ josh_duhamel => nrel_to_star_in : love_simon;;
+love_simon => nrel_main_idtf : [Love, Simon](*<-lang_en;;*);;
+love_simon => nrel_main_idtf : [С любовью, Саймон](*<-lang_ru;;*);;
+josh_duhamel => nrel_to_star_in : movie_43;;
+movie_43 => nrel_main_idtf : [Movie 43](*<-lang_en;;*);;
+movie_43 => nrel_main_idtf : [Муви 43](*<-lang_ru;;*);;
+

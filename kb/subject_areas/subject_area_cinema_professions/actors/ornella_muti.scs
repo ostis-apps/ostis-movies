@@ -1,0 +1,51 @@
+concept_human -> ornella_muti;;
+ 
+ ornella_muti <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Орнелла Мути)](*<-lang_ru;;*);
+ 		[Description (Ornella Muti)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ornella_muti_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ornella_muti <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Орнелла Мути)](*<-lang_ru;;*);
+ 		[Pic. (Ornella Muti)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ornella_muti.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ornella_muti => nrel_main_idtf : [Орнелла Мути](*<-lang_ru;;*);;
+ ornella_muti => nrel_main_idtf : [Ornella Muti](*<-lang_en;;*);;
+ 
+ 
+ ornella_muti => nrel_birth_date : 1955;;
+ 
+ concept_goverment -> Italy;;
+ ornella_muti => nrel_cityzenship : Italy;;
+ Italy => nrel_main_idtf : [Italy](*<-lang_en;;*);;
+ Italy => nrel_main_idtf : [Италия](*<-lang_ru;;*);;
+ 
+ ornella_muti => nrel_to_star_in : oscar;;
+oscar => nrel_main_idtf : [Oscar](*<-lang_en;;*);;
+oscar => nrel_main_idtf : [Оскар](*<-lang_ru;;*);;
+ornella_muti => nrel_to_star_in : innamorato_pazzo;;
+innamorato_pazzo => nrel_main_idtf : [Innamorato pazzo](*<-lang_en;;*);;
+innamorato_pazzo => nrel_main_idtf : [Безумно влюбленный](*<-lang_ru;;*);;
+ornella_muti => nrel_to_star_in : il_bisbetico_domato;;
+il_bisbetico_domato => nrel_main_idtf : [Il bisbetico domato](*<-lang_en;;*);;
+il_bisbetico_domato => nrel_main_idtf : [Укрощение строптивого](*<-lang_ru;;*);;
+

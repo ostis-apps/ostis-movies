@@ -1,0 +1,32 @@
+concept_mise_en_scene <- sc_node_not_relation;
+
+=> nrel_main_idtf:[мизансцена] (* <- lang_ru;; *);
+=> nrel_idtf:[mise en scene ] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (мизансцена)] (* <- lang_ru;; *);
+							   [Def. (mise en scene )] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_actor
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_mise_en_scene_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_mise_en_scene_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (мизансцена)](*<-lang_ru;;*);
+		[Pic. (mise en scene )](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_mise_en_scene.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,94 @@
+
+                  concept_series -> Pennyworth;;
+              
+                  Pennyworth
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [грошовый]
+                    (* <- lang_ru;;	*);
+                    [Pennyworth]
+                    (* <- lang_en;;	*);;
+                  
+                  Pennyworth <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (грошовый)](*<-lang_ru;;*);
+                      [Description (Pennyworth)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Pennyworth_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Pennyworth_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Pennyworth <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (грошовый)](*<-lang_ru;;*);
+                      [Pic. (Pennyworth)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Pennyworth.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Pennyworth => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Pennyworth => nrel_production_year : 2019;;
+                  
+                  value -> 2;;
+                  Pennyworth => nrel_num_of_seasons: 2;;
+                  value -> 10;;
+                  Pennyworth => nrel_num_of_episodes: 10;;
+                  
+                  value -> 8;;
+                  Pennyworth => nrel_no_countries : 8;;
+                  
+                  value -> 5;;
+                  Pennyworth => nrel_viewers_in_millions: 5;;
+                  
+                  Pennyworth => nrel_age_rating: concept_PG12;;
+                  
+                    Pennyworth => nrel_actor : IanPulestonDavies;;
+                    
+                   
+                    Pennyworth => nrel_actor : JackBannon;;
+                    
+                   
+                    Pennyworth => nrel_actor : PalomaFaith;;
+                    
+                   
+                    Pennyworth => nrel_actor : HainsleyLloydBennett;;
+                    
+                   
+                    Pennyworth => nrel_actor : RyanFletcher;;
+                    
+                   
+                    Pennyworth => nrel_actor : JasonFlemyng;;
+                    
+                   
+                    Pennyworth => nrel_actor : DorothyAtkinson;;
+                    
+                   
+                    Pennyworth => nrel_actor : BenAldridge;;
+                    
+                   
+                    Pennyworth => nrel_actor : PollyWalker;;
+                    
+                   
+                    Pennyworth => nrel_actor : EmmaPaetz;;
+                    
+                  
+                  
+                  Pennyworth
+                  =>nrel_keywords: concept_detectif;;
+                  

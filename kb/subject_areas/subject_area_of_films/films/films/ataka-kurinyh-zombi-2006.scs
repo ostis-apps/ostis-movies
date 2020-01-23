@@ -1,0 +1,67 @@
+film_ataka_kurinyh_zombi_2006
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Атака куриных зомби]
+(* <- lang_ru;;    *);
+[Poultrygeist: Night of the Chicken Dead]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Атака куриных зомби)](*<-lang_ru;;*);
+[Description (Poultrygeist: Night of the Chicken Dead)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/ataka-kurinyh-zombi-2006_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/ataka-kurinyh-zombi-2006_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Атака куриных зомби)](*<-lang_ru;;*);
+		[Pic. (Poultrygeist: Night of the Chicken Dead)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/ataka-kurinyh-zombi-2006.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Humans... the other white meat... Unless you're black, then it's dark meat... Or if you are Asian, then it's yellow meat... Or if you are Native American, it's red meat... See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [06.07.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [06.07.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H43M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H43M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_Not_Rated;;
+
+film_ataka_kurinyh_zombi_2006 =>nrel_keywords: film;;
+
+film_ataka_kurinyh_zombi_2006 <- concept_comedy;concept_horror;concept_musical;concept_sci_fi;;
+
+film_ataka_kurinyh_zombi_2006 => nrel_main_actor : jason_yachanin;kate_graham;allyson_sereboff;robin_l._watkins;;
+film_ataka_kurinyh_zombi_2006 => nrel_producer : lloyd_kaufman;;

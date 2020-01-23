@@ -1,0 +1,67 @@
+film_blef_1976
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Блеф]
+(* <- lang_ru;;    *);
+[Bluff storia di truffe e di imbroglioni / High Rollers]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Блеф)](*<-lang_ru;;*);
+[Description (Bluff storia di truffe e di imbroglioni / High Rollers)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/blef-1976_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/blef-1976_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Блеф)](*<-lang_ru;;*);
+		[Pic. (Bluff storia di truffe e di imbroglioni / High Rollers)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/blef-1976.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : italy;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [They'll do anything for a buck !](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [15.04.1976](*<-lang_ru;;*);;
+    => nrel_main_idtf : [15.04.1976](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H45M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H45M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_blef_1976 =>nrel_keywords: film;;
+
+film_blef_1976 <- concept_comedy;concept_crime;;
+
+film_blef_1976 => nrel_main_actor : anthony_quinn;capucine;adriano_celentano;ugo_bologna;;
+film_blef_1976 => nrel_producer : sergio_corbucci;;

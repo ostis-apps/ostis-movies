@@ -1,0 +1,35 @@
+concept_film_studio_Marvel_Studios <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия Marvel Studios] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio Marvel Studios] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия Marvel Studios)] (* <- lang_ru;; *);
+							   [Statement (film studio Marvel Studios)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio;
+				concept_The_Walt_Disney_Company;
+				concept_film
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_film_studio_Marvel_Studios_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_film_studio_Marvel_Studios_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Marvel Studios)](*<-lang_ru;;*);
+		[Pic. (film studio Marvel Studios)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_film_studio_Marvel_Studios.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;;

@@ -1,0 +1,63 @@
+concept_human -> winona_ryder;;
+ 
+ winona_ryder <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Вайнона Райдер)](*<-lang_ru;;*);
+ 		[Description (Winona Ryder)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/winona_ryder_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ winona_ryder <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Вайнона Райдер)](*<-lang_ru;;*);
+ 		[Pic. (Winona Ryder)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/winona_ryder.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ winona_ryder => nrel_main_idtf : [Вайнона Райдер](*<-lang_ru;;*);;
+ winona_ryder => nrel_main_idtf : [Winona Ryder](*<-lang_en;;*);;
+ 
+ 
+ winona_ryder => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> Usa;;
+ winona_ryder => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ winona_ryder => nrel_to_star_in : stranger_things;;
+stranger_things => nrel_main_idtf : [Stranger Things](*<-lang_en;;*);;
+stranger_things => nrel_main_idtf : [Очень странные дела](*<-lang_ru;;*);;
+winona_ryder => nrel_to_star_in : black_swan;;
+black_swan => nrel_main_idtf : [Black Swan](*<-lang_en;;*);;
+black_swan => nrel_main_idtf : [Черный лебедь](*<-lang_ru;;*);;
+winona_ryder => nrel_to_star_in : mr_deeds;;
+mr_deeds => nrel_main_idtf : [Mr. Deeds](*<-lang_en;;*);;
+mr_deeds => nrel_main_idtf : [Миллионер поневоле](*<-lang_ru;;*);;
+winona_ryder => nrel_to_star_in : girl_interrupted;;
+girl_interrupted => nrel_main_idtf : [Girl, Interrupted](*<-lang_en;;*);;
+girl_interrupted => nrel_main_idtf : [Прерванная жизнь](*<-lang_ru;;*);;
+winona_ryder => nrel_to_star_in : being_john_malkovich;;
+being_john_malkovich => nrel_main_idtf : [Being John Malkovich](*<-lang_en;;*);;
+being_john_malkovich => nrel_main_idtf : [Быть Джоном Малковичем](*<-lang_ru;;*);;
+winona_ryder => nrel_to_star_in : edward_scissorhands;;
+edward_scissorhands => nrel_main_idtf : [Edward Scissorhands](*<-lang_en;;*);;
+edward_scissorhands => nrel_main_idtf : [Эдвард - руки-ножницы](*<-lang_ru;;*);;
+winona_ryder => nrel_to_star_in : mermaids;;
+mermaids => nrel_main_idtf : [Mermaids](*<-lang_en;;*);;
+mermaids => nrel_main_idtf : [Русалки](*<-lang_ru;;*);;
+

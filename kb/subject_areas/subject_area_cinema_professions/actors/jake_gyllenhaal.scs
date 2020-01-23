@@ -1,0 +1,60 @@
+concept_human -> jake_gyllenhaal;;
+ 
+ jake_gyllenhaal <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джейк Джилленхол)](*<-lang_ru;;*);
+ 		[Description (Jake Gyllenhaal)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jake_gyllenhaal_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jake_gyllenhaal <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джейк Джилленхол)](*<-lang_ru;;*);
+ 		[Pic. (Jake Gyllenhaal)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jake_gyllenhaal.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jake_gyllenhaal => nrel_main_idtf : [Джейк Джилленхол](*<-lang_ru;;*);;
+ jake_gyllenhaal => nrel_main_idtf : [Jake Gyllenhaal](*<-lang_en;;*);;
+ 
+ 
+ jake_gyllenhaal => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> Usa;;
+ jake_gyllenhaal => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jake_gyllenhaal => nrel_to_star_in : spiderman_far_from_home;;
+spiderman_far_from_home => nrel_main_idtf : [Spider-Man: Far from Home](*<-lang_en;;*);;
+spiderman_far_from_home => nrel_main_idtf : [Человек-паук: Вдали от дома](*<-lang_ru;;*);;
+jake_gyllenhaal => nrel_to_star_in : the_sisters_brothers;;
+the_sisters_brothers => nrel_main_idtf : [The Sisters Brothers](*<-lang_en;;*);;
+the_sisters_brothers => nrel_main_idtf : [Братья Систерс](*<-lang_ru;;*);;
+jake_gyllenhaal => nrel_to_star_in : wildlife;;
+wildlife => nrel_main_idtf : [Wildlife](*<-lang_en;;*);;
+wildlife => nrel_main_idtf : [Дикая жизнь](*<-lang_ru;;*);;
+jake_gyllenhaal => nrel_to_star_in : everest;;
+everest => nrel_main_idtf : [Everest](*<-lang_en;;*);;
+everest => nrel_main_idtf : [Эверест](*<-lang_ru;;*);;
+jake_gyllenhaal => nrel_to_star_in : brokeback_mountain;;
+brokeback_mountain => nrel_main_idtf : [Brokeback Mountain](*<-lang_en;;*);;
+brokeback_mountain => nrel_main_idtf : [Горбатая гора](*<-lang_ru;;*);;
+jake_gyllenhaal => nrel_to_star_in : highway;;
+highway => nrel_main_idtf : [Highway](*<-lang_en;;*);;
+highway => nrel_main_idtf : [Шоссе](*<-lang_ru;;*);;
+

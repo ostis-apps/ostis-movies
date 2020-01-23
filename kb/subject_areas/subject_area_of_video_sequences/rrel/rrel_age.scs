@@ -1,0 +1,18 @@
+sc_node_role_relation -> rrel_age;;
+rrel_age
+=> nrel_main_idtf:
+[ возраст' ] (* <-lang_ru;; *);
+[ age' ] (* <-lang_en;; *);
+
+<-rrel_key_sc_element:
+	...
+	(*
+		<-definition;;
+		=> nrel_main_idtf: [Опр.(возраст)] (* <- lang_ru;; *);;
+		<=nrel_sc_text_translation:
+		...
+		(*
+			-> rrel_example:
+			[Период, ступень в развитии, росте человека, животного, растения.] (*<-lang_ru;;*);;
+		*);;			
+	*);;

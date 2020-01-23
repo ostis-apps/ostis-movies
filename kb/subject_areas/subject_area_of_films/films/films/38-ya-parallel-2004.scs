@@ -1,0 +1,67 @@
+film_38_ya_parallel_2004
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[38-я параллель]
+(* <- lang_ru;;    *);
+[Taegukgi hwinalrimyeo / Tae Guk Gi: The Brotherhood of War]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (38-я параллель)](*<-lang_ru;;*);
+[Description (Taegukgi hwinalrimyeo / Tae Guk Gi: The Brotherhood of War)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/38-ya-parallel-2004_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/38-ya-parallel-2004_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (38-я параллель)](*<-lang_ru;;*);
+		[Pic. (Taegukgi hwinalrimyeo / Tae Guk Gi: The Brotherhood of War)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/38-ya-parallel-2004.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : south_korea;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Taegukgi hwinalrimyeo / Tae Guk Gi: The Brotherhood of War](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [06.02.2004](*<-lang_ru;;*);;
+    => nrel_main_idtf : [06.02.2004](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H20M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H20M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_38_ya_parallel_2004 =>nrel_keywords: film;;
+
+film_38_ya_parallel_2004 <- concept_action;concept_drama;concept_war;;
+
+film_38_ya_parallel_2004 => nrel_main_actor : dong_gun_jang;won_bin;eun_ju_lee;hyeong_jin_kong;;
+film_38_ya_parallel_2004 => nrel_producer : je_kyu_kang;;

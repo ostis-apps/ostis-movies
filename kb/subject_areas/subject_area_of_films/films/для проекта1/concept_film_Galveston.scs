@@ -1,0 +1,31 @@
+concept_film_Galveston
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Галвестон]
+	(* <- lang_ru;;	*);
+	[Galveston]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Галвестон)](*<-lang_ru;;*);
+		[Description (Galveston)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Галвестон.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Galveston.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_mafia;
+=>nrel_keywords:concept_love;
+=>nrel_keywords: concept_risk;	
+=>nrel_age_rating: concept_PG18;;	

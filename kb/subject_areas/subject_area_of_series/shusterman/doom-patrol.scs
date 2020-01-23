@@ -1,0 +1,94 @@
+
+                  concept_series -> Doom_Patrol;;
+              
+                  Doom_Patrol
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Doom_Patrol]
+                    (* <- lang_ru;;	*);
+                    [Doom_Patrol]
+                    (* <- lang_en;;	*);;
+                  
+                  Doom_Patrol <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Doom_Patrol)](*<-lang_ru;;*);
+                      [Description (Doom_Patrol)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Doom_Patrol_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Doom_Patrol_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Doom_Patrol <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Doom_Patrol)](*<-lang_ru;;*);
+                      [Pic. (Doom_Patrol)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Doom_Patrol.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Doom_Patrol => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Doom_Patrol => nrel_production_year : 2019;;
+                  
+                  value -> 2;;
+                  Doom_Patrol => nrel_num_of_seasons: 2;;
+                  value -> 15;;
+                  Doom_Patrol => nrel_num_of_episodes: 15;;
+                  
+                  value -> 6;;
+                  Doom_Patrol => nrel_no_countries : 6;;
+                  
+                  value -> 5;;
+                  Doom_Patrol => nrel_viewers_in_millions: 5;;
+                  
+                  Doom_Patrol => nrel_age_rating: concept_PG12;;
+                  
+                    Doom_Patrol => nrel_actor : MattBomer;;
+                    
+                   
+                    Doom_Patrol => nrel_actor : BrendanFraser;;
+                    
+                   
+                    Doom_Patrol => nrel_actor : MatthewZuk;;
+                    
+                   
+                    Doom_Patrol => nrel_actor : RileyShanahan;;
+                    
+                   
+                    Doom_Patrol => nrel_actor : DianeGuerrero;;
+                    
+                   
+                    Doom_Patrol => nrel_actor : AprilBowlby;;
+                    
+                   
+                    Doom_Patrol => nrel_actor : JoivanWade;;
+                    
+                   
+                    Doom_Patrol => nrel_actor : AlanTudyk;;
+                    
+                   
+                    Doom_Patrol => nrel_actor : MattBomer;;
+                    
+                   
+                    Doom_Patrol => nrel_actor : BrendanFraser;;
+                    
+                  
+                  
+                  Doom_Patrol
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,47 @@
+concept_black_and_white_film
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[черно-белый фильм](*<-lang_ru;;*);
+	[black and white film](*<-lang_en;;*);
+=>nrel_idtf:
+	[черно-белое кино](*<-lang_ru;;*);
+        [black and white movie](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (черно-белый фильм)](*<-lang_ru;;*);
+		[Def. (black and white film)](*<-lang_en;;*);;
+        <=nrel_using_constants:{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_black_and_white_film_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_black_and_white_film_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<- rrel_main_key_sc_element:
+		...
+		(*
+                <-statement;;
+		=> nrel_main_idtf: [Утв.(черно-белый фильм))] (* <- lang_ru;; *);;
+		=> nrel_main_idtf: [Stat.(black and white film)] (* <- lang_en;; *);;
+		<= nrel_sc_text_translation: ...
+			(*
+			->rrel_example: "file://HTML/concept_black_and_white_film_stat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		        ->rrel_example: "file://HTML/concept_black_and_white_film_stat_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+			*);;
+*);		
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (черно-белый фильм)](*<-lang_ru;;*);
+		[Pic. (black and white film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_black_and_white_film.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_film;;

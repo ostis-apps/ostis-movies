@@ -1,0 +1,67 @@
+film_bratstvo_klinkov_2_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Братство клинков 2]
+(* <- lang_ru;;    *);
+[Xiu chun dao II: xiu luo zhan chang]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Братство клинков 2)](*<-lang_ru;;*);
+[Description (Xiu chun dao II: xiu luo zhan chang)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bratstvo-klinkov-2-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bratstvo-klinkov-2-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Братство клинков 2)](*<-lang_ru;;*);
+		[Pic. (Xiu chun dao II: xiu luo zhan chang)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bratstvo-klinkov-2-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : china;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Xiu chun dao II: xiu luo zhan chang](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [19.07.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [19.07.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_bratstvo_klinkov_2_2017 =>nrel_keywords: film;;
+
+film_bratstvo_klinkov_2_2017 <- concept_action;concept_drama;concept_history;;
+
+film_bratstvo_klinkov_2_2017 => nrel_main_actor : chen_chang;mi_yang;yi_zhang;shih_chieh_king;;
+film_bratstvo_klinkov_2_2017 => nrel_producer : yang_lu;;

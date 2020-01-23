@@ -1,0 +1,64 @@
+concept_human -> Douglas;;
+
+Douglas <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Майкл Дуглас)](*<-lang_ru;;*);
+		[Description (Mikel Douglas)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Douglas_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Douglas_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Douglas <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Майкл Дуглас)](*<-lang_ru;;*);
+		[Pic. (Mikel Douglas)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Douglas.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Douglas => nrel_be_awarded : Golden_globe;Oscar;; 
+Douglas => nrel_main_idtf : [Майкл Дуглас](*<-lang_ru;;*);;
+Douglas => nrel_main_idtf : [Mikel Douglas](*<-lang_en;;*);;
+
+concept_calendar_date -> 25_09_1944;;
+Douglas => nrel_date_of_birth : 25_09_1944;;
+25_09_1944 => nrel_main_idtf : [25.09.1944](*<-lang_en;;*);;
+25_09_1944 => nrel_main_idtf : [25.09.1944](*<-lang_ru;;*);;
+
+concept_city -> New_Braunsik;;
+Douglas => nrel_place_of_birth : New_Braunsik;;
+New_Braunsik => nrel_main_idtf : [New-Braunsik](*<-lang_en;;*);;
+New_Braunsik => nrel_main_idtf : [Нью-Брансуик](*<-lang_ru;;*);;
+
+Douglas => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 21_02_1965;;
+Douglas => nrel_career_start_date : 21_02_1965;;
+21_02_1965 => nrel_main_idtf : [21.02.1965](*<-lang_en;;*);;
+21_02_1965 => nrel_main_idtf : [21.02.1965](*<-lang_ru;;*);;
+
+concept_film -> Beast_Planet;Wall_Streer;Knockout;Sex_Addict;;
+Beast_Planet => nrel_main_idtf : [Beast planet](*<-lang_en;;*);;
+Beast_Planet => nrel_main_idtf : [Планета зверей](*<-lang_ru;;*);;
+Wall_Streer => nrel_main_idtf : [Wall-Street](*<-lang_en;;*);;
+Wall_Streer => nrel_main_idtf : [Уолл Стрит](*<-lang_ru;;*);;
+Knockout => nrel_main_idtf : [Knockout](*<-lang_en;;*);;
+Knockout => nrel_main_idtf : [Нокаут](*<-lang_ru;;*);;
+Sex_Addict => nrel_main_idtf : [Sex addict men](*<-lang_en;;*);;
+Sex_Addict => nrel_main_idtf : [Сексоголик](*<-lang_ru;;*);;
+
+Douglas => nrel_to_star_in : StarPerci;Beast_Planet;Wall_Streer;Knockout;Sex_Addict;;
+

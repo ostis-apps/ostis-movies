@@ -1,0 +1,67 @@
+film_27_ukradennyh_poceluev_2000
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[27 украденных поцелуев]
+(* <- lang_ru;;    *);
+[27 Missing Kisses]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (27 украденных поцелуев)](*<-lang_ru;;*);
+[Description (27 Missing Kisses)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/27-ukradennyh-poceluev-2000_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/27-ukradennyh-poceluev-2000_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (27 украденных поцелуев)](*<-lang_ru;;*);
+		[Pic. (27 Missing Kisses)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/27-ukradennyh-poceluev-2000.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;georgia;uk;france;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [A Hot Summer, A Broken Promise, A Tragic Comedy Love Story.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.10.2000](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.10.2000](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H38M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H38M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_27_ukradennyh_poceluev_2000 =>nrel_keywords: film;;
+
+film_27_ukradennyh_poceluev_2000 <- concept_comedy;concept_drama;concept_romance;;
+
+film_27_ukradennyh_poceluev_2000 => nrel_main_actor : nutsa_kukhianidze;evgeniy_sidikhin;shalva_iashvili;pierre_richard;;
+film_27_ukradennyh_poceluev_2000 => nrel_producer : nana_dzhordzhadze;;

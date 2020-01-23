@@ -1,0 +1,88 @@
+
+                  concept_series -> Midnight,_Texas;;
+              
+                  Midnight,_Texas
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Полночь, Техас]
+                    (* <- lang_ru;;	*);
+                    [Midnight,_Texas]
+                    (* <- lang_en;;	*);;
+                  
+                  Midnight,_Texas <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Полночь, Техас)](*<-lang_ru;;*);
+                      [Description (Midnight,_Texas)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Midnight,_Texas_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Midnight,_Texas_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Midnight,_Texas <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Полночь, Техас)](*<-lang_ru;;*);
+                      [Pic. (Midnight,_Texas)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Midnight,_Texas.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Midnight,_Texas => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Midnight,_Texas => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  Midnight,_Texas => nrel_num_of_seasons: 2;;
+                  value -> 19;;
+                  Midnight,_Texas => nrel_num_of_episodes: 19;;
+                  
+                  value -> 12;;
+                  Midnight,_Texas => nrel_no_countries : 12;;
+                  
+                  value -> 5;;
+                  Midnight,_Texas => nrel_viewers_in_millions: 5;;
+                  
+                  Midnight,_Texas => nrel_age_rating: concept_PG12;;
+                  
+                    Midnight,_Texas => nrel_actor : DylanBruce;;
+                    
+                   
+                    Midnight,_Texas => nrel_actor : ArielleKebbel;;
+                    
+                   
+                    Midnight,_Texas => nrel_actor : PeterMensah;;
+                    
+                   
+                    Midnight,_Texas => nrel_actor : ParisaFitzHenley;;
+                    
+                   
+                    Midnight,_Texas => nrel_actor : FranoisArnaud;;
+                    
+                   
+                    Midnight,_Texas => nrel_actor : JasonLewis;;
+                    
+                   
+                    Midnight,_Texas => nrel_actor : SarahRamos;;
+                    
+                   
+                    Midnight,_Texas => nrel_actor : YulVazquez;;
+                    
+                  
+                  
+                  Midnight,_Texas
+                  =>nrel_keywords: concept_detectif;;
+                  

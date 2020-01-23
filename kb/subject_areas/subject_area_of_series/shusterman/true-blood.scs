@@ -1,0 +1,196 @@
+
+                  concept_series -> True_Blood;;
+              
+                  True_Blood
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Настоящая кровь]
+                    (* <- lang_ru;;	*);
+                    [True_Blood]
+                    (* <- lang_en;;	*);;
+                  
+                  True_Blood <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Настоящая кровь)](*<-lang_ru;;*);
+                      [Description (True_Blood)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/True_Blood_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/True_Blood_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  True_Blood <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Настоящая кровь)](*<-lang_ru;;*);
+                      [Pic. (True_Blood)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/True_Blood.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  True_Blood => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2008;;
+                  2008 => nrel_main_idtf : [2008 год](*<-lang_ru;;*);;
+                  2008 => nrel_main_idtf : [year of 2008](*<-lang_en;;*);;
+                  True_Blood => nrel_production_year : 2008;;
+                  
+                  value -> 7;;
+                  True_Blood => nrel_num_of_seasons: 7;;
+                  value -> 80;;
+                  True_Blood => nrel_num_of_episodes: 80;;
+                  
+                  value -> 3;;
+                  True_Blood => nrel_no_countries : 3;;
+                  
+                  value -> 10;;
+                  True_Blood => nrel_viewers_in_millions: 10;;
+                  
+                  True_Blood => nrel_age_rating: concept_PG12;;
+                  
+                    True_Blood => nrel_actor : RutinaWesley;;
+                    
+                   
+                    True_Blood => nrel_actor : RyanKwanten;;
+                    
+                   
+                    True_Blood => nrel_actor : SamTrammell;;
+                    
+                   
+                    True_Blood => nrel_actor : StephenMoyer;;
+                    
+                   
+                    True_Blood => nrel_actor : NelsanEllis;;
+                    
+                   
+                    True_Blood => nrel_actor : AnnaPaquin;;
+                    
+                   
+                    True_Blood => nrel_actor : ChrisBauer;;
+                    
+                   
+                    True_Blood => nrel_actor : AlexanderSkarsgrd;;
+                    
+                   
+                    True_Blood => nrel_actor : CarriePreston;;
+                    
+                   
+                    True_Blood => nrel_actor : DeborahAnnWoll;;
+                    
+                   
+                    True_Blood => nrel_actor : ToddLowe;;
+                    
+                   
+                    True_Blood => nrel_actor : KristinBauervanStraten;;
+                    
+                   
+                    True_Blood => nrel_actor : JimParrack;;
+                    
+                   
+                    True_Blood => nrel_actor : JoeManganiello;;
+                    
+                   
+                    True_Blood => nrel_actor : LaurenBowles;;
+                    
+                   
+                    True_Blood => nrel_actor : MichaelMcMillian;;
+                    
+                   
+                    True_Blood => nrel_actor : AdinaPorter;;
+                    
+                   
+                    True_Blood => nrel_actor : KevinAlejandro;;
+                    
+                   
+                    True_Blood => nrel_actor : MarshallAllman;;
+                    
+                   
+                    True_Blood => nrel_actor : JaninaGavankar;;
+                    
+                   
+                    True_Blood => nrel_actor : DenisOHare;;
+                    
+                   
+                    True_Blood => nrel_actor : WilliamSanderson;;
+                    
+                   
+                    True_Blood => nrel_actor : LucyGriffiths;;
+                    
+                   
+                    True_Blood => nrel_actor : JessicaTuck;;
+                    
+                   
+                    True_Blood => nrel_actor : AnnaCamp;;
+                    
+                   
+                    True_Blood => nrel_actor : MichelleForbes;;
+                    
+                   
+                    True_Blood => nrel_actor : MarianaKlaveno;;
+                    
+                   
+                    True_Blood => nrel_actor : MichaelRaymondJames;;
+                    
+                   
+                    True_Blood => nrel_actor : MehcadBrooks;;
+                    
+                   
+                    True_Blood => nrel_actor : FionaShaw;;
+                    
+                   
+                    True_Blood => nrel_actor : LindsayPulsipher;;
+                    
+                   
+                    True_Blood => nrel_actor : ValentinaCervi;;
+                    
+                   
+                    True_Blood => nrel_actor : KellyOverton;;
+                    
+                   
+                    True_Blood => nrel_actor : ScottFoley;;
+                    
+                   
+                    True_Blood => nrel_actor : RobertKazinsky;;
+                    
+                   
+                    True_Blood => nrel_actor : RobertPatrick;;
+                    
+                   
+                    True_Blood => nrel_actor : JurneeSmollettBell;;
+                    
+                   
+                    True_Blood => nrel_actor : LoisSmith;;
+                    
+                   
+                    True_Blood => nrel_actor : ArlissHoward;;
+                    
+                   
+                    True_Blood => nrel_actor : ChristopherMeloni;;
+                    
+                   
+                    True_Blood => nrel_actor : RutgerHauer;;
+                    
+                   
+                    True_Blood => nrel_actor : StephenRoot;;
+                    
+                   
+                    True_Blood => nrel_actor : LizzyCaplan;;
+                    
+                   
+                    True_Blood => nrel_actor : LynnCollins;;
+                    
+                  
+                  
+                  True_Blood
+                  =>nrel_keywords: concept_detectif;;
+                  

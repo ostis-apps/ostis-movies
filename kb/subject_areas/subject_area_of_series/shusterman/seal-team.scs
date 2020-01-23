@@ -1,0 +1,85 @@
+
+                  concept_series -> SEAL_Team;;
+              
+                  SEAL_Team
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [SEAL_Team]
+                    (* <- lang_ru;;	*);
+                    [SEAL_Team]
+                    (* <- lang_en;;	*);;
+                  
+                  SEAL_Team <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (SEAL_Team)](*<-lang_ru;;*);
+                      [Description (SEAL_Team)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/SEAL_Team_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/SEAL_Team_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  SEAL_Team <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (SEAL_Team)](*<-lang_ru;;*);
+                      [Pic. (SEAL_Team)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/SEAL_Team.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  SEAL_Team => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  SEAL_Team => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  SEAL_Team => nrel_num_of_seasons: 3;;
+                  value -> 54;;
+                  SEAL_Team => nrel_num_of_episodes: 54;;
+                  
+                  value -> 13;;
+                  SEAL_Team => nrel_no_countries : 13;;
+                  
+                  value -> 11;;
+                  SEAL_Team => nrel_viewers_in_millions: 11;;
+                  
+                  SEAL_Team => nrel_age_rating: concept_PG12;;
+                  
+                    SEAL_Team => nrel_actor : AJBuckley;;
+                    
+                   
+                    SEAL_Team => nrel_actor : DavidBoreanaz;;
+                    
+                   
+                    SEAL_Team => nrel_actor : NeilBrownJr;;
+                    
+                   
+                    SEAL_Team => nrel_actor : MaxThieriot;;
+                    
+                   
+                    SEAL_Team => nrel_actor : JuddLormand;;
+                    
+                   
+                    SEAL_Team => nrel_actor : ToniTrucks;;
+                    
+                   
+                    SEAL_Team => nrel_actor : JessicaPar;;
+                    
+                  
+                  
+                  SEAL_Team
+                  =>nrel_keywords: concept_detectif;;
+                  

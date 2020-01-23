@@ -1,0 +1,82 @@
+
+                  concept_series -> God_Eater;;
+              
+                  God_Eater
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [God_Eater]
+                    (* <- lang_ru;;	*);
+                    [God_Eater]
+                    (* <- lang_en;;	*);;
+                  
+                  God_Eater <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (God_Eater)](*<-lang_ru;;*);
+                      [Description (God_Eater)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/God_Eater_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/God_Eater_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  God_Eater <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (God_Eater)](*<-lang_ru;;*);
+                      [Pic. (God_Eater)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/God_Eater.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  God_Eater => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  God_Eater => nrel_production_year : 2015;;
+                  
+                  value -> 1;;
+                  God_Eater => nrel_num_of_seasons: 1;;
+                  value -> 13;;
+                  God_Eater => nrel_num_of_episodes: 13;;
+                  
+                  value -> 10;;
+                  God_Eater => nrel_no_countries : 10;;
+                  
+                  value -> 8;;
+                  God_Eater => nrel_viewers_in_millions: 8;;
+                  
+                  God_Eater => nrel_age_rating: concept_PG12;;
+                  
+                    God_Eater => nrel_actor : DaisukeSakaguchi;;
+                    
+                   
+                    God_Eater => nrel_actor : RyuichiKijima;;
+                    
+                   
+                    God_Eater => nrel_actor : KazuyaNakai;;
+                    
+                   
+                    God_Eater => nrel_actor : HiroakiHirata;;
+                    
+                   
+                    God_Eater => nrel_actor : MaayaSakamoto;;
+                    
+                   
+                    God_Eater => nrel_actor : SayakaOhara;;
+                    
+                  
+                  
+                  God_Eater
+                  =>nrel_keywords: concept_detectif;;
+                  

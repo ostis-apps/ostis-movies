@@ -1,0 +1,51 @@
+concept_human -> adriano_celentano;;
+ 
+ adriano_celentano <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Адриано Челентано)](*<-lang_ru;;*);
+ 		[Description (Adriano Celentano)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/adriano_celentano_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ adriano_celentano <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Адриано Челентано)](*<-lang_ru;;*);
+ 		[Pic. (Adriano Celentano)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/adriano_celentano.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ adriano_celentano => nrel_main_idtf : [Адриано Челентано](*<-lang_ru;;*);;
+ adriano_celentano => nrel_main_idtf : [Adriano Celentano](*<-lang_en;;*);;
+ 
+ 
+ adriano_celentano => nrel_birth_date : 1938;;
+ 
+ concept_goverment -> Italy;;
+ adriano_celentano => nrel_cityzenship : Italy;;
+ Italy => nrel_main_idtf : [Italy](*<-lang_en;;*);;
+ Italy => nrel_main_idtf : [Италия](*<-lang_ru;;*);;
+ 
+ adriano_celentano => nrel_to_star_in : innamorato_pazzo;;
+innamorato_pazzo => nrel_main_idtf : [Innamorato pazzo](*<-lang_en;;*);;
+innamorato_pazzo => nrel_main_idtf : [Безумно влюбленный](*<-lang_ru;;*);;
+adriano_celentano => nrel_to_star_in : il_bisbetico_domato;;
+il_bisbetico_domato => nrel_main_idtf : [Il bisbetico domato](*<-lang_en;;*);;
+il_bisbetico_domato => nrel_main_idtf : [Укрощение строптивого](*<-lang_ru;;*);;
+adriano_celentano => nrel_to_star_in : bluff_storia_di_truffe_e_di_imbroglioni;;
+bluff_storia_di_truffe_e_di_imbroglioni => nrel_main_idtf : [Bluff: storia di truffe e di imbroglioni](*<-lang_en;;*);;
+bluff_storia_di_truffe_e_di_imbroglioni => nrel_main_idtf : [Блеф](*<-lang_ru;;*);;
+

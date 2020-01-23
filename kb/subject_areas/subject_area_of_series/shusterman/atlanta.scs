@@ -1,0 +1,88 @@
+
+                  concept_series -> Atlanta;;
+              
+                  Atlanta
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Atlanta]
+                    (* <- lang_ru;;	*);
+                    [Atlanta]
+                    (* <- lang_en;;	*);;
+                  
+                  Atlanta <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Atlanta)](*<-lang_ru;;*);
+                      [Description (Atlanta)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Atlanta_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Atlanta_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Atlanta <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Atlanta)](*<-lang_ru;;*);
+                      [Pic. (Atlanta)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Atlanta.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Atlanta => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Atlanta => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  Atlanta => nrel_num_of_seasons: 3;;
+                  value -> 21;;
+                  Atlanta => nrel_num_of_episodes: 21;;
+                  
+                  value -> 11;;
+                  Atlanta => nrel_no_countries : 11;;
+                  
+                  value -> 9;;
+                  Atlanta => nrel_viewers_in_millions: 9;;
+                  
+                  Atlanta => nrel_age_rating: concept_PG12;;
+                  
+                    Atlanta => nrel_actor : BrianTyreeHenry;;
+                    
+                   
+                    Atlanta => nrel_actor : DonaldGlover;;
+                    
+                   
+                    Atlanta => nrel_actor : KeithStanfield;;
+                    
+                   
+                    Atlanta => nrel_actor : ZazieBeetz;;
+                    
+                   
+                    Atlanta => nrel_actor : ChrisGreene;;
+                    
+                   
+                    Atlanta => nrel_actor : TerriAbney;;
+                    
+                   
+                    Atlanta => nrel_actor : DavidSilverman;;
+                    
+                   
+                    Atlanta => nrel_actor : JaneAdams;;
+                    
+                  
+                  
+                  Atlanta
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,44 @@
+concept_cartoon_Urfin_Jus_and_his_wooden_soldiers
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Урфин Джюс и его деревянные солдаты]
+	(* <- lang_ru;;	*);
+	[Urfin Jus and his wooden soldiers]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Урфин Джюс и его деревянные солдаты)](*<-lang_ru;;*);
+		[Description (Urfin Jus and his wooden soldiers)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Urfin Jus and his wooden soldiers_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Urfin Jus and his wooden soldiers_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Урфин Джюс и его деревянные солдаты)](*<-lang_ru;;*);
+		[Pic. (Urfin Jus and his wooden soldiers)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Urfin Jus and his wooden soldiers.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_superhero;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_soldier;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG12;;

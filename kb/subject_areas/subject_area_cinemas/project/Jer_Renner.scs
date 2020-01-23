@@ -1,0 +1,51 @@
+concept_human -> Jer_Renner;;
+
+Jer_Renner
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джереми Ли Реннер]
+	(* <- lang_ru;;	*);
+	[Jeremy Lee Renner]
+	(* <- lang_en;;	*);;
+	
+Jer_Renner <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джереми Ли Реннер)](*<-lang_ru;;*);
+		[Description (Jeremy Lee Renner)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jer_Renner_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jer_Renner_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jer_Renner <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джереми Ли Реннер)](*<-lang_ru;;*);
+		[Pic. (Jeremy Lee Renner)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Jer_Renner.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1971;;
+Jer_Renner=>nrel_date_of_birth: 1971;;
+1971=>nrel_main_idtf:[1971 год](*<-lang_ru;;*);;
+1971=>nrel_main_idtf:[year of 1971](*<-lang_en;;*);;
+
+concept_calendar_date-> 1995;;
+Jer_Renner=>nrel_career_start_date: 1995;;
+1995=>nrel_main_idtf:[1995 год](*<-lang_ru;;*);;
+1995=>nrel_main_idtf:[year of 1995](*<-lang_en;;*);;
+
+Jer_Renner =>nrel_cityzenship:Usa;;
+

@@ -1,0 +1,90 @@
+concept_human -> tom_hardy;;
+ 
+ tom_hardy <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Том Харди)](*<-lang_ru;;*);
+ 		[Description (Tom Hardy)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tom_hardy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tom_hardy <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Том Харди)](*<-lang_ru;;*);
+ 		[Pic. (Tom Hardy)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tom_hardy.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tom_hardy => nrel_main_idtf : [Том Харди](*<-lang_ru;;*);;
+ tom_hardy => nrel_main_idtf : [Tom Hardy](*<-lang_en;;*);;
+ 
+ 
+ tom_hardy => nrel_birth_date : 1977;;
+ 
+ concept_goverment -> UK;;
+ tom_hardy => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ tom_hardy => nrel_to_star_in : venom;;
+venom => nrel_main_idtf : [Venom](*<-lang_en;;*);;
+venom => nrel_main_idtf : [Веном](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : dunkirk;;
+dunkirk => nrel_main_idtf : [Dunkirk](*<-lang_en;;*);;
+dunkirk => nrel_main_idtf : [Дюнкерк](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : taboo;;
+taboo => nrel_main_idtf : [Taboo](*<-lang_en;;*);;
+taboo => nrel_main_idtf : [Табу](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : the_revenant;;
+the_revenant => nrel_main_idtf : [The Revenant](*<-lang_en;;*);;
+the_revenant => nrel_main_idtf : [Выживший](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : mad_max_fury_road;;
+mad_max_fury_road => nrel_main_idtf : [Mad Max: Fury Road](*<-lang_en;;*);;
+mad_max_fury_road => nrel_main_idtf : [Безумный Макс: Дорога ярости](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : legend;;
+legend => nrel_main_idtf : [Legend](*<-lang_en;;*);;
+legend => nrel_main_idtf : [Легенда](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : locke;;
+locke => nrel_main_idtf : [Locke](*<-lang_en;;*);;
+locke => nrel_main_idtf : [Лок](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : lawless;;
+lawless => nrel_main_idtf : [Lawless](*<-lang_en;;*);;
+lawless => nrel_main_idtf : [Самый пьяный округ в мире](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : the_dark_knight_rises;;
+the_dark_knight_rises => nrel_main_idtf : [The Dark Knight Rises](*<-lang_en;;*);;
+the_dark_knight_rises => nrel_main_idtf : [Темный рыцарь: Возрождение легенды](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : warrior;;
+warrior => nrel_main_idtf : [Warrior](*<-lang_en;;*);;
+warrior => nrel_main_idtf : [Воин](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : inception;;
+inception => nrel_main_idtf : [Inception](*<-lang_en;;*);;
+inception => nrel_main_idtf : [Начало](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : bronson;;
+bronson => nrel_main_idtf : [Bronson](*<-lang_en;;*);;
+bronson => nrel_main_idtf : [Бронсон](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : rocknrolla;;
+rocknrolla => nrel_main_idtf : [RocknRolla](*<-lang_en;;*);;
+rocknrolla => nrel_main_idtf : [Рок-н-рольщик](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : stuart_a_life_backwards;;
+stuart_a_life_backwards => nrel_main_idtf : [Stuart: A Life Backwards](*<-lang_en;;*);;
+stuart_a_life_backwards => nrel_main_idtf : [Стюарт: Прошлая жизнь](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : layer_cake;;
+layer_cake => nrel_main_idtf : [Layer Cake](*<-lang_en;;*);;
+layer_cake => nrel_main_idtf : [Слоеный торт](*<-lang_ru;;*);;
+tom_hardy => nrel_to_star_in : black_hawk_down;;
+black_hawk_down => nrel_main_idtf : [Black Hawk Down](*<-lang_en;;*);;
+black_hawk_down => nrel_main_idtf : [Черный Ястреб](*<-lang_ru;;*);;
+

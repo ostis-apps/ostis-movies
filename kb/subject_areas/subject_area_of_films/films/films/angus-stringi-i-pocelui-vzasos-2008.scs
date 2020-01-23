@@ -1,0 +1,67 @@
+film_angus_stringi_i_pocelui_vzasos_2008
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Ангус, стринги и поцелуи взасос]
+(* <- lang_ru;;    *);
+[Angus, Thongs and Perfect Snogging]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ангус, стринги и поцелуи взасос)](*<-lang_ru;;*);
+[Description (Angus, Thongs and Perfect Snogging)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/angus-stringi-i-pocelui-vzasos-2008_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/angus-stringi-i-pocelui-vzasos-2008_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ангус, стринги и поцелуи взасос)](*<-lang_ru;;*);
+		[Pic. (Angus, Thongs and Perfect Snogging)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/angus-stringi-i-pocelui-vzasos-2008.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;germany;uk;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Angus, Thongs and Perfect Snogging](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [25.07.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [25.07.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H40M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H40M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_angus_stringi_i_pocelui_vzasos_2008 =>nrel_keywords: film;;
+
+film_angus_stringi_i_pocelui_vzasos_2008 <- concept_comedy;concept_drama;concept_romance;;
+
+film_angus_stringi_i_pocelui_vzasos_2008 => nrel_main_actor : georgia_groome;aaron_taylor_johnson;karen_taylor;alan_davies;;
+film_angus_stringi_i_pocelui_vzasos_2008 => nrel_producer : gurinder_chadha;;

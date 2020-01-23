@@ -1,0 +1,64 @@
+
+                  concept_series -> Dr._Stone;;
+              
+                  Dr._Stone
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Dr._Stone]
+                    (* <- lang_ru;;	*);
+                    [Dr._Stone]
+                    (* <- lang_en;;	*);;
+                  
+                  Dr._Stone <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Dr._Stone)](*<-lang_ru;;*);
+                      [Description (Dr._Stone)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Dr._Stone_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Dr._Stone_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Dr._Stone <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Dr._Stone)](*<-lang_ru;;*);
+                      [Pic. (Dr._Stone)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Dr._Stone.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Dr._Stone => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Dr._Stone => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Dr._Stone => nrel_num_of_seasons: 1;;
+                  value -> 24;;
+                  Dr._Stone => nrel_num_of_episodes: 24;;
+                  
+                  value -> 11;;
+                  Dr._Stone => nrel_no_countries : 11;;
+                  
+                  value -> 4;;
+                  Dr._Stone => nrel_viewers_in_millions: 4;;
+                  
+                  Dr._Stone => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Dr._Stone
+                  =>nrel_keywords: concept_detectif;;
+                  

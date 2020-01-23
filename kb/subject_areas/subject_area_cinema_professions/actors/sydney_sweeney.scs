@@ -1,0 +1,48 @@
+concept_human -> sydney_sweeney;;
+ 
+ sydney_sweeney <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сидни Свини)](*<-lang_ru;;*);
+ 		[Description (Sydney Sweeney)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/sydney_sweeney_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ sydney_sweeney <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сидни Свини)](*<-lang_ru;;*);
+ 		[Pic. (Sydney Sweeney)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/sydney_sweeney.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ sydney_sweeney => nrel_main_idtf : [Сидни Свини](*<-lang_ru;;*);;
+ sydney_sweeney => nrel_main_idtf : [Sydney Sweeney](*<-lang_en;;*);;
+ 
+ 
+ sydney_sweeney => nrel_birth_date : 1997;;
+ 
+ concept_goverment -> Usa;;
+ sydney_sweeney => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ sydney_sweeney => nrel_to_star_in : once_upon_a_time__in_hollywood;;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Once Upon a Time ... in Hollywood](*<-lang_en;;*);;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Однажды… в Голливуде](*<-lang_ru;;*);;
+sydney_sweeney => nrel_to_star_in : under_the_silver_lake;;
+under_the_silver_lake => nrel_main_idtf : [Under the Silver Lake](*<-lang_en;;*);;
+under_the_silver_lake => nrel_main_idtf : [Под Сильвер-Лэйк](*<-lang_ru;;*);;
+

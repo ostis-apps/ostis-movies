@@ -1,0 +1,48 @@
+concept_human -> jack_grazer;;
+ 
+ jack_grazer <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джек Грейзер)](*<-lang_ru;;*);
+ 		[Description (Jack Grazer)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jack_grazer_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jack_grazer <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джек Грейзер)](*<-lang_ru;;*);
+ 		[Pic. (Jack Grazer)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jack_grazer.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jack_grazer => nrel_main_idtf : [Джек Грейзер](*<-lang_ru;;*);;
+ jack_grazer => nrel_main_idtf : [Jack Grazer](*<-lang_en;;*);;
+ 
+ 
+ jack_grazer => nrel_birth_date : 2003;;
+ 
+ concept_goverment -> Usa;;
+ jack_grazer => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jack_grazer => nrel_to_star_in : shazam;;
+shazam => nrel_main_idtf : [Shazam!](*<-lang_en;;*);;
+shazam => nrel_main_idtf : [Шазам!](*<-lang_ru;;*);;
+jack_grazer => nrel_to_star_in : it_chapter_two;;
+it_chapter_two => nrel_main_idtf : [It Chapter Two](*<-lang_en;;*);;
+it_chapter_two => nrel_main_idtf : [Оно 2](*<-lang_ru;;*);;
+

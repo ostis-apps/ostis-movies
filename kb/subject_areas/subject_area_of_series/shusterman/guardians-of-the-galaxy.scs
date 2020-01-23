@@ -1,0 +1,79 @@
+
+                  concept_series -> Marvel's_Guardians_of_the_Galaxy;;
+              
+                  Marvel's_Guardians_of_the_Galaxy
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Чуда Guardians_of_the_Galaxy]
+                    (* <- lang_ru;;	*);
+                    [Marvel's_Guardians_of_the_Galaxy]
+                    (* <- lang_en;;	*);;
+                  
+                  Marvel's_Guardians_of_the_Galaxy <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Чуда Guardians_of_the_Galaxy)](*<-lang_ru;;*);
+                      [Description (Marvel's_Guardians_of_the_Galaxy)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Marvel's_Guardians_of_the_Galaxy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Marvel's_Guardians_of_the_Galaxy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Marvel's_Guardians_of_the_Galaxy <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Чуда Guardians_of_the_Galaxy)](*<-lang_ru;;*);
+                      [Pic. (Marvel's_Guardians_of_the_Galaxy)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Marvel's_Guardians_of_the_Galaxy.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Marvel's_Guardians_of_the_Galaxy => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Marvel's_Guardians_of_the_Galaxy => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Marvel's_Guardians_of_the_Galaxy => nrel_num_of_seasons: 3;;
+                  value -> 77;;
+                  Marvel's_Guardians_of_the_Galaxy => nrel_num_of_episodes: 77;;
+                  
+                  value -> 14;;
+                  Marvel's_Guardians_of_the_Galaxy => nrel_no_countries : 14;;
+                  
+                  value -> 9;;
+                  Marvel's_Guardians_of_the_Galaxy => nrel_viewers_in_millions: 9;;
+                  
+                  Marvel's_Guardians_of_the_Galaxy => nrel_age_rating: concept_PG12;;
+                  
+                    Marvel's_Guardians_of_the_Galaxy => nrel_actor : DavidSobolov;;
+                    
+                   
+                    Marvel's_Guardians_of_the_Galaxy => nrel_actor : VanessaMarshall;;
+                    
+                   
+                    Marvel's_Guardians_of_the_Galaxy => nrel_actor : TrevorDevall;;
+                    
+                   
+                    Marvel's_Guardians_of_the_Galaxy => nrel_actor : WillFriedle;;
+                    
+                   
+                    Marvel's_Guardians_of_the_Galaxy => nrel_actor : KevinMichaelRichardson;;
+                    
+                  
+                  
+                  Marvel's_Guardians_of_the_Galaxy
+                  =>nrel_keywords: concept_detectif;;
+                  

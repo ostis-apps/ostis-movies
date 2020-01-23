@@ -1,0 +1,48 @@
+nrel_type_of_guild <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [type of guild*](*<- lang_en;;*);
+    [тип гильдии*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (тип гильдии*)](*<- lang_ru;;*);
+        [Def. (type of guild*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_type_of_guild_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_type_of_guild_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       value;
+       concept_company;
+       concept_film;
+       concept_series
+    };;
+*);
+
+=> nrel_first_domain: concept_company;
+=> nrel_second_domain: value;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> value;;
+        -> concept_company;;
+    *);;
+*);
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (тип гильдии*)](*<-lang_ru;;*);
+		    [Pic. (type of guild*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/type_of_guild.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

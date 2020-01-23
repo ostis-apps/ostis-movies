@@ -1,0 +1,295 @@
+
+                  concept_series -> American_Horror_Story;;
+              
+                  American_Horror_Story
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [American_Horror_Story]
+                    (* <- lang_ru;;	*);
+                    [American_Horror_Story]
+                    (* <- lang_en;;	*);;
+                  
+                  American_Horror_Story <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (American_Horror_Story)](*<-lang_ru;;*);
+                      [Description (American_Horror_Story)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/American_Horror_Story_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/American_Horror_Story_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  American_Horror_Story <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (American_Horror_Story)](*<-lang_ru;;*);
+                      [Pic. (American_Horror_Story)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/American_Horror_Story.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  American_Horror_Story => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  American_Horror_Story => nrel_production_year : 2011;;
+                  
+                  value -> 10;;
+                  American_Horror_Story => nrel_num_of_seasons: 10;;
+                  value -> 103;;
+                  American_Horror_Story => nrel_num_of_episodes: 103;;
+                  
+                  value -> 12;;
+                  American_Horror_Story => nrel_no_countries : 12;;
+                  
+                  value -> 10;;
+                  American_Horror_Story => nrel_viewers_in_millions: 10;;
+                  
+                  American_Horror_Story => nrel_age_rating: concept_PG12;;
+                  
+                    American_Horror_Story => nrel_actor : EmmaRoberts;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : SarahPaulson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : TaissaFarmiga;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : FrancesConroy;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : SarahPaulson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : JessicaLange;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : JessicaLange;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : JessicaLange;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : ConnieBritton;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : DylanMcDermott;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EvanPeters;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EvanPeters;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EvanPeters;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : JessicaLange;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : ChloSevigny;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : TaissaFarmiga;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : LilyRabe;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : LadyGaga;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : ZacharyQuinto;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : FinnWittrock;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : SarahPaulson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EvanPeters;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : DenisOHare;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : SarahPaulson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : AngelaBassett;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : LilyRabe;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : KathyBates;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : KathyBates;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EvanPeters;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : WesBentley;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EvanPeters;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : LizzieBrocher;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : DenisOHare;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : JamesCromwell;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : DenisOHare;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : CubaGoodingJr;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : BillieLourd;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : SarahPaulson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : KathyBates;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : JosephFiennes;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EmmaRoberts;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : KathyBates;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : ZachVilla;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : SarahPaulson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : AlisonPill;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : BillieLourd;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : JohnCarrollLynch;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : AngelaBassett;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : LilyRabe;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : CheyenneJackson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : AngelicaRoss;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : GusKenworthy;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : MichaelChiklis;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : CodyFern;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EmmaRoberts;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : CodyFern;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : MattBomer;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : AndreHolland;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : LeslieGrossman;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : LeslieGrossman;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : BillieLourd;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : FrancesConroy;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : MatthewMorrison;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : CheyenneJackson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : KathyBates;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : DenisOHare;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : AngelaBassett;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : AdinaPorter;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : WesBentley;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : SarahPaulson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : SarahPaulson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : CheyenneJackson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EvanPeters;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EvanPeters;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : DenisOHare;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : CheyenneJackson;;
+                    
+                   
+                    American_Horror_Story => nrel_actor : EvanPeters;;
+                    
+                  
+                  
+                  American_Horror_Story
+                  =>nrel_keywords: concept_detectif;;
+                  

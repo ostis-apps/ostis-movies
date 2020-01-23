@@ -1,0 +1,97 @@
+
+                  concept_series -> Gossip_Girl;;
+              
+                  Gossip_Girl
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Сплетница]
+                    (* <- lang_ru;;	*);
+                    [Gossip_Girl]
+                    (* <- lang_en;;	*);;
+                  
+                  Gossip_Girl <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Сплетница)](*<-lang_ru;;*);
+                      [Description (Gossip_Girl)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Gossip_Girl_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Gossip_Girl_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Gossip_Girl <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Сплетница)](*<-lang_ru;;*);
+                      [Pic. (Gossip_Girl)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Gossip_Girl.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Gossip_Girl => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2007;;
+                  2007 => nrel_main_idtf : [2007 год](*<-lang_ru;;*);;
+                  2007 => nrel_main_idtf : [year of 2007](*<-lang_en;;*);;
+                  Gossip_Girl => nrel_production_year : 2007;;
+                  
+                  value -> 6;;
+                  Gossip_Girl => nrel_num_of_seasons: 6;;
+                  value -> 121;;
+                  Gossip_Girl => nrel_num_of_episodes: 121;;
+                  
+                  value -> 4;;
+                  Gossip_Girl => nrel_no_countries : 4;;
+                  
+                  value -> 6;;
+                  Gossip_Girl => nrel_viewers_in_millions: 6;;
+                  
+                  Gossip_Girl => nrel_age_rating: concept_PG12;;
+                  
+                    Gossip_Girl => nrel_actor : BlakeLively;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : PennBadgley;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : MatthewSettle;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : LeightonMeester;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : EdWestwick;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : ChaceCrawford;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : TaylorMomsen;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : KellyRutherford;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : JessicaSzohr;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : ConnorPaolo;;
+                    
+                   
+                    Gossip_Girl => nrel_actor : KayleeDefer;;
+                    
+                  
+                  
+                  Gossip_Girl
+                  =>nrel_keywords: concept_detectif;;
+                  

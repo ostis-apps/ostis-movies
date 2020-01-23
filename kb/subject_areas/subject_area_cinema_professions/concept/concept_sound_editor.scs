@@ -1,0 +1,33 @@
+concept_sound_engineer <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [sound engineer](*<- lang_en;;*);
+    [звукорежиссер](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (звукорежиссер)](*<- lang_ru;;*);
+        [Def. (sound engineer)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_sound_engineer_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_sound_engineer_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (звукорежиссер)](*<-lang_ru;;*);
+		    [Pic. (sound engineer)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/SOUNDeDITOR.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

@@ -1,0 +1,67 @@
+film_bi_manki_1998
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Би Манки]
+(* <- lang_ru;;    *);
+[B. Monkey]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Би Манки)](*<-lang_ru;;*);
+[Description (B. Monkey)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bi-manki-1998_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bi-manki-1998_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Би Манки)](*<-lang_ru;;*);
+		[Pic. (B. Monkey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bi-manki-1998.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Trouble never looked so good See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [15.07.1999](*<-lang_ru;;*);;
+    => nrel_main_idtf : [15.07.1999](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H32M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H32M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_bi_manki_1998 =>nrel_keywords: film;;
+
+film_bi_manki_1998 <- concept_crime;concept_drama;concept_romance;concept_thriller;;
+
+film_bi_manki_1998 => nrel_main_actor : asia_argento;jared_harris;rupert_everett;jonathan_rhys_meyers;;
+film_bi_manki_1998 => nrel_producer : michael_radford;;

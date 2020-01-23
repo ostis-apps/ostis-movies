@@ -1,0 +1,97 @@
+
+                  concept_series -> Blindspot;;
+              
+                  Blindspot
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Слепая зона]
+                    (* <- lang_ru;;	*);
+                    [Blindspot]
+                    (* <- lang_en;;	*);;
+                  
+                  Blindspot <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Слепая зона)](*<-lang_ru;;*);
+                      [Description (Blindspot)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Blindspot_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Blindspot_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Blindspot <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Слепая зона)](*<-lang_ru;;*);
+                      [Pic. (Blindspot)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Blindspot.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Blindspot => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Blindspot => nrel_production_year : 2015;;
+                  
+                  value -> 5;;
+                  Blindspot => nrel_num_of_seasons: 5;;
+                  value -> 89;;
+                  Blindspot => nrel_num_of_episodes: 89;;
+                  
+                  value -> 8;;
+                  Blindspot => nrel_no_countries : 8;;
+                  
+                  value -> 5;;
+                  Blindspot => nrel_viewers_in_millions: 5;;
+                  
+                  Blindspot => nrel_age_rating: concept_PG12;;
+                  
+                    Blindspot => nrel_actor : AshleyJohnson;;
+                    
+                   
+                    Blindspot => nrel_actor : SullivanStapleton;;
+                    
+                   
+                    Blindspot => nrel_actor : RobBrown;;
+                    
+                   
+                    Blindspot => nrel_actor : JaimieAlexander;;
+                    
+                   
+                    Blindspot => nrel_actor : AudreyEsparza;;
+                    
+                   
+                    Blindspot => nrel_actor : LukeMitchell;;
+                    
+                   
+                    Blindspot => nrel_actor : EnnisEsmer;;
+                    
+                   
+                    Blindspot => nrel_actor : UkweliRoach;;
+                    
+                   
+                    Blindspot => nrel_actor : MarianneJeanBaptiste;;
+                    
+                   
+                    Blindspot => nrel_actor : ArchiePanjabi;;
+                    
+                   
+                    Blindspot => nrel_actor : MichelleHurd;;
+                    
+                  
+                  
+                  Blindspot
+                  =>nrel_keywords: concept_detectif;;
+                  

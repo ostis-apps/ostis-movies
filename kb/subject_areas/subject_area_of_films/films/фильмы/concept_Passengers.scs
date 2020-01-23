@@ -1,0 +1,31 @@
+concept_Passengers
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пассажиры]
+	(* <- lang_ru;;	*);
+	[Passengers]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пассажиры)](*<-lang_ru;;*);
+		[Description (Passengers)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Пассажиры.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Passengers.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_passenger;
+=>nrel_keywords: concept_loneliness;
+=>nrel_keywords: concept_panic;	
+=>nrel_age_rating: concept_PG16;;	

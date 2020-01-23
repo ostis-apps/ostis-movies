@@ -1,0 +1,88 @@
+
+                  concept_series -> Good_Girls;;
+              
+                  Good_Girls
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Хорошие девочки]
+                    (* <- lang_ru;;	*);
+                    [Good_Girls]
+                    (* <- lang_en;;	*);;
+                  
+                  Good_Girls <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Хорошие девочки)](*<-lang_ru;;*);
+                      [Description (Good_Girls)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Good_Girls_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Good_Girls_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Good_Girls <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Хорошие девочки)](*<-lang_ru;;*);
+                      [Pic. (Good_Girls)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Good_Girls.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Good_Girls => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Good_Girls => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  Good_Girls => nrel_num_of_seasons: 3;;
+                  value -> 26;;
+                  Good_Girls => nrel_num_of_episodes: 26;;
+                  
+                  value -> 14;;
+                  Good_Girls => nrel_no_countries : 14;;
+                  
+                  value -> 6;;
+                  Good_Girls => nrel_viewers_in_millions: 6;;
+                  
+                  Good_Girls => nrel_age_rating: concept_PG12;;
+                  
+                    Good_Girls => nrel_actor : MatthewLillard;;
+                    
+                   
+                    Good_Girls => nrel_actor : Retta;;
+                    
+                   
+                    Good_Girls => nrel_actor : ChristinaHendricks;;
+                    
+                   
+                    Good_Girls => nrel_actor : RenoWilson;;
+                    
+                   
+                    Good_Girls => nrel_actor : MannyMontana;;
+                    
+                   
+                    Good_Girls => nrel_actor : MaeWhitman;;
+                    
+                   
+                    Good_Girls => nrel_actor : LidyaJewett;;
+                    
+                   
+                    Good_Girls => nrel_actor : IzzyStannard;;
+                    
+                  
+                  
+                  Good_Girls
+                  =>nrel_keywords: concept_detectif;;
+                  

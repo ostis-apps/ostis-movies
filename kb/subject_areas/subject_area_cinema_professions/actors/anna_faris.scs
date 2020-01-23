@@ -1,0 +1,51 @@
+concept_human -> anna_faris;;
+ 
+ anna_faris <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Анна Фэрис)](*<-lang_ru;;*);
+ 		[Description (Anna Faris)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/anna_faris_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ anna_faris <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Анна Фэрис)](*<-lang_ru;;*);
+ 		[Pic. (Anna Faris)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/anna_faris.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ anna_faris => nrel_main_idtf : [Анна Фэрис](*<-lang_ru;;*);;
+ anna_faris => nrel_main_idtf : [Anna Faris](*<-lang_en;;*);;
+ 
+ 
+ anna_faris => nrel_birth_date : 1976;;
+ 
+ concept_goverment -> Usa;;
+ anna_faris => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ anna_faris => nrel_to_star_in : movie_43;;
+movie_43 => nrel_main_idtf : [Movie 43](*<-lang_en;;*);;
+movie_43 => nrel_main_idtf : [Муви 43](*<-lang_ru;;*);;
+anna_faris => nrel_to_star_in : brokeback_mountain;;
+brokeback_mountain => nrel_main_idtf : [Brokeback Mountain](*<-lang_en;;*);;
+brokeback_mountain => nrel_main_idtf : [Горбатая гора](*<-lang_ru;;*);;
+anna_faris => nrel_to_star_in : lost_in_translation;;
+lost_in_translation => nrel_main_idtf : [Lost in Translation](*<-lang_en;;*);;
+lost_in_translation => nrel_main_idtf : [Трудности перевода](*<-lang_ru;;*);;
+

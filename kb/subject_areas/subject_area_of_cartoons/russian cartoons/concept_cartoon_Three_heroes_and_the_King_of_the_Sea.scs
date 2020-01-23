@@ -1,0 +1,44 @@
+concept_cartoon_Three_heroes_and_the_King_of_the_Sea
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Три богатыря и Морской царь]
+	(* <- lang_ru;;	*);
+	[Three heroes and the King of the Sea]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Три богатыря и Морской царь)](*<-lang_ru;;*);
+		[Description (Three heroes and the King of the Sea)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Three heroes and the King of the Sea_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Three heroes and the King of the Sea_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Три богатыря и Морской царь)](*<-lang_ru;;*);
+		[Pic. (Three heroes and the King of the Sea)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Three heroes and the King of the Sea.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+<=nrel_inclusion:concept_cartoon_about_russian_warriors;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_superhero;
+=>nrel_keywords: concept_animals;
+=>nrel_age_rating: concept_PG0;
+=> nrel_production_country: Russia;;

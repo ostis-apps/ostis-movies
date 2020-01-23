@@ -1,0 +1,72 @@
+concept_human -> cameron_diaz;;
+ 
+ cameron_diaz <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кэмерон Диаз)](*<-lang_ru;;*);
+ 		[Description (Cameron Diaz)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/cameron_diaz_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ cameron_diaz <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кэмерон Диаз)](*<-lang_ru;;*);
+ 		[Pic. (Cameron Diaz)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/cameron_diaz.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ cameron_diaz => nrel_main_idtf : [Кэмерон Диаз](*<-lang_ru;;*);;
+ cameron_diaz => nrel_main_idtf : [Cameron Diaz](*<-lang_en;;*);;
+ 
+ 
+ cameron_diaz => nrel_birth_date : 1972;;
+ 
+ concept_goverment -> Usa;;
+ cameron_diaz => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ cameron_diaz => nrel_to_star_in : the_green_hornet;;
+the_green_hornet => nrel_main_idtf : [The Green Hornet](*<-lang_en;;*);;
+the_green_hornet => nrel_main_idtf : [Зеленый шершень](*<-lang_ru;;*);;
+cameron_diaz => nrel_to_star_in : gangs_of_new_york;;
+gangs_of_new_york => nrel_main_idtf : [Gangs of New York](*<-lang_en;;*);;
+gangs_of_new_york => nrel_main_idtf : [Банды Нью-Йорка](*<-lang_ru;;*);;
+cameron_diaz => nrel_to_star_in : vanilla_sky;;
+vanilla_sky => nrel_main_idtf : [Vanilla Sky](*<-lang_en;;*);;
+vanilla_sky => nrel_main_idtf : [Ванильное небо](*<-lang_ru;;*);;
+cameron_diaz => nrel_to_star_in : charlies_angels;;
+charlies_angels => nrel_main_idtf : [Charlie's Angels](*<-lang_en;;*);;
+charlies_angels => nrel_main_idtf : [Ангелы Чарли](*<-lang_ru;;*);;
+cameron_diaz => nrel_to_star_in : being_john_malkovich;;
+being_john_malkovich => nrel_main_idtf : [Being John Malkovich](*<-lang_en;;*);;
+being_john_malkovich => nrel_main_idtf : [Быть Джоном Малковичем](*<-lang_ru;;*);;
+cameron_diaz => nrel_to_star_in : fear_and_loathing_in_las_vegas;;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Fear and Loathing in Las Vegas](*<-lang_en;;*);;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Страх и ненависть в Лас-Вегасе](*<-lang_ru;;*);;
+cameron_diaz => nrel_to_star_in : theres_something_about_mary;;
+theres_something_about_mary => nrel_main_idtf : [There`s Something About Mary](*<-lang_en;;*);;
+theres_something_about_mary => nrel_main_idtf : [Все без ума от Мэри](*<-lang_ru;;*);;
+cameron_diaz => nrel_to_star_in : my_best_friends_wedding;;
+my_best_friends_wedding => nrel_main_idtf : [My Best Friend's Wedding](*<-lang_en;;*);;
+my_best_friends_wedding => nrel_main_idtf : [Свадьба лучшего друга](*<-lang_ru;;*);;
+cameron_diaz => nrel_to_star_in : a_life_less_ordinary;;
+a_life_less_ordinary => nrel_main_idtf : [A Life Less Ordinary](*<-lang_en;;*);;
+a_life_less_ordinary => nrel_main_idtf : [Жизнь хуже обычной](*<-lang_ru;;*);;
+cameron_diaz => nrel_to_star_in : the_mask;;
+the_mask => nrel_main_idtf : [The Mask](*<-lang_en;;*);;
+the_mask => nrel_main_idtf : [Маска](*<-lang_ru;;*);;
+

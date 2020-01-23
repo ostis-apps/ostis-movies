@@ -1,0 +1,85 @@
+
+                  concept_series -> Deadly_Class;;
+              
+                  Deadly_Class
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Deadly_Class]
+                    (* <- lang_ru;;	*);
+                    [Deadly_Class]
+                    (* <- lang_en;;	*);;
+                  
+                  Deadly_Class <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Deadly_Class)](*<-lang_ru;;*);
+                      [Description (Deadly_Class)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Deadly_Class_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Deadly_Class_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Deadly_Class <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Deadly_Class)](*<-lang_ru;;*);
+                      [Pic. (Deadly_Class)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Deadly_Class.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Deadly_Class => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Deadly_Class => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Deadly_Class => nrel_num_of_seasons: 1;;
+                  value -> 10;;
+                  Deadly_Class => nrel_num_of_episodes: 10;;
+                  
+                  value -> 14;;
+                  Deadly_Class => nrel_no_countries : 14;;
+                  
+                  value -> 7;;
+                  Deadly_Class => nrel_viewers_in_millions: 7;;
+                  
+                  Deadly_Class => nrel_age_rating: concept_PG12;;
+                  
+                    Deadly_Class => nrel_actor : LanaCondor;;
+                    
+                   
+                    Deadly_Class => nrel_actor : MaraGabrieladeFaria;;
+                    
+                   
+                    Deadly_Class => nrel_actor : LiamJames;;
+                    
+                   
+                    Deadly_Class => nrel_actor : BenedictWong;;
+                    
+                   
+                    Deadly_Class => nrel_actor : BenjaminWadsworth;;
+                    
+                   
+                    Deadly_Class => nrel_actor : LukeTennie;;
+                    
+                   
+                    Deadly_Class => nrel_actor : MichelDuval;;
+                    
+                  
+                  
+                  Deadly_Class
+                  =>nrel_keywords: concept_detectif;;
+                  

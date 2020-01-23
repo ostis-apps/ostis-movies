@@ -1,0 +1,73 @@
+concept_video_sequence -> great_gatsby;mickey_mouse;;
+
+great_gatsby => nrel_age_limit: ...(* -> rrel_age: 18;;*);;
+mickey_mouse => nrel_age_limit: ... (* -> rrel_age: 12;;*);;
+
+great_gatsby => nrel_production_country: ... (*-> USA;;*);;
+mickey_mouse => nrel_production_country: ...(* -> USA;;*);;
+
+concept_video_sequence_nature <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Видеоряд природы] (* <- lang_ru;; *);
+=> nrel_idtf:[video sequence nature] (* <- lang_en;; *);
+nrel_age_limit: ... (* -> rrel_age: 12;;*);
+=>nrel_foundation_date: 2012;
+nrel_production_country: ...(* -> USA;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Видеоряд природы)](*<-lang_ru;;*);
+		[Pic. (video sequence nature)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://video.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_video_sequence;;
+
+concept_video_sequence_church <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Видеоряд костела] (* <- lang_ru;; *);
+=> nrel_idtf:[video sequence church] (* <- lang_en;; *);
+nrel_age_limit: ... (* -> rrel_age: 12;;*);
+=>nrel_foundation_date: 2012;
+nrel_production_country: ...(* -> USA;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Видеоряд костела)](*<-lang_ru;;*);
+		[Pic. (video sequence church)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://video.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_video_sequence;;
+
+
+concept_video_sequence_room<- sc_node_not_relation;
+
+=> nrel_main_idtf:[Видеоряд комнаты] (* <- lang_ru;; *);
+=> nrel_idtf:[video sequence room] (* <- lang_en;; *);
+nrel_age_limit: ... (* -> rrel_age: 12;;*);
+=>nrel_foundation_date: 2012;
+nrel_production_country: ...(* -> USA;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Видеоряд комнаты)](*<-lang_ru;;*);
+		[Pic. (video sequence room)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://video.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_video_sequence;;
+
+USA<-concept_country;;

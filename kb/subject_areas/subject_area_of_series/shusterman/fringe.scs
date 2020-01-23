@@ -1,0 +1,91 @@
+
+                  concept_series -> Fringe;;
+              
+                  Fringe
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Бахрома]
+                    (* <- lang_ru;;	*);
+                    [Fringe]
+                    (* <- lang_en;;	*);;
+                  
+                  Fringe <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Бахрома)](*<-lang_ru;;*);
+                      [Description (Fringe)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Fringe_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Fringe_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Fringe <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Бахрома)](*<-lang_ru;;*);
+                      [Pic. (Fringe)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Fringe.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Fringe => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2008;;
+                  2008 => nrel_main_idtf : [2008 год](*<-lang_ru;;*);;
+                  2008 => nrel_main_idtf : [year of 2008](*<-lang_en;;*);;
+                  Fringe => nrel_production_year : 2008;;
+                  
+                  value -> 5;;
+                  Fringe => nrel_num_of_seasons: 5;;
+                  value -> 100;;
+                  Fringe => nrel_num_of_episodes: 100;;
+                  
+                  value -> 8;;
+                  Fringe => nrel_no_countries : 8;;
+                  
+                  value -> 11;;
+                  Fringe => nrel_viewers_in_millions: 11;;
+                  
+                  Fringe => nrel_age_rating: concept_PG12;;
+                  
+                    Fringe => nrel_actor : JohnNoble;;
+                    
+                   
+                    Fringe => nrel_actor : JoshuaJackson;;
+                    
+                   
+                    Fringe => nrel_actor : AnnaTorv;;
+                    
+                   
+                    Fringe => nrel_actor : JasikaNicole;;
+                    
+                   
+                    Fringe => nrel_actor : LanceReddick;;
+                    
+                   
+                    Fringe => nrel_actor : BlairBrown;;
+                    
+                   
+                    Fringe => nrel_actor : KirkAcevedo;;
+                    
+                   
+                    Fringe => nrel_actor : SethGabel;;
+                    
+                   
+                    Fringe => nrel_actor : MarkValley;;
+                    
+                  
+                  
+                  Fringe
+                  =>nrel_keywords: concept_detectif;;
+                  

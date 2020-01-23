@@ -1,0 +1,67 @@
+film_derevenskie_krokodily_2009
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Деревенские крокодилы]
+(* <- lang_ru;;    *);
+[Vorstadtkrokodile]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Деревенские крокодилы)](*<-lang_ru;;*);
+[Description (Vorstadtkrokodile)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/derevenskie-krokodily-2009_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/derevenskie-krokodily-2009_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Деревенские крокодилы)](*<-lang_ru;;*);
+		[Pic. (Vorstadtkrokodile)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/derevenskie-krokodily-2009.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Vorstadtkrokodile](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.03.2009](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.03.2009](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H38M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H38M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_derevenskie_krokodily_2009 =>nrel_keywords: film;;
+
+film_derevenskie_krokodily_2009 <- concept_adventure;concept_family;;
+
+film_derevenskie_krokodily_2009 => nrel_main_actor : nick_romeo_reimann;fabian_halbig;leonie_tepe;manuel_steitz;;
+film_derevenskie_krokodily_2009 => nrel_producer : christian_ditter;;

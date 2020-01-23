@@ -1,0 +1,45 @@
+concept_human -> christian_slater;;
+ 
+ christian_slater <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристиан Слейтер)](*<-lang_ru;;*);
+ 		[Description (Christian Slater)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/christian_slater_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ christian_slater <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристиан Слейтер)](*<-lang_ru;;*);
+ 		[Pic. (Christian Slater)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/christian_slater.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ christian_slater => nrel_main_idtf : [Кристиан Слейтер](*<-lang_ru;;*);;
+ christian_slater => nrel_main_idtf : [Christian Slater](*<-lang_en;;*);;
+ 
+ 
+ christian_slater => nrel_birth_date : 1969;;
+ 
+ concept_goverment -> Usa;;
+ christian_slater => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ christian_slater => nrel_to_star_in : interview_with_the_vampire_the_vampire_chronicles;;
+interview_with_the_vampire_the_vampire_chronicles => nrel_main_idtf : [Interview with the Vampire: The Vampire Chronicles](*<-lang_en;;*);;
+interview_with_the_vampire_the_vampire_chronicles => nrel_main_idtf : [Интервью с вампиром](*<-lang_ru;;*);;
+

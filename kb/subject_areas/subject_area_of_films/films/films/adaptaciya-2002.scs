@@ -1,0 +1,67 @@
+film_adaptaciya_2002
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Адаптация]
+(* <- lang_ru;;    *);
+[Adaptation.]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Адаптация)](*<-lang_ru;;*);
+[Description (Adaptation.)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/adaptaciya-2002_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/adaptaciya-2002_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Адаптация)](*<-lang_ru;;*);
+		[Pic. (Adaptation.)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/adaptaciya-2002.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Charlie Kaufman writes the way he lives... With Great Difficulty. His Twin Brother Donald Lives the way he writes... with foolish abandon. Susan writes about life... But can't live it. John's life is a book... Waiting to be adapted. One story... Four Lives... A million ways it can end. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.12.2002](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.12.2002](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H55M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H55M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_adaptaciya_2002 =>nrel_keywords: film;;
+
+film_adaptaciya_2002 <- concept_comedy;concept_drama;;
+
+film_adaptaciya_2002 => nrel_main_actor : nicolas_cage;meryl_streep;chris_cooper;tilda_swinton;;
+film_adaptaciya_2002 => nrel_producer : spike_jonze;;

@@ -1,0 +1,24 @@
+concept_poster
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[постер](*<-lang_ru;;*);
+	[poster](*<-lang_en;;*);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (постер)](*<-lang_ru;;*);
+		[Def. (poster)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film;
+	concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/poster_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/poster_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

@@ -1,0 +1,93 @@
+concept_human -> jared_leto;;
+ 
+ jared_leto <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джаред Лето)](*<-lang_ru;;*);
+ 		[Description (Jared Leto)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jared_leto_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jared_leto <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джаред Лето)](*<-lang_ru;;*);
+ 		[Pic. (Jared Leto)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jared_leto.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jared_leto => nrel_main_idtf : [Джаред Лето](*<-lang_ru;;*);;
+ jared_leto => nrel_main_idtf : [Jared Leto](*<-lang_en;;*);;
+ 
+ 
+ jared_leto => nrel_birth_date : 1972;;
+ 
+ concept_goverment -> Usa;;
+ jared_leto => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jared_leto => nrel_to_star_in : the_outsider;;
+the_outsider => nrel_main_idtf : [The Outsider](*<-lang_en;;*);;
+the_outsider => nrel_main_idtf : [Аутсайдер](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : blade_runner_2049;;
+blade_runner_2049 => nrel_main_idtf : [Blade Runner 2049](*<-lang_en;;*);;
+blade_runner_2049 => nrel_main_idtf : [Бегущий по лезвию 2049](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : suicide_squad;;
+suicide_squad => nrel_main_idtf : [Suicide Squad](*<-lang_en;;*);;
+suicide_squad => nrel_main_idtf : [Отряд самоубийц](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : dallas_buyers_club;;
+dallas_buyers_club => nrel_main_idtf : [Dallas Buyers Club](*<-lang_en;;*);;
+dallas_buyers_club => nrel_main_idtf : [Далласский клуб покупателей](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : mr_nobody;;
+mr_nobody => nrel_main_idtf : [Mr. Nobody](*<-lang_en;;*);;
+mr_nobody => nrel_main_idtf : [Господин Никто](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : chapter_27;;
+chapter_27 => nrel_main_idtf : [Chapter 27](*<-lang_en;;*);;
+chapter_27 => nrel_main_idtf : [Глава 27](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : lonely_hearts;;
+lonely_hearts => nrel_main_idtf : [Lonely Hearts](*<-lang_en;;*);;
+lonely_hearts => nrel_main_idtf : [Одинокие сердца](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : lord_of_war;;
+lord_of_war => nrel_main_idtf : [Lord of War](*<-lang_en;;*);;
+lord_of_war => nrel_main_idtf : [Оружейный барон](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : alexander;;
+alexander => nrel_main_idtf : [Alexander](*<-lang_en;;*);;
+alexander => nrel_main_idtf : [Александр](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : panic_room;;
+panic_room => nrel_main_idtf : [Panic Room](*<-lang_en;;*);;
+panic_room => nrel_main_idtf : [Комната страха](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : highway;;
+highway => nrel_main_idtf : [Highway](*<-lang_en;;*);;
+highway => nrel_main_idtf : [Шоссе](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : requiem_for_a_dream;;
+requiem_for_a_dream => nrel_main_idtf : [Requiem for a Dream](*<-lang_en;;*);;
+requiem_for_a_dream => nrel_main_idtf : [Реквием по мечте](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : american_psycho;;
+american_psycho => nrel_main_idtf : [American Psycho](*<-lang_en;;*);;
+american_psycho => nrel_main_idtf : [Американский психопат](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : fight_club;;
+fight_club => nrel_main_idtf : [Fight Club](*<-lang_en;;*);;
+fight_club => nrel_main_idtf : [Бойцовский клуб](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : black_and_white;;
+black_and_white => nrel_main_idtf : [Black And White](*<-lang_en;;*);;
+black_and_white => nrel_main_idtf : [Черное и белое](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : girl_interrupted;;
+girl_interrupted => nrel_main_idtf : [Girl, Interrupted](*<-lang_en;;*);;
+girl_interrupted => nrel_main_idtf : [Прерванная жизнь](*<-lang_ru;;*);;
+jared_leto => nrel_to_star_in : the_thin_red_line;;
+the_thin_red_line => nrel_main_idtf : [The Thin Red Line](*<-lang_en;;*);;
+the_thin_red_line => nrel_main_idtf : [Тонкая красная линия](*<-lang_ru;;*);;
+

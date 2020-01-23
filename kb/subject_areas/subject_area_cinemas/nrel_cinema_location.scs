@@ -1,0 +1,6 @@
+nrel_cinema_location
+<- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+	[месторасположение*] (* <- lang_ru;; *);
+	[cinema location*] (* <- lang_en;; *);;

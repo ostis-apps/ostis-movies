@@ -1,0 +1,91 @@
+
+                  concept_series -> Mob_Psycho_100;;
+              
+                  Mob_Psycho_100
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Mob_Psycho_100]
+                    (* <- lang_ru;;	*);
+                    [Mob_Psycho_100]
+                    (* <- lang_en;;	*);;
+                  
+                  Mob_Psycho_100 <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Mob_Psycho_100)](*<-lang_ru;;*);
+                      [Description (Mob_Psycho_100)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Mob_Psycho_100_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Mob_Psycho_100_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Mob_Psycho_100 <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Mob_Psycho_100)](*<-lang_ru;;*);
+                      [Pic. (Mob_Psycho_100)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Mob_Psycho_100.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Mob_Psycho_100 => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Mob_Psycho_100 => nrel_production_year : 2016;;
+                  
+                  value -> 2;;
+                  Mob_Psycho_100 => nrel_num_of_seasons: 2;;
+                  value -> 25;;
+                  Mob_Psycho_100 => nrel_num_of_episodes: 25;;
+                  
+                  value -> 10;;
+                  Mob_Psycho_100 => nrel_no_countries : 10;;
+                  
+                  value -> 12;;
+                  Mob_Psycho_100 => nrel_viewers_in_millions: 12;;
+                  
+                  Mob_Psycho_100 => nrel_age_rating: concept_PG12;;
+                  
+                    Mob_Psycho_100 => nrel_actor : AtsumiTanezaki;;
+                    
+                   
+                    Mob_Psycho_100 => nrel_actor : AkioOhtsuka;;
+                    
+                   
+                    Mob_Psycho_100 => nrel_actor : AyumiFujimura;;
+                    
+                   
+                    Mob_Psycho_100 => nrel_actor : UkiSatake;;
+                    
+                   
+                    Mob_Psycho_100 => nrel_actor : SetsuoItou;;
+                    
+                   
+                    Mob_Psycho_100 => nrel_actor : MiyuIrino;;
+                    
+                   
+                    Mob_Psycho_100 => nrel_actor : YoshitsuguMatsuoka;;
+                    
+                   
+                    Mob_Psycho_100 => nrel_actor : TakahiroSakurai;;
+                    
+                   
+                    Mob_Psycho_100 => nrel_actor : YoshimasaHosoya;;
+                    
+                  
+                  
+                  Mob_Psycho_100
+                  =>nrel_keywords: concept_detectif;;
+                  

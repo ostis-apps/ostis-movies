@@ -1,0 +1,48 @@
+concept_human -> miley_cyrus;;
+ 
+ miley_cyrus <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майли Сайрус)](*<-lang_ru;;*);
+ 		[Description (Miley Cyrus)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/miley_cyrus_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ miley_cyrus <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майли Сайрус)](*<-lang_ru;;*);
+ 		[Pic. (Miley Cyrus)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/miley_cyrus.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ miley_cyrus => nrel_main_idtf : [Майли Сайрус](*<-lang_ru;;*);;
+ miley_cyrus => nrel_main_idtf : [Miley Cyrus](*<-lang_en;;*);;
+ 
+ 
+ miley_cyrus => nrel_birth_date : 1992;;
+ 
+ concept_goverment -> Usa;;
+ miley_cyrus => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ miley_cyrus => nrel_to_star_in : guardians_of_the_galaxy_vol_2;;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Guardians of the Galaxy Vol. 2](*<-lang_en;;*);;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Стражи Галактики. Часть 2](*<-lang_ru;;*);;
+miley_cyrus => nrel_to_star_in : black_mirror;;
+black_mirror => nrel_main_idtf : [Black Mirror](*<-lang_en;;*);;
+black_mirror => nrel_main_idtf : [Черное зеркало](*<-lang_ru;;*);;
+

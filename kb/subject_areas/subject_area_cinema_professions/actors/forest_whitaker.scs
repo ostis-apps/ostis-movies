@@ -1,0 +1,54 @@
+concept_human -> forest_whitaker;;
+ 
+ forest_whitaker <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Форест Уитакер)](*<-lang_ru;;*);
+ 		[Description (Forest Whitaker)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/forest_whitaker_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ forest_whitaker <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Форест Уитакер)](*<-lang_ru;;*);
+ 		[Pic. (Forest Whitaker)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/forest_whitaker.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ forest_whitaker => nrel_main_idtf : [Форест Уитакер](*<-lang_ru;;*);;
+ forest_whitaker => nrel_main_idtf : [Forest Whitaker](*<-lang_en;;*);;
+ 
+ 
+ forest_whitaker => nrel_birth_date : 1961;;
+ 
+ concept_goverment -> Usa;;
+ forest_whitaker => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ forest_whitaker => nrel_to_star_in : black_panther;;
+black_panther => nrel_main_idtf : [Black Panther](*<-lang_en;;*);;
+black_panther => nrel_main_idtf : [Черная Пантера](*<-lang_ru;;*);;
+forest_whitaker => nrel_to_star_in : the_last_king_of_scotland;;
+the_last_king_of_scotland => nrel_main_idtf : [The Last King of Scotland](*<-lang_en;;*);;
+the_last_king_of_scotland => nrel_main_idtf : [Последний король Шотландии](*<-lang_ru;;*);;
+forest_whitaker => nrel_to_star_in : panic_room;;
+panic_room => nrel_main_idtf : [Panic Room](*<-lang_en;;*);;
+panic_room => nrel_main_idtf : [Комната страха](*<-lang_ru;;*);;
+forest_whitaker => nrel_to_star_in : platoon;;
+platoon => nrel_main_idtf : [Platoon](*<-lang_en;;*);;
+platoon => nrel_main_idtf : [Взвод](*<-lang_ru;;*);;
+

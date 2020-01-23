@@ -1,0 +1,28 @@
+concept_film_Forrest_Gump
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Форрест Гамп](* <- lang_ru;; *);
+	[Forrest Gump](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Форрест Гамп)](*<-lang_ru;;*);
+		[Description (Forrest Gump)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Форрест Гамп.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Forrest Gump.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_purpose;
+=> nrel_keywords: concept_running;
+=> nrel_keywords: concept_sport;
+=> nrel_keywords: concept_life;
+=> nrel_age_rating: concept_PG12;;

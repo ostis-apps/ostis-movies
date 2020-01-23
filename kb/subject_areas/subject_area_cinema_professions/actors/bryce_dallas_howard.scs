@@ -1,0 +1,51 @@
+concept_human -> bryce_dallas_howard;;
+ 
+ bryce_dallas_howard <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Брайс Даллас Ховард)](*<-lang_ru;;*);
+ 		[Description (Bryce Dallas Howard)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/bryce_dallas_howard_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ bryce_dallas_howard <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Брайс Даллас Ховард)](*<-lang_ru;;*);
+ 		[Pic. (Bryce Dallas Howard)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/bryce_dallas_howard.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ bryce_dallas_howard => nrel_main_idtf : [Брайс Даллас Ховард](*<-lang_ru;;*);;
+ bryce_dallas_howard => nrel_main_idtf : [Bryce Dallas Howard](*<-lang_en;;*);;
+ 
+ 
+ bryce_dallas_howard => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> Usa;;
+ bryce_dallas_howard => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ bryce_dallas_howard => nrel_to_star_in : rocketman;;
+rocketman => nrel_main_idtf : [Rocketman](*<-lang_en;;*);;
+rocketman => nrel_main_idtf : [Рокетмен](*<-lang_ru;;*);;
+bryce_dallas_howard => nrel_to_star_in : black_mirror;;
+black_mirror => nrel_main_idtf : [Black Mirror](*<-lang_en;;*);;
+black_mirror => nrel_main_idtf : [Черное зеркало](*<-lang_ru;;*);;
+bryce_dallas_howard => nrel_to_star_in : the_village;;
+the_village => nrel_main_idtf : [The Village](*<-lang_en;;*);;
+the_village => nrel_main_idtf : [Таинственный лес](*<-lang_ru;;*);;
+

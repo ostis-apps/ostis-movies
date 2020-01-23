@@ -1,0 +1,45 @@
+concept_human -> james_belushi;;
+ 
+ james_belushi <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джеймс Белуши)](*<-lang_ru;;*);
+ 		[Description (James Belushi)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/james_belushi_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ james_belushi <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джеймс Белуши)](*<-lang_ru;;*);
+ 		[Pic. (James Belushi)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/james_belushi.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ james_belushi => nrel_main_idtf : [Джеймс Белуши](*<-lang_ru;;*);;
+ james_belushi => nrel_main_idtf : [James Belushi](*<-lang_en;;*);;
+ 
+ 
+ james_belushi => nrel_birth_date : 1954;;
+ 
+ concept_goverment -> Usa;;
+ james_belushi => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ james_belushi => nrel_to_star_in : red_heat;;
+red_heat => nrel_main_idtf : [Red Heat](*<-lang_en;;*);;
+red_heat => nrel_main_idtf : [Красная жара](*<-lang_ru;;*);;
+

@@ -1,0 +1,208 @@
+
+                  concept_series -> The_Walking_Dead;;
+              
+                  The_Walking_Dead
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Ходячие мертвецы]
+                    (* <- lang_ru;;	*);
+                    [The_Walking_Dead]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Walking_Dead <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Ходячие мертвецы)](*<-lang_ru;;*);
+                      [Description (The_Walking_Dead)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Walking_Dead_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Walking_Dead_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Walking_Dead <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Ходячие мертвецы)](*<-lang_ru;;*);
+                      [Pic. (The_Walking_Dead)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Walking_Dead.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Walking_Dead => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2010;;
+                  2010 => nrel_main_idtf : [2010 год](*<-lang_ru;;*);;
+                  2010 => nrel_main_idtf : [year of 2010](*<-lang_en;;*);;
+                  The_Walking_Dead => nrel_production_year : 2010;;
+                  
+                  value -> 11;;
+                  The_Walking_Dead => nrel_num_of_seasons: 11;;
+                  value -> 140;;
+                  The_Walking_Dead => nrel_num_of_episodes: 140;;
+                  
+                  value -> 4;;
+                  The_Walking_Dead => nrel_no_countries : 4;;
+                  
+                  value -> 11;;
+                  The_Walking_Dead => nrel_viewers_in_millions: 11;;
+                  
+                  The_Walking_Dead => nrel_age_rating: concept_PG12;;
+                  
+                    The_Walking_Dead => nrel_actor : NormanReedus;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : AndrewLincoln;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : DanaiGurira;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : LaurenCohan;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : MelissaMcBride;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : ChandlerRiggs;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : ChristianSerratos;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : StevenYeun;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : JoshMcDermitt;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : AlannaMasterson;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : SethGilliam;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : RossMarquand;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : SonequaMartinGreen;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : KatelynNacon;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : JeffreyDeanMorgan;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : EmilyKinney;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : CooperAndrews;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : LennieJames;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : LaurieHolden;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : MichaelCudlitz;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : KharyPayton;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : SarahWayneCallies;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : TomPayne;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : AviNash;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : ScottWilson;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : CallanMcAuliffe;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : JonBernthal;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : AustinAmelio;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : DavidMorrissey;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : CaileyFleming;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : JeffreyDeMunn;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : PollyannaMcIntosh;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : EleanorMatsuura;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : NadiaHilker;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : LaurenRidloff;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : MichaelRooker;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : AustinNichols;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : XanderBerkeley;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : StevenOgg;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : SamanthaMorton;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : ChadLColeman;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : AlexandraBreckenridge;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : CassadyMcClincy;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : TovahFeldshuh;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : LawrenceGilliardJr;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : RyanHurst;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : ThoraBirch;;
+                    
+                   
+                    The_Walking_Dead => nrel_actor : AndrewJWest;;
+                    
+                  
+                  
+                  The_Walking_Dead
+                  =>nrel_keywords: concept_detectif;;
+                  

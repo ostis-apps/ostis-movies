@@ -1,0 +1,127 @@
+
+                  concept_series -> Heroes;;
+              
+                  Heroes
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Герои]
+                    (* <- lang_ru;;	*);
+                    [Heroes]
+                    (* <- lang_en;;	*);;
+                  
+                  Heroes <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Герои)](*<-lang_ru;;*);
+                      [Description (Heroes)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Heroes_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Heroes_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Heroes <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Герои)](*<-lang_ru;;*);
+                      [Pic. (Heroes)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Heroes.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Heroes => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2006;;
+                  2006 => nrel_main_idtf : [2006 год](*<-lang_ru;;*);;
+                  2006 => nrel_main_idtf : [year of 2006](*<-lang_en;;*);;
+                  Heroes => nrel_production_year : 2006;;
+                  
+                  value -> 4;;
+                  Heroes => nrel_num_of_seasons: 4;;
+                  value -> 78;;
+                  Heroes => nrel_num_of_episodes: 78;;
+                  
+                  value -> 12;;
+                  Heroes => nrel_no_countries : 12;;
+                  
+                  value -> 5;;
+                  Heroes => nrel_viewers_in_millions: 5;;
+                  
+                  Heroes => nrel_age_rating: concept_PG12;;
+                  
+                    Heroes => nrel_actor : JackColeman;;
+                    
+                   
+                    Heroes => nrel_actor : HaydenPanettiere;;
+                    
+                   
+                    Heroes => nrel_actor : MiloVentimiglia;;
+                    
+                   
+                    Heroes => nrel_actor : MasiOka;;
+                    
+                   
+                    Heroes => nrel_actor : SendhilRamamurthy;;
+                    
+                   
+                    Heroes => nrel_actor : JamesKyson;;
+                    
+                   
+                    Heroes => nrel_actor : ZacharyQuinto;;
+                    
+                   
+                    Heroes => nrel_actor : AdrianPasdar;;
+                    
+                   
+                    Heroes => nrel_actor : GregGrunberg;;
+                    
+                   
+                    Heroes => nrel_actor : CristineRose;;
+                    
+                   
+                    Heroes => nrel_actor : NoahGrayCabey;;
+                    
+                   
+                    Heroes => nrel_actor : AliLarter;;
+                    
+                   
+                    Heroes => nrel_actor : AliLarter;;
+                    
+                   
+                    Heroes => nrel_actor : RobertKnepper;;
+                    
+                   
+                    Heroes => nrel_actor : LeonardRoberts;;
+                    
+                   
+                    Heroes => nrel_actor : SantiagoCabrera;;
+                    
+                   
+                    Heroes => nrel_actor : DavidAnders;;
+                    
+                   
+                    Heroes => nrel_actor : DaniaRamirez;;
+                    
+                   
+                    Heroes => nrel_actor : TawnyCypress;;
+                    
+                   
+                    Heroes => nrel_actor : KristenBell;;
+                    
+                   
+                    Heroes => nrel_actor : DanaDavis;;
+                    
+                  
+                  
+                  Heroes
+                  =>nrel_keywords: concept_detectif;;
+                  

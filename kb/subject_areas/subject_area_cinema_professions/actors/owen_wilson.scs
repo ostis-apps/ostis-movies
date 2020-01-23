@@ -1,0 +1,48 @@
+concept_human -> owen_wilson;;
+ 
+ owen_wilson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Оуэн Уилсон)](*<-lang_ru;;*);
+ 		[Description (Owen Wilson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/owen_wilson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ owen_wilson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Оуэн Уилсон)](*<-lang_ru;;*);
+ 		[Pic. (Owen Wilson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/owen_wilson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ owen_wilson => nrel_main_idtf : [Оуэн Уилсон](*<-lang_ru;;*);;
+ owen_wilson => nrel_main_idtf : [Owen Wilson](*<-lang_en;;*);;
+ 
+ 
+ owen_wilson => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Usa;;
+ owen_wilson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ owen_wilson => nrel_to_star_in : little_fockers;;
+little_fockers => nrel_main_idtf : [Little Fockers](*<-lang_en;;*);;
+little_fockers => nrel_main_idtf : [Знакомство с факерами 2](*<-lang_ru;;*);;
+owen_wilson => nrel_to_star_in : the_cable_guy;;
+the_cable_guy => nrel_main_idtf : [The Cable Guy](*<-lang_en;;*);;
+the_cable_guy => nrel_main_idtf : [Кабельщик](*<-lang_ru;;*);;
+

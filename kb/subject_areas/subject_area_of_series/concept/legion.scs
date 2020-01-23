@@ -1,0 +1,100 @@
+
+                  concept_series -> Legion;;
+              
+                  Legion
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Легион]
+                    (* <- lang_ru;;	*);
+                    [Legion]
+                    (* <- lang_en;;	*);;
+                  
+                  Legion <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Легион)](*<-lang_ru;;*);
+                      [Description (Legion)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Legion_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Legion_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Legion <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Легион)](*<-lang_ru;;*);
+                      [Pic. (Legion)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Legion.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Legion => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Legion => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  Legion => nrel_num_of_seasons: 3;;
+                  value -> 27;;
+                  Legion => nrel_num_of_episodes: 27;;
+                  
+                  value -> 4;;
+                  Legion => nrel_no_countries : 4;;
+                  
+                  value -> 6;;
+                  Legion => nrel_viewers_in_millions: 6;;
+                  
+                  Legion => nrel_age_rating: concept_PG12;;
+                  
+                    Legion => nrel_actor : AmberMidthunder;;
+                    
+                   
+                    Legion => nrel_actor : DanStevens;;
+                    
+                   
+                    Legion => nrel_actor : RachelKeller;;
+                    
+                   
+                    Legion => nrel_actor : BillIrwin;;
+                    
+                   
+                    Legion => nrel_actor : AubreyPlaza;;
+                    
+                   
+                    Legion => nrel_actor : JeanSmart;;
+                    
+                   
+                    Legion => nrel_actor : JeremieHarris;;
+                    
+                   
+                    Legion => nrel_actor : HamishLinklater;;
+                    
+                   
+                    Legion => nrel_actor : NavidNegahban;;
+                    
+                   
+                    Legion => nrel_actor : KatieAselton;;
+                    
+                   
+                    Legion => nrel_actor : JemaineClement;;
+                    
+                   
+                    Legion => nrel_actor : LaurenTsai;;
+                    
+                  
+                  
+                  Legion
+                  =>nrel_keywords: concept_detectif;;
+                  

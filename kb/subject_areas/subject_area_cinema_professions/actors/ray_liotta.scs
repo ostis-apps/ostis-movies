@@ -1,0 +1,60 @@
+concept_human -> ray_liotta;;
+ 
+ ray_liotta <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Рэй Лиотта)](*<-lang_ru;;*);
+ 		[Description (Ray Liotta)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ray_liotta_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ray_liotta <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Рэй Лиотта)](*<-lang_ru;;*);
+ 		[Pic. (Ray Liotta)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ray_liotta.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ray_liotta => nrel_main_idtf : [Рэй Лиотта](*<-lang_ru;;*);;
+ ray_liotta => nrel_main_idtf : [Ray Liotta](*<-lang_en;;*);;
+ 
+ 
+ ray_liotta => nrel_birth_date : 1955;;
+ 
+ concept_goverment -> Usa;;
+ ray_liotta => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ ray_liotta => nrel_to_star_in : sin_city_a_dame_to_kill_for;;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Sin City: A Dame to Kill For](*<-lang_en;;*);;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Город грехов 2: Женщина, ради которой стоит убивать](*<-lang_ru;;*);;
+ray_liotta => nrel_to_star_in : the_place_beyond_the_pines;;
+the_place_beyond_the_pines => nrel_main_idtf : [The Place Beyond the Pines](*<-lang_en;;*);;
+the_place_beyond_the_pines => nrel_main_idtf : [Место под соснами](*<-lang_ru;;*);;
+ray_liotta => nrel_to_star_in : killing_them_softly;;
+killing_them_softly => nrel_main_idtf : [Killing Them Softly](*<-lang_en;;*);;
+killing_them_softly => nrel_main_idtf : [Ограбление казино](*<-lang_ru;;*);;
+ray_liotta => nrel_to_star_in : revolver;;
+revolver => nrel_main_idtf : [Revolver](*<-lang_en;;*);;
+revolver => nrel_main_idtf : [Револьвер](*<-lang_ru;;*);;
+ray_liotta => nrel_to_star_in : blow;;
+blow => nrel_main_idtf : [Blow](*<-lang_en;;*);;
+blow => nrel_main_idtf : [Кокаин](*<-lang_ru;;*);;
+ray_liotta => nrel_to_star_in : cop_land;;
+cop_land => nrel_main_idtf : [Cop Land](*<-lang_en;;*);;
+cop_land => nrel_main_idtf : [Полицейские](*<-lang_ru;;*);;
+

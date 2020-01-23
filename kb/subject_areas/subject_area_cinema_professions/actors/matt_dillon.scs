@@ -1,0 +1,51 @@
+concept_human -> matt_dillon;;
+ 
+ matt_dillon <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэтт Диллон)](*<-lang_ru;;*);
+ 		[Description (Matt Dillon)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/matt_dillon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ matt_dillon <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэтт Диллон)](*<-lang_ru;;*);
+ 		[Pic. (Matt Dillon)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/matt_dillon.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ matt_dillon => nrel_main_idtf : [Мэтт Диллон](*<-lang_ru;;*);;
+ matt_dillon => nrel_main_idtf : [Matt Dillon](*<-lang_en;;*);;
+ 
+ 
+ matt_dillon => nrel_birth_date : 1964;;
+ 
+ concept_goverment -> Usa;;
+ matt_dillon => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ matt_dillon => nrel_to_star_in : the_house_that_jack_built;;
+the_house_that_jack_built => nrel_main_idtf : [The House That Jack Built](*<-lang_en;;*);;
+the_house_that_jack_built => nrel_main_idtf : [Дом, который построил Джек](*<-lang_ru;;*);;
+matt_dillon => nrel_to_star_in : theres_something_about_mary;;
+theres_something_about_mary => nrel_main_idtf : [There`s Something About Mary](*<-lang_en;;*);;
+theres_something_about_mary => nrel_main_idtf : [Все без ума от Мэри](*<-lang_ru;;*);;
+matt_dillon => nrel_to_star_in : rumble_fish;;
+rumble_fish => nrel_main_idtf : [Rumble Fish](*<-lang_en;;*);;
+rumble_fish => nrel_main_idtf : [Бойцовая рыбка](*<-lang_ru;;*);;
+

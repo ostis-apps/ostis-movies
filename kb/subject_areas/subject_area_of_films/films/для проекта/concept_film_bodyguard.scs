@@ -1,0 +1,32 @@
+concept_film_bodyguard
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Телохранитель киллера]
+	(* <- lang_ru;;	*);
+	[Bodyguard]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Телохранитель киллера)](*<-lang_ru;;*);
+		[Description (Bodyguard)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Телохранитель_киллера.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Bodyguard.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_bodyguard;
+=>nrel_keywords:concept_humor;
+=>nrel_keywords:concept_murders;
+=>nrel_keywords:concept_survival;
+=>nrel_age_rating: concept_PG18;;	

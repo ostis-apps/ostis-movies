@@ -1,0 +1,34 @@
+concept_horizontal_series
+<-sc_node_not_relation;
+<=nrel_inclusion: concept_series;
+=>nrel_main_idtf:
+	[горизонтальный сериал](*<-lang_ru;;*);
+	[horizontal series](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (горизонтальный сериал)](*<-lang_ru;;*);
+		[Def. (horizontal series)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_series;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_horizontal_series_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_horizontal_series_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (горизонтальный сериал)](*<-lang_ru;;*);
+		[Pic. (horizontal series)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/prison_break.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

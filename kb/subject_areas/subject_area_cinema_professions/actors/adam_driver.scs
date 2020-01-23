@@ -1,0 +1,48 @@
+concept_human -> adam_driver;;
+ 
+ adam_driver <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Адам Драйвер)](*<-lang_ru;;*);
+ 		[Description (Adam Driver)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/adam_driver_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ adam_driver <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Адам Драйвер)](*<-lang_ru;;*);
+ 		[Pic. (Adam Driver)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/adam_driver.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ adam_driver => nrel_main_idtf : [Адам Драйвер](*<-lang_ru;;*);;
+ adam_driver => nrel_main_idtf : [Adam Driver](*<-lang_en;;*);;
+ 
+ 
+ adam_driver => nrel_birth_date : 1983;;
+ 
+ concept_goverment -> Usa;;
+ adam_driver => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ adam_driver => nrel_to_star_in : the_man_who_killed_don_quixote;;
+the_man_who_killed_don_quixote => nrel_main_idtf : [The Man Who Killed Don Quixote](*<-lang_en;;*);;
+the_man_who_killed_don_quixote => nrel_main_idtf : [Человек, который убил Дон Кихота](*<-lang_ru;;*);;
+adam_driver => nrel_to_star_in : star_wars_the_last_jedi;;
+star_wars_the_last_jedi => nrel_main_idtf : [Star Wars: The Last Jedi](*<-lang_en;;*);;
+star_wars_the_last_jedi => nrel_main_idtf : [Звёздные Войны: Последние Джедаи](*<-lang_ru;;*);;
+

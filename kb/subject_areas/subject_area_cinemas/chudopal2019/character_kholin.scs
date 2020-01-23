@@ -1,0 +1,33 @@
+character_kholin
+        => nrel_main_idtf:
+	[Холин]
+	(* <- lang_ru;;	*);
+	[Kholin]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: valentin_zubkov;
+<- character;
+<- rrel_key_sc_element:...
+(*
+        <- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Холин)](* <- lang_ru;; *);
+		[Desctiption (Kholin)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+	        (*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_kholin">Холин</sc_element></b> — второстепенный персонаж фильма "Иваново детство" ухаживал за Иваном, а так же давал ему задания.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_kholin">Kholin</sc_element></b> —a minor character in the film "Ivan childhood" looked after Ivan, as well as gave him tasks.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+        <-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Холин)](*<-lang_ru;;*);
+		[Pic. (Kholin)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Kholin.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

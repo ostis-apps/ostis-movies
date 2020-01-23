@@ -1,0 +1,45 @@
+concept_human -> channing_tatum;;
+ 
+ channing_tatum <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Ченнинг Татум)](*<-lang_ru;;*);
+ 		[Description (Channing Tatum)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/channing_tatum_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ channing_tatum <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Ченнинг Татум)](*<-lang_ru;;*);
+ 		[Pic. (Channing Tatum)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/channing_tatum.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ channing_tatum => nrel_main_idtf : [Ченнинг Татум](*<-lang_ru;;*);;
+ channing_tatum => nrel_main_idtf : [Channing Tatum](*<-lang_en;;*);;
+ 
+ 
+ channing_tatum => nrel_birth_date : 1980;;
+ 
+ concept_goverment -> Usa;;
+ channing_tatum => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ channing_tatum => nrel_to_star_in : the_hateful_eight;;
+the_hateful_eight => nrel_main_idtf : [The Hateful Eight](*<-lang_en;;*);;
+the_hateful_eight => nrel_main_idtf : [Омерзительная восьмерка](*<-lang_ru;;*);;
+

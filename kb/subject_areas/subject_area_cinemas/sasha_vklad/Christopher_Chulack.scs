@@ -1,0 +1,50 @@
+concept_human -> Christopher_Chulack;;
+
+Christopher_Chulack
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кристофер Чулак]
+	(* <- lang_ru;;	*);
+	[Christopher Chulack]
+	(* <- lang_en;;	*);;
+	
+Christopher_Chulack <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кристофер Чулак)](*<-lang_ru;;*);
+		[Description (Christopher Chulack)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Christopher_Chulack_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Christopher_Chulack_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Christopher_Chulack <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кристофер Чулак)](*<-lang_ru;;*);
+		[Pic. (Christopher Chulack)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Christopher_Chulack.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1959;;
+Christopher_Chulack =>nrel_date_of_birth: 1959;;
+1959=>nrel_main_idtf:[1959 год](*<-lang_ru;;*);;
+1959=>nrel_main_idtf:[year of 1959](*<-lang_en;;*);;
+
+concept_calendar_date->1991;;
+Christopher_Chulack =>nrel_career_start_date: 1991;;
+1991=>nrel_main_idtf:[1991 год](*<-lang_ru;;*);;
+1991=>nrel_main_idtf:[year of 1991](*<-lang_en;;*);;
+
+Christopher_Chulack =>nrel_cityzenship: Usa;;

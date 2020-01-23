@@ -1,0 +1,57 @@
+concept_human -> amy_adams;;
+ 
+ amy_adams <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эми Адамс)](*<-lang_ru;;*);
+ 		[Description (Amy Adams)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/amy_adams_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ amy_adams <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эми Адамс)](*<-lang_ru;;*);
+ 		[Pic. (Amy Adams)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/amy_adams.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ amy_adams => nrel_main_idtf : [Эми Адамс](*<-lang_ru;;*);;
+ amy_adams => nrel_main_idtf : [Amy Adams](*<-lang_en;;*);;
+ 
+ 
+ amy_adams => nrel_birth_date : 1974;;
+ 
+ concept_goverment -> Italy;;
+ amy_adams => nrel_cityzenship : Italy;;
+ Italy => nrel_main_idtf : [Italy](*<-lang_en;;*);;
+ Italy => nrel_main_idtf : [Италия](*<-lang_ru;;*);;
+ 
+ amy_adams => nrel_to_star_in : vice;;
+vice => nrel_main_idtf : [Vice](*<-lang_en;;*);;
+vice => nrel_main_idtf : [Власть](*<-lang_ru;;*);;
+amy_adams => nrel_to_star_in : her;;
+her => nrel_main_idtf : [Her](*<-lang_en;;*);;
+her => nrel_main_idtf : [Она](*<-lang_ru;;*);;
+amy_adams => nrel_to_star_in : american_hustle;;
+american_hustle => nrel_main_idtf : [American Hustle](*<-lang_en;;*);;
+american_hustle => nrel_main_idtf : [Афера по-американски](*<-lang_ru;;*);;
+amy_adams => nrel_to_star_in : the_master;;
+the_master => nrel_main_idtf : [The Master](*<-lang_en;;*);;
+the_master => nrel_main_idtf : [Мастер](*<-lang_ru;;*);;
+amy_adams => nrel_to_star_in : catch_me_if_you_can;;
+catch_me_if_you_can => nrel_main_idtf : [Catch Me If You Can](*<-lang_en;;*);;
+catch_me_if_you_can => nrel_main_idtf : [Поймай меня, если сможешь](*<-lang_ru;;*);;
+

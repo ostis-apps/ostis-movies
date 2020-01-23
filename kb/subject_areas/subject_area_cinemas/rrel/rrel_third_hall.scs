@@ -1,0 +1,5 @@
+rrel_third_hall
+<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[третий зал'](*<-lang_ru;;*);
+	[third hall'](*<-lang_en;;*);;

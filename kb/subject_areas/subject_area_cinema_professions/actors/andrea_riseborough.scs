@@ -1,0 +1,48 @@
+concept_human -> andrea_riseborough;;
+ 
+ andrea_riseborough <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Андреа Райзборо)](*<-lang_ru;;*);
+ 		[Description (Andrea Riseborough)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/andrea_riseborough_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ andrea_riseborough <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Андреа Райзборо)](*<-lang_ru;;*);
+ 		[Pic. (Andrea Riseborough)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/andrea_riseborough.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ andrea_riseborough => nrel_main_idtf : [Андреа Райзборо](*<-lang_ru;;*);;
+ andrea_riseborough => nrel_main_idtf : [Andrea Riseborough](*<-lang_en;;*);;
+ 
+ 
+ andrea_riseborough => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> UK;;
+ andrea_riseborough => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ andrea_riseborough => nrel_to_star_in : mandy;;
+mandy => nrel_main_idtf : [Mandy](*<-lang_en;;*);;
+mandy => nrel_main_idtf : [Мэнди](*<-lang_ru;;*);;
+andrea_riseborough => nrel_to_star_in : black_mirror;;
+black_mirror => nrel_main_idtf : [Black Mirror](*<-lang_en;;*);;
+black_mirror => nrel_main_idtf : [Черное зеркало](*<-lang_ru;;*);;
+

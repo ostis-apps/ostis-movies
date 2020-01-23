@@ -1,0 +1,88 @@
+
+                  concept_series -> New_Girl;;
+              
+                  New_Girl
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Новая девушка]
+                    (* <- lang_ru;;	*);
+                    [New_Girl]
+                    (* <- lang_en;;	*);;
+                  
+                  New_Girl <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Новая девушка)](*<-lang_ru;;*);
+                      [Description (New_Girl)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/New_Girl_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/New_Girl_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  New_Girl <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Новая девушка)](*<-lang_ru;;*);
+                      [Pic. (New_Girl)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/New_Girl.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  New_Girl => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  New_Girl => nrel_production_year : 2011;;
+                  
+                  value -> 7;;
+                  New_Girl => nrel_num_of_seasons: 7;;
+                  value -> 146;;
+                  New_Girl => nrel_num_of_episodes: 146;;
+                  
+                  value -> 10;;
+                  New_Girl => nrel_no_countries : 10;;
+                  
+                  value -> 11;;
+                  New_Girl => nrel_viewers_in_millions: 11;;
+                  
+                  New_Girl => nrel_age_rating: concept_PG12;;
+                  
+                    New_Girl => nrel_actor : HannahSimone;;
+                    
+                   
+                    New_Girl => nrel_actor : ZooeyDeschanel;;
+                    
+                   
+                    New_Girl => nrel_actor : JakeJohnson;;
+                    
+                   
+                    New_Girl => nrel_actor : MaxGreenfield;;
+                    
+                   
+                    New_Girl => nrel_actor : LamorneMorris;;
+                    
+                   
+                    New_Girl => nrel_actor : DamonWayansJr;;
+                    
+                   
+                    New_Girl => nrel_actor : DanielleRockoff;;
+                    
+                   
+                    New_Girl => nrel_actor : RhiannonRockoff;;
+                    
+                  
+                  
+                  New_Girl
+                  =>nrel_keywords: concept_detectif;;
+                  

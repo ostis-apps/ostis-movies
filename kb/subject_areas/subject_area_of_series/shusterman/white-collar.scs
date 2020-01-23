@@ -1,0 +1,88 @@
+
+                  concept_series -> White_Collar;;
+              
+                  White_Collar
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Белый воротничок]
+                    (* <- lang_ru;;	*);
+                    [White_Collar]
+                    (* <- lang_en;;	*);;
+                  
+                  White_Collar <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Белый воротничок)](*<-lang_ru;;*);
+                      [Description (White_Collar)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/White_Collar_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/White_Collar_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  White_Collar <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Белый воротничок)](*<-lang_ru;;*);
+                      [Pic. (White_Collar)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/White_Collar.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  White_Collar => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2009;;
+                  2009 => nrel_main_idtf : [2009 год](*<-lang_ru;;*);;
+                  2009 => nrel_main_idtf : [year of 2009](*<-lang_en;;*);;
+                  White_Collar => nrel_production_year : 2009;;
+                  
+                  value -> 6;;
+                  White_Collar => nrel_num_of_seasons: 6;;
+                  value -> 81;;
+                  White_Collar => nrel_num_of_episodes: 81;;
+                  
+                  value -> 3;;
+                  White_Collar => nrel_no_countries : 3;;
+                  
+                  value -> 4;;
+                  White_Collar => nrel_viewers_in_millions: 4;;
+                  
+                  White_Collar => nrel_age_rating: concept_PG12;;
+                  
+                    White_Collar => nrel_actor : TimDeKay;;
+                    
+                   
+                    White_Collar => nrel_actor : SharifAtkins;;
+                    
+                   
+                    White_Collar => nrel_actor : MattBomer;;
+                    
+                   
+                    White_Collar => nrel_actor : WillieGarson;;
+                    
+                   
+                    White_Collar => nrel_actor : TiffaniThiessen;;
+                    
+                   
+                    White_Collar => nrel_actor : MarshaThomason;;
+                    
+                   
+                    White_Collar => nrel_actor : HilarieBurton;;
+                    
+                   
+                    White_Collar => nrel_actor : NatalieMorales;;
+                    
+                  
+                  
+                  White_Collar
+                  =>nrel_keywords: concept_detectif;;
+                  

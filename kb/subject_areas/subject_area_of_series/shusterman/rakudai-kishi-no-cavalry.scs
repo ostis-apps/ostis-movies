@@ -1,0 +1,106 @@
+
+                  concept_series -> Rakudai_Kishi_no_Cavalry;;
+              
+                  Rakudai_Kishi_no_Cavalry
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Неудача _ Kishimen _ _ Roh Cava LRY]
+                    (* <- lang_ru;;	*);
+                    [Rakudai_Kishi_no_Cavalry]
+                    (* <- lang_en;;	*);;
+                  
+                  Rakudai_Kishi_no_Cavalry <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Неудача _ Kishimen _ _ Roh Cava LRY)](*<-lang_ru;;*);
+                      [Description (Rakudai_Kishi_no_Cavalry)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Rakudai_Kishi_no_Cavalry_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Rakudai_Kishi_no_Cavalry_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Rakudai_Kishi_no_Cavalry <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Неудача _ Kishimen _ _ Roh Cava LRY)](*<-lang_ru;;*);
+                      [Pic. (Rakudai_Kishi_no_Cavalry)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Rakudai_Kishi_no_Cavalry.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Rakudai_Kishi_no_Cavalry => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Rakudai_Kishi_no_Cavalry => nrel_production_year : 2015;;
+                  
+                  value -> 1;;
+                  Rakudai_Kishi_no_Cavalry => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  Rakudai_Kishi_no_Cavalry => nrel_num_of_episodes: 12;;
+                  
+                  value -> 9;;
+                  Rakudai_Kishi_no_Cavalry => nrel_no_countries : 9;;
+                  
+                  value -> 4;;
+                  Rakudai_Kishi_no_Cavalry => nrel_viewers_in_millions: 4;;
+                  
+                  Rakudai_Kishi_no_Cavalry => nrel_age_rating: concept_PG12;;
+                  
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : KinryuArimoto;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : MarikoHigashiuchi;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : YoshitsuguMatsuoka;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : YoshimasaHosoya;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : YukaIguchi;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : ShintaroAsanuma;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : MaoIchimichi;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : HisakoKanemoto;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : ShizukaIshigami;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : YuKobayashi;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : Rytasaka;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : NaoTyama;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : MegumiHan;;
+                    
+                   
+                    Rakudai_Kishi_no_Cavalry => nrel_actor : IzumiKitta;;
+                    
+                  
+                  
+                  Rakudai_Kishi_no_Cavalry
+                  =>nrel_keywords: concept_detectif;;
+                  

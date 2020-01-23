@@ -1,0 +1,109 @@
+
+                  concept_series -> Marvels_Daredevil;;
+              
+                  Marvels_Daredevil
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Чуда Сорвиголова]
+                    (* <- lang_ru;;	*);
+                    [Marvels_Daredevil]
+                    (* <- lang_en;;	*);;
+                  
+                  Marvels_Daredevil <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Чуда Сорвиголова)](*<-lang_ru;;*);
+                      [Description (Marvels_Daredevil)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Marvel_s_Daredevil_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Marvel_s_Daredevil_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Marvels_Daredevil <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Чуда Сорвиголова)](*<-lang_ru;;*);
+                      [Pic. (Marvels_Daredevil)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Marvel_s_Daredevil.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Marvels_Daredevil => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Marvels_Daredevil => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Marvels_Daredevil => nrel_num_of_seasons: 3;;
+                  value -> 39;;
+                  Marvels_Daredevil => nrel_num_of_episodes: 39;;
+                  
+                  value -> 3;;
+                  Marvels_Daredevil => nrel_no_countries : 3;;
+                  
+                  value -> 6;;
+                  Marvels_Daredevil => nrel_viewers_in_millions: 6;;
+                  
+                  Marvels_Daredevil => nrel_age_rating: concept_PG12;;
+                  
+                    Marvels_Daredevil => nrel_actor : DeborahAnnWoll;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : CharlieCox;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : EldenHenson;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : VincentDOnofrio;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : JayAli;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : StephenRider;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : JonBernthal;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : AyeletZurer;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : WilsonBethel;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : ElodieYung;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : TobyLeonardMoore;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : BobGunton;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : JoanneWhalley;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : VondieCurtisHall;;
+                    
+                   
+                    Marvels_Daredevil => nrel_actor : RosarioDawson;;
+                    
+                  
+                  
+                  Marvels_Daredevil
+                  =>nrel_keywords: concept_detectif;;
+                  

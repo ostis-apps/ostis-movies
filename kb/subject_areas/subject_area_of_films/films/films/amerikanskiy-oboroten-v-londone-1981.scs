@@ -1,0 +1,67 @@
+film_amerikanskiy_oboroten_v_londone_1981
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американский оборотень в Лондоне]
+(* <- lang_ru;;    *);
+[An American Werewolf in London]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американский оборотень в Лондоне)](*<-lang_ru;;*);
+[Description (An American Werewolf in London)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskiy-oboroten-v-londone-1981_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskiy-oboroten-v-londone-1981_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американский оборотень в Лондоне)](*<-lang_ru;;*);
+		[Pic. (An American Werewolf in London)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskiy-oboroten-v-londone-1981.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [A masterpiece of terror See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [21.08.1981](*<-lang_ru;;*);;
+    => nrel_main_idtf : [21.08.1981](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H37M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H37M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_amerikanskiy_oboroten_v_londone_1981 =>nrel_keywords: film;;
+
+film_amerikanskiy_oboroten_v_londone_1981 <- concept_comedy;concept_horror;;
+
+film_amerikanskiy_oboroten_v_londone_1981 => nrel_main_actor : david_naughton;jenny_agutter;joe_belcher;griffin_dunne;;
+film_amerikanskiy_oboroten_v_londone_1981 => nrel_producer : john_landis;;

@@ -1,0 +1,67 @@
+film_bobbi_dzhons_geniy_udara_2004
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бобби Джонс: Гений удара]
+(* <- lang_ru;;    *);
+[Bobby Jones: Stroke of Genius]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бобби Джонс: Гений удара)](*<-lang_ru;;*);
+[Description (Bobby Jones: Stroke of Genius)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bobbi-dzhons-geniy-udara-2004_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bobbi-dzhons-geniy-udara-2004_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бобби Джонс: Гений удара)](*<-lang_ru;;*);
+		[Pic. (Bobby Jones: Stroke of Genius)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bobbi-dzhons-geniy-udara-2004.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [His passion made him a legend. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [30.04.2004](*<-lang_ru;;*);;
+    => nrel_main_idtf : [30.04.2004](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_bobbi_dzhons_geniy_udara_2004 =>nrel_keywords: film;;
+
+film_bobbi_dzhons_geniy_udara_2004 <- concept_biography;concept_drama;concept_romance;concept_sport;;
+
+film_bobbi_dzhons_geniy_udara_2004 => nrel_main_actor : jim_caviezel;claire_forlani;jeremy_northam;malcolm_mcdowell;;
+film_bobbi_dzhons_geniy_udara_2004 => nrel_producer : rowdy_herrington;;

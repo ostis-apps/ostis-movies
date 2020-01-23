@@ -1,0 +1,33 @@
+concept_silver_bear
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[серебряный медведь](*<-lang_ru;;*);
+	[silver bear](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (серебряный медведь)](*<-lang_ru;;*);
+		[Def. (silver bear)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_silver_bear;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_bear_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_bear_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Серебряный медведь)](*<-lang_ru;;*);
+		[Pic. (Silver bear)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/silver_bear.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,51 @@
+concept_human -> Felicity_Huffman;;
+
+Felicity_Huffman
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Фелисити Хаффман]
+	(* <- lang_ru;;	*);
+	[Felicity Kendall Huffman]
+	(* <- lang_en;;	*);;
+	
+Felicity_Huffman <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Фелисити Хаффман)](*<-lang_ru;;*);
+		[Description (Felicity Kendall Huffman)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Felicity_Huffman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Felicity_Huffman_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Felicity_Huffman <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Фелисити Хаффман)](*<-lang_ru;;*);
+		[Pic. (Felicity Kendall Huffman)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Felicity_Huffman.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1962;;
+Felicity_Huffman=>nrel_date_of_birth: 1962;;
+1962=>nrel_main_idtf:[1962 год](*<-lang_ru;;*);;
+1962=>nrel_main_idtf:[year of 1962](*<-lang_en;;*);;
+
+concept_calendar_date->1978;;
+Felicity_Huffman=>nrel_career_start_date: 1978;;
+1978=>nrel_main_idtf:[1978 год](*<-lang_ru;;*);;
+1978=>nrel_main_idtf:[year of 1978](*<-lang_en;;*);;
+
+Felicity_Huffman =>nrel_cityzenship:Usa;;
+

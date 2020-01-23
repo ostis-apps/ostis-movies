@@ -1,0 +1,91 @@
+
+                  concept_series -> The_Mandalorian;;
+              
+                  The_Mandalorian
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Mandalorian]
+                    (* <- lang_ru;;	*);
+                    [The_Mandalorian]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Mandalorian <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Mandalorian)](*<-lang_ru;;*);
+                      [Description (The_Mandalorian)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Mandalorian_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Mandalorian_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Mandalorian <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Mandalorian)](*<-lang_ru;;*);
+                      [Pic. (The_Mandalorian)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Mandalorian.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Mandalorian => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  The_Mandalorian => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  The_Mandalorian => nrel_num_of_seasons: 1;;
+                  value -> 8;;
+                  The_Mandalorian => nrel_num_of_episodes: 8;;
+                  
+                  value -> 7;;
+                  The_Mandalorian => nrel_no_countries : 7;;
+                  
+                  value -> 8;;
+                  The_Mandalorian => nrel_viewers_in_millions: 8;;
+                  
+                  The_Mandalorian => nrel_age_rating: concept_PG12;;
+                  
+                    The_Mandalorian => nrel_actor : PedroPascal;;
+                    
+                   
+                    The_Mandalorian => nrel_actor : NickNolte;;
+                    
+                   
+                    The_Mandalorian => nrel_actor : TaikaWaititi;;
+                    
+                   
+                    The_Mandalorian => nrel_actor : OmidAbtahi;;
+                    
+                   
+                    The_Mandalorian => nrel_actor : WernerHerzog;;
+                    
+                   
+                    The_Mandalorian => nrel_actor : CarlWeathers;;
+                    
+                   
+                    The_Mandalorian => nrel_actor : GiancarloEsposito;;
+                    
+                   
+                    The_Mandalorian => nrel_actor : MingNaWen;;
+                    
+                   
+                    The_Mandalorian => nrel_actor : GinaCarano;;
+                    
+                  
+                  
+                  The_Mandalorian
+                  =>nrel_keywords: concept_detectif;;
+                  

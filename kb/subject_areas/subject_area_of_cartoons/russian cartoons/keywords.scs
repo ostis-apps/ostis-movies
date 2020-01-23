@@ -1,0 +1,356 @@
+concept_adventure
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Приключения]
+(* <- lang_ru;;	*);
+[Adventure]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_superhero
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Супергерой]
+(* <- lang_ru;;	*);
+[Superhero]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_kids
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Дети]
+(* <- lang_ru;;	*);
+[Kids]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_fantasy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Фэнтези]
+(* <- lang_ru;;	*);
+[Fantasy]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_crime
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Преступность]
+(* <- lang_ru;;	*);
+[Crime]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_animals
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Животные]
+(* <- lang_ru;;	*);
+[Animals]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_magic
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Магия]
+(* <- lang_ru;;	*);
+[Magic]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_princess
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Принцесса]
+(* <- lang_ru;;	*);
+[Princess]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_cars
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Машины]
+(* <- lang_ru;;	*);
+[Cars]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_race
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Гонка]
+(* <- lang_ru;;	*);
+[Race]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_pirates
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Пираты]
+(* <- lang_ru;;	*);
+[Pirates]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_survival
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Выживание]
+(* <- lang_ru;;	*);
+[Survival]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_christmas
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Рождество]
+(* <- lang_ru;;	*);
+[Christmas]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_holiday
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Праздник]
+(* <- lang_ru;;	*);
+[Holiday]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_gangsters
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Гангстеры]
+(* <- lang_ru;;	*);
+[Gangsters]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_mafia
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Мафия]
+(* <- lang_ru;;	*);
+[Mafia]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_future
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Будущее]
+(* <- lang_ru;;	*);
+[Future]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_dystopia
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Антиутопия]
+(* <- lang_ru;;	*);
+[Dystopia]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_drugs
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Наркотики]
+(* <- lang_ru;;	*);
+[Drugs]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_robot
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Робот]
+(* <- lang_ru;;	*);
+[Robot]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_cyborg
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Киборг]
+(* <- lang_ru;;	*);
+[Cyborg]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_office
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Офис]
+(* <- lang_ru;;	*);
+[Office]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_king
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Король]
+(* <- lang_ru;;	*);
+[King]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_astronaut
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Астронавт]
+(* <- lang_ru;;	*);
+[Astronaut]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_space
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Космос]
+(* <- lang_ru;;	*);
+[Space]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_soldier
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Солдат]
+(* <- lang_ru;;	*);
+[Soldier]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_nature
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Природа]
+(* <- lang_ru;;	*);
+[Nature]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_winter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Зима	]
+(* <- lang_ru;;	*);
+[Winter]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_witch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Ведьма]
+(* <- lang_ru;;	*);
+[Witch]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_black_magic
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Черная магия]
+(* <- lang_ru;;	*);
+[Black Magic]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_vacation
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Каникулы]
+(* <- lang_ru;;	*);
+[Vacation]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_family
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Семья]
+(* <- lang_ru;;	*);
+[Family]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_trip
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Путешествие]
+(* <- lang_ru;;	*);
+[Trip]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+film_chelovek_kotoryy_byl_supermenom_2008
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Человек, который был суперменом]
+(* <- lang_ru;;    *);
+[Shupeomaenyieotdeon sanai / A Man Who Was Superman]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Человек, который был суперменом)](*<-lang_ru;;*);
+[Description (Shupeomaenyieotdeon sanai / A Man Who Was Superman)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chelovek-kotoryy-byl-supermenom-2008_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chelovek-kotoryy-byl-supermenom-2008_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Человек, который был суперменом)](*<-lang_ru;;*);
+		[Pic. (Shupeomaenyieotdeon sanai / A Man Who Was Superman)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chelovek-kotoryy-byl-supermenom-2008.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : south_korea;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Shupeomaenyieotdeon sanai / A Man Who Was Superman](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [31.01.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [31.01.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H42M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H42M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_chelovek_kotoryy_byl_supermenom_2008 =>nrel_keywords: film;;
+
+film_chelovek_kotoryy_byl_supermenom_2008 <- concept_comedy;concept_drama;;
+
+film_chelovek_kotoryy_byl_supermenom_2008 => nrel_main_actor : jung_min_hwang;ji_hyun_jun;gil_seung_bang;woo_hyuk_choi;;
+film_chelovek_kotoryy_byl_supermenom_2008 => nrel_producer : yoon_chul_jung;;

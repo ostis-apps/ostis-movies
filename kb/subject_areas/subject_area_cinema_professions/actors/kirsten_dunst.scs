@@ -1,0 +1,51 @@
+concept_human -> kirsten_dunst;;
+ 
+ kirsten_dunst <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кирстен Данст)](*<-lang_ru;;*);
+ 		[Description (Kirsten Dunst)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kirsten_dunst_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kirsten_dunst <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кирстен Данст)](*<-lang_ru;;*);
+ 		[Pic. (Kirsten Dunst)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kirsten_dunst.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kirsten_dunst => nrel_main_idtf : [Кирстен Данст](*<-lang_ru;;*);;
+ kirsten_dunst => nrel_main_idtf : [Kirsten Dunst](*<-lang_en;;*);;
+ 
+ 
+ kirsten_dunst => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> Usa;;
+ kirsten_dunst => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kirsten_dunst => nrel_to_star_in : eternal_sunshine_of_the_spotless_mind;;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Eternal Sunshine of the Spotless Mind](*<-lang_en;;*);;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Вечное сияние чистого разума](*<-lang_ru;;*);;
+kirsten_dunst => nrel_to_star_in : spiderman;;
+spiderman => nrel_main_idtf : [Spider-Man](*<-lang_en;;*);;
+spiderman => nrel_main_idtf : [Человек-паук](*<-lang_ru;;*);;
+kirsten_dunst => nrel_to_star_in : interview_with_the_vampire_the_vampire_chronicles;;
+interview_with_the_vampire_the_vampire_chronicles => nrel_main_idtf : [Interview with the Vampire: The Vampire Chronicles](*<-lang_en;;*);;
+interview_with_the_vampire_the_vampire_chronicles => nrel_main_idtf : [Интервью с вампиром](*<-lang_ru;;*);;
+

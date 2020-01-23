@@ -1,0 +1,51 @@
+concept_human -> ben_affleck;;
+ 
+ ben_affleck <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Бен Аффлек)](*<-lang_ru;;*);
+ 		[Description (Ben Affleck)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ben_affleck_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ben_affleck <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Бен Аффлек)](*<-lang_ru;;*);
+ 		[Pic. (Ben Affleck)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ben_affleck.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ben_affleck => nrel_main_idtf : [Бен Аффлек](*<-lang_ru;;*);;
+ ben_affleck => nrel_main_idtf : [Ben Affleck](*<-lang_en;;*);;
+ 
+ 
+ ben_affleck => nrel_birth_date : 1972;;
+ 
+ concept_goverment -> Usa;;
+ ben_affleck => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ ben_affleck => nrel_to_star_in : suicide_squad;;
+suicide_squad => nrel_main_idtf : [Suicide Squad](*<-lang_en;;*);;
+suicide_squad => nrel_main_idtf : [Отряд самоубийц](*<-lang_ru;;*);;
+ben_affleck => nrel_to_star_in : gone_girl;;
+gone_girl => nrel_main_idtf : [Gone Girl](*<-lang_en;;*);;
+gone_girl => nrel_main_idtf : [Исчезнувшая](*<-lang_ru;;*);;
+ben_affleck => nrel_to_star_in : boiler_room;;
+boiler_room => nrel_main_idtf : [Boiler Room](*<-lang_en;;*);;
+boiler_room => nrel_main_idtf : [Бойлерная](*<-lang_ru;;*);;
+

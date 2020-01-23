@@ -1,0 +1,51 @@
+concept_human -> julia_roberts;;
+ 
+ julia_roberts <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джулия Робертс)](*<-lang_ru;;*);
+ 		[Description (Julia Roberts)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/julia_roberts_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ julia_roberts <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джулия Робертс)](*<-lang_ru;;*);
+ 		[Pic. (Julia Roberts)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/julia_roberts.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ julia_roberts => nrel_main_idtf : [Джулия Робертс](*<-lang_ru;;*);;
+ julia_roberts => nrel_main_idtf : [Julia Roberts](*<-lang_en;;*);;
+ 
+ 
+ julia_roberts => nrel_birth_date : 1967;;
+ 
+ concept_goverment -> Usa;;
+ julia_roberts => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ julia_roberts => nrel_to_star_in : oceans_twelve;;
+oceans_twelve => nrel_main_idtf : [Ocean`s Twelve](*<-lang_en;;*);;
+oceans_twelve => nrel_main_idtf : [Двенадцать друзей Оушена](*<-lang_ru;;*);;
+julia_roberts => nrel_to_star_in : oceans_eleven;;
+oceans_eleven => nrel_main_idtf : [Ocean`s Eleven](*<-lang_en;;*);;
+oceans_eleven => nrel_main_idtf : [Одиннадцать друзей Оушена](*<-lang_ru;;*);;
+julia_roberts => nrel_to_star_in : my_best_friends_wedding;;
+my_best_friends_wedding => nrel_main_idtf : [My Best Friend's Wedding](*<-lang_en;;*);;
+my_best_friends_wedding => nrel_main_idtf : [Свадьба лучшего друга](*<-lang_ru;;*);;
+

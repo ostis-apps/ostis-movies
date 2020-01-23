@@ -1,0 +1,85 @@
+
+                  concept_series -> Person_of_Interest;;
+              
+                  Person_of_Interest
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Person_of_Interest]
+                    (* <- lang_ru;;	*);
+                    [Person_of_Interest]
+                    (* <- lang_en;;	*);;
+                  
+                  Person_of_Interest <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Person_of_Interest)](*<-lang_ru;;*);
+                      [Description (Person_of_Interest)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Person_of_Interest_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Person_of_Interest_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Person_of_Interest <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Person_of_Interest)](*<-lang_ru;;*);
+                      [Pic. (Person_of_Interest)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Person_of_Interest.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Person_of_Interest => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  Person_of_Interest => nrel_production_year : 2011;;
+                  
+                  value -> 5;;
+                  Person_of_Interest => nrel_num_of_seasons: 5;;
+                  value -> 103;;
+                  Person_of_Interest => nrel_num_of_episodes: 103;;
+                  
+                  value -> 6;;
+                  Person_of_Interest => nrel_no_countries : 6;;
+                  
+                  value -> 12;;
+                  Person_of_Interest => nrel_viewers_in_millions: 12;;
+                  
+                  Person_of_Interest => nrel_age_rating: concept_PG12;;
+                  
+                    Person_of_Interest => nrel_actor : MichaelEmerson;;
+                    
+                   
+                    Person_of_Interest => nrel_actor : JamesCaviezel;;
+                    
+                   
+                    Person_of_Interest => nrel_actor : KevinChapman;;
+                    
+                   
+                    Person_of_Interest => nrel_actor : TarajiPHenson;;
+                    
+                   
+                    Person_of_Interest => nrel_actor : AmyAcker;;
+                    
+                   
+                    Person_of_Interest => nrel_actor : SarahShahi;;
+                    
+                   
+                    Person_of_Interest => nrel_actor : AmyAcker;;
+                    
+                  
+                  
+                  Person_of_Interest
+                  =>nrel_keywords: concept_detectif;;
+                  

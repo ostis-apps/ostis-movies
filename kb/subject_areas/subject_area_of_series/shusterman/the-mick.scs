@@ -1,0 +1,82 @@
+
+                  concept_series -> The_Mick;;
+              
+                  The_Mick
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Mick]
+                    (* <- lang_ru;;	*);
+                    [The_Mick]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Mick <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Mick)](*<-lang_ru;;*);
+                      [Description (The_Mick)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Mick_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Mick_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Mick <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Mick)](*<-lang_ru;;*);
+                      [Pic. (The_Mick)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Mick.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Mick => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  The_Mick => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  The_Mick => nrel_num_of_seasons: 2;;
+                  value -> 37;;
+                  The_Mick => nrel_num_of_episodes: 37;;
+                  
+                  value -> 14;;
+                  The_Mick => nrel_no_countries : 14;;
+                  
+                  value -> 7;;
+                  The_Mick => nrel_viewers_in_millions: 7;;
+                  
+                  The_Mick => nrel_age_rating: concept_PG12;;
+                  
+                    The_Mick => nrel_actor : ThomasBarbusca;;
+                    
+                   
+                    The_Mick => nrel_actor : KaitlinOlson;;
+                    
+                   
+                    The_Mick => nrel_actor : SofiaBlackDElia;;
+                    
+                   
+                    The_Mick => nrel_actor : JackStanton;;
+                    
+                   
+                    The_Mick => nrel_actor : CarlaJimenez;;
+                    
+                   
+                    The_Mick => nrel_actor : ScottMacArthur;;
+                    
+                  
+                  
+                  The_Mick
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,72 @@
+concept_film -> 3_day_for_escape;;
+
+3_day_for_escape
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[3 дня на побег]
+	(* <- lang_ru;;	*);
+	[3 days for escape]
+	(* <- lang_en;;	*);;
+	
+3_day_for_escape <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (3 дня на побег)](*<-lang_ru;;*);
+		[Description (3 days for escape)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/3day_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/3day_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+3_day_for_escape <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (3 дня на побег)](*<-lang_ru;;*);
+		[Pic. (3 days for escape)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/3day.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+3_day_for_escape => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 15_03_2010;;
+15_03_2010 => nrel_main_idtf : [15.03.2010](*<-lang_ru;;*);;
+15_03_2010 => nrel_main_idtf : [15.03.2010](*<-lang_en;;*);;
+3_day_for_escape => nrel_release_date : 15_03_2010;;
+
+3_day_for_escape => nrel_tagline_of_film : slogan_3day;;
+slogan_3day => nrel_main_idtf : [Все ради нее](*<-lang_ru;;*);;
+slogan_3day => nrel_main_idtf : [All for the sake of it](*<-lang_en;;*);;
+
+3_day_for_escape => nrel_duration_of_showing : 2_13;;
+
+duration -> 2_13;;
+2_13 => nrel_main_idtf : [2 часа и 13 минут](*<-lang_ru;;*);;
+2_13 => nrel_main_idtf : [2 hour and 13 minutes](*<-lang_en;;*);;
+
+value -> 62_700_000;;
+62_700_000 => nrel_main_idtf : [62 700 000$](*<-lang_ru;;*);;
+62_700_000 => nrel_main_idtf : [62 700 000$](*<-lang_en;;*);;
+3_day_for_escape <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 62_700_000;;   
+*);;
+
+3_day_for_escape => nrel_film_critic_rating : 8;;
+
+3_day_for_escape =>nrel_keywords: action;thriller;drama;;
+3_day_for_escape =>nrel_age_rating: concept_PG12;;
+
+3_day_for_escape => nrel_main_actor : Nisson;Kroy;;
+3_day_for_escape => nrel_producer : Nozik;;
+3_day_for_escape => nrel_screenwriter : Hagims;;
+

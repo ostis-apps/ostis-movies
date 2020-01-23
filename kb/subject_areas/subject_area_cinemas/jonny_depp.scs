@@ -1,0 +1,10 @@
+jonny_depp
+=> nrel_main_idtf:
+	[Джонни Депп]
+	(* <- lang_ru;;	*);
+	[Jonny Depp]
+	(* <- lang_en;;	*);
+<- concept_human;
+<= nrel_actor_of_genre: concept_comedy;;
+
+

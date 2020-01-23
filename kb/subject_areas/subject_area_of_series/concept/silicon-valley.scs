@@ -1,0 +1,103 @@
+
+                  concept_series -> Silicon_Valley;;
+              
+                  Silicon_Valley
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Силиконовая долина]
+                    (* <- lang_ru;;	*);
+                    [Silicon_Valley]
+                    (* <- lang_en;;	*);;
+                  
+                  Silicon_Valley <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Силиконовая долина)](*<-lang_ru;;*);
+                      [Description (Silicon_Valley)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Silicon_Valley_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Silicon_Valley_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Silicon_Valley <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Силиконовая долина)](*<-lang_ru;;*);
+                      [Pic. (Silicon_Valley)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Silicon_Valley.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Silicon_Valley => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Silicon_Valley => nrel_production_year : 2014;;
+                  
+                  value -> 6;;
+                  Silicon_Valley => nrel_num_of_seasons: 6;;
+                  value -> 53;;
+                  Silicon_Valley => nrel_num_of_episodes: 53;;
+                  
+                  value -> 8;;
+                  Silicon_Valley => nrel_no_countries : 8;;
+                  
+                  value -> 4;;
+                  Silicon_Valley => nrel_viewers_in_millions: 4;;
+                  
+                  Silicon_Valley => nrel_age_rating: concept_PG12;;
+                  
+                    Silicon_Valley => nrel_actor : ZachWoods;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : KumailNanjiani;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : ThomasMiddleditch;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : MartinStarr;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : MattRoss;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : AmandaCrew;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : TJMiller;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : JoshBrener;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : JimmyOYang;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : SuzanneCryer;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : ChrisDiamantopoulos;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : StephenTobolowsky;;
+                    
+                   
+                    Silicon_Valley => nrel_actor : ChristopherEvanWelch;;
+                    
+                  
+                  
+                  Silicon_Valley
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,75 @@
+concept_human -> laurence_fishburne;;
+ 
+ laurence_fishburne <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Лоуренс Фишборн)](*<-lang_ru;;*);
+ 		[Description (Laurence Fishburne)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/laurence_fishburne_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ laurence_fishburne <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Лоуренс Фишборн)](*<-lang_ru;;*);
+ 		[Pic. (Laurence Fishburne)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/laurence_fishburne.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ laurence_fishburne => nrel_main_idtf : [Лоуренс Фишборн](*<-lang_ru;;*);;
+ laurence_fishburne => nrel_main_idtf : [Laurence Fishburne](*<-lang_en;;*);;
+ 
+ 
+ laurence_fishburne => nrel_birth_date : 1961;;
+ 
+ concept_goverment -> Usa;;
+ laurence_fishburne => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ laurence_fishburne => nrel_to_star_in : john_wick_chapter_3__parabellum;;
+john_wick_chapter_3__parabellum => nrel_main_idtf : [John Wick: Chapter 3 - Parabellum](*<-lang_en;;*);;
+john_wick_chapter_3__parabellum => nrel_main_idtf : [Джон Уик 3: Парабеллум](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : antman_and_the_wasp;;
+antman_and_the_wasp => nrel_main_idtf : [Ant-Man and the Wasp](*<-lang_en;;*);;
+antman_and_the_wasp => nrel_main_idtf : [Человек-Муравей и Оса](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : the_mule;;
+the_mule => nrel_main_idtf : [The Mule](*<-lang_en;;*);;
+the_mule => nrel_main_idtf : [Наркокурьер](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : john_wick_chapter_2;;
+john_wick_chapter_2 => nrel_main_idtf : [John Wick: Chapter 2](*<-lang_en;;*);;
+john_wick_chapter_2 => nrel_main_idtf : [Джон Уик 2](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : passengers;;
+passengers => nrel_main_idtf : [Passengers](*<-lang_en;;*);;
+passengers => nrel_main_idtf : [Пассажиры](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : 4_rise_of_the_silver_surfer;;
+4_rise_of_the_silver_surfer => nrel_main_idtf : [4: Rise of the Silver Surfer](*<-lang_en;;*);;
+4_rise_of_the_silver_surfer => nrel_main_idtf : [Фантастическая четверка 2: Вторжение Серебряного Серфера](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : the_matrix_reloaded;;
+the_matrix_reloaded => nrel_main_idtf : [The Matrix Reloaded](*<-lang_en;;*);;
+the_matrix_reloaded => nrel_main_idtf : [Матрица: Перезагрузка](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : the_matrix_revolutions;;
+the_matrix_revolutions => nrel_main_idtf : [The Matrix Revolutions](*<-lang_en;;*);;
+the_matrix_revolutions => nrel_main_idtf : [Матрица: Революция](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : the_matrix;;
+the_matrix => nrel_main_idtf : [The Matrix](*<-lang_en;;*);;
+the_matrix => nrel_main_idtf : [Матрица](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : red_heat;;
+red_heat => nrel_main_idtf : [Red Heat](*<-lang_en;;*);;
+red_heat => nrel_main_idtf : [Красная жара](*<-lang_ru;;*);;
+laurence_fishburne => nrel_to_star_in : rumble_fish;;
+rumble_fish => nrel_main_idtf : [Rumble Fish](*<-lang_en;;*);;
+rumble_fish => nrel_main_idtf : [Бойцовая рыбка](*<-lang_ru;;*);;
+

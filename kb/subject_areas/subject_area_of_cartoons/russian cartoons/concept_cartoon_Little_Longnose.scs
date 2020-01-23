@@ -1,0 +1,44 @@
+concept_cartoon_Little_Longnose
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Карлик Нос]
+	(* <- lang_ru;;	*);
+	[Little Longnose]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Карлик Нос)](*<-lang_ru;;*);
+		[Description (Little Longnose)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Little Longnose_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Little Longnose_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Карлик Нос)](*<-lang_ru;;*);
+		[Pic. (Little Longnose)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Little Longnose.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_nature;
+=>nrel_keywords: concept_witch;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

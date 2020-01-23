@@ -1,0 +1,9 @@
+paul_wesley
+=> nrel_main_idtf:
+	[Пол Уэсли]
+	(* <- lang_ru;;	*);
+	[Paul Wesley]
+	(* <- lang_en;;	*);
+<- concept_human;
+<= nrel_actor_of_genre: concept_drama;
+<= nrel_actor_of_genre: concept_detective;;

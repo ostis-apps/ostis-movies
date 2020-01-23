@@ -1,0 +1,48 @@
+concept_human -> daniel_craig;;
+ 
+ daniel_craig <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэниел Крэйг)](*<-lang_ru;;*);
+ 		[Description (Daniel Craig)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/daniel_craig_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ daniel_craig <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэниел Крэйг)](*<-lang_ru;;*);
+ 		[Pic. (Daniel Craig)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/daniel_craig.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ daniel_craig => nrel_main_idtf : [Дэниел Крэйг](*<-lang_ru;;*);;
+ daniel_craig => nrel_main_idtf : [Daniel Craig](*<-lang_en;;*);;
+ 
+ 
+ daniel_craig => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> UK;;
+ daniel_craig => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ daniel_craig => nrel_to_star_in : layer_cake;;
+layer_cake => nrel_main_idtf : [Layer Cake](*<-lang_en;;*);;
+layer_cake => nrel_main_idtf : [Слоеный торт](*<-lang_ru;;*);;
+daniel_craig => nrel_to_star_in : lara_croft_tomb_raider;;
+lara_croft_tomb_raider => nrel_main_idtf : [Lara Croft: Tomb Raider](*<-lang_en;;*);;
+lara_croft_tomb_raider => nrel_main_idtf : [Лара Крофт: Расхитительница гробниц](*<-lang_ru;;*);;
+

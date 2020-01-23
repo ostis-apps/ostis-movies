@@ -1,0 +1,67 @@
+concept_series -> Friday_night_lights;;
+
+Friday_night_lights
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[В лучах славы]
+	(* <- lang_ru;;	*);
+	[Friday night lights]
+	(* <- lang_en;;	*);;
+
+Friday_night_lights <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (В лучах славы)](*<-lang_ru;;*);
+		[Description (Friday night lights)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Friday_night_lights_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Friday_night_lights_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Friday_night_lights <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (В лучах славы)](*<-lang_ru;;*);
+		[Pic. (Friday night lights)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Friday_night_lights.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+Friday_night_lights => nrel_production : Usa;;
+
+concept_calendar_date -> 2004;;
+2004 => nrel_main_idtf : [2004 год](*<-lang_ru;;*);;
+2004 => nrel_main_idtf : [year of 2004](*<-lang_en;;*);;
+Friday_night_lights => nrel_production_year : 2004;;
+	
+value -> 2;;
+Friday_night_lights => nrel_num_of_seasons: 2;;
+value -> 20;;
+Friday_night_lights => nrel_num_of_episodes: 20;;
+	
+value -> 40;;
+Friday_night_lights => nrel_no_countries : 40;;
+
+value -> 5;;
+Friday_night_lights => nrel_viewers_in_millions: 5;;
+
+Friday_night_lights => nrel_age_rating: concept_PG12;;
+
+Friday_night_lights => nrel_actor : Billy_Bob_Thornton;;
+Friday_night_lights => nrel_producer : Peter_Berg;;
+
+Friday_night_lights
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_sport;;
+
+

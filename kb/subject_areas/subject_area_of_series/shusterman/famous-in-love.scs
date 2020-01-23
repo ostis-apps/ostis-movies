@@ -1,0 +1,88 @@
+
+                  concept_series -> Famous_in_Love;;
+              
+                  Famous_in_Love
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Famous_in_Love]
+                    (* <- lang_ru;;	*);
+                    [Famous_in_Love]
+                    (* <- lang_en;;	*);;
+                  
+                  Famous_in_Love <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Famous_in_Love)](*<-lang_ru;;*);
+                      [Description (Famous_in_Love)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Famous_in_Love_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Famous_in_Love_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Famous_in_Love <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Famous_in_Love)](*<-lang_ru;;*);
+                      [Pic. (Famous_in_Love)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Famous_in_Love.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Famous_in_Love => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Famous_in_Love => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  Famous_in_Love => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  Famous_in_Love => nrel_num_of_episodes: 20;;
+                  
+                  value -> 12;;
+                  Famous_in_Love => nrel_no_countries : 12;;
+                  
+                  value -> 8;;
+                  Famous_in_Love => nrel_viewers_in_millions: 8;;
+                  
+                  Famous_in_Love => nrel_age_rating: concept_PG12;;
+                  
+                    Famous_in_Love => nrel_actor : PepiSonuga;;
+                    
+                   
+                    Famous_in_Love => nrel_actor : CarterJenkins;;
+                    
+                   
+                    Famous_in_Love => nrel_actor : KeithPowers;;
+                    
+                   
+                    Famous_in_Love => nrel_actor : BellaThorne;;
+                    
+                   
+                    Famous_in_Love => nrel_actor : CharlieDepew;;
+                    
+                   
+                    Famous_in_Love => nrel_actor : NikiKoss;;
+                    
+                   
+                    Famous_in_Love => nrel_actor : PerreyReeves;;
+                    
+                   
+                    Famous_in_Love => nrel_actor : GeorgieFlores;;
+                    
+                  
+                  
+                  Famous_in_Love
+                  =>nrel_keywords: concept_detectif;;
+                  

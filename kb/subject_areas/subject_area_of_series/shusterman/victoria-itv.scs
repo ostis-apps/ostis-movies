@@ -1,0 +1,67 @@
+
+                  concept_series -> Victoria_Wood:_As_Seen_on_TV;;
+              
+                  Victoria_Wood:_As_Seen_on_TV
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Victoria_Wood: _As_Seen_on_TV]
+                    (* <- lang_ru;;	*);
+                    [Victoria_Wood:_As_Seen_on_TV]
+                    (* <- lang_en;;	*);;
+                  
+                  Victoria_Wood:_As_Seen_on_TV <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Victoria_Wood: _As_Seen_on_TV)](*<-lang_ru;;*);
+                      [Description (Victoria_Wood:_As_Seen_on_TV)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Victoria_Wood:_As_Seen_on_TV_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Victoria_Wood:_As_Seen_on_TV_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Victoria_Wood:_As_Seen_on_TV <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Victoria_Wood: _As_Seen_on_TV)](*<-lang_ru;;*);
+                      [Pic. (Victoria_Wood:_As_Seen_on_TV)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Victoria_Wood:_As_Seen_on_TV.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Victoria_Wood:_As_Seen_on_TV => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 1985;;
+                  1985 => nrel_main_idtf : [1985 год](*<-lang_ru;;*);;
+                  1985 => nrel_main_idtf : [year of 1985](*<-lang_en;;*);;
+                  Victoria_Wood:_As_Seen_on_TV => nrel_production_year : 1985;;
+                  
+                  value -> 2;;
+                  Victoria_Wood:_As_Seen_on_TV => nrel_num_of_seasons: 2;;
+                  value -> 13;;
+                  Victoria_Wood:_As_Seen_on_TV => nrel_num_of_episodes: 13;;
+                  
+                  value -> 12;;
+                  Victoria_Wood:_As_Seen_on_TV => nrel_no_countries : 12;;
+                  
+                  value -> 10;;
+                  Victoria_Wood:_As_Seen_on_TV => nrel_viewers_in_millions: 10;;
+                  
+                  Victoria_Wood:_As_Seen_on_TV => nrel_age_rating: concept_PG12;;
+                  
+                    Victoria_Wood:_As_Seen_on_TV => nrel_actor : VictoriaWood;;
+                    
+                  
+                  
+                  Victoria_Wood:_As_Seen_on_TV
+                  =>nrel_keywords: concept_detectif;;
+                  

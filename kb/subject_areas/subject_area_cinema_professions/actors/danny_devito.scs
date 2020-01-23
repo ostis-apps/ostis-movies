@@ -1,0 +1,51 @@
+concept_human -> danny_devito;;
+ 
+ danny_devito <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэнни Де Вито)](*<-lang_ru;;*);
+ 		[Description (Danny DeVito)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/danny_devito_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ danny_devito <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэнни Де Вито)](*<-lang_ru;;*);
+ 		[Pic. (Danny DeVito)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/danny_devito.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ danny_devito => nrel_main_idtf : [Дэнни Де Вито](*<-lang_ru;;*);;
+ danny_devito => nrel_main_idtf : [Danny DeVito](*<-lang_en;;*);;
+ 
+ 
+ danny_devito => nrel_birth_date : 1944;;
+ 
+ concept_goverment -> Usa;;
+ danny_devito => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ danny_devito => nrel_to_star_in : man_on_the_moon;;
+man_on_the_moon => nrel_main_idtf : [Man on the Moon](*<-lang_en;;*);;
+man_on_the_moon => nrel_main_idtf : [Человек на луне](*<-lang_ru;;*);;
+danny_devito => nrel_to_star_in : junior;;
+junior => nrel_main_idtf : [Junior](*<-lang_en;;*);;
+junior => nrel_main_idtf : [Джуниор](*<-lang_ru;;*);;
+danny_devito => nrel_to_star_in : twins;;
+twins => nrel_main_idtf : [Twins](*<-lang_en;;*);;
+twins => nrel_main_idtf : [Близнецы](*<-lang_ru;;*);;
+

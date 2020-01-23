@@ -1,0 +1,51 @@
+concept_human -> eddie_redmayne;;
+ 
+ eddie_redmayne <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эдди Редмэйн)](*<-lang_ru;;*);
+ 		[Description (Eddie Redmayne)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/eddie_redmayne_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ eddie_redmayne <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эдди Редмэйн)](*<-lang_ru;;*);
+ 		[Pic. (Eddie Redmayne)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/eddie_redmayne.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ eddie_redmayne => nrel_main_idtf : [Эдди Редмэйн](*<-lang_ru;;*);;
+ eddie_redmayne => nrel_main_idtf : [Eddie Redmayne](*<-lang_en;;*);;
+ 
+ 
+ eddie_redmayne => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> UK;;
+ eddie_redmayne => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ eddie_redmayne => nrel_to_star_in : fantastic_beasts_the_crimes_of_grindelwald;;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Fantastic Beasts: The Crimes of Grindelwald](*<-lang_en;;*);;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Фантастические твари: Преступления Грин-де-Вальда](*<-lang_ru;;*);;
+eddie_redmayne => nrel_to_star_in : fantastic_beasts_and_where_to_find_them;;
+fantastic_beasts_and_where_to_find_them => nrel_main_idtf : [Fantastic Beasts and Where to Find Them](*<-lang_en;;*);;
+fantastic_beasts_and_where_to_find_them => nrel_main_idtf : [Фантастические твари и где они обитают](*<-lang_ru;;*);;
+eddie_redmayne => nrel_to_star_in : the_other_boleyn_girl;;
+the_other_boleyn_girl => nrel_main_idtf : [The Other Boleyn Girl](*<-lang_en;;*);;
+the_other_boleyn_girl => nrel_main_idtf : [Еще одна из рода Болейн](*<-lang_ru;;*);;
+

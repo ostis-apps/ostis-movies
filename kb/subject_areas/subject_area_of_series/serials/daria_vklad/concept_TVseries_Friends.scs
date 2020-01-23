@@ -1,0 +1,68 @@
+concept_series -> Friends;;
+
+Friends
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Друзья]
+	(* <- lang_ru;;	*);
+	[Friends]
+	(* <- lang_en;;	*);;
+	
+Friends <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Друзья)](*<-lang_ru;;*);
+		[Description (Friends)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Friends_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Friends_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Friends <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Друзья)](*<-lang_ru;;*);
+		[Pic. (Friends)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Friends.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+Friends => nrel_production_country : Usa;;
+
+
+Friends => nrel_world_premiere: ...(* -> rrel_number_of_year: 1994;;*);;
+	
+value -> 10;;
+Friends => nrel_num_of_seasons: 10;;
+value -> 236;;
+Friends => nrel_num_of_episodes: 236;;
+	
+value -> 70;;
+Friends => nrel_no_countries : 70;;
+
+value -> 353;;
+Friends => nrel_viewers_in_millions: 353;;
+
+Friends => nrel_age_rating: concept_PG12;;
+
+
+Friends => nrel_actor : Courteney_Cox;;
+Friends => nrel_actor : Matthew_Perry;;
+Friends => nrel_producer : Gary_Halvorson;;
+
+Friends
+=>nrel_keywords: concept_camedi;
+=>nrel_keywords: concept_lave;
+=>nrel_keywords: concept_frendship;;
+
+

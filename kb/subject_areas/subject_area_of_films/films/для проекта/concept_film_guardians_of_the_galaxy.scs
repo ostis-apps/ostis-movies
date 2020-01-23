@@ -1,0 +1,32 @@
+concept_film_guardians_of_the_galaxy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Стражи галактики]
+	(* <- lang_ru;;	*);
+	[Guardians of the galaxy]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Стражи галактики)](*<-lang_ru;;*);
+		[Description (Guardians of the galaxy)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Стражи_галактики.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Galaxy_guardians.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_fantastic;
+=>nrel_keywords:concept_marvel;
+=>nrel_keywords:concept_space_adventure;
+=>nrel_keywords:concept_aliens;
+=>nrel_age_rating: concept_PG16;;	

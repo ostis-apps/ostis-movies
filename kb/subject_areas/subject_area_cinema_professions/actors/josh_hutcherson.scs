@@ -1,0 +1,54 @@
+concept_human -> josh_hutcherson;;
+ 
+ josh_hutcherson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джош Хатчерсон)](*<-lang_ru;;*);
+ 		[Description (Josh Hutcherson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/josh_hutcherson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ josh_hutcherson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джош Хатчерсон)](*<-lang_ru;;*);
+ 		[Pic. (Josh Hutcherson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/josh_hutcherson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ josh_hutcherson => nrel_main_idtf : [Джош Хатчерсон](*<-lang_ru;;*);;
+ josh_hutcherson => nrel_main_idtf : [Josh Hutcherson](*<-lang_en;;*);;
+ 
+ 
+ josh_hutcherson => nrel_birth_date : 1992;;
+ 
+ concept_goverment -> Usa;;
+ josh_hutcherson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ josh_hutcherson => nrel_to_star_in : the_hunger_games_mockingjay__part_2;;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 2](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 2](*<-lang_ru;;*);;
+josh_hutcherson => nrel_to_star_in : the_hunger_games_mockingjay__part_1;;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 1](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 1](*<-lang_ru;;*);;
+josh_hutcherson => nrel_to_star_in : the_hunger_games_catching_fire;;
+the_hunger_games_catching_fire => nrel_main_idtf : [The Hunger Games: Catching Fire](*<-lang_en;;*);;
+the_hunger_games_catching_fire => nrel_main_idtf : [Голодные игры: И вспыхнет пламя](*<-lang_ru;;*);;
+josh_hutcherson => nrel_to_star_in : the_hunger_games;;
+the_hunger_games => nrel_main_idtf : [The Hunger Games](*<-lang_en;;*);;
+the_hunger_games => nrel_main_idtf : [Голодные игры](*<-lang_ru;;*);;
+

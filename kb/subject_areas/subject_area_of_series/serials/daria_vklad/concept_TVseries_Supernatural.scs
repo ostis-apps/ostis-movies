@@ -1,0 +1,66 @@
+concept_series -> Supernatural;;
+
+Supernatural
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сверхъестественное]
+	(* <- lang_ru;;	*);
+	[Supernatural]
+	(* <- lang_en;;	*);;
+	
+Supernatural <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сверхъестественное)](*<-lang_ru;;*);
+		[Description (Supernatural)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Supernatural_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Supernatural_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Supernatural <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сверхъестественное)](*<-lang_ru;;*);
+		[Pic. (Supernatural)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Supernatural.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+
+Supernatural => nrel_production_country : Usa;;
+
+
+Supernatural => nrel_world_premiere: ...(* -> rrel_number_of_year: 2005;;*);;
+	
+value -> 14;;
+Supernatural => nrel_num_of_seasons: 14;;
+value -> 303;;
+Supernatural => nrel_num_of_episodes: 303;;
+
+value -> 30;;
+Supernatural => nrel_no_countries : 30;;
+
+value -> 29;;
+Supernatural => nrel_viewers_in_millions: 29;;
+
+Supernatural => nrel_age_rating: concept_PG12;;
+
+Supernatural
+=>nrel_keywords: concept_hunter;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_brothers;
+=>nrel_keywords: concept_vampire;
+=>nrel_keywords: concept_murder;;
+
+

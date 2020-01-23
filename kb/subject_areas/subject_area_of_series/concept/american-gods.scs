@@ -1,0 +1,97 @@
+
+                  concept_series -> American_Gods;;
+              
+                  American_Gods
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [американские боги]
+                    (* <- lang_ru;;	*);
+                    [American_Gods]
+                    (* <- lang_en;;	*);;
+                  
+                  American_Gods <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (американские боги)](*<-lang_ru;;*);
+                      [Description (American_Gods)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/American_Gods_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/American_Gods_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  American_Gods <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (американские боги)](*<-lang_ru;;*);
+                      [Pic. (American_Gods)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/American_Gods.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  American_Gods => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  American_Gods => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  American_Gods => nrel_num_of_seasons: 3;;
+                  value -> 16;;
+                  American_Gods => nrel_num_of_episodes: 16;;
+                  
+                  value -> 12;;
+                  American_Gods => nrel_no_countries : 12;;
+                  
+                  value -> 7;;
+                  American_Gods => nrel_viewers_in_millions: 7;;
+                  
+                  American_Gods => nrel_age_rating: concept_PG12;;
+                  
+                    American_Gods => nrel_actor : RickyWhittle;;
+                    
+                   
+                    American_Gods => nrel_actor : EmilyBrowning;;
+                    
+                   
+                    American_Gods => nrel_actor : IanMcShane;;
+                    
+                   
+                    American_Gods => nrel_actor : PabloSchreiber;;
+                    
+                   
+                    American_Gods => nrel_actor : BruceLangley;;
+                    
+                   
+                    American_Gods => nrel_actor : OmidAbtahi;;
+                    
+                   
+                    American_Gods => nrel_actor : YetideBadaki;;
+                    
+                   
+                    American_Gods => nrel_actor : CrispinGlover;;
+                    
+                   
+                    American_Gods => nrel_actor : DemoreBarnes;;
+                    
+                   
+                    American_Gods => nrel_actor : OrlandoJones;;
+                    
+                   
+                    American_Gods => nrel_actor : MousaKraish;;
+                    
+                  
+                  
+                  American_Gods
+                  =>nrel_keywords: concept_detectif;;
+                  

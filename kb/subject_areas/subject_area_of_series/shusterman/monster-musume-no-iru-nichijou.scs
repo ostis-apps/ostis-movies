@@ -1,0 +1,100 @@
+
+                  concept_series -> Monster_Musume_no_Iru_Nichijou;;
+              
+                  Monster_Musume_no_Iru_Nichijou
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Mont Te сек r_ дочь _ Ро _ _ ​​являются повседневной]
+                    (* <- lang_ru;;	*);
+                    [Monster_Musume_no_Iru_Nichijou]
+                    (* <- lang_en;;	*);;
+                  
+                  Monster_Musume_no_Iru_Nichijou <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Mont Te сек r_ дочь _ Ро _ _ ​​являются повседневной)](*<-lang_ru;;*);
+                      [Description (Monster_Musume_no_Iru_Nichijou)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Monster_Musume_no_Iru_Nichijou_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Monster_Musume_no_Iru_Nichijou_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Monster_Musume_no_Iru_Nichijou <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Mont Te сек r_ дочь _ Ро _ _ ​​являются повседневной)](*<-lang_ru;;*);
+                      [Pic. (Monster_Musume_no_Iru_Nichijou)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Monster_Musume_no_Iru_Nichijou.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Monster_Musume_no_Iru_Nichijou => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Monster_Musume_no_Iru_Nichijou => nrel_production_year : 2015;;
+                  
+                  value -> 1;;
+                  Monster_Musume_no_Iru_Nichijou => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  Monster_Musume_no_Iru_Nichijou => nrel_num_of_episodes: 12;;
+                  
+                  value -> 9;;
+                  Monster_Musume_no_Iru_Nichijou => nrel_no_countries : 9;;
+                  
+                  value -> 11;;
+                  Monster_Musume_no_Iru_Nichijou => nrel_viewers_in_millions: 11;;
+                  
+                  Monster_Musume_no_Iru_Nichijou => nrel_age_rating: concept_PG12;;
+                  
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : Saorinishi;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : SoraAmamiya;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : YurikaKubo;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : JunjiMajima;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : AriOzawa;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : NatsukiAikawa;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : SakuraNakamura;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : YuKobayashi;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : HarukaYamazaki;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : MayukaNomura;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : MomoAsakura;;
+                    
+                   
+                    Monster_Musume_no_Iru_Nichijou => nrel_actor : ReiMochizuki;;
+                    
+                  
+                  
+                  Monster_Musume_no_Iru_Nichijou
+                  =>nrel_keywords: concept_detectif;;
+                  

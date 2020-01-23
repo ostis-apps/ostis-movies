@@ -1,0 +1,31 @@
+concept_film_Legend
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Легенда]
+	(* <- lang_ru;;	*);
+	[Legend]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Легенда)](*<-lang_ru;;*);
+		[Description (Legend)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Легенда.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Legend.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_crime;
+=>nrel_keywords: concept_gangsters;
+=>nrel_keywords: concept_mafia;
+=>nrel_age_rating: concept_PG18;;

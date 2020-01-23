@@ -1,0 +1,67 @@
+film_bezumie_2005
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Безумие]
+(* <- lang_ru;;    *);
+[Asylum]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Безумие)](*<-lang_ru;;*);
+[Description (Asylum)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bezumie-2005_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bezumie-2005_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Безумие)](*<-lang_ru;;*);
+		[Pic. (Asylum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bezumie-2005.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;ireland;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Passion knows no boundaries. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [09.09.2005](*<-lang_ru;;*);;
+    => nrel_main_idtf : [09.09.2005](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H39M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H39M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_bezumie_2005 =>nrel_keywords: film;;
+
+film_bezumie_2005 <- concept_drama;concept_romance;concept_thriller;;
+
+film_bezumie_2005 => nrel_main_actor : natasha_richardson;sean_harris;marton_csokas;ian_mckellen;;
+film_bezumie_2005 => nrel_producer : david_mackenzie;;

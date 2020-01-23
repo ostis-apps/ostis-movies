@@ -1,0 +1,85 @@
+
+                  concept_series -> Better_Call_Saul;;
+              
+                  Better_Call_Saul
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Лучше звони Солу]
+                    (* <- lang_ru;;	*);
+                    [Better_Call_Saul]
+                    (* <- lang_en;;	*);;
+                  
+                  Better_Call_Saul <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Лучше звони Солу)](*<-lang_ru;;*);
+                      [Description (Better_Call_Saul)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Better_Call_Saul_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Better_Call_Saul_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Better_Call_Saul <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Лучше звони Солу)](*<-lang_ru;;*);
+                      [Pic. (Better_Call_Saul)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Better_Call_Saul.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Better_Call_Saul => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Better_Call_Saul => nrel_production_year : 2015;;
+                  
+                  value -> 5;;
+                  Better_Call_Saul => nrel_num_of_seasons: 5;;
+                  value -> 42;;
+                  Better_Call_Saul => nrel_num_of_episodes: 42;;
+                  
+                  value -> 13;;
+                  Better_Call_Saul => nrel_no_countries : 13;;
+                  
+                  value -> 12;;
+                  Better_Call_Saul => nrel_viewers_in_millions: 12;;
+                  
+                  Better_Call_Saul => nrel_age_rating: concept_PG12;;
+                  
+                    Better_Call_Saul => nrel_actor : BobOdenkirk;;
+                    
+                   
+                    Better_Call_Saul => nrel_actor : JonathanBanks;;
+                    
+                   
+                    Better_Call_Saul => nrel_actor : RheaSeehorn;;
+                    
+                   
+                    Better_Call_Saul => nrel_actor : PatrickFabian;;
+                    
+                   
+                    Better_Call_Saul => nrel_actor : MichaelMcKean;;
+                    
+                   
+                    Better_Call_Saul => nrel_actor : MichaelMando;;
+                    
+                   
+                    Better_Call_Saul => nrel_actor : GiancarloEsposito;;
+                    
+                  
+                  
+                  Better_Call_Saul
+                  =>nrel_keywords: concept_detectif;;
+                  

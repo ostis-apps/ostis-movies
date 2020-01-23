@@ -1,0 +1,43 @@
+concept_cartoon_Sawa_Warrior_heart
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Савва. Сердце воина]
+	(* <- lang_ru;;	*);
+	[Sawa. Warrior heart]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Савва. Сердце воина)](*<-lang_ru;;*);
+		[Description (Sawa. Warrior heart)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sawa Warrior heart_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sawa Warrior heart_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Савва. Сердце воина)](*<-lang_ru;;*);
+		[Pic. (Sawa. Warrior heart)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Sawa Warrior heart.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_superhero;
+=>nrel_keywords: concept_nature;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

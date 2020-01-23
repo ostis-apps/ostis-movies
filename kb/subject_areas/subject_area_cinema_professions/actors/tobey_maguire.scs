@@ -1,0 +1,51 @@
+concept_human -> tobey_maguire;;
+ 
+ tobey_maguire <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Тоби Магуайр)](*<-lang_ru;;*);
+ 		[Description (Tobey Maguire)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tobey_maguire_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tobey_maguire <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Тоби Магуайр)](*<-lang_ru;;*);
+ 		[Pic. (Tobey Maguire)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tobey_maguire.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tobey_maguire => nrel_main_idtf : [Тоби Магуайр](*<-lang_ru;;*);;
+ tobey_maguire => nrel_main_idtf : [Tobey Maguire](*<-lang_en;;*);;
+ 
+ 
+ tobey_maguire => nrel_birth_date : 1975;;
+ 
+ concept_goverment -> Usa;;
+ tobey_maguire => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+tobey_maguire => nrel_to_star_in : spiderman;;
+spiderman => nrel_main_idtf : [Spider-Man](*<-lang_en;;*);;
+spiderman => nrel_main_idtf : [Человек-паук](*<-lang_ru;;*);;
+tobey_maguire => nrel_to_star_in : fear_and_loathing_in_las_vegas;;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Fear and Loathing in Las Vegas](*<-lang_en;;*);;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Страх и ненависть в Лас-Вегасе](*<-lang_ru;;*);;
+tobey_maguire => nrel_to_star_in : this_boys_life;;
+this_boys_life => nrel_main_idtf : [This Boy`s Life](*<-lang_en;;*);;
+this_boys_life => nrel_main_idtf : [Жизнь этого парня](*<-lang_ru;;*);;
+

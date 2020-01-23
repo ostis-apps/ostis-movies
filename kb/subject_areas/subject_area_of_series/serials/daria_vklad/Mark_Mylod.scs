@@ -1,0 +1,51 @@
+concept_human -> Mark_Mylod;;
+
+Mark_Mylod
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Марк Майлод]
+	(* <- lang_ru;;	*);
+	[Mark Mylod]
+	(* <- lang_en;;	*);;
+	
+Mark_Mylod <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Марк Майлод)](*<-lang_ru;;*);
+		[Description (Mark Mylod)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Mark_Mylod_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Mark_Mylod_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Mark_Mylod <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Марк Майлод)](*<-lang_ru;;*);
+		[Pic. (Mark Mylod)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Mark_Mylod.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1956;;
+Mark_Mylod=>nrel_date_of_birth: 1956;;
+1956=>nrel_main_idtf:[1956 год](*<-lang_ru;;*);;
+1956=>nrel_main_idtf:[year of 1956](*<-lang_en;;*);;
+
+concept_calendar_date->1991;;
+Mark_Mylod=>nrel_career_start_date: 1991;;
+1991=>nrel_main_idtf:[1991 год](*<-lang_ru;;*);;
+1991=>nrel_main_idtf:[year of 1991](*<-lang_en;;*);;
+
+Mark_Mylod =>nrel_cityzenship:concept_uk;;
+

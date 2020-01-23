@@ -1,0 +1,51 @@
+concept_human -> rosamund_pike;;
+ 
+ rosamund_pike <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Розамунд Пайк)](*<-lang_ru;;*);
+ 		[Description (Rosamund Pike)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/rosamund_pike_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ rosamund_pike <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Розамунд Пайк)](*<-lang_ru;;*);
+ 		[Pic. (Rosamund Pike)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/rosamund_pike.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ rosamund_pike => nrel_main_idtf : [Розамунд Пайк](*<-lang_ru;;*);;
+ rosamund_pike => nrel_main_idtf : [Rosamund Pike](*<-lang_en;;*);;
+ 
+ 
+ rosamund_pike => nrel_birth_date : 1979;;
+ 
+ concept_goverment -> UK;;
+ rosamund_pike => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ rosamund_pike => nrel_to_star_in : entebbe;;
+entebbe => nrel_main_idtf : [Entebbe](*<-lang_en;;*);;
+entebbe => nrel_main_idtf : [Операция «Шаровая молния»](*<-lang_ru;;*);;
+rosamund_pike => nrel_to_star_in : gone_girl;;
+gone_girl => nrel_main_idtf : [Gone Girl](*<-lang_en;;*);;
+gone_girl => nrel_main_idtf : [Исчезнувшая](*<-lang_ru;;*);;
+rosamund_pike => nrel_to_star_in : fracture;;
+fracture => nrel_main_idtf : [Fracture](*<-lang_en;;*);;
+fracture => nrel_main_idtf : [Перелом](*<-lang_ru;;*);;
+

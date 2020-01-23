@@ -1,0 +1,54 @@
+concept_human -> steve_carell;;
+ 
+ steve_carell <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Стив Карелл)](*<-lang_ru;;*);
+ 		[Description (Steve Carell)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/steve_carell_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ steve_carell <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Стив Карелл)](*<-lang_ru;;*);
+ 		[Pic. (Steve Carell)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/steve_carell.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ steve_carell => nrel_main_idtf : [Стив Карелл](*<-lang_ru;;*);;
+ steve_carell => nrel_main_idtf : [Steve Carell](*<-lang_en;;*);;
+ 
+ 
+ steve_carell => nrel_birth_date : 1962;;
+ 
+ concept_goverment -> Usa;;
+ steve_carell => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ steve_carell => nrel_to_star_in : vice;;
+vice => nrel_main_idtf : [Vice](*<-lang_en;;*);;
+vice => nrel_main_idtf : [Власть](*<-lang_ru;;*);;
+steve_carell => nrel_to_star_in : the_big_short;;
+the_big_short => nrel_main_idtf : [The Big Short](*<-lang_en;;*);;
+the_big_short => nrel_main_idtf : [Игра на понижение](*<-lang_ru;;*);;
+steve_carell => nrel_to_star_in : seeking_a_friend_for_the_end_of_the_world;;
+seeking_a_friend_for_the_end_of_the_world => nrel_main_idtf : [Seeking a Friend for the End of the World](*<-lang_en;;*);;
+seeking_a_friend_for_the_end_of_the_world => nrel_main_idtf : [Ищу друга на конец света](*<-lang_ru;;*);;
+steve_carell => nrel_to_star_in : bruce_almighty;;
+bruce_almighty => nrel_main_idtf : [Bruce Almighty](*<-lang_en;;*);;
+bruce_almighty => nrel_main_idtf : [Брюс Всемогущий](*<-lang_ru;;*);;
+

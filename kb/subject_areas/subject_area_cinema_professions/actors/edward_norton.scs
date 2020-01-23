@@ -1,0 +1,48 @@
+concept_human -> edward_norton;;
+ 
+ edward_norton <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эдвард Нортон)](*<-lang_ru;;*);
+ 		[Description (Edward Norton)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/edward_norton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ edward_norton <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эдвард Нортон)](*<-lang_ru;;*);
+ 		[Pic. (Edward Norton)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/edward_norton.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ edward_norton => nrel_main_idtf : [Эдвард Нортон](*<-lang_ru;;*);;
+ edward_norton => nrel_main_idtf : [Edward Norton](*<-lang_en;;*);;
+ 
+ 
+ edward_norton => nrel_birth_date : 1969;;
+ 
+ concept_goverment -> Usa;;
+ edward_norton => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ edward_norton => nrel_to_star_in : the_incredible_hulk;;
+the_incredible_hulk => nrel_main_idtf : [The Incredible Hulk](*<-lang_en;;*);;
+the_incredible_hulk => nrel_main_idtf : [Невероятный Халк](*<-lang_ru;;*);;
+edward_norton => nrel_to_star_in : fight_club;;
+fight_club => nrel_main_idtf : [Fight Club](*<-lang_en;;*);;
+fight_club => nrel_main_idtf : [Бойцовский клуб](*<-lang_ru;;*);;
+

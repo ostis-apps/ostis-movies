@@ -1,0 +1,30 @@
+concept_film_Furious_Seven
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Форсаж 7]
+	(* <- lang_ru;;	*);
+	[Furious Seven]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Форсаж 7)](*<-lang_ru;;*);
+		[Description (Furious Seven)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Форсаж 7.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Furious Seven.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_cars;
+=>nrel_keywords: concept_race;
+=>nrel_age_rating: concept_PG12;;	

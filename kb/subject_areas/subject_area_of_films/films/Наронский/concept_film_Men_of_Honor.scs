@@ -1,0 +1,29 @@
+concept_film_Men_of_Honor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Военный ныряльщик]
+	(* <- lang_ru;;	*);
+	[Men of Honor]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Военный ныряльщик)](*<-lang_ru;;*);
+		[Description (Men of Honor)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Военный ныряльщик.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Men of Honor.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_drunkenness;		
+=>nrel_age_rating: concept_PG16;;	

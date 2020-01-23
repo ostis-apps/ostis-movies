@@ -1,0 +1,51 @@
+concept_human -> robert_redford;;
+ 
+ robert_redford <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Роберт Редфорд)](*<-lang_ru;;*);
+ 		[Description (Robert Redford)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/robert_redford_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ robert_redford <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Роберт Редфорд)](*<-lang_ru;;*);
+ 		[Pic. (Robert Redford)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/robert_redford.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ robert_redford => nrel_main_idtf : [Роберт Редфорд](*<-lang_ru;;*);;
+ robert_redford => nrel_main_idtf : [Robert Redford](*<-lang_en;;*);;
+ 
+ 
+ robert_redford => nrel_birth_date : 1936;;
+ 
+ concept_goverment -> Usa;;
+ robert_redford => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ robert_redford => nrel_to_star_in : the_old_man__the_gun;;
+the_old_man__the_gun => nrel_main_idtf : [The Old Man & the Gun](*<-lang_en;;*);;
+the_old_man__the_gun => nrel_main_idtf : [Старик с пистолетом](*<-lang_ru;;*);;
+robert_redford => nrel_to_star_in : captain_america_the_winter_soldier;;
+captain_america_the_winter_soldier => nrel_main_idtf : [Captain America: The Winter Soldier](*<-lang_en;;*);;
+captain_america_the_winter_soldier => nrel_main_idtf : [Первый мститель: Другая война](*<-lang_ru;;*);;
+robert_redford => nrel_to_star_in : the_horse_whisperer;;
+the_horse_whisperer => nrel_main_idtf : [The Horse Whisperer](*<-lang_en;;*);;
+the_horse_whisperer => nrel_main_idtf : [Заклинатель лошадей](*<-lang_ru;;*);;
+

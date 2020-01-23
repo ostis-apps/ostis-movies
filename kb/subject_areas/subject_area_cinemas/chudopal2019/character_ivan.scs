@@ -1,0 +1,33 @@
+character_ivan
+	=> nrel_main_idtf:
+	[Иван]
+	(* <- lang_ru;;	*);
+	[Ivan]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: nikolay_burlyaev;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Иван)](* <- lang_ru;; *);
+		[Desctiption (Ivan)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_ivan">Иван</sc_element></b> — потеряв мать, мальчику ничего не остается, кроме как полностью посвятить себя победе в этой ужасной войне.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_ivan">Ivan</sc_element></b> — having lost his mother, the boy has no choice but to devote himself entirely to victory in this terrible war.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Иван)](*<-lang_ru;;*);
+		[Pic. (Ivan)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/character_ivan.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

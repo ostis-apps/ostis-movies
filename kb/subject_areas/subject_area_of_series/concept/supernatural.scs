@@ -1,0 +1,94 @@
+
+                  concept_series -> Supernatural;;
+              
+                  Supernatural
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Сверхъестественное]
+                    (* <- lang_ru;;	*);
+                    [Supernatural]
+                    (* <- lang_en;;	*);;
+                  
+                  Supernatural <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Сверхъестественное)](*<-lang_ru;;*);
+                      [Description (Supernatural)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Supernatural_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Supernatural_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Supernatural <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Сверхъестественное)](*<-lang_ru;;*);
+                      [Pic. (Supernatural)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Supernatural.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Supernatural => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2005;;
+                  2005 => nrel_main_idtf : [2005 год](*<-lang_ru;;*);;
+                  2005 => nrel_main_idtf : [year of 2005](*<-lang_en;;*);;
+                  Supernatural => nrel_production_year : 2005;;
+                  
+                  value -> 15;;
+                  Supernatural => nrel_num_of_seasons: 15;;
+                  value -> 321;;
+                  Supernatural => nrel_num_of_episodes: 321;;
+                  
+                  value -> 12;;
+                  Supernatural => nrel_no_countries : 12;;
+                  
+                  value -> 12;;
+                  Supernatural => nrel_viewers_in_millions: 12;;
+                  
+                  Supernatural => nrel_age_rating: concept_PG12;;
+                  
+                    Supernatural => nrel_actor : JaredPadalecki;;
+                    
+                   
+                    Supernatural => nrel_actor : JensenAckles;;
+                    
+                   
+                    Supernatural => nrel_actor : MishaCollins;;
+                    
+                   
+                    Supernatural => nrel_actor : MarkSheppard;;
+                    
+                   
+                    Supernatural => nrel_actor : MarkPellegrino;;
+                    
+                   
+                    Supernatural => nrel_actor : AlexanderCalvert;;
+                    
+                   
+                    Supernatural => nrel_actor : KatieCassidy;;
+                    
+                   
+                    Supernatural => nrel_actor : LaurenCohan;;
+                    
+                   
+                    Supernatural => nrel_actor : MarkPellegrino;;
+                    
+                   
+                    Supernatural => nrel_actor : AlexanderCalvert;;
+                    
+                  
+                  
+                  Supernatural
+                  =>nrel_keywords: concept_detectif;;
+                  

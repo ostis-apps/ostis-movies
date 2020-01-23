@@ -1,0 +1,26 @@
+concept_film_Starship_Troopers
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Звёздный десант](* <- lang_ru;; *);
+	[Starship Troopers](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Звёздный десант)](*<-lang_ru;;*);
+		[Description (Starship Troopers)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Звёздный десант.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Starship Troopers.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_space;
+=> nrel_keywords: concept_future;
+=> nrel_age_rating: concept_PG16;;

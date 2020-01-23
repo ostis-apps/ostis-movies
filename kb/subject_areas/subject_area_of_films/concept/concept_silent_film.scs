@@ -1,0 +1,36 @@
+concept_silent_film
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[немой фильм](*<-lang_ru;;*);
+	[silent film](*<-lang_en;;*);
+=>nrel_idtf:
+	[немое кино](*<-lang_ru;;*);
+	[silent movie](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (немой фильм)](*<-lang_ru;;*);
+		[Def. (silent film)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_silent_film_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_silent_film_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (немой фильм)](*<-lang_ru;;*);
+		[Pic. (silent film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_silent_film.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_film;;	

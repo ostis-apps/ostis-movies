@@ -1,0 +1,52 @@
+concept_human -> Arnold_Sch;;
+
+Arnold_Sch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Арнольд Алоис Шварценеггер]
+	(* <- lang_ru;;	*);
+	[Arnold Alois Schwarzenegger]
+	(* <- lang_en;;	*);;
+	
+Arnold_Sch <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Арнольд Алоис Шварценеггер)](*<-lang_ru;;*);
+		[Description (Arnold Alois Schwarzenegger)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Arnold_Sch_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Arnold_Sch_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Arnold_Sch <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Арнольд Алоис Шварценеггер)](*<-lang_ru;;*);
+		[Pic. (Arnold Alois Schwarzenegger)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Arnold_Sch.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1947;;
+Arnold_Sch=>nrel_date_of_birth: 1947;;
+1947=>nrel_main_idtf:[1947 год](*<-lang_ru;;*);;
+1947=>nrel_main_idtf:[year of 1947](*<-lang_en;;*);;
+
+concept_calendar_date->1970;;
+Arnold_Sch=>nrel_career_start_date: 1970;;
+1970=>nrel_main_idtf:[1970год](*<-lang_ru;;*);;
+1970=>nrel_main_idtf:[year of 1970](*<-lang_en;;*);;
+
+Arnold_Sch =>nrel_cityzenship:Austria;;
+Austria<-concept_country;;
+

@@ -1,0 +1,51 @@
+concept_human -> Matthew_Perry;;
+
+Matthew_Perry
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мэттью Перри]
+	(* <- lang_ru;;	*);
+	[Matthew Perry]
+	(* <- lang_en;;	*);;
+	
+Matthew_Perry <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мэттью Перри)](*<-lang_ru;;*);
+		[Description (Matthew Perry)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Matthew_Perry_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Matthew_Perry_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Matthew_Perry <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мэттью Перри)](*<-lang_ru;;*);
+		[Pic. (Matthew Perry)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Matthew_Perry.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1969;;
+Matthew_Perry=>nrel_date_of_birth: 1969;;
+1969=>nrel_main_idtf:[1969 год](*<-lang_ru;;*);;
+1969=>nrel_main_idtf:[year of 1969](*<-lang_en;;*);;
+
+concept_calendar_date->1979;;
+Matthew_Perry=>nrel_career_start_date: 1979;;
+1979=>nrel_main_idtf:[1979 год](*<-lang_ru;;*);;
+1979=>nrel_main_idtf:[year of 1979](*<-lang_en;;*);;
+
+Matthew_Perry =>nrel_cityzenship:Usa;;
+

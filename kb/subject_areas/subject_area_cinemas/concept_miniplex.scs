@@ -1,0 +1,5 @@
+concept_miniplex
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[миниплекс](*<-lang_ru;;*);
+	[miniplex](*<-lang_en;;*);;

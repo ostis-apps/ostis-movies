@@ -1,0 +1,44 @@
+concept_cartoon_The_extraordinary_journey_of_the_Seraphim
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Необыкновенное путешествие Серафимы]
+	(* <- lang_ru;;	*);
+	[The extraordinary journey of the Seraphim]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Необыкновенное путешествие Серафимы)](*<-lang_ru;;*);
+		[Description (The extraordinary journey of the Seraphim)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/The extraordinary journey of the Seraphim_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The extraordinary journey of the Seraphim_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Необыкновенное путешествие Серафимы)](*<-lang_ru;;*);
+		[Pic. (The extraordinary journey of the Seraphim)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/The extraordinary journey of the Seraphim.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_nature;
+=>nrel_keywords: concept_trip;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

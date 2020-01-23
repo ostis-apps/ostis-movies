@@ -1,0 +1,97 @@
+
+                  concept_series -> Designated_Survivor;;
+              
+                  Designated_Survivor
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Места Survivor]
+                    (* <- lang_ru;;	*);
+                    [Designated_Survivor]
+                    (* <- lang_en;;	*);;
+                  
+                  Designated_Survivor <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Места Survivor)](*<-lang_ru;;*);
+                      [Description (Designated_Survivor)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Designated_Survivor_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Designated_Survivor_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Designated_Survivor <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Места Survivor)](*<-lang_ru;;*);
+                      [Pic. (Designated_Survivor)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Designated_Survivor.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Designated_Survivor => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Designated_Survivor => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  Designated_Survivor => nrel_num_of_seasons: 3;;
+                  value -> 53;;
+                  Designated_Survivor => nrel_num_of_episodes: 53;;
+                  
+                  value -> 10;;
+                  Designated_Survivor => nrel_no_countries : 10;;
+                  
+                  value -> 8;;
+                  Designated_Survivor => nrel_viewers_in_millions: 8;;
+                  
+                  Designated_Survivor => nrel_age_rating: concept_PG12;;
+                  
+                    Designated_Survivor => nrel_actor : KalPenn;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : ItaliaRicci;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : KieferSutherland;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : AdanCanto;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : MaggieQ;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : LaMonicaGarrett;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : NataschaMcElhone;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : PauloCostanzo;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : ZoeMcLellan;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : BenLawson;;
+                    
+                   
+                    Designated_Survivor => nrel_actor : TannerBuchanan;;
+                    
+                  
+                  
+                  Designated_Survivor
+                  =>nrel_keywords: concept_detectif;;
+                  

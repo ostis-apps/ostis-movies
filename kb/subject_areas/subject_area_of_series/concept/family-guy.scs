@@ -1,0 +1,115 @@
+
+                  concept_series -> Family_Guy;;
+              
+                  Family_Guy
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Семьянин]
+                    (* <- lang_ru;;	*);
+                    [Family_Guy]
+                    (* <- lang_en;;	*);;
+                  
+                  Family_Guy <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Семьянин)](*<-lang_ru;;*);
+                      [Description (Family_Guy)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Family_Guy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Family_Guy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Family_Guy <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Семьянин)](*<-lang_ru;;*);
+                      [Pic. (Family_Guy)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Family_Guy.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Family_Guy => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 1999;;
+                  1999 => nrel_main_idtf : [1999 год](*<-lang_ru;;*);;
+                  1999 => nrel_main_idtf : [year of 1999](*<-lang_en;;*);;
+                  Family_Guy => nrel_production_year : 1999;;
+                  
+                  value -> 18;;
+                  Family_Guy => nrel_num_of_seasons: 18;;
+                  value -> 338;;
+                  Family_Guy => nrel_num_of_episodes: 338;;
+                  
+                  value -> 10;;
+                  Family_Guy => nrel_no_countries : 10;;
+                  
+                  value -> 8;;
+                  Family_Guy => nrel_viewers_in_millions: 8;;
+                  
+                  Family_Guy => nrel_age_rating: concept_PG12;;
+                  
+                    Family_Guy => nrel_actor : MilaKunis;;
+                    
+                   
+                    Family_Guy => nrel_actor : LaceyChabert;;
+                    
+                   
+                    Family_Guy => nrel_actor : AlexBorstein;;
+                    
+                   
+                    Family_Guy => nrel_actor : SethGreen;;
+                    
+                   
+                    Family_Guy => nrel_actor : SethMacFarlane;;
+                    
+                   
+                    Family_Guy => nrel_actor : MikeHenry;;
+                    
+                   
+                    Family_Guy => nrel_actor : SethMacFarlane;;
+                    
+                   
+                    Family_Guy => nrel_actor : SethMacFarlane;;
+                    
+                   
+                    Family_Guy => nrel_actor : PatrickWarburton;;
+                    
+                   
+                    Family_Guy => nrel_actor : SethMacFarlane;;
+                    
+                   
+                    Family_Guy => nrel_actor : SethMacFarlane;;
+                    
+                   
+                    Family_Guy => nrel_actor : JenniferTilly;;
+                    
+                   
+                    Family_Guy => nrel_actor : JohnnyBrennan;;
+                    
+                   
+                    Family_Guy => nrel_actor : SethMacFarlane;;
+                    
+                   
+                    Family_Guy => nrel_actor : AlexBorstein;;
+                    
+                   
+                    Family_Guy => nrel_actor : ChristineLakin;;
+                    
+                   
+                    Family_Guy => nrel_actor : SethMacFarlane;;
+                    
+                  
+                  
+                  Family_Guy
+                  =>nrel_keywords: concept_detectif;;
+                  

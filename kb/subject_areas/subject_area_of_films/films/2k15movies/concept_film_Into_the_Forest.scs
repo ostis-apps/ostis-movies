@@ -1,0 +1,30 @@
+concept_film_Into_the_Forest
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[В лесу]
+	(* <- lang_ru;;	*);
+	[Into the Forest]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (В лесу)](*<-lang_ru;;*);
+		[Description (Into the Forest)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/В лесу.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Into the Forest.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_post_apocalypse;
+=>nrel_keywords: concept_survival;
+=>nrel_age_rating: concept_PG18;;	

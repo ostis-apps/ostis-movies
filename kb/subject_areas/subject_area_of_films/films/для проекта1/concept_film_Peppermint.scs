@@ -1,0 +1,31 @@
+concept_film_Peppermint
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Багровая мята]
+	(* <- lang_ru;;	*);
+	[Peppermint]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Багровая мята)](*<-lang_ru;;*);
+		[Description (Peppermint)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Багровая мята.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Peppermint.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_horror;
+=>nrel_keywords: concept_blood;
+=>nrel_keywords: concept_murder;	
+=>nrel_age_rating: concept_PG18;;	

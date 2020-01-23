@@ -1,0 +1,66 @@
+concept_series -> Lost;;
+
+Lost
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Остаться в живых]
+	(* <- lang_ru;;	*);
+	[LOST]
+	(* <- lang_en;;	*);;
+	
+Lost <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Остаться в живых)](*<-lang_ru;;*);
+		[Description (LOST)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Lost_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Lost_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Lost <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Остаться в живых)](*<-lang_ru;;*);
+		[Pic. (LOST)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Lost.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+Lost => nrel_production_country : Usa;;
+
+concept_calendar_date -> 2004;;
+2004 => nrel_main_idtf : [2004 год](*<-lang_ru;;*);;
+2004 => nrel_main_idtf : [year of 2004](*<-lang_en;;*);;
+Lost => nrel_production_year : 2004;;
+	
+value -> 6;;
+Lost => nrel_num_of_seasons: 6;;
+value -> 121;;
+Lost => nrel_num_of_episodes: 121;;
+
+value -> 50;;
+Lost => nrel_no_countries : 50;;
+
+value -> 15;;
+Lost => nrel_viewers_in_millions: 15;;
+
+Lost => nrel_age_rating: concept_PG16;;
+
+Lost => nrel_actor : Jack_Bender;;
+
+
+Lost
+=>nrel_keywords: concept_detective;
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_utopia;;

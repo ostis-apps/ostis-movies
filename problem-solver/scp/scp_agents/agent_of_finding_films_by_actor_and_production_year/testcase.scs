@@ -1,0 +1,5 @@
+concept_film -> wolf_from_wall_street;;
+
+wolf_from_wall_street => nrel_actor: Dicaprio(*<- concept_human;;*);;
+
+wolf_from_wall_street => nrel_world_premiere: ...(* -> rrel_number_of_year: 2013;;*);;

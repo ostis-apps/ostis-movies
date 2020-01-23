@@ -1,0 +1,67 @@
+film_barhatnaya_zolotaya_zhila_1998
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бархатная золотая жила]
+(* <- lang_ru;;    *);
+[Velvet Goldmine]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бархатная золотая жила)](*<-lang_ru;;*);
+[Description (Velvet Goldmine)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/barhatnaya-zolotaya-zhila-1998_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/barhatnaya-zolotaya-zhila-1998_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бархатная золотая жила)](*<-lang_ru;;*);
+		[Pic. (Velvet Goldmine)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/barhatnaya-zolotaya-zhila-1998.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Style matters. Even when it comes to murder. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [16.10.1998](*<-lang_ru;;*);;
+    => nrel_main_idtf : [16.10.1998](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H58M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H58M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_barhatnaya_zolotaya_zhila_1998 =>nrel_keywords: film;;
+
+film_barhatnaya_zolotaya_zhila_1998 <- concept_drama;concept_music;;
+
+film_barhatnaya_zolotaya_zhila_1998 => nrel_main_actor : ewan_mcgregor;jonathan_rhys_meyers;christian_bale;toni_collette;;
+film_barhatnaya_zolotaya_zhila_1998 => nrel_producer : todd_haynes;;

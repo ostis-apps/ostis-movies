@@ -1,0 +1,109 @@
+
+                  concept_series -> Queen_Sugar;;
+              
+                  Queen_Sugar
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Queen_Sugar]
+                    (* <- lang_ru;;	*);
+                    [Queen_Sugar]
+                    (* <- lang_en;;	*);;
+                  
+                  Queen_Sugar <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Queen_Sugar)](*<-lang_ru;;*);
+                      [Description (Queen_Sugar)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Queen_Sugar_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Queen_Sugar_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Queen_Sugar <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Queen_Sugar)](*<-lang_ru;;*);
+                      [Pic. (Queen_Sugar)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Queen_Sugar.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Queen_Sugar => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Queen_Sugar => nrel_production_year : 2016;;
+                  
+                  value -> 5;;
+                  Queen_Sugar => nrel_num_of_seasons: 5;;
+                  value -> 55;;
+                  Queen_Sugar => nrel_num_of_episodes: 55;;
+                  
+                  value -> 14;;
+                  Queen_Sugar => nrel_no_countries : 14;;
+                  
+                  value -> 7;;
+                  Queen_Sugar => nrel_viewers_in_millions: 7;;
+                  
+                  Queen_Sugar => nrel_age_rating: concept_PG12;;
+                  
+                    Queen_Sugar => nrel_actor : BiancaLawson;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : KofiSiriboe;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : DawnLyenGardner;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : RutinaWesley;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : NicholasLAshe;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : TinaLifford;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : HenryGSanders;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : EthanHutchison;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : OmarJDorsey;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : WalterPerez;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : GregVaughan;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : TimonKyleDurrett;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : DondreTWhitfield;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : GlynnTurman;;
+                    
+                   
+                    Queen_Sugar => nrel_actor : MarycarmenLopez;;
+                    
+                  
+                  
+                  Queen_Sugar
+                  =>nrel_keywords: concept_detectif;;
+                  

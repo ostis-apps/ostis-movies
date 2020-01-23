@@ -1,0 +1,51 @@
+concept_human -> Marcia_Cross;;
+
+Marcia_Cross
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Марсия Кросс]
+	(* <- lang_ru;;	*);
+	[Marcia Anne Cross]
+	(* <- lang_en;;	*);;
+	
+Marcia_Cross <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Марсия Кросс)](*<-lang_ru;;*);
+		[Description (Marcia Anne Cross)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Marcia_Cross_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Marcia_Cross_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Marcia_Cross <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Марсия Кросс)](*<-lang_ru;;*);
+		[Pic. (Marcia Anne Cross)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Marcia_Cross.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1962;;
+Marcia_Cross=>nrel_date_of_birth: 1962;;
+1962=>nrel_main_idtf:[1962 год](*<-lang_ru;;*);;
+1962=>nrel_main_idtf:[year of 1962](*<-lang_en;;*);;
+
+concept_calendar_date->1984;;
+Marcia_Cross=>nrel_career_start_date: 1984;;
+1984=>nrel_main_idtf:[1984 год](*<-lang_ru;;*);;
+1984=>nrel_main_idtf:[year of 1984](*<-lang_en;;*);;
+
+Marcia_Cross =>nrel_cityzenship:Usa;;
+

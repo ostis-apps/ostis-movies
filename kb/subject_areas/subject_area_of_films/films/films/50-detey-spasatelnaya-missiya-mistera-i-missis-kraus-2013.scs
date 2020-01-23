@@ -1,0 +1,67 @@
+film_50_detey_spasatelnaya_missiya_mistera_i_missis_kraus_2013
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[50 детей: Спасательная миссия мистера и миссис Краус]
+(* <- lang_ru;;    *);
+[50 Children: The Rescue Mission of Mr. And Mrs. Kraus]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (50 детей: Спасательная миссия мистера и миссис Краус)](*<-lang_ru;;*);
+[Description (50 Children: The Rescue Mission of Mr. And Mrs. Kraus)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/50-detey-spasatelnaya-missiya-mistera-i-missis-kraus-2013_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/50-detey-spasatelnaya-missiya-mistera-i-missis-kraus-2013_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (50 детей: Спасательная миссия мистера и миссис Краус)](*<-lang_ru;;*);
+		[Pic. (50 Children: The Rescue Mission of Mr. And Mrs. Kraus)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/50-detey-spasatelnaya-missiya-mistera-i-missis-kraus-2013.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [50 Children: The Rescue Mission of Mr. And Mrs. Kraus](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [01.09.2014](*<-lang_ru;;*);;
+    => nrel_main_idtf : [01.09.2014](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H2M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H2M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_TV_PG;;
+
+film_50_detey_spasatelnaya_missiya_mistera_i_missis_kraus_2013 =>nrel_keywords: film;;
+
+film_50_detey_spasatelnaya_missiya_mistera_i_missis_kraus_2013 <- concept_documentary;;
+
+film_50_detey_spasatelnaya_missiya_mistera_i_missis_kraus_2013 => nrel_main_actor : alan_alda;mamie_gummer;liz_perle;paul_shapiro;;
+film_50_detey_spasatelnaya_missiya_mistera_i_missis_kraus_2013 => nrel_producer : steven_pressman;;

@@ -1,0 +1,85 @@
+
+                  concept_series -> Imposters;;
+              
+                  Imposters
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Imposters]
+                    (* <- lang_ru;;	*);
+                    [Imposters]
+                    (* <- lang_en;;	*);;
+                  
+                  Imposters <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Imposters)](*<-lang_ru;;*);
+                      [Description (Imposters)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Imposters_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Imposters_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Imposters <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Imposters)](*<-lang_ru;;*);
+                      [Pic. (Imposters)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Imposters.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Imposters => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Imposters => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  Imposters => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  Imposters => nrel_num_of_episodes: 20;;
+                  
+                  value -> 10;;
+                  Imposters => nrel_no_countries : 10;;
+                  
+                  value -> 11;;
+                  Imposters => nrel_viewers_in_millions: 11;;
+                  
+                  Imposters => nrel_age_rating: concept_PG12;;
+                  
+                    Imposters => nrel_actor : RobHeaps;;
+                    
+                   
+                    Imposters => nrel_actor : MarianneRendn;;
+                    
+                   
+                    Imposters => nrel_actor : InbarLavi;;
+                    
+                   
+                    Imposters => nrel_actor : ParkerYoung;;
+                    
+                   
+                    Imposters => nrel_actor : BrianBenben;;
+                    
+                   
+                    Imposters => nrel_actor : StephenBishop;;
+                    
+                   
+                    Imposters => nrel_actor : KatherineLaNasa;;
+                    
+                  
+                  
+                  Imposters
+                  =>nrel_keywords: concept_detectif;;
+                  

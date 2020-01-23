@@ -1,0 +1,45 @@
+nrel_mangaka <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [mangaka*](*<- lang_en;;*);
+    [мангака*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (мангака)](* <- lang_ru;; *);
+		[Def. (mangaka)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_manga;;
+		-> concept_mangaka;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="nrel_mangaka">Мангака</sc_element></b> это автор <sc_element sys_idtf="concept_manga">манги</sc_element>.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="nrel_mangaka">Mangaka</sc_element></b> is a author of <sc_element sys_idtf="concept_manga">manga</sc_element>.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+=> nrel_first_domain: concept_manga;
+=> nrel_second_domain: concept_human;
+=> nrel_definitional_domain: concept_manga;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (мангака)](*<-lang_ru;;*);
+		[Pic. (mangaka)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/nrel_mangaka.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

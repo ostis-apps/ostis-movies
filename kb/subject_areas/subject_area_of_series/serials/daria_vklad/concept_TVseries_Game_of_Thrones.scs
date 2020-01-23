@@ -1,0 +1,73 @@
+concept_series -> Game_of_Thrones;;
+
+Game_of_Thrones
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Игра Престолов]
+	(* <- lang_ru;;	*);
+	[Game of Thrones]
+	(* <- lang_en;;	*);;
+	
+Game_of_Thrones <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Игра Престолов)](*<-lang_ru;;*);
+		[Description (Game of Thrones)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Game_of_Thrones_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Game_of_Thrones_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Game_of_Thrones <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Игра Престолов)](*<-lang_ru;;*);
+		[Pic. (Game of Thrones)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Game_of_Thrones.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+Game_of_Thrones => nrel_production_country : Usa;;
+
+
+Game_of_Thrones => nrel_world_premiere: ...(* -> rrel_number_of_year: 2011;;*);;
+	
+value -> 7;;
+Game_of_Thrones => nrel_num_of_seasons: 7;;
+value -> 67;;
+Game_of_Thrones => nrel_num_of_episodes: 67;;
+	
+value -> 30;;
+Game_of_Thrones => nrel_no_countries : 30;;
+
+value -> 107;;
+Game_of_Thrones => nrel_viewers_in_millions: 107;;
+
+
+
+Game_of_Thrones => nrel_age_rating: concept_PG12;;
+
+Game_of_Thrones => nrel_actor : Peter_Dinklage;;
+Game_of_Thrones => nrel_actor : Lena_Headey;;
+Game_of_Thrones => nrel_actor : Emilia_Clarke;;
+Game_of_Thrones => nrel_actor : Sophie_Turner;;
+
+Game_of_Thrones => nrel_producer : David_Nutter;;
+Game_of_Thrones => nrel_producer : Mark_Mylod;;
+
+Game_of_Thrones
+=>nrel_keywords: concept_zombie;
+=>nrel_keywords: concept_war;
+=>nrel_keywords: concept_king;
+=>nrel_keywords: concept_winter;;

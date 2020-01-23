@@ -1,0 +1,88 @@
+
+                  concept_series -> Younger;;
+              
+                  Younger
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Моложе]
+                    (* <- lang_ru;;	*);
+                    [Younger]
+                    (* <- lang_en;;	*);;
+                  
+                  Younger <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Моложе)](*<-lang_ru;;*);
+                      [Description (Younger)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Younger_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Younger_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Younger <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Моложе)](*<-lang_ru;;*);
+                      [Pic. (Younger)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Younger.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Younger => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Younger => nrel_production_year : 2015;;
+                  
+                  value -> 6;;
+                  Younger => nrel_num_of_seasons: 6;;
+                  value -> 72;;
+                  Younger => nrel_num_of_episodes: 72;;
+                  
+                  value -> 7;;
+                  Younger => nrel_no_countries : 7;;
+                  
+                  value -> 4;;
+                  Younger => nrel_viewers_in_millions: 4;;
+                  
+                  Younger => nrel_age_rating: concept_PG12;;
+                  
+                    Younger => nrel_actor : MiriamShor;;
+                    
+                   
+                    Younger => nrel_actor : HilaryDuff;;
+                    
+                   
+                    Younger => nrel_actor : SuttonFoster;;
+                    
+                   
+                    Younger => nrel_actor : DebiMazar;;
+                    
+                   
+                    Younger => nrel_actor : NicoTortorella;;
+                    
+                   
+                    Younger => nrel_actor : PeterHermann;;
+                    
+                   
+                    Younger => nrel_actor : MollyBernard;;
+                    
+                   
+                    Younger => nrel_actor : CharlesMichaelDavis;;
+                    
+                  
+                  
+                  Younger
+                  =>nrel_keywords: concept_detectif;;
+                  

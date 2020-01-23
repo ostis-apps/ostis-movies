@@ -1,0 +1,66 @@
+concept_human -> chris_pratt;;
+ 
+ chris_pratt <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Крис Прэтт)](*<-lang_ru;;*);
+ 		[Description (Chris Pratt)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/chris_pratt_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ chris_pratt <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Крис Прэтт)](*<-lang_ru;;*);
+ 		[Pic. (Chris Pratt)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/chris_pratt.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ chris_pratt => nrel_main_idtf : [Крис Прэтт](*<-lang_ru;;*);;
+ chris_pratt => nrel_main_idtf : [Chris Pratt](*<-lang_en;;*);;
+ 
+ 
+ chris_pratt => nrel_birth_date : 1979;;
+ 
+ concept_goverment -> Usa;;
+ chris_pratt => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ chris_pratt => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+chris_pratt => nrel_to_star_in : guardians_of_the_galaxy_vol_2;;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Guardians of the Galaxy Vol. 2](*<-lang_en;;*);;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Стражи Галактики. Часть 2](*<-lang_ru;;*);;
+chris_pratt => nrel_to_star_in : passengers;;
+passengers => nrel_main_idtf : [Passengers](*<-lang_en;;*);;
+passengers => nrel_main_idtf : [Пассажиры](*<-lang_ru;;*);;
+chris_pratt => nrel_to_star_in : guardians_of_the_galaxy;;
+guardians_of_the_galaxy => nrel_main_idtf : [Guardians of the Galaxy](*<-lang_en;;*);;
+guardians_of_the_galaxy => nrel_main_idtf : [Стражи Галактики](*<-lang_ru;;*);;
+chris_pratt => nrel_to_star_in : movie_43;;
+movie_43 => nrel_main_idtf : [Movie 43](*<-lang_en;;*);;
+movie_43 => nrel_main_idtf : [Муви 43](*<-lang_ru;;*);;
+chris_pratt => nrel_to_star_in : her;;
+her => nrel_main_idtf : [Her](*<-lang_en;;*);;
+her => nrel_main_idtf : [Она](*<-lang_ru;;*);;
+chris_pratt => nrel_to_star_in : moneyball;;
+moneyball => nrel_main_idtf : [Moneyball](*<-lang_en;;*);;
+moneyball => nrel_main_idtf : [Человек, который изменил все](*<-lang_ru;;*);;
+chris_pratt => nrel_to_star_in : wanted;;
+wanted => nrel_main_idtf : [Wanted](*<-lang_en;;*);;
+wanted => nrel_main_idtf : [Особо опасен](*<-lang_ru;;*);;
+

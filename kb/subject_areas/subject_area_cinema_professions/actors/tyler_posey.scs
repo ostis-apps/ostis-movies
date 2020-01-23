@@ -1,0 +1,45 @@
+concept_human -> tyler_posey;;
+ 
+ tyler_posey <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Тайлер Пози)](*<-lang_ru;;*);
+ 		[Description (Tyler Posey)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tyler_posey_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tyler_posey <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Тайлер Пози)](*<-lang_ru;;*);
+ 		[Pic. (Tyler Posey)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tyler_posey.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tyler_posey => nrel_main_idtf : [Тайлер Пози](*<-lang_ru;;*);;
+ tyler_posey => nrel_main_idtf : [Tyler Posey](*<-lang_en;;*);;
+ 
+ 
+ tyler_posey => nrel_birth_date : 1991;;
+ 
+ concept_goverment -> Usa;;
+ tyler_posey => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ tyler_posey => nrel_to_star_in : yoga_hosers;;
+yoga_hosers => nrel_main_idtf : [Yoga Hosers](*<-lang_en;;*);;
+yoga_hosers => nrel_main_idtf : [Йоганутые](*<-lang_ru;;*);;
+

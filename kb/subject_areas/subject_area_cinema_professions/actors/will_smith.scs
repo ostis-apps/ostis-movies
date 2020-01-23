@@ -1,0 +1,48 @@
+concept_human -> will_smith;;
+ 
+ will_smith <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Уилл Смит)](*<-lang_ru;;*);
+ 		[Description (Will Smith)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/will_smith_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ will_smith <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Уилл Смит)](*<-lang_ru;;*);
+ 		[Pic. (Will Smith)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/will_smith.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ will_smith => nrel_main_idtf : [Уилл Смит](*<-lang_ru;;*);;
+ will_smith => nrel_main_idtf : [Will Smith](*<-lang_en;;*);;
+ 
+ 
+ will_smith => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Usa;;
+ will_smith => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ will_smith => nrel_to_star_in : aladdin;;
+aladdin => nrel_main_idtf : [Aladdin](*<-lang_en;;*);;
+aladdin => nrel_main_idtf : [Аладдин](*<-lang_ru;;*);;
+will_smith => nrel_to_star_in : suicide_squad;;
+suicide_squad => nrel_main_idtf : [Suicide Squad](*<-lang_en;;*);;
+suicide_squad => nrel_main_idtf : [Отряд самоубийц](*<-lang_ru;;*);;
+

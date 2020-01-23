@@ -1,0 +1,45 @@
+concept_human -> jake_weary;;
+ 
+ jake_weary <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джейк Вири)](*<-lang_ru;;*);
+ 		[Description (Jake Weary)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jake_weary_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jake_weary <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джейк Вири)](*<-lang_ru;;*);
+ 		[Pic. (Jake Weary)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jake_weary.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jake_weary => nrel_main_idtf : [Джейк Вири](*<-lang_ru;;*);;
+ jake_weary => nrel_main_idtf : [Jake Weary](*<-lang_en;;*);;
+ 
+ 
+ jake_weary => nrel_birth_date : 1990;;
+ 
+ concept_goverment -> Usa;;
+ jake_weary => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jake_weary => nrel_to_star_in : it_chapter_two;;
+it_chapter_two => nrel_main_idtf : [It Chapter Two](*<-lang_en;;*);;
+it_chapter_two => nrel_main_idtf : [Оно 2](*<-lang_ru;;*);;
+

@@ -1,0 +1,91 @@
+
+                  concept_series -> Sousei_no_Onmyouji;;
+              
+                  Sousei_no_Onmyouji
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Genesis _ _ Roh Onmyoji]
+                    (* <- lang_ru;;	*);
+                    [Sousei_no_Onmyouji]
+                    (* <- lang_en;;	*);;
+                  
+                  Sousei_no_Onmyouji <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Genesis _ _ Roh Onmyoji)](*<-lang_ru;;*);
+                      [Description (Sousei_no_Onmyouji)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Sousei_no_Onmyouji_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Sousei_no_Onmyouji_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Sousei_no_Onmyouji <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Genesis _ _ Roh Onmyoji)](*<-lang_ru;;*);
+                      [Pic. (Sousei_no_Onmyouji)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Sousei_no_Onmyouji.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Sousei_no_Onmyouji => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Sousei_no_Onmyouji => nrel_production_year : 2016;;
+                  
+                  value -> 1;;
+                  Sousei_no_Onmyouji => nrel_num_of_seasons: 1;;
+                  value -> 50;;
+                  Sousei_no_Onmyouji => nrel_num_of_episodes: 50;;
+                  
+                  value -> 14;;
+                  Sousei_no_Onmyouji => nrel_no_countries : 14;;
+                  
+                  value -> 6;;
+                  Sousei_no_Onmyouji => nrel_viewers_in_millions: 6;;
+                  
+                  Sousei_no_Onmyouji => nrel_age_rating: concept_PG12;;
+                  
+                    Sousei_no_Onmyouji => nrel_actor : JunichiSuwabe;;
+                    
+                   
+                    Sousei_no_Onmyouji => nrel_actor : DaisukeNamikawa;;
+                    
+                   
+                    Sousei_no_Onmyouji => nrel_actor : TomoakiMaeno;;
+                    
+                   
+                    Sousei_no_Onmyouji => nrel_actor : AyumuMurase;;
+                    
+                   
+                    Sousei_no_Onmyouji => nrel_actor : NatsukiHanae;;
+                    
+                   
+                    Sousei_no_Onmyouji => nrel_actor : KaitoIshikawa;;
+                    
+                   
+                    Sousei_no_Onmyouji => nrel_actor : YSerizawa;;
+                    
+                   
+                    Sousei_no_Onmyouji => nrel_actor : JunFukuyama;;
+                    
+                   
+                    Sousei_no_Onmyouji => nrel_actor : MegumiHan;;
+                    
+                  
+                  
+                  Sousei_no_Onmyouji
+                  =>nrel_keywords: concept_detectif;;
+                  

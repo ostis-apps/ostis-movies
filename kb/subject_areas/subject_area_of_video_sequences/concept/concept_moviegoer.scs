@@ -1,0 +1,36 @@
+concept_moviegoer
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[кинозритель](*<-lang_ru;;*);
+	[moviegoer](*<-lang_en;;*);
+=>nrel_idtf:
+	[зритель](*<-lang_ru;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (кинозритель)](*<-lang_ru;;*);
+		[Def. (moviegoer)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+		-> concept_person;;
+		-> concept_film;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_moviegoer_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_moviegoer_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кинозритель)](*<-lang_ru;;*);
+		[Pic. (moviegoer)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/moviegoer.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

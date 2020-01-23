@@ -1,0 +1,67 @@
+film_belyy_paren_rik_2018
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Белый парень Рик]
+(* <- lang_ru;;    *);
+[White Boy Rick]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Белый парень Рик)](*<-lang_ru;;*);
+[Description (White Boy Rick)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/belyy-paren-rik-2018_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/belyy-paren-rik-2018_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Белый парень Рик)](*<-lang_ru;;*);
+		[Pic. (White Boy Rick)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/belyy-paren-rik-2018.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Witness the rise of America's youngest hustler, dealer, kingpin, informant, legend. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [14.09.2018](*<-lang_ru;;*);;
+    => nrel_main_idtf : [14.09.2018](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H51M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H51M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_belyy_paren_rik_2018 =>nrel_keywords: film;;
+
+film_belyy_paren_rik_2018 <- concept_crime;concept_drama;;
+
+film_belyy_paren_rik_2018 => nrel_main_actor : matthew_mcconaughey;richie_merritt;bel_powley;jennifer_jason_leigh;;
+film_belyy_paren_rik_2018 => nrel_producer : yann_demange;;

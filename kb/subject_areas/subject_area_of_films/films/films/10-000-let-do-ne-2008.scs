@@ -1,0 +1,67 @@
+film_10_000_let_do_ne_2008
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[10 000 лет до н.э.]
+(* <- lang_ru;;    *);
+[10,000 BC]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (10 000 лет до н.э.)](*<-lang_ru;;*);
+[Description (10,000 BC)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/10-000-let-do-ne-2008_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/10-000-let-do-ne-2008_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (10 000 лет до н.э.)](*<-lang_ru;;*);
+		[Pic. (10,000 BC)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/10-000-let-do-ne-2008.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;south_africa;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The legend. The battle. The first hero. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [05.03.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [05.03.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H49M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H49M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_10_000_let_do_ne_2008 =>nrel_keywords: film;;
+
+film_10_000_let_do_ne_2008 <- concept_action;concept_adventure;concept_drama;concept_fantasy;concept_history;;
+
+film_10_000_let_do_ne_2008 => nrel_main_actor : camilla_belle;steven_strait;marco_khan;cliff_curtis;;
+film_10_000_let_do_ne_2008 => nrel_producer : roland_emmerich;;

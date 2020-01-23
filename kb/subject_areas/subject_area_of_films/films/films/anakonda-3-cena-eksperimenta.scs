@@ -1,0 +1,67 @@
+film_anakonda_3_cena_eksperimenta
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Анаконда 3: Цена эксперимента]
+(* <- lang_ru;;    *);
+[Anaconda III]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Анаконда 3: Цена эксперимента)](*<-lang_ru;;*);
+[Description (Anaconda III)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/anakonda-3-cena-eksperimenta_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/anakonda-3-cena-eksperimenta_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Анаконда 3: Цена эксперимента)](*<-lang_ru;;*);
+		[Pic. (Anaconda III)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/anakonda-3-cena-eksperimenta.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;romania;
+
+=> nrel_film_critic_rating : 3;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [They Can Taste Your Fear](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.07.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.07.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H31M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H31M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_anakonda_3_cena_eksperimenta =>nrel_keywords: film;;
+
+film_anakonda_3_cena_eksperimenta <- concept_action;concept_adventure;concept_horror;concept_sci_fi;concept_thriller;;
+
+film_anakonda_3_cena_eksperimenta => nrel_main_actor : david_hasselhoff;crystal_allen;ryan_mccluskey;patrick_regis;;
+film_anakonda_3_cena_eksperimenta => nrel_producer : don_e._fauntleroy;;

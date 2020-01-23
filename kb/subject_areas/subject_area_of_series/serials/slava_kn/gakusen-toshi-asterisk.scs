@@ -1,0 +1,79 @@
+
+                  concept_series -> Gakusen_Toshi_Asterisk;;
+              
+                  Gakusen_Toshi_Asterisk
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [ск Там Тери _ О _ s в и изо всех сил]
+                    (* <- lang_ru;;	*);
+                    [Gakusen_Toshi_Asterisk]
+                    (* <- lang_en;;	*);;
+                  
+                  Gakusen_Toshi_Asterisk <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (ск Там Тери _ О _ s в и изо всех сил)](*<-lang_ru;;*);
+                      [Description (Gakusen_Toshi_Asterisk)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Gakusen_Toshi_Asterisk_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Gakusen_Toshi_Asterisk_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Gakusen_Toshi_Asterisk <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (ск Там Тери _ О _ s в и изо всех сил)](*<-lang_ru;;*);
+                      [Pic. (Gakusen_Toshi_Asterisk)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Gakusen_Toshi_Asterisk.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Gakusen_Toshi_Asterisk => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Gakusen_Toshi_Asterisk => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  Gakusen_Toshi_Asterisk => nrel_num_of_seasons: 2;;
+                  value -> 24;;
+                  Gakusen_Toshi_Asterisk => nrel_num_of_episodes: 24;;
+                  
+                  value -> 12;;
+                  Gakusen_Toshi_Asterisk => nrel_no_countries : 12;;
+                  
+                  value -> 5;;
+                  Gakusen_Toshi_Asterisk => nrel_viewers_in_millions: 5;;
+                  
+                  Gakusen_Toshi_Asterisk => nrel_age_rating: concept_PG12;;
+                  
+                    Gakusen_Toshi_Asterisk => nrel_actor : ShioriIzawa;;
+                    
+                   
+                    Gakusen_Toshi_Asterisk => nrel_actor : AiKakuma;;
+                    
+                   
+                    Gakusen_Toshi_Asterisk => nrel_actor : AriOzawa;;
+                    
+                   
+                    Gakusen_Toshi_Asterisk => nrel_actor : AtsushiTamaru;;
+                    
+                   
+                    Gakusen_Toshi_Asterisk => nrel_actor : NaoTyama;;
+                    
+                  
+                  
+                  Gakusen_Toshi_Asterisk
+                  =>nrel_keywords: concept_detectif;;
+                  

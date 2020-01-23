@@ -1,0 +1,64 @@
+concept_series -> The_west_wing;;
+
+The_west_wing
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Западное крыло]
+	(* <- lang_ru;;	*);
+	[The_west_wing]
+	(* <- lang_en;;	*);;
+	
+The_west_wing <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Западное крыло)](*<-lang_ru;;*);
+		[Description (The_west_wing)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/The_west_wing_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The_west_wing_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+The_west_wing <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Западное крыло)](*<-lang_ru;;*);
+		[Pic. (The_west_wing)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/The_west_wing.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+The_west_wing => nrel_production_country : Usa;;
+
+concept_calendar_date -> 1999;;
+1999 => nrel_main_idtf : [1999 год](*<-lang_ru;;*);;
+1999 => nrel_main_idtf : [year of 1999](*<-lang_en;;*);;
+The_west_wing => nrel_production_year : 1999;;
+	
+value -> 7;;
+The_west_wing => nrel_num_of_seasons: 7;;
+value -> 156;;
+The_west_wing=> nrel_num_of_episodes: 156;;
+	
+value -> 90;;
+The_west_wing =>nrel_no_countries : 90;;
+
+value -> 6;;
+The_west_wing => nrel_viewers_in_millions: 6;;
+
+The_west_wing => nrel_age_rating: concept_PG18;;
+
+The_west_wing => nrel_actor : Martin_Sheen;;
+The_west_wing => nrel_producer : Aaron_Sorkin;;
+
+The_wire =>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_politics;;

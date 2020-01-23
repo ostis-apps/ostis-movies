@@ -1,0 +1,51 @@
+concept_human -> matthew_mcconaughey;;
+ 
+ matthew_mcconaughey <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэттью Макконахи)](*<-lang_ru;;*);
+ 		[Description (Matthew McConaughey)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/matthew_mcconaughey_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ matthew_mcconaughey <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэттью Макконахи)](*<-lang_ru;;*);
+ 		[Pic. (Matthew McConaughey)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/matthew_mcconaughey.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ matthew_mcconaughey => nrel_main_idtf : [Мэттью Макконахи](*<-lang_ru;;*);;
+ matthew_mcconaughey => nrel_main_idtf : [Matthew McConaughey](*<-lang_en;;*);;
+ 
+ 
+ matthew_mcconaughey => nrel_birth_date : 1969;;
+ 
+ concept_goverment -> Usa;;
+ matthew_mcconaughey => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ matthew_mcconaughey => nrel_to_star_in : interstellar;;
+interstellar => nrel_main_idtf : [Interstellar](*<-lang_en;;*);;
+interstellar => nrel_main_idtf : [Интерстеллар](*<-lang_ru;;*);;
+matthew_mcconaughey => nrel_to_star_in : the_wolf_of_wall_street;;
+the_wolf_of_wall_street => nrel_main_idtf : [The Wolf of Wall Street](*<-lang_en;;*);;
+the_wolf_of_wall_street => nrel_main_idtf : [Волк с Уолл-Стрит](*<-lang_ru;;*);;
+matthew_mcconaughey => nrel_to_star_in : dallas_buyers_club;;
+dallas_buyers_club => nrel_main_idtf : [Dallas Buyers Club](*<-lang_en;;*);;
+dallas_buyers_club => nrel_main_idtf : [Далласский клуб покупателей](*<-lang_ru;;*);;
+

@@ -1,0 +1,76 @@
+
+                  concept_series -> The_Dragon_Prince;;
+              
+                  The_Dragon_Prince
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Dragon_Prince]
+                    (* <- lang_ru;;	*);
+                    [The_Dragon_Prince]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Dragon_Prince <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Dragon_Prince)](*<-lang_ru;;*);
+                      [Description (The_Dragon_Prince)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Dragon_Prince_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Dragon_Prince_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Dragon_Prince <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Dragon_Prince)](*<-lang_ru;;*);
+                      [Pic. (The_Dragon_Prince)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Dragon_Prince.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Dragon_Prince => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  The_Dragon_Prince => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  The_Dragon_Prince => nrel_num_of_seasons: 3;;
+                  value -> 27;;
+                  The_Dragon_Prince => nrel_num_of_episodes: 27;;
+                  
+                  value -> 10;;
+                  The_Dragon_Prince => nrel_no_countries : 10;;
+                  
+                  value -> 11;;
+                  The_Dragon_Prince => nrel_viewers_in_millions: 11;;
+                  
+                  The_Dragon_Prince => nrel_age_rating: concept_PG12;;
+                  
+                    The_Dragon_Prince => nrel_actor : PaulaBurrows;;
+                    
+                   
+                    The_Dragon_Prince => nrel_actor : JackDeSena;;
+                    
+                   
+                    The_Dragon_Prince => nrel_actor : SashaRojen;;
+                    
+                   
+                    The_Dragon_Prince => nrel_actor : RacquelBelmonte;;
+                    
+                  
+                  
+                  The_Dragon_Prince
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,24 @@
+concept_anime_character <- sc_node_not_relation;
+
+=> nrel_main_idtf:[аниме-персонаж] (* <- lang_ru;; *);
+=> nrel_idtf:[anime character] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (аниме-персонаж)](* <- lang_ru;; *);
+		[Def. (anime character)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_anime_character;;
+		-> concept_anime;;
+		-> concept_manga;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_anime_character">Аниме-персонаж</sc_element></b> это действующее лицо <sc_element sys_idtf="concept_anime">аниме</sc_element> или <sc_element sys_idtf="concept_manga">манги</sc_element>.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_anime_character">Anime character</sc_element></b> is the protagonist of the <sc_element sys_idtf="concept_anime">anime</sc_element> and <sc_element sys_idtf="concept_manga">manga</sc_element>.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+

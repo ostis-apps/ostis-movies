@@ -1,0 +1,52 @@
+concept_Ratatouille
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Рататуй]
+	(* <- lang_ru;;	*);
+	[Ratatouille]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Рататуй)](*<-lang_ru;;*);
+		[Description (Ratatouille)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Ratatouille_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Ratatouille_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Brad_Bird;
+=>nrel_producer: Brad_Lewis;
+=>nrel_production_country: USA;
+=>nrel_production_year: 2006;
+=>nrel_continuance: 88;
+=>nrel_handle: 150000000;
+=>nrel_character:...
+	(*
+  	<-character_Remy;;
+	<-character_Django;; 
+	<-character_Emil;; 
+	<-character_Alfredo_Lingvini;;
+	<-character_Horst;;
+	*);
+=>nrel_age_rating: concept_PG0;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Рататуй)](*<-lang_ru;;*);
+		[Pic. (Ratatouille)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Ratatouille.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

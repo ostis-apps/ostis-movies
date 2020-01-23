@@ -1,0 +1,48 @@
+concept_human -> brie_larson;;
+ 
+ brie_larson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Бри Ларсон)](*<-lang_ru;;*);
+ 		[Description (Brie Larson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/brie_larson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ brie_larson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Бри Ларсон)](*<-lang_ru;;*);
+ 		[Pic. (Brie Larson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/brie_larson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ brie_larson => nrel_main_idtf : [Бри Ларсон](*<-lang_ru;;*);;
+ brie_larson => nrel_main_idtf : [Brie Larson](*<-lang_en;;*);;
+ 
+ 
+ brie_larson => nrel_birth_date : 1989;;
+ 
+ concept_goverment -> Usa;;
+ brie_larson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ brie_larson => nrel_to_star_in : captain_marvel;;
+captain_marvel => nrel_main_idtf : [Captain Marvel](*<-lang_en;;*);;
+captain_marvel => nrel_main_idtf : [Капитан Марвел](*<-lang_ru;;*);;
+brie_larson => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+

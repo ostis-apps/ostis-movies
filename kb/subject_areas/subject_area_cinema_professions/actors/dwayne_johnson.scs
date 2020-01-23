@@ -1,0 +1,78 @@
+concept_human -> dwayne_johnson;;
+ 
+ dwayne_johnson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дуэйн Джонсон)](*<-lang_ru;;*);
+ 		[Description (Dwayne Johnson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/dwayne_johnson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ dwayne_johnson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дуэйн Джонсон)](*<-lang_ru;;*);
+ 		[Pic. (Dwayne Johnson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/dwayne_johnson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ dwayne_johnson => nrel_main_idtf : [Дуэйн Джонсон](*<-lang_ru;;*);;
+ dwayne_johnson => nrel_main_idtf : [Dwayne Johnson](*<-lang_en;;*);;
+ 
+ 
+ dwayne_johnson => nrel_birth_date : 1972;;
+ 
+ concept_goverment -> Usa;;
+ dwayne_johnson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ dwayne_johnson => nrel_to_star_in : fast__furious_presents_hobbs__shaw;;
+fast__furious_presents_hobbs__shaw => nrel_main_idtf : [Fast & Furious Presents: Hobbs & Shaw](*<-lang_en;;*);;
+fast__furious_presents_hobbs__shaw => nrel_main_idtf : [Форсаж: Хоббс и Шоу](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : rampage;;
+rampage => nrel_main_idtf : [Rampage](*<-lang_en;;*);;
+rampage => nrel_main_idtf : [Рэмпейдж](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : skyscraper;;
+skyscraper => nrel_main_idtf : [Skyscraper](*<-lang_en;;*);;
+skyscraper => nrel_main_idtf : [Небоскреб](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : the_fate_of_the_furious;;
+the_fate_of_the_furious => nrel_main_idtf : [The Fate of the Furious](*<-lang_en;;*);;
+the_fate_of_the_furious => nrel_main_idtf : [Форсаж 8](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : baywatch;;
+baywatch => nrel_main_idtf : [Baywatch](*<-lang_en;;*);;
+baywatch => nrel_main_idtf : [Спасатели Малибу](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : jumanji_welcome_to_the_jungle;;
+jumanji_welcome_to_the_jungle => nrel_main_idtf : [Jumanji: Welcome to the Jungle](*<-lang_en;;*);;
+jumanji_welcome_to_the_jungle => nrel_main_idtf : [Джуманджи: Зов джунглей](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : central_intelligence;;
+central_intelligence => nrel_main_idtf : [Central Intelligence](*<-lang_en;;*);;
+central_intelligence => nrel_main_idtf : [Полтора шпиона](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : furious_7;;
+furious_7 => nrel_main_idtf : [Furious 7](*<-lang_en;;*);;
+furious_7 => nrel_main_idtf : [Форсаж 7](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : san_andreas;;
+san_andreas => nrel_main_idtf : [San Andreas](*<-lang_en;;*);;
+san_andreas => nrel_main_idtf : [Разлом Сан-Андреас](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : hercules;;
+hercules => nrel_main_idtf : [Hercules](*<-lang_en;;*);;
+hercules => nrel_main_idtf : [Геракл](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : fast__furious_6;;
+fast__furious_6 => nrel_main_idtf : [Fast & Furious 6](*<-lang_en;;*);;
+fast__furious_6 => nrel_main_idtf : [Форсаж 6](*<-lang_ru;;*);;
+dwayne_johnson => nrel_to_star_in : fast_five;;
+fast_five => nrel_main_idtf : [Fast Five](*<-lang_en;;*);;
+fast_five => nrel_main_idtf : [Форсаж 5: Быстрая пятерка](*<-lang_ru;;*);;
+

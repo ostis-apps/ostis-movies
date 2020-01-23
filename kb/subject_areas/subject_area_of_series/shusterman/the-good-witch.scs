@@ -1,0 +1,73 @@
+
+                  concept_series -> Good_Witch;;
+              
+                  Good_Witch
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Good_Witch]
+                    (* <- lang_ru;;	*);
+                    [Good_Witch]
+                    (* <- lang_en;;	*);;
+                  
+                  Good_Witch <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Good_Witch)](*<-lang_ru;;*);
+                      [Description (Good_Witch)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Good_Witch_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Good_Witch_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Good_Witch <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Good_Witch)](*<-lang_ru;;*);
+                      [Pic. (Good_Witch)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Good_Witch.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Good_Witch => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Good_Witch => nrel_production_year : 2015;;
+                  
+                  value -> 6;;
+                  Good_Witch => nrel_num_of_seasons: 6;;
+                  value -> 48;;
+                  Good_Witch => nrel_num_of_episodes: 48;;
+                  
+                  value -> 12;;
+                  Good_Witch => nrel_no_countries : 12;;
+                  
+                  value -> 11;;
+                  Good_Witch => nrel_viewers_in_millions: 11;;
+                  
+                  Good_Witch => nrel_age_rating: concept_PG12;;
+                  
+                    Good_Witch => nrel_actor : CatherineBell;;
+                    
+                   
+                    Good_Witch => nrel_actor : BaileeMadison;;
+                    
+                   
+                    Good_Witch => nrel_actor : JamesDenton;;
+                    
+                  
+                  
+                  Good_Witch
+                  =>nrel_keywords: concept_detectif;;
+                  

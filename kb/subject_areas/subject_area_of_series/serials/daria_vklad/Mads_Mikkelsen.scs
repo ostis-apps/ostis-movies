@@ -1,0 +1,51 @@
+concept_human -> Mads_Mikkelsen;;
+
+Mads_Mikkelsen
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мадс Миккельсен]
+	(* <- lang_ru;;	*);
+	[Mads Mikkelsen]
+	(* <- lang_en;;	*);;
+	
+Mads_Mikkelsen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мадс Миккельсен)](*<-lang_ru;;*);
+		[Description (Mads Mikkelsen)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Mads_Mikkelsen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Mads_Mikkelsen_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Mads_Mikkelsen <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мадс Миккельсен)](*<-lang_ru;;*);
+		[Pic. (Mads Mikkelsen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Mads_Mikkelsen.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1965;;
+Mads_Mikkelsen=>nrel_date_of_birth: 1965;;
+1965=>nrel_main_idtf:[1965 год](*<-lang_ru;;*);;
+1965=>nrel_main_idtf:[year of 1965](*<-lang_en;;*);;
+
+concept_calendar_date->1996;;
+Mads_Mikkelsen=>nrel_career_start_date: 1996;;
+1996=>nrel_main_idtf:[1996 год](*<-lang_ru;;*);;
+1996=>nrel_main_idtf:[year of 1996](*<-lang_en;;*);;
+
+Mads_Mikkelsen =>nrel_cityzenship: concept_denmark;;
+

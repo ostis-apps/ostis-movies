@@ -1,0 +1,7 @@
+sc_node_role_relation -> rrel_number_of_series;;
+
+rrel_number_of_series => nrel_main_idtf:
+	[количество серий']
+	(* <- lang_ru;;	*);
+	[number of series']
+	(* <- lang_en;;	*);;

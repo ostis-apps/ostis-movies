@@ -1,0 +1,51 @@
+concept_human -> mike_tyson;;
+ 
+ mike_tyson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майк Тайсон)](*<-lang_ru;;*);
+ 		[Description (Mike Tyson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/mike_tyson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ mike_tyson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майк Тайсон)](*<-lang_ru;;*);
+ 		[Pic. (Mike Tyson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/mike_tyson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ mike_tyson => nrel_main_idtf : [Майк Тайсон](*<-lang_ru;;*);;
+ mike_tyson => nrel_main_idtf : [Mike Tyson](*<-lang_en;;*);;
+ 
+ 
+ mike_tyson => nrel_birth_date : 1966;;
+ 
+ concept_goverment -> Usa;;
+ mike_tyson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ mike_tyson => nrel_to_star_in : the_hangover_part_ii;;
+the_hangover_part_ii => nrel_main_idtf : [The Hangover Part II](*<-lang_en;;*);;
+the_hangover_part_ii => nrel_main_idtf : [Мальчишник 2: Из Вегаса В Бангкок](*<-lang_ru;;*);;
+mike_tyson => nrel_to_star_in : the_hangover;;
+the_hangover => nrel_main_idtf : [The Hangover](*<-lang_en;;*);;
+the_hangover => nrel_main_idtf : [Мальчишник в Вегасе](*<-lang_ru;;*);;
+mike_tyson => nrel_to_star_in : black_and_white;;
+black_and_white => nrel_main_idtf : [Black And White](*<-lang_en;;*);;
+black_and_white => nrel_main_idtf : [Черное и белое](*<-lang_ru;;*);;
+

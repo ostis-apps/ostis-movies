@@ -1,0 +1,48 @@
+concept_human -> brittany_murphy;;
+ 
+ brittany_murphy <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Бриттани Мерфи)](*<-lang_ru;;*);
+ 		[Description (Brittany Murphy)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/brittany_murphy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ brittany_murphy <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Бриттани Мерфи)](*<-lang_ru;;*);
+ 		[Pic. (Brittany Murphy)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/brittany_murphy.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ brittany_murphy => nrel_main_idtf : [Бриттани Мерфи](*<-lang_ru;;*);;
+ brittany_murphy => nrel_main_idtf : [Brittany Murphy](*<-lang_en;;*);;
+ 
+ 
+ brittany_murphy => nrel_birth_date : 1987;;
+ 
+ concept_goverment -> Usa;;
+ brittany_murphy => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ brittany_murphy => nrel_to_star_in : sin_city;;
+sin_city => nrel_main_idtf : [Sin City](*<-lang_en;;*);;
+sin_city => nrel_main_idtf : [Город грехов](*<-lang_ru;;*);;
+brittany_murphy => nrel_to_star_in : girl_interrupted;;
+girl_interrupted => nrel_main_idtf : [Girl, Interrupted](*<-lang_en;;*);;
+girl_interrupted => nrel_main_idtf : [Прерванная жизнь](*<-lang_ru;;*);;
+

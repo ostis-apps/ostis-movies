@@ -1,0 +1,91 @@
+concept_Hercules
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Геркулес]
+	(* <- lang_ru;;	*);
+	[Hercules]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Геркулес)](*<-lang_ru;;*);
+		[Description (Hercules)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Hercules_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Hercules_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: John_Musker;
+=>nrel_producer:  Alice_Dewey;
+=>nrel_production_country: USA;
+=>nrel_production_year:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1997
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 93
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: 252712101...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 252712101
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	<-character_Hercules;;
+	<-character_Filoktet;;
+	<-character_Hades;;
+ 	<-character_Megara;;
+ 	<-character_Zeus;; 
+	*);
+=>nrel_age_rating: concept_PG6;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Геркулес)](*<-lang_ru;;*);
+		[Pic. (Hercules)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Hercules.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+John_Musker
+=>nrel_main_idtf:
+		[Джон Мускер](*<-lang_ru;;*);
+		[John Musker](*<-lang_en;;*);;
+Alice_Dewey
+=>nrel_main_idtf:
+		[Алиса Дивэй](*<-lang_ru;;*);
+		[Alice Dewey](*<-lang_en;;*);;

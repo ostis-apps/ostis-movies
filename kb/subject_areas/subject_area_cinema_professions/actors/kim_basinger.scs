@@ -1,0 +1,48 @@
+concept_human -> kim_basinger;;
+ 
+ kim_basinger <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Ким Бейсингер)](*<-lang_ru;;*);
+ 		[Description (Kim Basinger)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kim_basinger_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kim_basinger <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Ким Бейсингер)](*<-lang_ru;;*);
+ 		[Pic. (Kim Basinger)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kim_basinger.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kim_basinger => nrel_main_idtf : [Ким Бейсингер](*<-lang_ru;;*);;
+ kim_basinger => nrel_main_idtf : [Kim Basinger](*<-lang_en;;*);;
+ 
+ 
+ kim_basinger => nrel_birth_date : 1954;;
+ 
+ concept_goverment -> Usa;;
+ kim_basinger => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kim_basinger => nrel_to_star_in : the_nice_guys;;
+the_nice_guys => nrel_main_idtf : [The Nice Guys](*<-lang_en;;*);;
+the_nice_guys => nrel_main_idtf : [Славные парни](*<-lang_ru;;*);;
+kim_basinger => nrel_to_star_in : nine_1_2_weeks;;
+nine_1_2_weeks => nrel_main_idtf : [Nine 1/2 Weeks](*<-lang_en;;*);;
+nine_1_2_weeks => nrel_main_idtf : [9 1/2 недель](*<-lang_ru;;*);;
+

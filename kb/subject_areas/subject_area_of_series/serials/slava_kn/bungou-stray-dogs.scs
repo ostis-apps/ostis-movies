@@ -1,0 +1,112 @@
+
+                  concept_series -> Bungou_Stray_Dogs;;
+              
+                  Bungou_Stray_Dogs
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Bungou_Stray_Dogs]
+                    (* <- lang_ru;;	*);
+                    [Bungou_Stray_Dogs]
+                    (* <- lang_en;;	*);;
+                  
+                  Bungou_Stray_Dogs <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Bungou_Stray_Dogs)](*<-lang_ru;;*);
+                      [Description (Bungou_Stray_Dogs)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Bungou_Stray_Dogs_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Bungou_Stray_Dogs_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Bungou_Stray_Dogs <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Bungou_Stray_Dogs)](*<-lang_ru;;*);
+                      [Pic. (Bungou_Stray_Dogs)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Bungou_Stray_Dogs.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Bungou_Stray_Dogs => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Bungou_Stray_Dogs => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  Bungou_Stray_Dogs => nrel_num_of_seasons: 3;;
+                  value -> 36;;
+                  Bungou_Stray_Dogs => nrel_num_of_episodes: 36;;
+                  
+                  value -> 12;;
+                  Bungou_Stray_Dogs => nrel_no_countries : 12;;
+                  
+                  value -> 10;;
+                  Bungou_Stray_Dogs => nrel_viewers_in_millions: 10;;
+                  
+                  Bungou_Stray_Dogs => nrel_age_rating: concept_PG12;;
+                  
+                    Bungou_Stray_Dogs => nrel_actor : TakahiroSakurai;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : YoshimasaHosoya;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : KenshoOno;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : WataruHatano;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : AsamiSeto;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : MamoruMiyano;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : YShimamura;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : RikiyaKoyama;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : KishTaniyama;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : HiroshiKamiya;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : ChiakiOmigawa;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : ToshiyukiToyonaga;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : YutoUemura;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : SoraAmamiya;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : HiroyukiKagura;;
+                    
+                   
+                    Bungou_Stray_Dogs => nrel_actor : SumireMorohoshi;;
+                    
+                  
+                  
+                  Bungou_Stray_Dogs
+                  =>nrel_keywords: concept_detectif;;
+                  

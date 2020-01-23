@@ -1,0 +1,97 @@
+
+                  concept_series -> Breaking_Bad;;
+              
+                  Breaking_Bad
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Во все тяжкие]
+                    (* <- lang_ru;;	*);
+                    [Breaking_Bad]
+                    (* <- lang_en;;	*);;
+                  
+                  Breaking_Bad <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Во все тяжкие)](*<-lang_ru;;*);
+                      [Description (Breaking_Bad)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Breaking_Bad_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Breaking_Bad_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Breaking_Bad <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Во все тяжкие)](*<-lang_ru;;*);
+                      [Pic. (Breaking_Bad)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Breaking_Bad.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Breaking_Bad => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2008;;
+                  2008 => nrel_main_idtf : [2008 год](*<-lang_ru;;*);;
+                  2008 => nrel_main_idtf : [year of 2008](*<-lang_en;;*);;
+                  Breaking_Bad => nrel_production_year : 2008;;
+                  
+                  value -> 5;;
+                  Breaking_Bad => nrel_num_of_seasons: 5;;
+                  value -> 62;;
+                  Breaking_Bad => nrel_num_of_episodes: 62;;
+                  
+                  value -> 11;;
+                  Breaking_Bad => nrel_no_countries : 11;;
+                  
+                  value -> 6;;
+                  Breaking_Bad => nrel_viewers_in_millions: 6;;
+                  
+                  Breaking_Bad => nrel_age_rating: concept_PG12;;
+                  
+                    Breaking_Bad => nrel_actor : AaronPaul;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : BryanCranston;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : AnnaGunn;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : RJMitte;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : DeanNorris;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : BetsyBrandt;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : BobOdenkirk;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : JonathanBanks;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : GiancarloEsposito;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : JessePlemons;;
+                    
+                   
+                    Breaking_Bad => nrel_actor : LauraFraser;;
+                    
+                  
+                  
+                  Breaking_Bad
+                  =>nrel_keywords: concept_detectif;;
+                  

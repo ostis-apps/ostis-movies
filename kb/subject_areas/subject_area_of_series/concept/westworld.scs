@@ -1,0 +1,139 @@
+
+                  concept_series -> Westworld;;
+              
+                  Westworld
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Westworld]
+                    (* <- lang_ru;;	*);
+                    [Westworld]
+                    (* <- lang_en;;	*);;
+                  
+                  Westworld <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Westworld)](*<-lang_ru;;*);
+                      [Description (Westworld)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Westworld_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Westworld_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Westworld <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Westworld)](*<-lang_ru;;*);
+                      [Pic. (Westworld)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Westworld.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Westworld => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Westworld => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  Westworld => nrel_num_of_seasons: 3;;
+                  value -> 20;;
+                  Westworld => nrel_num_of_episodes: 20;;
+                  
+                  value -> 10;;
+                  Westworld => nrel_no_countries : 10;;
+                  
+                  value -> 6;;
+                  Westworld => nrel_viewers_in_millions: 6;;
+                  
+                  Westworld => nrel_age_rating: concept_PG12;;
+                  
+                    Westworld => nrel_actor : ThandieNewton;;
+                    
+                   
+                    Westworld => nrel_actor : JeffreyWright;;
+                    
+                   
+                    Westworld => nrel_actor : EvanRachelWood;;
+                    
+                   
+                    Westworld => nrel_actor : EdHarris;;
+                    
+                   
+                    Westworld => nrel_actor : JamesMarsden;;
+                    
+                   
+                    Westworld => nrel_actor : AngelaSarafyan;;
+                    
+                   
+                    Westworld => nrel_actor : AnthonyHopkins;;
+                    
+                   
+                    Westworld => nrel_actor : LukeHemsworth;;
+                    
+                   
+                    Westworld => nrel_actor : SimonQuarterman;;
+                    
+                   
+                    Westworld => nrel_actor : ShannonMarieWoodward;;
+                    
+                   
+                    Westworld => nrel_actor : RodrigoSantoro;;
+                    
+                   
+                    Westworld => nrel_actor : TessaThompson;;
+                    
+                   
+                    Westworld => nrel_actor : TalulahRiley;;
+                    
+                   
+                    Westworld => nrel_actor : BenBarnes;;
+                    
+                   
+                    Westworld => nrel_actor : JimmiSimpson;;
+                    
+                   
+                    Westworld => nrel_actor : IngridBolsBerdal;;
+                    
+                   
+                    Westworld => nrel_actor : SidseBabettKnudsen;;
+                    
+                   
+                    Westworld => nrel_actor : CliftonCollinsJr;;
+                    
+                   
+                    Westworld => nrel_actor : KatjaHerbers;;
+                    
+                   
+                    Westworld => nrel_actor : ZahnMcClarnon;;
+                    
+                   
+                    Westworld => nrel_actor : LouisHerthum;;
+                    
+                   
+                    Westworld => nrel_actor : GustafSkarsgrd;;
+                    
+                   
+                    Westworld => nrel_actor : FaresFares;;
+                    
+                   
+                    Westworld => nrel_actor : JeffreyWright;;
+                    
+                   
+                    Westworld => nrel_actor : AaronPaul;;
+                    
+                  
+                  
+                  Westworld
+                  =>nrel_keywords: concept_detectif;;
+                  

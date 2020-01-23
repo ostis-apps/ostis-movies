@@ -1,0 +1,33 @@
+concept_venice_film_festival
+<- concept_film_festival;
+=> nrel_main_idtf:
+        [Венецианский кинофестиваль]
+	(* <- lang_ru;;	*);
+	[Venice film festival]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Венецианский кинофестиваль)](* <- lang_ru;; *);
+		[Desctiption (Venice film festival)](* <- lang_en;;
+		*);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="concept_venice_film_festival">Венецианский кинофестиваль</sc_element></b> — старейший международный кинофестиваль мира, основан в 1932 году по инициативе итальянского диктатора Бенито Муссолини, ежегодно проводится на острове Лидо с 1934 года во второй половине года. Главный приз — «Золотой лев».](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_venice_film_festival">Venice film festival</sc_element></b>  is the oldest film festival in the world and one of the "Big Three" film festivals, alongside the Cannes Film Festival and Berlin International Film Festival. The Big Three are internationally acclaimed for giving creators the artistic freedom to express themselves through film.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Венецианский кинофестиваль)](*<-lang_ru;;*);
+		[Pic. (Venice film festival)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/venice_film_festival.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

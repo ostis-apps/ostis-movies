@@ -1,0 +1,196 @@
+concept_onepunchman
+<- sc_node_not_relation;
+<- concept_anime;
+=> nrel_main_idtf:
+	[Ванпанчмен]
+	(* <- lang_ru;;	*);
+	[Onepunchman]
+	(* <- lang_en;;	*);
+
+=> nrel_number_of_arches: 2;
+=> nrel_anime_studio: 
+	[Studio Pierrot]
+	(* <- lang_en;;	*);
+=> nrel_metagenre: concept_seinen;
+=> nrel_anime_character:...
+	(*
+  	->character_Saitama;;
+	->character_Genos;;
+	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Ванпанчмен)](* <- lang_ru;; *);
+		[Desctiption (Onepunchman)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[На неназванной, похожей на Землю планете, мощные монстры и злодеи таинственно появляются и вызывают катастрофы. Чтобы бороться с ними, меценаты три года назад создали Ассоциацию героев. Каждый из членов Ассоциации героев ранжируется от класса C до класса S, в зависимости от своей репутации и способностей.
+
+Главный герой произведения — бывший клерк по имени <sc_element sys_idtf="character_Saitama">Сайтама</sc_element>, который совершает героические поступки ради собственного развлечения. Он с детства мечтал стать супергероем, и три года назад начал свои тренировки, которые довели его до того, что ныне он может одолеть любого соперника одним ударом. Несмотря на свои подвиги <sc_element sys_idtf="character_Saitama">Сайтама</sc_element> не афишировал их и долгое время оставался неизвестным обществу. Обретя в качестве ученика юного киборга <sc_element sys_idtf="character_Genos">Геноса</sc_element>, <sc_element sys_idtf="character_Saitama">Сайтама</sc_element> решается вступить в Ассоциацию героев, где, пройдя с рекордами все испытания, но завалив письменную часть, попадает в C-класс реестра героев. Так получается, что большинство героев, что знакомится с Сайтамой, смотрят на него сверху вниз, не веря в то, что он на самом деле сильнее любого героя Ассоциации, но те, кто узнают его ближе, начинают уважать его невероятную силу и скромность. Постепенно имя <sc_element sys_idtf="character_Saitama">Сайтама</sc_element> обретает некую известность, однако общество по-прежнему отказывается признавать его заслуги и даже подвергает героя критике за уничтоженные в ходе битв городские строения. Несмотря на это Сайтама продолжил своё участие в Ассоциации героев и был зачислен в B-класс.
+
+После атаки инопланетян, корабль которых был уничтожен <sc_element sys_idtf="character_Saitama">Сайтама</sc_element>, Ассоциация героев получила дополнительное финансирование и расширила собственное влияние. Монстры, недовольные усилением Ассоцииации, создали собственную Ассоциацию монстров, которая начала организованную борьбу с супергероями. ](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[On an unnamed, Earth-like planet, powerful monsters and villains mysteriously appear and cause disasters. To fight with them, patrons of art three years ago created the Association of Heroes. Each member of the Heroes Association is ranked from class C to class S, depending on its reputation and abilities.
+
+The protagonist of the work is a former clerk named <sc_element sys_idtf="character_Saitama">Saitama</sc_element>, who performs heroic deeds for his own entertainment. Since childhood, he dreamed of becoming a superhero, and three years ago began his training, which brought him to the point that now he can defeat any opponent with a single blow. Despite his exploits, <sc_element sys_idtf="character_Saitama">Saitama</sc_element> did not advertise them and for a long time remained unknown to society. Having acquired <sc_element sys_idtf="character_Genos">Genos</sc_element> as a student of the young cyborg, Saitam decides to join the Heroes Association, where, having passed all the tests with records, but having filled up the written part, he falls into the C-class of the heroes roster. It turns out that most of the heroes that meet Saitama look down on him, not believing that he is actually stronger than any hero of the Association, but those who recognize him closer begin to respect his incredible strength and modesty. Gradually, the name of <sc_element sys_idtf="character_Saitama">Saitama</sc_element> gains some fame, but society still refuses to recognize its merits and even criticizes the hero for the city buildings destroyed during the battles. Despite this, Saitama continued his participation in the Association of Heroes and was enrolled in the B-class.
+
+After the attack of the aliens, whose ship was destroyed by <sc_element sys_idtf="character_Saitama">Saitama</sc_element>, the Heroes Association received additional funding and expanded its influence. Monsters dissatisfied with the strengthening of Associations created their own Monster Association, which began an organized fight against superheroes.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ванпанчмен)](*<-lang_ru;;*);
+		[Pic. (Onepunchman)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_onepunchman.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+character_Saitama
+	=> nrel_main_idtf:
+	[Сайтама]
+	(* <- lang_ru;;	*);
+	[Saitama]
+	(* <- lang_en;;	*);
+
+=> nrel_seiyuu:  Makoto_Furukawa;
+
+<- concept_anime_character;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Сайтама)](* <- lang_ru;; *);
+		[Desctiption (Saitama)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="character_Saitama">Сайтама</sc_element></b> — главный герой, наделён невзрачной внешностью. Ему всего лишь 25 лет. С 22 лет тренировался столь усердно, что обрёл колоссальную физическую силу и облысел. Живёт в заброшенной части города Z, жители которого покинули этот район из-за частого появления в нём сильных монстров. ](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_Saitama">Saitama</sc_element></b> — the main character is endowed with an unsightly appearance. He is only 25 years old. From 22 years old he trained so hard that he gained tremendous physical strength and baldness. He lives in an abandoned part of the city Z, whose inhabitants left the area due to the frequent appearance of strong monsters in it.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сайтама)](*<-lang_ru;;*);
+		[Pic. (Saitama)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Saitama.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Makoto_Furukawa
+	=> nrel_main_idtf:
+	[Макото Фурукава]
+	(* <- lang_ru;;	*);
+	[Makoto Furukawa]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Макото Фурукава)](* <- lang_ru;; *);
+		[Desctiption (Makoto Furukawa)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="Makoto_Furukawa">Макото Фурукава</sc_element></b> — японский актер озвучки.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="Makoto_Furukawa">Makoto Furukawa</sc_element></b> — japanese actor of the voice acting.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Макото Фурукава)](*<-lang_ru;;*);
+		[Pic. (Makoto Furukawa)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Makoto_Furukawa.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+character_Genos
+	=> nrel_main_idtf:
+	[Генос]
+	(* <- lang_ru;;	*);
+	[Genos]
+	(* <- lang_en;;	*);
+
+=> nrel_seiyuu: Kaito_Ishikawa;
+
+<- concept_anime_character;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Генос)](* <- lang_ru;; *);
+		[Desctiption (Genos)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="character_Genos">Генос</sc_element></b> — 19-летний юноша-киборг. Одержим идеей мести таинственному киборгу, который уничтожил его городок и убил всех родных. Постоянно ищет пути стать сильнее, и ради этого готов на все.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_Genos">Genos</sc_element></b> — 19-year-old cyborg young man. Obsessed with the idea of revenge for the mysterious cyborg, which destroyed his town and killed all his relatives. Constantly looking for ways to become stronger, and for the sake of it is ready for anything.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Генос)](*<-lang_ru;;*);
+		[Pic. (Genos)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Genos.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+Kaito_Ishikawa
+	=> nrel_main_idtf:
+	[Кайто Ишикава]
+	(* <- lang_ru;;	*);
+	[Kaito Ishikawa]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Кайто Ишикава)](* <- lang_ru;; *);
+		[Desctiption (Kaito Ishikawa)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="Kaito_Ishikawa">Кайто Ишикава</sc_element></b> — японский актер озвучки.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="Kaito_Ishikawa">Kaito Ishikawa</sc_element></b> — japanese actor of the voice acting.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кайто Ишикава)](*<-lang_ru;;*);
+		[Pic. (Kaito Ishikawa)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Kaito_Ishikawa.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+

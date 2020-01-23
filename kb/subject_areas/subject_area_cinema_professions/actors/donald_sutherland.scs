@@ -1,0 +1,63 @@
+concept_human -> donald_sutherland;;
+ 
+ donald_sutherland <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дональд Сазерленд)](*<-lang_ru;;*);
+ 		[Description (Donald Sutherland)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/donald_sutherland_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ donald_sutherland <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дональд Сазерленд)](*<-lang_ru;;*);
+ 		[Pic. (Donald Sutherland)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/donald_sutherland.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ donald_sutherland => nrel_main_idtf : [Дональд Сазерленд](*<-lang_ru;;*);;
+ donald_sutherland => nrel_main_idtf : [Donald Sutherland](*<-lang_en;;*);;
+ 
+ 
+ donald_sutherland => nrel_birth_date : 1935;;
+ 
+ concept_goverment -> Canada;;
+ donald_sutherland => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ donald_sutherland => nrel_to_star_in : the_hunger_games_mockingjay__part_2;;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 2](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 2](*<-lang_ru;;*);;
+donald_sutherland => nrel_to_star_in : the_hunger_games_mockingjay__part_1;;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 1](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 1](*<-lang_ru;;*);;
+donald_sutherland => nrel_to_star_in : the_hunger_games_catching_fire;;
+the_hunger_games_catching_fire => nrel_main_idtf : [The Hunger Games: Catching Fire](*<-lang_en;;*);;
+the_hunger_games_catching_fire => nrel_main_idtf : [Голодные игры: И вспыхнет пламя](*<-lang_ru;;*);;
+donald_sutherland => nrel_to_star_in : the_hunger_games;;
+the_hunger_games => nrel_main_idtf : [The Hunger Games](*<-lang_en;;*);;
+the_hunger_games => nrel_main_idtf : [Голодные игры](*<-lang_ru;;*);;
+donald_sutherland => nrel_to_star_in : the_mechanic;;
+the_mechanic => nrel_main_idtf : [The Mechanic](*<-lang_en;;*);;
+the_mechanic => nrel_main_idtf : [Механик](*<-lang_ru;;*);;
+donald_sutherland => nrel_to_star_in : lord_of_war;;
+lord_of_war => nrel_main_idtf : [Lord of War](*<-lang_en;;*);;
+lord_of_war => nrel_main_idtf : [Оружейный барон](*<-lang_ru;;*);;
+donald_sutherland => nrel_to_star_in : lock_up;;
+lock_up => nrel_main_idtf : [Lock Up](*<-lang_en;;*);;
+lock_up => nrel_main_idtf : [Тюряга](*<-lang_ru;;*);;
+

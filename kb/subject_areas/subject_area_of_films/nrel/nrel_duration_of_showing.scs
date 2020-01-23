@@ -1,0 +1,36 @@
+nrel_duration_of_showing <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [duration of showing*](*<- lang_en;;*);
+    [длительность показа*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (длительность показа*)](*<- lang_ru;;*);
+        [Def. (duration of showing*)](*<- lang_en;;*);;
+   
+
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_duration_of_showing_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_duration_of_showing_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=>nrel_first_domain:concept_film;
+=>nrel_second_domain:duration;
+
+<- binary_relation ;
+<- antireflexive_relation ;
+<- antitransitive_relation ;
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (длительность показа*)](*<-lang_ru;;*);
+		    [Pic. (duration of showing*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/nrel_duration_of_showing.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

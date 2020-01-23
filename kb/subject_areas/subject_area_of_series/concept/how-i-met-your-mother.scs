@@ -1,0 +1,85 @@
+
+                  concept_series -> How_I_Met_Your_Mother;;
+              
+                  How_I_Met_Your_Mother
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Как я встретил вашу маму]
+                    (* <- lang_ru;;	*);
+                    [How_I_Met_Your_Mother]
+                    (* <- lang_en;;	*);;
+                  
+                  How_I_Met_Your_Mother <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Как я встретил вашу маму)](*<-lang_ru;;*);
+                      [Description (How_I_Met_Your_Mother)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/How_I_Met_Your_Mother_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/How_I_Met_Your_Mother_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  How_I_Met_Your_Mother <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Как я встретил вашу маму)](*<-lang_ru;;*);
+                      [Pic. (How_I_Met_Your_Mother)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/How_I_Met_Your_Mother.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  How_I_Met_Your_Mother => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2005;;
+                  2005 => nrel_main_idtf : [2005 год](*<-lang_ru;;*);;
+                  2005 => nrel_main_idtf : [year of 2005](*<-lang_en;;*);;
+                  How_I_Met_Your_Mother => nrel_production_year : 2005;;
+                  
+                  value -> 9;;
+                  How_I_Met_Your_Mother => nrel_num_of_seasons: 9;;
+                  value -> 208;;
+                  How_I_Met_Your_Mother => nrel_num_of_episodes: 208;;
+                  
+                  value -> 13;;
+                  How_I_Met_Your_Mother => nrel_no_countries : 13;;
+                  
+                  value -> 5;;
+                  How_I_Met_Your_Mother => nrel_viewers_in_millions: 5;;
+                  
+                  How_I_Met_Your_Mother => nrel_age_rating: concept_PG12;;
+                  
+                    How_I_Met_Your_Mother => nrel_actor : NeilPatrickHarris;;
+                    
+                   
+                    How_I_Met_Your_Mother => nrel_actor : AlysonHannigan;;
+                    
+                   
+                    How_I_Met_Your_Mother => nrel_actor : CobieSmulders;;
+                    
+                   
+                    How_I_Met_Your_Mother => nrel_actor : JasonSegel;;
+                    
+                   
+                    How_I_Met_Your_Mother => nrel_actor : JoshRadnor;;
+                    
+                   
+                    How_I_Met_Your_Mother => nrel_actor : BobSaget;;
+                    
+                   
+                    How_I_Met_Your_Mother => nrel_actor : CristinMilioti;;
+                    
+                  
+                  
+                  How_I_Met_Your_Mother
+                  =>nrel_keywords: concept_detectif;;
+                  

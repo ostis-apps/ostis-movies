@@ -1,0 +1,67 @@
+film_avichi_pravdivye_istorii_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Авичи: Правдивые истории]
+(* <- lang_ru;;    *);
+[Avicii: True Stories]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Авичи: Правдивые истории)](*<-lang_ru;;*);
+[Description (Avicii: True Stories)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/avichi-pravdivye-istorii-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/avichi-pravdivye-istorii-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Авичи: Правдивые истории)](*<-lang_ru;;*);
+		[Pic. (Avicii: True Stories)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/avichi-pravdivye-istorii-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : sweden;netherlands;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [If you were thrown into a life of success, what would you do when it all comes crashing down?](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.10.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.10.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H37M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H37M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_Not_Rated;;
+
+film_avichi_pravdivye_istorii_2017 =>nrel_keywords: film;;
+
+film_avichi_pravdivye_istorii_2017 <- concept_documentary;concept_music;;
+
+film_avichi_pravdivye_istorii_2017 => nrel_main_actor : salem_al_fakir;avicii;johan_bjerkelund;aloe_blacc;;
+film_avichi_pravdivye_istorii_2017 => nrel_producer : levan_tsikurishvili;;

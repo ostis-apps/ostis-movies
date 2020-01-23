@@ -1,0 +1,64 @@
+
+                  concept_series -> Soul_Land;;
+              
+                  Soul_Land
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Soul_Land]
+                    (* <- lang_ru;;	*);
+                    [Soul_Land]
+                    (* <- lang_en;;	*);;
+                  
+                  Soul_Land <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Soul_Land)](*<-lang_ru;;*);
+                      [Description (Soul_Land)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Soul_Land_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Soul_Land_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Soul_Land <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Soul_Land)](*<-lang_ru;;*);
+                      [Pic. (Soul_Land)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Soul_Land.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Soul_Land => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Soul_Land => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  Soul_Land => nrel_num_of_seasons: 2;;
+                  value -> 78;;
+                  Soul_Land => nrel_num_of_episodes: 78;;
+                  
+                  value -> 4;;
+                  Soul_Land => nrel_no_countries : 4;;
+                  
+                  value -> 12;;
+                  Soul_Land => nrel_viewers_in_millions: 12;;
+                  
+                  Soul_Land => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Soul_Land
+                  =>nrel_keywords: concept_detectif;;
+                  

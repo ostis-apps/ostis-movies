@@ -1,0 +1,45 @@
+concept_human -> hailey_baldwin;;
+ 
+ hailey_baldwin <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Хейли Болдуин)](*<-lang_ru;;*);
+ 		[Description (Hailey Baldwin)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/hailey_baldwin_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ hailey_baldwin <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Хейли Болдуин)](*<-lang_ru;;*);
+ 		[Pic. (Hailey Baldwin)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/hailey_baldwin.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ hailey_baldwin => nrel_main_idtf : [Хейли Болдуин](*<-lang_ru;;*);;
+ hailey_baldwin => nrel_main_idtf : [Hailey Baldwin](*<-lang_en;;*);;
+ 
+ 
+ hailey_baldwin => nrel_birth_date : 1996;;
+ 
+ concept_goverment -> Usa;;
+ hailey_baldwin => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ hailey_baldwin => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+

@@ -1,0 +1,45 @@
+concept_human -> colton_haynes;;
+ 
+ colton_haynes <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Колтон Хэйнс)](*<-lang_ru;;*);
+ 		[Description (Colton Haynes)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/colton_haynes_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ colton_haynes <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Колтон Хэйнс)](*<-lang_ru;;*);
+ 		[Pic. (Colton Haynes)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/colton_haynes.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ colton_haynes => nrel_main_idtf : [Колтон Хэйнс](*<-lang_ru;;*);;
+ colton_haynes => nrel_main_idtf : [Colton Haynes](*<-lang_en;;*);;
+ 
+ 
+ colton_haynes => nrel_birth_date : 1988;;
+ 
+ concept_goverment -> Usa;;
+ colton_haynes => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ colton_haynes => nrel_to_star_in : san_andreas;;
+san_andreas => nrel_main_idtf : [San Andreas](*<-lang_en;;*);;
+san_andreas => nrel_main_idtf : [Разлом Сан-Андреас](*<-lang_ru;;*);;
+

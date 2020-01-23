@@ -1,0 +1,48 @@
+concept_human -> cameron_monaghan;;
+ 
+ cameron_monaghan <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Камерон Монахэн)](*<-lang_ru;;*);
+ 		[Description (Cameron Monaghan)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/cameron_monaghan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ cameron_monaghan <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Камерон Монахэн)](*<-lang_ru;;*);
+ 		[Pic. (Cameron Monaghan)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/cameron_monaghan.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ cameron_monaghan => nrel_main_idtf : [Камерон Монахэн](*<-lang_ru;;*);;
+ cameron_monaghan => nrel_main_idtf : [Cameron Monaghan](*<-lang_en;;*);;
+ 
+ 
+ cameron_monaghan => nrel_birth_date : 1993;;
+ 
+ concept_goverment -> Usa;;
+ cameron_monaghan => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ cameron_monaghan => nrel_to_star_in : vampire_academy;;
+vampire_academy => nrel_main_idtf : [Vampire Academy](*<-lang_en;;*);;
+vampire_academy => nrel_main_idtf : [Академия вампиров](*<-lang_ru;;*);;
+cameron_monaghan => nrel_to_star_in : click;;
+click => nrel_main_idtf : [Click](*<-lang_en;;*);;
+click => nrel_main_idtf : [Клик: C пультом по жизни](*<-lang_ru;;*);;
+

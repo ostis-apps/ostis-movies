@@ -1,0 +1,106 @@
+
+                  concept_series -> The_Good_Doctor;;
+              
+                  The_Good_Doctor
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Good_Doctor]
+                    (* <- lang_ru;;	*);
+                    [The_Good_Doctor]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Good_Doctor <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Good_Doctor)](*<-lang_ru;;*);
+                      [Description (The_Good_Doctor)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Good_Doctor_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Good_Doctor_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Good_Doctor <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Good_Doctor)](*<-lang_ru;;*);
+                      [Pic. (The_Good_Doctor)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Good_Doctor.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Good_Doctor => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  The_Good_Doctor => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  The_Good_Doctor => nrel_num_of_seasons: 3;;
+                  value -> 46;;
+                  The_Good_Doctor => nrel_num_of_episodes: 46;;
+                  
+                  value -> 7;;
+                  The_Good_Doctor => nrel_no_countries : 7;;
+                  
+                  value -> 6;;
+                  The_Good_Doctor => nrel_viewers_in_millions: 6;;
+                  
+                  The_Good_Doctor => nrel_age_rating: concept_PG12;;
+                  
+                    The_Good_Doctor => nrel_actor : FreddieHighmore;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : AntoniaThomas;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : NicholasGonzalez;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : RichardSchiff;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : HillHarper;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : ChristinaChang;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : FionaGubelmann;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : WillYunLee;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : PaigeSpara;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : ChukuModu;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : TamlynTomita;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : BeauGarrett;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : JasikaNicole;;
+                    
+                   
+                    The_Good_Doctor => nrel_actor : IreneKeng;;
+                    
+                  
+                  
+                  The_Good_Doctor
+                  =>nrel_keywords: concept_detectif;;
+                  

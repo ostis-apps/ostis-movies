@@ -1,0 +1,67 @@
+film_burlesk_2010
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бурлеск]
+(* <- lang_ru;;    *);
+[Burlesque]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бурлеск)](*<-lang_ru;;*);
+[Description (Burlesque)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/burlesk-2010_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/burlesk-2010_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бурлеск)](*<-lang_ru;;*);
+		[Pic. (Burlesque)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/burlesk-2010.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [It takes a LEGEND... to make a STAR See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [24.11.2010](*<-lang_ru;;*);;
+    => nrel_main_idtf : [24.11.2010](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H59M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H59M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_burlesk_2010 =>nrel_keywords: film;;
+
+film_burlesk_2010 <- concept_drama;concept_music;concept_musical;concept_romance;;
+
+film_burlesk_2010 => nrel_main_actor : cher;christina_aguilera;alan_cumming;eric_dane;;
+film_burlesk_2010 => nrel_producer : steve_antin;;

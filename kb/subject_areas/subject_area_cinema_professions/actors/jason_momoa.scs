@@ -1,0 +1,45 @@
+concept_human -> jason_momoa;;
+ 
+ jason_momoa <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джейсон Момоа)](*<-lang_ru;;*);
+ 		[Description (Jason Momoa)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jason_momoa_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jason_momoa <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джейсон Момоа)](*<-lang_ru;;*);
+ 		[Pic. (Jason Momoa)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jason_momoa.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jason_momoa => nrel_main_idtf : [Джейсон Момоа](*<-lang_ru;;*);;
+ jason_momoa => nrel_main_idtf : [Jason Momoa](*<-lang_en;;*);;
+ 
+ 
+ jason_momoa => nrel_birth_date : 1979;;
+ 
+ concept_goverment -> Usa;;
+ jason_momoa => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jason_momoa => nrel_to_star_in : aquaman;;
+aquaman => nrel_main_idtf : [Aquaman](*<-lang_en;;*);;
+aquaman => nrel_main_idtf : [Аквамен](*<-lang_ru;;*);;
+

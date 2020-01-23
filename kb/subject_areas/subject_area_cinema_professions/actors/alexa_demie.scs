@@ -1,0 +1,45 @@
+concept_human -> alexa_demie;;
+ 
+ alexa_demie <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Алекса Деми)](*<-lang_ru;;*);
+ 		[Description (Alexa Demie)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/alexa_demie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ alexa_demie <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Алекса Деми)](*<-lang_ru;;*);
+ 		[Pic. (Alexa Demie)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/alexa_demie.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ alexa_demie => nrel_main_idtf : [Алекса Деми](*<-lang_ru;;*);;
+ alexa_demie => nrel_main_idtf : [Alexa Demie](*<-lang_en;;*);;
+ 
+ 
+ alexa_demie => nrel_birth_date : 1995;;
+ 
+ concept_goverment -> Usa;;
+ alexa_demie => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ alexa_demie => nrel_to_star_in : mid90s;;
+mid90s => nrel_main_idtf : [Mid90s](*<-lang_en;;*);;
+mid90s => nrel_main_idtf : [Середина 90-х](*<-lang_ru;;*);;
+

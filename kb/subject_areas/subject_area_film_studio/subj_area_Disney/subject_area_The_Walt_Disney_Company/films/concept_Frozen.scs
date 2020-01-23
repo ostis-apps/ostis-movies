@@ -1,0 +1,93 @@
+concept_Frozen
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Холодное сердце]
+	(* <- lang_ru;;	*);
+	[Frozen]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Холодное сердце)](*<-lang_ru;;*);
+		[Description (Frozen)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Frozen_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Frozen_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Chris_Buck;
+=>nrel_producer: John_Lasseter;
+=>nrel_production_country: USA;
+=>nrel_production_year:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2013
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:   ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 102
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 1276480335
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	<-character_Anna;;
+	<-character_Elsa;;
+	<-character_Kristoff_Bjorgman;;
+ 	<-character_Prince_of_the_Southern_Isles_Hans_Westergord;;
+ 	<-character_Marshmallow;; 
+	<-character_Oken;;
+	*);
+=>nrel_age_rating: concept_PG0;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Холодное сердце)](*<-lang_ru;;*);
+		[Pic. (Frozen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Frozen.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Chris_Buck
+=>nrel_main_idtf:
+		[Крис Бак](*<-lang_ru;;*);
+		[Chris Buck](*<-lang_en;;*);;
+John_Lasseter
+=>nrel_main_idtf:
+		[Джон Ластер](*<-lang_ru;;*);
+		[John Lasseter](*<-lang_en;;*);;
+

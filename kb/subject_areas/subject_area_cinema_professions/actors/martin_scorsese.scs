@@ -1,0 +1,57 @@
+concept_human -> martin_scorsese;;
+ 
+ martin_scorsese <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мартин Скорсезе)](*<-lang_ru;;*);
+ 		[Description (Martin Scorsese)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/martin_scorsese_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ martin_scorsese <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мартин Скорсезе)](*<-lang_ru;;*);
+ 		[Pic. (Martin Scorsese)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/martin_scorsese.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ martin_scorsese => nrel_main_idtf : [Мартин Скорсезе](*<-lang_ru;;*);;
+ martin_scorsese => nrel_main_idtf : [Martin Scorsese](*<-lang_en;;*);;
+ 
+ 
+ martin_scorsese => nrel_birth_date : 1942;;
+ 
+ concept_goverment -> Usa;;
+ martin_scorsese => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ martin_scorsese => nrel_to_star_in : the_wolf_of_wall_street;;
+the_wolf_of_wall_street => nrel_main_idtf : [The Wolf of Wall Street](*<-lang_en;;*);;
+the_wolf_of_wall_street => nrel_main_idtf : [Волк с Уолл-Стрит](*<-lang_ru;;*);;
+martin_scorsese => nrel_to_star_in : shutter_island;;
+shutter_island => nrel_main_idtf : [Shutter Island](*<-lang_en;;*);;
+shutter_island => nrel_main_idtf : [Остров проклятых](*<-lang_ru;;*);;
+martin_scorsese => nrel_to_star_in : the_departed;;
+the_departed => nrel_main_idtf : [The Departed](*<-lang_en;;*);;
+the_departed => nrel_main_idtf : [Отступники](*<-lang_ru;;*);;
+martin_scorsese => nrel_to_star_in : the_aviator;;
+the_aviator => nrel_main_idtf : [The Aviator](*<-lang_en;;*);;
+the_aviator => nrel_main_idtf : [Авиатор](*<-lang_ru;;*);;
+martin_scorsese => nrel_to_star_in : gangs_of_new_york;;
+gangs_of_new_york => nrel_main_idtf : [Gangs of New York](*<-lang_en;;*);;
+gangs_of_new_york => nrel_main_idtf : [Банды Нью-Йорка](*<-lang_ru;;*);;
+

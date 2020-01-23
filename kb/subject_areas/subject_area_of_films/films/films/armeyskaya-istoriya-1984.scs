@@ -1,0 +1,67 @@
+film_armeyskaya_istoriya_1984
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Армейская история / История солдата]
+(* <- lang_ru;;    *);
+[A Soldier's Story]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Армейская история / История солдата)](*<-lang_ru;;*);
+[Description (A Soldier's Story)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/armeyskaya-istoriya-1984_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/armeyskaya-istoriya-1984_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Армейская история / История солдата)](*<-lang_ru;;*);
+		[Pic. (A Soldier's Story)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/armeyskaya-istoriya-1984.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Alone, far from home, and far from justice, he has three days to learn the truth about a murder...and the truth is a story you won't forget.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [02.11.1984](*<-lang_ru;;*);;
+    => nrel_main_idtf : [02.11.1984](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H41M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H41M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_armeyskaya_istoriya_1984 =>nrel_keywords: film;;
+
+film_armeyskaya_istoriya_1984 <- concept_crime;concept_drama;concept_mystery;concept_war;;
+
+film_armeyskaya_istoriya_1984 => nrel_main_actor : howard_e._rollins_jr.;adolph_caesar;art_evans;david_alan_grier;;
+film_armeyskaya_istoriya_1984 => nrel_producer : norman_jewison;;

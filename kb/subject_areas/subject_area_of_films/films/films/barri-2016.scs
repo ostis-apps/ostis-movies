@@ -1,0 +1,67 @@
+film_barri_2016
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Барри]
+(* <- lang_ru;;    *);
+[Barry]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Барри)](*<-lang_ru;;*);
+[Description (Barry)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/barri-2016_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/barri-2016_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барри)](*<-lang_ru;;*);
+		[Pic. (Barry)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/barri-2016.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Before he was Barack, he was...](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [16.12.2016](*<-lang_ru;;*);;
+    => nrel_main_idtf : [16.12.2016](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H44M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H44M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_barri_2016 =>nrel_keywords: film;;
+
+film_barri_2016 <- concept_biography;concept_drama;;
+
+film_barri_2016 => nrel_main_actor : devon_terrell;anya_taylor_joy;jason_mitchell;ellar_coltrane;;
+film_barri_2016 => nrel_producer : vikram_gandhi;;

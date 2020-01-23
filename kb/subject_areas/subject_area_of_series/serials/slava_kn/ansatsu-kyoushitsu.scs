@@ -1,0 +1,208 @@
+
+                  concept_series -> Ansatsu_Kyoushitsu;;
+              
+                  Ansatsu_Kyoushitsu
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Покушение _ класс]
+                    (* <- lang_ru;;	*);
+                    [Ansatsu_Kyoushitsu]
+                    (* <- lang_en;;	*);;
+                  
+                  Ansatsu_Kyoushitsu <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Покушение _ класс)](*<-lang_ru;;*);
+                      [Description (Ansatsu_Kyoushitsu)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Ansatsu_Kyoushitsu_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Ansatsu_Kyoushitsu_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Ansatsu_Kyoushitsu <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Покушение _ класс)](*<-lang_ru;;*);
+                      [Pic. (Ansatsu_Kyoushitsu)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Ansatsu_Kyoushitsu.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Ansatsu_Kyoushitsu => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Ansatsu_Kyoushitsu => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  Ansatsu_Kyoushitsu => nrel_num_of_seasons: 2;;
+                  value -> 47;;
+                  Ansatsu_Kyoushitsu => nrel_num_of_episodes: 47;;
+                  
+                  value -> 5;;
+                  Ansatsu_Kyoushitsu => nrel_no_countries : 5;;
+                  
+                  value -> 7;;
+                  Ansatsu_Kyoushitsu => nrel_viewers_in_millions: 7;;
+                  
+                  Ansatsu_Kyoushitsu => nrel_age_rating: concept_PG12;;
+                  
+                    Ansatsu_Kyoushitsu => nrel_actor : AkahiraTeppei;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : Rytasaka;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : SatomiSato;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : NobuhikoOkamoto;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : SakiFujita;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : KentaMiyake;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : TakuyaSat;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : TomokazuSugita;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : HarasawaKouki;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : KanaUeda;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : AyakaSuwa;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : KurumiMamiya;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : HisakoKanemoto;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : AyumuMurase;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : AyaSuzaki;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : JunjiMajima;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : KawabeShunsuke;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : ShinyaTakahashi;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : ShunTakagi;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : ShizukaItou;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : KawaragiShiho;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : TakehitoKoyasu;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : RyotaTakeuchi;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : MegumiOgata;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : MamoruMiyano;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : SubaruKimura;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : TakahiroMizushima;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : MinamiTanaka;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : ShintaroAsanuma;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : RyoNaitou;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : MatsuuraChie;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : TakahiroMizushima;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : YabeMasahito;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : ManamiNumakura;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : MinoMackic;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : EijiMiyashita;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : HirokiGotou;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : SayuriYahagi;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : ShoHayami;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : TaitenKusunoki;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : MuraseKatsuki;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : AnriKatsu;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : KanehiraYamamoto;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : MaiFuchigami;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : JunFukuyama;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : FukoSaito;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : KaitoIshikawa;;
+                    
+                   
+                    Ansatsu_Kyoushitsu => nrel_actor : YoshitakaYamaya;;
+                    
+                  
+                  
+                  Ansatsu_Kyoushitsu
+                  =>nrel_keywords: concept_detectif;;
+                  

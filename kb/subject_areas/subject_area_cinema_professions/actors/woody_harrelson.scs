@@ -1,0 +1,66 @@
+concept_human -> woody_harrelson;;
+ 
+ woody_harrelson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Вуди Харрельсон)](*<-lang_ru;;*);
+ 		[Description (Woody Harrelson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/woody_harrelson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ woody_harrelson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Вуди Харрельсон)](*<-lang_ru;;*);
+ 		[Pic. (Woody Harrelson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/woody_harrelson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ woody_harrelson => nrel_main_idtf : [Вуди Харрельсон](*<-lang_ru;;*);;
+ woody_harrelson => nrel_main_idtf : [Woody Harrelson](*<-lang_en;;*);;
+ 
+ 
+ woody_harrelson => nrel_birth_date : 1961;;
+ 
+ concept_goverment -> Usa;;
+ woody_harrelson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ woody_harrelson => nrel_to_star_in : solo_a_star_wars_story;;
+solo_a_star_wars_story => nrel_main_idtf : [Solo: A Star Wars Story](*<-lang_en;;*);;
+solo_a_star_wars_story => nrel_main_idtf : [Хан Соло: Звёздные Войны. Истории](*<-lang_ru;;*);;
+woody_harrelson => nrel_to_star_in : venom;;
+venom => nrel_main_idtf : [Venom](*<-lang_en;;*);;
+venom => nrel_main_idtf : [Веном](*<-lang_ru;;*);;
+woody_harrelson => nrel_to_star_in : the_hunger_games_mockingjay__part_2;;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 2](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 2](*<-lang_ru;;*);;
+woody_harrelson => nrel_to_star_in : the_hunger_games_mockingjay__part_1;;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 1](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 1](*<-lang_ru;;*);;
+woody_harrelson => nrel_to_star_in : the_hunger_games_catching_fire;;
+the_hunger_games_catching_fire => nrel_main_idtf : [The Hunger Games: Catching Fire](*<-lang_en;;*);;
+the_hunger_games_catching_fire => nrel_main_idtf : [Голодные игры: И вспыхнет пламя](*<-lang_ru;;*);;
+woody_harrelson => nrel_to_star_in : the_hunger_games;;
+the_hunger_games => nrel_main_idtf : [The Hunger Games](*<-lang_en;;*);;
+the_hunger_games => nrel_main_idtf : [Голодные игры](*<-lang_ru;;*);;
+woody_harrelson => nrel_to_star_in : anger_management;;
+anger_management => nrel_main_idtf : [Anger Management](*<-lang_en;;*);;
+anger_management => nrel_main_idtf : [Управление гневом](*<-lang_ru;;*);;
+woody_harrelson => nrel_to_star_in : the_thin_red_line;;
+the_thin_red_line => nrel_main_idtf : [The Thin Red Line](*<-lang_en;;*);;
+the_thin_red_line => nrel_main_idtf : [Тонкая красная линия](*<-lang_ru;;*);;
+

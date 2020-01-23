@@ -1,0 +1,521 @@
+concept_rascaldom
+<- sc_node_not_relation;
+=> nrel_main_idtf:	
+    [Мошенничество]	
+    (* <- lang_ru;;	*);
+    [Rascaldom]
+    (* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_theft
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Кража]
+	
+(* <- lang_ru;;	*);
+	
+[Theft]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_love
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Любовь]
+	
+(* <- lang_ru;;	*);
+	
+[Love]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_family
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Семья]
+	
+(* <- lang_ru;;	*);
+	
+[Family]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_social_networks
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Социальные сети]
+	
+(* <- lang_ru;;	*);
+	
+[Social networks]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_investigation
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Расследование]
+	
+(* <- lang_ru;;	*);
+	
+[Investigation]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+ concept_fairy_tale
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Сказка]
+	
+(* <- lang_ru;;	*);
+	
+[Fairy tale]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+ concept_kingdom
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Королевство]
+	
+(* <- lang_ru;;	*);
+	
+[Kingdom]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_blood
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Кровь]
+	
+(* <- lang_ru;;	*);
+	
+[Blood]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_murder
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Убийство]
+	
+(* <- lang_ru;;	*);
+	
+[Murder]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_horror
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Ужасы]
+	
+(* <- lang_ru;;	*);
+	
+[Horror]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_police
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Полиция]
+	
+(* <- lang_ru;;	*);
+	
+[Police]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_personality_crisis
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Кризис личности]
+	
+(* <- lang_ru;;	*);
+	
+[Personality Crisis]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_split_personality
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Раздвоение личности]
+	
+(* <- lang_ru;;	*);
+	
+[Split Personality]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_mind_game
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Игра разума]
+	
+(* <- lang_ru;;	*);
+	
+[Mind game]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_success
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Успех]
+	
+(* <- lang_ru;;	*);
+	
+[Success]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_money
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Деньги]
+	
+(* <- lang_ru;;	*);
+	
+[Money]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_business
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Бизнес]
+	
+(* <- lang_ru;;	*);
+	
+[Business]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_blackmail
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Шантаж]
+	
+(* <- lang_ru;;	*);
+	
+[Blackmail]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_intrigue
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Интрига]
+	
+(* <- lang_ru;;	*);
+	
+[Intrigue]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_school
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Школа]
+	
+(* <- lang_ru;;	*);
+	
+[School]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_classmates
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Одноклассники]
+	
+(* <- lang_ru;;	*);
+	
+[Classmates]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_prank
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Пранк]
+	
+(* <- lang_ru;;	*);
+	
+[Prank]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_singer
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Певица]
+	
+(* <- lang_ru;;	*);
+	
+[Singer]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_terrrism
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Терроризм]
+	
+(* <- lang_ru;;	*);
+	
+[Terrorism]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_friends
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Друзья]
+	
+(* <- lang_ru;;	*);
+	
+[Friends]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_robbery
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Ограбление]
+	
+(* <- lang_ru;;	*);
+	
+[Robbery]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_christmas
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Рождество]
+	
+(* <- lang_ru;;	*);
+	
+[Christmas]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_Santa_Claus
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Санта Клаус]
+	
+(* <- lang_ru;;	*);
+	
+[Santa Claus]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_space
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Космос]
+	
+(* <- lang_ru;;	*);
+	
+[Space]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_astronaut
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Астронавт]
+	
+(* <- lang_ru;;	*);
+	
+[Astronaut]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_survival
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Выживание]
+	
+(* <- lang_ru;;	*);
+	
+[Survival]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_mafia
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Мафия]
+	
+(* <- lang_ru;;	*);
+	
+[Mafia]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_risk
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Риск]
+	
+(* <- lang_ru;;	*);
+	
+[Risk]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+concept_human -> Bullock;;
+
+Bullock <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сандра Баллок)](*<-lang_ru;;*);
+		[Description (Sandra Bullock)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Bullock_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Bullock_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Bullock <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сандра Баллок)](*<-lang_ru;;*);
+		[Pic. (Sandra Bullock)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Bullock.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Bullock => nrel_be_awarded : Golden_globe;Oscar;; 
+Bullock => nrel_main_idtf : [Сандра Баллок](*<-lang_ru;;*);;
+Bullock => nrel_main_idtf : [Sandra Bullock](*<-lang_en;;*);;
+
+concept_calendar_date -> 26_07_1964;;
+Bullock => nrel_date_of_birth : 26_07_1964;;
+26_07_1964 => nrel_main_idtf : [26.07.1964](*<-lang_en;;*);;
+26_07_1964 => nrel_main_idtf : [26.07.1964](*<-lang_ru;;*);;
+
+concept_city -> Arlington;;
+Bullock => nrel_place_of_birth : Arlington;;
+Arlington => nrel_main_idtf : [Arlington](*<-lang_en;;*);;
+Arlington => nrel_main_idtf : [Арлингтон](*<-lang_ru;;*);;
+
+Bullock => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 19_03_1987;;
+Bullock => nrel_career_start_date : 19_03_1987;;
+19_03_1987 => nrel_main_idtf : [19.03.1987](*<-lang_en;;*);;
+19_03_1987 => nrel_main_idtf : [19.03.1987](*<-lang_ru;;*);;
+
+concept_film -> Aningak;28_days;Prince;Minion;;
+Aningak => nrel_main_idtf : [Aningak](*<-lang_en;;*);;
+Aningak => nrel_main_idtf : [Анингак](*<-lang_ru;;*);;
+28_days => nrel_main_idtf : [28 days](*<-lang_en;;*);;
+28_days => nrel_main_idtf : [28 дней](*<-lang_ru;;*);;
+Prince => nrel_main_idtf : [Prince of Egypt](*<-lang_en;;*);;
+Prince => nrel_main_idtf : [Принц Египта](*<-lang_ru;;*);;
+Minion => nrel_main_idtf : [Minions](*<-lang_en;;*);;
+Minion => nrel_main_idtf : [Миньоны](*<-lang_ru;;*);;
+
+Bullock => nrel_to_star_in : Gravitation;Aningak;28_days;Prince;Minion;;
+

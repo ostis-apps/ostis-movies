@@ -1,0 +1,145 @@
+
+                  concept_series -> Shokugeki_no_Souma;;
+              
+                  Shokugeki_no_Souma
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Употребление драма _ _ Roh Сома]
+                    (* <- lang_ru;;	*);
+                    [Shokugeki_no_Souma]
+                    (* <- lang_en;;	*);;
+                  
+                  Shokugeki_no_Souma <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Употребление драма _ _ Roh Сома)](*<-lang_ru;;*);
+                      [Description (Shokugeki_no_Souma)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Shokugeki_no_Souma_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Shokugeki_no_Souma_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Shokugeki_no_Souma <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Употребление драма _ _ Roh Сома)](*<-lang_ru;;*);
+                      [Pic. (Shokugeki_no_Souma)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Shokugeki_no_Souma.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Shokugeki_no_Souma => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Shokugeki_no_Souma => nrel_production_year : 2015;;
+                  
+                  value -> 4;;
+                  Shokugeki_no_Souma => nrel_num_of_seasons: 4;;
+                  value -> 73;;
+                  Shokugeki_no_Souma => nrel_num_of_episodes: 73;;
+                  
+                  value -> 11;;
+                  Shokugeki_no_Souma => nrel_no_countries : 11;;
+                  
+                  value -> 5;;
+                  Shokugeki_no_Souma => nrel_viewers_in_millions: 5;;
+                  
+                  Shokugeki_no_Souma => nrel_age_rating: concept_PG12;;
+                  
+                    Shokugeki_no_Souma => nrel_actor : HirokiYasumoto;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : MikakoTakahashi;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : YsukeKobayashi;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : AyakoKawasumi;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : JunjiMajima;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : YuichiNakamura;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : MinamiTakahashi;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : YoshitsuguMatsuoka;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : ChinatsuAkasaki;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : AiKayano;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : SaoriGotou;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : TakahiroSakurai;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : ShizukaIshigami;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : RisaTaneda;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : AiKakuma;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : RikiyaKoyama;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : NatsukiHanae;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : YuukiOno;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : ShinjiKawada;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : RinaHidaka;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : AsamiSeto;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : MamikoNoto;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : NobuhikoOkamoto;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : MaayaUchida;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : JunichiSuwabe;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : TaishiMurata;;
+                    
+                   
+                    Shokugeki_no_Souma => nrel_actor : Saorinishi;;
+                    
+                  
+                  
+                  Shokugeki_no_Souma
+                  =>nrel_keywords: concept_detectif;;
+                  

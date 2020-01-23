@@ -1,0 +1,67 @@
+film_armageddec_2013
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Армагеддец]
+(* <- lang_ru;;    *);
+[The World's End]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Армагеддец)](*<-lang_ru;;*);
+[Description (The World's End)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/armageddec-2013_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/armageddec-2013_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Армагеддец)](*<-lang_ru;;*);
+		[Pic. (The World's End)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/armageddec-2013.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;usa;japan;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Good food. Fine ales. Total Annihilation. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [18.07.2013](*<-lang_ru;;*);;
+    => nrel_main_idtf : [18.07.2013](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H49M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H49M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_armageddec_2013 =>nrel_keywords: film;;
+
+film_armageddec_2013 <- concept_action;concept_comedy;concept_sci_fi;;
+
+film_armageddec_2013 => nrel_main_actor : simon_pegg;nick_frost;martin_freeman;rosamund_pike;;
+film_armageddec_2013 => nrel_producer : edgar_wright;;

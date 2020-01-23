@@ -1,0 +1,85 @@
+
+                  concept_series -> The_Lodge;;
+              
+                  The_Lodge
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Lodge]
+                    (* <- lang_ru;;	*);
+                    [The_Lodge]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Lodge <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Lodge)](*<-lang_ru;;*);
+                      [Description (The_Lodge)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Lodge_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Lodge_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Lodge <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Lodge)](*<-lang_ru;;*);
+                      [Pic. (The_Lodge)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Lodge.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Lodge => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  The_Lodge => nrel_production_year : 2016;;
+                  
+                  value -> 2;;
+                  The_Lodge => nrel_num_of_seasons: 2;;
+                  value -> 25;;
+                  The_Lodge => nrel_num_of_episodes: 25;;
+                  
+                  value -> 8;;
+                  The_Lodge => nrel_no_countries : 8;;
+                  
+                  value -> 11;;
+                  The_Lodge => nrel_viewers_in_millions: 11;;
+                  
+                  The_Lodge => nrel_age_rating: concept_PG12;;
+                  
+                    The_Lodge => nrel_actor : ThomasDoherty;;
+                    
+                   
+                    The_Lodge => nrel_actor : BethanWright;;
+                    
+                   
+                    The_Lodge => nrel_actor : JaydenRevri;;
+                    
+                   
+                    The_Lodge => nrel_actor : LukeNewton;;
+                    
+                   
+                    The_Lodge => nrel_actor : JadeAlleyne;;
+                    
+                   
+                    The_Lodge => nrel_actor : SophieSimnett;;
+                    
+                   
+                    The_Lodge => nrel_actor : JoshuaSinclairEvans;;
+                    
+                  
+                  
+                  The_Lodge
+                  =>nrel_keywords: concept_detectif;;
+                  

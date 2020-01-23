@@ -1,0 +1,31 @@
+concept_film_wonder_woman
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Чудо женщина]
+	(* <- lang_ru;;	*);
+	[Wonder woman]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Чудо женщина)](*<-lang_ru;;*);
+		[Description (Wonder woman)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Чудо_женщина.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Wonder_woman.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_filmstuduo_DC;
+=>nrel_keywords:concept_superheroes;
+=>nrel_keywords:concept_world_war_2;
+=>nrel_age_rating: concept_PG16;;	

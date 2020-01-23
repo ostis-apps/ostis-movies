@@ -1,0 +1,45 @@
+concept_human -> jessica_rothe;;
+ 
+ jessica_rothe <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джессика Рот)](*<-lang_ru;;*);
+ 		[Description (Jessica Rothe)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jessica_rothe_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jessica_rothe <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джессика Рот)](*<-lang_ru;;*);
+ 		[Pic. (Jessica Rothe)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jessica_rothe.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jessica_rothe => nrel_main_idtf : [Джессика Рот](*<-lang_ru;;*);;
+ jessica_rothe => nrel_main_idtf : [Jessica Rothe](*<-lang_en;;*);;
+ 
+ 
+ jessica_rothe => nrel_birth_date : 1987;;
+ 
+ concept_goverment -> Usa;;
+ jessica_rothe => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jessica_rothe => nrel_to_star_in : la_la_land;;
+la_la_land => nrel_main_idtf : [La La Land](*<-lang_en;;*);;
+la_la_land => nrel_main_idtf : [Ла-Ла Ленд](*<-lang_ru;;*);;
+

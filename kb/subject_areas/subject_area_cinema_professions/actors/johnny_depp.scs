@@ -1,0 +1,114 @@
+concept_human -> johnny_depp;;
+ 
+ johnny_depp <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джонни Депп)](*<-lang_ru;;*);
+ 		[Description (Johnny Depp)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/johnny_depp_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ johnny_depp <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джонни Депп)](*<-lang_ru;;*);
+ 		[Pic. (Johnny Depp)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/johnny_depp.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ johnny_depp => nrel_main_idtf : [Джонни Депп](*<-lang_ru;;*);;
+ johnny_depp => nrel_main_idtf : [Johnny Depp](*<-lang_en;;*);;
+ 
+ 
+ johnny_depp => nrel_birth_date : 1963;;
+ 
+ concept_goverment -> Usa;;
+ johnny_depp => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ johnny_depp => nrel_to_star_in : fantastic_beasts_the_crimes_of_grindelwald;;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Fantastic Beasts: The Crimes of Grindelwald](*<-lang_en;;*);;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Фантастические твари: Преступления Грин-де-Вальда](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : pirates_of_the_caribbean_dead_men_tell_no_tales;;
+pirates_of_the_caribbean_dead_men_tell_no_tales => nrel_main_idtf : [Pirates of the Caribbean: Dead Men Tell No Tales](*<-lang_en;;*);;
+pirates_of_the_caribbean_dead_men_tell_no_tales => nrel_main_idtf : [Пираты Карибского моря: Мертвецы не рассказывают сказки](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : murder_on_the_orient_express;;
+murder_on_the_orient_express => nrel_main_idtf : [Murder on the Orient Express](*<-lang_en;;*);;
+murder_on_the_orient_express => nrel_main_idtf : [Убийство в Восточном экспрессе](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : yoga_hosers;;
+yoga_hosers => nrel_main_idtf : [Yoga Hosers](*<-lang_en;;*);;
+yoga_hosers => nrel_main_idtf : [Йоганутые](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : alice_through_the_looking_glass;;
+alice_through_the_looking_glass => nrel_main_idtf : [Alice Through the Looking Glass](*<-lang_en;;*);;
+alice_through_the_looking_glass => nrel_main_idtf : [Алиса в Зазеркалье](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : dark_shadows;;
+dark_shadows => nrel_main_idtf : [Dark Shadows](*<-lang_en;;*);;
+dark_shadows => nrel_main_idtf : [Мрачные тени](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : pirates_of_the_caribbean_on_stranger_tides;;
+pirates_of_the_caribbean_on_stranger_tides => nrel_main_idtf : [Pirates of the Caribbean: On Stranger Tides](*<-lang_en;;*);;
+pirates_of_the_caribbean_on_stranger_tides => nrel_main_idtf : [Пираты Карибского моря: На странных берегах](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : the_rum_diary;;
+the_rum_diary => nrel_main_idtf : [The Rum Diary](*<-lang_en;;*);;
+the_rum_diary => nrel_main_idtf : [Ромовый дневник](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : alice_in_wonderland;;
+alice_in_wonderland => nrel_main_idtf : [Alice in Wonderland](*<-lang_en;;*);;
+alice_in_wonderland => nrel_main_idtf : [Алиса в стране чудес](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : pirates_of_the_caribbean_at_worlds_end;;
+pirates_of_the_caribbean_at_worlds_end => nrel_main_idtf : [Pirates of the Caribbean: At World`s End](*<-lang_en;;*);;
+pirates_of_the_caribbean_at_worlds_end => nrel_main_idtf : [Пираты Карибского моря: На краю света](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : sweeney_todd_the_demon_barber_of_fleet_street;;
+sweeney_todd_the_demon_barber_of_fleet_street => nrel_main_idtf : [Sweeney Todd: The Demon Barber of Fleet Street](*<-lang_en;;*);;
+sweeney_todd_the_demon_barber_of_fleet_street => nrel_main_idtf : [Суини Тодд, демон-парикмахер с Флит-стрит](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : pirates_of_the_caribbean_dead_mans_chest;;
+pirates_of_the_caribbean_dead_mans_chest => nrel_main_idtf : [Pirates of the Caribbean: Dead Man`s Chest](*<-lang_en;;*);;
+pirates_of_the_caribbean_dead_mans_chest => nrel_main_idtf : [Пираты Карибского моря: Сундук мертвеца](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : charlie_and_the_chocolate_factory;;
+charlie_and_the_chocolate_factory => nrel_main_idtf : [Charlie and the Chocolate Factory](*<-lang_en;;*);;
+charlie_and_the_chocolate_factory => nrel_main_idtf : [Чарли и шоколадная фабрика](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : pirates_of_the_caribbean_the_curse_of_the_black_pearl;;
+pirates_of_the_caribbean_the_curse_of_the_black_pearl => nrel_main_idtf : [Pirates of the Caribbean: The Curse of the Black Pearl](*<-lang_en;;*);;
+pirates_of_the_caribbean_the_curse_of_the_black_pearl => nrel_main_idtf : [Пираты Карибского моря: Проклятие Черной жемчужины](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : blow;;
+blow => nrel_main_idtf : [Blow](*<-lang_en;;*);;
+blow => nrel_main_idtf : [Кокаин](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : sleepy_hollow;;
+sleepy_hollow => nrel_main_idtf : [Sleepy Hollow](*<-lang_en;;*);;
+sleepy_hollow => nrel_main_idtf : [Сонная лощина](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : fear_and_loathing_in_las_vegas;;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Fear and Loathing in Las Vegas](*<-lang_en;;*);;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Страх и ненависть в Лас-Вегасе](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : the_brave;;
+the_brave => nrel_main_idtf : [The Brave](*<-lang_en;;*);;
+the_brave => nrel_main_idtf : [Храбрец](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : ed_wood;;
+ed_wood => nrel_main_idtf : [Ed Wood](*<-lang_en;;*);;
+ed_wood => nrel_main_idtf : [Эд Вуд](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : whats_eating_gilbert_grape;;
+whats_eating_gilbert_grape => nrel_main_idtf : [What's Eating Gilbert Grape](*<-lang_en;;*);;
+whats_eating_gilbert_grape => nrel_main_idtf : [Что гложет Гилберта Грэйпа?](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : arizona_dream;;
+arizona_dream => nrel_main_idtf : [Arizona Dream](*<-lang_en;;*);;
+arizona_dream => nrel_main_idtf : [Аризонская мечта](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : benny__joon;;
+benny__joon => nrel_main_idtf : [Benny & Joon](*<-lang_en;;*);;
+benny__joon => nrel_main_idtf : [Бенни и Джун](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : edward_scissorhands;;
+edward_scissorhands => nrel_main_idtf : [Edward Scissorhands](*<-lang_en;;*);;
+edward_scissorhands => nrel_main_idtf : [Эдвард - руки-ножницы](*<-lang_ru;;*);;
+johnny_depp => nrel_to_star_in : platoon;;
+platoon => nrel_main_idtf : [Platoon](*<-lang_en;;*);;
+platoon => nrel_main_idtf : [Взвод](*<-lang_ru;;*);;
+

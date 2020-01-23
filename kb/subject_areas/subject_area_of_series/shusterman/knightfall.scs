@@ -1,0 +1,100 @@
+
+                  concept_series -> Knightfall;;
+              
+                  Knightfall
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Knightfall]
+                    (* <- lang_ru;;	*);
+                    [Knightfall]
+                    (* <- lang_en;;	*);;
+                  
+                  Knightfall <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Knightfall)](*<-lang_ru;;*);
+                      [Description (Knightfall)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Knightfall_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Knightfall_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Knightfall <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Knightfall)](*<-lang_ru;;*);
+                      [Pic. (Knightfall)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Knightfall.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Knightfall => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Knightfall => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  Knightfall => nrel_num_of_seasons: 2;;
+                  value -> 18;;
+                  Knightfall => nrel_num_of_episodes: 18;;
+                  
+                  value -> 14;;
+                  Knightfall => nrel_no_countries : 14;;
+                  
+                  value -> 8;;
+                  Knightfall => nrel_viewers_in_millions: 8;;
+                  
+                  Knightfall => nrel_age_rating: concept_PG12;;
+                  
+                    Knightfall => nrel_actor : JulianOvenden;;
+                    
+                   
+                    Knightfall => nrel_actor : TomCullen;;
+                    
+                   
+                    Knightfall => nrel_actor : EdStoppard;;
+                    
+                   
+                    Knightfall => nrel_actor : PdraicDelaney;;
+                    
+                   
+                    Knightfall => nrel_actor : SimonMerrells;;
+                    
+                   
+                    Knightfall => nrel_actor : SabrinaBartlett;;
+                    
+                   
+                    Knightfall => nrel_actor : OliviaRoss;;
+                    
+                   
+                    Knightfall => nrel_actor : JimCarter;;
+                    
+                   
+                    Knightfall => nrel_actor : TomForbes;;
+                    
+                   
+                    Knightfall => nrel_actor : BobbySchofield;;
+                    
+                   
+                    Knightfall => nrel_actor : SarahSofieBoussnina;;
+                    
+                   
+                    Knightfall => nrel_actor : MarkHamill;;
+                    
+                  
+                  
+                  Knightfall
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,57 @@
+concept_human -> james_marsden;;
+ 
+ james_marsden <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джеймс Марсден)](*<-lang_ru;;*);
+ 		[Description (James Marsden)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/james_marsden_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ james_marsden <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джеймс Марсден)](*<-lang_ru;;*);
+ 		[Pic. (James Marsden)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/james_marsden.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ james_marsden => nrel_main_idtf : [Джеймс Марсден](*<-lang_ru;;*);;
+ james_marsden => nrel_main_idtf : [James Marsden](*<-lang_en;;*);;
+ 
+ 
+ james_marsden => nrel_birth_date : 1973;;
+ 
+ concept_goverment -> Usa;;
+ james_marsden => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ james_marsden => nrel_to_star_in : xmen_days_of_future_past;;
+xmen_days_of_future_past => nrel_main_idtf : [X-Men: Days of Future Past](*<-lang_en;;*);;
+xmen_days_of_future_past => nrel_main_idtf : [Люди Икс: Дни минувшего будущего](*<-lang_ru;;*);;
+james_marsden => nrel_to_star_in : xmen_the_last_stand;;
+xmen_the_last_stand => nrel_main_idtf : [X-Men: The Last Stand](*<-lang_en;;*);;
+xmen_the_last_stand => nrel_main_idtf : [Люди Икс: Последняя битва](*<-lang_ru;;*);;
+james_marsden => nrel_to_star_in : the_notebook;;
+the_notebook => nrel_main_idtf : [The Notebook](*<-lang_en;;*);;
+the_notebook => nrel_main_idtf : [Дневник памяти](*<-lang_ru;;*);;
+james_marsden => nrel_to_star_in : xmen_2;;
+xmen_2 => nrel_main_idtf : [X-Men 2](*<-lang_en;;*);;
+xmen_2 => nrel_main_idtf : [Люди Икс 2](*<-lang_ru;;*);;
+james_marsden => nrel_to_star_in : xmen;;
+xmen => nrel_main_idtf : [X-Men](*<-lang_en;;*);;
+xmen => nrel_main_idtf : [Люди Икс](*<-lang_ru;;*);;
+

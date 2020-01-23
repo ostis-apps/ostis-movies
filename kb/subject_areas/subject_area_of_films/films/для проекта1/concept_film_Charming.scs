@@ -1,0 +1,31 @@
+concept_film_Charming
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Распрекрасный принц]
+	(* <- lang_ru;;	*);
+	[Charming]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Распрекрасный принц)](*<-lang_ru;;*);
+		[Description (Charming)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Распрекрасный принц.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Charming.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_fairy_tale;
+=>nrel_keywords: concept_love;
+=>nrel_keywords: concept_kingdom;	
+=>nrel_age_rating: concept_PG6;;	

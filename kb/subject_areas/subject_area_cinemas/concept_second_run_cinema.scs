@@ -1,0 +1,5 @@
+concept_second_run_cinema
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[кинотеатры «второго экрана»](*<-lang_ru;;*);
+	[second run cinema](*<-lang_en;;*);;

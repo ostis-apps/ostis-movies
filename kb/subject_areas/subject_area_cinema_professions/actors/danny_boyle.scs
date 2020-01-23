@@ -1,0 +1,48 @@
+concept_human -> danny_boyle;;
+ 
+ danny_boyle <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэнни Бойл)](*<-lang_ru;;*);
+ 		[Description (Danny Boyle)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/danny_boyle_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ danny_boyle <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэнни Бойл)](*<-lang_ru;;*);
+ 		[Pic. (Danny Boyle)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/danny_boyle.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ danny_boyle => nrel_main_idtf : [Дэнни Бойл](*<-lang_ru;;*);;
+ danny_boyle => nrel_main_idtf : [Danny Boyle](*<-lang_en;;*);;
+ 
+ 
+ danny_boyle => nrel_birth_date : 1956;;
+ 
+ concept_goverment -> UK;;
+ danny_boyle => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ danny_boyle => nrel_to_star_in : the_beach;;
+the_beach => nrel_main_idtf : [The Beach](*<-lang_en;;*);;
+the_beach => nrel_main_idtf : [Пляж](*<-lang_ru;;*);;
+danny_boyle => nrel_to_star_in : a_life_less_ordinary;;
+a_life_less_ordinary => nrel_main_idtf : [A Life Less Ordinary](*<-lang_en;;*);;
+a_life_less_ordinary => nrel_main_idtf : [Жизнь хуже обычной](*<-lang_ru;;*);;
+

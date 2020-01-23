@@ -1,0 +1,51 @@
+concept_human -> andrew_wachowski;;
+ 
+ andrew_wachowski <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Лилли Вачовски)](*<-lang_ru;;*);
+ 		[Description (Andrew Wachowski)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/andrew_wachowski_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ andrew_wachowski <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Лилли Вачовски)](*<-lang_ru;;*);
+ 		[Pic. (Andrew Wachowski)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/andrew_wachowski.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ andrew_wachowski => nrel_main_idtf : [Лилли Вачовски](*<-lang_ru;;*);;
+ andrew_wachowski => nrel_main_idtf : [Andrew Wachowski](*<-lang_en;;*);;
+ 
+ 
+ andrew_wachowski => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Usa;;
+ andrew_wachowski => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ andrew_wachowski => nrel_to_star_in : the_matrix_reloaded;;
+the_matrix_reloaded => nrel_main_idtf : [The Matrix Reloaded](*<-lang_en;;*);;
+the_matrix_reloaded => nrel_main_idtf : [Матрица: Перезагрузка](*<-lang_ru;;*);;
+andrew_wachowski => nrel_to_star_in : the_matrix_revolutions;;
+the_matrix_revolutions => nrel_main_idtf : [The Matrix Revolutions](*<-lang_en;;*);;
+the_matrix_revolutions => nrel_main_idtf : [Матрица: Революция](*<-lang_ru;;*);;
+andrew_wachowski => nrel_to_star_in : the_matrix;;
+the_matrix => nrel_main_idtf : [The Matrix](*<-lang_en;;*);;
+the_matrix => nrel_main_idtf : [Матрица](*<-lang_ru;;*);;
+

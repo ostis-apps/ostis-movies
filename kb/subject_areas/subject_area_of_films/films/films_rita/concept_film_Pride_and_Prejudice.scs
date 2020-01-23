@@ -1,0 +1,26 @@
+concept_film_Pride_and_Prejudice
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гордость и предубеждение](* <- lang_ru;; *);
+	[Pride & Prejudice](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Гордость и предубеждение)](*<-lang_ru;;*);
+		[Description (Pride & Prejudice)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Гордость и предубеждение.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Pride and Prejudice.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_love;
+=> nrel_keywords: concept_family;
+=> nrel_age_rating: concept_PG12;;

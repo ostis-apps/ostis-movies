@@ -1,0 +1,51 @@
+concept_human -> ezra_miller;;
+ 
+ ezra_miller <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эзра Миллер)](*<-lang_ru;;*);
+ 		[Description (Ezra Miller)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ezra_miller_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ezra_miller <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эзра Миллер)](*<-lang_ru;;*);
+ 		[Pic. (Ezra Miller)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ezra_miller.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ezra_miller => nrel_main_idtf : [Эзра Миллер](*<-lang_ru;;*);;
+ ezra_miller => nrel_main_idtf : [Ezra Miller](*<-lang_en;;*);;
+ 
+ 
+ ezra_miller => nrel_birth_date : 1992;;
+ 
+ concept_goverment -> Usa;;
+ ezra_miller => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ ezra_miller => nrel_to_star_in : fantastic_beasts_the_crimes_of_grindelwald;;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Fantastic Beasts: The Crimes of Grindelwald](*<-lang_en;;*);;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Фантастические твари: Преступления Грин-де-Вальда](*<-lang_ru;;*);;
+ezra_miller => nrel_to_star_in : fantastic_beasts_and_where_to_find_them;;
+fantastic_beasts_and_where_to_find_them => nrel_main_idtf : [Fantastic Beasts and Where to Find Them](*<-lang_en;;*);;
+fantastic_beasts_and_where_to_find_them => nrel_main_idtf : [Фантастические твари и где они обитают](*<-lang_ru;;*);;
+ezra_miller => nrel_to_star_in : suicide_squad;;
+suicide_squad => nrel_main_idtf : [Suicide Squad](*<-lang_en;;*);;
+suicide_squad => nrel_main_idtf : [Отряд самоубийц](*<-lang_ru;;*);;
+

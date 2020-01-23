@@ -1,0 +1,54 @@
+concept_human -> rosario_dawson;;
+ 
+ rosario_dawson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Розарио Доусон)](*<-lang_ru;;*);
+ 		[Description (Rosario Dawson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/rosario_dawson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ rosario_dawson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Розарио Доусон)](*<-lang_ru;;*);
+ 		[Pic. (Rosario Dawson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/rosario_dawson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ rosario_dawson => nrel_main_idtf : [Розарио Доусон](*<-lang_ru;;*);;
+ rosario_dawson => nrel_main_idtf : [Rosario Dawson](*<-lang_en;;*);;
+ 
+ 
+ rosario_dawson => nrel_birth_date : 1978;;
+ 
+ concept_goverment -> Usa;;
+ rosario_dawson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ rosario_dawson => nrel_to_star_in : sin_city_a_dame_to_kill_for;;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Sin City: A Dame to Kill For](*<-lang_en;;*);;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Город грехов 2: Женщина, ради которой стоит убивать](*<-lang_ru;;*);;
+rosario_dawson => nrel_to_star_in : death_proof;;
+death_proof => nrel_main_idtf : [Death Proof](*<-lang_en;;*);;
+death_proof => nrel_main_idtf : [Доказательство смерти](*<-lang_ru;;*);;
+rosario_dawson => nrel_to_star_in : sin_city;;
+sin_city => nrel_main_idtf : [Sin City](*<-lang_en;;*);;
+sin_city => nrel_main_idtf : [Город грехов](*<-lang_ru;;*);;
+rosario_dawson => nrel_to_star_in : alexander;;
+alexander => nrel_main_idtf : [Alexander](*<-lang_en;;*);;
+alexander => nrel_main_idtf : [Александр](*<-lang_ru;;*);;
+

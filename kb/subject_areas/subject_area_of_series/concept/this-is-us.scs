@@ -1,0 +1,130 @@
+
+                  concept_series -> This_Is_Us;;
+              
+                  This_Is_Us
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Это мы]
+                    (* <- lang_ru;;	*);
+                    [This_Is_Us]
+                    (* <- lang_en;;	*);;
+                  
+                  This_Is_Us <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Это мы)](*<-lang_ru;;*);
+                      [Description (This_Is_Us)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/This_Is_Us_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/This_Is_Us_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  This_Is_Us <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Это мы)](*<-lang_ru;;*);
+                      [Pic. (This_Is_Us)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/This_Is_Us.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  This_Is_Us => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  This_Is_Us => nrel_production_year : 2016;;
+                  
+                  value -> 4;;
+                  This_Is_Us => nrel_num_of_seasons: 4;;
+                  value -> 64;;
+                  This_Is_Us => nrel_num_of_episodes: 64;;
+                  
+                  value -> 9;;
+                  This_Is_Us => nrel_no_countries : 9;;
+                  
+                  value -> 5;;
+                  This_Is_Us => nrel_viewers_in_millions: 5;;
+                  
+                  This_Is_Us => nrel_age_rating: concept_PG12;;
+                  
+                    This_Is_Us => nrel_actor : MiloVentimiglia;;
+                    
+                   
+                    This_Is_Us => nrel_actor : MandyMoore;;
+                    
+                   
+                    This_Is_Us => nrel_actor : SterlingKBrown;;
+                    
+                   
+                    This_Is_Us => nrel_actor : JustinHartley;;
+                    
+                   
+                    This_Is_Us => nrel_actor : SusanKelechiWatson;;
+                    
+                   
+                    This_Is_Us => nrel_actor : ChrissyMetz;;
+                    
+                   
+                    This_Is_Us => nrel_actor : ChrisSullivan;;
+                    
+                   
+                    This_Is_Us => nrel_actor : ErisBaker;;
+                    
+                   
+                    This_Is_Us => nrel_actor : FaitheHerman;;
+                    
+                   
+                    This_Is_Us => nrel_actor : MackenzieHancsicsak;;
+                    
+                   
+                    This_Is_Us => nrel_actor : JonHuertas;;
+                    
+                   
+                    This_Is_Us => nrel_actor : LonnieChavis;;
+                    
+                   
+                    This_Is_Us => nrel_actor : ParkerBates;;
+                    
+                   
+                    This_Is_Us => nrel_actor : RonCephasJones;;
+                    
+                   
+                    This_Is_Us => nrel_actor : LyricRoss;;
+                    
+                   
+                    This_Is_Us => nrel_actor : NilesFitch;;
+                    
+                   
+                    This_Is_Us => nrel_actor : HannahZeile;;
+                    
+                   
+                    This_Is_Us => nrel_actor : LoganShroyer;;
+                    
+                   
+                    This_Is_Us => nrel_actor : MelanieLiburd;;
+                    
+                   
+                    This_Is_Us => nrel_actor : AlexandraBreckenridge;;
+                    
+                   
+                    This_Is_Us => nrel_actor : GriffinDunne;;
+                    
+                   
+                    This_Is_Us => nrel_actor : AsanteBlackk;;
+                    
+                  
+                  
+                  This_Is_Us
+                  =>nrel_keywords: concept_detectif;;
+                  

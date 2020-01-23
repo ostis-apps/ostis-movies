@@ -1,0 +1,76 @@
+
+                  concept_series -> Steven_Universe;;
+              
+                  Steven_Universe
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Steven_Universe]
+                    (* <- lang_ru;;	*);
+                    [Steven_Universe]
+                    (* <- lang_en;;	*);;
+                  
+                  Steven_Universe <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Steven_Universe)](*<-lang_ru;;*);
+                      [Description (Steven_Universe)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Steven_Universe_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Steven_Universe_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Steven_Universe <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Steven_Universe)](*<-lang_ru;;*);
+                      [Pic. (Steven_Universe)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Steven_Universe.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Steven_Universe => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Steven_Universe => nrel_production_year : 2013;;
+                  
+                  value -> 5;;
+                  Steven_Universe => nrel_num_of_seasons: 5;;
+                  value -> 154;;
+                  Steven_Universe => nrel_num_of_episodes: 154;;
+                  
+                  value -> 8;;
+                  Steven_Universe => nrel_no_countries : 8;;
+                  
+                  value -> 12;;
+                  Steven_Universe => nrel_viewers_in_millions: 12;;
+                  
+                  Steven_Universe => nrel_age_rating: concept_PG12;;
+                  
+                    Steven_Universe => nrel_actor : ZachCallison;;
+                    
+                   
+                    Steven_Universe => nrel_actor : DeedeeMagno;;
+                    
+                   
+                    Steven_Universe => nrel_actor : MichaelaDietz;;
+                    
+                   
+                    Steven_Universe => nrel_actor : Estelle;;
+                    
+                  
+                  
+                  Steven_Universe
+                  =>nrel_keywords: concept_detectif;;
+                  

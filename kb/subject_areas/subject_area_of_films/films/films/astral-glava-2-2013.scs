@@ -1,0 +1,67 @@
+film_astral_glava_2_2013
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Астрал: Глава 2]
+(* <- lang_ru;;    *);
+[Insidious: Chapter 2]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Астрал: Глава 2)](*<-lang_ru;;*);
+[Description (Insidious: Chapter 2)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/astral-glava-2-2013_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/astral-glava-2-2013_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Астрал: Глава 2)](*<-lang_ru;;*);
+		[Pic. (Insidious: Chapter 2)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/astral-glava-2-2013.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;canada;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [It will take what you love most.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [13.09.2013](*<-lang_ru;;*);;
+    => nrel_main_idtf : [13.09.2013](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H46M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H46M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_astral_glava_2_2013 =>nrel_keywords: film;;
+
+film_astral_glava_2_2013 <- concept_horror;concept_mystery;concept_thriller;;
+
+film_astral_glava_2_2013 => nrel_main_actor : patrick_wilson;rose_byrne;barbara_hershey;lin_shaye;;
+film_astral_glava_2_2013 => nrel_producer : james_wan;;

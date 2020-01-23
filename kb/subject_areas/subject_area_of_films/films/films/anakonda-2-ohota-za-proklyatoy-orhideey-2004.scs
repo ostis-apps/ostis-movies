@@ -1,0 +1,67 @@
+film_anakonda_2_ohota_za_proklyatoy_orhideey_2004
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Анаконда 2: Охота за проклятой орхидеей]
+(* <- lang_ru;;    *);
+[Anacondas: The Hunt for the Blood Orchid]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Анаконда 2: Охота за проклятой орхидеей)](*<-lang_ru;;*);
+[Description (Anacondas: The Hunt for the Blood Orchid)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/anakonda-2-ohota-za-proklyatoy-orhideey-2004_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/anakonda-2-ohota-za-proklyatoy-orhideey-2004_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Анаконда 2: Охота за проклятой орхидеей)](*<-lang_ru;;*);
+		[Pic. (Anacondas: The Hunt for the Blood Orchid)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/anakonda-2-ohota-za-proklyatoy-orhideey-2004.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The hunters will become the hunted.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.08.2004](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.08.2004](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H37M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H37M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_anakonda_2_ohota_za_proklyatoy_orhideey_2004 =>nrel_keywords: film;;
+
+film_anakonda_2_ohota_za_proklyatoy_orhideey_2004 <- concept_action;concept_adventure;concept_horror;concept_thriller;;
+
+film_anakonda_2_ohota_za_proklyatoy_orhideey_2004 => nrel_main_actor : morris_chestnut;kadee_strickland;eugene_byrd;johnny_messner;;
+film_anakonda_2_ohota_za_proklyatoy_orhideey_2004 => nrel_producer : dwight_h._little;;

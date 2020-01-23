@@ -1,0 +1,111 @@
+                  concept_series -> 13_Reasons_Why;;
+              
+                  13_Reasons_Why
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [13_Reasons_Why]
+                    (* <- lang_ru;;	*);
+                    [13_Reasons_Why]
+                    (* <- lang_en;;	*);;
+                  
+                  13_Reasons_Why <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (13_Reasons_Why)](*<-lang_ru;;*);
+                      [Description (13_Reasons_Why)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/13_Reasons_Why_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/13_Reasons_Why_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  13_Reasons_Why <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (13_Reasons_Why)](*<-lang_ru;;*);
+                      [Pic. (13_Reasons_Why)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/13_Reasons_Why.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  13_Reasons_Why => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  13_Reasons_Why => nrel_production_year : 2017;;
+                  
+                  value -> 4;;
+                  13_Reasons_Why => nrel_num_of_seasons: 4;;
+                  value -> 39;;
+                  13_Reasons_Why => nrel_num_of_episodes: 39;;
+                  
+                  value -> 8;;
+                  13_Reasons_Why => nrel_no_countries : 8;;
+                  
+                  value -> 8;;
+                  13_Reasons_Why => nrel_viewers_in_millions: 8;;
+                  
+                  13_Reasons_Why => nrel_age_rating: concept_PG12;;
+                  
+                    13_Reasons_Why => nrel_actor : RossButler;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : DylanMinnette;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : JustinPrentice;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : MilesHeizer;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : ChristianNavarro;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : BrandonFlynn;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : AlishaBoe;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : DevinDruid;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : TimothyGranaderos;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : AmyHargreaves;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : KateWalsh;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : KatherineLangford;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : DerekLuke;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : BrendaStrong;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : BriandArcyJames;;
+                    
+                   
+                    13_Reasons_Why => nrel_actor : GraceSaif;;
+                    
+                  
+                  
+                  13_Reasons_Why
+                  =>nrel_keywords: concept_detectif;;
+                  

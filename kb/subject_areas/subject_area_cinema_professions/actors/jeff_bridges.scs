@@ -1,0 +1,48 @@
+concept_human -> jeff_bridges;;
+ 
+ jeff_bridges <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джефф Бриджес)](*<-lang_ru;;*);
+ 		[Description (Jeff Bridges)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jeff_bridges_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jeff_bridges <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джефф Бриджес)](*<-lang_ru;;*);
+ 		[Pic. (Jeff Bridges)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jeff_bridges.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jeff_bridges => nrel_main_idtf : [Джефф Бриджес](*<-lang_ru;;*);;
+ jeff_bridges => nrel_main_idtf : [Jeff Bridges](*<-lang_en;;*);;
+ 
+ 
+ jeff_bridges => nrel_birth_date : 1950;;
+ 
+ concept_goverment -> Usa;;
+ jeff_bridges => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jeff_bridges => nrel_to_star_in : bad_times_at_the_el_royale;;
+bad_times_at_the_el_royale => nrel_main_idtf : [Bad Times at the El Royale](*<-lang_en;;*);;
+bad_times_at_the_el_royale => nrel_main_idtf : [Ничего хорошего в отеле «Эль Рояль»](*<-lang_ru;;*);;
+jeff_bridges => nrel_to_star_in : iron_man;;
+iron_man => nrel_main_idtf : [Iron Man](*<-lang_en;;*);;
+iron_man => nrel_main_idtf : [Железный человек](*<-lang_ru;;*);;
+

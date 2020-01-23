@@ -1,0 +1,71 @@
+concept_series -> The_X_Files;;
+
+
+The_X_Files
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Секретные материалы]
+	(* <- lang_ru;;	*);
+	[The x-files]
+	(* <- lang_en;;	*);;
+	
+The_X_Files <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Секретные материалы)](*<-lang_ru;;*);
+		[Description (The_X_Files)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/The_X_Files_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The_X_Files_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+The_X_Files <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Секретные материалы)](*<-lang_ru;;*);
+		[Pic. (The X-Files)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/The_X_Files.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+The_X_Files => nrel_production_country : Usa;;
+
+concept_calendar_date -> 1993;;
+1993 => nrel_main_idtf : [1993 год](*<-lang_ru;;*);;
+1993 => nrel_main_idtf : [year of 1993](*<-lang_en;;*);;
+The_X_Files => nrel_production_year : 1993;;
+	
+value -> 11;;
+ The_X_Files => nrel_num_of_seasons: 11;;
+value -> 217;;
+The_X_Files => nrel_num_of_episodes: 217;;
+
+value -> 60;;
+The_X_Files => nrel_no_countries : 60;;
+
+value -> 9;;
+The_X_Files => nrel_viewers_in_millions: 9;;
+
+The_X_Files => nrel_age_rating: concept_PG16;;
+	
+The_X_Files  => nrel_actor : David_Duchovny;;
+The_X_Files  => nrel_produser : Kim_Manners;;
+
+The_X_Files
+=>nrel_keywords: concept_detective;
+=>nrel_keywords: concept_Science_fiction;
+=>nrel_keywords: concept_crime;;
+
+
+

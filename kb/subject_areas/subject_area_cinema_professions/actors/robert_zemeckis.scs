@@ -1,0 +1,48 @@
+concept_human -> robert_zemeckis;;
+ 
+ robert_zemeckis <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Роберт Земекис)](*<-lang_ru;;*);
+ 		[Description (Robert Zemeckis)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/robert_zemeckis_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ robert_zemeckis <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Роберт Земекис)](*<-lang_ru;;*);
+ 		[Pic. (Robert Zemeckis)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/robert_zemeckis.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ robert_zemeckis => nrel_main_idtf : [Роберт Земекис](*<-lang_ru;;*);;
+ robert_zemeckis => nrel_main_idtf : [Robert Zemeckis](*<-lang_en;;*);;
+ 
+ 
+ robert_zemeckis => nrel_birth_date : 1951;;
+ 
+ concept_goverment -> Usa;;
+ robert_zemeckis => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ robert_zemeckis => nrel_to_star_in : cast_away;;
+cast_away => nrel_main_idtf : [Cast Away](*<-lang_en;;*);;
+cast_away => nrel_main_idtf : [Изгой](*<-lang_ru;;*);;
+robert_zemeckis => nrel_to_star_in : forrest_gump;;
+forrest_gump => nrel_main_idtf : [Forrest Gump](*<-lang_en;;*);;
+forrest_gump => nrel_main_idtf : [Форрест Гамп](*<-lang_ru;;*);;
+

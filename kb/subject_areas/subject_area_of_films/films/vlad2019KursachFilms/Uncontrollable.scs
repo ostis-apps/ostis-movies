@@ -1,0 +1,68 @@
+concept_film -> Uncontrollable;;
+
+Uncontrollable
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Неудержимые]
+	(* <- lang_ru;;	*);
+	[Uncontrollable]
+	(* <- lang_en;;	*);;
+	
+Uncontrollable <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Неудержимые)](*<-lang_ru;;*);
+		[Description (Uncontrollable)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Uncontrollable_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Uncontrollable_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Uncontrollable <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Неудержимые)](*<-lang_ru;;*);
+		[Pic. (Uncontrollable)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Uncontrollable.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Uncontrollable => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 10_08_2010;;
+10_08_2010 => nrel_main_idtf : [10.08.2010](*<-lang_ru;;*);;
+10_08_2010 => nrel_main_idtf : [10.08.2010](*<-lang_en;;*);;
+Uncontrollable => nrel_release_date : 10_08_2010;;
+
+Uncontrollable => nrel_tagline_of_film : slogan_Alita;;
+slogan_Alita => nrel_main_idtf : [Они спасают свой мир своему](*<-lang_ru;;*);;
+slogan_Alita => nrel_main_idtf : [They save their world](*<-lang_en;;*);;
+
+Uncontrollable => nrel_duration_of_showing : 1_45;;
+
+value -> 274_470_394;;
+274_470_394 => nrel_main_idtf : [274 470 394$](*<-lang_ru;;*);;
+274_470_394 => nrel_main_idtf : [274 470 394$](*<-lang_en;;*);;
+Uncontrollable <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 274_470_394;;   
+*);;
+
+Uncontrollable => nrel_film_critic_rating : 6;;
+
+Uncontrollable =>nrel_keywords: action;cool_boys;;
+Uncontrollable =>nrel_age_rating: concept_PG18;;
+
+Uncontrollable => nrel_main_actor : Stathem;Stalone;;
+Uncontrollable => nrel_producer : Lerner;;
+Uncontrollable => nrel_screenwriter : Calahem;;
+

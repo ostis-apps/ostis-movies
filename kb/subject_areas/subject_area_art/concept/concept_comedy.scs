@@ -1,0 +1,28 @@
+concept_comedy <- sc_node_not_relation;
+
+=> nrel_main_idtf:[комедия] (* <- lang_ru;; *);
+=> nrel_idtf:[кинокомедия] (* <- lang_ru;; *);
+=> nrel_idtf:[comedy] (* <- lang_en;; *);
+
+ <- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (комедия)] (* <- lang_ru;; *);
+							   [Def. (comedy] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_genre;
+				concept_piece_of_art
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_comedy_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_comedy_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+ <= nrel_inclusion: concept_genre;
+
+ => nrel_inclusion: concept_tragicomedy;
+ => nrel_inclusion: concept_screwball_comedy;
+ => nrel_inclusion: concept_lyrical_comedy;;

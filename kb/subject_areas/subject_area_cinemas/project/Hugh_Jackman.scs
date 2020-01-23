@@ -1,0 +1,52 @@
+concept_human -> Hugh_Jackman;;
+
+Hugh_Jackman
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Хью Майкл Джекман]
+	(* <- lang_ru;;	*);
+	[Hugh Michael Jackman]
+	(* <- lang_en;;	*);;
+	
+Hugh_Jackman <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Хью Майкл Джекман)](*<-lang_ru;;*);
+		[Description (Hugh Michael Jackman](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Hugh_Jackman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Hugh_Jackman_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Hugh_Jackman <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хью Майкл Джекман)](*<-lang_ru;;*);
+		[Pic. (Hugh Michael Jackman)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Hugh_Jackman.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1968;;
+Hugh_Jackman=>nrel_date_of_birth: 1968;;
+1968=>nrel_main_idtf:[1968 год](*<-lang_ru;;*);;
+1968=>nrel_main_idtf:[year of 1968](*<-lang_en;;*);;
+
+concept_calendar_date-> 1994;;
+Hugh_Jackman=>nrel_career_start_date:1994;;
+1994=>nrel_main_idtf:[1994 год](*<-lang_ru;;*);;
+1994=>nrel_main_idtf:[year of 1994](*<-lang_en;;*);;
+
+Hugh_Jackman =>nrel_cityzenship:Australia;;
+Australia<-concept_country;;
+

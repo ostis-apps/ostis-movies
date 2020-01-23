@@ -1,0 +1,97 @@
+
+                  concept_series -> The_Night_Shift;;
+              
+                  The_Night_Shift
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Night_Shift]
+                    (* <- lang_ru;;	*);
+                    [The_Night_Shift]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Night_Shift <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Night_Shift)](*<-lang_ru;;*);
+                      [Description (The_Night_Shift)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Night_Shift_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Night_Shift_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Night_Shift <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Night_Shift)](*<-lang_ru;;*);
+                      [Pic. (The_Night_Shift)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Night_Shift.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Night_Shift => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  The_Night_Shift => nrel_production_year : 2014;;
+                  
+                  value -> 4;;
+                  The_Night_Shift => nrel_num_of_seasons: 4;;
+                  value -> 45;;
+                  The_Night_Shift => nrel_num_of_episodes: 45;;
+                  
+                  value -> 11;;
+                  The_Night_Shift => nrel_no_countries : 11;;
+                  
+                  value -> 8;;
+                  The_Night_Shift => nrel_viewers_in_millions: 8;;
+                  
+                  The_Night_Shift => nrel_age_rating: concept_PG12;;
+                  
+                    The_Night_Shift => nrel_actor : BrendanFehr;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : JRLemon;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : EoinMacken;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : JillFlint;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : RobertBaileyJr;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : ScottWolf;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : KenLeung;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : TanayaBeatty;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : FreddyRodriguez;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : JeananneGoossen;;
+                    
+                   
+                    The_Night_Shift => nrel_actor : DaniellaAlonso;;
+                    
+                  
+                  
+                  The_Night_Shift
+                  =>nrel_keywords: concept_detectif;;
+                  

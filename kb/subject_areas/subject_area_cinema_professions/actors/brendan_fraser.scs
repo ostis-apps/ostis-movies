@@ -1,0 +1,45 @@
+concept_human -> brendan_fraser;;
+ 
+ brendan_fraser <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Брендан Фрейзер)](*<-lang_ru;;*);
+ 		[Description (Brendan Fraser)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/brendan_fraser_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ brendan_fraser <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Брендан Фрейзер)](*<-lang_ru;;*);
+ 		[Pic. (Brendan Fraser)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/brendan_fraser.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ brendan_fraser => nrel_main_idtf : [Брендан Фрейзер](*<-lang_ru;;*);;
+ brendan_fraser => nrel_main_idtf : [Brendan Fraser](*<-lang_en;;*);;
+ 
+ 
+ brendan_fraser => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Usa;;
+ brendan_fraser => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ brendan_fraser => nrel_to_star_in : airheads;;
+airheads => nrel_main_idtf : [Airheads](*<-lang_en;;*);;
+airheads => nrel_main_idtf : [Пустоголовые](*<-lang_ru;;*);;
+

@@ -1,0 +1,57 @@
+concept_human -> robert_patrick;;
+ 
+ robert_patrick <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Роберт Патрик)](*<-lang_ru;;*);
+ 		[Description (Robert Patrick)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/robert_patrick_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ robert_patrick <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Роберт Патрик)](*<-lang_ru;;*);
+ 		[Pic. (Robert Patrick)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/robert_patrick.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ robert_patrick => nrel_main_idtf : [Роберт Патрик](*<-lang_ru;;*);;
+ robert_patrick => nrel_main_idtf : [Robert Patrick](*<-lang_en;;*);;
+ 
+ 
+ robert_patrick => nrel_birth_date : 1958;;
+ 
+ concept_goverment -> Usa;;
+ robert_patrick => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ robert_patrick => nrel_to_star_in : gangster_squad;;
+gangster_squad => nrel_main_idtf : [Gangster Squad](*<-lang_en;;*);;
+gangster_squad => nrel_main_idtf : [Охотники на гангстеров](*<-lang_ru;;*);;
+robert_patrick => nrel_to_star_in : walk_the_line;;
+walk_the_line => nrel_main_idtf : [Walk the Line](*<-lang_en;;*);;
+walk_the_line => nrel_main_idtf : [Переступить черту](*<-lang_ru;;*);;
+robert_patrick => nrel_to_star_in : ladder_49;;
+ladder_49 => nrel_main_idtf : [Ladder 49](*<-lang_en;;*);;
+ladder_49 => nrel_main_idtf : [Команда 49: Огненная лестница](*<-lang_ru;;*);;
+robert_patrick => nrel_to_star_in : cop_land;;
+cop_land => nrel_main_idtf : [Cop Land](*<-lang_en;;*);;
+cop_land => nrel_main_idtf : [Полицейские](*<-lang_ru;;*);;
+robert_patrick => nrel_to_star_in : terminator_2_judgment_day;;
+terminator_2_judgment_day => nrel_main_idtf : [Terminator 2: Judgment Day](*<-lang_en;;*);;
+terminator_2_judgment_day => nrel_main_idtf : [Терминатор 2: Судный день](*<-lang_ru;;*);;
+

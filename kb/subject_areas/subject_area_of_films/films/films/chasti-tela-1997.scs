@@ -1,0 +1,67 @@
+film_chasti_tela_1997
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Части тела / Интимные места]
+(* <- lang_ru;;    *);
+[Private Parts]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Части тела / Интимные места)](*<-lang_ru;;*);
+[Description (Private Parts)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chasti-tela-1997_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chasti-tela-1997_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Части тела / Интимные места)](*<-lang_ru;;*);
+		[Pic. (Private Parts)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chasti-tela-1997.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [He turned on everyone who tuned in! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [07.03.1997](*<-lang_ru;;*);;
+    => nrel_main_idtf : [07.03.1997](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H49M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H49M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_chasti_tela_1997 =>nrel_keywords: film;;
+
+film_chasti_tela_1997 <- concept_biography;concept_comedy;concept_drama;;
+
+film_chasti_tela_1997 => nrel_main_actor : howard_stern;mary_mccormack;robin_quivers;fred_norris;;
+film_chasti_tela_1997 => nrel_producer : betty_thomas;;

@@ -1,0 +1,82 @@
+
+                  concept_series -> Friends;;
+              
+                  Friends
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [друзья]
+                    (* <- lang_ru;;	*);
+                    [Friends]
+                    (* <- lang_en;;	*);;
+                  
+                  Friends <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (друзья)](*<-lang_ru;;*);
+                      [Description (Friends)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Friends_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Friends_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Friends <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (друзья)](*<-lang_ru;;*);
+                      [Pic. (Friends)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Friends.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Friends => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 1994;;
+                  1994 => nrel_main_idtf : [1994 год](*<-lang_ru;;*);;
+                  1994 => nrel_main_idtf : [year of 1994](*<-lang_en;;*);;
+                  Friends => nrel_production_year : 1994;;
+                  
+                  value -> 10;;
+                  Friends => nrel_num_of_seasons: 10;;
+                  value -> 236;;
+                  Friends => nrel_num_of_episodes: 236;;
+                  
+                  value -> 5;;
+                  Friends => nrel_no_countries : 5;;
+                  
+                  value -> 5;;
+                  Friends => nrel_viewers_in_millions: 5;;
+                  
+                  Friends => nrel_age_rating: concept_PG12;;
+                  
+                    Friends => nrel_actor : JenniferAniston;;
+                    
+                   
+                    Friends => nrel_actor : MattLeBlanc;;
+                    
+                   
+                    Friends => nrel_actor : CourteneyCox;;
+                    
+                   
+                    Friends => nrel_actor : DavidSchwimmer;;
+                    
+                   
+                    Friends => nrel_actor : LisaKudrow;;
+                    
+                   
+                    Friends => nrel_actor : MatthewPerry;;
+                    
+                  
+                  
+                  Friends
+                  =>nrel_keywords: concept_detectif;;
+                  

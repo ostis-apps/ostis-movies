@@ -1,0 +1,51 @@
+concept_human -> Jensen_Ackles;;
+
+Jensen_Ackles
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дженсен Эклс]
+	(* <- lang_ru;;	*);
+	[Jensen Ackles]
+	(* <- lang_en;;	*);;
+	
+Jensen_Ackles <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дженсен Эклс)](*<-lang_ru;;*);
+		[Description (Jensen Ackles)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jensen_Ackles_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jensen_Ackles_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jensen_Ackles <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дженсен Эклс)](*<-lang_ru;;*);
+		[Pic. (Jensen Ackles)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Jensen_Ackles.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1978;;
+Jensen_Ackles=>nrel_date_of_birth: 1978;;
+1978=>nrel_main_idtf:[1978 год](*<-lang_ru;;*);;
+1978=>nrel_main_idtf:[year of 1978](*<-lang_en;;*);;
+
+concept_calendar_date->1995;;
+Jensen_Ackles=>nrel_career_start_date: 1995;;
+1995=>nrel_main_idtf:[1995 год](*<-lang_ru;;*);;
+1995=>nrel_main_idtf:[year of 1995](*<-lang_en;;*);;
+
+Jensen_Ackles =>nrel_cityzenship:Usa;;
+

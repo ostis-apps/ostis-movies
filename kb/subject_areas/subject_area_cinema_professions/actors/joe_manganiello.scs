@@ -1,0 +1,48 @@
+concept_human -> joe_manganiello;;
+ 
+ joe_manganiello <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джо Манганиелло)](*<-lang_ru;;*);
+ 		[Description (Joe Manganiello)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/joe_manganiello_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ joe_manganiello <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джо Манганиелло)](*<-lang_ru;;*);
+ 		[Pic. (Joe Manganiello)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/joe_manganiello.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ joe_manganiello => nrel_main_idtf : [Джо Манганиелло](*<-lang_ru;;*);;
+ joe_manganiello => nrel_main_idtf : [Joe Manganiello](*<-lang_en;;*);;
+ 
+ 
+ joe_manganiello => nrel_birth_date : 1977;;
+ 
+ concept_goverment -> Usa;;
+ joe_manganiello => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ joe_manganiello => nrel_to_star_in : rampage;;
+rampage => nrel_main_idtf : [Rampage](*<-lang_en;;*);;
+rampage => nrel_main_idtf : [Рэмпейдж](*<-lang_ru;;*);;
+joe_manganiello => nrel_to_star_in : spiderman;;
+spiderman => nrel_main_idtf : [Spider-Man](*<-lang_en;;*);;
+spiderman => nrel_main_idtf : [Человек-паук](*<-lang_ru;;*);;
+

@@ -1,0 +1,27 @@
+concept_film_Unbreakable
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Неуязвимый](* <- lang_ru;; *);
+	[Unbreakable](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Неуязвимый)](*<-lang_ru;;*);
+		[Description (Unbreakable)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Неуязвимый.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Unbreakable.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_catastrophe;
+=> nrel_keywords: concept_passenger;
+=> nrel_keywords: concept_disease;
+=> nrel_age_rating: concept_PG12;;

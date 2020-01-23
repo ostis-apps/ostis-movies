@@ -1,0 +1,94 @@
+
+                  concept_series -> Heroes_Reborn;;
+              
+                  Heroes_Reborn
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Герои Reborn]
+                    (* <- lang_ru;;	*);
+                    [Heroes_Reborn]
+                    (* <- lang_en;;	*);;
+                  
+                  Heroes_Reborn <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Герои Reborn)](*<-lang_ru;;*);
+                      [Description (Heroes_Reborn)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Heroes_Reborn_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Heroes_Reborn_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Heroes_Reborn <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Герои Reborn)](*<-lang_ru;;*);
+                      [Pic. (Heroes_Reborn)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Heroes_Reborn.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Heroes_Reborn => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Heroes_Reborn => nrel_production_year : 2015;;
+                  
+                  value -> 1;;
+                  Heroes_Reborn => nrel_num_of_seasons: 1;;
+                  value -> 13;;
+                  Heroes_Reborn => nrel_num_of_episodes: 13;;
+                  
+                  value -> 10;;
+                  Heroes_Reborn => nrel_no_countries : 10;;
+                  
+                  value -> 9;;
+                  Heroes_Reborn => nrel_viewers_in_millions: 9;;
+                  
+                  Heroes_Reborn => nrel_age_rating: concept_PG12;;
+                  
+                    Heroes_Reborn => nrel_actor : RobbieKay;;
+                    
+                   
+                    Heroes_Reborn => nrel_actor : ZacharyLevi;;
+                    
+                   
+                    Heroes_Reborn => nrel_actor : HenryZebrowski;;
+                    
+                   
+                    Heroes_Reborn => nrel_actor : RyanGuzman;;
+                    
+                   
+                    Heroes_Reborn => nrel_actor : RyaKihlstedt;;
+                    
+                   
+                    Heroes_Reborn => nrel_actor : JackColeman;;
+                    
+                   
+                    Heroes_Reborn => nrel_actor : DanikaYarosh;;
+                    
+                   
+                    Heroes_Reborn => nrel_actor : KikiSukezane;;
+                    
+                   
+                    Heroes_Reborn => nrel_actor : GatlinGreen;;
+                    
+                   
+                    Heroes_Reborn => nrel_actor : JudithShekoni;;
+                    
+                  
+                  
+                  Heroes_Reborn
+                  =>nrel_keywords: concept_detectif;;
+                  

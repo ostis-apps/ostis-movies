@@ -1,0 +1,48 @@
+concept_human -> sophie_turner;;
+ 
+ sophie_turner <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Софи Тернер)](*<-lang_ru;;*);
+ 		[Description (Sophie Turner)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/sophie_turner_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ sophie_turner <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Софи Тернер)](*<-lang_ru;;*);
+ 		[Pic. (Sophie Turner)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/sophie_turner.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ sophie_turner => nrel_main_idtf : [Софи Тернер](*<-lang_ru;;*);;
+ sophie_turner => nrel_main_idtf : [Sophie Turner](*<-lang_en;;*);;
+ 
+ 
+ sophie_turner => nrel_birth_date : 1996;;
+ 
+ concept_goverment -> UK;;
+ sophie_turner => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ sophie_turner => nrel_to_star_in : dark_phoenix;;
+dark_phoenix => nrel_main_idtf : [Dark Phoenix](*<-lang_en;;*);;
+dark_phoenix => nrel_main_idtf : [Люди Икс: Тёмный Феникс](*<-lang_ru;;*);;
+sophie_turner => nrel_to_star_in : xmen_apocalypse;;
+xmen_apocalypse => nrel_main_idtf : [X-Men: Apocalypse](*<-lang_en;;*);;
+xmen_apocalypse => nrel_main_idtf : [Люди Икс: Апокалипсис](*<-lang_ru;;*);;
+

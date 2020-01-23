@@ -1,0 +1,35 @@
+concept_character_Ilya_Muromets
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Илья Муромец](*<-lang_ru;;*);
+	[Ilya Muromets](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Илья Муромец)](*<-lang_ru;;*);
+		[Description (Ilya Muromets)](*<-lang_en;;*);;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ilya Muromets_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ilya Muromets_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	<=nrel_using_constants:
+	{
+        concept_historical_character
+	};;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Илья Муромец)](*<-lang_ru;;*);
+		[Pic. (Ilya Muromets)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Ilya Muromets.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_historical_character;;

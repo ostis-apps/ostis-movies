@@ -1,0 +1,154 @@
+
+                  concept_series -> Doctor_Who;;
+              
+                  Doctor_Who
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Доктор Кто]
+                    (* <- lang_ru;;	*);
+                    [Doctor_Who]
+                    (* <- lang_en;;	*);;
+                  
+                  Doctor_Who <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Доктор Кто)](*<-lang_ru;;*);
+                      [Description (Doctor_Who)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Doctor_Who_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Doctor_Who_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Doctor_Who <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Доктор Кто)](*<-lang_ru;;*);
+                      [Pic. (Doctor_Who)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Doctor_Who.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Doctor_Who => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2005;;
+                  2005 => nrel_main_idtf : [2005 год](*<-lang_ru;;*);;
+                  2005 => nrel_main_idtf : [year of 2005](*<-lang_en;;*);;
+                  Doctor_Who => nrel_production_year : 2005;;
+                  
+                  value -> 12;;
+                  Doctor_Who => nrel_num_of_seasons: 12;;
+                  value -> 139;;
+                  Doctor_Who => nrel_num_of_episodes: 139;;
+                  
+                  value -> 5;;
+                  Doctor_Who => nrel_no_countries : 5;;
+                  
+                  value -> 9;;
+                  Doctor_Who => nrel_viewers_in_millions: 9;;
+                  
+                  Doctor_Who => nrel_age_rating: concept_PG12;;
+                  
+                    Doctor_Who => nrel_actor : DavidTennant;;
+                    
+                   
+                    Doctor_Who => nrel_actor : MattSmith;;
+                    
+                   
+                    Doctor_Who => nrel_actor : PeterCapaldi;;
+                    
+                   
+                    Doctor_Who => nrel_actor : JennaColeman;;
+                    
+                   
+                    Doctor_Who => nrel_actor : BilliePiper;;
+                    
+                   
+                    Doctor_Who => nrel_actor : KarenGillan;;
+                    
+                   
+                    Doctor_Who => nrel_actor : ArthurDarvill;;
+                    
+                   
+                    Doctor_Who => nrel_actor : FreemaAgyeman;;
+                    
+                   
+                    Doctor_Who => nrel_actor : CatherineTate;;
+                    
+                   
+                    Doctor_Who => nrel_actor : AlexKingston;;
+                    
+                   
+                    Doctor_Who => nrel_actor : MattLucas;;
+                    
+                   
+                    Doctor_Who => nrel_actor : PearlMackie;;
+                    
+                   
+                    Doctor_Who => nrel_actor : ChristopherEccleston;;
+                    
+                   
+                    Doctor_Who => nrel_actor : JodieWhittaker;;
+                    
+                   
+                    Doctor_Who => nrel_actor : TosinCole;;
+                    
+                   
+                    Doctor_Who => nrel_actor : BradleyWalsh;;
+                    
+                   
+                    Doctor_Who => nrel_actor : MandipGill;;
+                    
+                   
+                    Doctor_Who => nrel_actor : JohnBarrowman;;
+                    
+                   
+                    Doctor_Who => nrel_actor : BernardCribbins;;
+                    
+                   
+                    Doctor_Who => nrel_actor : JohnSimm;;
+                    
+                   
+                    Doctor_Who => nrel_actor : ElisabethSladen;;
+                    
+                   
+                    Doctor_Who => nrel_actor : NickFrost;;
+                    
+                   
+                    Doctor_Who => nrel_actor : DavidBradley;;
+                    
+                   
+                    Doctor_Who => nrel_actor : KylieMinogue;;
+                    
+                   
+                    Doctor_Who => nrel_actor : ClaireSkinner;;
+                    
+                   
+                    Doctor_Who => nrel_actor : DavidMorrissey;;
+                    
+                   
+                    Doctor_Who => nrel_actor : MarkGatiss;;
+                    
+                   
+                    Doctor_Who => nrel_actor : PeterDavison;;
+                    
+                   
+                    Doctor_Who => nrel_actor : LindsayDuncan;;
+                    
+                   
+                    Doctor_Who => nrel_actor : MichelleRyan;;
+                    
+                  
+                  
+                  Doctor_Who
+                  =>nrel_keywords: concept_detectif;;
+                  

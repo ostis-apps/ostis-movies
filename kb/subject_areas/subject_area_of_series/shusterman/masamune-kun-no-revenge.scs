@@ -1,0 +1,100 @@
+
+                  concept_series -> Masamune_kun_no_Revenge;;
+              
+                  Masamune_kun_no_Revenge
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Масамунэ _ _ кун Roh _ это Венг]
+                    (* <- lang_ru;;	*);
+                    [Masamune_kun_no_Revenge]
+                    (* <- lang_en;;	*);;
+                  
+                  Masamune_kun_no_Revenge <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Масамунэ _ _ кун Roh _ это Венг)](*<-lang_ru;;*);
+                      [Description (Masamune_kun_no_Revenge)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Masamune_kun_no_Revenge_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Masamune_kun_no_Revenge_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Masamune_kun_no_Revenge <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Масамунэ _ _ кун Roh _ это Венг)](*<-lang_ru;;*);
+                      [Pic. (Masamune_kun_no_Revenge)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Masamune_kun_no_Revenge.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Masamune_kun_no_Revenge => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Masamune_kun_no_Revenge => nrel_production_year : 2017;;
+                  
+                  value -> 1;;
+                  Masamune_kun_no_Revenge => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  Masamune_kun_no_Revenge => nrel_num_of_episodes: 12;;
+                  
+                  value -> 14;;
+                  Masamune_kun_no_Revenge => nrel_no_countries : 14;;
+                  
+                  value -> 10;;
+                  Masamune_kun_no_Revenge => nrel_viewers_in_millions: 10;;
+                  
+                  Masamune_kun_no_Revenge => nrel_age_rating: concept_PG12;;
+                  
+                    Masamune_kun_no_Revenge => nrel_actor : AyakaOhashi;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : InoriMinase;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : YuiOgura;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : MitsukiSaiga;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : AzusaTadokoro;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : MariyaIse;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : Asukagame;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : KanaeIt;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : NatsukiHanae;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : SaoriHayami;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : SatomiSato;;
+                    
+                   
+                    Masamune_kun_no_Revenge => nrel_actor : SuzukoMimori;;
+                    
+                  
+                  
+                  Masamune_kun_no_Revenge
+                  =>nrel_keywords: concept_detectif;;
+                  

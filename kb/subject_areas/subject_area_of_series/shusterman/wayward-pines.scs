@@ -1,0 +1,115 @@
+
+                  concept_series -> Wayward_Pines;;
+              
+                  Wayward_Pines
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Wayward_Pines]
+                    (* <- lang_ru;;	*);
+                    [Wayward_Pines]
+                    (* <- lang_en;;	*);;
+                  
+                  Wayward_Pines <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Wayward_Pines)](*<-lang_ru;;*);
+                      [Description (Wayward_Pines)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Wayward_Pines_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Wayward_Pines_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Wayward_Pines <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Wayward_Pines)](*<-lang_ru;;*);
+                      [Pic. (Wayward_Pines)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Wayward_Pines.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Wayward_Pines => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Wayward_Pines => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  Wayward_Pines => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  Wayward_Pines => nrel_num_of_episodes: 20;;
+                  
+                  value -> 13;;
+                  Wayward_Pines => nrel_no_countries : 13;;
+                  
+                  value -> 7;;
+                  Wayward_Pines => nrel_viewers_in_millions: 7;;
+                  
+                  Wayward_Pines => nrel_age_rating: concept_PG12;;
+                  
+                    Wayward_Pines => nrel_actor : TobyJones;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : HopeDavis;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : ShannynSossamon;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : TomStevens;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : CharlieTahan;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : CarlaGugino;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : MelissaLeo;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : KaceyRohl;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : ReedDiamond;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : MattDillon;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : JasonPatric;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : NimratKaur;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : JoshHelman;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : TimGriffin;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : DjimonHounsou;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : TerrenceHoward;;
+                    
+                   
+                    Wayward_Pines => nrel_actor : JulietteLewis;;
+                    
+                  
+                  
+                  Wayward_Pines
+                  =>nrel_keywords: concept_detectif;;
+                  

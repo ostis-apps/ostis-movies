@@ -1,0 +1,63 @@
+concept_human -> michelle_pfeiffer;;
+ 
+ michelle_pfeiffer <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мишель Пфайффер)](*<-lang_ru;;*);
+ 		[Description (Michelle Pfeiffer)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michelle_pfeiffer_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michelle_pfeiffer <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мишель Пфайффер)](*<-lang_ru;;*);
+ 		[Pic. (Michelle Pfeiffer)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michelle_pfeiffer.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michelle_pfeiffer => nrel_main_idtf : [Мишель Пфайффер](*<-lang_ru;;*);;
+ michelle_pfeiffer => nrel_main_idtf : [Michelle Pfeiffer](*<-lang_en;;*);;
+ 
+ 
+ michelle_pfeiffer => nrel_birth_date : 1958;;
+ 
+ concept_goverment -> Usa;;
+ michelle_pfeiffer => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ michelle_pfeiffer => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+michelle_pfeiffer => nrel_to_star_in : maleficent_mistress_of_evil;;
+maleficent_mistress_of_evil => nrel_main_idtf : [Maleficent: Mistress of Evil](*<-lang_en;;*);;
+maleficent_mistress_of_evil => nrel_main_idtf : [Малефисента: Владычица тьмы](*<-lang_ru;;*);;
+michelle_pfeiffer => nrel_to_star_in : antman_and_the_wasp;;
+antman_and_the_wasp => nrel_main_idtf : [Ant-Man and the Wasp](*<-lang_en;;*);;
+antman_and_the_wasp => nrel_main_idtf : [Человек-Муравей и Оса](*<-lang_ru;;*);;
+michelle_pfeiffer => nrel_to_star_in : murder_on_the_orient_express;;
+murder_on_the_orient_express => nrel_main_idtf : [Murder on the Orient Express](*<-lang_en;;*);;
+murder_on_the_orient_express => nrel_main_idtf : [Убийство в Восточном экспрессе](*<-lang_ru;;*);;
+michelle_pfeiffer => nrel_to_star_in : mother;;
+mother => nrel_main_idtf : [mother!](*<-lang_en;;*);;
+mother => nrel_main_idtf : [мама!](*<-lang_ru;;*);;
+michelle_pfeiffer => nrel_to_star_in : dark_shadows;;
+dark_shadows => nrel_main_idtf : [Dark Shadows](*<-lang_en;;*);;
+dark_shadows => nrel_main_idtf : [Мрачные тени](*<-lang_ru;;*);;
+michelle_pfeiffer => nrel_to_star_in : the_witches_of_eastwick;;
+the_witches_of_eastwick => nrel_main_idtf : [The Witches of Eastwick](*<-lang_en;;*);;
+the_witches_of_eastwick => nrel_main_idtf : [Иствикские ведьмы](*<-lang_ru;;*);;
+

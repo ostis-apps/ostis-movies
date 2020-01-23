@@ -1,0 +1,10 @@
+alan_rickman
+=> nrel_main_idtf:
+	[Алан Рикман]
+	(* <- lang_ru;;	*);
+	[Alan Rickman]
+	(* <- lang_en;;	*);
+<- concept_human;
+<= nrel_actor_of_genre: concept_drama;
+<= nrel_actor_of_genre: concept_comedy;
+<= nrel_actor_of_genre: concept_fantasy;;

@@ -1,0 +1,54 @@
+concept_human -> adam_brody;;
+ 
+ adam_brody <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Адам Броди)](*<-lang_ru;;*);
+ 		[Description (Adam Brody)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/adam_brody_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ adam_brody <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Адам Броди)](*<-lang_ru;;*);
+ 		[Pic. (Adam Brody)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/adam_brody.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ adam_brody => nrel_main_idtf : [Адам Броди](*<-lang_ru;;*);;
+ adam_brody => nrel_main_idtf : [Adam Brody](*<-lang_en;;*);;
+ 
+ 
+ adam_brody => nrel_birth_date : 1980;;
+ 
+ concept_goverment -> Usa;;
+ adam_brody => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ adam_brody => nrel_to_star_in : shazam;;
+shazam => nrel_main_idtf : [Shazam!](*<-lang_en;;*);;
+shazam => nrel_main_idtf : [Шазам!](*<-lang_ru;;*);;
+adam_brody => nrel_to_star_in : yoga_hosers;;
+yoga_hosers => nrel_main_idtf : [Yoga Hosers](*<-lang_en;;*);;
+yoga_hosers => nrel_main_idtf : [Йоганутые](*<-lang_ru;;*);;
+adam_brody => nrel_to_star_in : seeking_a_friend_for_the_end_of_the_world;;
+seeking_a_friend_for_the_end_of_the_world => nrel_main_idtf : [Seeking a Friend for the End of the World](*<-lang_en;;*);;
+seeking_a_friend_for_the_end_of_the_world => nrel_main_idtf : [Ищу друга на конец света](*<-lang_ru;;*);;
+adam_brody => nrel_to_star_in : mr__mrs_smith;;
+mr__mrs_smith => nrel_main_idtf : [Mr. & Mrs. Smith](*<-lang_en;;*);;
+mr__mrs_smith => nrel_main_idtf : [Мистер и миссис Смит](*<-lang_ru;;*);;
+

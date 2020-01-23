@@ -1,0 +1,60 @@
+concept_human -> jessica_chastain;;
+ 
+ jessica_chastain <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джессика Честейн)](*<-lang_ru;;*);
+ 		[Description (Jessica Chastain)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jessica_chastain_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jessica_chastain <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джессика Честейн)](*<-lang_ru;;*);
+ 		[Pic. (Jessica Chastain)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jessica_chastain.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jessica_chastain => nrel_main_idtf : [Джессика Честейн](*<-lang_ru;;*);;
+ jessica_chastain => nrel_main_idtf : [Jessica Chastain](*<-lang_en;;*);;
+ 
+ 
+ jessica_chastain => nrel_birth_date : 1977;;
+ 
+ concept_goverment -> Usa;;
+ jessica_chastain => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jessica_chastain => nrel_to_star_in : dark_phoenix;;
+dark_phoenix => nrel_main_idtf : [Dark Phoenix](*<-lang_en;;*);;
+dark_phoenix => nrel_main_idtf : [Люди Икс: Тёмный Феникс](*<-lang_ru;;*);;
+jessica_chastain => nrel_to_star_in : it_chapter_two;;
+it_chapter_two => nrel_main_idtf : [It Chapter Two](*<-lang_en;;*);;
+it_chapter_two => nrel_main_idtf : [Оно 2](*<-lang_ru;;*);;
+jessica_chastain => nrel_to_star_in : the_huntsman_winters_war;;
+the_huntsman_winters_war => nrel_main_idtf : [The Huntsman: Winter's War](*<-lang_en;;*);;
+the_huntsman_winters_war => nrel_main_idtf : [Белоснежка и охотник 2](*<-lang_ru;;*);;
+jessica_chastain => nrel_to_star_in : interstellar;;
+interstellar => nrel_main_idtf : [Interstellar](*<-lang_en;;*);;
+interstellar => nrel_main_idtf : [Интерстеллар](*<-lang_ru;;*);;
+jessica_chastain => nrel_to_star_in : the_disappearance_of_eleanor_rigby_them;;
+the_disappearance_of_eleanor_rigby_them => nrel_main_idtf : [The Disappearance of Eleanor Rigby: Them](*<-lang_en;;*);;
+the_disappearance_of_eleanor_rigby_them => nrel_main_idtf : [Исчезновение Элеанор Ригби](*<-lang_ru;;*);;
+jessica_chastain => nrel_to_star_in : lawless;;
+lawless => nrel_main_idtf : [Lawless](*<-lang_en;;*);;
+lawless => nrel_main_idtf : [Самый пьяный округ в мире](*<-lang_ru;;*);;
+

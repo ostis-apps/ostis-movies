@@ -1,0 +1,22 @@
+concept_dojikko <- sc_node_not_relation;
+
+=> nrel_main_idtf:[додзикко] (* <- lang_ru;; *);
+=> nrel_idtf:[dojikko] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (додзикко)](* <- lang_ru;; *);
+		[Def. (dojikko)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_dojikko;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_dojikko">Додзикко</sc_element></b> - милая неуклюжая девушка. Её ошибки/неуклюжести могут доставлять неприятности или причинять физическую боль как ей самой, так и другим.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_dojikko">Dojikko</sc_element></b> is a cute clumsy girl. Her mistakes / clumsiness can cause trouble or cause physical pain both to herself and others.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+

@@ -1,0 +1,66 @@
+concept_human -> mark_ruffalo;;
+ 
+ mark_ruffalo <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Марк Руффало)](*<-lang_ru;;*);
+ 		[Description (Mark Ruffalo)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/mark_ruffalo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ mark_ruffalo <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Марк Руффало)](*<-lang_ru;;*);
+ 		[Pic. (Mark Ruffalo)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/mark_ruffalo.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ mark_ruffalo => nrel_main_idtf : [Марк Руффало](*<-lang_ru;;*);;
+ mark_ruffalo => nrel_main_idtf : [Mark Ruffalo](*<-lang_en;;*);;
+ 
+ 
+ mark_ruffalo => nrel_birth_date : 1967;;
+ 
+ concept_goverment -> Usa;;
+ mark_ruffalo => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ mark_ruffalo => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+mark_ruffalo => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+mark_ruffalo => nrel_to_star_in : thor_ragnarok;;
+thor_ragnarok => nrel_main_idtf : [Thor: Ragnarok](*<-lang_en;;*);;
+thor_ragnarok => nrel_main_idtf : [Тор: Рагнарёк](*<-lang_ru;;*);;
+mark_ruffalo => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+mark_ruffalo => nrel_to_star_in : iron_man_3;;
+iron_man_3 => nrel_main_idtf : [Iron Man 3](*<-lang_en;;*);;
+iron_man_3 => nrel_main_idtf : [Железный человек 3](*<-lang_ru;;*);;
+mark_ruffalo => nrel_to_star_in : the_avengers;;
+the_avengers => nrel_main_idtf : [The Avengers](*<-lang_en;;*);;
+the_avengers => nrel_main_idtf : [Мстители](*<-lang_ru;;*);;
+mark_ruffalo => nrel_to_star_in : shutter_island;;
+shutter_island => nrel_main_idtf : [Shutter Island](*<-lang_en;;*);;
+shutter_island => nrel_main_idtf : [Остров проклятых](*<-lang_ru;;*);;
+mark_ruffalo => nrel_to_star_in : eternal_sunshine_of_the_spotless_mind;;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Eternal Sunshine of the Spotless Mind](*<-lang_en;;*);;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Вечное сияние чистого разума](*<-lang_ru;;*);;
+

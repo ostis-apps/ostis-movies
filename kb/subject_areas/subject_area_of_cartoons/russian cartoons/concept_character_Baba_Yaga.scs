@@ -1,0 +1,35 @@
+concept_character_Baba_Yaga
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Баба-яга](*<-lang_ru;;*);
+	[Baba Yaga](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Баба-яга)](*<-lang_ru;;*);
+		[Description (Baba Yaga)](*<-lang_en;;*);;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Baba Yaga_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Baba Yaga_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	<=nrel_using_constants:
+	{
+        concept_historical_character
+	};;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Баба-яга)](*<-lang_ru;;*);
+		[Pic. (Baba Yaga)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Baba Yaga.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_historical_character;;

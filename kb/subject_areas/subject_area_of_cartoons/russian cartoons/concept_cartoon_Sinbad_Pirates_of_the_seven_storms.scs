@@ -1,0 +1,44 @@
+concept_cartoon_Sinbad_Pirates_of_the_seven_storms
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Синдбад. Пираты семи штормов]
+	(* <- lang_ru;;	*);
+	[Sinbad. Pirates of the seven storms]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Синдбад. Пираты семи штормов)](*<-lang_ru;;*);
+		[Description (Sinbad. Pirates of the seven storms)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sinbad Pirates of the seven storms_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sinbad Pirates of the seven storms_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Синдбад. Пираты семи штормов)](*<-lang_ru;;*);
+		[Pic. (Sinbad. Pirates of the seven storms)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Sinbad Pirates of the seven storms.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_pirates;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_nature;
+=>nrel_keywords: concept_adventure;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

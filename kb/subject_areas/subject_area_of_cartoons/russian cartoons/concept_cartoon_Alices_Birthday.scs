@@ -1,0 +1,43 @@
+concept_cartoon_Alices_Birthday
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[День рождения Алисы]
+	(* <- lang_ru;;	*);
+	[Alice's Birthday]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (День рождения Алисы)](*<-lang_ru;;*);
+		[Description (Alice's Birthday)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Alices Birthday_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Alices Birthday_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (День рождения Алисы)](*<-lang_ru;;*);
+		[Pic. (Alice's Birthday)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*	
+		<-concept_poster;;
+		->"file://IMG/Alices Birthday.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+<- concept_fantasy;
+=> nrel_creation: concept_traditional_animation;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_adventure;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

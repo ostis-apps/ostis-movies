@@ -1,0 +1,43 @@
+concept_cartoon_Pocahontas
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Покахонтас]
+	(* <- lang_ru;;	*);
+	[Pocahontas]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Покахонтас)](*<-lang_ru;;*);
+		[Description (Pocahontas)](*<-lang_en;;*);;
+	<=nrel_using_constants: 
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pocahontas_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pocahontas_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Покахонтас)](*<-lang_ru;;*);
+		[Pic. (Pocahontas)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Pocahontas.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_kids;
+=>nrel_keywords: concept_family_film;
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_melodrama;
+=>nrel_keywords: concept_adventure;
+=>nrel_age_rating: concept_PG0;;

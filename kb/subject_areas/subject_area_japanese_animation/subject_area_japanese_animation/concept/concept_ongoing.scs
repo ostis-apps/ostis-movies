@@ -1,0 +1,22 @@
+concept_ongoing <- sc_node_not_relation;
+
+=> nrel_main_idtf:[онгоинг] (* <- lang_ru;; *);
+=> nrel_idtf:[ongoing] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (онгоинг)](* <- lang_ru;; *);
+		[Def. (ongoing)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_anime;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_ongoing">Онгоинг</sc_element></b> - <sc_element sys_idtf="concept_anime">аниме</sc_element> <sc_element sys_idtf="concept_anime">аниме</sc_element>, последний сезон которого сейчас выходит и транслируется по телевидению в Японии.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_ongoing">Ongoing</sc_element></b> - <sc_element sys_idtf="concept_anime">anime</sc_element>, the last season which now goes on and is broadcast on television in Japan.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+

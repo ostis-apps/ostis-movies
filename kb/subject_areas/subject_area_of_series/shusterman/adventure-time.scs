@@ -1,0 +1,88 @@
+
+                  concept_series -> Adventure_Time;;
+              
+                  Adventure_Time
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Время приключений]
+                    (* <- lang_ru;;	*);
+                    [Adventure_Time]
+                    (* <- lang_en;;	*);;
+                  
+                  Adventure_Time <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Время приключений)](*<-lang_ru;;*);
+                      [Description (Adventure_Time)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Adventure_Time_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Adventure_Time_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Adventure_Time <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Время приключений)](*<-lang_ru;;*);
+                      [Pic. (Adventure_Time)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Adventure_Time.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Adventure_Time => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2010;;
+                  2010 => nrel_main_idtf : [2010 год](*<-lang_ru;;*);;
+                  2010 => nrel_main_idtf : [year of 2010](*<-lang_en;;*);;
+                  Adventure_Time => nrel_production_year : 2010;;
+                  
+                  value -> 10;;
+                  Adventure_Time => nrel_num_of_seasons: 10;;
+                  value -> 278;;
+                  Adventure_Time => nrel_num_of_episodes: 278;;
+                  
+                  value -> 5;;
+                  Adventure_Time => nrel_no_countries : 5;;
+                  
+                  value -> 10;;
+                  Adventure_Time => nrel_viewers_in_millions: 10;;
+                  
+                  Adventure_Time => nrel_age_rating: concept_PG12;;
+                  
+                    Adventure_Time => nrel_actor : JeremyShada;;
+                    
+                   
+                    Adventure_Time => nrel_actor : JohnDiMaggio;;
+                    
+                   
+                    Adventure_Time => nrel_actor : HyndenWalch;;
+                    
+                   
+                    Adventure_Time => nrel_actor : NikiHyunYang;;
+                    
+                   
+                    Adventure_Time => nrel_actor : TomKenny;;
+                    
+                   
+                    Adventure_Time => nrel_actor : PendletonWard;;
+                    
+                   
+                    Adventure_Time => nrel_actor : OliviaOlson;;
+                    
+                   
+                    Adventure_Time => nrel_actor : NikiHyunYang;;
+                    
+                  
+                  
+                  Adventure_Time
+                  =>nrel_keywords: concept_detectif;;
+                  

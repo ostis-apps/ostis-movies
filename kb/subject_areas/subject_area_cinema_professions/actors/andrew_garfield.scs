@@ -1,0 +1,48 @@
+concept_human -> andrew_garfield;;
+ 
+ andrew_garfield <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эндрю Гарфилд)](*<-lang_ru;;*);
+ 		[Description (Andrew Garfield)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/andrew_garfield_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ andrew_garfield <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эндрю Гарфилд)](*<-lang_ru;;*);
+ 		[Pic. (Andrew Garfield)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/andrew_garfield.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ andrew_garfield => nrel_main_idtf : [Эндрю Гарфилд](*<-lang_ru;;*);;
+ andrew_garfield => nrel_main_idtf : [Andrew Garfield](*<-lang_en;;*);;
+ 
+ 
+ andrew_garfield => nrel_birth_date : 1983;;
+ 
+ concept_goverment -> Usa;;
+ andrew_garfield => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ andrew_garfield => nrel_to_star_in : under_the_silver_lake;;
+under_the_silver_lake => nrel_main_idtf : [Under the Silver Lake](*<-lang_en;;*);;
+under_the_silver_lake => nrel_main_idtf : [Под Сильвер-Лэйк](*<-lang_ru;;*);;
+andrew_garfield => nrel_to_star_in : the_other_boleyn_girl;;
+the_other_boleyn_girl => nrel_main_idtf : [The Other Boleyn Girl](*<-lang_en;;*);;
+the_other_boleyn_girl => nrel_main_idtf : [Еще одна из рода Болейн](*<-lang_ru;;*);;
+

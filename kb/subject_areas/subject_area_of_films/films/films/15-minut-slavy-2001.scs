@@ -1,0 +1,67 @@
+film_15_minut_slavy_2001
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[15 минут славы]
+(* <- lang_ru;;    *);
+[15 Minutes]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (15 минут славы)](*<-lang_ru;;*);
+[Description (15 Minutes)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/15-minut-slavy-2001_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/15-minut-slavy-2001_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (15 минут славы)](*<-lang_ru;;*);
+		[Pic. (15 Minutes)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/15-minut-slavy-2001.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;germany;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The killings won't stop until you stop watching. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [09.03.2001](*<-lang_ru;;*);;
+    => nrel_main_idtf : [09.03.2001](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_15_minut_slavy_2001 =>nrel_keywords: film;;
+
+film_15_minut_slavy_2001 <- concept_action;concept_crime;concept_drama;concept_thriller;;
+
+film_15_minut_slavy_2001 => nrel_main_actor : robert_de_niro;edward_burns;kelsey_grammer;avery_brooks;;
+film_15_minut_slavy_2001 => nrel_producer : john_herzfeld;;

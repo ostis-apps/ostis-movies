@@ -1,0 +1,100 @@
+
+                  concept_series -> Shinmai_Maou_no_Testament;;
+              
+                  Shinmai_Maou_no_Testament
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Начинающие _ _ диавол Ро _ Te сек многогранный т]
+                    (* <- lang_ru;;	*);
+                    [Shinmai_Maou_no_Testament]
+                    (* <- lang_en;;	*);;
+                  
+                  Shinmai_Maou_no_Testament <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Начинающие _ _ диавол Ро _ Te сек многогранный т)](*<-lang_ru;;*);
+                      [Description (Shinmai_Maou_no_Testament)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Shinmai_Maou_no_Testament_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Shinmai_Maou_no_Testament_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Shinmai_Maou_no_Testament <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Начинающие _ _ диавол Ро _ Te сек многогранный т)](*<-lang_ru;;*);
+                      [Pic. (Shinmai_Maou_no_Testament)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Shinmai_Maou_no_Testament.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Shinmai_Maou_no_Testament => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Shinmai_Maou_no_Testament => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  Shinmai_Maou_no_Testament => nrel_num_of_seasons: 2;;
+                  value -> 23;;
+                  Shinmai_Maou_no_Testament => nrel_num_of_episodes: 23;;
+                  
+                  value -> 6;;
+                  Shinmai_Maou_no_Testament => nrel_no_countries : 6;;
+                  
+                  value -> 12;;
+                  Shinmai_Maou_no_Testament => nrel_viewers_in_millions: 12;;
+                  
+                  Shinmai_Maou_no_Testament => nrel_age_rating: concept_PG12;;
+                  
+                    Shinmai_Maou_no_Testament => nrel_actor : IoriNomizu;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : KaoriFukuhara;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : KeijiFujiwara;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : SeikoYoshida;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : YuichiNakamura;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : YuuAsakawa;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : KenjiroTsuda;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : TomokazuSugita;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : AyakaAsai;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : SarahEmiBridcutt;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : DaisukeHirakawa;;
+                    
+                   
+                    Shinmai_Maou_no_Testament => nrel_actor : GoInoue;;
+                    
+                  
+                  
+                  Shinmai_Maou_no_Testament
+                  =>nrel_keywords: concept_detectif;;
+                  

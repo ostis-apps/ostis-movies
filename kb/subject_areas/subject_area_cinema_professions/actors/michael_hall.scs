@@ -1,0 +1,45 @@
+concept_human -> michael_hall;;
+ 
+ michael_hall <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майкл Холл)](*<-lang_ru;;*);
+ 		[Description (Michael Hall)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michael_hall_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michael_hall <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майкл Холл)](*<-lang_ru;;*);
+ 		[Pic. (Michael Hall)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michael_hall.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michael_hall => nrel_main_idtf : [Майкл Холл](*<-lang_ru;;*);;
+ michael_hall => nrel_main_idtf : [Michael Hall](*<-lang_en;;*);;
+ 
+ 
+ michael_hall => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> Usa;;
+ michael_hall => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ michael_hall => nrel_to_star_in : game_night;;
+game_night => nrel_main_idtf : [Game Night](*<-lang_en;;*);;
+game_night => nrel_main_idtf : [Ночные игры](*<-lang_ru;;*);;
+

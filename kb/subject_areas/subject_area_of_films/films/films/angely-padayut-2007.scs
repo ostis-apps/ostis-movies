@@ -1,0 +1,67 @@
+film_angely_padayut_2007
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Ангелы падают]
+(* <- lang_ru;;    *);
+[Angels Fall]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ангелы падают)](*<-lang_ru;;*);
+[Description (Angels Fall)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/angely-padayut-2007_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/angely-padayut-2007_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ангелы падают)](*<-lang_ru;;*);
+		[Pic. (Angels Fall)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/angely-padayut-2007.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Based on the novel by best selling author Nora Roberts](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [29.01.2007](*<-lang_ru;;*);;
+    => nrel_main_idtf : [29.01.2007](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H30M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H30M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_TV_14;;
+
+film_angely_padayut_2007 =>nrel_keywords: film;;
+
+film_angely_padayut_2007 <- concept_drama;concept_romance;concept_thriller;;
+
+film_angely_padayut_2007 => nrel_main_actor : heather_locklear;johnathon_schaech;gary_hudson;derek_hamilton;;
+film_angely_padayut_2007 => nrel_producer : ralph_hemecker;;

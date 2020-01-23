@@ -1,0 +1,54 @@
+concept_human -> chiwetel_ejiofor;;
+ 
+ chiwetel_ejiofor <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Чиветель Эджиофор)](*<-lang_ru;;*);
+ 		[Description (Chiwetel Ejiofor)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/chiwetel_ejiofor_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ chiwetel_ejiofor <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Чиветель Эджиофор)](*<-lang_ru;;*);
+ 		[Pic. (Chiwetel Ejiofor)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/chiwetel_ejiofor.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ chiwetel_ejiofor => nrel_main_idtf : [Чиветель Эджиофор](*<-lang_ru;;*);;
+ chiwetel_ejiofor => nrel_main_idtf : [Chiwetel Ejiofor](*<-lang_en;;*);;
+ 
+ 
+ chiwetel_ejiofor => nrel_birth_date : 1977;;
+ 
+ concept_goverment -> UK;;
+ chiwetel_ejiofor => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ chiwetel_ejiofor => nrel_to_star_in : maleficent_mistress_of_evil;;
+maleficent_mistress_of_evil => nrel_main_idtf : [Maleficent: Mistress of Evil](*<-lang_en;;*);;
+maleficent_mistress_of_evil => nrel_main_idtf : [Малефисента: Владычица тьмы](*<-lang_ru;;*);;
+chiwetel_ejiofor => nrel_to_star_in : mary_magdalene;;
+mary_magdalene => nrel_main_idtf : [Mary Magdalene](*<-lang_en;;*);;
+mary_magdalene => nrel_main_idtf : [Мария Магдалина](*<-lang_ru;;*);;
+chiwetel_ejiofor => nrel_to_star_in : doctor_strange;;
+doctor_strange => nrel_main_idtf : [Doctor Strange](*<-lang_en;;*);;
+doctor_strange => nrel_main_idtf : [Доктор Стрэндж](*<-lang_ru;;*);;
+chiwetel_ejiofor => nrel_to_star_in : salt;;
+salt => nrel_main_idtf : [Salt](*<-lang_en;;*);;
+salt => nrel_main_idtf : [Солт](*<-lang_ru;;*);;
+

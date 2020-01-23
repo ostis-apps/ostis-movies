@@ -1,0 +1,27 @@
+concept_film_Pretty_Woman
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Красотка](* <- lang_ru;; *);
+	[Pretty Woman](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Красотка)](*<-lang_ru;;*);
+		[Description (Pretty Woman)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Красотка.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Pretty Woman.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_money;
+=> nrel_keywords: concept_love;
+=> nrel_keywords: concept_woman;
+=> nrel_age_rating: concept_PG16;;

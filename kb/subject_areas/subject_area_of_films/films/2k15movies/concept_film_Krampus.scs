@@ -1,0 +1,30 @@
+concept_film_Krampus
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Крампус]
+	(* <- lang_ru;;	*);
+	[Krampus]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Крампус)](*<-lang_ru;;*);
+		[Description (Krampus)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Крампус.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Krampus.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_christmas;
+=>nrel_keywords: concept_holiday;
+=>nrel_age_rating: concept_PG12;;

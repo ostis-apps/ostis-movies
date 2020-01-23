@@ -1,0 +1,75 @@
+concept_human -> helena_bonham_carter;;
+ 
+ helena_bonham_carter <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Хелена Бонем Картер)](*<-lang_ru;;*);
+ 		[Description (Helena Bonham Carter)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/helena_bonham_carter_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ helena_bonham_carter <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Хелена Бонем Картер)](*<-lang_ru;;*);
+ 		[Pic. (Helena Bonham Carter)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/helena_bonham_carter.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ helena_bonham_carter => nrel_main_idtf : [Хелена Бонем Картер](*<-lang_ru;;*);;
+ helena_bonham_carter => nrel_main_idtf : [Helena Bonham Carter](*<-lang_en;;*);;
+ 
+ 
+ helena_bonham_carter => nrel_birth_date : 1966;;
+ 
+ concept_goverment -> UK;;
+ helena_bonham_carter => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ helena_bonham_carter => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : alice_through_the_looking_glass;;
+alice_through_the_looking_glass => nrel_main_idtf : [Alice Through the Looking Glass](*<-lang_en;;*);;
+alice_through_the_looking_glass => nrel_main_idtf : [Алиса в Зазеркалье](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : dark_shadows;;
+dark_shadows => nrel_main_idtf : [Dark Shadows](*<-lang_en;;*);;
+dark_shadows => nrel_main_idtf : [Мрачные тени](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : harry_potter_and_the_deathly_hallows_part_2;;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Harry Potter and the Deathly Hallows: Part 2](*<-lang_en;;*);;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Гарри Поттер и Дары смерти: Часть 2](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : harry_potter_and_the_deathly_hallows_part_1;;
+harry_potter_and_the_deathly_hallows_part_1 => nrel_main_idtf : [Harry Potter and the Deathly Hallows: Part 1](*<-lang_en;;*);;
+harry_potter_and_the_deathly_hallows_part_1 => nrel_main_idtf : [Гарри Поттер и Дары смерти: Часть 1](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : alice_in_wonderland;;
+alice_in_wonderland => nrel_main_idtf : [Alice in Wonderland](*<-lang_en;;*);;
+alice_in_wonderland => nrel_main_idtf : [Алиса в стране чудес](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : harry_potter_and_the_halfblood_prince;;
+harry_potter_and_the_halfblood_prince => nrel_main_idtf : [Harry Potter and the Half-Blood Prince](*<-lang_en;;*);;
+harry_potter_and_the_halfblood_prince => nrel_main_idtf : [Гарри Поттер и Принц-полукровка](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : harry_potter_and_the_order_of_the_phoenix;;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Harry Potter and the Order of the Phoenix](*<-lang_en;;*);;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Гарри Поттер и Орден Феникса](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : sweeney_todd_the_demon_barber_of_fleet_street;;
+sweeney_todd_the_demon_barber_of_fleet_street => nrel_main_idtf : [Sweeney Todd: The Demon Barber of Fleet Street](*<-lang_en;;*);;
+sweeney_todd_the_demon_barber_of_fleet_street => nrel_main_idtf : [Суини Тодд, демон-парикмахер с Флит-стрит](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : charlie_and_the_chocolate_factory;;
+charlie_and_the_chocolate_factory => nrel_main_idtf : [Charlie and the Chocolate Factory](*<-lang_en;;*);;
+charlie_and_the_chocolate_factory => nrel_main_idtf : [Чарли и шоколадная фабрика](*<-lang_ru;;*);;
+helena_bonham_carter => nrel_to_star_in : fight_club;;
+fight_club => nrel_main_idtf : [Fight Club](*<-lang_en;;*);;
+fight_club => nrel_main_idtf : [Бойцовский клуб](*<-lang_ru;;*);;
+

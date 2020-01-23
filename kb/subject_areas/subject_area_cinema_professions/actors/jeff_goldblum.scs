@@ -1,0 +1,45 @@
+concept_human -> jeff_goldblum;;
+ 
+ jeff_goldblum <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джефф Голдблюм)](*<-lang_ru;;*);
+ 		[Description (Jeff Goldblum)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jeff_goldblum_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jeff_goldblum <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джефф Голдблюм)](*<-lang_ru;;*);
+ 		[Pic. (Jeff Goldblum)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jeff_goldblum.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jeff_goldblum => nrel_main_idtf : [Джефф Голдблюм](*<-lang_ru;;*);;
+ jeff_goldblum => nrel_main_idtf : [Jeff Goldblum](*<-lang_en;;*);;
+ 
+ 
+ jeff_goldblum => nrel_birth_date : 1952;;
+ 
+ concept_goverment -> Usa;;
+ jeff_goldblum => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jeff_goldblum => nrel_to_star_in : thor_ragnarok;;
+thor_ragnarok => nrel_main_idtf : [Thor: Ragnarok](*<-lang_en;;*);;
+thor_ragnarok => nrel_main_idtf : [Тор: Рагнарёк](*<-lang_ru;;*);;
+

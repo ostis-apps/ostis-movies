@@ -1,0 +1,67 @@
+film_alisa_zdes_bolshe_ne_zhivet_1974
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Алиса здесь больше не живет]
+(* <- lang_ru;;    *);
+[Alice Doesn't Live Here Anymore]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Алиса здесь больше не живет)](*<-lang_ru;;*);
+[Description (Alice Doesn't Live Here Anymore)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/alisa-zdes-bolshe-ne-zhivet-1974_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/alisa-zdes-bolshe-ne-zhivet-1974_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Алиса здесь больше не живет)](*<-lang_ru;;*);
+		[Pic. (Alice Doesn't Live Here Anymore)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/alisa-zdes-bolshe-ne-zhivet-1974.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Alice has a 12-year old kid. She hasn't got a job and she's on her own. How come she has such a good time? See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [23.05.1975](*<-lang_ru;;*);;
+    => nrel_main_idtf : [23.05.1975](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H52M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H52M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_alisa_zdes_bolshe_ne_zhivet_1974 =>nrel_keywords: film;;
+
+film_alisa_zdes_bolshe_ne_zhivet_1974 <- concept_drama;concept_romance;;
+
+film_alisa_zdes_bolshe_ne_zhivet_1974 => nrel_main_actor : ellen_burstyn;kris_kristofferson;mia_bendixsen;alfred_lutter_iii;;
+film_alisa_zdes_bolshe_ne_zhivet_1974 => nrel_producer : martin_scorsese;;

@@ -1,0 +1,38 @@
+concept_cartoon -> cartoon1; cartoon2; cartoon3;;
+
+genre1 -> cartoon1; cartoon2;;
+
+genre2 -> cartoon3;;
+
+cartoon1 => nrel_prototype: prototype1;;
+
+cartoon2 => nrel_prototype: prototype1;;
+
+cartoon1 => nrel_prototype: prototype2;;
+
+concept_historical_character -> prototype1; prototype2;;
+
+genre1 <- concept_genre;;
+
+genre2 <- concept_genre;;
+
+
+
+
+
+concept_comedy <- concept_genre;;
+
+concept_comedy -> concept_cartoon_Alyosha_Popovich_and_Tugarin_Snake;;
+concept_cartoon_Alyosha_Popovich_and_Tugarin_Snake => nrel_prototype: concept_character_Alesha_Popovich;;
+
+
+concept_comedy -> concept_cartoon_Dobrynya_Nikitich_and_Zmey_Gorynych;;
+concept_cartoon_Dobrynya_Nikitich_and_Zmey_Gorynych => nrel_prototype: concept_character_Dobrynya_Nikitich;;
+
+
+concept_comedy -> concept_cartoon_Three_heroes_and_the_King_of_the_Sea;;
+concept_cartoon_Three_heroes_and_the_King_of_the_Sea => nrel_prototype: concept_character_Ilya_Muromets;;
+concept_cartoon_Three_heroes_and_the_King_of_the_Sea => nrel_prototype: concept_character_Alesha_Popovich;;
+concept_cartoon_Three_heroes_and_the_King_of_the_Sea => nrel_prototype: concept_character_Dobrynya_Nikitich;;
+
+

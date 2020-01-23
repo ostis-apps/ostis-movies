@@ -1,0 +1,48 @@
+concept_human -> sandra_bullock;;
+ 
+ sandra_bullock <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сандра Буллок)](*<-lang_ru;;*);
+ 		[Description (Sandra Bullock)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/sandra_bullock_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ sandra_bullock <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сандра Буллок)](*<-lang_ru;;*);
+ 		[Pic. (Sandra Bullock)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/sandra_bullock.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ sandra_bullock => nrel_main_idtf : [Сандра Буллок](*<-lang_ru;;*);;
+ sandra_bullock => nrel_main_idtf : [Sandra Bullock](*<-lang_en;;*);;
+ 
+ 
+ sandra_bullock => nrel_birth_date : 1964;;
+ 
+ concept_goverment -> Usa;;
+ sandra_bullock => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ sandra_bullock => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+sandra_bullock => nrel_to_star_in : the_lake_house;;
+the_lake_house => nrel_main_idtf : [The Lake House](*<-lang_en;;*);;
+the_lake_house => nrel_main_idtf : [Дом у озера](*<-lang_ru;;*);;
+

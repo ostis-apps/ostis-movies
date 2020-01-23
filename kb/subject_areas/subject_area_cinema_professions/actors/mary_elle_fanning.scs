@@ -1,0 +1,54 @@
+concept_human -> mary_elle_fanning;;
+ 
+ mary_elle_fanning <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэри Эль Фаннинг)](*<-lang_ru;;*);
+ 		[Description (Mary Elle Fanning)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/mary_elle_fanning_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ mary_elle_fanning <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэри Эль Фаннинг)](*<-lang_ru;;*);
+ 		[Pic. (Mary Elle Fanning)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/mary_elle_fanning.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ mary_elle_fanning => nrel_main_idtf : [Мэри Эль Фаннинг](*<-lang_ru;;*);;
+ mary_elle_fanning => nrel_main_idtf : [Mary Elle Fanning](*<-lang_en;;*);;
+ 
+ 
+ mary_elle_fanning => nrel_birth_date : 1998;;
+ 
+ concept_goverment -> Usa;;
+ mary_elle_fanning => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ mary_elle_fanning => nrel_to_star_in : maleficent_mistress_of_evil;;
+maleficent_mistress_of_evil => nrel_main_idtf : [Maleficent: Mistress of Evil](*<-lang_en;;*);;
+maleficent_mistress_of_evil => nrel_main_idtf : [Малефисента: Владычица тьмы](*<-lang_ru;;*);;
+mary_elle_fanning => nrel_to_star_in : the_neon_demon;;
+the_neon_demon => nrel_main_idtf : [The Neon Demon](*<-lang_en;;*);;
+the_neon_demon => nrel_main_idtf : [Неоновый демон](*<-lang_ru;;*);;
+mary_elle_fanning => nrel_to_star_in : maleficent;;
+maleficent => nrel_main_idtf : [Maleficent](*<-lang_en;;*);;
+maleficent => nrel_main_idtf : [Малефисента](*<-lang_ru;;*);;
+mary_elle_fanning => nrel_to_star_in : the_curious_case_of_benjamin_button;;
+the_curious_case_of_benjamin_button => nrel_main_idtf : [The Curious Case of Benjamin Button](*<-lang_en;;*);;
+the_curious_case_of_benjamin_button => nrel_main_idtf : [Загадочная история Бенджамина Баттона](*<-lang_ru;;*);;
+

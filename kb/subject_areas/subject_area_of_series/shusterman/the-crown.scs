@@ -1,0 +1,190 @@
+
+                  concept_series -> The_Crown;;
+              
+                  The_Crown
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Корона]
+                    (* <- lang_ru;;	*);
+                    [The_Crown]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Crown <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Корона)](*<-lang_ru;;*);
+                      [Description (The_Crown)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Crown_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Crown_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Crown <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Корона)](*<-lang_ru;;*);
+                      [Pic. (The_Crown)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Crown.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Crown => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  The_Crown => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  The_Crown => nrel_num_of_seasons: 3;;
+                  value -> 30;;
+                  The_Crown => nrel_num_of_episodes: 30;;
+                  
+                  value -> 10;;
+                  The_Crown => nrel_no_countries : 10;;
+                  
+                  value -> 7;;
+                  The_Crown => nrel_viewers_in_millions: 7;;
+                  
+                  The_Crown => nrel_age_rating: concept_PG12;;
+                  
+                    The_Crown => nrel_actor : ClaireFoy;;
+                    
+                   
+                    The_Crown => nrel_actor : TobiasMenzies;;
+                    
+                   
+                    The_Crown => nrel_actor : MattSmith;;
+                    
+                   
+                    The_Crown => nrel_actor : OliviaColman;;
+                    
+                   
+                    The_Crown => nrel_actor : VictoriaHamilton;;
+                    
+                   
+                    The_Crown => nrel_actor : MarionBailey;;
+                    
+                   
+                    The_Crown => nrel_actor : VanessaKirby;;
+                    
+                   
+                    The_Crown => nrel_actor : HelenaBonhamCarter;;
+                    
+                   
+                    The_Crown => nrel_actor : JoshOConnor;;
+                    
+                   
+                    The_Crown => nrel_actor : JulianBaring;;
+                    
+                   
+                    The_Crown => nrel_actor : CharlesDance;;
+                    
+                   
+                    The_Crown => nrel_actor : GregWise;;
+                    
+                   
+                    The_Crown => nrel_actor : MatthewGoode;;
+                    
+                   
+                    The_Crown => nrel_actor : JohnLithgow;;
+                    
+                   
+                    The_Crown => nrel_actor : JeremyNortham;;
+                    
+                   
+                    The_Crown => nrel_actor : BenDaniels;;
+                    
+                   
+                    The_Crown => nrel_actor : ErinDoherty;;
+                    
+                   
+                    The_Crown => nrel_actor : BenMiles;;
+                    
+                   
+                    The_Crown => nrel_actor : LiaWilliams;;
+                    
+                   
+                    The_Crown => nrel_actor : GeraldineChaplin;;
+                    
+                   
+                    The_Crown => nrel_actor : AntonLesser;;
+                    
+                   
+                    The_Crown => nrel_actor : DerekJacobi;;
+                    
+                   
+                    The_Crown => nrel_actor : JasonWatkins;;
+                    
+                   
+                    The_Crown => nrel_actor : AlexJennings;;
+                    
+                   
+                    The_Crown => nrel_actor : JaredHarris;;
+                    
+                   
+                    The_Crown => nrel_actor : JaneLapotaire;;
+                    
+                   
+                    The_Crown => nrel_actor : EileenAtkins;;
+                    
+                   
+                    The_Crown => nrel_actor : MichaelMaloney;;
+                    
+                   
+                    The_Crown => nrel_actor : FinnElliot;;
+                    
+                   
+                    The_Crown => nrel_actor : EmeraldFennell;;
+                    
+                   
+                    The_Crown => nrel_actor : AndrewBuchan;;
+                    
+                   
+                    The_Crown => nrel_actor : PaulSparks;;
+                    
+                   
+                    The_Crown => nrel_actor : ClancyBrown;;
+                    
+                   
+                    The_Crown => nrel_actor : HarryTreadaway;;
+                    
+                   
+                    The_Crown => nrel_actor : JodiBalfour;;
+                    
+                   
+                    The_Crown => nrel_actor : TimMcMullan;;
+                    
+                   
+                    The_Crown => nrel_actor : JohnHeffernan;;
+                    
+                   
+                    The_Crown => nrel_actor : MichaelCHall;;
+                    
+                   
+                    The_Crown => nrel_actor : BurghartKlauner;;
+                    
+                   
+                    The_Crown => nrel_actor : StephenDillane;;
+                    
+                   
+                    The_Crown => nrel_actor : MarkLewisJones;;
+                    
+                   
+                    The_Crown => nrel_actor : GemmaWhelan;;
+                    
+                  
+                  
+                  The_Crown
+                  =>nrel_keywords: concept_detectif;;
+                  

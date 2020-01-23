@@ -1,0 +1,88 @@
+concept_human -> Angelina_Joli;;
+
+Angelina_Joli <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Анджелина Джоли)](*<-lang_ru;;*);
+		[Description (Angelina Joli)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Angelina_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Angelina_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Angelina_Joli <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Анджелина Джоли)](*<-lang_ru;;*);
+		[Pic. (Angelina Joli)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Angelina.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Angelina_Joli => nrel_be_awarded : Golden_globe;Oscar;; 
+Angelina_Joli => nrel_main_idtf : [Анджелина Джоли](*<-lang_ru;;*);;
+Angelina_Joli => nrel_main_idtf : [Angelina Joli](*<-lang_en;;*);;
+
+concept_calendar_date -> 04_06_1975;;
+Angelina_Joli => nrel_date_of_birth : 04_06_1975;;
+04_06_1975 => nrel_main_idtf : [04.06.1975](*<-lang_en;;*);;
+04_06_1975 => nrel_main_idtf : [04.06.1975](*<-lang_ru;;*);;
+
+concept_city -> Los_Angeles;;
+Angelina_Joli => nrel_place_of_birth : Los_Angeles;;
+Los_Angeles => nrel_main_idtf : [Los-Angeles](*<-lang_en;;*);;
+Los_Angeles => nrel_main_idtf : [Лос-Анджелес](*<-lang_ru;;*);;
+
+concept_goverment -> Cambodga; Usa;;
+Angelina_Joli => nrel_cityzenship :Cambodga; Usa;;
+Cambodga => nrel_main_idtf : [Cambodga](*<-lang_en;;*);;
+Cambodga => nrel_main_idtf : [Камбоджа](*<-lang_ru;;*);;
+Usa => nrel_main_idtf : [USA](*<-lang_en;;*);;
+Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+
+concept_calendar_date -> 14_05_1982;;
+Angelina_Joli => nrel_career_start_date : 14_05_1982;;
+14_05_1982 => nrel_main_idtf : [14.05.1982](*<-lang_en;;*);;
+14_05_1982 => nrel_main_idtf : [14.05.1982](*<-lang_ru;;*);;
+
+concept_golden_globe -> Golden_globe;;
+concept_oscar -> Oscar;;
+Golden_globe => nrel_main_idtf : [Golden globe](*<-lang_en;;*);;
+Golden_globe => nrel_main_idtf : [Золотой глобус](*<-lang_ru;;*);;
+Oscar => nrel_main_idtf : [Oscar](*<-lang_en;;*);;
+Oscar => nrel_main_idtf : [Оскар](*<-lang_ru;;*);;
+
+concept_film -> Tourist;Aleskandr;Her_heart;Lara_Kroft;Laz_beach;Osobo_Opasen;
+Solt;Malefisenta;Lihoradka;;
+Laz_beach => nrel_main_idtf : [Azure beach](*<-lang_en;;*);;
+Laz_beach => nrel_main_idtf : [Лазурный берег](*<-lang_ru;;*);;
+Osobo_Opasen => nrel_main_idtf : [Especially dangerous](*<-lang_en;;*);;
+Osobo_Opasen => nrel_main_idtf : [Особо опасен](*<-lang_ru;;*);;
+Solt => nrel_main_idtf : [Solt](*<-lang_en;;*);;
+Solt => nrel_main_idtf : [Солт](*<-lang_ru;;*);;
+Malefisenta => nrel_main_idtf : [Malefisenta](*<-lang_en;;*);;
+Malefisenta => nrel_main_idtf : [Малефисента](*<-lang_ru;;*);;
+Lihoradka => nrel_main_idtf : [Fever](*<-lang_en;;*);;
+Lihoradka => nrel_main_idtf : [Лихорадка](*<-lang_ru;;*);;
+Tourist => nrel_main_idtf : [Tourist](*<-lang_en;;*);;
+Tourist => nrel_main_idtf : [Турист](*<-lang_ru;;*);;
+Aleskandr => nrel_main_idtf : [Aleksandr](*<-lang_en;;*);;
+Aleskandr => nrel_main_idtf : [Александр](*<-lang_ru;;*);;
+Her_heart => nrel_main_idtf : [Her heart](*<-lang_en;;*);;
+Her_heart => nrel_main_idtf : [Её серде](*<-lang_ru;;*);;
+Lara_Kroft => nrel_main_idtf : [Lara Kroft](*<-lang_en;;*);;
+Lara_Kroft => nrel_main_idtf : [Лара Крофт](*<-lang_ru;;*);;
+
+Angelina_Joli => nrel_to_star_in : Tourist;Aleskandr;Her_heart;Lara_Kroft;Laz_beach;Osobo_Opasen;
+Solt;Malefisenta;Lihoradka;;
+

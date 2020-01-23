@@ -1,0 +1,5 @@
+concept_megaplex
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[мегаплекс](*<-lang_ru;;*);
+	[megaplex](*<-lang_en;;*);;

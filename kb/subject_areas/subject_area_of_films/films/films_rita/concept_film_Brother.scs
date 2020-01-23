@@ -1,0 +1,27 @@
+concept_film_Brother
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Брат](* <- lang_ru;; *);
+	[Brother](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Брат)](*<-lang_ru;;*);
+		[Description (Brother)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Брат.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Brother.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_bandits;
+=> nrel_keywords: concept_russian;
+=> nrel_age_rating: concept_PG16;;

@@ -1,0 +1,124 @@
+
+                  concept_series -> Prison_Break;;
+              
+                  Prison_Break
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Побег из тюрьмы]
+                    (* <- lang_ru;;	*);
+                    [Prison_Break]
+                    (* <- lang_en;;	*);;
+                  
+                  Prison_Break <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Побег из тюрьмы)](*<-lang_ru;;*);
+                      [Description (Prison_Break)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Prison_Break_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Prison_Break_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Prison_Break <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Побег из тюрьмы)](*<-lang_ru;;*);
+                      [Pic. (Prison_Break)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Prison_Break.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Prison_Break => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2005;;
+                  2005 => nrel_main_idtf : [2005 год](*<-lang_ru;;*);;
+                  2005 => nrel_main_idtf : [year of 2005](*<-lang_en;;*);;
+                  Prison_Break => nrel_production_year : 2005;;
+                  
+                  value -> 5;;
+                  Prison_Break => nrel_num_of_seasons: 5;;
+                  value -> 88;;
+                  Prison_Break => nrel_num_of_episodes: 88;;
+                  
+                  value -> 6;;
+                  Prison_Break => nrel_no_countries : 6;;
+                  
+                  value -> 12;;
+                  Prison_Break => nrel_viewers_in_millions: 12;;
+                  
+                  Prison_Break => nrel_age_rating: concept_PG12;;
+                  
+                    Prison_Break => nrel_actor : WentworthMiller;;
+                    
+                   
+                    Prison_Break => nrel_actor : DominicPurcell;;
+                    
+                   
+                    Prison_Break => nrel_actor : RobertKnepper;;
+                    
+                   
+                    Prison_Break => nrel_actor : AmauryNolasco;;
+                    
+                   
+                    Prison_Break => nrel_actor : SarahWayneCallies;;
+                    
+                   
+                    Prison_Break => nrel_actor : WadeWilliams;;
+                    
+                   
+                    Prison_Break => nrel_actor : WilliamFichtner;;
+                    
+                   
+                    Prison_Break => nrel_actor : PaulAdelstein;;
+                    
+                   
+                    Prison_Break => nrel_actor : RockmondDunbar;;
+                    
+                   
+                    Prison_Break => nrel_actor : JodiLynOKeefe;;
+                    
+                   
+                    Prison_Break => nrel_actor : MarshallAllman;;
+                    
+                   
+                    Prison_Break => nrel_actor : RobinTunney;;
+                    
+                   
+                    Prison_Break => nrel_actor : MichaelRapaport;;
+                    
+                   
+                    Prison_Break => nrel_actor : PeterStormare;;
+                    
+                   
+                    Prison_Break => nrel_actor : DanayGarca;;
+                    
+                   
+                    Prison_Break => nrel_actor : RobertWisdom;;
+                    
+                   
+                    Prison_Break => nrel_actor : ChrisVance;;
+                    
+                   
+                    Prison_Break => nrel_actor : AugustusPrew;;
+                    
+                   
+                    Prison_Break => nrel_actor : InbarLavi;;
+                    
+                   
+                    Prison_Break => nrel_actor : MarkFeuerstein;;
+                    
+                  
+                  
+                  Prison_Break
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,5 @@
+rrel_cinema_halls
+<-sc_node_role_relation;
+=>nrel_main_idtf:
+	[кинозалы'](*<-lang_ru;;*);
+	[cinema halls'](*<-lang_en;;*);;

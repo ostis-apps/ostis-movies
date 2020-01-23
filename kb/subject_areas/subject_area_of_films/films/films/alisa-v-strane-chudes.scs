@@ -1,0 +1,67 @@
+film_alisa_v_strane_chudes
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Алиса в стране чудес]
+(* <- lang_ru;;    *);
+[Alice in Wonderland]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Алиса в стране чудес)](*<-lang_ru;;*);
+[Description (Alice in Wonderland)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/alisa-v-strane-chudes_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/alisa-v-strane-chudes_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Алиса в стране чудес)](*<-lang_ru;;*);
+		[Pic. (Alice in Wonderland)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/alisa-v-strane-chudes.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The Cheshire Cat See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [03.03.2010](*<-lang_ru;;*);;
+    => nrel_main_idtf : [03.03.2010](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H48M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H48M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_alisa_v_strane_chudes =>nrel_keywords: film;;
+
+film_alisa_v_strane_chudes <- concept_adventure;concept_family;concept_fantasy;;
+
+film_alisa_v_strane_chudes => nrel_main_actor : mia_wasikowska;johnny_depp;helena_bonham_carter;anne_hathaway;;
+film_alisa_v_strane_chudes => nrel_producer : tim_burton;;

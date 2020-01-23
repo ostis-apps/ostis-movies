@@ -1,0 +1,103 @@
+
+                  concept_series -> Pretty_Little_Liars;;
+              
+                  Pretty_Little_Liars
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Милые обманщицы]
+                    (* <- lang_ru;;	*);
+                    [Pretty_Little_Liars]
+                    (* <- lang_en;;	*);;
+                  
+                  Pretty_Little_Liars <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Милые обманщицы)](*<-lang_ru;;*);
+                      [Description (Pretty_Little_Liars)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Pretty_Little_Liars_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Pretty_Little_Liars_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Pretty_Little_Liars <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Милые обманщицы)](*<-lang_ru;;*);
+                      [Pic. (Pretty_Little_Liars)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Pretty_Little_Liars.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Pretty_Little_Liars => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2010;;
+                  2010 => nrel_main_idtf : [2010 год](*<-lang_ru;;*);;
+                  2010 => nrel_main_idtf : [year of 2010](*<-lang_en;;*);;
+                  Pretty_Little_Liars => nrel_production_year : 2010;;
+                  
+                  value -> 7;;
+                  Pretty_Little_Liars => nrel_num_of_seasons: 7;;
+                  value -> 160;;
+                  Pretty_Little_Liars => nrel_num_of_episodes: 160;;
+                  
+                  value -> 10;;
+                  Pretty_Little_Liars => nrel_no_countries : 10;;
+                  
+                  value -> 11;;
+                  Pretty_Little_Liars => nrel_viewers_in_millions: 11;;
+                  
+                  Pretty_Little_Liars => nrel_age_rating: concept_PG12;;
+                  
+                    Pretty_Little_Liars => nrel_actor : TroianBellisario;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : LucyHale;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : ShayMitchell;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : AshleyBenson;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : IanHarding;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : TylerBlackburn;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : JanelParrish;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : SashaPieterse;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : LauraLeighton;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : HollyMarieCombs;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : ChadLowe;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : BiancaLawson;;
+                    
+                   
+                    Pretty_Little_Liars => nrel_actor : AndreaParker;;
+                    
+                  
+                  
+                  Pretty_Little_Liars
+                  =>nrel_keywords: concept_detectif;;
+                  

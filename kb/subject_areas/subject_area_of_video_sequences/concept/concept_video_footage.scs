@@ -1,0 +1,36 @@
+concept_video_footage
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[видеокадр](*<-lang_ru;;*);
+	[video footage](*<-lang_en;;*);
+=>nrel_idtf:
+	[кадр](*<-lang_ru;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (видеокадр)](*<-lang_ru;;*);
+		[Def. (video footage)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+		-> concept_video_sequence;;
+        -> concept_digital_image;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_video_footage_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_video_footage_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (видеокадр)](*<-lang_ru;;*);
+		[Pic. (video footage)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/video_footage.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

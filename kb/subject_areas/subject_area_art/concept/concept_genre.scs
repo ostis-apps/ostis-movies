@@ -1,0 +1,20 @@
+concept_genre
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[жанр](*<-lang_ru;;*);
+	[genre](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (жанр)](*<-lang_ru;;*);
+		[Def. (genre)](*<-lang_en;;*);;
+	<=nrel_using_constants: concept_piece_of_art;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_genre_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_genre_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+

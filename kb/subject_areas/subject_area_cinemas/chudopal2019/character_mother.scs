@@ -1,0 +1,33 @@
+character_mother
+	=> nrel_main_idtf:
+	[Мать]
+	(* <- lang_ru;;	*);
+	[Mother]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: margarita_terekhova;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Мать)](* <- lang_ru;; *);
+		[Desctiption (Mother)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_pheophan_grek">Мать</sc_element></b> — мать <sc_element sys_idtf="character_alexey">Алексея</sc_element>](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_pheophan_grek">Mother</sc_element></b> — mother of <sc_element sys_idtf="character_alexey">Alexey</sc_element>.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Мать)](*<-lang_ru;;*);
+		[Pic. (Mother)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Mother.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

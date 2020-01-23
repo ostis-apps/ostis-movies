@@ -1,0 +1,76 @@
+
+                  concept_series -> Before_We_Get_Married;;
+              
+                  Before_We_Get_Married
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Before_We_Get_Married]
+                    (* <- lang_ru;;	*);
+                    [Before_We_Get_Married]
+                    (* <- lang_en;;	*);;
+                  
+                  Before_We_Get_Married <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Before_We_Get_Married)](*<-lang_ru;;*);
+                      [Description (Before_We_Get_Married)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Before_We_Get_Married_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Before_We_Get_Married_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Before_We_Get_Married <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Before_We_Get_Married)](*<-lang_ru;;*);
+                      [Pic. (Before_We_Get_Married)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Before_We_Get_Married.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Before_We_Get_Married => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Before_We_Get_Married => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Before_We_Get_Married => nrel_num_of_seasons: 1;;
+                  value -> 13;;
+                  Before_We_Get_Married => nrel_num_of_episodes: 13;;
+                  
+                  value -> 3;;
+                  Before_We_Get_Married => nrel_no_countries : 3;;
+                  
+                  value -> 9;;
+                  Before_We_Get_Married => nrel_viewers_in_millions: 9;;
+                  
+                  Before_We_Get_Married => nrel_age_rating: concept_PG12;;
+                  
+                    Before_We_Get_Married => nrel_actor : PuffKuo;;
+                    
+                   
+                    Before_We_Get_Married => nrel_actor : NitaLei;;
+                    
+                   
+                    Before_We_Get_Married => nrel_actor : JasperLiu;;
+                    
+                   
+                    Before_We_Get_Married => nrel_actor : StevenSun;;
+                    
+                  
+                  
+                  Before_We_Get_Married
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,67 @@
+film_aleksandr_2004
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Александр]
+(* <- lang_ru;;    *);
+[Alexander]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Александр)](*<-lang_ru;;*);
+[Description (Alexander)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/aleksandr-2004_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/aleksandr-2004_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Александр)](*<-lang_ru;;*);
+		[Pic. (Alexander)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/aleksandr-2004.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;uk;germany;netherlands;france;italy;morocco;thailand;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Warrior. King. Lover. Seeker. Conqueror. Savior. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [21.11.2004](*<-lang_ru;;*);;
+    => nrel_main_idtf : [21.11.2004](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H55M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H55M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_aleksandr_2004 =>nrel_keywords: film;;
+
+film_aleksandr_2004 <- concept_action;concept_biography;concept_drama;concept_history;concept_romance;concept_war;;
+
+film_aleksandr_2004 => nrel_main_actor : colin_farrell;anthony_hopkins;rosario_dawson;angelina_jolie;;
+film_aleksandr_2004 => nrel_producer : oliver_stone;;

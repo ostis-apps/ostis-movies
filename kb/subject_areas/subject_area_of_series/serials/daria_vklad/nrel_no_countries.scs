@@ -1,0 +1,24 @@
+nrel_no_countries <- sc_node_norole_relation;
+
+=>nrel_main_idtf:
+	[number of countries viewing*](*<-lang_en;;*);
+	[количество стран показа*](*<-lang_ru;;*);
+
+<-rrel_key_sc_element:... (*
+	<-definition;;
+	=>nrel_main_idtf:
+		[(количество стран показа*)](*<-lang_ru;;*);
+		[(number of countries viewing*)](*<-lang_en;;*);;
+
+	<= nrel_sc_text_translation:... (*
+		->rrel_example: "file://HTML/nrel_no_countries_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/nrel_no_countries_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+=>nrel_first_domain:concept_country;
+=>nrel_second_domain:concept_number;
+
+<-binary_relation;
+<-antireflexive_relation;
+<-antitransitive_relation;;

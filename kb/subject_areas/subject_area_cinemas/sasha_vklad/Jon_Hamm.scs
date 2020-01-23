@@ -1,0 +1,50 @@
+concept_human -> Jon_Hamm;;
+
+Jon_Hamm
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джонатан Дэниел Хэмм]
+	(* <- lang_ru;;	*);
+	[Jon Hamm]
+	(* <- lang_en;;	*);;
+	
+Jon_Hamm <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джонатан Дэниел Хэмм)](*<-lang_ru;;*);
+		[Description (Jon Hamm)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jon_Hamm_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jon_Hamm_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jon_Hamm <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джонатан Дэниел Хэмм)](*<-lang_ru;;*);
+		[Pic. (Jon Hamm)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Jon_Hamm.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1971;;
+Jon_Hamm =>nrel_date_of_birth: 1971;;
+1971=>nrel_main_idtf:[1971 год](*<-lang_ru;;*);;
+1971=>nrel_main_idtf:[year of 1971](*<-lang_en;;*);;
+
+concept_calendar_date->1996;;
+Jon_Hamm =>nrel_career_start_date: 1996;;
+1996=>nrel_main_idtf:[1996 год](*<-lang_ru;;*);;
+1996=>nrel_main_idtf:[year of 1996](*<-lang_en;;*);;
+
+Jon_Hamm =>nrel_cityzenship: Usa;;

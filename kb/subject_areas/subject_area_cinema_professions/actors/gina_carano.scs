@@ -1,0 +1,48 @@
+concept_human -> gina_carano;;
+ 
+ gina_carano <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джина Карано)](*<-lang_ru;;*);
+ 		[Description (Gina Carano)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/gina_carano_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ gina_carano <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джина Карано)](*<-lang_ru;;*);
+ 		[Pic. (Gina Carano)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/gina_carano.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ gina_carano => nrel_main_idtf : [Джина Карано](*<-lang_ru;;*);;
+ gina_carano => nrel_main_idtf : [Gina Carano](*<-lang_en;;*);;
+ 
+ 
+ gina_carano => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> Usa;;
+ gina_carano => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ gina_carano => nrel_to_star_in : deadpool;;
+deadpool => nrel_main_idtf : [Deadpool](*<-lang_en;;*);;
+deadpool => nrel_main_idtf : [Дэдпул](*<-lang_ru;;*);;
+gina_carano => nrel_to_star_in : fast__furious_6;;
+fast__furious_6 => nrel_main_idtf : [Fast & Furious 6](*<-lang_en;;*);;
+fast__furious_6 => nrel_main_idtf : [Форсаж 6](*<-lang_ru;;*);;
+

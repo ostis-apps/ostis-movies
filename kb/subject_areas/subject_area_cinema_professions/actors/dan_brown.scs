@@ -1,0 +1,48 @@
+concept_human -> dan_brown;;
+ 
+ dan_brown <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэн Браун)](*<-lang_ru;;*);
+ 		[Description (Dan Brown)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/dan_brown_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ dan_brown <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэн Браун)](*<-lang_ru;;*);
+ 		[Pic. (Dan Brown)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/dan_brown.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ dan_brown => nrel_main_idtf : [Дэн Браун](*<-lang_ru;;*);;
+ dan_brown => nrel_main_idtf : [Dan Brown](*<-lang_en;;*);;
+ 
+ 
+ dan_brown => nrel_birth_date : 1964;;
+ 
+ concept_goverment -> Usa;;
+ dan_brown => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ dan_brown => nrel_to_star_in : angels__demons;;
+angels__demons => nrel_main_idtf : [Angels & Demons](*<-lang_en;;*);;
+angels__demons => nrel_main_idtf : [Ангелы и демоны](*<-lang_ru;;*);;
+dan_brown => nrel_to_star_in : the_da_vinci_code;;
+the_da_vinci_code => nrel_main_idtf : [The Da Vinci Code](*<-lang_en;;*);;
+the_da_vinci_code => nrel_main_idtf : [Код Да Винчи](*<-lang_ru;;*);;
+

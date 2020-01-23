@@ -1,0 +1,51 @@
+concept_human -> tessa_thompson;;
+ 
+ tessa_thompson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Тесса Томпсон)](*<-lang_ru;;*);
+ 		[Description (Tessa Thompson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tessa_thompson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tessa_thompson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Тесса Томпсон)](*<-lang_ru;;*);
+ 		[Pic. (Tessa Thompson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tessa_thompson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tessa_thompson => nrel_main_idtf : [Тесса Томпсон](*<-lang_ru;;*);;
+ tessa_thompson => nrel_main_idtf : [Tessa Thompson](*<-lang_en;;*);;
+ 
+ 
+ tessa_thompson => nrel_birth_date : 1983;;
+ 
+ concept_goverment -> Usa;;
+ tessa_thompson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ tessa_thompson => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+tessa_thompson => nrel_to_star_in : annihilation;;
+annihilation => nrel_main_idtf : [Annihilation](*<-lang_en;;*);;
+annihilation => nrel_main_idtf : [Аннигиляция](*<-lang_ru;;*);;
+tessa_thompson => nrel_to_star_in : thor_ragnarok;;
+thor_ragnarok => nrel_main_idtf : [Thor: Ragnarok](*<-lang_en;;*);;
+thor_ragnarok => nrel_main_idtf : [Тор: Рагнарёк](*<-lang_ru;;*);;
+

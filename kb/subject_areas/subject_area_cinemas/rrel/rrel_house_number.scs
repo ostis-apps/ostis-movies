@@ -1,0 +1,5 @@
+rrel_house_number
+<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[номер дома'](*<-lang_ru;;*);
+	[house number'](*<-lang_en;;*);;

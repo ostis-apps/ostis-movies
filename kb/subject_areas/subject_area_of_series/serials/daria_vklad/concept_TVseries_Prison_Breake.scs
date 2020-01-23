@@ -1,0 +1,67 @@
+concept_series -> Prison_Break;;
+
+Prison_Break
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Побег]
+	(* <- lang_ru;;	*);
+	[Prison Break]
+	(* <- lang_en;;	*);;
+	
+Prison_Break <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Побег)](*<-lang_ru;;*);
+		[Description (Prison Break)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Prison_Break_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Prison_Break_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Prison_Break <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Побег)](*<-lang_ru;;*);
+		[Pic. (Prison Break)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Prison_Break.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+
+Prison_Break => nrel_production_country : Usa;;
+
+
+Prison_Break => nrel_world_premiere: ...(* -> rrel_number_of_year: 2005;;*);;
+	
+value -> 6;;
+Prison_Break => nrel_num_of_seasons: 6;;
+value -> 90;;
+Prison_Break => nrel_num_of_episodes: 90;;
+
+value -> 30;;
+Prison_Break => nrel_no_countries : 30;;
+
+value -> 36;;
+Prison_Break => nrel_viewers_in_millions: 36;;
+
+Prison_Break => nrel_age_rating: concept_PG12;;
+
+
+Prison_Break  => nrel_actor : Wentworth_Miller;;
+Prison_Break  => nrel_actor : Dominic_Purcell;;
+Prison_Break => nrel_producer: Bobby_Roth;;
+
+Prison_Break
+=>nrel_keywords: concept_prison;
+=>nrel_keywords: concept_tattoo;
+=>nrel_keywords: concept_pobeg;;

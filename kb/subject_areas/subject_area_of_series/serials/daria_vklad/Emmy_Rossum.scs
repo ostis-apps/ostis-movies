@@ -1,0 +1,51 @@
+concept_human ->Emmy_Rossum;;
+
+Emmy_Rossum
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эмми Россум]
+	(* <- lang_ru;;	*);
+	[Emmy Rossum]
+	(* <- lang_en;;	*);;
+	
+Emmy_Rossum <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эмми Россум)](*<-lang_ru;;*);
+		[Description (Emmy Rossum)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Emmy_Rossum_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Emmy_Rossum_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Emmy_Rossum <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эмми Россум)](*<-lang_ru;;*);
+		[Pic. (Emmy Rossum)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Emmy_Rossum.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1986;;
+Emmy_Rossum=>nrel_date_of_birth: 1986;;
+1986=>nrel_main_idtf:[1986 год](*<-lang_ru;;*);;
+1986=>nrel_main_idtf:[year of 1986](*<-lang_en;;*);;
+
+concept_calendar_date->1993;;
+Emmy_Rossum=>nrel_career_start_date: 1993;;
+1993=>nrel_main_idtf:[1993 год](*<-lang_ru;;*);;
+1993=>nrel_main_idtf:[year of 1993](*<-lang_en;;*);;
+
+Emmy_Rossum =>nrel_cityzenship:Usa;;
+

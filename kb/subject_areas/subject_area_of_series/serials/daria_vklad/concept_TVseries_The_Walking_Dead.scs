@@ -1,0 +1,70 @@
+concept_series -> The_Walking_Dead;;
+
+The_Walking_Dead
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ходячие мертвецы]
+	(* <- lang_ru;;	*);
+	[The Walking Dead]
+	(* <- lang_en;;	*);;
+	
+The_Walking_Dead <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ходячие мертвецы)](*<-lang_ru;;*);
+		[Description (The Walking Dead)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/The_Walking_Dead_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The_Walking_Dead_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+The_Walking_Dead <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ходячие мертвецы)](*<-lang_ru;;*);
+		[Pic. (The Walking Dead)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/The_Walking_Dead.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+The_Walking_Dead => nrel_production_country : Usa;;
+
+
+The_Walking_Dead => nrel_world_premiere: ...(* -> rrel_number_of_year: 2010;;*);;
+	
+value -> 9;;
+The_Walking_Dead => nrel_num_of_seasons: 9;;
+value -> 131;;
+The_Walking_Dead => nrel_num_of_episodes: 131;;
+
+value -> 30;;
+The_Walking_Dead => nrel_no_countries : 30;;
+
+value -> 79;;
+The_Walking_Dead => nrel_viewers_in_millions: 79;;
+
+The_Walking_Dead => nrel_age_rating: concept_PG12;;
+	
+
+
+The_Walking_Dead  => nrel_actor : Andrew_Lincoln;;
+The_Walking_Dead  => nrel_actor : Norman_Reedus;;
+
+The_Walking_Dead
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_zombie;
+=>nrel_keywords: concept_apokalipsys;
+=>nrel_keywords: concept_murder;;
+
+

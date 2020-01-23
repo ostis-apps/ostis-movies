@@ -1,0 +1,103 @@
+
+                  concept_series -> Modern_Family;;
+              
+                  Modern_Family
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Современная семья]
+                    (* <- lang_ru;;	*);
+                    [Modern_Family]
+                    (* <- lang_en;;	*);;
+                  
+                  Modern_Family <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Современная семья)](*<-lang_ru;;*);
+                      [Description (Modern_Family)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Modern_Family_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Modern_Family_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Modern_Family <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Современная семья)](*<-lang_ru;;*);
+                      [Pic. (Modern_Family)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Modern_Family.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Modern_Family => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2009;;
+                  2009 => nrel_main_idtf : [2009 год](*<-lang_ru;;*);;
+                  2009 => nrel_main_idtf : [year of 2009](*<-lang_en;;*);;
+                  Modern_Family => nrel_production_year : 2009;;
+                  
+                  value -> 11;;
+                  Modern_Family => nrel_num_of_seasons: 11;;
+                  value -> 241;;
+                  Modern_Family => nrel_num_of_episodes: 241;;
+                  
+                  value -> 10;;
+                  Modern_Family => nrel_no_countries : 10;;
+                  
+                  value -> 10;;
+                  Modern_Family => nrel_viewers_in_millions: 10;;
+                  
+                  Modern_Family => nrel_age_rating: concept_PG12;;
+                  
+                    Modern_Family => nrel_actor : EdONeill;;
+                    
+                   
+                    Modern_Family => nrel_actor : SofaVergara;;
+                    
+                   
+                    Modern_Family => nrel_actor : JulieBowen;;
+                    
+                   
+                    Modern_Family => nrel_actor : TyBurrell;;
+                    
+                   
+                    Modern_Family => nrel_actor : EricStonestreet;;
+                    
+                   
+                    Modern_Family => nrel_actor : JesseTylerFerguson;;
+                    
+                   
+                    Modern_Family => nrel_actor : NolanGould;;
+                    
+                   
+                    Modern_Family => nrel_actor : RicoRodriguez;;
+                    
+                   
+                    Modern_Family => nrel_actor : SarahHyland;;
+                    
+                   
+                    Modern_Family => nrel_actor : ArielWinter;;
+                    
+                   
+                    Modern_Family => nrel_actor : AubreyAndersonEmmons;;
+                    
+                   
+                    Modern_Family => nrel_actor : JeremyMaguire;;
+                    
+                   
+                    Modern_Family => nrel_actor : ReidEwing;;
+                    
+                  
+                  
+                  Modern_Family
+                  =>nrel_keywords: concept_detectif;;
+                  

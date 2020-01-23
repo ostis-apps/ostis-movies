@@ -1,0 +1,91 @@
+concept_Snow_White_and_the_Seven_Dwarfs
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Белоснежка и семь гномов]
+	(* <- lang_ru;;	*);
+	[Snow White and the Seven Dwarfs]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Белоснежка и семь гномов)](*<-lang_ru;;*);
+		[Description (Snow White and the Seven Dwarfs)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Snow_White_and_the_Seven_Dwarfs_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Snow_White_and_the_Seven_Dwarfs_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: David_Hand;
+=>nrel_producer: Walt_Disney;
+=>nrel_production_country: USA;
+=>nrel_production_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1937
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 83
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 184925486
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	<-character_Snow_White;;
+	<-character_Evil_Queen;;
+	<-character_Snarling;;
+	<-character_Jolly;;
+	<-character_Modest;;
+	<-character_Chihun;;
+	<-character_simpleton;;
+	<-character_prince;;
+	<-character_magic_mirror;;
+	*);
+=>nrel_age_rating: concept_PG0;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Белоснежка и семь гномов)](*<-lang_ru;;*);
+		[Pic. (Snow White and the Seven Dwarfs)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Snow_White_and_the_Seven_Dwarfs.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+David_Hand
+=>nrel_main_idtf:
+		[Дэвид Хэнд](*<-lang_ru;;*);
+		[David Hand](*<-lang_en;;*);;

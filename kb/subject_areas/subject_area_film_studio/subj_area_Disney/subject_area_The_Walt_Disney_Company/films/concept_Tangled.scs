@@ -1,0 +1,92 @@
+concept_Tangled
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Рапунцель]
+	(* <- lang_ru;;	*);
+	[Tangled]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Рапунцель)](*<-lang_ru;;*);
+		[Description (Tangled)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Tangled_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Tangled_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Nathan_Greno;
+=>nrel_producer: Roy_Conley;
+=>nrel_production_country: USA;
+=>nrel_production_year:   ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2010
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 100
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 591794936
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	<-character_Tangled;;
+	<-character_Flynn_Rider;; 
+	<-character_Eugene_Fitzerbert;;
+	<-character_Matushka_Gotel;;
+	<-character_Pascal;;
+	<-character_Grubbingston_Brothers;;
+	*);
+=>nrel_age_rating: concept_PG6;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Рапунцель)](*<-lang_ru;;*);
+		[Pic. (Tangled)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Tangled.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+Nathan_Greno
+=>nrel_main_idtf:
+		[Натан Грино)](*<-lang_ru;;*);
+		[Nathan Greno](*<-lang_en;;*);;
+Roy_Conley
+=>nrel_main_idtf:
+		[Рой Конли)](*<-lang_ru;;*);
+		[Roy Conley](*<-lang_en;;*);;
+

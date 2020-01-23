@@ -1,0 +1,136 @@
+
+                  concept_series -> Gotham;;
+              
+                  Gotham
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Gotham]
+                    (* <- lang_ru;;	*);
+                    [Gotham]
+                    (* <- lang_en;;	*);;
+                  
+                  Gotham <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Gotham)](*<-lang_ru;;*);
+                      [Description (Gotham)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Gotham_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Gotham_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Gotham <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Gotham)](*<-lang_ru;;*);
+                      [Pic. (Gotham)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Gotham.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Gotham => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Gotham => nrel_production_year : 2014;;
+                  
+                  value -> 5;;
+                  Gotham => nrel_num_of_seasons: 5;;
+                  value -> 100;;
+                  Gotham => nrel_num_of_episodes: 100;;
+                  
+                  value -> 3;;
+                  Gotham => nrel_no_countries : 3;;
+                  
+                  value -> 7;;
+                  Gotham => nrel_viewers_in_millions: 7;;
+                  
+                  Gotham => nrel_age_rating: concept_PG12;;
+                  
+                    Gotham => nrel_actor : BenjaminMcKenzie;;
+                    
+                   
+                    Gotham => nrel_actor : DonalLogue;;
+                    
+                   
+                    Gotham => nrel_actor : DavidMazouz;;
+                    
+                   
+                    Gotham => nrel_actor : RobinLordTaylor;;
+                    
+                   
+                    Gotham => nrel_actor : CoryMichaelSmith;;
+                    
+                   
+                    Gotham => nrel_actor : SeanPertwee;;
+                    
+                   
+                    Gotham => nrel_actor : ErinRichards;;
+                    
+                   
+                    Gotham => nrel_actor : CamrenReneeBicondova;;
+                    
+                   
+                    Gotham => nrel_actor : MorenaBaccarin;;
+                    
+                   
+                    Gotham => nrel_actor : DrewPowell;;
+                    
+                   
+                    Gotham => nrel_actor : JessicaLucas;;
+                    
+                   
+                    Gotham => nrel_actor : ChrisChalk;;
+                    
+                   
+                    Gotham => nrel_actor : JohnDoman;;
+                    
+                   
+                    Gotham => nrel_actor : MaggieGeha;;
+                    
+                   
+                    Gotham => nrel_actor : JadaPinkettSmith;;
+                    
+                   
+                    Gotham => nrel_actor : MichaelChiklis;;
+                    
+                   
+                    Gotham => nrel_actor : ZabrynaGuevara;;
+                    
+                   
+                    Gotham => nrel_actor : AndrewStewartJones;;
+                    
+                   
+                    Gotham => nrel_actor : JamesFrain;;
+                    
+                   
+                    Gotham => nrel_actor : BenedictSamuel;;
+                    
+                   
+                    Gotham => nrel_actor : VictoriaCartagena;;
+                    
+                   
+                    Gotham => nrel_actor : CrystalReed;;
+                    
+                   
+                    Gotham => nrel_actor : AlexanderSiddig;;
+                    
+                   
+                    Gotham => nrel_actor : NickDAgosto;;
+                    
+                  
+                  
+                  Gotham
+                  =>nrel_keywords: concept_detectif;;
+                  

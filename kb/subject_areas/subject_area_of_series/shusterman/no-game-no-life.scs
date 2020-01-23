@@ -1,0 +1,100 @@
+
+                  concept_series -> No_Game_No_Life;;
+              
+                  No_Game_No_Life
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Нет игры Нет жизни]
+                    (* <- lang_ru;;	*);
+                    [No_Game_No_Life]
+                    (* <- lang_en;;	*);;
+                  
+                  No_Game_No_Life <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Нет игры Нет жизни)](*<-lang_ru;;*);
+                      [Description (No_Game_No_Life)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/No_Game_No_Life_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/No_Game_No_Life_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  No_Game_No_Life <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Нет игры Нет жизни)](*<-lang_ru;;*);
+                      [Pic. (No_Game_No_Life)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/No_Game_No_Life.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  No_Game_No_Life => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  No_Game_No_Life => nrel_production_year : 2014;;
+                  
+                  value -> 1;;
+                  No_Game_No_Life => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  No_Game_No_Life => nrel_num_of_episodes: 12;;
+                  
+                  value -> 6;;
+                  No_Game_No_Life => nrel_no_countries : 6;;
+                  
+                  value -> 7;;
+                  No_Game_No_Life => nrel_viewers_in_millions: 7;;
+                  
+                  No_Game_No_Life => nrel_age_rating: concept_PG12;;
+                  
+                    No_Game_No_Life => nrel_actor : MiyukiSawashiro;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : YoshitsuguMatsuoka;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : RieKugimiya;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : AiKayano;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : RisaTaneda;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : YukaIguchi;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : YkoHikasa;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : NaomiShindoh;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : JunFukushima;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : YukariTamura;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : Mugihito;;
+                    
+                   
+                    No_Game_No_Life => nrel_actor : MamikoNoto;;
+                    
+                  
+                  
+                  No_Game_No_Life
+                  =>nrel_keywords: concept_detectif;;
+                  

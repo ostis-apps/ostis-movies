@@ -1,0 +1,30 @@
+concept_film_Gladiator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гладиатор]
+	(* <- lang_ru;;	*);
+	[Gladiator]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Гладиатор)](*<-lang_ru;;*);
+		[Description (Gladiator)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Гладиатор.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Gladiator.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_escape;
+=>nrel_keywords:concept_slavery;	
+=>nrel_age_rating: concept_PG16;;	

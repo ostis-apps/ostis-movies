@@ -1,0 +1,30 @@
+concept_film_distributor <- sc_node_not_relation;
+
+=> nrel_main_idtf:[кинопрокатчик] (* <- lang_ru;; *);
+=> nrel_idtf:[film distributor] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (кинопрокатчик)] (* <- lang_ru;; *);
+							   [Def. (film distributor)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_cinema;
+				concept_film
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_film_distributor_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_film_distributor_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<- rrel_key_sc_element:
+	...(*
+		<- sc_statement;;
+		=> nrel_idtf: [Утв.(кинотеатр)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...(*
+			-> rrel_example: [Кинопрокатчик борется с тенденцией индивидуального просмотра, совершенствуя кинотеатры и улучшая технологию. ](*<- lang_ru;;*);;
+			*);;
+*);;

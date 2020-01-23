@@ -1,0 +1,64 @@
+
+                  concept_series -> Celebrity_Legacies;;
+              
+                  Celebrity_Legacies
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Знаменитости Legacies]
+                    (* <- lang_ru;;	*);
+                    [Celebrity_Legacies]
+                    (* <- lang_en;;	*);;
+                  
+                  Celebrity_Legacies <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Знаменитости Legacies)](*<-lang_ru;;*);
+                      [Description (Celebrity_Legacies)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Celebrity_Legacies_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Celebrity_Legacies_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Celebrity_Legacies <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Знаменитости Legacies)](*<-lang_ru;;*);
+                      [Pic. (Celebrity_Legacies)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Celebrity_Legacies.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Celebrity_Legacies => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Celebrity_Legacies => nrel_production_year : 2014;;
+                  
+                  value -> 1;;
+                  Celebrity_Legacies => nrel_num_of_seasons: 1;;
+                  value -> 26;;
+                  Celebrity_Legacies => nrel_num_of_episodes: 26;;
+                  
+                  value -> 4;;
+                  Celebrity_Legacies => nrel_no_countries : 4;;
+                  
+                  value -> 8;;
+                  Celebrity_Legacies => nrel_viewers_in_millions: 8;;
+                  
+                  Celebrity_Legacies => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Celebrity_Legacies
+                  =>nrel_keywords: concept_detectif;;
+                  

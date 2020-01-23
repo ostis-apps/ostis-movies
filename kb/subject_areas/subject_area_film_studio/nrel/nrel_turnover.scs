@@ -1,0 +1,33 @@
+nrel_turnover <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [turnover*](*<- lang_en;;*);
+    [оборот*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (оборот*)](*<- lang_ru;;*);
+        [Def. (turnover*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_turnover_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_turnover_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_company
+    };;
+*);
+
+=> nrel_first_domain: concept_company;
+=> nrel_second_domain: ...;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_company;;
+    *);;
+*);;

@@ -1,0 +1,67 @@
+film_15_minut_shokirovavshie_mir
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[15 минут, шокировавшие мир]
+(* <- lang_ru;;    *);
+[15 Minutes That Shook the World]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (15 минут, шокировавшие мир)](*<-lang_ru;;*);
+[Description (15 Minutes That Shook the World)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/15-minut-shokirovavshie-mir_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/15-minut-shokirovavshie-mir_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (15 минут, шокировавшие мир)](*<-lang_ru;;*);
+		[Pic. (15 Minutes That Shook the World)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/15-minut-shokirovavshie-mir.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [15 Minutes That Shook the World](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [14.03.2010](*<-lang_ru;;*);;
+    => nrel_main_idtf : [14.03.2010](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT43M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT43M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_15_minut_shokirovavshie_mir =>nrel_keywords: film;;
+
+film_15_minut_shokirovavshie_mir <- concept_short;concept_comedy;concept_history;concept_sport;;
+
+film_15_minut_shokirovavshie_mir => nrel_main_actor : andrew_schofield;neil_fitzmaurice;jamie_carragher;steven_gerrard;;
+film_15_minut_shokirovavshie_mir => nrel_producer : illy;;

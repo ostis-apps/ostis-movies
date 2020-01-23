@@ -1,0 +1,34 @@
+concept_animation_series
+<-sc_node_not_relation;
+<=nrel_inclusion: concept_series;
+=>nrel_main_idtf:
+	[анимационный сериал](*<-lang_ru;;*);
+	[animation series](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (анимационный сериал)](*<-lang_ru;;*);
+		[Def. (animation series)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_series;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_animation_series_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_animation_series_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (анимационный сериал)](*<-lang_ru;;*);
+		[Pic. (animation series)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/rick_and_morty.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

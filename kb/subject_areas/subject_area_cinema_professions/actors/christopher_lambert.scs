@@ -1,0 +1,45 @@
+concept_human -> christopher_lambert;;
+ 
+ christopher_lambert <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристофер Ламберт)](*<-lang_ru;;*);
+ 		[Description (Christopher Lambert)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/christopher_lambert_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ christopher_lambert <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристофер Ламберт)](*<-lang_ru;;*);
+ 		[Pic. (Christopher Lambert)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/christopher_lambert.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ christopher_lambert => nrel_main_idtf : [Кристофер Ламберт](*<-lang_ru;;*);;
+ christopher_lambert => nrel_main_idtf : [Christopher Lambert](*<-lang_en;;*);;
+ 
+ 
+ christopher_lambert => nrel_birth_date : 1957;;
+ 
+ concept_goverment -> Usa;;
+ christopher_lambert => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ christopher_lambert => nrel_to_star_in : sobibor;;
+sobibor => nrel_main_idtf : [Sobibor](*<-lang_en;;*);;
+sobibor => nrel_main_idtf : [Собибор](*<-lang_ru;;*);;
+

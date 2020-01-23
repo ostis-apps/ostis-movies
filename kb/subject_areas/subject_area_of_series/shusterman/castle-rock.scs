@@ -1,0 +1,100 @@
+
+                  concept_series -> Castle_Rock;;
+              
+                  Castle_Rock
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Castle_Rock]
+                    (* <- lang_ru;;	*);
+                    [Castle_Rock]
+                    (* <- lang_en;;	*);;
+                  
+                  Castle_Rock <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Castle_Rock)](*<-lang_ru;;*);
+                      [Description (Castle_Rock)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Castle_Rock_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Castle_Rock_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Castle_Rock <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Castle_Rock)](*<-lang_ru;;*);
+                      [Pic. (Castle_Rock)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Castle_Rock.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Castle_Rock => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Castle_Rock => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  Castle_Rock => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  Castle_Rock => nrel_num_of_episodes: 20;;
+                  
+                  value -> 14;;
+                  Castle_Rock => nrel_no_countries : 14;;
+                  
+                  value -> 7;;
+                  Castle_Rock => nrel_viewers_in_millions: 7;;
+                  
+                  Castle_Rock => nrel_age_rating: concept_PG12;;
+                  
+                    Castle_Rock => nrel_actor : BillSkarsgrd;;
+                    
+                   
+                    Castle_Rock => nrel_actor : MelanieLynskey;;
+                    
+                   
+                    Castle_Rock => nrel_actor : AndreHolland;;
+                    
+                   
+                    Castle_Rock => nrel_actor : SissySpacek;;
+                    
+                   
+                    Castle_Rock => nrel_actor : LizzyCaplan;;
+                    
+                   
+                    Castle_Rock => nrel_actor : PaulSparks;;
+                    
+                   
+                    Castle_Rock => nrel_actor : ElsieFisher;;
+                    
+                   
+                    Castle_Rock => nrel_actor : YusraWarsama;;
+                    
+                   
+                    Castle_Rock => nrel_actor : MatthewAlan;;
+                    
+                   
+                    Castle_Rock => nrel_actor : BarkhadAbdi;;
+                    
+                   
+                    Castle_Rock => nrel_actor : JaneLevy;;
+                    
+                   
+                    Castle_Rock => nrel_actor : TimRobbins;;
+                    
+                  
+                  
+                  Castle_Rock
+                  =>nrel_keywords: concept_detectif;;
+                  

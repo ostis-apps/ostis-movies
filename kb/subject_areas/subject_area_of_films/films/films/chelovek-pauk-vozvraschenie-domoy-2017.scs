@@ -1,0 +1,67 @@
+film_chelovek_pauk_vozvraschenie_domoy_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Человек-паук: Возвращение домой]
+(* <- lang_ru;;    *);
+[Spider-Man: Homecoming]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Человек-паук: Возвращение домой)](*<-lang_ru;;*);
+[Description (Spider-Man: Homecoming)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chelovek-pauk-vozvraschenie-domoy-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chelovek-pauk-vozvraschenie-domoy-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Человек-паук: Возвращение домой)](*<-lang_ru;;*);
+		[Pic. (Spider-Man: Homecoming)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chelovek-pauk-vozvraschenie-domoy-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Homework can wait. The city can't.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [05.07.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [05.07.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H13M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H13M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_chelovek_pauk_vozvraschenie_domoy_2017 =>nrel_keywords: film;;
+
+film_chelovek_pauk_vozvraschenie_domoy_2017 <- concept_action;concept_adventure;concept_sci_fi;;
+
+film_chelovek_pauk_vozvraschenie_domoy_2017 => nrel_main_actor : tom_holland;michael_keaton;robert_downey_jr.;marisa_tomei;;
+film_chelovek_pauk_vozvraschenie_domoy_2017 => nrel_producer : jon_watts;;

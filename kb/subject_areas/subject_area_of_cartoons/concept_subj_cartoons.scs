@@ -1,0 +1,36 @@
+concept_subj_cartoons
+<- sc_node_struct;
+
+=> nrel_main_idtf:
+	[Предметная область мультфильмов]
+	(* <- lang_ru;; *);
+	[Subject domain of cartoons]
+    	(* <- lang_en;; *);
+->rrel_maximum_studied_object_class:concept_cartoon;
+
+
+->rrel_explored_relation:nrel_creation;
+
+->rrel_not_maximum_studied_object_class: concept_multianimation;
+->rrel_not_maximum_studied_object_class: concept_traditional_animation;
+->rrel_not_maximum_studied_object_class: concept_stop_motion;
+->rrel_not_maximum_studied_object_class: concept_computer_graphics;
+->rrel_not_maximum_studied_object_class: concept_claymation;   
+      
+      
+->rrel_not_maximum_studied_object_class: concept_anime;
+->rrel_not_maximum_studied_object_class: concept_cartoon_with_martial_arts;
+->rrel_not_maximum_studied_object_class: concept_fairy_tale_cartoon;
+->rrel_not_maximum_studied_object_class: concept_greek_roman_mythology_cartoon;
+      
+      
+->rrel_not_maximum_studied_object_class: concept_evolving_cartoon;
+->rrel_not_maximum_studied_object_class: concept_modern_cartoon;
+->rrel_not_maximum_studied_object_class:  concept_soviet_cartoon;
+->rrel_not_maximum_studied_object_class:  concept_cartoon_for_adult;
+->rrel_not_maximum_studied_object_class:  concept_cartoon_about_russian_warriors;
+
+<-sc_node_not_relation;	
+<-sc_const;;
+
+

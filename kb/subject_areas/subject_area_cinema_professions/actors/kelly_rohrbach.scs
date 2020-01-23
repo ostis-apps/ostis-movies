@@ -1,0 +1,45 @@
+concept_human -> kelly_rohrbach;;
+ 
+ kelly_rohrbach <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Келли Рорбах)](*<-lang_ru;;*);
+ 		[Description (Kelly Rohrbach)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kelly_rohrbach_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kelly_rohrbach <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Келли Рорбах)](*<-lang_ru;;*);
+ 		[Pic. (Kelly Rohrbach)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kelly_rohrbach.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kelly_rohrbach => nrel_main_idtf : [Келли Рорбах](*<-lang_ru;;*);;
+ kelly_rohrbach => nrel_main_idtf : [Kelly Rohrbach](*<-lang_en;;*);;
+ 
+ 
+ kelly_rohrbach => nrel_birth_date : 1990;;
+ 
+ concept_goverment -> Usa;;
+ kelly_rohrbach => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kelly_rohrbach => nrel_to_star_in : baywatch;;
+baywatch => nrel_main_idtf : [Baywatch](*<-lang_en;;*);;
+baywatch => nrel_main_idtf : [Спасатели Малибу](*<-lang_ru;;*);;
+

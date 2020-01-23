@@ -1,0 +1,48 @@
+concept_human -> jeremy_irons;;
+ 
+ jeremy_irons <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джереми Айронс)](*<-lang_ru;;*);
+ 		[Description (Jeremy Irons)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jeremy_irons_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jeremy_irons <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джереми Айронс)](*<-lang_ru;;*);
+ 		[Pic. (Jeremy Irons)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jeremy_irons.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jeremy_irons => nrel_main_idtf : [Джереми Айронс](*<-lang_ru;;*);;
+ jeremy_irons => nrel_main_idtf : [Jeremy Irons](*<-lang_en;;*);;
+ 
+ 
+ jeremy_irons => nrel_birth_date : 1948;;
+ 
+ concept_goverment -> UK;;
+ jeremy_irons => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ jeremy_irons => nrel_to_star_in : red_sparrow;;
+red_sparrow => nrel_main_idtf : [Red Sparrow](*<-lang_en;;*);;
+red_sparrow => nrel_main_idtf : [Красный воробей](*<-lang_ru;;*);;
+jeremy_irons => nrel_to_star_in : the_man_in_the_iron_mask;;
+the_man_in_the_iron_mask => nrel_main_idtf : [The Man in the Iron Mask](*<-lang_en;;*);;
+the_man_in_the_iron_mask => nrel_main_idtf : [Человек в железной маске](*<-lang_ru;;*);;
+

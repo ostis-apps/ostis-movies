@@ -1,0 +1,109 @@
+
+                  concept_series -> The_Last_Ship;;
+              
+                  The_Last_Ship
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Последний корабль]
+                    (* <- lang_ru;;	*);
+                    [The_Last_Ship]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Last_Ship <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Последний корабль)](*<-lang_ru;;*);
+                      [Description (The_Last_Ship)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Last_Ship_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Last_Ship_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Last_Ship <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Последний корабль)](*<-lang_ru;;*);
+                      [Pic. (The_Last_Ship)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Last_Ship.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Last_Ship => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  The_Last_Ship => nrel_production_year : 2014;;
+                  
+                  value -> 5;;
+                  The_Last_Ship => nrel_num_of_seasons: 5;;
+                  value -> 56;;
+                  The_Last_Ship => nrel_num_of_episodes: 56;;
+                  
+                  value -> 3;;
+                  The_Last_Ship => nrel_no_countries : 3;;
+                  
+                  value -> 4;;
+                  The_Last_Ship => nrel_viewers_in_millions: 4;;
+                  
+                  The_Last_Ship => nrel_age_rating: concept_PG12;;
+                  
+                    The_Last_Ship => nrel_actor : AdamBaldwin;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : CharlesParnell;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : TravisVanWinkle;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : MarissaNeitling;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : EricDane;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : JockoSims;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : ChristinaElmore;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : KevinMichaelMartin;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : BrenFoster;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : BridgetRegan;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : JohnPyperFerguson;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : RhonaMitra;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : EmersonBrooks;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : JodieSmith;;
+                    
+                   
+                    The_Last_Ship => nrel_actor : SamSpruell;;
+                    
+                  
+                  
+                  The_Last_Ship
+                  =>nrel_keywords: concept_detectif;;
+                  

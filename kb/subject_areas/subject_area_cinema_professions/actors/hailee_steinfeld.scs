@@ -1,0 +1,45 @@
+concept_human -> hailee_steinfeld;;
+ 
+ hailee_steinfeld <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Хейли Стайнфелд)](*<-lang_ru;;*);
+ 		[Description (Hailee Steinfeld)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/hailee_steinfeld_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ hailee_steinfeld <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Хейли Стайнфелд)](*<-lang_ru;;*);
+ 		[Pic. (Hailee Steinfeld)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/hailee_steinfeld.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ hailee_steinfeld => nrel_main_idtf : [Хейли Стайнфелд](*<-lang_ru;;*);;
+ hailee_steinfeld => nrel_main_idtf : [Hailee Steinfeld](*<-lang_en;;*);;
+ 
+ 
+ hailee_steinfeld => nrel_birth_date : 1997;;
+ 
+ concept_goverment -> Usa;;
+ hailee_steinfeld => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ hailee_steinfeld => nrel_to_star_in : bumblebee;;
+bumblebee => nrel_main_idtf : [Bumblebee](*<-lang_en;;*);;
+bumblebee => nrel_main_idtf : [Бамблби](*<-lang_ru;;*);;
+

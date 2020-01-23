@@ -1,0 +1,97 @@
+
+                  concept_series -> The_Exorcist;;
+              
+                  The_Exorcist
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Экзорцист]
+                    (* <- lang_ru;;	*);
+                    [The_Exorcist]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Exorcist <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Экзорцист)](*<-lang_ru;;*);
+                      [Description (The_Exorcist)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Exorcist_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Exorcist_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Exorcist <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Экзорцист)](*<-lang_ru;;*);
+                      [Pic. (The_Exorcist)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Exorcist.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Exorcist => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  The_Exorcist => nrel_production_year : 2016;;
+                  
+                  value -> 2;;
+                  The_Exorcist => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  The_Exorcist => nrel_num_of_episodes: 20;;
+                  
+                  value -> 14;;
+                  The_Exorcist => nrel_no_countries : 14;;
+                  
+                  value -> 10;;
+                  The_Exorcist => nrel_viewers_in_millions: 10;;
+                  
+                  The_Exorcist => nrel_age_rating: concept_PG12;;
+                  
+                    The_Exorcist => nrel_actor : AlfonsoHerrera;;
+                    
+                   
+                    The_Exorcist => nrel_actor : BenDaniels;;
+                    
+                   
+                    The_Exorcist => nrel_actor : KurtEgyiawan;;
+                    
+                   
+                    The_Exorcist => nrel_actor : HannahKasulka;;
+                    
+                   
+                    The_Exorcist => nrel_actor : BriannaHildebrand;;
+                    
+                   
+                    The_Exorcist => nrel_actor : BrianneHowey;;
+                    
+                   
+                    The_Exorcist => nrel_actor : AlanRuck;;
+                    
+                   
+                    The_Exorcist => nrel_actor : JohnCho;;
+                    
+                   
+                    The_Exorcist => nrel_actor : LiJunLi;;
+                    
+                   
+                    The_Exorcist => nrel_actor : ZuleikhaRobinson;;
+                    
+                   
+                    The_Exorcist => nrel_actor : GeenaDavis;;
+                    
+                  
+                  
+                  The_Exorcist
+                  =>nrel_keywords: concept_detectif;;
+                  

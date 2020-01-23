@@ -1,0 +1,115 @@
+
+                  concept_series -> The_Strain;;
+              
+                  The_Strain
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Strain]
+                    (* <- lang_ru;;	*);
+                    [The_Strain]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Strain <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Strain)](*<-lang_ru;;*);
+                      [Description (The_Strain)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Strain_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Strain_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Strain <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Strain)](*<-lang_ru;;*);
+                      [Pic. (The_Strain)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Strain.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Strain => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  The_Strain => nrel_production_year : 2014;;
+                  
+                  value -> 4;;
+                  The_Strain => nrel_num_of_seasons: 4;;
+                  value -> 46;;
+                  The_Strain => nrel_num_of_episodes: 46;;
+                  
+                  value -> 14;;
+                  The_Strain => nrel_no_countries : 14;;
+                  
+                  value -> 8;;
+                  The_Strain => nrel_viewers_in_millions: 8;;
+                  
+                  The_Strain => nrel_age_rating: concept_PG12;;
+                  
+                    The_Strain => nrel_actor : CoreyStoll;;
+                    
+                   
+                    The_Strain => nrel_actor : DavidBradley;;
+                    
+                   
+                    The_Strain => nrel_actor : KevinDurand;;
+                    
+                   
+                    The_Strain => nrel_actor : RichardSammel;;
+                    
+                   
+                    The_Strain => nrel_actor : RutaGedmintas;;
+                    
+                   
+                    The_Strain => nrel_actor : JonathanHyde;;
+                    
+                   
+                    The_Strain => nrel_actor : MiguelGomez;;
+                    
+                   
+                    The_Strain => nrel_actor : RobinAtkinDownes;;
+                    
+                   
+                    The_Strain => nrel_actor : MiaMaestro;;
+                    
+                   
+                    The_Strain => nrel_actor : MaxCharles;;
+                    
+                   
+                    The_Strain => nrel_actor : BenHyland;;
+                    
+                   
+                    The_Strain => nrel_actor : RupertPenryJones;;
+                    
+                   
+                    The_Strain => nrel_actor : NatalieBrown;;
+                    
+                   
+                    The_Strain => nrel_actor : JackKesy;;
+                    
+                   
+                    The_Strain => nrel_actor : SamanthaMathis;;
+                    
+                   
+                    The_Strain => nrel_actor : JoaqunCoso;;
+                    
+                   
+                    The_Strain => nrel_actor : SeanAstin;;
+                    
+                  
+                  
+                  The_Strain
+                  =>nrel_keywords: concept_detectif;;
+                  

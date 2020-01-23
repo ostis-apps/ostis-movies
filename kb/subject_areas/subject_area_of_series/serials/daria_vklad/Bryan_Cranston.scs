@@ -1,0 +1,52 @@
+concept_human -> Bryan_Cranston;;
+
+Bryan_Cranston
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Брайан Крэнстон]
+	(* <- lang_ru;;	*);
+	[Bryan Lee Cranston]
+	(* <- lang_en;;	*);;
+	
+Bryan_Cranston <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Брайан Крэнстон)](*<-lang_ru;;*);
+		[Description (Bryan Lee Cranston)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Bryan_Cranston_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Bryan_Cranston_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Bryan_Cranston <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Брайан Крэнстон)](*<-lang_ru;;*);
+		[Pic. (Bryan Lee Cranston)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Bryan_Cranston.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1956;;
+Bryan_Cranston=>nrel_date_of_birth: 1956;;
+1956=>nrel_main_idtf:[1956 год](*<-lang_ru;;*);;
+1956=>nrel_main_idtf:[year of 1956](*<-lang_en;;*);;
+
+concept_calendar_date->1980;;
+Bryan_Cranston=>nrel_career_start_date: 1980;;
+1980=>nrel_main_idtf:[1980 год](*<-lang_ru;;*);;
+1980=>nrel_main_idtf:[year of 1980](*<-lang_en;;*);;
+
+Bryan_Cranston=>nrel_cityzenship:Usa;;
+
+

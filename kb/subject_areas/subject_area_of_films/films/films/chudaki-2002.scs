@@ -1,0 +1,67 @@
+film_chudaki_2002
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Чудаки / Придурки]
+(* <- lang_ru;;    *);
+[Jackass: The Movie]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Чудаки / Придурки)](*<-lang_ru;;*);
+[Description (Jackass: The Movie)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chudaki-2002_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chudaki-2002_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чудаки / Придурки)](*<-lang_ru;;*);
+		[Pic. (Jackass: The Movie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chudaki-2002.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The following stunts were performed by professionals, so neither you nor your dumb buddies should attempt anything from this movie. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [25.10.2002](*<-lang_ru;;*);;
+    => nrel_main_idtf : [25.10.2002](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H27M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H27M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_chudaki_2002 =>nrel_keywords: film;;
+
+film_chudaki_2002 <- concept_documentary;concept_action;concept_comedy;;
+
+film_chudaki_2002 => nrel_main_actor : johnny_knoxville;bam_margera;chris_pontius;steve_o;;
+film_chudaki_2002 => nrel_producer : jeff_tremaine;;

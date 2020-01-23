@@ -1,0 +1,166 @@
+
+                  concept_series -> Detective_Conan;;
+              
+                  Detective_Conan
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Детектив Конан]
+                    (* <- lang_ru;;	*);
+                    [Detective_Conan]
+                    (* <- lang_en;;	*);;
+                  
+                  Detective_Conan <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Детектив Конан)](*<-lang_ru;;*);
+                      [Description (Detective_Conan)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Detective_Conan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Detective_Conan_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Detective_Conan <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Детектив Конан)](*<-lang_ru;;*);
+                      [Pic. (Detective_Conan)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Detective_Conan.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Detective_Conan => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 1996;;
+                  1996 => nrel_main_idtf : [1996 год](*<-lang_ru;;*);;
+                  1996 => nrel_main_idtf : [year of 1996](*<-lang_en;;*);;
+                  Detective_Conan => nrel_production_year : 1996;;
+                  
+                  value -> 28;;
+                  Detective_Conan => nrel_num_of_seasons: 28;;
+                  value -> 967;;
+                  Detective_Conan => nrel_num_of_episodes: 967;;
+                  
+                  value -> 5;;
+                  Detective_Conan => nrel_no_countries : 5;;
+                  
+                  value -> 8;;
+                  Detective_Conan => nrel_viewers_in_millions: 8;;
+                  
+                  Detective_Conan => nrel_age_rating: concept_PG12;;
+                  
+                    Detective_Conan => nrel_actor : ShuuichiIkeda;;
+                    
+                   
+                    Detective_Conan => nrel_actor : HideyukiTanaka;;
+                    
+                   
+                    Detective_Conan => nrel_actor : UnshIshizuka;;
+                    
+                   
+                    Detective_Conan => nrel_actor : YukikoIwai;;
+                    
+                   
+                    Detective_Conan => nrel_actor : RyotaroOkiayu;;
+                    
+                   
+                    Detective_Conan => nrel_actor : RyoHorikawa;;
+                    
+                   
+                    Detective_Conan => nrel_actor : YukoMiyamura;;
+                    
+                   
+                    Detective_Conan => nrel_actor : YukitoshiHori;;
+                    
+                   
+                    Detective_Conan => nrel_actor : AiOrikasa;;
+                    
+                   
+                    Detective_Conan => nrel_actor : KotonoMitsuishi;;
+                    
+                   
+                    Detective_Conan => nrel_actor : Chafurin;;
+                    
+                   
+                    Detective_Conan => nrel_actor : MegumiHayashibara;;
+                    
+                   
+                    Detective_Conan => nrel_actor : MamiKoyama;;
+                    
+                   
+                    Detective_Conan => nrel_actor : NaokoMatsui;;
+                    
+                   
+                    Detective_Conan => nrel_actor : SumiShimamoto;;
+                    
+                   
+                    Detective_Conan => nrel_actor : WataruTakagi;;
+                    
+                   
+                    Detective_Conan => nrel_actor : KappeiYamaguchi;;
+                    
+                   
+                    Detective_Conan => nrel_actor : WakanaYamazaki;;
+                    
+                   
+                    Detective_Conan => nrel_actor : WataruTakagi;;
+                    
+                   
+                    Detective_Conan => nrel_actor : KappeiYamaguchi;;
+                    
+                   
+                    Detective_Conan => nrel_actor : MinamiTakayama;;
+                    
+                   
+                    Detective_Conan => nrel_actor : GaraTakashima;;
+                    
+                   
+                    Detective_Conan => nrel_actor : KazuhikoInoue;;
+                    
+                   
+                    Detective_Conan => nrel_actor : KikukoInoue;;
+                    
+                   
+                    Detective_Conan => nrel_actor : AkiraKamiya;;
+                    
+                   
+                    Detective_Conan => nrel_actor : RikiyaKoyama;;
+                    
+                   
+                    Detective_Conan => nrel_actor : KenichiOgata;;
+                    
+                   
+                    Detective_Conan => nrel_actor : AtsukoYuya;;
+                    
+                   
+                    Detective_Conan => nrel_actor : IkueOhtani;;
+                    
+                   
+                    Detective_Conan => nrel_actor : YuuSugimoto;;
+                    
+                   
+                    Detective_Conan => nrel_actor : HiroyukiKinoshita;;
+                    
+                   
+                    Detective_Conan => nrel_actor : JunkoNoda;;
+                    
+                   
+                    Detective_Conan => nrel_actor : FumihikoTachiki;;
+                    
+                   
+                    Detective_Conan => nrel_actor : MiyukiIchijou;;
+                    
+                  
+                  
+                  Detective_Conan
+                  =>nrel_keywords: concept_detectif;;
+                  

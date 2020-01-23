@@ -1,0 +1,7 @@
+concept_Part_of_Your_World_sound
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Часть твоего мира](*<-lang_ru;;*);
+	[Part of Your World](*<-lang_en;;*);
+<-concept_audio_recording;;
+	

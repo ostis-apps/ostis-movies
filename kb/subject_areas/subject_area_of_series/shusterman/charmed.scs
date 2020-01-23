@@ -1,0 +1,91 @@
+
+                  concept_series -> Charmed;;
+              
+                  Charmed
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Зачарованные]
+                    (* <- lang_ru;;	*);
+                    [Charmed]
+                    (* <- lang_en;;	*);;
+                  
+                  Charmed <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Зачарованные)](*<-lang_ru;;*);
+                      [Description (Charmed)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Charmed_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Charmed_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Charmed <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Зачарованные)](*<-lang_ru;;*);
+                      [Pic. (Charmed)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Charmed.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Charmed => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Charmed => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  Charmed => nrel_num_of_seasons: 2;;
+                  value -> 30;;
+                  Charmed => nrel_num_of_episodes: 30;;
+                  
+                  value -> 4;;
+                  Charmed => nrel_no_countries : 4;;
+                  
+                  value -> 6;;
+                  Charmed => nrel_viewers_in_millions: 6;;
+                  
+                  Charmed => nrel_age_rating: concept_PG12;;
+                  
+                    Charmed => nrel_actor : MelonieDiaz;;
+                    
+                   
+                    Charmed => nrel_actor : MadeleineMantock;;
+                    
+                   
+                    Charmed => nrel_actor : SarahJeffery;;
+                    
+                   
+                    Charmed => nrel_actor : RupertEvans;;
+                    
+                   
+                    Charmed => nrel_actor : NickHargrove;;
+                    
+                   
+                    Charmed => nrel_actor : SerDariusBlain;;
+                    
+                   
+                    Charmed => nrel_actor : EllenTamaki;;
+                    
+                   
+                    Charmed => nrel_actor : JordanDonica;;
+                    
+                   
+                    Charmed => nrel_actor : PoppyDrayton;;
+                    
+                  
+                  
+                  Charmed
+                  =>nrel_keywords: concept_detectif;;
+                  

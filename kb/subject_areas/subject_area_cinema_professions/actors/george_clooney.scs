@@ -1,0 +1,60 @@
+concept_human -> george_clooney;;
+ 
+ george_clooney <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джордж Клуни)](*<-lang_ru;;*);
+ 		[Description (George Clooney)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/george_clooney_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ george_clooney <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джордж Клуни)](*<-lang_ru;;*);
+ 		[Pic. (George Clooney)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/george_clooney.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ george_clooney => nrel_main_idtf : [Джордж Клуни](*<-lang_ru;;*);;
+ george_clooney => nrel_main_idtf : [George Clooney](*<-lang_en;;*);;
+ 
+ 
+ george_clooney => nrel_birth_date : 1961;;
+ 
+ concept_goverment -> Usa;;
+ george_clooney => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ george_clooney => nrel_to_star_in : the_ides_of_march;;
+the_ides_of_march => nrel_main_idtf : [The Ides of March](*<-lang_en;;*);;
+the_ides_of_march => nrel_main_idtf : [Мартовские иды](*<-lang_ru;;*);;
+george_clooney => nrel_to_star_in : oceans_thirteen;;
+oceans_thirteen => nrel_main_idtf : [Ocean`s Thirteen](*<-lang_en;;*);;
+oceans_thirteen => nrel_main_idtf : [Тринадцать друзей Оушена](*<-lang_ru;;*);;
+george_clooney => nrel_to_star_in : oceans_twelve;;
+oceans_twelve => nrel_main_idtf : [Ocean`s Twelve](*<-lang_en;;*);;
+oceans_twelve => nrel_main_idtf : [Двенадцать друзей Оушена](*<-lang_ru;;*);;
+george_clooney => nrel_to_star_in : oceans_eleven;;
+oceans_eleven => nrel_main_idtf : [Ocean`s Eleven](*<-lang_en;;*);;
+oceans_eleven => nrel_main_idtf : [Одиннадцать друзей Оушена](*<-lang_ru;;*);;
+george_clooney => nrel_to_star_in : the_thin_red_line;;
+the_thin_red_line => nrel_main_idtf : [The Thin Red Line](*<-lang_en;;*);;
+the_thin_red_line => nrel_main_idtf : [Тонкая красная линия](*<-lang_ru;;*);;
+george_clooney => nrel_to_star_in : batman__robin;;
+batman__robin => nrel_main_idtf : [Batman & Robin](*<-lang_en;;*);;
+batman__robin => nrel_main_idtf : [Бэтмен и Робин](*<-lang_ru;;*);;
+

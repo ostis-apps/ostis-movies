@@ -1,0 +1,109 @@
+
+                  concept_series -> Dynasty;;
+              
+                  Dynasty
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [династия]
+                    (* <- lang_ru;;	*);
+                    [Dynasty]
+                    (* <- lang_en;;	*);;
+                  
+                  Dynasty <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (династия)](*<-lang_ru;;*);
+                      [Description (Dynasty)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Dynasty_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Dynasty_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Dynasty <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (династия)](*<-lang_ru;;*);
+                      [Pic. (Dynasty)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Dynasty.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Dynasty => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Dynasty => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  Dynasty => nrel_num_of_seasons: 3;;
+                  value -> 51;;
+                  Dynasty => nrel_num_of_episodes: 51;;
+                  
+                  value -> 6;;
+                  Dynasty => nrel_no_countries : 6;;
+                  
+                  value -> 11;;
+                  Dynasty => nrel_viewers_in_millions: 11;;
+                  
+                  Dynasty => nrel_age_rating: concept_PG12;;
+                  
+                    Dynasty => nrel_actor : ElizabethGillies;;
+                    
+                   
+                    Dynasty => nrel_actor : RafaelDeLaFuente;;
+                    
+                   
+                    Dynasty => nrel_actor : GrantShow;;
+                    
+                   
+                    Dynasty => nrel_actor : RobRiley;;
+                    
+                   
+                    Dynasty => nrel_actor : AlanDale;;
+                    
+                   
+                    Dynasty => nrel_actor : SamAdegoke;;
+                    
+                   
+                    Dynasty => nrel_actor : JamesMackay;;
+                    
+                   
+                    Dynasty => nrel_actor : DaniellaAlonso;;
+                    
+                   
+                    Dynasty => nrel_actor : AnaBrendaContreras;;
+                    
+                   
+                    Dynasty => nrel_actor : AdamHuber;;
+                    
+                   
+                    Dynasty => nrel_actor : NicolletteSheridan;;
+                    
+                   
+                    Dynasty => nrel_actor : MaddisonBrown;;
+                    
+                   
+                    Dynasty => nrel_actor : NathalieKelley;;
+                    
+                   
+                    Dynasty => nrel_actor : SamUnderwood;;
+                    
+                   
+                    Dynasty => nrel_actor : MichaelMichele;;
+                    
+                  
+                  
+                  Dynasty
+                  =>nrel_keywords: concept_detectif;;
+                  

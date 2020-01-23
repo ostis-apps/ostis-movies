@@ -1,0 +1,118 @@
+
+                  concept_series -> His_Dark_Materials;;
+              
+                  His_Dark_Materials
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [His_Dark_Materials]
+                    (* <- lang_ru;;	*);
+                    [His_Dark_Materials]
+                    (* <- lang_en;;	*);;
+                  
+                  His_Dark_Materials <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (His_Dark_Materials)](*<-lang_ru;;*);
+                      [Description (His_Dark_Materials)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/His_Dark_Materials_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/His_Dark_Materials_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  His_Dark_Materials <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (His_Dark_Materials)](*<-lang_ru;;*);
+                      [Pic. (His_Dark_Materials)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/His_Dark_Materials.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  His_Dark_Materials => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  His_Dark_Materials => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  His_Dark_Materials => nrel_num_of_seasons: 1;;
+                  value -> 8;;
+                  His_Dark_Materials => nrel_num_of_episodes: 8;;
+                  
+                  value -> 4;;
+                  His_Dark_Materials => nrel_no_countries : 4;;
+                  
+                  value -> 4;;
+                  His_Dark_Materials => nrel_viewers_in_millions: 4;;
+                  
+                  His_Dark_Materials => nrel_age_rating: concept_PG12;;
+                  
+                    His_Dark_Materials => nrel_actor : DafneKeen;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : JamesCosmo;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : LucianMsamati;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : DanielFrogson;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : AriyonBakare;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : RuthWilson;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : AnneMarieDuff;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : LinManuelMiranda;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : LewinLloyd;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : WillKeen;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : ClarkePeters;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : RutaGedmintas;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : AmirWilson;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : NinaSosanya;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : LiaWilliams;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : GaryLewis;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : GeorginaCampbell;;
+                    
+                   
+                    His_Dark_Materials => nrel_actor : JamesMcAvoy;;
+                    
+                  
+                  
+                  His_Dark_Materials
+                  =>nrel_keywords: concept_detectif;;
+                  

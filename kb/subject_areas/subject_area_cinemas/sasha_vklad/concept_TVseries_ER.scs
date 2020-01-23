@@ -1,0 +1,66 @@
+concept_series -> ER;;
+
+ER
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Скорая помощь]
+	(* <- lang_ru;;	*);
+	[Emergency Room]
+	(* <- lang_en;;	*);;
+	
+ER <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Скорая помощь)](*<-lang_ru;;*);
+		[Description (ER)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/ER_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/ER_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+ER <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Скорая помощь)](*<-lang_ru;;*);
+		[Pic. (ER)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/ER.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+ER => nrel_production : Usa;;
+
+concept_calendar_date -> 1994;;
+1994 => nrel_main_idtf : [1994 год](*<-lang_ru;;*);;
+1994 => nrel_main_idtf : [year of 1994](*<-lang_en;;*);;
+ER => nrel_production_year : 1994;;
+	
+value -> 15;;
+ER => nrel_num_of_seasons: 15;;
+value -> 331;;
+ER => nrel_num_of_episodes: 331;;
+	
+value -> 65;;
+ER => nrel_no_countries : 65;;
+
+value -> 8;;
+ER => nrel_viewers_in_millions: 8;;
+
+ER => nrel_age_rating: concept_PG16;;
+
+ER => nrel_actor : Noah_Wiley;;
+ER => nrel_producer : Christopher_Chulack;;
+
+ER
+=>nrel_keywords: concept_drama;;
+
+

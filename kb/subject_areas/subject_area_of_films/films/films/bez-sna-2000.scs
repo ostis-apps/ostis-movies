@@ -1,0 +1,67 @@
+film_bez_sna_2000
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Без сна]
+(* <- lang_ru;;    *);
+[Non ho sonno / Sleepless]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Без сна)](*<-lang_ru;;*);
+[Description (Non ho sonno / Sleepless)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bez-sna-2000_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bez-sna-2000_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Без сна)](*<-lang_ru;;*);
+		[Pic. (Non ho sonno / Sleepless)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bez-sna-2000.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : italy;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [A diabolical story becomes a city's worst nightmare! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [05.01.2001](*<-lang_ru;;*);;
+    => nrel_main_idtf : [05.01.2001](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H57M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H57M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_bez_sna_2000 =>nrel_keywords: film;;
+
+film_bez_sna_2000 <- concept_horror;concept_mystery;concept_thriller;;
+
+film_bez_sna_2000 => nrel_main_actor : max_von_sydow;stefano_dionisi;chiara_caselli;gabriele_lavia;;
+film_bez_sna_2000 => nrel_producer : dario_argento;;

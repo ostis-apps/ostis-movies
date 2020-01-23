@@ -1,0 +1,51 @@
+concept_human -> aaron_eckhart;;
+ 
+ aaron_eckhart <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Аарон Экхарт)](*<-lang_ru;;*);
+ 		[Description (Aaron Eckhart)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/aaron_eckhart_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ aaron_eckhart <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Аарон Экхарт)](*<-lang_ru;;*);
+ 		[Pic. (Aaron Eckhart)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/aaron_eckhart.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ aaron_eckhart => nrel_main_idtf : [Аарон Экхарт](*<-lang_ru;;*);;
+ aaron_eckhart => nrel_main_idtf : [Aaron Eckhart](*<-lang_en;;*);;
+ 
+ 
+ aaron_eckhart => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Usa;;
+ aaron_eckhart => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ aaron_eckhart => nrel_to_star_in : the_dark_knight_rises;;
+the_dark_knight_rises => nrel_main_idtf : [The Dark Knight Rises](*<-lang_en;;*);;
+the_dark_knight_rises => nrel_main_idtf : [Темный рыцарь: Возрождение легенды](*<-lang_ru;;*);;
+aaron_eckhart => nrel_to_star_in : the_rum_diary;;
+the_rum_diary => nrel_main_idtf : [The Rum Diary](*<-lang_en;;*);;
+the_rum_diary => nrel_main_idtf : [Ромовый дневник](*<-lang_ru;;*);;
+aaron_eckhart => nrel_to_star_in : the_dark_knight;;
+the_dark_knight => nrel_main_idtf : [The Dark Knight](*<-lang_en;;*);;
+the_dark_knight => nrel_main_idtf : [Темный рыцарь](*<-lang_ru;;*);;
+

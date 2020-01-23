@@ -1,0 +1,51 @@
+concept_human -> Mark_Ruf;;
+
+Mark_Ruf
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Марк Алан Руффало]
+	(* <- lang_ru;;	*);
+	[Mark Alan Ruffalo]
+	(* <- lang_en;;	*);;
+	
+Mark_Ruf <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Марк Алан Руффало)](*<-lang_ru;;*);
+		[Description (Mark Alan Ruffalo)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        concept_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Mark_Ruf_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Mark_Ruf_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Mark_Ruf <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Марк Алан Руффало)](*<-lang_ru;;*);
+		[Pic. (Mark Alan Ruffalo)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Mark_Ruf.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1967;;
+Mark_Ruf=>nrel_date_of_birth: 1967;;
+1967=>nrel_main_idtf:[1967 год](*<-lang_ru;;*);;
+1967=>nrel_main_idtf:[year of 1967](*<-lang_en;;*);;
+
+concept_calendar_date-> 1989;;
+Mark_Ruf=>nrel_career_start_date: 1989;;
+1989=>nrel_main_idtf:[1989 год](*<-lang_ru;;*);;
+1989=>nrel_main_idtf:[year of 1989](*<-lang_en;;*);;
+
+Mark_Ruf =>nrel_cityzenship:Usa;;

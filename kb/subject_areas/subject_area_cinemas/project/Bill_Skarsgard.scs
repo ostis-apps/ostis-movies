@@ -1,0 +1,52 @@
+concept_human -> Bill_Skarsgard;;
+
+Bill_Skarsgard
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Билл Иштван Гюнтер Скарсгард]
+	(* <- lang_ru;;	*);
+	[Bill Istvan Gunther Skarsgard]
+	(* <- lang_en;;	*);;
+	
+Bill_Skarsgard <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Билл Иштван Гюнтер Скарсгард)](*<-lang_ru;;*);
+		[Description (Bill Istvan Gunther Skarsgard)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Bill_Skarsgard_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Bill_Skarsgard_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Bill_Skarsgard <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Билл Иштван Гюнтер Скарсгард)](*<-lang_ru;;*);
+		[Pic. (Bill Istvan Gunther Skarsgard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Bill_Skarsgard.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1990;;
+Bill_Skarsgard=>nrel_date_of_birth: 1990;;
+1990=>nrel_main_idtf:[1990 год](*<-lang_ru;;*);;
+1990=>nrel_main_idtf:[year of 1990](*<-lang_en;;*);;
+
+concept_calendar_date-> 2000;;
+Bill_Skarsgard=>nrel_career_start_date: 2000;;
+2000=>nrel_main_idtf:[2000 год](*<-lang_ru;;*);;
+2000=>nrel_main_idtf:[year of 2000](*<-lang_en;;*);;
+
+Bill_Skarsgard =>nrel_cityzenship:Sweden;;
+Sweden <-concept_country;;
+

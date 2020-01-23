@@ -1,0 +1,51 @@
+concept_Ralph
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ральф]
+	(* <- lang_ru;;	*);
+	[Ralph]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ральф)](*<-lang_ru;;*);
+		[Description (Ralph)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Ralph_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Ralph_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Rich_Moore;
+=>nrel_producer: Clark_Spencer;
+=>nrel_production_country: USA;
+=>nrel_production_year: 2012;
+=>nrel_continuance: 101;
+=>nrel_handle: 471222889;
+=>nrel_character:...
+	(*
+  	<-character_Ralph;;
+	<-character_Vanellope_von_Schweetz;; 
+	<-character_Sergeant_Tamora_Jean_Calhoun;; 
+	<-character_King_Candyi;;
+	*);
+=>nrel_age_rating: concept_PG6;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ральф)](*<-lang_ru;;*);
+		[Pic. (Ralph)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Ralph.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

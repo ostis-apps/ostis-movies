@@ -1,0 +1,48 @@
+concept_human -> sacha_baron_cohen;;
+ 
+ sacha_baron_cohen <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Саша Барон Коэн)](*<-lang_ru;;*);
+ 		[Description (Sacha Baron Cohen)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/sacha_baron_cohen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ sacha_baron_cohen <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Саша Барон Коэн)](*<-lang_ru;;*);
+ 		[Pic. (Sacha Baron Cohen)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/sacha_baron_cohen.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ sacha_baron_cohen => nrel_main_idtf : [Саша Барон Коэн](*<-lang_ru;;*);;
+ sacha_baron_cohen => nrel_main_idtf : [Sacha Baron Cohen](*<-lang_en;;*);;
+ 
+ 
+ sacha_baron_cohen => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> UK;;
+ sacha_baron_cohen => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ sacha_baron_cohen => nrel_to_star_in : alice_through_the_looking_glass;;
+alice_through_the_looking_glass => nrel_main_idtf : [Alice Through the Looking Glass](*<-lang_en;;*);;
+alice_through_the_looking_glass => nrel_main_idtf : [Алиса в Зазеркалье](*<-lang_ru;;*);;
+sacha_baron_cohen => nrel_to_star_in : sweeney_todd_the_demon_barber_of_fleet_street;;
+sweeney_todd_the_demon_barber_of_fleet_street => nrel_main_idtf : [Sweeney Todd: The Demon Barber of Fleet Street](*<-lang_en;;*);;
+sweeney_todd_the_demon_barber_of_fleet_street => nrel_main_idtf : [Суини Тодд, демон-парикмахер с Флит-стрит](*<-lang_ru;;*);;
+

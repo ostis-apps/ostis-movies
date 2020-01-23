@@ -1,0 +1,65 @@
+concept_series -> House_MD;;
+
+House_MD
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Доктор Хаус]
+	(* <- lang_ru;;	*);
+	[House M. D.]
+	(* <- lang_en;;	*);;
+	
+House_MD <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Доктор Хаус)](*<-lang_ru;;*);
+		[Description (House M. D.)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/House_MD_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/House_MD_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+House_MD <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Доктор Хаус)](*<-lang_ru;;*);
+		[Pic. (House M. D.)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/House_MD.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+House_MD => nrel_production : Usa;;
+
+concept_calendar_date -> 2004;;
+2004 => nrel_main_idtf : [2004 год](*<-lang_ru;;*);;
+2004 => nrel_main_idtf : [year of 2004](*<-lang_en;;*);;
+House_MD => nrel_production_year : 2004;;
+	
+value -> 8;;
+House_MD => nrel_num_of_seasons: 8;;
+value -> 177;;
+House_MD => nrel_num_of_episodes: 177;;
+	
+value -> 150;;
+House_MD => nrel_no_countries : 150;;
+
+value -> 18;;
+House_MD => nrel_viewers_in_millions: 18;;
+
+House_MD => nrel_age_rating: concept_PG16;;
+
+House_MD => nrel_actor : Hugh_Laurie;;
+House_MD => nrel_producer : Greg_Eitans;;
+
+House_MD
+=>nrel_keywords: concept_detective;
+=>nrel_keywords: concept_crime;;

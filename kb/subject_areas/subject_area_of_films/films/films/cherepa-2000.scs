@@ -1,0 +1,67 @@
+film_cherepa_2000
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Черепа]
+(* <- lang_ru;;    *);
+[The Skulls]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Черепа)](*<-lang_ru;;*);
+[Description (The Skulls)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/cherepa-2000_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/cherepa-2000_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Черепа)](*<-lang_ru;;*);
+		[Pic. (The Skulls)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/cherepa-2000.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;canada;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [A secret society so powerful, it can give you everything you desire... at a price. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [30.03.2000](*<-lang_ru;;*);;
+    => nrel_main_idtf : [30.03.2000](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H46M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H46M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_cherepa_2000 =>nrel_keywords: film;;
+
+film_cherepa_2000 <- concept_action;concept_crime;concept_drama;concept_thriller;;
+
+film_cherepa_2000 => nrel_main_actor : joshua_jackson;paul_walker;hill_harper;leslie_bibb;;
+film_cherepa_2000 => nrel_producer : rob_cohen;;

@@ -1,0 +1,30 @@
+concept_cartoon
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[мультфильм](*<-lang_ru;;*);
+	[cartoon](*<-lang_en;;*);
+=>nrel_idtf:
+	[анимация](*<-lang_ru;;*);
+	[мультик](*<-lang_ru;;*);
+	[animation](*<-lang_en;;*);
+	[анимационный фильм](*<-lang_ru;;*);
+	[animated film](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (мультфильм)](*<-lang_ru;;*);
+		[Def. (cartoon)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_cartoon_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_cartoon_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+	
+<=nrel_inclusion:concept_film;;

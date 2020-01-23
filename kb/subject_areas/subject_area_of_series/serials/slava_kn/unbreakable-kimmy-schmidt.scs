@@ -1,0 +1,85 @@
+
+                  concept_series -> Unbreakable_Kimmy_Schmidt;;
+              
+                  Unbreakable_Kimmy_Schmidt
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Unbreakable_Kimmy_Schmidt]
+                    (* <- lang_ru;;	*);
+                    [Unbreakable_Kimmy_Schmidt]
+                    (* <- lang_en;;	*);;
+                  
+                  Unbreakable_Kimmy_Schmidt <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Unbreakable_Kimmy_Schmidt)](*<-lang_ru;;*);
+                      [Description (Unbreakable_Kimmy_Schmidt)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Unbreakable_Kimmy_Schmidt_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Unbreakable_Kimmy_Schmidt_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Unbreakable_Kimmy_Schmidt <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Unbreakable_Kimmy_Schmidt)](*<-lang_ru;;*);
+                      [Pic. (Unbreakable_Kimmy_Schmidt)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Unbreakable_Kimmy_Schmidt.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Unbreakable_Kimmy_Schmidt => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Unbreakable_Kimmy_Schmidt => nrel_production_year : 2015;;
+                  
+                  value -> 4;;
+                  Unbreakable_Kimmy_Schmidt => nrel_num_of_seasons: 4;;
+                  value -> 51;;
+                  Unbreakable_Kimmy_Schmidt => nrel_num_of_episodes: 51;;
+                  
+                  value -> 5;;
+                  Unbreakable_Kimmy_Schmidt => nrel_no_countries : 5;;
+                  
+                  value -> 5;;
+                  Unbreakable_Kimmy_Schmidt => nrel_viewers_in_millions: 5;;
+                  
+                  Unbreakable_Kimmy_Schmidt => nrel_age_rating: concept_PG12;;
+                  
+                    Unbreakable_Kimmy_Schmidt => nrel_actor : TitussBurgess;;
+                    
+                   
+                    Unbreakable_Kimmy_Schmidt => nrel_actor : EllieKemper;;
+                    
+                   
+                    Unbreakable_Kimmy_Schmidt => nrel_actor : CarolKane;;
+                    
+                   
+                    Unbreakable_Kimmy_Schmidt => nrel_actor : JaneKrakowski;;
+                    
+                   
+                    Unbreakable_Kimmy_Schmidt => nrel_actor : SaraChase;;
+                    
+                   
+                    Unbreakable_Kimmy_Schmidt => nrel_actor : SolMiranda;;
+                    
+                   
+                    Unbreakable_Kimmy_Schmidt => nrel_actor : LaurenAdams;;
+                    
+                  
+                  
+                  Unbreakable_Kimmy_Schmidt
+                  =>nrel_keywords: concept_detectif;;
+                  

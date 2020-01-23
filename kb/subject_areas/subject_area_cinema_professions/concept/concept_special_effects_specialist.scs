@@ -1,0 +1,31 @@
+concept_special_effects_specialist<- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [specialeffects specialist](*<- lang_en;;*);
+    [специалист по спецэффектам](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (спецалист по спецэффектам*)](*<- lang_ru;;*);
+        [Def. (specialeffects specialist*)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_special_effects_specialist_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_special_effects_specialist_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (специалист по спецэффектам)](*<-lang_ru;;*);
+		    [Pic. (specialeffects specialist)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/SPEC.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

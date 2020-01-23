@@ -1,0 +1,76 @@
+
+                  concept_series -> Limitless;;
+              
+                  Limitless
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Безграничный]
+                    (* <- lang_ru;;	*);
+                    [Limitless]
+                    (* <- lang_en;;	*);;
+                  
+                  Limitless <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Безграничный)](*<-lang_ru;;*);
+                      [Description (Limitless)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Limitless_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Limitless_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Limitless <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Безграничный)](*<-lang_ru;;*);
+                      [Pic. (Limitless)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Limitless.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Limitless => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Limitless => nrel_production_year : 2015;;
+                  
+                  value -> 1;;
+                  Limitless => nrel_num_of_seasons: 1;;
+                  value -> 22;;
+                  Limitless => nrel_num_of_episodes: 22;;
+                  
+                  value -> 13;;
+                  Limitless => nrel_no_countries : 13;;
+                  
+                  value -> 6;;
+                  Limitless => nrel_viewers_in_millions: 6;;
+                  
+                  Limitless => nrel_age_rating: concept_PG12;;
+                  
+                    Limitless => nrel_actor : MaryElizabethMastrantonio;;
+                    
+                   
+                    Limitless => nrel_actor : JakeMcDorman;;
+                    
+                   
+                    Limitless => nrel_actor : JenniferCarpenter;;
+                    
+                   
+                    Limitless => nrel_actor : HillHarper;;
+                    
+                  
+                  
+                  Limitless
+                  =>nrel_keywords: concept_detectif;;
+                  

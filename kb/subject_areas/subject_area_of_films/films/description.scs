@@ -1,0 +1,32 @@
+concept_keywords
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[ключевое слово]
+	(* <- lang_ru;;	*);
+	[keyword]
+	(* <- lang_en;;	*);;
+
+concept_age_rating
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[возрастной рейтинг]
+	(* <- lang_ru;;	*);
+	[age rating]
+	(* <- lang_en;;	*);;
+
+nrel_keywords
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[быть ключевым словом*]
+	(* <- lang_ru;; *);
+	[keyword*]
+	(* <- lang_en;; *);;
+	
+	
+nrel_age_rating
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[быть возрастным рейтингом*]
+	(* <- lang_ru;; *);
+	[age rating*]
+	(* <- lang_en;; *);;

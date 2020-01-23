@@ -1,0 +1,8 @@
+concept_subj_domain_of_video_sequence
+<- sc_node_struct;
+
+=> nrel_main_idtf:
+	[Предметная область видеоряда]
+	(* <- lang_ru;; *);
+	[Subject domain of video sequence]
+    (* <- lang_en;; *);;

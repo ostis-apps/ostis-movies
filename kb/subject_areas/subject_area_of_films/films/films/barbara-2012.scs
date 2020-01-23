@@ -1,0 +1,67 @@
+film_barbara_2012
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Барбара]
+(* <- lang_ru;;    *);
+[Barbara]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Барбара)](*<-lang_ru;;*);
+[Description (Barbara)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/barbara-2012_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/barbara-2012_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барбара)](*<-lang_ru;;*);
+		[Pic. (Barbara)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/barbara-2012.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Anyone who loves "The Lives of Others" should see this. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [08.03.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [08.03.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H45M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H45M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_barbara_2012 =>nrel_keywords: film;;
+
+film_barbara_2012 <- concept_drama;;
+
+film_barbara_2012 => nrel_main_actor : nina_hoss;ronald_zehrfeld;rainer_bock;christina_hecke;;
+film_barbara_2012 => nrel_producer : christian_petzold;;

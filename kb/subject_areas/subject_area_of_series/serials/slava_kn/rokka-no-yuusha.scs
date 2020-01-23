@@ -1,0 +1,85 @@
+
+                  concept_series -> Rokka_no_Yuusha;;
+              
+                  Rokka_no_Yuusha
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Рокка _ _ Roh герой]
+                    (* <- lang_ru;;	*);
+                    [Rokka_no_Yuusha]
+                    (* <- lang_en;;	*);;
+                  
+                  Rokka_no_Yuusha <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Рокка _ _ Roh герой)](*<-lang_ru;;*);
+                      [Description (Rokka_no_Yuusha)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Rokka_no_Yuusha_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Rokka_no_Yuusha_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Rokka_no_Yuusha <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Рокка _ _ Roh герой)](*<-lang_ru;;*);
+                      [Pic. (Rokka_no_Yuusha)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Rokka_no_Yuusha.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Rokka_no_Yuusha => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Rokka_no_Yuusha => nrel_production_year : 2015;;
+                  
+                  value -> 1;;
+                  Rokka_no_Yuusha => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  Rokka_no_Yuusha => nrel_num_of_episodes: 12;;
+                  
+                  value -> 12;;
+                  Rokka_no_Yuusha => nrel_no_countries : 12;;
+                  
+                  value -> 8;;
+                  Rokka_no_Yuusha => nrel_viewers_in_millions: 8;;
+                  
+                  Rokka_no_Yuusha => nrel_age_rating: concept_PG12;;
+                  
+                    Rokka_no_Yuusha => nrel_actor : YkoHikasa;;
+                    
+                   
+                    Rokka_no_Yuusha => nrel_actor : RinaSatou;;
+                    
+                   
+                    Rokka_no_Yuusha => nrel_actor : AiKakuma;;
+                    
+                   
+                    Rokka_no_Yuusha => nrel_actor : KoukiUchiyama;;
+                    
+                   
+                    Rokka_no_Yuusha => nrel_actor : SomaSaito;;
+                    
+                   
+                    Rokka_no_Yuusha => nrel_actor : AoiYki;;
+                    
+                   
+                    Rokka_no_Yuusha => nrel_actor : KenichiSuzumura;;
+                    
+                  
+                  
+                  Rokka_no_Yuusha
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,91 @@
+
+                  concept_series -> Counterpart;;
+              
+                  Counterpart
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [контрагент]
+                    (* <- lang_ru;;	*);
+                    [Counterpart]
+                    (* <- lang_en;;	*);;
+                  
+                  Counterpart <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (контрагент)](*<-lang_ru;;*);
+                      [Description (Counterpart)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Counterpart_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Counterpart_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Counterpart <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (контрагент)](*<-lang_ru;;*);
+                      [Pic. (Counterpart)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Counterpart.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Counterpart => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Counterpart => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  Counterpart => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  Counterpart => nrel_num_of_episodes: 20;;
+                  
+                  value -> 8;;
+                  Counterpart => nrel_no_countries : 8;;
+                  
+                  value -> 6;;
+                  Counterpart => nrel_viewers_in_millions: 6;;
+                  
+                  Counterpart => nrel_age_rating: concept_PG12;;
+                  
+                    Counterpart => nrel_actor : JKSimmons;;
+                    
+                   
+                    Counterpart => nrel_actor : HarryLloyd;;
+                    
+                   
+                    Counterpart => nrel_actor : OliviaWilliams;;
+                    
+                   
+                    Counterpart => nrel_actor : NazaninBoniadi;;
+                    
+                   
+                    Counterpart => nrel_actor : NicholasPinnock;;
+                    
+                   
+                    Counterpart => nrel_actor : SaraSerraiocco;;
+                    
+                   
+                    Counterpart => nrel_actor : UlrichThomsen;;
+                    
+                   
+                    Counterpart => nrel_actor : BettyGabriel;;
+                    
+                   
+                    Counterpart => nrel_actor : JamesCromwell;;
+                    
+                  
+                  
+                  Counterpart
+                  =>nrel_keywords: concept_detectif;;
+                  

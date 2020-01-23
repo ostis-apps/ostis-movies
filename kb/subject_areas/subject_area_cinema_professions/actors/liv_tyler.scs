@@ -1,0 +1,57 @@
+concept_human -> liv_tyler;;
+ 
+ liv_tyler <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Лив Тайлер)](*<-lang_ru;;*);
+ 		[Description (Liv Tyler)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/liv_tyler_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ liv_tyler <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Лив Тайлер)](*<-lang_ru;;*);
+ 		[Pic. (Liv Tyler)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/liv_tyler.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ liv_tyler => nrel_main_idtf : [Лив Тайлер](*<-lang_ru;;*);;
+ liv_tyler => nrel_main_idtf : [Liv Tyler](*<-lang_en;;*);;
+ 
+ 
+ liv_tyler => nrel_birth_date : 1977;;
+ 
+ concept_goverment -> Usa;;
+ liv_tyler => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ liv_tyler => nrel_to_star_in : wildling;;
+wildling => nrel_main_idtf : [Wildling](*<-lang_en;;*);;
+wildling => nrel_main_idtf : [Сага о чудовище. Сумерки](*<-lang_ru;;*);;
+liv_tyler => nrel_to_star_in : the_incredible_hulk;;
+the_incredible_hulk => nrel_main_idtf : [The Incredible Hulk](*<-lang_en;;*);;
+the_incredible_hulk => nrel_main_idtf : [Невероятный Халк](*<-lang_ru;;*);;
+liv_tyler => nrel_to_star_in : the_lord_of_the_rings_the_return_of_the_king;;
+the_lord_of_the_rings_the_return_of_the_king => nrel_main_idtf : [The Lord of the Rings: The Return of the King](*<-lang_en;;*);;
+the_lord_of_the_rings_the_return_of_the_king => nrel_main_idtf : [Властелин Колец: Возвращение Короля](*<-lang_ru;;*);;
+liv_tyler => nrel_to_star_in : the_lord_of_the_rings_the_two_towers;;
+the_lord_of_the_rings_the_two_towers => nrel_main_idtf : [The Lord of the Rings: The Two Towers](*<-lang_en;;*);;
+the_lord_of_the_rings_the_two_towers => nrel_main_idtf : [Властелин Колец: Две Крепости](*<-lang_ru;;*);;
+liv_tyler => nrel_to_star_in : the_lord_of_the_rings_the_fellowship_of_the_ring;;
+the_lord_of_the_rings_the_fellowship_of_the_ring => nrel_main_idtf : [The Lord of the Rings: The Fellowship of the Ring](*<-lang_en;;*);;
+the_lord_of_the_rings_the_fellowship_of_the_ring => nrel_main_idtf : [Властелин Колец: Братство Кольца](*<-lang_ru;;*);;
+

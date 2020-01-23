@@ -1,0 +1,51 @@
+concept_human -> naomie_melanie_harris;;
+ 
+ naomie_melanie_harris <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Наоми Харрис)](*<-lang_ru;;*);
+ 		[Description (Naomie Melanie Harris)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/naomie_melanie_harris_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ naomie_melanie_harris <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Наоми Харрис)](*<-lang_ru;;*);
+ 		[Pic. (Naomie Melanie Harris)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/naomie_melanie_harris.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ naomie_melanie_harris => nrel_main_idtf : [Наоми Харрис](*<-lang_ru;;*);;
+ naomie_melanie_harris => nrel_main_idtf : [Naomie Melanie Harris](*<-lang_en;;*);;
+ 
+ 
+ naomie_melanie_harris => nrel_birth_date : 1976;;
+ 
+ concept_goverment -> UK;;
+ naomie_melanie_harris => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ naomie_melanie_harris => nrel_to_star_in : rampage;;
+rampage => nrel_main_idtf : [Rampage](*<-lang_en;;*);;
+rampage => nrel_main_idtf : [Рэмпейдж](*<-lang_ru;;*);;
+naomie_melanie_harris => nrel_to_star_in : pirates_of_the_caribbean_at_worlds_end;;
+pirates_of_the_caribbean_at_worlds_end => nrel_main_idtf : [Pirates of the Caribbean: At World`s End](*<-lang_en;;*);;
+pirates_of_the_caribbean_at_worlds_end => nrel_main_idtf : [Пираты Карибского моря: На краю света](*<-lang_ru;;*);;
+naomie_melanie_harris => nrel_to_star_in : pirates_of_the_caribbean_dead_mans_chest;;
+pirates_of_the_caribbean_dead_mans_chest => nrel_main_idtf : [Pirates of the Caribbean: Dead Man`s Chest](*<-lang_en;;*);;
+pirates_of_the_caribbean_dead_mans_chest => nrel_main_idtf : [Пираты Карибского моря: Сундук мертвеца](*<-lang_ru;;*);;
+

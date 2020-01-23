@@ -1,0 +1,45 @@
+concept_human -> michael_bay;;
+ 
+ michael_bay <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майкл Бэй)](*<-lang_ru;;*);
+ 		[Description (Michael Bay)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michael_bay_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michael_bay <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майкл Бэй)](*<-lang_ru;;*);
+ 		[Pic. (Michael Bay)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michael_bay.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michael_bay => nrel_main_idtf : [Майкл Бэй](*<-lang_ru;;*);;
+ michael_bay => nrel_main_idtf : [Michael Bay](*<-lang_en;;*);;
+ 
+ 
+ michael_bay => nrel_birth_date : 1965;;
+ 
+ concept_goverment -> Usa;;
+ michael_bay => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ michael_bay => nrel_to_star_in : the_island;;
+the_island => nrel_main_idtf : [The Island](*<-lang_en;;*);;
+the_island => nrel_main_idtf : [Остров](*<-lang_ru;;*);;
+

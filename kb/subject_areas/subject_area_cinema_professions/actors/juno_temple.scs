@@ -1,0 +1,66 @@
+concept_human -> juno_temple;;
+ 
+ juno_temple <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джуно Темпл)](*<-lang_ru;;*);
+ 		[Description (Juno Temple)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/juno_temple_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ juno_temple <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джуно Темпл)](*<-lang_ru;;*);
+ 		[Pic. (Juno Temple)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/juno_temple.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ juno_temple => nrel_main_idtf : [Джуно Темпл](*<-lang_ru;;*);;
+ juno_temple => nrel_main_idtf : [Juno Temple](*<-lang_en;;*);;
+ 
+ 
+ juno_temple => nrel_birth_date : 1989;;
+ 
+ concept_goverment -> UK;;
+ juno_temple => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ juno_temple => nrel_to_star_in : maleficent_mistress_of_evil;;
+maleficent_mistress_of_evil => nrel_main_idtf : [Maleficent: Mistress of Evil](*<-lang_en;;*);;
+maleficent_mistress_of_evil => nrel_main_idtf : [Малефисента: Владычица тьмы](*<-lang_ru;;*);;
+juno_temple => nrel_to_star_in : unsane;;
+unsane => nrel_main_idtf : [Unsane](*<-lang_en;;*);;
+unsane => nrel_main_idtf : [Не в себе](*<-lang_ru;;*);;
+juno_temple => nrel_to_star_in : maleficent;;
+maleficent => nrel_main_idtf : [Maleficent](*<-lang_en;;*);;
+maleficent => nrel_main_idtf : [Малефисента](*<-lang_ru;;*);;
+juno_temple => nrel_to_star_in : sin_city_a_dame_to_kill_for;;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Sin City: A Dame to Kill For](*<-lang_en;;*);;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Город грехов 2: Женщина, ради которой стоит убивать](*<-lang_ru;;*);;
+juno_temple => nrel_to_star_in : the_dark_knight_rises;;
+the_dark_knight_rises => nrel_main_idtf : [The Dark Knight Rises](*<-lang_en;;*);;
+the_dark_knight_rises => nrel_main_idtf : [Темный рыцарь: Возрождение легенды](*<-lang_ru;;*);;
+juno_temple => nrel_to_star_in : mr_nobody;;
+mr_nobody => nrel_main_idtf : [Mr. Nobody](*<-lang_en;;*);;
+mr_nobody => nrel_main_idtf : [Господин Никто](*<-lang_ru;;*);;
+juno_temple => nrel_to_star_in : the_other_boleyn_girl;;
+the_other_boleyn_girl => nrel_main_idtf : [The Other Boleyn Girl](*<-lang_en;;*);;
+the_other_boleyn_girl => nrel_main_idtf : [Еще одна из рода Болейн](*<-lang_ru;;*);;
+juno_temple => nrel_to_star_in : atonement;;
+atonement => nrel_main_idtf : [Atonement](*<-lang_en;;*);;
+atonement => nrel_main_idtf : [Искупление](*<-lang_ru;;*);;
+

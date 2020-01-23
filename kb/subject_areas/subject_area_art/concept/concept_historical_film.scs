@@ -1,0 +1,37 @@
+concept_historical_film
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[исторический фильм](*<-lang_ru;;*);
+	[historical film](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (исторический фильм)](*<-lang_ru;;*);
+		[Def. (historical film)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_film;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_historical_film_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_historical_film_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+ <= nrel_inclusion: concept_genre;
+ => nrel_inclusion: concept_peplum;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (исторический фильм)](*<-lang_ru;;*);
+		[Pic. (historical film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_historical_film_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

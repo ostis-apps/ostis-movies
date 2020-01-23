@@ -1,0 +1,100 @@
+
+                  concept_series -> Overlord;;
+              
+                  Overlord
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Повелитель]
+                    (* <- lang_ru;;	*);
+                    [Overlord]
+                    (* <- lang_en;;	*);;
+                  
+                  Overlord <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Повелитель)](*<-lang_ru;;*);
+                      [Description (Overlord)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Overlord_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Overlord_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Overlord <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Повелитель)](*<-lang_ru;;*);
+                      [Pic. (Overlord)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Overlord.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Overlord => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Overlord => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Overlord => nrel_num_of_seasons: 3;;
+                  value -> 39;;
+                  Overlord => nrel_num_of_episodes: 39;;
+                  
+                  value -> 3;;
+                  Overlord => nrel_no_countries : 3;;
+                  
+                  value -> 8;;
+                  Overlord => nrel_viewers_in_millions: 8;;
+                  
+                  Overlord => nrel_age_rating: concept_PG12;;
+                  
+                    Overlord => nrel_actor : MaoIchimichi;;
+                    
+                   
+                    Overlord => nrel_actor : SatoshiHino;;
+                    
+                   
+                    Overlord => nrel_actor : ManamiNumakura;;
+                    
+                   
+                    Overlord => nrel_actor : ShigeruChiba;;
+                    
+                   
+                    Overlord => nrel_actor : EmiriKat;;
+                    
+                   
+                    Overlord => nrel_actor : KentaMiyake;;
+                    
+                   
+                    Overlord => nrel_actor : YumiUchiyama;;
+                    
+                   
+                    Overlord => nrel_actor : TakehitoKoyasu;;
+                    
+                   
+                    Overlord => nrel_actor : MasayukiKatou;;
+                    
+                   
+                    Overlord => nrel_actor : HiroshiShirokuma;;
+                    
+                   
+                    Overlord => nrel_actor : YumiHara;;
+                    
+                   
+                    Overlord => nrel_actor : SumireUesaka;;
+                    
+                  
+                  
+                  Overlord
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,9 @@
+concept_subj_domain_art
+<- sc_node_struct;
+
+=> nrel_main_idtf:
+	[Предметная область киноискусства]
+	(* <- lang_ru;; *);
+	[Subject domain of cinema art]
+    	(* <- lang_en;; *);;
+

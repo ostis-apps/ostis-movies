@@ -1,0 +1,213 @@
+concept_bleach
+<- sc_node_not_relation;
+<- concept_anime;
+=> nrel_main_idtf:
+	[Блич]
+	(* <- lang_ru;;	*);
+	[Bleach]
+	(* <- lang_en;;	*);
+
+=> nrel_number_of_arches: 16;
+=> nrel_world_premiere: ...(*-> rrel_number_of_year: 2004;;*);
+=> nrel_anime_studio: 
+	[Studio Pierrot]
+	(* <- lang_en;;	*);
+=> nrel_metagenre: concept_shonen;
+=> nrel_original: concept_manga_bleach;
+=> nrel_anime_character:...
+	(*
+  	->character_Ichigo;;
+	->character_Ishida;;
+	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Блич)](* <- lang_ru;; *);
+		[Desctiption (Bleach)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[Представьте себе, что вы — пятнадцатилетний японский школьник и учитесь в 9-м классе. Также у вас есть две младшие сестры. Ваш отец постоянно хочет вас «убить», правда лично он называет это тренировками. Но как ни странно, благодаря именно этому, вы все еще до сих пор живы. Вы ходите в школу, учитесь, приходя домой, вы садитесь и делаете домашнее задание. Ваша семья владеет местной клиникой, вы помогаете ей в клинике по вечерам. Ну, в общем, стандартная школьная жизнь подростка.<br>
+Представили? Отлично! Но, добавьте к ней то, что, сколько вы помните себя, вы можете видеть призраков и разговаривать с ними. И то, что с 8 лет вы живете без материнской опеки. Вот так можно описать жизнь главного героя <sc_element sys_idtf="character_Ichigo">Куросаки Ичиго</sc_element>. Но, в один судьбоносный вечер к Ичиго, не осознавая того, что он может видеть призраков, приходит Бог Смерти. А что бы вы сделали на месте Ичиго, когда посреди вашей комнаты появляется странно одетый человек, в черном кимоно и с катаной в руке. А? Правильно, надо дать ему пинок, ногой в спину. Вот так можно описать первую встречу Ичиго с Кучики Рукией, которая положит начало долгой и захватывающей истории.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[Imagine that you are a fifteen-year-old Japanese schoolboy and study in the 9th grade. You also have two younger sisters. Your father constantly wants to "kill" you, though he personally calls it workouts. But oddly enough, because of this, you are still alive. You go to school, study, come home, you sit down and do your homework. Your family owns a local clinic, you help her in the clinic in the evenings. Well, in general, the standard school life of a teenager. <br>
+Submitted? Fine! But add to it what, how much you remember yourself, you can see ghosts and talk to them. And the fact that since 8 years you live without maternal care. This is the way to describe the life of the main character <sc_element sys_idtf="character_Ichigo">Kurosaki Ichigo</sc_element>. But, in one fateful evening to Ichigo, not realizing that he can see ghosts, the God of Death comes. And what would you do on the place of Ichigo, when a strangely dressed man appears in the middle of your room, in a black kimono and with a katana in his hand. BUT? That's right, you have to give him a kick, foot in the back. This is how you can describe the first meeting of Ichigo with Kuchiki Rukia, which will mark the beginning of a long and exciting history.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Блич)](*<-lang_ru;;*);
+		[Pic. (Bleach)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_bleach.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_manga_bleach
+=> nrel_main_idtf:
+	[Блич]
+	(* <- lang_ru;;	*);
+	[Bleach]
+	(* <- lang_en;;	*);
+<- concept_manga;
+
+=> nrel_mangaka: Tite_Kubo;
+=> nrel_manga_number: 74;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Блич)](*<-lang_ru;;*);
+		[Pic. (Bleach)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_manga_bleach.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+Tite_Kubo
+=> nrel_main_idtf:
+	[Тайто Кубо]
+	(* <- lang_ru;;	*);
+	[Tite Kubo]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Тайто Кубо)](* <- lang_ru;; *);
+		[Desctiption (Tite Kubo)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="Tite_Kubo">Тайто Кубо</sc_element></b> — японский <sc_element sys_idtf="nrel_manga_number">мангака</sc_element>, создатель известной во всём мире <sc_element sys_idtf="concept_manga">манги</sc_element> «<sc_element sys_idtf="concept_manga_bleach">Блич</sc_element>».](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="Tite_Kubo">Tite Kubo</sc_element></b> — japanese <sc_element sys_idtf="nrel_manga_number">mangaka</sc_element>, creator of famous in the whole world <sc_element sys_idtf="concept_manga">manga</sc_element> «<sc_element sys_idtf="concept_manga_bleach">Bleach</sc_element>».](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тайто Кубо)](*<-lang_ru;;*);
+		[Pic. (Tite Kubo)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Tite_Kubo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Ichigo
+	=> nrel_main_idtf:
+	[Ичиго Куросаки]
+	(* <- lang_ru;;	*);
+	[Ichigo Kurosaki]
+	(* <- lang_en;;	*);
+
+=> nrel_seiyuu: Masakazu_Morita;
+
+<- concept_anime_character;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Ичиго Куросаки)](* <- lang_ru;; *);
+		[Desctiption (Ichigo Kurosaki)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="character_Ichigo">Ичиго Куросаки</sc_element></b> — школьник, который с детства обладает сверхъестественной способностью видеть призраков, даже хорошо знаком с одной девочкой-привидением и приносит цветы на место её смерти. Тем не менее, он не склонен к мистицизму и, хотя читает гороскопы, утверждает, что не верит им.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_Ichigo">Ichigo Kurosaki</sc_element></b> — a schoolboy who has a supernatural ability to see ghosts since childhood, is even well acquainted with one ghost girl and brings flowers to the place of her death. However, he is not prone to mysticism, and although he reads horoscopes, he claims that he does not believe them.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ичиго Куросаки)](*<-lang_ru;;*);
+		[Pic. (Ichigo Kurosaki)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Ichigo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Masakazu_Morita
+	=> nrel_main_idtf:
+	[Масакадзу Морита]
+	(* <- lang_ru;;	*);
+	[Masakazu Morita]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Масакадзу Морита)](* <- lang_ru;; *);
+		[Desctiption (Masakazu Morita)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="Masakazu_Morita">Масакадзу Морита</sc_element></b> — японский актер озвучки.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="Masakazu_Morita">Masakazu Morita</sc_element></b> — japanese actor of the voice acting.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Масакадзу Морита)](*<-lang_ru;;*);
+		[Pic. (Masakazu Morita)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Masakazu_Morita.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+character_Ishida
+	=> nrel_main_idtf:
+	[Урю Исида]
+	(* <- lang_ru;;	*);
+	[Uryū Ishida]
+	(* <- lang_en;;	*);
+
+=> nrel_seiyuu: Noriaki_Sugiyama;
+
+<- concept_anime_character;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Урю Исида)](* <- lang_ru;; *);
+		[Desctiption (Uryū Ishida)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="character_Ishida">Урю Исида</sc_element></b> — черноволосый парень с довольно необычной причёской: спереди две более длинных пряди, а сзади короткие волосы. В основном носит школьную форму, а также очки. В свободное время предпочитает скромную лёгкую одежду, к примеру, летом надевает серую рубашку и чёрные джинсы. ](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_Ishida">Uryū Ishida</sc_element></b> — a black-haired guy with a rather unusual hairstyle: two longer strands in the front, and short hair in the back. Basically wears a school uniform, as well as glasses. In her free time she prefers modest light clothes, for example, in the summer she puts on a gray shirt and black jeans.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Урю Исида)](*<-lang_ru;;*);
+		[Pic. (Uryū Ishida)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/character_Ishida.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+

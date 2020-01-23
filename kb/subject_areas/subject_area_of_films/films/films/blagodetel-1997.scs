@@ -1,0 +1,67 @@
+film_blagodetel_1997
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Благодетель]
+(* <- lang_ru;;    *);
+[The Rainmaker]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Благодетель)](*<-lang_ru;;*);
+[Description (The Rainmaker)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/blagodetel-1997_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/blagodetel-1997_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Благодетель)](*<-lang_ru;;*);
+		[Pic. (The Rainmaker)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/blagodetel-1997.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;germany;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [They were totally unqualified to try the case of a lifetime... but every underdog has his day.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [21.11.1997](*<-lang_ru;;*);;
+    => nrel_main_idtf : [21.11.1997](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H15M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H15M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_blagodetel_1997 =>nrel_keywords: film;;
+
+film_blagodetel_1997 <- concept_crime;concept_drama;concept_thriller;;
+
+film_blagodetel_1997 => nrel_main_actor : matt_damon;danny_devito;claire_danes;jon_voight;;
+film_blagodetel_1997 => nrel_producer : francis_ford_coppola;;

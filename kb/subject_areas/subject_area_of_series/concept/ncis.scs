@@ -1,0 +1,112 @@
+
+                  concept_series -> NCIS;;
+              
+                  NCIS
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [NCIS]
+                    (* <- lang_ru;;	*);
+                    [NCIS]
+                    (* <- lang_en;;	*);;
+                  
+                  NCIS <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (NCIS)](*<-lang_ru;;*);
+                      [Description (NCIS)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/NCIS_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/NCIS_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  NCIS <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (NCIS)](*<-lang_ru;;*);
+                      [Pic. (NCIS)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/NCIS.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  NCIS => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2003;;
+                  2003 => nrel_main_idtf : [2003 год](*<-lang_ru;;*);;
+                  2003 => nrel_main_idtf : [year of 2003](*<-lang_en;;*);;
+                  NCIS => nrel_production_year : 2003;;
+                  
+                  value -> 17;;
+                  NCIS => nrel_num_of_seasons: 17;;
+                  value -> 389;;
+                  NCIS => nrel_num_of_episodes: 389;;
+                  
+                  value -> 9;;
+                  NCIS => nrel_no_countries : 9;;
+                  
+                  value -> 4;;
+                  NCIS => nrel_viewers_in_millions: 4;;
+                  
+                  NCIS => nrel_age_rating: concept_PG12;;
+                  
+                    NCIS => nrel_actor : MarkHarmon;;
+                    
+                   
+                    NCIS => nrel_actor : SeanMurray;;
+                    
+                   
+                    NCIS => nrel_actor : DavidMcCallum;;
+                    
+                   
+                    NCIS => nrel_actor : PauleyPerrette;;
+                    
+                   
+                    NCIS => nrel_actor : MichaelWeatherly;;
+                    
+                   
+                    NCIS => nrel_actor : RockyCarroll;;
+                    
+                   
+                    NCIS => nrel_actor : BrianDietzen;;
+                    
+                   
+                    NCIS => nrel_actor : CotedePablo;;
+                    
+                   
+                    NCIS => nrel_actor : EmilyWickersham;;
+                    
+                   
+                    NCIS => nrel_actor : WilmerValderrama;;
+                    
+                   
+                    NCIS => nrel_actor : LaurenHolly;;
+                    
+                   
+                    NCIS => nrel_actor : MariaBello;;
+                    
+                   
+                    NCIS => nrel_actor : SashaAlexander;;
+                    
+                   
+                    NCIS => nrel_actor : DionaReasonover;;
+                    
+                   
+                    NCIS => nrel_actor : DuaneHenry;;
+                    
+                   
+                    NCIS => nrel_actor : JenniferEsposito;;
+                    
+                  
+                  
+                  NCIS
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,145 @@
+
+                  concept_series -> Humans;;
+              
+                  Humans
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Люди]
+                    (* <- lang_ru;;	*);
+                    [Humans]
+                    (* <- lang_en;;	*);;
+                  
+                  Humans <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Люди)](*<-lang_ru;;*);
+                      [Description (Humans)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Humans_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Humans_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Humans <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Люди)](*<-lang_ru;;*);
+                      [Pic. (Humans)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Humans.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Humans => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Humans => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Humans => nrel_num_of_seasons: 3;;
+                  value -> 24;;
+                  Humans => nrel_num_of_episodes: 24;;
+                  
+                  value -> 14;;
+                  Humans => nrel_no_countries : 14;;
+                  
+                  value -> 6;;
+                  Humans => nrel_viewers_in_millions: 6;;
+                  
+                  Humans => nrel_age_rating: concept_PG12;;
+                  
+                    Humans => nrel_actor : ColinMorgan;;
+                    
+                   
+                    Humans => nrel_actor : TomGoodmanHill;;
+                    
+                   
+                    Humans => nrel_actor : GemmaChan;;
+                    
+                   
+                    Humans => nrel_actor : KatherineParkinson;;
+                    
+                   
+                    Humans => nrel_actor : IvannoJeremiah;;
+                    
+                   
+                    Humans => nrel_actor : TheoStevenson;;
+                    
+                   
+                    Humans => nrel_actor : LucyCarless;;
+                    
+                   
+                    Humans => nrel_actor : PixieDavies;;
+                    
+                   
+                    Humans => nrel_actor : EmilyBerrington;;
+                    
+                   
+                    Humans => nrel_actor : RuthBradley;;
+                    
+                   
+                    Humans => nrel_actor : NeilMaskell;;
+                    
+                   
+                    Humans => nrel_actor : WillTudor;;
+                    
+                   
+                    Humans => nrel_actor : BillyJenkins;;
+                    
+                   
+                    Humans => nrel_actor : DannyWebb;;
+                    
+                   
+                    Humans => nrel_actor : CarrieAnneMoss;;
+                    
+                   
+                    Humans => nrel_actor : SopeDirisu;;
+                    
+                   
+                    Humans => nrel_actor : SonyaCassidy;;
+                    
+                   
+                    Humans => nrel_actor : WilliamHurt;;
+                    
+                   
+                    Humans => nrel_actor : MarkBonnar;;
+                    
+                   
+                    Humans => nrel_actor : UkweliRoach;;
+                    
+                   
+                    Humans => nrel_actor : RebeccaFront;;
+                    
+                   
+                    Humans => nrel_actor : DinoFetscher;;
+                    
+                   
+                    Humans => nrel_actor : JackDerges;;
+                    
+                   
+                    Humans => nrel_actor : HollyEarl;;
+                    
+                   
+                    Humans => nrel_actor : JillHalfpenny;;
+                    
+                   
+                    Humans => nrel_actor : MarshallAllman;;
+                    
+                   
+                    Humans => nrel_actor : ManpreetBachu;;
+                    
+                  
+                  
+                  Humans
+                  =>nrel_keywords: concept_detectif;;
+                  

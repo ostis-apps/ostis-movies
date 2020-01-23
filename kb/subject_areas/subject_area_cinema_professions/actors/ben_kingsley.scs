@@ -1,0 +1,51 @@
+concept_human -> ben_kingsley;;
+ 
+ ben_kingsley <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Бен Кингсли)](*<-lang_ru;;*);
+ 		[Description (Ben Kingsley)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ben_kingsley_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ben_kingsley <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Бен Кингсли)](*<-lang_ru;;*);
+ 		[Pic. (Ben Kingsley)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ben_kingsley.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ben_kingsley => nrel_main_idtf : [Бен Кингсли](*<-lang_ru;;*);;
+ ben_kingsley => nrel_main_idtf : [Ben Kingsley](*<-lang_en;;*);;
+ 
+ 
+ ben_kingsley => nrel_birth_date : 1944;;
+ 
+ concept_goverment -> UK;;
+ ben_kingsley => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ ben_kingsley => nrel_to_star_in : iron_man_3;;
+iron_man_3 => nrel_main_idtf : [Iron Man 3](*<-lang_en;;*);;
+iron_man_3 => nrel_main_idtf : [Железный человек 3](*<-lang_ru;;*);;
+ben_kingsley => nrel_to_star_in : shutter_island;;
+shutter_island => nrel_main_idtf : [Shutter Island](*<-lang_en;;*);;
+shutter_island => nrel_main_idtf : [Остров проклятых](*<-lang_ru;;*);;
+ben_kingsley => nrel_to_star_in : schindlers_list;;
+schindlers_list => nrel_main_idtf : [Schindler's List](*<-lang_en;;*);;
+schindlers_list => nrel_main_idtf : [Список Шиндлера](*<-lang_ru;;*);;
+

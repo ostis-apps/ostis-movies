@@ -1,0 +1,5 @@
+concept_3Dcinema
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[3D кинотеатр](*<-lang_ru;;*);
+	[3D cinema](*<-lang_en;;*);;

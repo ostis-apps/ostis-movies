@@ -1,0 +1,48 @@
+concept_human -> vince_vaughn;;
+ 
+ vince_vaughn <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Винс Вон)](*<-lang_ru;;*);
+ 		[Description (Vince Vaughn)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/vince_vaughn_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ vince_vaughn <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Винс Вон)](*<-lang_ru;;*);
+ 		[Pic. (Vince Vaughn)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/vince_vaughn.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ vince_vaughn => nrel_main_idtf : [Винс Вон](*<-lang_ru;;*);;
+ vince_vaughn => nrel_main_idtf : [Vince Vaughn](*<-lang_en;;*);;
+ 
+ 
+ vince_vaughn => nrel_birth_date : 1970;;
+ 
+ concept_goverment -> Usa;;
+ vince_vaughn => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ vince_vaughn => nrel_to_star_in : dragged_across_concrete;;
+dragged_across_concrete => nrel_main_idtf : [Dragged Across Concrete](*<-lang_en;;*);;
+dragged_across_concrete => nrel_main_idtf : [Закатать в асфальт](*<-lang_ru;;*);;
+vince_vaughn => nrel_to_star_in : mr__mrs_smith;;
+mr__mrs_smith => nrel_main_idtf : [Mr. & Mrs. Smith](*<-lang_en;;*);;
+mr__mrs_smith => nrel_main_idtf : [Мистер и миссис Смит](*<-lang_ru;;*);;
+

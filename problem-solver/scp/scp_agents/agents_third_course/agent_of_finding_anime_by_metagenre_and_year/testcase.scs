@@ -1,0 +1,11 @@
+concept_anime -> Kuroshitsuji;;
+
+Kuroshitsuji => nrel_metagenre: concept_shonen;;
+
+Kuroshitsuji => nrel_world_premiere: ...(*-> rrel_number_of_year: 2016;;*);;
+
+concept_anime -> ToraDora;;
+
+ToraDora => nrel_metagenre: concept_shonen;;
+
+ToraDora => nrel_world_premiere: ...(*-> rrel_number_of_year: 2016;;*);;

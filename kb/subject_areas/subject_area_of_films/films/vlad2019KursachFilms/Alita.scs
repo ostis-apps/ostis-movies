@@ -1,0 +1,72 @@
+concept_film -> Alita;;
+
+Alita
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Алита]
+	(* <- lang_ru;;	*);
+	[Alita]
+	(* <- lang_en;;	*);;
+	
+Alita <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Алита)](*<-lang_ru;;*);
+		[Description (Alita)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Alita_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Alita_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Alita <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Алита)](*<-lang_ru;;*);
+		[Pic. (Alita)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Alita.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Alita => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 13_02_2019;;
+13_02_2019 => nrel_main_idtf : [13.02.2019](*<-lang_ru;;*);;
+13_02_2019 => nrel_main_idtf : [13.02.2019](*<-lang_en;;*);;
+Alita => nrel_release_date : 13_02_2019;;
+
+Alita => nrel_tagline_of_film : slogan_Alita;;
+slogan_Alita => nrel_main_idtf : [Ангел падёт, и восстанет воин](*<-lang_ru;;*);;
+slogan_Alita => nrel_main_idtf : [An angel will fall and a warrior will rise](*<-lang_en;;*);;
+
+value -> 1_45;;
+1_45 => nrel_main_idtf : [1 час и 55 минут](*<-lang_ru;;*);;
+1_45 => nrel_main_idtf : [1 hour and 45 minutes](*<-lang_en;;*);;
+Alita => nrel_duration_of_showing : 1_45;;
+
+value -> 402_716_169;;
+402_716_169 => nrel_main_idtf : [402 716 169$](*<-lang_ru;;*);;
+402_716_169 => nrel_main_idtf : [402 716 169$](*<-lang_en;;*);;
+Alita <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 402_716_169;;   
+*);;
+
+value -> 8;;
+Alita => nrel_film_critic_rating : 8;;
+
+Alita =>nrel_keywords: action; super_people;kiberpank;;
+Alita =>nrel_age_rating: concept_PG12;;
+
+Alita => nrel_main_actor : Salazar;Valts;;
+Alita => nrel_producer : Cameron;;
+Alita => nrel_screenwriter : Kisiro;;
+

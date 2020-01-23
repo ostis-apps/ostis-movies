@@ -1,0 +1,91 @@
+
+                  concept_series -> The_Rookie;;
+              
+                  The_Rookie
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Rookie]
+                    (* <- lang_ru;;	*);
+                    [The_Rookie]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Rookie <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Rookie)](*<-lang_ru;;*);
+                      [Description (The_Rookie)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Rookie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Rookie_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Rookie <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Rookie)](*<-lang_ru;;*);
+                      [Pic. (The_Rookie)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Rookie.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Rookie => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  The_Rookie => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  The_Rookie => nrel_num_of_seasons: 2;;
+                  value -> 31;;
+                  The_Rookie => nrel_num_of_episodes: 31;;
+                  
+                  value -> 11;;
+                  The_Rookie => nrel_no_countries : 11;;
+                  
+                  value -> 11;;
+                  The_Rookie => nrel_viewers_in_millions: 11;;
+                  
+                  The_Rookie => nrel_age_rating: concept_PG12;;
+                  
+                    The_Rookie => nrel_actor : EricWinter;;
+                    
+                   
+                    The_Rookie => nrel_actor : NathanFillion;;
+                    
+                   
+                    The_Rookie => nrel_actor : MelissaONeil;;
+                    
+                   
+                    The_Rookie => nrel_actor : TitusMakinJr;;
+                    
+                   
+                    The_Rookie => nrel_actor : AlyssaDiaz;;
+                    
+                   
+                    The_Rookie => nrel_actor : RichardTJones;;
+                    
+                   
+                    The_Rookie => nrel_actor : AftonWilliamson;;
+                    
+                   
+                    The_Rookie => nrel_actor : MercedesMashn;;
+                    
+                   
+                    The_Rookie => nrel_actor : MekiaCox;;
+                    
+                  
+                  
+                  The_Rookie
+                  =>nrel_keywords: concept_detectif;;
+                  

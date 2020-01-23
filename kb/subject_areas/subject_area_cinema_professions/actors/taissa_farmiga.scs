@@ -1,0 +1,45 @@
+concept_human -> taissa_farmiga;;
+ 
+ taissa_farmiga <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Таисса Фармига)](*<-lang_ru;;*);
+ 		[Description (Taissa Farmiga)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/taissa_farmiga_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ taissa_farmiga <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Таисса Фармига)](*<-lang_ru;;*);
+ 		[Pic. (Taissa Farmiga)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/taissa_farmiga.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ taissa_farmiga => nrel_main_idtf : [Таисса Фармига](*<-lang_ru;;*);;
+ taissa_farmiga => nrel_main_idtf : [Taissa Farmiga](*<-lang_en;;*);;
+ 
+ 
+ taissa_farmiga => nrel_birth_date : 1994;;
+ 
+ concept_goverment -> Usa;;
+ taissa_farmiga => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ taissa_farmiga => nrel_to_star_in : the_mule;;
+the_mule => nrel_main_idtf : [The Mule](*<-lang_en;;*);;
+the_mule => nrel_main_idtf : [Наркокурьер](*<-lang_ru;;*);;
+

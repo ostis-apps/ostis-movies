@@ -1,0 +1,112 @@
+concept_cinocompany_Disneynature <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия Disneynature ] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio Disneynature] (* <- lang_en;; *);
+=>nrel_location: ... (*->USA;;*);
+=>nrel_foundation_date: ...(*->rrel_number_of_year:1923;;*);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание(киностудия Disneynature)] (* <- lang_ru;; *);
+							   [Statement (film studio Disneynature)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio;
+				concept_The_Walt_Disney_Company;
+				concept_documentary_film
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_film_studio_Disneynature_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_film_studio_Disneynature_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Disneynature)](*<-lang_ru;;*);
+		[Pic. (film studio Disneynature)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_film_studio_Disneynature.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;;
+
+concept_cinocompany_Marvel_Studios <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия Marvel Studios] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio Marvel Studios] (* <- lang_en;; *);
+=>nrel_location: ... (*->USA;;*);
+=>nrel_foundation_date: ...(*->rrel_number_of_year:1923;;*);
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия Marvel Studios)] (* <- lang_ru;; *);
+							   [Statement (film studio Marvel Studios)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio;
+				concept_The_Walt_Disney_Company;
+				concept_film
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_film_studio_Marvel_Studios_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_film_studio_Marvel_Studios_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Marvel Studios)](*<-lang_ru;;*);
+		[Pic. (film studio Marvel Studios)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_film_studio_Marvel_Studios.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;;
+
+concept_cinocompany_Touchstone_Pictures <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия Touchstone Pictures ] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio Touchstone Pictures] (* <- lang_en;; *);
+=>nrel_location: ... (*->USA;;*);
+=>nrel_foundation_date: ...(*->rrel_number_of_year:1923;;*);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия Touchstone Pictures)] (* <- lang_ru;; *);
+							   [Statement (film studio Touchstone Pictures)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio;
+				concept_The_Walt_Disney_Company;
+				concept_film
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_film_studio_Touchstone_Pictures_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_film_studio_Touchstone_Pictures_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Touchstone Pictures)](*<-lang_ru;;*);
+		[Pic. (film studio Touchstone Pictures)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_film_studio_Touchstone_Pictures.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;;

@@ -1,0 +1,45 @@
+concept_human -> luke_perry;;
+ 
+ luke_perry <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Люк Перри)](*<-lang_ru;;*);
+ 		[Description (Luke Perry)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/luke_perry_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ luke_perry <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Люк Перри)](*<-lang_ru;;*);
+ 		[Pic. (Luke Perry)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/luke_perry.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ luke_perry => nrel_main_idtf : [Люк Перри](*<-lang_ru;;*);;
+ luke_perry => nrel_main_idtf : [Luke Perry](*<-lang_en;;*);;
+ 
+ 
+ luke_perry => nrel_birth_date : 1967;;
+ 
+ concept_goverment -> Usa;;
+ luke_perry => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ luke_perry => nrel_to_star_in : once_upon_a_time__in_hollywood;;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Once Upon a Time ... in Hollywood](*<-lang_en;;*);;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Однажды… в Голливуде](*<-lang_ru;;*);;
+

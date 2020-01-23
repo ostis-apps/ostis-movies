@@ -1,0 +1,67 @@
+film_dafna_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Дафна]
+(* <- lang_ru;;    *);
+[Daphne]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Дафна)](*<-lang_ru;;*);
+[Description (Daphne)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/dafna-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/dafna-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дафна)](*<-lang_ru;;*);
+		[Pic. (Daphne)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/dafna-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Daphne](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [29.09.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [29.09.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H28M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H28M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_TV_MA;;
+
+film_dafna_2017 =>nrel_keywords: film;;
+
+film_dafna_2017 <- concept_comedy;concept_drama;;
+
+film_dafna_2017 => nrel_main_actor : emily_beecham;geraldine_james;tom_vaughan_lawlor;nathaniel_martello_white;;
+film_dafna_2017 => nrel_producer : peter_mackie_burns;;

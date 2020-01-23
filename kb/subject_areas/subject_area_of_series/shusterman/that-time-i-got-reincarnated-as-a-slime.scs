@@ -1,0 +1,64 @@
+
+                  concept_series -> That_Time_I_Got_Reincarnated_as_a_Slime;;
+              
+                  That_Time_I_Got_Reincarnated_as_a_Slime
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [That_Time_I_Got_Reincarnated_as_a_Slime]
+                    (* <- lang_ru;;	*);
+                    [That_Time_I_Got_Reincarnated_as_a_Slime]
+                    (* <- lang_en;;	*);;
+                  
+                  That_Time_I_Got_Reincarnated_as_a_Slime <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (That_Time_I_Got_Reincarnated_as_a_Slime)](*<-lang_ru;;*);
+                      [Description (That_Time_I_Got_Reincarnated_as_a_Slime)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/That_Time_I_Got_Reincarnated_as_a_Slime_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/That_Time_I_Got_Reincarnated_as_a_Slime_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  That_Time_I_Got_Reincarnated_as_a_Slime <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (That_Time_I_Got_Reincarnated_as_a_Slime)](*<-lang_ru;;*);
+                      [Pic. (That_Time_I_Got_Reincarnated_as_a_Slime)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/That_Time_I_Got_Reincarnated_as_a_Slime.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  That_Time_I_Got_Reincarnated_as_a_Slime => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  That_Time_I_Got_Reincarnated_as_a_Slime => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  That_Time_I_Got_Reincarnated_as_a_Slime => nrel_num_of_seasons: 2;;
+                  value -> 24;;
+                  That_Time_I_Got_Reincarnated_as_a_Slime => nrel_num_of_episodes: 24;;
+                  
+                  value -> 9;;
+                  That_Time_I_Got_Reincarnated_as_a_Slime => nrel_no_countries : 9;;
+                  
+                  value -> 11;;
+                  That_Time_I_Got_Reincarnated_as_a_Slime => nrel_viewers_in_millions: 11;;
+                  
+                  That_Time_I_Got_Reincarnated_as_a_Slime => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  That_Time_I_Got_Reincarnated_as_a_Slime
+                  =>nrel_keywords: concept_detectif;;
+                  

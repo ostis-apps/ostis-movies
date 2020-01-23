@@ -1,0 +1,45 @@
+concept_human -> alexander_ludwig;;
+ 
+ alexander_ludwig <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Александр Людвиг)](*<-lang_ru;;*);
+ 		[Description (Alexander Ludwig)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/alexander_ludwig_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ alexander_ludwig <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Александр Людвиг)](*<-lang_ru;;*);
+ 		[Pic. (Alexander Ludwig)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/alexander_ludwig.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ alexander_ludwig => nrel_main_idtf : [Александр Людвиг](*<-lang_ru;;*);;
+ alexander_ludwig => nrel_main_idtf : [Alexander Ludwig](*<-lang_en;;*);;
+ 
+ 
+ alexander_ludwig => nrel_birth_date : 1992;;
+ 
+ concept_goverment -> Canada;;
+ alexander_ludwig => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ alexander_ludwig => nrel_to_star_in : the_hunger_games;;
+the_hunger_games => nrel_main_idtf : [The Hunger Games](*<-lang_en;;*);;
+the_hunger_games => nrel_main_idtf : [Голодные игры](*<-lang_ru;;*);;
+

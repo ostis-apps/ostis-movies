@@ -1,0 +1,97 @@
+
+                  concept_series -> The_Handmaid's_Tale;;
+              
+                  The_Handmaid's_Tale
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Handmaid's_Tale]
+                    (* <- lang_ru;;	*);
+                    [The_Handmaid's_Tale]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Handmaid's_Tale <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Handmaid's_Tale)](*<-lang_ru;;*);
+                      [Description (The_Handmaid's_Tale)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Handmaid's_Tale_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Handmaid's_Tale_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Handmaid's_Tale <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Handmaid's_Tale)](*<-lang_ru;;*);
+                      [Pic. (The_Handmaid's_Tale)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Handmaid's_Tale.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Handmaid's_Tale => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  The_Handmaid's_Tale => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  The_Handmaid's_Tale => nrel_num_of_seasons: 3;;
+                  value -> 36;;
+                  The_Handmaid's_Tale => nrel_num_of_episodes: 36;;
+                  
+                  value -> 11;;
+                  The_Handmaid's_Tale => nrel_no_countries : 11;;
+                  
+                  value -> 7;;
+                  The_Handmaid's_Tale => nrel_viewers_in_millions: 7;;
+                  
+                  The_Handmaid's_Tale => nrel_age_rating: concept_PG12;;
+                  
+                    The_Handmaid's_Tale => nrel_actor : ElisabethMoss;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : YvonneStrahovski;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : AnnDowd;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : JosephFiennes;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : AmandaBrugel;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : MaxMinghella;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : MadelineBrewer;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : OTFagbenle;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : SamiraWiley;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : AlexisBledel;;
+                    
+                   
+                    The_Handmaid's_Tale => nrel_actor : BradleyWhitford;;
+                    
+                  
+                  
+                  The_Handmaid's_Tale
+                  =>nrel_keywords: concept_detectif;;
+                  

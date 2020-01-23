@@ -1,0 +1,67 @@
+film_aeroplan_2_prodolzhenie
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Аэроплан 2: Продолжение]
+(* <- lang_ru;;    *);
+[Airplane II: The Sequel]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Аэроплан 2: Продолжение)](*<-lang_ru;;*);
+[Description (Airplane II: The Sequel)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/aeroplan-2-prodolzhenie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/aeroplan-2-prodolzhenie_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Аэроплан 2: Продолжение)](*<-lang_ru;;*);
+		[Pic. (Airplane II: The Sequel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/aeroplan-2-prodolzhenie.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [For the ride of your life... All you need for Christmas are your two front seats! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [10.12.1982](*<-lang_ru;;*);;
+    => nrel_main_idtf : [10.12.1982](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H25M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H25M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_aeroplan_2_prodolzhenie =>nrel_keywords: film;;
+
+film_aeroplan_2_prodolzhenie <- concept_comedy;concept_sci_fi;;
+
+film_aeroplan_2_prodolzhenie => nrel_main_actor : robert_hays;julie_hagerty;lloyd_bridges;raymond_burr;;
+film_aeroplan_2_prodolzhenie => nrel_producer : ken_finkleman;;

@@ -1,0 +1,67 @@
+film_anna_i_apokalipsis_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Анна и апокалипсис]
+(* <- lang_ru;;    *);
+[Anna and the Apocalypse]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Анна и апокалипсис)](*<-lang_ru;;*);
+[Description (Anna and the Apocalypse)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/anna-i-apokalipsis-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/anna-i-apokalipsis-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Анна и апокалипсис)](*<-lang_ru;;*);
+		[Pic. (Anna and the Apocalypse)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/anna-i-apokalipsis-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [A Zombie Christmas Musical See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [29.11.2018](*<-lang_ru;;*);;
+    => nrel_main_idtf : [29.11.2018](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H33M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H33M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_anna_i_apokalipsis_2017 =>nrel_keywords: film;;
+
+film_anna_i_apokalipsis_2017 <- concept_comedy;concept_fantasy;concept_horror;concept_musical;;
+
+film_anna_i_apokalipsis_2017 => nrel_main_actor : ella_hunt;malcolm_cumming;sarah_swire;christopher_leveaux;;
+film_anna_i_apokalipsis_2017 => nrel_producer : john_mcphail;;

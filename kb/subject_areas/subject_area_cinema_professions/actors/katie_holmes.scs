@@ -1,0 +1,48 @@
+concept_human -> katie_holmes;;
+ 
+ katie_holmes <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кэти Холмс)](*<-lang_ru;;*);
+ 		[Description (Katie Holmes)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/katie_holmes_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ katie_holmes <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кэти Холмс)](*<-lang_ru;;*);
+ 		[Pic. (Katie Holmes)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/katie_holmes.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ katie_holmes => nrel_main_idtf : [Кэти Холмс](*<-lang_ru;;*);;
+ katie_holmes => nrel_main_idtf : [Katie Holmes](*<-lang_en;;*);;
+ 
+ 
+ katie_holmes => nrel_birth_date : 1979;;
+ 
+ concept_goverment -> Usa;;
+ katie_holmes => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ katie_holmes => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+katie_holmes => nrel_to_star_in : batman_begins;;
+batman_begins => nrel_main_idtf : [Batman Begins](*<-lang_en;;*);;
+batman_begins => nrel_main_idtf : [Бэтмен: Начало](*<-lang_ru;;*);;
+

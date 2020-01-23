@@ -1,0 +1,67 @@
+film_banovich_strahinya_1981
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Банович Страхиня / Закон любви, Сокол]
+(* <- lang_ru;;    *);
+[Banovic Strahinja / Der Falke]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Банович Страхиня / Закон любви, Сокол)](*<-lang_ru;;*);
+[Description (Banovic Strahinja / Der Falke)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/banovich-strahinya-1981_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/banovich-strahinya-1981_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Банович Страхиня / Закон любви, Сокол)](*<-lang_ru;;*);
+		[Pic. (Banovic Strahinja / Der Falke)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/banovich-strahinya-1981.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : yugoslavia;west_germany;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Banovic Strahinja / Der Falke](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [30.03.1983](*<-lang_ru;;*);;
+    => nrel_main_idtf : [30.03.1983](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H45M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H45M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_banovich_strahinya_1981 =>nrel_keywords: film;;
+
+film_banovich_strahinya_1981 <- concept_action;concept_biography;concept_drama;concept_history;concept_romance;;
+
+film_banovich_strahinya_1981 => nrel_main_actor : franco_nero;dragan_nikolic;sanja_vejnovic;rade_serbedzija;;
+film_banovich_strahinya_1981 => nrel_producer : vatroslav_mimica;;

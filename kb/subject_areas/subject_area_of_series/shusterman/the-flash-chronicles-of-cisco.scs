@@ -1,0 +1,70 @@
+
+                  concept_series -> The_Flash:_Chronicles_of_Cisco;;
+              
+                  The_Flash:_Chronicles_of_Cisco
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Flash: _Chronicles_of_Cisco]
+                    (* <- lang_ru;;	*);
+                    [The_Flash:_Chronicles_of_Cisco]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Flash:_Chronicles_of_Cisco <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Flash: _Chronicles_of_Cisco)](*<-lang_ru;;*);
+                      [Description (The_Flash:_Chronicles_of_Cisco)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Flash:_Chronicles_of_Cisco_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Flash:_Chronicles_of_Cisco_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Flash:_Chronicles_of_Cisco <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Flash: _Chronicles_of_Cisco)](*<-lang_ru;;*);
+                      [Pic. (The_Flash:_Chronicles_of_Cisco)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Flash:_Chronicles_of_Cisco.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Flash:_Chronicles_of_Cisco => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  The_Flash:_Chronicles_of_Cisco => nrel_production_year : 2016;;
+                  
+                  value -> 1;;
+                  The_Flash:_Chronicles_of_Cisco => nrel_num_of_seasons: 1;;
+                  value -> 4;;
+                  The_Flash:_Chronicles_of_Cisco => nrel_num_of_episodes: 4;;
+                  
+                  value -> 8;;
+                  The_Flash:_Chronicles_of_Cisco => nrel_no_countries : 8;;
+                  
+                  value -> 11;;
+                  The_Flash:_Chronicles_of_Cisco => nrel_viewers_in_millions: 11;;
+                  
+                  The_Flash:_Chronicles_of_Cisco => nrel_age_rating: concept_PG12;;
+                  
+                    The_Flash:_Chronicles_of_Cisco => nrel_actor : CarlosValds;;
+                    
+                   
+                    The_Flash:_Chronicles_of_Cisco => nrel_actor : BritneOldford;;
+                    
+                  
+                  
+                  The_Flash:_Chronicles_of_Cisco
+                  =>nrel_keywords: concept_detectif;;
+                  

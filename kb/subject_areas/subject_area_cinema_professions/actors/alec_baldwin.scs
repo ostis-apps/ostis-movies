@@ -1,0 +1,51 @@
+concept_human -> alec_baldwin;;
+ 
+ alec_baldwin <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Алек Болдуин)](*<-lang_ru;;*);
+ 		[Description (Alec Baldwin)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/alec_baldwin_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ alec_baldwin <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Алек Болдуин)](*<-lang_ru;;*);
+ 		[Pic. (Alec Baldwin)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/alec_baldwin.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ alec_baldwin => nrel_main_idtf : [Алек Болдуин](*<-lang_ru;;*);;
+ alec_baldwin => nrel_main_idtf : [Alec Baldwin](*<-lang_en;;*);;
+ 
+ 
+ alec_baldwin => nrel_birth_date : 1958;;
+ 
+ concept_goverment -> Usa;;
+ alec_baldwin => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ alec_baldwin => nrel_to_star_in : a_star_is_born;;
+a_star_is_born => nrel_main_idtf : [A Star Is Born](*<-lang_en;;*);;
+a_star_is_born => nrel_main_idtf : [Звезда родилась](*<-lang_ru;;*);;
+alec_baldwin => nrel_to_star_in : the_departed;;
+the_departed => nrel_main_idtf : [The Departed](*<-lang_en;;*);;
+the_departed => nrel_main_idtf : [Отступники](*<-lang_ru;;*);;
+alec_baldwin => nrel_to_star_in : the_aviator;;
+the_aviator => nrel_main_idtf : [The Aviator](*<-lang_en;;*);;
+the_aviator => nrel_main_idtf : [Авиатор](*<-lang_ru;;*);;
+

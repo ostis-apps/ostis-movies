@@ -1,0 +1,88 @@
+concept_Inside_Out
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Головоломка]
+	(* <- lang_ru;;	*);
+	[Inside Out]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Головоломка)](*<-lang_ru;;*);
+		[Description (Inside Out)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Inside_Out_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Inside_Out_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+=>nrel_main_producer: Pete_Docter;
+=>nrel_producer: Jonas_Rivera;
+=>nrel_production_country: USA;
+=>nrel_production_year:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2015
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 95
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 857611174
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	<-character_Joy;;
+	<-character_Sadness;;
+	<-character_Disgust;;
+ 	<-character_Anger;;
+ 	<-character_Fear;; 
+	<-character_Bingo_Bongo;;
+	<-character_Riley_Anderson;;
+	*);
+=>nrel_age_rating: concept_PG6;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Головоломка)](*<-lang_ru;;*);
+		[Pic. (Inside Out)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Inside_Out.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Pete_Docter
+=>nrel_main_idtf:
+		[Пит Доктер](*<-lang_ru;;*);
+		[Pete Docter ](*<-lang_en;;*);;

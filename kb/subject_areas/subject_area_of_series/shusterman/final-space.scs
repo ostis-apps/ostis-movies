@@ -1,0 +1,106 @@
+
+                  concept_series -> Final_Space;;
+              
+                  Final_Space
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Final_Space]
+                    (* <- lang_ru;;	*);
+                    [Final_Space]
+                    (* <- lang_en;;	*);;
+                  
+                  Final_Space <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Final_Space)](*<-lang_ru;;*);
+                      [Description (Final_Space)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Final_Space_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Final_Space_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Final_Space <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Final_Space)](*<-lang_ru;;*);
+                      [Pic. (Final_Space)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Final_Space.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Final_Space => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Final_Space => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  Final_Space => nrel_num_of_seasons: 3;;
+                  value -> 23;;
+                  Final_Space => nrel_num_of_episodes: 23;;
+                  
+                  value -> 13;;
+                  Final_Space => nrel_no_countries : 13;;
+                  
+                  value -> 4;;
+                  Final_Space => nrel_viewers_in_millions: 4;;
+                  
+                  Final_Space => nrel_age_rating: concept_PG12;;
+                  
+                    Final_Space => nrel_actor : OlanRogers;;
+                    
+                   
+                    Final_Space => nrel_actor : FredArmisen;;
+                    
+                   
+                    Final_Space => nrel_actor : TomKenny;;
+                    
+                   
+                    Final_Space => nrel_actor : OlanRogers;;
+                    
+                   
+                    Final_Space => nrel_actor : StevenYeun;;
+                    
+                   
+                    Final_Space => nrel_actor : OlanRogers;;
+                    
+                   
+                    Final_Space => nrel_actor : AshlyBurch;;
+                    
+                   
+                    Final_Space => nrel_actor : JaneLynch;;
+                    
+                   
+                    Final_Space => nrel_actor : RonFunches;;
+                    
+                   
+                    Final_Space => nrel_actor : TikaSumpter;;
+                    
+                   
+                    Final_Space => nrel_actor : TikaSumpter;;
+                    
+                   
+                    Final_Space => nrel_actor : DavidTennant;;
+                    
+                   
+                    Final_Space => nrel_actor : ConanOBrien;;
+                    
+                   
+                    Final_Space => nrel_actor : CotyGalloway;;
+                    
+                  
+                  
+                  Final_Space
+                  =>nrel_keywords: concept_detectif;;
+                  

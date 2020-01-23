@@ -1,0 +1,115 @@
+
+                  concept_series -> Fargo;;
+              
+                  Fargo
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Fargo]
+                    (* <- lang_ru;;	*);
+                    [Fargo]
+                    (* <- lang_en;;	*);;
+                  
+                  Fargo <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Fargo)](*<-lang_ru;;*);
+                      [Description (Fargo)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Fargo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Fargo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Fargo <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Fargo)](*<-lang_ru;;*);
+                      [Pic. (Fargo)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Fargo.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Fargo => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Fargo => nrel_production_year : 2014;;
+                  
+                  value -> 4;;
+                  Fargo => nrel_num_of_seasons: 4;;
+                  value -> 30;;
+                  Fargo => nrel_num_of_episodes: 30;;
+                  
+                  value -> 7;;
+                  Fargo => nrel_no_countries : 7;;
+                  
+                  value -> 7;;
+                  Fargo => nrel_viewers_in_millions: 7;;
+                  
+                  Fargo => nrel_age_rating: concept_PG12;;
+                  
+                    Fargo => nrel_actor : AllisonTolman;;
+                    
+                   
+                    Fargo => nrel_actor : ColinHanks;;
+                    
+                   
+                    Fargo => nrel_actor : JessePlemons;;
+                    
+                   
+                    Fargo => nrel_actor : TedDanson;;
+                    
+                   
+                    Fargo => nrel_actor : CarrieCoon;;
+                    
+                   
+                    Fargo => nrel_actor : PatrickWilson;;
+                    
+                   
+                    Fargo => nrel_actor : BillyBobThornton;;
+                    
+                   
+                    Fargo => nrel_actor : MartinFreeman;;
+                    
+                   
+                    Fargo => nrel_actor : KirstenDunst;;
+                    
+                   
+                    Fargo => nrel_actor : JeanSmart;;
+                    
+                   
+                    Fargo => nrel_actor : MaryElizabethWinstead;;
+                    
+                   
+                    Fargo => nrel_actor : DavidThewlis;;
+                    
+                   
+                    Fargo => nrel_actor : EwanMcGregor;;
+                    
+                   
+                    Fargo => nrel_actor : GoranBogdan;;
+                    
+                   
+                    Fargo => nrel_actor : EwanMcGregor;;
+                    
+                   
+                    Fargo => nrel_actor : ChrisCasson;;
+                    
+                   
+                    Fargo => nrel_actor : TimothyOlyphant;;
+                    
+                  
+                  
+                  Fargo
+                  =>nrel_keywords: concept_detectif;;
+                  

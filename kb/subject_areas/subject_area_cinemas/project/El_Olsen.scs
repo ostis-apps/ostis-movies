@@ -1,0 +1,51 @@
+concept_human -> El_Olsen;;
+
+El_Olsen
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Элизабет Чейз Олсен]
+	(* <- lang_ru;;	*);
+	[Elizabeth Chase Olsen]
+	(* <- lang_en;;	*);;
+	
+El_Olsen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Элизабет Чейз Олсен)](*<-lang_ru;;*);
+		[Description (Elizabeth Chase Olsen)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        film_studio_Marvel_Studios
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/El_Olsen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/El_Olsen_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+El_Olsen <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Элизабет Чейз Олсен)](*<-lang_ru;;*);
+		[Pic. (Elizabeth Chase Olsen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/El_Olsen.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1989;;
+El_Olsen=>nrel_date_of_birth: 1989;;
+1989=>nrel_main_idtf:[1989 год](*<-lang_ru;;*);;
+1989=>nrel_main_idtf:[year of 1989](*<-lang_en;;*);;
+
+concept_calendar_date->1993;;
+El_Olsen=>nrel_career_start_date: 1993;;
+1993=>nrel_main_idtf:[1993 год](*<-lang_ru;;*);;
+1993=>nrel_main_idtf:[year of 1993](*<-lang_en;;*);;
+
+El_Olsen =>nrel_cityzenship:Usa;;

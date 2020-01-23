@@ -1,0 +1,45 @@
+concept_human -> harris_dickinson;;
+ 
+ harris_dickinson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Харрис Дикинсон)](*<-lang_ru;;*);
+ 		[Description (Harris Dickinson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/harris_dickinson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ harris_dickinson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Харрис Дикинсон)](*<-lang_ru;;*);
+ 		[Pic. (Harris Dickinson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/harris_dickinson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ harris_dickinson => nrel_main_idtf : [Харрис Дикинсон](*<-lang_ru;;*);;
+ harris_dickinson => nrel_main_idtf : [Harris Dickinson](*<-lang_en;;*);;
+ 
+ 
+ harris_dickinson => nrel_birth_date : 1996;;
+ 
+ concept_goverment -> UK;;
+ harris_dickinson => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ harris_dickinson => nrel_to_star_in : maleficent_mistress_of_evil;;
+maleficent_mistress_of_evil => nrel_main_idtf : [Maleficent: Mistress of Evil](*<-lang_en;;*);;
+maleficent_mistress_of_evil => nrel_main_idtf : [Малефисента: Владычица тьмы](*<-lang_ru;;*);;
+

@@ -1,0 +1,7 @@
+mir_cinema
+=>nrel_main_idtf:
+	[кинотеатр Мир](*<-lang_ru;;*);
+	[World cinema](*<-lang_en;;*);
+<- concept_3Dcinema;
+=> nrel_cinema_location: minsk;
+<- concept_cinema;;

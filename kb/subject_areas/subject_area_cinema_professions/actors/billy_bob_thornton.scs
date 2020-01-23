@@ -1,0 +1,48 @@
+concept_human -> billy_bob_thornton;;
+ 
+ billy_bob_thornton <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Билли Боб Торнтон)](*<-lang_ru;;*);
+ 		[Description (Billy Bob Thornton)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/billy_bob_thornton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ billy_bob_thornton <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Билли Боб Торнтон)](*<-lang_ru;;*);
+ 		[Pic. (Billy Bob Thornton)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/billy_bob_thornton.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ billy_bob_thornton => nrel_main_idtf : [Билли Боб Торнтон](*<-lang_ru;;*);;
+ billy_bob_thornton => nrel_main_idtf : [Billy Bob Thornton](*<-lang_en;;*);;
+ 
+ 
+ billy_bob_thornton => nrel_birth_date : 1955;;
+ 
+ concept_goverment -> Usa;;
+ billy_bob_thornton => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ billy_bob_thornton => nrel_to_star_in : the_man_who_wasnt_there;;
+the_man_who_wasnt_there => nrel_main_idtf : [The Man Who Wasn't There](*<-lang_en;;*);;
+the_man_who_wasnt_there => nrel_main_idtf : [Человек, которого не было](*<-lang_ru;;*);;
+billy_bob_thornton => nrel_to_star_in : on_deadly_ground;;
+on_deadly_ground => nrel_main_idtf : [On Deadly Ground](*<-lang_en;;*);;
+on_deadly_ground => nrel_main_idtf : [Зона смертельной опасности](*<-lang_ru;;*);;
+

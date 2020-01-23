@@ -1,0 +1,67 @@
+film_buntarka_bez_prichiny_2018
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бунтарка без причины]
+(* <- lang_ru;;    *);
+[Wild Honey Pie]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бунтарка без причины)](*<-lang_ru;;*);
+[Description (Wild Honey Pie)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/buntarka-bez-prichiny-2018_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/buntarka-bez-prichiny-2018_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бунтарка без причины)](*<-lang_ru;;*);
+		[Pic. (Wild Honey Pie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/buntarka-bez-prichiny-2018.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Wild Honey Pie](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [14.06.2019](*<-lang_ru;;*);;
+    => nrel_main_idtf : [14.06.2019](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H27M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H27M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_buntarka_bez_prichiny_2018 =>nrel_keywords: film;;
+
+film_buntarka_bez_prichiny_2018 <- concept_comedy;concept_drama;;
+
+film_buntarka_bez_prichiny_2018 => nrel_main_actor : jemima_kirke;richard_elis;sarah_solemani;alice_lowe;;
+film_buntarka_bez_prichiny_2018 => nrel_producer : jamie_adams;;

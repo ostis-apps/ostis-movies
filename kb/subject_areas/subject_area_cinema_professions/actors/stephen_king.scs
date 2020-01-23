@@ -1,0 +1,51 @@
+concept_human -> stephen_king;;
+ 
+ stephen_king <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Стивен Кинг)](*<-lang_ru;;*);
+ 		[Description (Stephen King)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/stephen_king_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ stephen_king <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Стивен Кинг)](*<-lang_ru;;*);
+ 		[Pic. (Stephen King)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/stephen_king.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ stephen_king => nrel_main_idtf : [Стивен Кинг](*<-lang_ru;;*);;
+ stephen_king => nrel_main_idtf : [Stephen King](*<-lang_en;;*);;
+ 
+ 
+ stephen_king => nrel_birth_date : 1947;;
+ 
+ concept_goverment -> Usa;;
+ stephen_king => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ stephen_king => nrel_to_star_in : pet_sematary;;
+pet_sematary => nrel_main_idtf : [Pet Sematary](*<-lang_en;;*);;
+pet_sematary => nrel_main_idtf : [Кладбище домашних животных](*<-lang_ru;;*);;
+stephen_king => nrel_to_star_in : it_chapter_two;;
+it_chapter_two => nrel_main_idtf : [It Chapter Two](*<-lang_en;;*);;
+it_chapter_two => nrel_main_idtf : [Оно 2](*<-lang_ru;;*);;
+stephen_king => nrel_to_star_in : the_green_mile;;
+the_green_mile => nrel_main_idtf : [The Green Mile](*<-lang_en;;*);;
+the_green_mile => nrel_main_idtf : [Зеленая миля](*<-lang_ru;;*);;
+

@@ -1,0 +1,52 @@
+nrel_parent_company <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [parent company*](*<- lang_en;;*);
+    [материнская компания*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (parent company*)](*<- lang_ru;;*);
+        [Def. (материнская компания*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_parent_company_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_parent_company_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_company;
+       concept_team
+    };;
+*);
+
+=> nrel_first_domain: ...(*
+    ->concept_company;;
+    ->concept_team;;
+    *);
+=> nrel_second_domain: ...(*
+    ->concept_company;;
+    ->concept_team;;
+    *);
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_team;;
+        -> concept_company;;
+    *);;
+*);
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (материнская компания*)](*<-lang_ru;;*);
+		    [Pic. (parent company*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		    ->"file://IMG/step0001_88_650x410.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

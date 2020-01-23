@@ -1,0 +1,45 @@
+concept_human -> kathy_bates;;
+ 
+ kathy_bates <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кэти Бэйтс)](*<-lang_ru;;*);
+ 		[Description (Kathy Bates)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kathy_bates_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kathy_bates <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кэти Бэйтс)](*<-lang_ru;;*);
+ 		[Pic. (Kathy Bates)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kathy_bates.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kathy_bates => nrel_main_idtf : [Кэти Бэйтс](*<-lang_ru;;*);;
+ kathy_bates => nrel_main_idtf : [Kathy Bates](*<-lang_en;;*);;
+ 
+ 
+ kathy_bates => nrel_birth_date : 1948;;
+ 
+ concept_goverment -> Usa;;
+ kathy_bates => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kathy_bates => nrel_to_star_in : titanic;;
+titanic => nrel_main_idtf : [Titanic](*<-lang_en;;*);;
+titanic => nrel_main_idtf : [Титаник](*<-lang_ru;;*);;
+

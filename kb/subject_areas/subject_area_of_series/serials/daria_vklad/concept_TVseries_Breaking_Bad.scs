@@ -1,0 +1,67 @@
+concept_series -> Breaking_Bad;;
+
+Breaking_Bad
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Во все тяжкие]
+	(* <- lang_ru;;	*);
+	[Breaking Bad]
+	(* <- lang_en;;	*);;
+	
+Breaking_Bad <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Во все тяжкие)](*<-lang_ru;;*);
+		[Description (Breaking Bad)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Breaking_Bad_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Breaking_Bad_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Breaking_Bad <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Во все тяжкие)](*<-lang_ru;;*);
+		[Pic. (Breaking Bad)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Breaking_Bad.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Breaking_Bad => nrel_production_country : Usa;;
+
+
+Breaking_Bad => nrel_world_premiere: ...(* -> rrel_number_of_year: 2008;;*);;
+	
+value -> 5;;
+Breaking_Bad => nrel_num_of_seasons: 5;;
+value -> 62;;
+Breaking_Bad => nrel_num_of_episodes: 62;;
+	
+value -> 20;;
+Breaking_Bad => nrel_no_countries : 20;;
+
+value -> 9;;
+Breaking_Bad => nrel_viewers_in_millions: 9;;
+
+Breaking_Bad => nrel_age_rating: concept_PG12;;
+
+
+Breaking_Bad => nrel_actor : Bryan_Cranston;;
+Breaking_Bad => nrel_actor : Aaron_Paul;;
+
+Breaking_Bad
+=>nrel_keywords: concept_drugs;
+=>nrel_keywords: concept_mafia;
+=>nrel_keywords: concept_chemistry;
+=>nrel_keywords: concept_cancer;;
+

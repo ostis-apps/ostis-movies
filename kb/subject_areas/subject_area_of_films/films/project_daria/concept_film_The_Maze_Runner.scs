@@ -1,0 +1,31 @@
+concept_film_The_Maze_Runner
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бегущий в лабиринте]
+	(* <- lang_ru;;	*);
+	[The Maze Runner]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бегущий в лабиринте)](*<-lang_ru;;*);
+		[Description (The Maze Runner)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Бегущий в лабиринте.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The Maze Runner.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_teenager;
+=>nrel_keywords:concept_maze; 
+=>nrel_keywords:concept_escape;	
+=>nrel_age_rating: concept_PG12;;	

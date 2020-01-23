@@ -1,0 +1,100 @@
+
+                  concept_series -> The_Witcher;;
+              
+                  The_Witcher
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Ведьмак]
+                    (* <- lang_ru;;	*);
+                    [The_Witcher]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Witcher <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Ведьмак)](*<-lang_ru;;*);
+                      [Description (The_Witcher)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Witcher_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Witcher_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Witcher <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Ведьмак)](*<-lang_ru;;*);
+                      [Pic. (The_Witcher)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Witcher.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Witcher => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  The_Witcher => nrel_production_year : 2019;;
+                  
+                  value -> 2;;
+                  The_Witcher => nrel_num_of_seasons: 2;;
+                  value -> 8;;
+                  The_Witcher => nrel_num_of_episodes: 8;;
+                  
+                  value -> 5;;
+                  The_Witcher => nrel_no_countries : 5;;
+                  
+                  value -> 8;;
+                  The_Witcher => nrel_viewers_in_millions: 8;;
+                  
+                  The_Witcher => nrel_age_rating: concept_PG12;;
+                  
+                    The_Witcher => nrel_actor : HenryCavill;;
+                    
+                   
+                    The_Witcher => nrel_actor : JodhiMay;;
+                    
+                   
+                    The_Witcher => nrel_actor : BjrnHlynurHaraldsson;;
+                    
+                   
+                    The_Witcher => nrel_actor : AdamLevy;;
+                    
+                   
+                    The_Witcher => nrel_actor : EmmaAppleton;;
+                    
+                   
+                    The_Witcher => nrel_actor : EllaRaeSmith;;
+                    
+                   
+                    The_Witcher => nrel_actor : MimiNdiweni;;
+                    
+                   
+                    The_Witcher => nrel_actor : FreyaAllan;;
+                    
+                   
+                    The_Witcher => nrel_actor : AnyaChalotra;;
+                    
+                   
+                    The_Witcher => nrel_actor : MyAnnaBuring;;
+                    
+                   
+                    The_Witcher => nrel_actor : ThericaWilsonRead;;
+                    
+                   
+                    The_Witcher => nrel_actor : AnnaLouisePlowman;;
+                    
+                  
+                  
+                  The_Witcher
+                  =>nrel_keywords: concept_detectif;;
+                  

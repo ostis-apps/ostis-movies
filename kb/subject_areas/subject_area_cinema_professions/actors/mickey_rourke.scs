@@ -1,0 +1,66 @@
+concept_human -> mickey_rourke;;
+ 
+ mickey_rourke <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Микки Рурк)](*<-lang_ru;;*);
+ 		[Description (Mickey Rourke)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/mickey_rourke_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ mickey_rourke <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Микки Рурк)](*<-lang_ru;;*);
+ 		[Pic. (Mickey Rourke)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/mickey_rourke.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ mickey_rourke => nrel_main_idtf : [Микки Рурк](*<-lang_ru;;*);;
+ mickey_rourke => nrel_main_idtf : [Mickey Rourke](*<-lang_en;;*);;
+ 
+ 
+ mickey_rourke => nrel_birth_date : 1952;;
+ 
+ concept_goverment -> Usa;;
+ mickey_rourke => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ mickey_rourke => nrel_to_star_in : sin_city_a_dame_to_kill_for;;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Sin City: A Dame to Kill For](*<-lang_en;;*);;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Город грехов 2: Женщина, ради которой стоит убивать](*<-lang_ru;;*);;
+mickey_rourke => nrel_to_star_in : iron_man_2;;
+iron_man_2 => nrel_main_idtf : [Iron Man 2](*<-lang_en;;*);;
+iron_man_2 => nrel_main_idtf : [Железный человек 2](*<-lang_ru;;*);;
+mickey_rourke => nrel_to_star_in : the_wrestler;;
+the_wrestler => nrel_main_idtf : [The Wrestler](*<-lang_en;;*);;
+the_wrestler => nrel_main_idtf : [Рестлер](*<-lang_ru;;*);;
+mickey_rourke => nrel_to_star_in : sin_city;;
+sin_city => nrel_main_idtf : [Sin City](*<-lang_en;;*);;
+sin_city => nrel_main_idtf : [Город грехов](*<-lang_ru;;*);;
+mickey_rourke => nrel_to_star_in : bullet;;
+bullet => nrel_main_idtf : [Bullet](*<-lang_en;;*);;
+bullet => nrel_main_idtf : [Пуля](*<-lang_ru;;*);;
+mickey_rourke => nrel_to_star_in : wild_orchid;;
+wild_orchid => nrel_main_idtf : [Wild Orchid](*<-lang_en;;*);;
+wild_orchid => nrel_main_idtf : [Дикая орхидея](*<-lang_ru;;*);;
+mickey_rourke => nrel_to_star_in : nine_1_2_weeks;;
+nine_1_2_weeks => nrel_main_idtf : [Nine 1/2 Weeks](*<-lang_en;;*);;
+nine_1_2_weeks => nrel_main_idtf : [9 1/2 недель](*<-lang_ru;;*);;
+mickey_rourke => nrel_to_star_in : rumble_fish;;
+rumble_fish => nrel_main_idtf : [Rumble Fish](*<-lang_en;;*);;
+rumble_fish => nrel_main_idtf : [Бойцовая рыбка](*<-lang_ru;;*);;
+

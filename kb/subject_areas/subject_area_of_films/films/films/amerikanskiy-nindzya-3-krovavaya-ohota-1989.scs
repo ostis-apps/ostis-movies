@@ -1,0 +1,67 @@
+film_amerikanskiy_nindzya_3_krovavaya_ohota_1989
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американский ниндзя 3: Кровавая охота]
+(* <- lang_ru;;    *);
+[American Ninja 3: Blood Hunt]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американский ниндзя 3: Кровавая охота)](*<-lang_ru;;*);
+[Description (American Ninja 3: Blood Hunt)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskiy-nindzya-3-krovavaya-ohota-1989_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskiy-nindzya-3-krovavaya-ohota-1989_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американский ниндзя 3: Кровавая охота)](*<-lang_ru;;*);
+		[Pic. (American Ninja 3: Blood Hunt)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskiy-nindzya-3-krovavaya-ohota-1989.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;canada;south_africa;
+
+=> nrel_film_critic_rating : 4;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Now his most deadly enemy ... is time. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [24.02.1989](*<-lang_ru;;*);;
+    => nrel_main_idtf : [24.02.1989](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H29M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H29M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_amerikanskiy_nindzya_3_krovavaya_ohota_1989 =>nrel_keywords: film;;
+
+film_amerikanskiy_nindzya_3_krovavaya_ohota_1989 <- concept_action;concept_drama;;
+
+film_amerikanskiy_nindzya_3_krovavaya_ohota_1989 => nrel_main_actor : david_bradley;steve_james;marjoe_gortner;michele_b._chan;;
+film_amerikanskiy_nindzya_3_krovavaya_ohota_1989 => nrel_producer : cedric_sundstrom;;

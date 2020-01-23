@@ -1,0 +1,397 @@
+concept_horror
+<- sc_node_not_relation;
+=> nrel_main_idtf:	
+    [Ужасы]	
+    (* <- lang_ru;;	*);
+    [Horror]
+    (* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_clown
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Клоун]
+	
+(* <- lang_ru;;	*);
+	
+[Clown]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_abduction
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Похищение]
+	
+(* <- lang_ru;;	*);
+	
+[Abduction]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_murders
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Убийства]
+	
+(* <- lang_ru;;	*);
+	
+[Murders]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_abduction
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Похищение]
+	
+(* <- lang_ru;;	*);
+	
+[Abduction]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_bodyguard
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Телохранитель]
+	
+(* <- lang_ru;;	*);
+	
+[Bodyguard]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_humor
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Юмор]
+	
+(* <- lang_ru;;	*);
+	
+[Humor]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_survival<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Выживание]
+	
+(* <- lang_ru;;	*);
+	
+[Survival]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_marvel<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Марвел]
+	
+(* <- lang_ru;;	*);
+	
+[Marvel]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_fantastic<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Фантастика]
+	
+(* <- lang_ru;;	*);
+	
+[Fantastic]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_Xmen<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Люди икс]
+	
+(* <- lang_ru;;	*);
+	
+[X-men]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_psychological_thriller<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Психологический триллер]
+	
+(* <- lang_ru;;	*);
+	
+[Psychological_thriller]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_experiments_on_people<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Эксперименты над людьми]
+	
+(* <- lang_ru;;	*);
+	
+[Experiments on people]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_space_adventure<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Приключения в космосе]
+	
+(* <- lang_ru;;	*);
+	
+[Space adventure]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_aliens<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Инопланетяне]
+	
+(* <- lang_ru;;	*);
+	
+[Aliens]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_cia<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[ЦРУ]
+	
+(* <- lang_ru;;	*);
+	
+[CIA]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_criminal<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Криминал]
+	
+(* <- lang_ru;;	*);
+	
+[Criminal]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_drugs<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Наркотики]
+	
+(* <- lang_ru;;	*);
+	
+[Drugs]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_filmstudio_DC<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[киностудия DC]
+	
+(* <- lang_ru;;	*);
+	
+[filmstudio DC]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_superman<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Супермен]
+	
+(* <- lang_ru;;	*);
+	
+[Superman]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_batman<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Бэтмэн]
+	
+(* <- lang_ru;;	*);
+	
+[Batman]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_sport<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Спорт]
+	
+(* <- lang_ru;;	*);
+	
+[Sport]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_russian<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Русский]
+	
+(* <- lang_ru;;	*);
+	
+[Russian]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_basketball<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Баскетбол]
+	
+(* <- lang_ru;;	*);
+	
+[Basketball]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_otherworldly<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Потусторонее]
+	
+(* <- lang_ru;;	*);
+	
+[Otherworldly]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_jugnle<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Джунгли]
+	
+(* <- lang_ru;;	*);
+	
+[Jungle]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_adventure<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Приключения]
+	
+(* <- lang_ru;;	*);
+	
+[Adventure]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+concept_revenge<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Месть]
+	
+(* <- lang_ru;;	*);
+	
+[Revenge]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+

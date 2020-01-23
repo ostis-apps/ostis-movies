@@ -1,0 +1,54 @@
+concept_human -> john_malkovich;;
+ 
+ john_malkovich <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джон Малкович)](*<-lang_ru;;*);
+ 		[Description (John Malkovich)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/john_malkovich_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ john_malkovich <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джон Малкович)](*<-lang_ru;;*);
+ 		[Pic. (John Malkovich)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/john_malkovich.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ john_malkovich => nrel_main_idtf : [Джон Малкович](*<-lang_ru;;*);;
+ john_malkovich => nrel_main_idtf : [John Malkovich](*<-lang_en;;*);;
+ 
+ 
+ john_malkovich => nrel_birth_date : 1954;;
+ 
+ concept_goverment -> Usa;;
+ john_malkovich => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ john_malkovich => nrel_to_star_in : pro_lyubov_tolko_dlya_vzroslyh;;
+pro_lyubov_tolko_dlya_vzroslyh => nrel_main_idtf : [Pro lyubov. Tolko dlya vzroslyh](*<-lang_en;;*);;
+pro_lyubov_tolko_dlya_vzroslyh => nrel_main_idtf : [Про любовь. Только для взрослых](*<-lang_ru;;*);;
+john_malkovich => nrel_to_star_in : changeling;;
+changeling => nrel_main_idtf : [Changeling](*<-lang_en;;*);;
+changeling => nrel_main_idtf : [Подмена](*<-lang_ru;;*);;
+john_malkovich => nrel_to_star_in : being_john_malkovich;;
+being_john_malkovich => nrel_main_idtf : [Being John Malkovich](*<-lang_en;;*);;
+being_john_malkovich => nrel_main_idtf : [Быть Джоном Малковичем](*<-lang_ru;;*);;
+john_malkovich => nrel_to_star_in : the_man_in_the_iron_mask;;
+the_man_in_the_iron_mask => nrel_main_idtf : [The Man in the Iron Mask](*<-lang_en;;*);;
+the_man_in_the_iron_mask => nrel_main_idtf : [Человек в железной маске](*<-lang_ru;;*);;
+

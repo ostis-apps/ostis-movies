@@ -1,0 +1,28 @@
+concept_film_Cry_Baby
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Плакса](* <- lang_ru;; *);
+	[Cry-Baby](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Плакса)](*<-lang_ru;;*);
+		[Description (Cry-Baby)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Плакса.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Cry-Baby.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_rock_and_roll;
+=> nrel_keywords: concept_teenager;
+=> nrel_keywords: concept_love;
+=> nrel_keywords: concept_bully;
+=> nrel_age_rating: concept_PG12;;

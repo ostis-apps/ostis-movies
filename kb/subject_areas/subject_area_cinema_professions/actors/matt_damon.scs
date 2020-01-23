@@ -1,0 +1,66 @@
+concept_human -> matt_damon;;
+ 
+ matt_damon <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэтт Дэймон)](*<-lang_ru;;*);
+ 		[Description (Matt Damon)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/matt_damon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ matt_damon <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэтт Дэймон)](*<-lang_ru;;*);
+ 		[Pic. (Matt Damon)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/matt_damon.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ matt_damon => nrel_main_idtf : [Мэтт Дэймон](*<-lang_ru;;*);;
+ matt_damon => nrel_main_idtf : [Matt Damon](*<-lang_en;;*);;
+ 
+ 
+ matt_damon => nrel_birth_date : 1970;;
+ 
+ concept_goverment -> Usa;;
+ matt_damon => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ matt_damon => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+matt_damon => nrel_to_star_in : deadpool_2;;
+deadpool_2 => nrel_main_idtf : [Deadpool 2](*<-lang_en;;*);;
+deadpool_2 => nrel_main_idtf : [Дэдпул 2](*<-lang_ru;;*);;
+matt_damon => nrel_to_star_in : interstellar;;
+interstellar => nrel_main_idtf : [Interstellar](*<-lang_en;;*);;
+interstellar => nrel_main_idtf : [Интерстеллар](*<-lang_ru;;*);;
+matt_damon => nrel_to_star_in : oceans_thirteen;;
+oceans_thirteen => nrel_main_idtf : [Ocean`s Thirteen](*<-lang_en;;*);;
+oceans_thirteen => nrel_main_idtf : [Тринадцать друзей Оушена](*<-lang_ru;;*);;
+matt_damon => nrel_to_star_in : the_departed;;
+the_departed => nrel_main_idtf : [The Departed](*<-lang_en;;*);;
+the_departed => nrel_main_idtf : [Отступники](*<-lang_ru;;*);;
+matt_damon => nrel_to_star_in : oceans_twelve;;
+oceans_twelve => nrel_main_idtf : [Ocean`s Twelve](*<-lang_en;;*);;
+oceans_twelve => nrel_main_idtf : [Двенадцать друзей Оушена](*<-lang_ru;;*);;
+matt_damon => nrel_to_star_in : oceans_eleven;;
+oceans_eleven => nrel_main_idtf : [Ocean`s Eleven](*<-lang_en;;*);;
+oceans_eleven => nrel_main_idtf : [Одиннадцать друзей Оушена](*<-lang_ru;;*);;
+matt_damon => nrel_to_star_in : saving_private_ryan;;
+saving_private_ryan => nrel_main_idtf : [Saving Private Ryan](*<-lang_en;;*);;
+saving_private_ryan => nrel_main_idtf : [Спасти рядового Райана](*<-lang_ru;;*);;
+

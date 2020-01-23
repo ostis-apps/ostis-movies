@@ -1,0 +1,45 @@
+concept_human -> sofia_coppola;;
+ 
+ sofia_coppola <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (София Коппола)](*<-lang_ru;;*);
+ 		[Description (Sofia Coppola)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/sofia_coppola_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ sofia_coppola <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (София Коппола)](*<-lang_ru;;*);
+ 		[Pic. (Sofia Coppola)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/sofia_coppola.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ sofia_coppola => nrel_main_idtf : [София Коппола](*<-lang_ru;;*);;
+ sofia_coppola => nrel_main_idtf : [Sofia Coppola](*<-lang_en;;*);;
+ 
+ 
+ sofia_coppola => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> Usa;;
+ sofia_coppola => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ sofia_coppola => nrel_to_star_in : lost_in_translation;;
+lost_in_translation => nrel_main_idtf : [Lost in Translation](*<-lang_en;;*);;
+lost_in_translation => nrel_main_idtf : [Трудности перевода](*<-lang_ru;;*);;
+

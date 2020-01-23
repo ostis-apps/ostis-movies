@@ -1,0 +1,51 @@
+concept_human -> dustin_hoffman;;
+ 
+ dustin_hoffman <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дастин Хоффман)](*<-lang_ru;;*);
+ 		[Description (Dustin Hoffman)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/dustin_hoffman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ dustin_hoffman <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дастин Хоффман)](*<-lang_ru;;*);
+ 		[Pic. (Dustin Hoffman)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/dustin_hoffman.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ dustin_hoffman => nrel_main_idtf : [Дастин Хоффман](*<-lang_ru;;*);;
+ dustin_hoffman => nrel_main_idtf : [Dustin Hoffman](*<-lang_en;;*);;
+ 
+ 
+ dustin_hoffman => nrel_birth_date : 1937;;
+ 
+ concept_goverment -> Usa;;
+ dustin_hoffman => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ dustin_hoffman => nrel_to_star_in : the_cobbler;;
+the_cobbler => nrel_main_idtf : [The Cobbler](*<-lang_en;;*);;
+the_cobbler => nrel_main_idtf : [Сапожник](*<-lang_ru;;*);;
+dustin_hoffman => nrel_to_star_in : little_fockers;;
+little_fockers => nrel_main_idtf : [Little Fockers](*<-lang_en;;*);;
+little_fockers => nrel_main_idtf : [Знакомство с факерами 2](*<-lang_ru;;*);;
+dustin_hoffman => nrel_to_star_in : being_john_malkovich;;
+being_john_malkovich => nrel_main_idtf : [Being John Malkovich](*<-lang_en;;*);;
+being_john_malkovich => nrel_main_idtf : [Быть Джоном Малковичем](*<-lang_ru;;*);;
+

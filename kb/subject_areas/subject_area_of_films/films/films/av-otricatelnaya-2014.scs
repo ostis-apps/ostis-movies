@@ -1,0 +1,67 @@
+film_av_otricatelnaya_2014
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[АВ отрицательная]
+(* <- lang_ru;;    *);
+[AB Negative]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (АВ отрицательная)](*<-lang_ru;;*);
+[Description (AB Negative)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/av-otricatelnaya-2014_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/av-otricatelnaya-2014_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (АВ отрицательная)](*<-lang_ru;;*);
+		[Pic. (AB Negative)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/av-otricatelnaya-2014.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 4;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [AB Negative](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.10.2015](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.10.2015](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H20M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H20M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_Not_Rated;;
+
+film_av_otricatelnaya_2014 =>nrel_keywords: film;;
+
+film_av_otricatelnaya_2014 <- concept_crime;concept_thriller;;
+
+film_av_otricatelnaya_2014 => nrel_main_actor : vincent_regan;roger_ashton_griffiths;robert_cavanah;stephen_marcus;;
+film_av_otricatelnaya_2014 => nrel_producer : neil_horner;;

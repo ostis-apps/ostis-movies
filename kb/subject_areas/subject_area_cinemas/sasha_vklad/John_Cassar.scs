@@ -1,0 +1,49 @@
+concept_human -> John_Cassar;;
+John_Cassar
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джон Кассар]
+	(* <- lang_ru;;	*);
+	[John Cassar]
+	(* <- lang_en;;	*);;
+	
+John_Cassar <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джон Кассар)](*<-lang_ru;;*);
+		[Description (John_Cassar)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/John_Cassar_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/John_Cassar_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+John_Cassar <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джон Кассар)](*<-lang_ru;;*);
+		[Pic. (John_Cassar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/John_Cassar.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1958;;
+John_Cassar =>nrel_date_of_birth: 1958;;
+1958=>nrel_main_idtf:[1958 год](*<-lang_ru;;*);;
+1958=>nrel_main_idtf:[year of 1958](*<-lang_en;;*);;
+
+concept_calendar_date->1986;;
+Phil_Abraham =>nrel_career_start_date: 1986;;
+1986=>nrel_main_idtf:[1986 год](*<-lang_ru;;*);;
+1986=>nrel_main_idtf:[year of 1986](*<-lang_en;;*);;
+
+John_Cassar =>nrel_cityzenship: Canada;;

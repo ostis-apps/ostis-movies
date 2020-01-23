@@ -1,0 +1,67 @@
+film_astral_2010
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Астрал]
+(* <- lang_ru;;    *);
+[Insidious]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Астрал)](*<-lang_ru;;*);
+[Description (Insidious)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/astral-2010_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/astral-2010_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Астрал)](*<-lang_ru;;*);
+		[Pic. (Insidious)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/astral-2010.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;canada;uk;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [It's not the House that's Haunted. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [31.03.2011](*<-lang_ru;;*);;
+    => nrel_main_idtf : [31.03.2011](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H43M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H43M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_astral_2010 =>nrel_keywords: film;;
+
+film_astral_2010 <- concept_horror;concept_mystery;concept_thriller;;
+
+film_astral_2010 => nrel_main_actor : patrick_wilson;rose_byrne;ty_simpkins;lin_shaye;;
+film_astral_2010 => nrel_producer : james_wan;;

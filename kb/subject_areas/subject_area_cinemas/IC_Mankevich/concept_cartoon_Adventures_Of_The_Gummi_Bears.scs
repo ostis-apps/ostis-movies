@@ -1,0 +1,41 @@
+concept_cartoon_Adventures_Of_The_Gummi_Bears
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Приключение мишек Гамми]
+	(* <- lang_ru;;	*);
+	[Adventures of the Gummi Bears]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Приключение мишек Гамми)](*<-lang_ru;;*);
+		[Description (Adventures of the Gummi Bears)](*<-lang_en;;*);;
+	<=nrel_using_constants: 
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Adventures Of The Gummi Bears_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Adventures Of The Gummi Bears_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Приключение мишек Гамми)](*<-lang_ru;;*);
+		[Pic. (Adventures of the Gummi Bears)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Adventures Of The Gummi Bears.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_kids;
+=>nrel_keywords: concept_family_film;
+=>nrel_keywords: concept_fantasy;
+=>nrel_age_rating: concept_PG0;;

@@ -1,0 +1,67 @@
+film_basseyn_1969
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бассейн]
+(* <- lang_ru;;    *);
+[La piscine / The Swimming Pool]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бассейн)](*<-lang_ru;;*);
+[Description (La piscine / The Swimming Pool)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/basseyn-1969_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/basseyn-1969_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бассейн)](*<-lang_ru;;*);
+		[Pic. (La piscine / The Swimming Pool)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/basseyn-1969.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : france;italy;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Warm, wet bodies fresh in the sweet heat of loving. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [31.01.1969](*<-lang_ru;;*);;
+    => nrel_main_idtf : [31.01.1969](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H2M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H2M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_GP;;
+
+film_basseyn_1969 =>nrel_keywords: film;;
+
+film_basseyn_1969 <- concept_crime;concept_drama;concept_romance;;
+
+film_basseyn_1969 => nrel_main_actor : alain_delon;romy_schneider;maurice_ronet;jane_birkin;;
+film_basseyn_1969 => nrel_producer : jacques_deray;;

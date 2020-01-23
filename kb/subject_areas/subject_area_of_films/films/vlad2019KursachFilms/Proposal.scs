@@ -1,0 +1,71 @@
+concept_film -> Proposal;;
+
+Proposal
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Предложение]
+	(* <- lang_ru;;	*);
+	[Proposal]
+	(* <- lang_en;;	*);;
+	
+Proposal <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Предложение)](*<-lang_ru;;*);
+		[Description (Proposal)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Proposal_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Proposal_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Proposal <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Предложение)](*<-lang_ru;;*);
+		[Pic. (Proposal)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Proposal.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Proposal => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 12_12_2009;;
+12_12_2009 => nrel_main_idtf : [12.12.2009](*<-lang_ru;;*);;
+12_12_2009 => nrel_main_idtf : [12.12.2009](*<-lang_en;;*);;
+Proposal => nrel_release_date : 12_12_2009;;
+
+Proposal => nrel_tagline_of_film : slogan_Proposal;;
+slogan_Proposal => nrel_main_idtf : [Горько](*<-lang_ru;;*);;
+slogan_Proposal => nrel_main_idtf : [Bitterly](*<-lang_en;;*);;
+
+value -> 1_48;;
+1_48 => nrel_main_idtf : [1 час и 48 минут](*<-lang_ru;;*);;
+1_48 => nrel_main_idtf : [1 hour and 48 minutes](*<-lang_en;;*);;
+Proposal => nrel_duration_of_showing : 1_48;;
+
+value -> 317_375_031;;
+317_375_031 => nrel_main_idtf : [317 375 031$](*<-lang_ru;;*);;
+317_375_031 => nrel_main_idtf : [317 375 031$](*<-lang_en;;*);;
+Proposal <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 317_375_031;;   
+*);;
+
+Proposal => nrel_film_critic_rating : 8;;
+
+Proposal =>nrel_keywords: romantic;comedy;;
+Proposal =>nrel_age_rating: concept_PG12;;
+
+Proposal => nrel_main_actor : Bullock;Reinolds;;
+Proposal => nrel_producer : Grevie;;
+Proposal => nrel_screenwriter : Chiarelli;;
+

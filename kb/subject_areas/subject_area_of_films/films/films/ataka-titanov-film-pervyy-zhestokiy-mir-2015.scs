@@ -1,0 +1,67 @@
+film_ataka_titanov_film_pervyy_zhestokiy_mir_2015
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Атака титанов. Фильм первый: Жестокий мир]
+(* <- lang_ru;;    *);
+[Shingeki no kyojin: Attack on Titan]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Атака титанов. Фильм первый: Жестокий мир)](*<-lang_ru;;*);
+[Description (Shingeki no kyojin: Attack on Titan)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/ataka-titanov-film-pervyy-zhestokiy-mir-2015_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/ataka-titanov-film-pervyy-zhestokiy-mir-2015_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Атака титанов. Фильм первый: Жестокий мир)](*<-lang_ru;;*);
+		[Pic. (Shingeki no kyojin: Attack on Titan)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/ataka-titanov-film-pervyy-zhestokiy-mir-2015.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : japan;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Shingeki no kyojin: Attack on Titan](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [01.08.2015](*<-lang_ru;;*);;
+    => nrel_main_idtf : [01.08.2015](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H38M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H38M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_Not_Rated;;
+
+film_ataka_titanov_film_pervyy_zhestokiy_mir_2015 =>nrel_keywords: film;;
+
+film_ataka_titanov_film_pervyy_zhestokiy_mir_2015 <- concept_action;concept_adventure;concept_drama;concept_fantasy;concept_horror;concept_sci_fi;;
+
+film_ataka_titanov_film_pervyy_zhestokiy_mir_2015 => nrel_main_actor : ashly_burch;kiko_mizuhara;bryce_papenbrook;monica_rial;;
+film_ataka_titanov_film_pervyy_zhestokiy_mir_2015 => nrel_producer : shinji_higuchi;;

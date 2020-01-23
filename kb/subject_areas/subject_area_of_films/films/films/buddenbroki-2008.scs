@@ -1,0 +1,67 @@
+film_buddenbroki_2008
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Будденброки]
+(* <- lang_ru;;    *);
+[Buddenbrooks]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Будденброки)](*<-lang_ru;;*);
+[Description (Buddenbrooks)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/buddenbroki-2008_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/buddenbroki-2008_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Будденброки)](*<-lang_ru;;*);
+		[Pic. (Buddenbrooks)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/buddenbroki-2008.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Buddenbrooks](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [25.12.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [25.12.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H31M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H31M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_buddenbroki_2008 =>nrel_keywords: film;;
+
+film_buddenbroki_2008 <- concept_drama;;
+
+film_buddenbroki_2008 => nrel_main_actor : armin_mueller_stahl;iris_berben;jessica_schwarz;august_diehl;;
+film_buddenbroki_2008 => nrel_producer : heinrich_breloer;;

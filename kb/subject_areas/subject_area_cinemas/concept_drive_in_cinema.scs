@@ -1,0 +1,5 @@
+concept_drive_in_cinema
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[автокинотеатр](*<-lang_ru;;*);
+	[drive-in cinema](*<-lang_en;;*);;

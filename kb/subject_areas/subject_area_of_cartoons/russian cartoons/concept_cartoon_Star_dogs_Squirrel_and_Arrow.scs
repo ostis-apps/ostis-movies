@@ -1,0 +1,46 @@
+concept_cartoon_Star_dogs_Squirrel_and_Arrow
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Звёздные собаки: Белка и Стрелка]
+	(* <- lang_ru;;	*);
+	[Star dogs: Squirrel and Arrow]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Звёздные собаки: Белка и Стрелка)](*<-lang_ru;;*);
+		[Description (Star dogs: Squirrel and Arrow)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Star dogs Squirrel and Arrow_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Star dogs Squirrel and Arrow_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Звёздные собаки: Белка и Стрелка)](*<-lang_ru;;*);
+		[Pic. (Star dogs: Squirrel and Arrow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Star dogs Squirrel and Arrow.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_space;
+=>nrel_keywords: concept_astronaut;
+=>nrel_keywords: concept_animals;
+=>nrel_age_rating: concept_PG0;
+=> nrel_production_country: Russia;
+=>nrel_prototype: concept_character_Squirrel;
+=>nrel_prototype: concept_character_Arrow;;

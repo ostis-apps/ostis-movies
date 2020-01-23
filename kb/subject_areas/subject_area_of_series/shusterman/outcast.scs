@@ -1,0 +1,91 @@
+
+                  concept_series -> Outcast;;
+              
+                  Outcast
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [отверженный]
+                    (* <- lang_ru;;	*);
+                    [Outcast]
+                    (* <- lang_en;;	*);;
+                  
+                  Outcast <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (отверженный)](*<-lang_ru;;*);
+                      [Description (Outcast)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Outcast_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Outcast_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Outcast <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (отверженный)](*<-lang_ru;;*);
+                      [Pic. (Outcast)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Outcast.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Outcast => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Outcast => nrel_production_year : 2016;;
+                  
+                  value -> 2;;
+                  Outcast => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  Outcast => nrel_num_of_episodes: 20;;
+                  
+                  value -> 9;;
+                  Outcast => nrel_no_countries : 9;;
+                  
+                  value -> 6;;
+                  Outcast => nrel_viewers_in_millions: 6;;
+                  
+                  Outcast => nrel_age_rating: concept_PG12;;
+                  
+                    Outcast => nrel_actor : WrennSchmidt;;
+                    
+                   
+                    Outcast => nrel_actor : PatrickFugit;;
+                    
+                   
+                    Outcast => nrel_actor : PhilipGlenister;;
+                    
+                   
+                    Outcast => nrel_actor : RegECathey;;
+                    
+                   
+                    Outcast => nrel_actor : BrentSpiner;;
+                    
+                   
+                    Outcast => nrel_actor : MadeleineMcGraw;;
+                    
+                   
+                    Outcast => nrel_actor : DavidDenman;;
+                    
+                   
+                    Outcast => nrel_actor : KateLynSheil;;
+                    
+                   
+                    Outcast => nrel_actor : JuliaCrockett;;
+                    
+                  
+                  
+                  Outcast
+                  =>nrel_keywords: concept_detectif;;
+                  

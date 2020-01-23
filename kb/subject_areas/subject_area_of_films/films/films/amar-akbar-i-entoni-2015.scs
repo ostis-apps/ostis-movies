@@ -1,0 +1,67 @@
+film_amar_akbar_i_entoni_2015
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Амар, Акбар и Энтони]
+(* <- lang_ru;;    *);
+[Amar Akbar & Tony]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Амар, Акбар и Энтони)](*<-lang_ru;;*);
+[Description (Amar Akbar & Tony)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amar-akbar-i-entoni-2015_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amar-akbar-i-entoni-2015_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Амар, Акбар и Энтони)](*<-lang_ru;;*);
+		[Pic. (Amar Akbar & Tony)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amar-akbar-i-entoni-2015.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Amar Akbar & Tony](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [17.04.2015](*<-lang_ru;;*);;
+    => nrel_main_idtf : [17.04.2015](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H36M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H36M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_amar_akbar_i_entoni_2015 =>nrel_keywords: film;;
+
+film_amar_akbar_i_entoni_2015 <- concept_comedy;concept_drama;concept_romance;;
+
+film_amar_akbar_i_entoni_2015 => nrel_main_actor : rez_kempton;sam_vincenti;martin_delaney;karen_david;;
+film_amar_akbar_i_entoni_2015 => nrel_producer : atul_malhotra;;

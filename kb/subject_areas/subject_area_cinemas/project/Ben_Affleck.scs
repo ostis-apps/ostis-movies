@@ -1,0 +1,55 @@
+concept_human -> Ben_Affleck;;
+
+Ben_Affleck
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бенджамин Геза (Бен) Аффлек-Болдт]
+	(* <- lang_ru;;	*);
+	[Benjamin Geza «Ben» Affleck-Boldt]
+	(* <- lang_en;;	*);;
+	
+Ben_Affleck <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бенджамин Геза (Бен) Аффлек-Болдт)](*<-lang_ru;;*);
+		[Description (Benjamin Geza «Ben» Affleck-Boldt)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        concept_screenwriter ;
+        concept_rezeser;
+        concept_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ben_Affleck_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ben_Affleck_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ben_Affleck <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бенджамин Геза (Бен) Аффлек-Болдт)](*<-lang_ru;;*);
+		[Pic. (Benjamin Geza «Ben» Affleck-Boldt)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ben_Affleck.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1972;;
+Ben_Affleck=>nrel_date_of_birth: 1972;;
+1972=>nrel_main_idtf:[1972 год](*<-lang_ru;;*);;
+1972=>nrel_main_idtf:[year of 1972](*<-lang_en;;*);;
+
+concept_calendar_date->1981;;
+Ben_Affleck=>nrel_career_start_date: 1981;;
+1981=>nrel_main_idtf:[1981 год](*<-lang_ru;;*);;
+1981=>nrel_main_idtf:[year of 1981](*<-lang_en;;*);;
+
+Ben_Affleck =>nrel_cityzenship:Usa;;
+
+

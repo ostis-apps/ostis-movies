@@ -1,0 +1,67 @@
+film_basseyn_2001
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бассейн]
+(* <- lang_ru;;    *);
+[Swimming Pool - Der Tod feiert mit / The Pool]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бассейн)](*<-lang_ru;;*);
+[Description (Swimming Pool - Der Tod feiert mit / The Pool)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/basseyn-2001_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/basseyn-2001_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бассейн)](*<-lang_ru;;*);
+		[Pic. (Swimming Pool - Der Tod feiert mit / The Pool)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/basseyn-2001.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;
+
+=> nrel_film_critic_rating : 4;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Evil has surfaced.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [04.10.2001](*<-lang_ru;;*);;
+    => nrel_main_idtf : [04.10.2001](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H32M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H32M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_basseyn_2001 =>nrel_keywords: film;;
+
+film_basseyn_2001 <- concept_horror;concept_thriller;;
+
+film_basseyn_2001 => nrel_main_actor : kristen_miller;elena_uhlig;paul_t._grasshoff;john_hopkins;;
+film_basseyn_2001 => nrel_producer : boris_von_sychowski;;

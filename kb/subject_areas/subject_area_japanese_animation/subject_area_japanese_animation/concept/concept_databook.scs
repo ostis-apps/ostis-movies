@@ -1,0 +1,25 @@
+concept_databook <- sc_node_not_relation;
+
+=> nrel_main_idtf:[датабук] (* <- lang_ru;; *);
+=> nrel_idtf:[databook] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (датабук)](* <- lang_ru;; *);
+		[Def. (databook)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_anime;;
+		-> concept_anime_character;;
+		-> concept_manga;;
+		-> nrel_mangaka;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_databook">Датабук</sc_element></b> - книга, в которой содержится информация о <sc_element sys_idtf="concept_anime_character">персонажах</sc_element> / местах / создании <sc_element sys_idtf="concept_manga">манги</sc_element> /<sc_element sys_idtf="concept_anime">аниме</sc_element>, написанная самим <sc_element sys_idtf="nrel_mangaka">мангакой</sc_element>.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_databook">Databook</sc_element></b> is a book containing information about <sc_element sys_idtf="concept_anime_character">heroes</sc_element> / places / <sc_element sys_idtf="concept_manga">manga</sc_element> creation / <sc_element sys_idtf="concept_anime">anime</sc_element>, written by <sc_element sys_idtf="nrel_mangaka">mangaka</sc_element>.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+

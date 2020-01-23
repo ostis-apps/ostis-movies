@@ -1,0 +1,73 @@
+concept_film -> RED;;
+
+RED
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Рэд]
+	(* <- lang_ru;;	*);
+	[RED]
+	(* <- lang_en;;	*);;
+	
+RED <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Рэд)](*<-lang_ru;;*);
+		[Description (RED)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/RED_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/RED_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+RED <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Рэд)](*<-lang_ru;;*);
+		[Pic. (RED)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/RED.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+RED => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 29_09_2010;;
+29_09_2010 => nrel_main_idtf : [29.09.2010](*<-lang_ru;;*);;
+29_09_2010 => nrel_main_idtf : [29.09.2010](*<-lang_en;;*);;
+RED => nrel_release_date : 29_09_2010;;
+
+RED => nrel_tagline_of_film : slogan_RED;;
+slogan_RED => nrel_main_idtf : [Бывших агентов не бывает](*<-lang_ru;;*);;
+slogan_RED => nrel_main_idtf : [There are no former agents.](*<-lang_en;;*);;
+
+RED => nrel_duration_of_showing : 1_51;;
+
+duration -> 1_51;;
+1_51 => nrel_main_idtf : [1 час и 51 минута](*<-lang_ru;;*);;
+1_51 => nrel_main_idtf : [1 hour and 51 minutes](*<-lang_en;;*);;
+
+value -> 199_006_387;;
+199_006_387 => nrel_main_idtf : [199 006 387$](*<-lang_ru;;*);;
+199_006_387 => nrel_main_idtf : [199 006 387$](*<-lang_en;;*);;
+RED <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 199_006_387;;   
+*);;
+
+
+RED => nrel_film_critic_rating : 9;;
+
+RED =>nrel_keywords: action;thriller;comedy;;
+RED =>nrel_age_rating: concept_PG16;;
+
+RED => nrel_main_actor : Morgan_Friman;Bruce_Willis;;
+RED => nrel_producer : Shventke;;
+RED => nrel_screenwriter : Hiber;;
+

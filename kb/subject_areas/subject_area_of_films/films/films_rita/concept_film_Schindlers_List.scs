@@ -1,0 +1,29 @@
+concept_film_Schindlers_List
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Список Шиндлера](* <- lang_ru;; *);
+	[Schindler's List](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Список Шиндлера)](*<-lang_ru;;*);
+		[Description (Schindler's List)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Список Шиндлера.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Schindler's List.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_world_war_two;
+=> nrel_keywords: concept_holocaust;
+=> nrel_keywords: concept_jew;
+=> nrel_keywords: concept_history;
+=> nrel_keywords: concept_cruelty;
+=> nrel_age_rating: concept_PG16;;

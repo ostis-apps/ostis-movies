@@ -1,0 +1,64 @@
+
+                  concept_series -> Death_March_to_the_Parallel_World_Rhapsody;;
+              
+                  Death_March_to_the_Parallel_World_Rhapsody
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Death_March_to_the_Parallel_World_Rhapsody]
+                    (* <- lang_ru;;	*);
+                    [Death_March_to_the_Parallel_World_Rhapsody]
+                    (* <- lang_en;;	*);;
+                  
+                  Death_March_to_the_Parallel_World_Rhapsody <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Death_March_to_the_Parallel_World_Rhapsody)](*<-lang_ru;;*);
+                      [Description (Death_March_to_the_Parallel_World_Rhapsody)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Death_March_to_the_Parallel_World_Rhapsody_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Death_March_to_the_Parallel_World_Rhapsody_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Death_March_to_the_Parallel_World_Rhapsody <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Death_March_to_the_Parallel_World_Rhapsody)](*<-lang_ru;;*);
+                      [Pic. (Death_March_to_the_Parallel_World_Rhapsody)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Death_March_to_the_Parallel_World_Rhapsody.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Death_March_to_the_Parallel_World_Rhapsody => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Death_March_to_the_Parallel_World_Rhapsody => nrel_production_year : 2018;;
+                  
+                  value -> 1;;
+                  Death_March_to_the_Parallel_World_Rhapsody => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  Death_March_to_the_Parallel_World_Rhapsody => nrel_num_of_episodes: 12;;
+                  
+                  value -> 6;;
+                  Death_March_to_the_Parallel_World_Rhapsody => nrel_no_countries : 6;;
+                  
+                  value -> 6;;
+                  Death_March_to_the_Parallel_World_Rhapsody => nrel_viewers_in_millions: 6;;
+                  
+                  Death_March_to_the_Parallel_World_Rhapsody => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Death_March_to_the_Parallel_World_Rhapsody
+                  =>nrel_keywords: concept_detectif;;
+                  

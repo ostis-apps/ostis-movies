@@ -1,0 +1,121 @@
+
+                  concept_series -> Supergirl;;
+              
+                  Supergirl
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Супер-девочка]
+                    (* <- lang_ru;;	*);
+                    [Supergirl]
+                    (* <- lang_en;;	*);;
+                  
+                  Supergirl <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Супер-девочка)](*<-lang_ru;;*);
+                      [Description (Supergirl)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Supergirl_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Supergirl_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Supergirl <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Супер-девочка)](*<-lang_ru;;*);
+                      [Pic. (Supergirl)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Supergirl.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Supergirl => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Supergirl => nrel_production_year : 2015;;
+                  
+                  value -> 5;;
+                  Supergirl => nrel_num_of_seasons: 5;;
+                  value -> 96;;
+                  Supergirl => nrel_num_of_episodes: 96;;
+                  
+                  value -> 5;;
+                  Supergirl => nrel_no_countries : 5;;
+                  
+                  value -> 5;;
+                  Supergirl => nrel_viewers_in_millions: 5;;
+                  
+                  Supergirl => nrel_age_rating: concept_PG12;;
+                  
+                    Supergirl => nrel_actor : MelissaBenoist;;
+                    
+                   
+                    Supergirl => nrel_actor : ChylerLeigh;;
+                    
+                   
+                    Supergirl => nrel_actor : DavidHarewood;;
+                    
+                   
+                    Supergirl => nrel_actor : MehcadBrooks;;
+                    
+                   
+                    Supergirl => nrel_actor : JeremyJordan;;
+                    
+                   
+                    Supergirl => nrel_actor : KatieMcGrath;;
+                    
+                   
+                    Supergirl => nrel_actor : ChrisWood;;
+                    
+                   
+                    Supergirl => nrel_actor : JesseRath;;
+                    
+                   
+                    Supergirl => nrel_actor : AndreaBrooks;;
+                    
+                   
+                    Supergirl => nrel_actor : CalistaFlockhart;;
+                    
+                   
+                    Supergirl => nrel_actor : FlorianaLima;;
+                    
+                   
+                    Supergirl => nrel_actor : NicoleAmberMaines;;
+                    
+                   
+                    Supergirl => nrel_actor : OdetteAnnable;;
+                    
+                   
+                    Supergirl => nrel_actor : SamWitwer;;
+                    
+                   
+                    Supergirl => nrel_actor : AzieTesfai;;
+                    
+                   
+                    Supergirl => nrel_actor : AprilParkerJones;;
+                    
+                   
+                    Supergirl => nrel_actor : StazNair;;
+                    
+                   
+                    Supergirl => nrel_actor : DavidHarewood;;
+                    
+                   
+                    Supergirl => nrel_actor : JulieGonzalo;;
+                    
+                  
+                  
+                  Supergirl
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,100 @@
+
+                  concept_series -> Avatar:_The_Last_Airbender;;
+              
+                  Avatar:_The_Last_Airbender
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Аватар: последний повелитель стихии]
+                    (* <- lang_ru;;	*);
+                    [Avatar:_The_Last_Airbender]
+                    (* <- lang_en;;	*);;
+                  
+                  Avatar:_The_Last_Airbender <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Аватар: последний повелитель стихии)](*<-lang_ru;;*);
+                      [Description (Avatar:_The_Last_Airbender)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Avatar:_The_Last_Airbender_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Avatar:_The_Last_Airbender_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Avatar:_The_Last_Airbender <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Аватар: последний повелитель стихии)](*<-lang_ru;;*);
+                      [Pic. (Avatar:_The_Last_Airbender)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Avatar:_The_Last_Airbender.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Avatar:_The_Last_Airbender => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2005;;
+                  2005 => nrel_main_idtf : [2005 год](*<-lang_ru;;*);;
+                  2005 => nrel_main_idtf : [year of 2005](*<-lang_en;;*);;
+                  Avatar:_The_Last_Airbender => nrel_production_year : 2005;;
+                  
+                  value -> 3;;
+                  Avatar:_The_Last_Airbender => nrel_num_of_seasons: 3;;
+                  value -> 61;;
+                  Avatar:_The_Last_Airbender => nrel_num_of_episodes: 61;;
+                  
+                  value -> 13;;
+                  Avatar:_The_Last_Airbender => nrel_no_countries : 13;;
+                  
+                  value -> 9;;
+                  Avatar:_The_Last_Airbender => nrel_viewers_in_millions: 9;;
+                  
+                  Avatar:_The_Last_Airbender => nrel_age_rating: concept_PG12;;
+                  
+                    Avatar:_The_Last_Airbender => nrel_actor : OliviaHack;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : Mako;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : DanteBasco;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : GreyGriffin;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : MaeWhitman;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : DeeBradleyBaker;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : DeeBradleyBaker;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : ZachTyler;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : JackDeSena;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : JessieFlower;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : GregBaldwin;;
+                    
+                   
+                    Avatar:_The_Last_Airbender => nrel_actor : CricketLeigh;;
+                    
+                  
+                  
+                  Avatar:_The_Last_Airbender
+                  =>nrel_keywords: concept_detectif;;
+                  

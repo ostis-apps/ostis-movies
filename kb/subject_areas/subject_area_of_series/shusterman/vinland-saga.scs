@@ -1,0 +1,64 @@
+
+                  concept_series -> Vinland_Saga;;
+              
+                  Vinland_Saga
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Vinland_Saga]
+                    (* <- lang_ru;;	*);
+                    [Vinland_Saga]
+                    (* <- lang_en;;	*);;
+                  
+                  Vinland_Saga <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Vinland_Saga)](*<-lang_ru;;*);
+                      [Description (Vinland_Saga)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Vinland_Saga_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Vinland_Saga_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Vinland_Saga <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Vinland_Saga)](*<-lang_ru;;*);
+                      [Pic. (Vinland_Saga)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Vinland_Saga.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Vinland_Saga => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Vinland_Saga => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Vinland_Saga => nrel_num_of_seasons: 1;;
+                  value -> 24;;
+                  Vinland_Saga => nrel_num_of_episodes: 24;;
+                  
+                  value -> 8;;
+                  Vinland_Saga => nrel_no_countries : 8;;
+                  
+                  value -> 7;;
+                  Vinland_Saga => nrel_viewers_in_millions: 7;;
+                  
+                  Vinland_Saga => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Vinland_Saga
+                  =>nrel_keywords: concept_detectif;;
+                  

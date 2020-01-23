@@ -1,0 +1,5 @@
+rrel_street
+<-sc_node_role_relation;
+=>nrel_main_idtf:
+	[улица'](*<-lang_ru;;*);
+	[street'](*<-lang_en;;*);;

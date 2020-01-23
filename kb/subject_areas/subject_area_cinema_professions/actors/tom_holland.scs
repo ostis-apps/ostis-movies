@@ -1,0 +1,60 @@
+concept_human -> tom_holland;;
+ 
+ tom_holland <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Том Холланд)](*<-lang_ru;;*);
+ 		[Description (Tom Holland)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tom_holland_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tom_holland <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Том Холланд)](*<-lang_ru;;*);
+ 		[Pic. (Tom Holland)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tom_holland.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tom_holland => nrel_main_idtf : [Том Холланд](*<-lang_ru;;*);;
+ tom_holland => nrel_main_idtf : [Tom Holland](*<-lang_en;;*);;
+ 
+ 
+ tom_holland => nrel_birth_date : 1996;;
+ 
+ concept_goverment -> UK;;
+ tom_holland => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ tom_holland => nrel_to_star_in : spiderman_far_from_home;;
+spiderman_far_from_home => nrel_main_idtf : [Spider-Man: Far from Home](*<-lang_en;;*);;
+spiderman_far_from_home => nrel_main_idtf : [Человек-паук: Вдали от дома](*<-lang_ru;;*);;
+tom_holland => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+tom_holland => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+tom_holland => nrel_to_star_in : spiderman_homecoming;;
+spiderman_homecoming => nrel_main_idtf : [Spider-Man: Homecoming](*<-lang_en;;*);;
+spiderman_homecoming => nrel_main_idtf : [Человек-паук: Возвращение домой](*<-lang_ru;;*);;
+tom_holland => nrel_to_star_in : captain_america_civil_war;;
+captain_america_civil_war => nrel_main_idtf : [Captain America: Civil War](*<-lang_en;;*);;
+captain_america_civil_war => nrel_main_idtf : [Первый мститель: Противостояние](*<-lang_ru;;*);;
+tom_holland => nrel_to_star_in : locke;;
+locke => nrel_main_idtf : [Locke](*<-lang_en;;*);;
+locke => nrel_main_idtf : [Лок](*<-lang_ru;;*);;
+

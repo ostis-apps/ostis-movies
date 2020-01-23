@@ -1,0 +1,52 @@
+concept_andrei_rubliov
+<- sc_node_not_relation;
+=> nrel_main_producer: andrei_tarkovsky;
+=> nrel_screenwriter: andrei_tarkovsky;
+=> nrel_cameraman: vadim_yusov;
+=> nrel_main_actor: anatoly_solonitsyn;
+=> nrel_editor; lyudmila_feiginova;
+=> nrel_producing_country:Russia;
+=> nrel_raiting: 9;
+
+=> nrel_age_limit: PG13;
+=> nrel_be_awarded: concept_palm;
+=> nrel_main_idtf:
+        [Андрей Рублев]
+	(* <- lang_ru;;	*);
+	[Andrei Rubliov]
+	(* <- lang_en;;	*);
+=> nrel_metagenre: concept_arthouse;
+=> nrel_metagenre: concept_drama;
+=> nrel_metagenre: concept_biopic;
+=> nrel_metagenre:concept_historical_film;
+=> nrel_character:...
+	(*
+	->character_andrei_rubliov;;
+	->character_pheophan_grek;;
+	->character_boriska;;
+	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Андрей Рублев)](* <- lang_ru;; *);
+		[Desctiption (Andrei Rubliov)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[ <sc_element sys_idtf="concept_andrei_rubliov">Андрей Рублев</sc_element> показан на фоне России XV века. Хотя фильм основан исключительно на жизни Андрея Рублева, он стремится изобразить реалистичный портрет средневековой России. <sc_element sys_idtf="andrei_tarkovsky">Тарковский</sc_element> стремился создать фильм, в котором художник изображен как «всемирно-историческая фигура» и «Христианство как аксиома исторической идентичности России» в бурный период российской истории, который в конечном итоге привел к Царству России.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<sc_element sys_idtf="concept_andrei_rubliov">Andrei Rublev</sc_element> is set against the background of 15th-century Russia. Although the film is only loosely based on the life of Andrei Rublev, it seeks to depict a realistic portrait of medieval Russia. <sc_element sys_idtf="andrei_tarkovsky">Tarkovsky</sc_element> sought to create a film that shows the artist as "a world-historic figure" and "Christianity as an axiom of Russia's historical identity" during a turbulent period of Russian history that ultimately resulted in the Tsardom of Russia.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Андрей Рублев)](*<-lang_ru;;*);
+		[Pic. (Andrei Rubliov)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/AndreiRubliov.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

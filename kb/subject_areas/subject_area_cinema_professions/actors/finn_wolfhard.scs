@@ -1,0 +1,48 @@
+concept_human -> finn_wolfhard;;
+ 
+ finn_wolfhard <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Финн Вулфхард)](*<-lang_ru;;*);
+ 		[Description (Finn Wolfhard)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/finn_wolfhard_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ finn_wolfhard <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Финн Вулфхард)](*<-lang_ru;;*);
+ 		[Pic. (Finn Wolfhard)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/finn_wolfhard.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ finn_wolfhard => nrel_main_idtf : [Финн Вулфхард](*<-lang_ru;;*);;
+ finn_wolfhard => nrel_main_idtf : [Finn Wolfhard](*<-lang_en;;*);;
+ 
+ 
+ finn_wolfhard => nrel_birth_date : 2003;;
+ 
+ concept_goverment -> Canada;;
+ finn_wolfhard => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ finn_wolfhard => nrel_to_star_in : it_chapter_two;;
+it_chapter_two => nrel_main_idtf : [It Chapter Two](*<-lang_en;;*);;
+it_chapter_two => nrel_main_idtf : [Оно 2](*<-lang_ru;;*);;
+finn_wolfhard => nrel_to_star_in : stranger_things;;
+stranger_things => nrel_main_idtf : [Stranger Things](*<-lang_en;;*);;
+stranger_things => nrel_main_idtf : [Очень странные дела](*<-lang_ru;;*);;
+

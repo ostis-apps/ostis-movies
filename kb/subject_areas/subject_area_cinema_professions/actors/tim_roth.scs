@@ -1,0 +1,60 @@
+concept_human -> tim_roth;;
+ 
+ tim_roth <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Тим Рот)](*<-lang_ru;;*);
+ 		[Description (Tim Roth)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tim_roth_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tim_roth <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Тим Рот)](*<-lang_ru;;*);
+ 		[Pic. (Tim Roth)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tim_roth.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tim_roth => nrel_main_idtf : [Тим Рот](*<-lang_ru;;*);;
+ tim_roth => nrel_main_idtf : [Tim Roth](*<-lang_en;;*);;
+ 
+ 
+ tim_roth => nrel_birth_date : 1961;;
+ 
+ concept_goverment -> UK;;
+ tim_roth => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ tim_roth => nrel_to_star_in : the_hateful_eight;;
+the_hateful_eight => nrel_main_idtf : [The Hateful Eight](*<-lang_en;;*);;
+the_hateful_eight => nrel_main_idtf : [Омерзительная восьмерка](*<-lang_ru;;*);;
+tim_roth => nrel_to_star_in : hardcore_henry;;
+hardcore_henry => nrel_main_idtf : [Hardcore Henry](*<-lang_en;;*);;
+hardcore_henry => nrel_main_idtf : [Хардкор](*<-lang_ru;;*);;
+tim_roth => nrel_to_star_in : the_incredible_hulk;;
+the_incredible_hulk => nrel_main_idtf : [The Incredible Hulk](*<-lang_en;;*);;
+the_incredible_hulk => nrel_main_idtf : [Невероятный Халк](*<-lang_ru;;*);;
+tim_roth => nrel_to_star_in : four_rooms;;
+four_rooms => nrel_main_idtf : [Four Rooms](*<-lang_en;;*);;
+four_rooms => nrel_main_idtf : [Четыре комнаты](*<-lang_ru;;*);;
+tim_roth => nrel_to_star_in : pulp_fiction;;
+pulp_fiction => nrel_main_idtf : [Pulp Fiction](*<-lang_en;;*);;
+pulp_fiction => nrel_main_idtf : [Криминальное чтиво](*<-lang_ru;;*);;
+tim_roth => nrel_to_star_in : reservoir_dogs;;
+reservoir_dogs => nrel_main_idtf : [Reservoir Dogs](*<-lang_en;;*);;
+reservoir_dogs => nrel_main_idtf : [Бешеные псы](*<-lang_ru;;*);;
+

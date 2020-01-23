@@ -1,0 +1,48 @@
+concept_human -> francis_ford_coppola;;
+ 
+ francis_ford_coppola <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Фрэнсис Форд Коппола)](*<-lang_ru;;*);
+ 		[Description (Francis Ford Coppola)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/francis_ford_coppola_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ francis_ford_coppola <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Фрэнсис Форд Коппола)](*<-lang_ru;;*);
+ 		[Pic. (Francis Ford Coppola)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/francis_ford_coppola.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ francis_ford_coppola => nrel_main_idtf : [Фрэнсис Форд Коппола](*<-lang_ru;;*);;
+ francis_ford_coppola => nrel_main_idtf : [Francis Ford Coppola](*<-lang_en;;*);;
+ 
+ 
+ francis_ford_coppola => nrel_birth_date : 1939;;
+ 
+ concept_goverment -> Usa;;
+ francis_ford_coppola => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ francis_ford_coppola => nrel_to_star_in : rumble_fish;;
+rumble_fish => nrel_main_idtf : [Rumble Fish](*<-lang_en;;*);;
+rumble_fish => nrel_main_idtf : [Бойцовая рыбка](*<-lang_ru;;*);;
+francis_ford_coppola => nrel_to_star_in : the_godfather;;
+the_godfather => nrel_main_idtf : [The Godfather](*<-lang_en;;*);;
+the_godfather => nrel_main_idtf : [Крестный отец](*<-lang_ru;;*);;
+

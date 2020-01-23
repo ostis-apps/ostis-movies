@@ -1,0 +1,100 @@
+
+                  concept_series -> Big_Little_Lies;;
+              
+                  Big_Little_Lies
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Big Little Lies]
+                    (* <- lang_ru;;	*);
+                    [Big_Little_Lies]
+                    (* <- lang_en;;	*);;
+                  
+                  Big_Little_Lies <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Big Little Lies)](*<-lang_ru;;*);
+                      [Description (Big_Little_Lies)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Big_Little_Lies_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Big_Little_Lies_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Big_Little_Lies <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Big Little Lies)](*<-lang_ru;;*);
+                      [Pic. (Big_Little_Lies)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Big_Little_Lies.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Big_Little_Lies => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Big_Little_Lies => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  Big_Little_Lies => nrel_num_of_seasons: 2;;
+                  value -> 14;;
+                  Big_Little_Lies => nrel_num_of_episodes: 14;;
+                  
+                  value -> 8;;
+                  Big_Little_Lies => nrel_no_countries : 8;;
+                  
+                  value -> 10;;
+                  Big_Little_Lies => nrel_viewers_in_millions: 10;;
+                  
+                  Big_Little_Lies => nrel_age_rating: concept_PG12;;
+                  
+                    Big_Little_Lies => nrel_actor : KathrynNewton;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : ReeseWitherspoon;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : ShaileneWoodley;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : LauraDern;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : NicoleKidman;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : JeffreyNordling;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : IainArmitage;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : JamesTupper;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : AlexanderSkarsgrd;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : ZoeKravitz;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : AdamScott;;
+                    
+                   
+                    Big_Little_Lies => nrel_actor : MerylStreep;;
+                    
+                  
+                  
+                  Big_Little_Lies
+                  =>nrel_keywords: concept_detectif;;
+                  

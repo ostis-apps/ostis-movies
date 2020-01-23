@@ -1,0 +1,115 @@
+
+                  concept_series -> Marvels_Runaways;;
+              
+                  Marvels_Runaways
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Побеги Марвел]
+                    (* <- lang_ru;;	*);
+                    [Marvels_Runaways]
+                    (* <- lang_en;;	*);;
+                  
+                  Marvels_Runaways <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Побеги Марвел)](*<-lang_ru;;*);
+                      [Description (Marvels_Runaways)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Marvel_s_Runaways_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Marvel_s_Runaways_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Marvels_Runaways <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Побеги Марвел)](*<-lang_ru;;*);
+                      [Pic. (Marvels_Runaways)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Marvel_s_Runaways.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Marvels_Runaways => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Marvels_Runaways => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  Marvels_Runaways => nrel_num_of_seasons: 3;;
+                  value -> 33;;
+                  Marvels_Runaways => nrel_num_of_episodes: 33;;
+                  
+                  value -> 4;;
+                  Marvels_Runaways => nrel_no_countries : 4;;
+                  
+                  value -> 9;;
+                  Marvels_Runaways => nrel_viewers_in_millions: 9;;
+                  
+                  Marvels_Runaways => nrel_age_rating: concept_PG12;;
+                  
+                    Marvels_Runaways => nrel_actor : GreggSulkin;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : AnnieWersching;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : LyricaOkano;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : AllegraAcosta;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : EverCarradine;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : VirginiaGardner;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : ArielaBarer;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : RhenzyFeliz;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : BrittanyIshibashi;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : BrigidBrannagh;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : KevinWeisman;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : RyanSands;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : JamesMarsters;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : AngelParker;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : JamesYaegashi;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : KipPardue;;
+                    
+                   
+                    Marvels_Runaways => nrel_actor : JulianMcMahon;;
+                    
+                  
+                  
+                  Marvels_Runaways
+                  =>nrel_keywords: concept_detectif;;
+                  

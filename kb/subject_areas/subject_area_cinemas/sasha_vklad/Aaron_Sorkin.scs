@@ -1,0 +1,50 @@
+concept_human -> Aaron_Sorkin;;
+
+Aaron_Sorkin
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Аарон Соркин]
+	(* <- lang_ru;;	*);
+	[Aaron Sorkin]
+	(* <- lang_en;;	*);;
+	
+Aaron_Sorkin <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Аарон Соркин)](*<-lang_ru;;*);
+		[Description (Aaron_Sorkin)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Aaron_Sorkin_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Aaron_Sorkin_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Aaron_Sorkin <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Аарон Соркин)](*<-lang_ru;;*);
+		[Pic. (Aaron_Sorkin)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Aaron_Sorkin.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1961;;
+Aaron_Sorkin =>nrel_date_of_birth: 1961;;
+1961=>nrel_main_idtf:[1961 год](*<-lang_ru;;*);;
+1961=>nrel_main_idtf:[year of 1961](*<-lang_en;;*);;
+
+concept_calendar_date->1984;;
+Aaron_Sorkin =>nrel_career_start_date: 1984;;
+1984=>nrel_main_idtf:[1984 год](*<-lang_ru;;*);;
+1984=>nrel_main_idtf:[year of 1984](*<-lang_en;;*);;
+
+Aaron_Sorkin =>nrel_cityzenship: Uk;;

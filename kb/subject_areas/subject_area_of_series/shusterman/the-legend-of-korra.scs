@@ -1,0 +1,121 @@
+
+                  concept_series -> The_Legend_of_Korra;;
+              
+                  The_Legend_of_Korra
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Legend_of_Korra]
+                    (* <- lang_ru;;	*);
+                    [The_Legend_of_Korra]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Legend_of_Korra <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Legend_of_Korra)](*<-lang_ru;;*);
+                      [Description (The_Legend_of_Korra)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Legend_of_Korra_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Legend_of_Korra_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Legend_of_Korra <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Legend_of_Korra)](*<-lang_ru;;*);
+                      [Pic. (The_Legend_of_Korra)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Legend_of_Korra.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Legend_of_Korra => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2012;;
+                  2012 => nrel_main_idtf : [2012 год](*<-lang_ru;;*);;
+                  2012 => nrel_main_idtf : [year of 2012](*<-lang_en;;*);;
+                  The_Legend_of_Korra => nrel_production_year : 2012;;
+                  
+                  value -> 4;;
+                  The_Legend_of_Korra => nrel_num_of_seasons: 4;;
+                  value -> 52;;
+                  The_Legend_of_Korra => nrel_num_of_episodes: 52;;
+                  
+                  value -> 3;;
+                  The_Legend_of_Korra => nrel_no_countries : 3;;
+                  
+                  value -> 5;;
+                  The_Legend_of_Korra => nrel_viewers_in_millions: 5;;
+                  
+                  The_Legend_of_Korra => nrel_age_rating: concept_PG12;;
+                  
+                    The_Legend_of_Korra => nrel_actor : JanetVarney;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : PJByrne;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : DavidFaustino;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : JKSimmons;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : SeychelleGabriel;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : DeeBradleyBaker;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : MindySterling;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : DeeBradleyBaker;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : KiernanShipka;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : JohnMichaelHiggins;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : RichardRiehle;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : JamesRemar;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : AdrianLaTourelle;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : AnneHeche;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : LisaEdelstein;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : StevenJayBlum;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : HenryRollins;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : ZeldaWilliams;;
+                    
+                   
+                    The_Legend_of_Korra => nrel_actor : DeeBradleyBaker;;
+                    
+                  
+                  
+                  The_Legend_of_Korra
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,68 @@
+concept_series -> 30_rock;;
+
+30_rock
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Студия 30]
+	(* <- lang_ru;;	*);
+	[30_rock]
+	(* <- lang_en;;	*);;
+	
+30_rock <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Студия 30)](*<-lang_ru;;*);
+		[Description (30 Rock)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/30_rock_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/30_rock_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+30_rock <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Студия 30)](*<-lang_ru;;*);
+		[Pic. (30_rock)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/30_rock.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+30_rock => nrel_production : Usa;;
+
+concept_calendar_date -> 2006;;
+2006 => nrel_main_idtf : [2006 год](*<-lang_ru;;*);;
+2006 => nrel_main_idtf : [year of 2006](*<-lang_en;;*);;
+30_rock => nrel_production_year : 2006;;
+	
+value -> 7;;
+30_rock => nrel_num_of_seasons: 7;;
+value -> 138;;
+30_rock => nrel_num_of_episodes: 138;;
+	
+value -> 70;;
+30_rock => nrel_no_countries : 70;;
+
+value -> 13;;
+30_rock => nrel_viewers_in_millions: 13;;
+
+30_rock => nrel_age_rating: concept_PG12;;
+
+30_rock => nrel_actor : Tina_Fey;;
+30_rock => nrel_producer : Don_Skardino;;
+
+30_rock
+=>nrel_keywords: concept_camedi;
+=>nrel_keywords: concept_lave;
+=>nrel_keywords: concept_frendship;;
+
+

@@ -1,0 +1,57 @@
+concept_human -> emma_thompson;;
+ 
+ emma_thompson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эмма Томпсон)](*<-lang_ru;;*);
+ 		[Description (Emma Thompson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/emma_thompson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ emma_thompson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эмма Томпсон)](*<-lang_ru;;*);
+ 		[Pic. (Emma Thompson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/emma_thompson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ emma_thompson => nrel_main_idtf : [Эмма Томпсон](*<-lang_ru;;*);;
+ emma_thompson => nrel_main_idtf : [Emma Thompson](*<-lang_en;;*);;
+ 
+ 
+ emma_thompson => nrel_birth_date : 1959;;
+ 
+ concept_goverment -> UK;;
+ emma_thompson => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ emma_thompson => nrel_to_star_in : beauty_and_the_beast;;
+beauty_and_the_beast => nrel_main_idtf : [Beauty and the Beast](*<-lang_en;;*);;
+beauty_and_the_beast => nrel_main_idtf : [Красавица и чудовище](*<-lang_ru;;*);;
+emma_thompson => nrel_to_star_in : harry_potter_and_the_deathly_hallows_part_2;;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Harry Potter and the Deathly Hallows: Part 2](*<-lang_en;;*);;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Гарри Поттер и Дары смерти: Часть 2](*<-lang_ru;;*);;
+emma_thompson => nrel_to_star_in : harry_potter_and_the_order_of_the_phoenix;;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Harry Potter and the Order of the Phoenix](*<-lang_en;;*);;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Гарри Поттер и Орден Феникса](*<-lang_ru;;*);;
+emma_thompson => nrel_to_star_in : harry_potter_and_the_prisoner_of_azkaban;;
+harry_potter_and_the_prisoner_of_azkaban => nrel_main_idtf : [Harry Potter and the Prisoner of Azkaban](*<-lang_en;;*);;
+harry_potter_and_the_prisoner_of_azkaban => nrel_main_idtf : [Гарри Поттер и узник Азкабана](*<-lang_ru;;*);;
+emma_thompson => nrel_to_star_in : junior;;
+junior => nrel_main_idtf : [Junior](*<-lang_en;;*);;
+junior => nrel_main_idtf : [Джуниор](*<-lang_ru;;*);;
+

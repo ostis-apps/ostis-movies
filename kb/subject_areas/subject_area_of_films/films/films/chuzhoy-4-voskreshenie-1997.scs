@@ -1,0 +1,67 @@
+film_chuzhoy_4_voskreshenie_1997
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Чужой 4: Воскрешение]
+(* <- lang_ru;;    *);
+[Alien: Resurrection]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Чужой 4: Воскрешение)](*<-lang_ru;;*);
+[Description (Alien: Resurrection)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chuzhoy-4-voskreshenie-1997_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chuzhoy-4-voskreshenie-1997_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чужой 4: Воскрешение)](*<-lang_ru;;*);
+		[Pic. (Alien: Resurrection)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chuzhoy-4-voskreshenie-1997.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Hell gives birth. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [12.11.1997](*<-lang_ru;;*);;
+    => nrel_main_idtf : [12.11.1997](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H49M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H49M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_chuzhoy_4_voskreshenie_1997 =>nrel_keywords: film;;
+
+film_chuzhoy_4_voskreshenie_1997 <- concept_action;concept_horror;concept_sci_fi;;
+
+film_chuzhoy_4_voskreshenie_1997 => nrel_main_actor : sigourney_weaver;winona_ryder;dominique_pinon;ron_perlman;;
+film_chuzhoy_4_voskreshenie_1997 => nrel_producer : jean_pierre_jeunet;;

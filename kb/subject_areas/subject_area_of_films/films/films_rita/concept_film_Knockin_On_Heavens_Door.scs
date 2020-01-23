@@ -1,0 +1,27 @@
+concept_film_Knockin_On_Heavens_Door
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Достучаться до небес](* <- lang_ru;; *);
+	[Knockin’ On Heaven’s Door](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Достучаться до небес)](*<-lang_ru;;*);
+		[Description (Knockin’ On Heaven’s Door)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Достучаться до небес.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Knockin’ On Heaven’s Door.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_friends;
+=> nrel_keywords: concept_disease;
+=> nrel_keywords: concept_escape;
+=> nrel_age_rating: concept_PG16;;

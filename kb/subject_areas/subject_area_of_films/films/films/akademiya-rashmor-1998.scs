@@ -1,0 +1,67 @@
+film_akademiya_rashmor_1998
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Академия Рашмор]
+(* <- lang_ru;;    *);
+[Rushmore]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Академия Рашмор)](*<-lang_ru;;*);
+[Description (Rushmore)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/akademiya-rashmor-1998_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/akademiya-rashmor-1998_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Академия Рашмор)](*<-lang_ru;;*);
+		[Pic. (Rushmore)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/akademiya-rashmor-1998.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : ["She was my Rushmore" See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [19.02.1999](*<-lang_ru;;*);;
+    => nrel_main_idtf : [19.02.1999](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H33M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H33M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_akademiya_rashmor_1998 =>nrel_keywords: film;;
+
+film_akademiya_rashmor_1998 <- concept_comedy;concept_drama;;
+
+film_akademiya_rashmor_1998 => nrel_main_actor : jason_schwartzman;bill_murray;olivia_williams;seymour_cassel;;
+film_akademiya_rashmor_1998 => nrel_producer : wes_anderson;;

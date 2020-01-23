@@ -1,0 +1,45 @@
+concept_human -> kim_kardashian;;
+ 
+ kim_kardashian <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Ким Кардашян)](*<-lang_ru;;*);
+ 		[Description (Kim Kardashian)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kim_kardashian_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kim_kardashian <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Ким Кардашян)](*<-lang_ru;;*);
+ 		[Pic. (Kim Kardashian)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kim_kardashian.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kim_kardashian => nrel_main_idtf : [Ким Кардашян](*<-lang_ru;;*);;
+ kim_kardashian => nrel_main_idtf : [Kim Kardashian](*<-lang_en;;*);;
+ 
+ 
+ kim_kardashian => nrel_birth_date : 1980;;
+ 
+ concept_goverment -> Usa;;
+ kim_kardashian => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kim_kardashian => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+

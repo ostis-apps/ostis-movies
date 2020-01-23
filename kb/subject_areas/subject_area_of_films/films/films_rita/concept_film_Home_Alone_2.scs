@@ -1,0 +1,28 @@
+concept_film_Home_Alone_2
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Один дома 2: Затерянный в Нью-Йорке](* <- lang_ru;; *);
+	[Home Alone 2: Lost in New York](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Один дома 2: Затерянный в Нью-Йорке)](*<-lang_ru;;*);
+		[Description (Home Alone 2: Lost in New York)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Один дома 2.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Home Alone 2.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_robber;
+=> nrel_keywords: concept_christmas;
+=> nrel_keywords: concept_vacation;
+=> nrel_keywords: concept_family;
+=> nrel_age_rating: concept_PG12;;

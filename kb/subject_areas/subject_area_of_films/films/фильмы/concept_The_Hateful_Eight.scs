@@ -1,0 +1,29 @@
+concept_The_Hateful_Eight
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Омерзительная восьмерка]
+	(* <- lang_ru;;	*);
+	[The Hateful Eight]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Омерзительная восьмерка)](*<-lang_ru;;*);
+		[Description (The Hateful Eight)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Омерзительная восьмерка.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The Hateful Eight.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+=>nrel_keywords: concept_antihero;
+=>nrel_keywords: concept_gang;
+=>nrel_keywords: concept_survival;	
+=>nrel_age_rating: concept_PG12;;	

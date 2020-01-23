@@ -1,0 +1,67 @@
+film_chetvertyy_chelovek_2007
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Четвертый человек]
+(* <- lang_ru;;    *);
+[Cetvrti covek / The Fourth Man]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Четвертый человек)](*<-lang_ru;;*);
+[Description (Cetvrti covek / The Fourth Man)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chetvertyy-chelovek-2007_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chetvertyy-chelovek-2007_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Четвертый человек)](*<-lang_ru;;*);
+		[Pic. (Cetvrti covek / The Fourth Man)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chetvertyy-chelovek-2007.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : serbia;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Under the shadow of war and flawed politics! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [31.10.2007](*<-lang_ru;;*);;
+    => nrel_main_idtf : [31.10.2007](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H47M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H47M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_chetvertyy_chelovek_2007 =>nrel_keywords: film;;
+
+film_chetvertyy_chelovek_2007 <- concept_action;concept_adventure;concept_mystery;concept_romance;concept_thriller;;
+
+film_chetvertyy_chelovek_2007 => nrel_main_actor : nikola_kojo;dragan_petrovic_pele;bogdan_diklic;marija_karan;;
+film_chetvertyy_chelovek_2007 => nrel_producer : dejan_zecevic;;

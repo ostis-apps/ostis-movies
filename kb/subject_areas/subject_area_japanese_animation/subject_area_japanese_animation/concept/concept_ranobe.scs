@@ -1,0 +1,22 @@
+concept_ranobe <- sc_node_not_relation;
+
+=> nrel_main_idtf:[ранобэ] (* <- lang_ru;; *);
+=> nrel_idtf:[ranobe] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (ранобэ)](* <- lang_ru;; *);
+		[Def. (ranobe)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_ranobe;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_ranobe">Ранобэ</sc_element></b> - японский роман с иллюстрациями, одна из наиболее популярных разновидностей художественной печатной продукции в Японии.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_ranobe">Ranobe </sc_element></b> is a Japanese novel with illustrations, one of the most popular types of artistic printed matter in Japan.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+

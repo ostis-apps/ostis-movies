@@ -1,0 +1,64 @@
+
+                  concept_series -> Darling_in_the_FranXX;;
+              
+                  Darling_in_the_FranXX
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Darling_in_the_FranXX]
+                    (* <- lang_ru;;	*);
+                    [Darling_in_the_FranXX]
+                    (* <- lang_en;;	*);;
+                  
+                  Darling_in_the_FranXX <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Darling_in_the_FranXX)](*<-lang_ru;;*);
+                      [Description (Darling_in_the_FranXX)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Darling_in_the_FranXX_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Darling_in_the_FranXX_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Darling_in_the_FranXX <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Darling_in_the_FranXX)](*<-lang_ru;;*);
+                      [Pic. (Darling_in_the_FranXX)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Darling_in_the_FranXX.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Darling_in_the_FranXX => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Darling_in_the_FranXX => nrel_production_year : 2018;;
+                  
+                  value -> 1;;
+                  Darling_in_the_FranXX => nrel_num_of_seasons: 1;;
+                  value -> 24;;
+                  Darling_in_the_FranXX => nrel_num_of_episodes: 24;;
+                  
+                  value -> 12;;
+                  Darling_in_the_FranXX => nrel_no_countries : 12;;
+                  
+                  value -> 5;;
+                  Darling_in_the_FranXX => nrel_viewers_in_millions: 5;;
+                  
+                  Darling_in_the_FranXX => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Darling_in_the_FranXX
+                  =>nrel_keywords: concept_detectif;;
+                  

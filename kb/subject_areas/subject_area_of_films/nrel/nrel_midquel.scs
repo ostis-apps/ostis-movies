@@ -1,0 +1,31 @@
+nrel_midquel <- sc_node_norole_relation;
+
+<- binary_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+    [midquel*](*<- lang_en;;*);
+    [мидквел*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element: 
+        ... 
+            (*		
+	<- definition;;
+	=> nrel_main_idtf: [Опр. (мидквел*)] (* <- lang_ru;; *);;
+	=> nrel_main_idtf: [Def. (midquel*)] (* <- lang_en;; *);;	
+	<= nrel_sc_text_translation: ... 
+	(*
+		->rrel_example: "file://HTML/nrel_midquel_ru_def.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/nrel_midquel_en_def.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		*);;
+         <= nrel_using_constants: {
+			concept_film
+			};;
+*);			
+=> nrel_first_domain: concept_film;
+=> nrel_second_domain: concept_film;
+=> nrel_definitional_domain: concept_film;;
+		

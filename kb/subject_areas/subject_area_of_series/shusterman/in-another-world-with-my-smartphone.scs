@@ -1,0 +1,88 @@
+
+                  concept_series -> In_Another_World_with_My_Smartphone;;
+              
+                  In_Another_World_with_My_Smartphone
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [In_Another_World_with_My_Smartphone]
+                    (* <- lang_ru;;	*);
+                    [In_Another_World_with_My_Smartphone]
+                    (* <- lang_en;;	*);;
+                  
+                  In_Another_World_with_My_Smartphone <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (In_Another_World_with_My_Smartphone)](*<-lang_ru;;*);
+                      [Description (In_Another_World_with_My_Smartphone)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/In_Another_World_with_My_Smartphone_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/In_Another_World_with_My_Smartphone_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  In_Another_World_with_My_Smartphone <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (In_Another_World_with_My_Smartphone)](*<-lang_ru;;*);
+                      [Pic. (In_Another_World_with_My_Smartphone)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/In_Another_World_with_My_Smartphone.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  In_Another_World_with_My_Smartphone => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  In_Another_World_with_My_Smartphone => nrel_production_year : 2017;;
+                  
+                  value -> 1;;
+                  In_Another_World_with_My_Smartphone => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  In_Another_World_with_My_Smartphone => nrel_num_of_episodes: 12;;
+                  
+                  value -> 10;;
+                  In_Another_World_with_My_Smartphone => nrel_no_countries : 10;;
+                  
+                  value -> 10;;
+                  In_Another_World_with_My_Smartphone => nrel_viewers_in_millions: 10;;
+                  
+                  In_Another_World_with_My_Smartphone => nrel_age_rating: concept_PG12;;
+                  
+                    In_Another_World_with_My_Smartphone => nrel_actor : YukiKaida;;
+                    
+                   
+                    In_Another_World_with_My_Smartphone => nrel_actor : SumireUesaka;;
+                    
+                   
+                    In_Another_World_with_My_Smartphone => nrel_actor : ChinatsuAkasaki;;
+                    
+                   
+                    In_Another_World_with_My_Smartphone => nrel_actor : MaayaUchida;;
+                    
+                   
+                    In_Another_World_with_My_Smartphone => nrel_actor : MarikaKno;;
+                    
+                   
+                    In_Another_World_with_My_Smartphone => nrel_actor : NanamiYamashita;;
+                    
+                   
+                    In_Another_World_with_My_Smartphone => nrel_actor : YuiFukuo;;
+                    
+                   
+                    In_Another_World_with_My_Smartphone => nrel_actor : KatsumiFukuhara;;
+                    
+                  
+                  
+                  In_Another_World_with_My_Smartphone
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,72 @@
+concept_film -> Krid2;;
+
+Krid2
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Крид 2]
+	(* <- lang_ru;;	*);
+	[Krid 2]
+	(* <- lang_en;;	*);;
+	
+Krid2 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Крид 2)](*<-lang_ru;;*);
+		[Description (Krid 2)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Krid2_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Krid2_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Krid2 <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Крид 2)](*<-lang_ru;;*);
+		[Pic. (Krid 2)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Krid2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Krid2 => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 21_11_2018;;
+21_11_2018 => nrel_main_idtf : [21.11.2018](*<-lang_ru;;*);;
+21_11_2018 => nrel_main_idtf : [21.11.2018](*<-lang_en;;*);;
+Krid2 => nrel_release_date : 21_11_2018;;
+
+Krid2 => nrel_tagline_of_film : slogan_Krid2;;
+slogan_Krid2 => nrel_main_idtf : [Легенды становятся сильнее](*<-lang_ru;;*);;
+slogan_Krid2 => nrel_main_idtf : [The legends becomes stronger](*<-lang_en;;*);;
+
+Krid2 => nrel_duration_of_showing : 2_10;;
+
+duration -> 2_10;;
+2_10 => nrel_main_idtf : [2 часа и 10 минут](*<-lang_ru;;*);;
+2_10 => nrel_main_idtf : [2 hour and 10 minutes](*<-lang_en;;*);;
+
+value -> 213_915_889;;
+213_915_889 => nrel_main_idtf : [213 915 889$](*<-lang_ru;;*);;
+213_915_889 => nrel_main_idtf : [213 915 889$](*<-lang_en;;*);;
+Krid2 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 213_915_889;;   
+*);;
+
+Krid2 => nrel_film_critic_rating : 7;;
+
+Krid2 =>nrel_keywords: concept_courage;box;success;;
+Krid2 =>nrel_age_rating: concept_PG12;;
+
+Krid2 => nrel_main_actor : Jordan; Stalone;;
+Krid2 => nrel_producer : Teilor;;
+Krid2 => nrel_screenwriter : Stalone;;
+

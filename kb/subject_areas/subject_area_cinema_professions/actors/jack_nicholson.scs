@@ -1,0 +1,51 @@
+concept_human -> jack_nicholson;;
+ 
+ jack_nicholson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джек Николсон)](*<-lang_ru;;*);
+ 		[Description (Jack Nicholson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jack_nicholson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jack_nicholson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джек Николсон)](*<-lang_ru;;*);
+ 		[Pic. (Jack Nicholson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jack_nicholson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jack_nicholson => nrel_main_idtf : [Джек Николсон](*<-lang_ru;;*);;
+ jack_nicholson => nrel_main_idtf : [Jack Nicholson](*<-lang_en;;*);;
+ 
+ 
+ jack_nicholson => nrel_birth_date : 1937;;
+ 
+ concept_goverment -> Usa;;
+ jack_nicholson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jack_nicholson => nrel_to_star_in : the_departed;;
+the_departed => nrel_main_idtf : [The Departed](*<-lang_en;;*);;
+the_departed => nrel_main_idtf : [Отступники](*<-lang_ru;;*);;
+jack_nicholson => nrel_to_star_in : anger_management;;
+anger_management => nrel_main_idtf : [Anger Management](*<-lang_en;;*);;
+anger_management => nrel_main_idtf : [Управление гневом](*<-lang_ru;;*);;
+jack_nicholson => nrel_to_star_in : the_witches_of_eastwick;;
+the_witches_of_eastwick => nrel_main_idtf : [The Witches of Eastwick](*<-lang_en;;*);;
+the_witches_of_eastwick => nrel_main_idtf : [Иствикские ведьмы](*<-lang_ru;;*);;
+

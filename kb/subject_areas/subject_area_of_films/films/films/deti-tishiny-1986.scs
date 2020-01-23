@@ -1,0 +1,67 @@
+film_deti_tishiny_1986
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Дети тишины]
+(* <- lang_ru;;    *);
+[Children of a Lesser God]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Дети тишины)](*<-lang_ru;;*);
+[Description (Children of a Lesser God)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/deti-tishiny-1986_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/deti-tishiny-1986_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дети тишины)](*<-lang_ru;;*);
+		[Pic. (Children of a Lesser God)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/deti-tishiny-1986.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [A love beyond words. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [31.10.1986](*<-lang_ru;;*);;
+    => nrel_main_idtf : [31.10.1986](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H59M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H59M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_deti_tishiny_1986 =>nrel_keywords: film;;
+
+film_deti_tishiny_1986 <- concept_drama;concept_romance;;
+
+film_deti_tishiny_1986 => nrel_main_actor : william_hurt;marlee_matlin;piper_laurie;philip_bosco;;
+film_deti_tishiny_1986 => nrel_producer : randa_haines;;

@@ -1,0 +1,51 @@
+concept_human -> judi_dench;;
+ 
+ judi_dench <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джуди Денч)](*<-lang_ru;;*);
+ 		[Description (Judi Dench)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/judi_dench_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ judi_dench <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джуди Денч)](*<-lang_ru;;*);
+ 		[Pic. (Judi Dench)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/judi_dench.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ judi_dench => nrel_main_idtf : [Джуди Денч](*<-lang_ru;;*);;
+ judi_dench => nrel_main_idtf : [Judi Dench](*<-lang_en;;*);;
+ 
+ 
+ judi_dench => nrel_birth_date : 1935;;
+ 
+ concept_goverment -> UK;;
+ judi_dench => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ judi_dench => nrel_to_star_in : murder_on_the_orient_express;;
+murder_on_the_orient_express => nrel_main_idtf : [Murder on the Orient Express](*<-lang_en;;*);;
+murder_on_the_orient_express => nrel_main_idtf : [Убийство в Восточном экспрессе](*<-lang_ru;;*);;
+judi_dench => nrel_to_star_in : pirates_of_the_caribbean_on_stranger_tides;;
+pirates_of_the_caribbean_on_stranger_tides => nrel_main_idtf : [Pirates of the Caribbean: On Stranger Tides](*<-lang_en;;*);;
+pirates_of_the_caribbean_on_stranger_tides => nrel_main_idtf : [Пираты Карибского моря: На странных берегах](*<-lang_ru;;*);;
+judi_dench => nrel_to_star_in : the_chronicles_of_riddick;;
+the_chronicles_of_riddick => nrel_main_idtf : [The Chronicles of Riddick](*<-lang_en;;*);;
+the_chronicles_of_riddick => nrel_main_idtf : [Хроники Риддика](*<-lang_ru;;*);;
+

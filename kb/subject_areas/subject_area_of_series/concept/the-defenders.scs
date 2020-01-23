@@ -1,0 +1,67 @@
+
+                  concept_series -> Defenders_UK;;
+              
+                  Defenders_UK
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Defenders_UK]
+                    (* <- lang_ru;;	*);
+                    [Defenders_UK]
+                    (* <- lang_en;;	*);;
+                  
+                  Defenders_UK <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Defenders_UK)](*<-lang_ru;;*);
+                      [Description (Defenders_UK)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Defenders_UK_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Defenders_UK_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Defenders_UK <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Defenders_UK)](*<-lang_ru;;*);
+                      [Pic. (Defenders_UK)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Defenders_UK.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Defenders_UK => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Defenders_UK => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  Defenders_UK => nrel_num_of_seasons: 2;;
+                  value -> 25;;
+                  Defenders_UK => nrel_num_of_episodes: 25;;
+                  
+                  value -> 13;;
+                  Defenders_UK => nrel_no_countries : 13;;
+                  
+                  value -> 12;;
+                  Defenders_UK => nrel_viewers_in_millions: 12;;
+                  
+                  Defenders_UK => nrel_age_rating: concept_PG12;;
+                  
+                    Defenders_UK => nrel_actor : HarryHepple;;
+                    
+                  
+                  
+                  Defenders_UK
+                  =>nrel_keywords: concept_detectif;;
+                  

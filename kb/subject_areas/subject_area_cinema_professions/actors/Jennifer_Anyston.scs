@@ -1,0 +1,66 @@
+concept_human -> Jennifer_Anyston;;
+
+Jennifer_Anyston <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дженнифер Эннистон)](*<-lang_ru;;*);
+		[Description (Jennifer Anyston)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Anyston_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Anyston_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jennifer_Anyston <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дженнифер Эннистон)](*<-lang_ru;;*);
+		[Pic. (Jennifer Anyston)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Anyston.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Jennifer_Anyston => nrel_be_awarded : Golden_globe;; 
+Jennifer_Anyston => nrel_main_idtf : [Дженнифер Эннистон](*<-lang_ru;;*);;
+Jennifer_Anyston => nrel_main_idtf : [Jennifer Anyston](*<-lang_en;;*);;
+
+concept_calendar_date -> 11_02_1969;;
+Jennifer_Anyston => nrel_date_of_birth : 18_12_1963;;
+11_02_1969 => nrel_main_idtf : [11.02.1969](*<-lang_en;;*);;
+11_02_1969 => nrel_main_idtf : [11.02.1969](*<-lang_ru;;*);;
+
+concept_city -> Sherman_Ox;;
+Jennifer_Anyston => nrel_place_of_birth : Sherman_Ox;;
+Sherman_Ox => nrel_main_idtf : [Sherman-Ox](*<-lang_en;;*);;
+Sherman_Ox => nrel_main_idtf : [Шерман-Окс](*<-lang_ru;;*);;
+
+Jennifer_Anyston => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 21_12_1990;;
+Jennifer_Anyston => nrel_career_start_date : 21_12_1990;;
+21_12_1990 => nrel_main_idtf : [21.12.1990](*<-lang_en;;*);;
+21_12_1990 => nrel_main_idtf : [21.12.1990](*<-lang_ru;;*);;
+
+concept_film -> New_Corp;Aist;Cake;We_are_Millers;Studio3D;;
+New_Corp => nrel_main_idtf : [NewYear corporate party](*<-lang_en;;*);;
+New_Corp => nrel_main_idtf : [Новогодний корпаратив](*<-lang_ru;;*);;
+Aist => nrel_main_idtf : [Stroks](*<-lang_en;;*);;
+Aist => nrel_main_idtf : [Аисты](*<-lang_ru;;*);;
+Cake => nrel_main_idtf : [Cake](*<-lang_en;;*);;
+Cake => nrel_main_idtf : [Торт](*<-lang_ru;;*);;
+We_are_Millers => nrel_main_idtf : [We are Millers](*<-lang_en;;*);;
+We_are_Millers => nrel_main_idtf : [Мы-Миллеры](*<-lang_ru;;*);;
+Studio3D => nrel_main_idtf : [Studio 3D](*<-lang_en;;*);;
+Studio3D => nrel_main_idtf : [Студия 3D](*<-lang_ru;;*);;
+
+Jennifer_Anyston => nrel_to_star_in : New_Corp;Aist;Cake;We_are_Millers;Studio3D;;
+

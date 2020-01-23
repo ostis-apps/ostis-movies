@@ -1,0 +1,72 @@
+concept_human -> emma_watson;;
+ 
+ emma_watson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эмма Уотсон)](*<-lang_ru;;*);
+ 		[Description (Emma Watson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/emma_watson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ emma_watson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эмма Уотсон)](*<-lang_ru;;*);
+ 		[Pic. (Emma Watson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/emma_watson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ emma_watson => nrel_main_idtf : [Эмма Уотсон](*<-lang_ru;;*);;
+ emma_watson => nrel_main_idtf : [Emma Watson](*<-lang_en;;*);;
+ 
+ 
+ emma_watson => nrel_birth_date : 1990;;
+ 
+ concept_goverment -> UK;;
+ emma_watson => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ emma_watson => nrel_to_star_in : beauty_and_the_beast;;
+beauty_and_the_beast => nrel_main_idtf : [Beauty and the Beast](*<-lang_en;;*);;
+beauty_and_the_beast => nrel_main_idtf : [Красавица и чудовище](*<-lang_ru;;*);;
+emma_watson => nrel_to_star_in : noah;;
+noah => nrel_main_idtf : [Noah](*<-lang_en;;*);;
+noah => nrel_main_idtf : [Ной](*<-lang_ru;;*);;
+emma_watson => nrel_to_star_in : harry_potter_and_the_deathly_hallows_part_2;;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Harry Potter and the Deathly Hallows: Part 2](*<-lang_en;;*);;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Гарри Поттер и Дары смерти: Часть 2](*<-lang_ru;;*);;
+emma_watson => nrel_to_star_in : harry_potter_and_the_deathly_hallows_part_1;;
+harry_potter_and_the_deathly_hallows_part_1 => nrel_main_idtf : [Harry Potter and the Deathly Hallows: Part 1](*<-lang_en;;*);;
+harry_potter_and_the_deathly_hallows_part_1 => nrel_main_idtf : [Гарри Поттер и Дары смерти: Часть 1](*<-lang_ru;;*);;
+emma_watson => nrel_to_star_in : harry_potter_and_the_halfblood_prince;;
+harry_potter_and_the_halfblood_prince => nrel_main_idtf : [Harry Potter and the Half-Blood Prince](*<-lang_en;;*);;
+harry_potter_and_the_halfblood_prince => nrel_main_idtf : [Гарри Поттер и Принц-полукровка](*<-lang_ru;;*);;
+emma_watson => nrel_to_star_in : harry_potter_and_the_order_of_the_phoenix;;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Harry Potter and the Order of the Phoenix](*<-lang_en;;*);;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Гарри Поттер и Орден Феникса](*<-lang_ru;;*);;
+emma_watson => nrel_to_star_in : harry_potter_and_the_goblet_of_fire;;
+harry_potter_and_the_goblet_of_fire => nrel_main_idtf : [Harry Potter and the Goblet of Fire](*<-lang_en;;*);;
+harry_potter_and_the_goblet_of_fire => nrel_main_idtf : [Гарри Поттер и Кубок огня](*<-lang_ru;;*);;
+emma_watson => nrel_to_star_in : harry_potter_and_the_prisoner_of_azkaban;;
+harry_potter_and_the_prisoner_of_azkaban => nrel_main_idtf : [Harry Potter and the Prisoner of Azkaban](*<-lang_en;;*);;
+harry_potter_and_the_prisoner_of_azkaban => nrel_main_idtf : [Гарри Поттер и узник Азкабана](*<-lang_ru;;*);;
+emma_watson => nrel_to_star_in : harry_potter_and_the_chamber_of_secrets;;
+harry_potter_and_the_chamber_of_secrets => nrel_main_idtf : [Harry Potter and the Chamber of Secrets](*<-lang_en;;*);;
+harry_potter_and_the_chamber_of_secrets => nrel_main_idtf : [Гарри Поттер и Тайная комната](*<-lang_ru;;*);;
+emma_watson => nrel_to_star_in : harry_potter_and_the_sorcerers_stone;;
+harry_potter_and_the_sorcerers_stone => nrel_main_idtf : [Harry Potter and the Sorcerer`s Stone](*<-lang_en;;*);;
+harry_potter_and_the_sorcerers_stone => nrel_main_idtf : [Гарри Поттер и философский камень](*<-lang_ru;;*);;
+

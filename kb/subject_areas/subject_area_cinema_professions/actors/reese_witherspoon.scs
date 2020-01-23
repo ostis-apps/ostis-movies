@@ -1,0 +1,54 @@
+concept_human -> reese_witherspoon;;
+ 
+ reese_witherspoon <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Риз Уизерспун)](*<-lang_ru;;*);
+ 		[Description (Reese Witherspoon)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/reese_witherspoon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ reese_witherspoon <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Риз Уизерспун)](*<-lang_ru;;*);
+ 		[Pic. (Reese Witherspoon)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/reese_witherspoon.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ reese_witherspoon => nrel_main_idtf : [Риз Уизерспун](*<-lang_ru;;*);;
+ reese_witherspoon => nrel_main_idtf : [Reese Witherspoon](*<-lang_en;;*);;
+ 
+ 
+ reese_witherspoon => nrel_birth_date : 1976;;
+ 
+ concept_goverment -> Usa;;
+ reese_witherspoon => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ reese_witherspoon => nrel_to_star_in : big_little_lies;;
+big_little_lies => nrel_main_idtf : [Big Little Lies](*<-lang_en;;*);;
+big_little_lies => nrel_main_idtf : [Большая маленькая ложь](*<-lang_ru;;*);;
+reese_witherspoon => nrel_to_star_in : penelope;;
+penelope => nrel_main_idtf : [Penelope](*<-lang_en;;*);;
+penelope => nrel_main_idtf : [Пенелопа](*<-lang_ru;;*);;
+reese_witherspoon => nrel_to_star_in : walk_the_line;;
+walk_the_line => nrel_main_idtf : [Walk the Line](*<-lang_en;;*);;
+walk_the_line => nrel_main_idtf : [Переступить черту](*<-lang_ru;;*);;
+reese_witherspoon => nrel_to_star_in : american_psycho;;
+american_psycho => nrel_main_idtf : [American Psycho](*<-lang_en;;*);;
+american_psycho => nrel_main_idtf : [Американский психопат](*<-lang_ru;;*);;
+

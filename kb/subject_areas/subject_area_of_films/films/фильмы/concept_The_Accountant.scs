@@ -1,0 +1,31 @@
+concept_The_Accountant
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Расплата]
+	(* <- lang_ru;;	*);
+	[The Accountant]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Расплата)](*<-lang_ru;;*);
+		[Description (The Accountant)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Расплата.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The Accountant.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_autism;
+=>nrel_keywords: concept_antihero;
+=>nrel_keywords: concept_survival;	
+=>nrel_age_rating: concept_PG18;;	

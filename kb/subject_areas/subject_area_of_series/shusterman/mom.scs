@@ -1,0 +1,103 @@
+
+                  concept_series -> Mom;;
+              
+                  Mom
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Мама]
+                    (* <- lang_ru;;	*);
+                    [Mom]
+                    (* <- lang_en;;	*);;
+                  
+                  Mom <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Мама)](*<-lang_ru;;*);
+                      [Description (Mom)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Mom_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Mom_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Mom <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Мама)](*<-lang_ru;;*);
+                      [Pic. (Mom)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Mom.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Mom => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Mom => nrel_production_year : 2013;;
+                  
+                  value -> 8;;
+                  Mom => nrel_num_of_seasons: 8;;
+                  value -> 142;;
+                  Mom => nrel_num_of_episodes: 142;;
+                  
+                  value -> 9;;
+                  Mom => nrel_no_countries : 9;;
+                  
+                  value -> 12;;
+                  Mom => nrel_viewers_in_millions: 12;;
+                  
+                  Mom => nrel_age_rating: concept_PG12;;
+                  
+                    Mom => nrel_actor : AllisonJanney;;
+                    
+                   
+                    Mom => nrel_actor : AnnaFaris;;
+                    
+                   
+                    Mom => nrel_actor : MimiKennedy;;
+                    
+                   
+                    Mom => nrel_actor : BethHall;;
+                    
+                   
+                    Mom => nrel_actor : JaimePressly;;
+                    
+                   
+                    Mom => nrel_actor : WilliamFichtner;;
+                    
+                   
+                    Mom => nrel_actor : SadieCalvano;;
+                    
+                   
+                    Mom => nrel_actor : BlakeGarrettRosenthal;;
+                    
+                   
+                    Mom => nrel_actor : MattLJones;;
+                    
+                   
+                    Mom => nrel_actor : SpencerDaniels;;
+                    
+                   
+                    Mom => nrel_actor : KristenJohnston;;
+                    
+                   
+                    Mom => nrel_actor : NathanCorddry;;
+                    
+                   
+                    Mom => nrel_actor : FrenchStewart;;
+                    
+                  
+                  
+                  Mom
+                  =>nrel_keywords: concept_detectif;;
+                  

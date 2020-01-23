@@ -1,0 +1,45 @@
+concept_human -> robin_williams;;
+ 
+ robin_williams <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Робин Уильямс)](*<-lang_ru;;*);
+ 		[Description (Robin Williams)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/robin_williams_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ robin_williams <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Робин Уильямс)](*<-lang_ru;;*);
+ 		[Pic. (Robin Williams)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/robin_williams.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ robin_williams => nrel_main_idtf : [Робин Уильямс](*<-lang_ru;;*);;
+ robin_williams => nrel_main_idtf : [Robin Williams](*<-lang_en;;*);;
+ 
+ 
+ robin_williams => nrel_birth_date : 1956;;
+ 
+ concept_goverment -> Usa;;
+ robin_williams => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ robin_williams => nrel_to_star_in : insomnia;;
+insomnia => nrel_main_idtf : [Insomnia](*<-lang_en;;*);;
+insomnia => nrel_main_idtf : [Бессонница](*<-lang_ru;;*);;
+

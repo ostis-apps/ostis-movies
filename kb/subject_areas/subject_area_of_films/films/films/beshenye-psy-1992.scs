@@ -1,0 +1,67 @@
+film_beshenye_psy_1992
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бешеные псы]
+(* <- lang_ru;;    *);
+[Reservoir Dogs]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бешеные псы)](*<-lang_ru;;*);
+[Description (Reservoir Dogs)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/beshenye-psy-1992_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/beshenye-psy-1992_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бешеные псы)](*<-lang_ru;;*);
+		[Pic. (Reservoir Dogs)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/beshenye-psy-1992.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Four perfect killers. One perfect crime. Now all they have to fear is each other. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [02.09.1992](*<-lang_ru;;*);;
+    => nrel_main_idtf : [02.09.1992](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H39M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H39M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_beshenye_psy_1992 =>nrel_keywords: film;;
+
+film_beshenye_psy_1992 <- concept_crime;concept_drama;concept_thriller;;
+
+film_beshenye_psy_1992 => nrel_main_actor : harvey_keitel;tim_roth;michael_madsen;chris_penn;;
+film_beshenye_psy_1992 => nrel_producer : quentin_tarantino;;

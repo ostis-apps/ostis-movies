@@ -1,0 +1,32 @@
+concept_film_logan
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Логан]
+	(* <- lang_ru;;	*);
+	[Logan]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Логан)](*<-lang_ru;;*);
+		[Description (Logan)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Логан.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Logan.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_fantastic;
+=>nrel_keywords:concept_marvel;
+=>nrel_keywords:concept_murders;
+=>nrel_keywords:concept_Xmen;
+=>nrel_age_rating: concept_PG18;;	

@@ -1,0 +1,48 @@
+concept_human -> kevin_bacon;;
+ 
+ kevin_bacon <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кевин Бэйкон)](*<-lang_ru;;*);
+ 		[Description (Kevin Bacon)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kevin_bacon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kevin_bacon <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кевин Бэйкон)](*<-lang_ru;;*);
+ 		[Pic. (Kevin Bacon)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kevin_bacon.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kevin_bacon => nrel_main_idtf : [Кевин Бэйкон](*<-lang_ru;;*);;
+ kevin_bacon => nrel_main_idtf : [Kevin Bacon](*<-lang_en;;*);;
+ 
+ 
+ kevin_bacon => nrel_birth_date : 1958;;
+ 
+ concept_goverment -> Usa;;
+ kevin_bacon => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kevin_bacon => nrel_to_star_in : xmen_first_class;;
+xmen_first_class => nrel_main_idtf : [X-Men: First Class](*<-lang_en;;*);;
+xmen_first_class => nrel_main_idtf : [Люди Икс: Первый класс](*<-lang_ru;;*);;
+kevin_bacon => nrel_to_star_in : apollo_13;;
+apollo_13 => nrel_main_idtf : [Apollo 13](*<-lang_en;;*);;
+apollo_13 => nrel_main_idtf : [Аполлон 13](*<-lang_ru;;*);;
+

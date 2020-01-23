@@ -1,0 +1,88 @@
+
+                  concept_series -> The_Habitation;;
+              
+                  The_Habitation
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Habitation]
+                    (* <- lang_ru;;	*);
+                    [The_Habitation]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Habitation <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Habitation)](*<-lang_ru;;*);
+                      [Description (The_Habitation)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Habitation_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Habitation_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Habitation <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Habitation)](*<-lang_ru;;*);
+                      [Pic. (The_Habitation)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Habitation.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Habitation => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  The_Habitation => nrel_production_year : 2018;;
+                  
+                  value -> 1;;
+                  The_Habitation => nrel_num_of_seasons: 1;;
+                  value -> 8;;
+                  The_Habitation => nrel_num_of_episodes: 8;;
+                  
+                  value -> 6;;
+                  The_Habitation => nrel_no_countries : 6;;
+                  
+                  value -> 7;;
+                  The_Habitation => nrel_viewers_in_millions: 7;;
+                  
+                  The_Habitation => nrel_age_rating: concept_PG12;;
+                  
+                    The_Habitation => nrel_actor : ShigenoriYamazaki;;
+                    
+                   
+                    The_Habitation => nrel_actor : MayumiAsaka;;
+                    
+                   
+                    The_Habitation => nrel_actor : KyokoEnami;;
+                    
+                   
+                    The_Habitation => nrel_actor : ShiroSano;;
+                    
+                   
+                    The_Habitation => nrel_actor : RikaAdachi;;
+                    
+                   
+                    The_Habitation => nrel_actor : TakayaSakoda;;
+                    
+                   
+                    The_Habitation => nrel_actor : UtaWatanabe;;
+                    
+                   
+                    The_Habitation => nrel_actor : HatsuoYamaya;;
+                    
+                  
+                  
+                  The_Habitation
+                  =>nrel_keywords: concept_detectif;;
+                  

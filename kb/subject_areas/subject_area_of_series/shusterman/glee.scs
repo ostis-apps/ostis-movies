@@ -1,0 +1,133 @@
+
+                  concept_series -> Glee;;
+              
+                  Glee
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [ликование]
+                    (* <- lang_ru;;	*);
+                    [Glee]
+                    (* <- lang_en;;	*);;
+                  
+                  Glee <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (ликование)](*<-lang_ru;;*);
+                      [Description (Glee)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Glee_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Glee_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Glee <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (ликование)](*<-lang_ru;;*);
+                      [Pic. (Glee)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Glee.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Glee => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2009;;
+                  2009 => nrel_main_idtf : [2009 год](*<-lang_ru;;*);;
+                  2009 => nrel_main_idtf : [year of 2009](*<-lang_en;;*);;
+                  Glee => nrel_production_year : 2009;;
+                  
+                  value -> 6;;
+                  Glee => nrel_num_of_seasons: 6;;
+                  value -> 121;;
+                  Glee => nrel_num_of_episodes: 121;;
+                  
+                  value -> 5;;
+                  Glee => nrel_no_countries : 5;;
+                  
+                  value -> 10;;
+                  Glee => nrel_viewers_in_millions: 10;;
+                  
+                  Glee => nrel_age_rating: concept_PG12;;
+                  
+                    Glee => nrel_actor : LeaMichele;;
+                    
+                   
+                    Glee => nrel_actor : ChrisColfer;;
+                    
+                   
+                    Glee => nrel_actor : MatthewMorrison;;
+                    
+                   
+                    Glee => nrel_actor : NayaRivera;;
+                    
+                   
+                    Glee => nrel_actor : KevinMcHale;;
+                    
+                   
+                    Glee => nrel_actor : JennaUshkowitz;;
+                    
+                   
+                    Glee => nrel_actor : AmberRiley;;
+                    
+                   
+                    Glee => nrel_actor : JaneLynch;;
+                    
+                   
+                    Glee => nrel_actor : MarkSalling;;
+                    
+                   
+                    Glee => nrel_actor : HeatherMorris;;
+                    
+                   
+                    Glee => nrel_actor : DarrenCriss;;
+                    
+                   
+                    Glee => nrel_actor : ChordOverstreet;;
+                    
+                   
+                    Glee => nrel_actor : CoryMonteith;;
+                    
+                   
+                    Glee => nrel_actor : DiannaAgron;;
+                    
+                   
+                    Glee => nrel_actor : JaymaMays;;
+                    
+                   
+                    Glee => nrel_actor : HarryShumJr;;
+                    
+                   
+                    Glee => nrel_actor : BeccaTobin;;
+                    
+                   
+                    Glee => nrel_actor : JessalynGilsig;;
+                    
+                   
+                    Glee => nrel_actor : MikeOMalley;;
+                    
+                   
+                    Glee => nrel_actor : AlexNewell;;
+                    
+                   
+                    Glee => nrel_actor : MelissaBenoist;;
+                    
+                   
+                    Glee => nrel_actor : JacobArtist;;
+                    
+                   
+                    Glee => nrel_actor : BlakeJenner;;
+                    
+                  
+                  
+                  Glee
+                  =>nrel_keywords: concept_detectif;;
+                  

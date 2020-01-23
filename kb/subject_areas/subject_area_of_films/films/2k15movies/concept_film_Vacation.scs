@@ -1,0 +1,31 @@
+concept_film_Vacation
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Каникулы]
+	(* <- lang_ru;;	*);
+	[Vacation]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Каникулы)](*<-lang_ru;;*);
+		[Description (Vacation)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Каникулы.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Vacation.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_vacation;
+=>nrel_keywords: concept_family;
+=>nrel_keywords: concept_trip;
+=>nrel_age_rating: concept_PG18;;	

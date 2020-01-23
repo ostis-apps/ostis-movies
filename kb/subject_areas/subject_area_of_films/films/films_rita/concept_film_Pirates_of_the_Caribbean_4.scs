@@ -1,0 +1,26 @@
+concept_film_Pirates_of_the_Caribbean_4
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пираты Карибского моря: На странных берегах](* <- lang_ru;; *);
+	[Pirates of the Caribbean: On Stranger Tides](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Пираты Карибского моря: На странных берегах)](*<-lang_ru;;*);
+		[Description (Pirates of the Caribbean: On Stranger Tides)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Пираты Карибского моря 4.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Pirates of the Caribbean 4.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_pirate;
+=> nrel_keywords: concept_ship;
+=> nrel_age_rating: concept_PG12;;

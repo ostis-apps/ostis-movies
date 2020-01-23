@@ -1,0 +1,67 @@
+film_belyy_shum_2004
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Белый шум]
+(* <- lang_ru;;    *);
+[White Noise]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Белый шум)](*<-lang_ru;;*);
+[Description (White Noise)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/belyy-shum-2004_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/belyy-shum-2004_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Белый шум)](*<-lang_ru;;*);
+		[Pic. (White Noise)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/belyy-shum-2004.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;canada;usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The voices of the dead are all around you. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [07.01.2005](*<-lang_ru;;*);;
+    => nrel_main_idtf : [07.01.2005](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H41M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H41M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_belyy_shum_2004 =>nrel_keywords: film;;
+
+film_belyy_shum_2004 <- concept_drama;concept_horror;concept_mystery;concept_thriller;;
+
+film_belyy_shum_2004 => nrel_main_actor : michael_keaton;deborah_kara_unger;ian_mcneice;chandra_west;;
+film_belyy_shum_2004 => nrel_producer : geoffrey_sax;;

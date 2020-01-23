@@ -1,0 +1,62 @@
+concept_human -> Samuel_Jackson;;
+
+Samuel_Jackson <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Самуэль Эл Джексон)](*<-lang_ru;;*);
+		[Description (Samuel El Jackson)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Samuel_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Samuel_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Samuel_Jackson <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Самуэль Эл Джексон)](*<-lang_ru;;*);
+		[Pic. (Samuel El Jackson)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Samuel.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Samuel_Jackson => nrel_be_awarded : silver_bear;; 
+Samuel_Jackson => nrel_main_idtf : [Самуэль Эл Джексон](*<-lang_ru;;*);;
+Samuel_Jackson => nrel_main_idtf : [Samuel El Jackson](*<-lang_en;;*);;
+
+concept_calendar_date -> 21_12_1948;;
+Samuel_Jackson => nrel_date_of_birth : 21_12_1948;;
+21_12_1948 => nrel_main_idtf : [21.12.1948](*<-lang_en;;*);;
+21_12_1948 => nrel_main_idtf : [21.12.1948](*<-lang_ru;;*);;
+
+Samuel_Jackson => nrel_place_of_birth : Washington;;
+Washington => nrel_main_idtf : [Вашингтон](*<-lang_ru;;*);;
+Washington => nrel_main_idtf : [Washington](*<-lang_en;;*);;
+
+Samuel_Jackson => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 13_03_1972;;
+Samuel_Jackson => nrel_career_start_date : 13_03_1972;;
+13_03_1972 => nrel_main_idtf : [13.03.1972](*<-lang_en;;*);;
+13_03_1972 => nrel_main_idtf : [13.03.1972](*<-lang_ru;;*);;
+
+concept_film -> Killer;Mobile;Keyt;;
+Killer => nrel_main_idtf : [Bodyguard killer](*<-lang_en;;*);;
+Killer => nrel_main_idtf : [Телохранитель киллера](*<-lang_ru;;*);;
+Mobile => nrel_main_idtf : [Mobile phone](*<-lang_en;;*);;
+Mobile => nrel_main_idtf : [Мобильник](*<-lang_ru;;*);;
+Keyt => nrel_main_idtf : [Keyt](*<-lang_en;;*);;
+Keyt => nrel_main_idtf : [Кейт](*<-lang_ru;;*);;
+
+
+Samuel_Jackson => nrel_to_star_in : Captian_Marvel;Glass;Killer;Mobile;Keyt;;
+

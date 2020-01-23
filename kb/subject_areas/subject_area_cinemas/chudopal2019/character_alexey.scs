@@ -1,0 +1,21 @@
+character_alexey
+	=> nrel_main_idtf:
+	[Алексей]
+	(* <- lang_ru;;	*);
+	[Alexey]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: oleg_yankovsky;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Алексей)](* <- lang_ru;; *);
+		[Desctiption (Alexey)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_alexey">Алексей</sc_element></b> — писатель, что разочаровался в жизни, забыл о своих родных и апебывает в глубокой депрессии](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_alexey">Alexey</sc_element></b> — the writer, who was disappointed in life, forgot about his family and is in a deep depression](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;

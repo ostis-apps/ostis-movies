@@ -1,0 +1,45 @@
+concept_human -> mandy_moore;;
+ 
+ mandy_moore <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэнди Мур)](*<-lang_ru;;*);
+ 		[Description (Mandy Moore)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/mandy_moore_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ mandy_moore <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэнди Мур)](*<-lang_ru;;*);
+ 		[Pic. (Mandy Moore)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/mandy_moore.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ mandy_moore => nrel_main_idtf : [Мэнди Мур](*<-lang_ru;;*);;
+ mandy_moore => nrel_main_idtf : [Mandy Moore](*<-lang_en;;*);;
+ 
+ 
+ mandy_moore => nrel_birth_date : 1984;;
+ 
+ concept_goverment -> Usa;;
+ mandy_moore => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ mandy_moore => nrel_to_star_in : the_princess_diaries;;
+the_princess_diaries => nrel_main_idtf : [The Princess Diaries](*<-lang_en;;*);;
+the_princess_diaries => nrel_main_idtf : [Как стать принцессой](*<-lang_ru;;*);;
+

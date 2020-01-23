@@ -1,0 +1,45 @@
+concept_human -> harrison_ford;;
+ 
+ harrison_ford <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Харрисон Форд)](*<-lang_ru;;*);
+ 		[Description (Harrison Ford)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/harrison_ford_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ harrison_ford <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Харрисон Форд)](*<-lang_ru;;*);
+ 		[Pic. (Harrison Ford)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/harrison_ford.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ harrison_ford => nrel_main_idtf : [Харрисон Форд](*<-lang_ru;;*);;
+ harrison_ford => nrel_main_idtf : [Harrison Ford](*<-lang_en;;*);;
+ 
+ 
+ harrison_ford => nrel_birth_date : 1942;;
+ 
+ concept_goverment -> Usa;;
+ harrison_ford => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ harrison_ford => nrel_to_star_in : blade_runner_2049;;
+blade_runner_2049 => nrel_main_idtf : [Blade Runner 2049](*<-lang_en;;*);;
+blade_runner_2049 => nrel_main_idtf : [Бегущий по лезвию 2049](*<-lang_ru;;*);;
+

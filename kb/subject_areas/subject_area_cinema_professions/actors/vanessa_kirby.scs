@@ -1,0 +1,51 @@
+concept_human -> vanessa_kirby;;
+ 
+ vanessa_kirby <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Ванесса Кирби)](*<-lang_ru;;*);
+ 		[Description (Vanessa Kirby)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/vanessa_kirby_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ vanessa_kirby <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Ванесса Кирби)](*<-lang_ru;;*);
+ 		[Pic. (Vanessa Kirby)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/vanessa_kirby.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ vanessa_kirby => nrel_main_idtf : [Ванесса Кирби](*<-lang_ru;;*);;
+ vanessa_kirby => nrel_main_idtf : [Vanessa Kirby](*<-lang_en;;*);;
+ 
+ 
+ vanessa_kirby => nrel_birth_date : 1988;;
+ 
+ concept_goverment -> UK;;
+ vanessa_kirby => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ vanessa_kirby => nrel_to_star_in : fast__furious_presents_hobbs__shaw;;
+fast__furious_presents_hobbs__shaw => nrel_main_idtf : [Fast & Furious Presents: Hobbs & Shaw](*<-lang_en;;*);;
+fast__furious_presents_hobbs__shaw => nrel_main_idtf : [Форсаж: Хоббс и Шоу](*<-lang_ru;;*);;
+vanessa_kirby => nrel_to_star_in : me_before_you;;
+me_before_you => nrel_main_idtf : [Me Before You](*<-lang_en;;*);;
+me_before_you => nrel_main_idtf : [До встречи с тобой](*<-lang_ru;;*);;
+vanessa_kirby => nrel_to_star_in : everest;;
+everest => nrel_main_idtf : [Everest](*<-lang_en;;*);;
+everest => nrel_main_idtf : [Эверест](*<-lang_ru;;*);;
+

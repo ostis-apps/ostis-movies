@@ -1,0 +1,33 @@
+concept_series
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[сериал](*<-lang_ru;;*);
+	[series](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (сериал)](*<-lang_ru;;*);
+		[Def. (series)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_episode;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_series_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_series_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (сериал)](*<-lang_ru;;*);
+		[Pic. (series)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/breaking_bad.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

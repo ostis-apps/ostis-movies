@@ -1,0 +1,48 @@
+concept_human -> kristen_stewart;;
+ 
+ kristen_stewart <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристен Стюарт)](*<-lang_ru;;*);
+ 		[Description (Kristen Stewart)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kristen_stewart_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kristen_stewart <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристен Стюарт)](*<-lang_ru;;*);
+ 		[Pic. (Kristen Stewart)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kristen_stewart.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kristen_stewart => nrel_main_idtf : [Кристен Стюарт](*<-lang_ru;;*);;
+ kristen_stewart => nrel_main_idtf : [Kristen Stewart](*<-lang_en;;*);;
+ 
+ 
+ kristen_stewart => nrel_birth_date : 1990;;
+ 
+ concept_goverment -> Usa;;
+ kristen_stewart => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kristen_stewart => nrel_to_star_in : lizzie;;
+lizzie => nrel_main_idtf : [Lizzie](*<-lang_en;;*);;
+lizzie => nrel_main_idtf : [Месть Лиззи Борден](*<-lang_ru;;*);;
+kristen_stewart => nrel_to_star_in : panic_room;;
+panic_room => nrel_main_idtf : [Panic Room](*<-lang_en;;*);;
+panic_room => nrel_main_idtf : [Комната страха](*<-lang_ru;;*);;
+

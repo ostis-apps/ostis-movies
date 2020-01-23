@@ -1,0 +1,51 @@
+concept_human -> Michael_Spiller;;
+
+Michael_Spiller
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Майкл Спиллер]
+	(* <- lang_ru;;	*);
+	[Michael Spiller]
+	(* <- lang_en;;	*);;
+	
+Michael_Spiller <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Майкл Спиллер)](*<-lang_ru;;*);
+		[Description (Michael Spiller)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Michael_Spiller_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Michael_Spiller_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Michael_Spiller <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Майкл Спиллер)](*<-lang_ru;;*);
+		[Pic. (Michael Spiller)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Michael_Spiller.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1961;;
+Michael_Spiller=>nrel_date_of_birth: 1961;;
+1961=>nrel_main_idtf:[1961 год](*<-lang_ru;;*);;
+1961=>nrel_main_idtf:[year of 1961](*<-lang_en;;*);;
+
+concept_calendar_date->1984;;
+Michael_Spiller=>nrel_career_start_date: 1984;;
+1984=>nrel_main_idtf:[1984 год](*<-lang_ru;;*);;
+1984=>nrel_main_idtf:[year of 1984](*<-lang_en;;*);;
+
+Michael_Spiller =>nrel_cityzenship:Usa;;
+

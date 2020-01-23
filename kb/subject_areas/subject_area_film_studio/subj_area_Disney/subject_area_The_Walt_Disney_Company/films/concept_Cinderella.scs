@@ -1,0 +1,269 @@
+concept_Cinderella
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Золушка]
+	(* <- lang_ru;;	*);
+	[Cinderella]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Золушка)](*<-lang_ru;;*);
+		[Description (Cinderella)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Cinderella_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Cinderella_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Clyde_Jeronimi;
+=>nrel_producer:  Walt_Disney;
+=>nrel_production_country: USA;
+=>nrel_production_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1950 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 74
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 2635914155
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	->character_Cinderella;;
+	->character_Lady_Tremaine;;
+ 	->character_Drisella_Tremaine;;
+ 	->character_Fairy_godmother;; 
+	->character_Prince;;
+	->character_Anastasia_Tremaine;;
+	*);
+=>nrel_age_rating: concept_PG0;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Золушка)](*<-lang_ru;;*);
+		[Pic. (Cinderella)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Cinderella.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Cinderella
+=> nrel_main_idtf: 
+[Золушка] (* <-lang_ru;; *); 
+[Cinderella] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- housekeeper; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Золушка)] (* <-lang_ru;; *); 
+[Description of character(Cinderella)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Cinderella_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Cinderella_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Золушка)](*<-lang_ru;;*); 
+[Pic. (Cinderella)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Cinderella.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Lady_Tremaine
+=> nrel_main_idtf: 
+[Леди Тремейн] (* <-lang_ru;; *); 
+[Lady Tremaine] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- cinderellas_stepmother; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Леди Тремейн)] (* <-lang_ru;; *); 
+[Description of character(Lady Tremaine)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Lady_Tremaine_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Lady_Tremaine_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Леди Тремейн)](*<-lang_ru;;*); 
+[Pic. (Lady Tremaine)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Lady_Tremaine.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Drisella_Tremaine
+=> nrel_main_idtf: 
+[Дризелла Тремейн] (* <-lang_ru;; *); 
+[Drisella Tremaine] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- cinderellas_sister; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Дризелла Тремейн)] (* <-lang_ru;; *); 
+[Description of character(Drisella Tremaine)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Drisella_Tremaine_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Drisella_Tremaine_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Дризелла Тремейн)](*<-lang_ru;;*); 
+[Pic. (Drisella Tremainee)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Drisella_Tremaine.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Anastasia_Tremaine
+=> nrel_main_idtf: 
+[Анастасия Тремейн] (* <-lang_ru;; *); 
+[Anastasia Tremaine] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- cinderellas_sister; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Анастасия Тремейн)] (* <-lang_ru;; *); 
+[Description of character(Anastasia Tremaine)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Anastasia_Tremaine_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Anastasia_Tremaine_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Анастасия Тремейн)](*<-lang_ru;;*); 
+[Pic. (Anastasia Tremaine)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Anastasia_Tremaine.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Fairy_godmother
+=> nrel_main_idtf: 
+[Фея-крестная] (* <-lang_ru;; *); 
+[Fairy godmother] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- cinderellas_fairy_godmother; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Фея-крестная)] (* <-lang_ru;; *); 
+[Description of character(fairy godmother)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Fairy_godmother_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Fairy_godmother_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Фея-крестная)](*<-lang_ru;;*); 
+[Pic. (Fairy godmother)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Fairy_godmother.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Prince
+=> nrel_main_idtf: 
+[Принц] (* <-lang_ru;; *); 
+[Prince] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- prince; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Принц)] (* <-lang_ru;; *); 
+[Description of character(Prince)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Prince_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Prince_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Принц)](*<-lang_ru;;*); 
+[Pic. (Prince)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Prince.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Clyde_Jeronimi
+=>nrel_main_idtf:
+		[Клайд Джероними](*<-lang_ru;;*);
+		[Clyde Jeronimi](*<-lang_en;;*);;
+housekeeper
+=>nrel_main_idtf:
+		[домработница](*<-lang_ru;;*);
+		[housekeeper](*<-lang_en;;*);;
+cinderellas_sister
+=>nrel_main_idtf:
+		[сестра Золушки](*<-lang_ru;;*);
+		[Cinderella's sister](*<-lang_en;;*);;
+cinderellas_stepmother
+=>nrel_main_idtf:
+		[мачеха Золушки](*<-lang_ru;;*);
+		[Cinderella's stepmother](*<-lang_en;;*);;
+cinderellas_fairy_godmother
+=>nrel_main_idtf:
+		[крестная-фея Золушки](*<-lang_ru;;*);
+		[Cinderella's fairy godmother](*<-lang_en;;*);;
+
+
+
+

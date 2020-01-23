@@ -1,0 +1,8 @@
+concept_subj_domain_cartoons
+<- sc_node_struct;
+
+=> nrel_main_idtf:
+	[Предметная область мультфильмов]
+	(* <- lang_ru;; *);
+	[Subject domain of cartoons]
+    	(* <- lang_en;; *);;

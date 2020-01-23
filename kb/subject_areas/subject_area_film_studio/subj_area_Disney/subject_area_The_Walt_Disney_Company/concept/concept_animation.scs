@@ -1,0 +1,38 @@
+concept_animation <- sc_node_not_relation;
+
+=> nrel_main_idtf:[анимация] (* <- lang_ru;; *);
+=> nrel_idtf:[animation] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (анимация)] (* <- lang_ru;; *);
+							   [Def. (animation)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_cinema
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_animation_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_animation_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (анимация)](*<-lang_ru;;*);
+		[Pic. (animation)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_animation.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_quantity
+=>nrel_main_idtf:
+		[величина](*<-lang_ru;;*);
+		[quantity](*<-lang_en;;*);;
+

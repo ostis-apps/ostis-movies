@@ -1,0 +1,45 @@
+concept_human -> felicity_jones;;
+ 
+ felicity_jones <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Фелисити Джонс)](*<-lang_ru;;*);
+ 		[Description (Felicity Jones)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/felicity_jones_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ felicity_jones <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Фелисити Джонс)](*<-lang_ru;;*);
+ 		[Pic. (Felicity Jones)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/felicity_jones.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ felicity_jones => nrel_main_idtf : [Фелисити Джонс](*<-lang_ru;;*);;
+ felicity_jones => nrel_main_idtf : [Felicity Jones](*<-lang_en;;*);;
+ 
+ 
+ felicity_jones => nrel_birth_date : 1983;;
+ 
+ concept_goverment -> UK;;
+ felicity_jones => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ felicity_jones => nrel_to_star_in : inferno;;
+inferno => nrel_main_idtf : [Inferno](*<-lang_en;;*);;
+inferno => nrel_main_idtf : [Инферно](*<-lang_ru;;*);;
+

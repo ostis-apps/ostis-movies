@@ -1,0 +1,48 @@
+concept_human -> vera_farmiga;;
+ 
+ vera_farmiga <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Вера Фармига)](*<-lang_ru;;*);
+ 		[Description (Vera Farmiga)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/vera_farmiga_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ vera_farmiga <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Вера Фармига)](*<-lang_ru;;*);
+ 		[Pic. (Vera Farmiga)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/vera_farmiga.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ vera_farmiga => nrel_main_idtf : [Вера Фармига](*<-lang_ru;;*);;
+ vera_farmiga => nrel_main_idtf : [Vera Farmiga](*<-lang_en;;*);;
+ 
+ 
+ vera_farmiga => nrel_birth_date : 1973;;
+ 
+ concept_goverment -> Usa;;
+ vera_farmiga => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ vera_farmiga => nrel_to_star_in : godzilla_king_of_the_monsters;;
+godzilla_king_of_the_monsters => nrel_main_idtf : [Godzilla: King of the Monsters](*<-lang_en;;*);;
+godzilla_king_of_the_monsters => nrel_main_idtf : [Годзилла 2: Король монстров](*<-lang_ru;;*);;
+vera_farmiga => nrel_to_star_in : the_departed;;
+the_departed => nrel_main_idtf : [The Departed](*<-lang_en;;*);;
+the_departed => nrel_main_idtf : [Отступники](*<-lang_ru;;*);;
+

@@ -1,0 +1,67 @@
+film_beshenyy_byk_2018
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бешеный бык]
+(* <- lang_ru;;    *);
+[Seongnan hwangso]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бешеный бык)](*<-lang_ru;;*);
+[Description (Seongnan hwangso)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/beshenyy-byk-2018_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/beshenyy-byk-2018_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бешеный бык)](*<-lang_ru;;*);
+		[Pic. (Seongnan hwangso)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/beshenyy-byk-2018.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : south_korea;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Don't Mess With Me](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [22.11.2018](*<-lang_ru;;*);;
+    => nrel_main_idtf : [22.11.2018](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H56M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H56M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_Not_Rated;;
+
+film_beshenyy_byk_2018 =>nrel_keywords: film;;
+
+film_beshenyy_byk_2018 <- concept_action;concept_crime;;
+
+film_beshenyy_byk_2018 => nrel_main_actor : dong_seok_ma;ji_hyo_song;seong_oh_kim;min_jae_kim;;
+film_beshenyy_byk_2018 => nrel_producer : kim_min_ho;;

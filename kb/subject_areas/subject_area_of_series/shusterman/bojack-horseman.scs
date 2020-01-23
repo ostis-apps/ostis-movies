@@ -1,0 +1,82 @@
+
+                  concept_series -> BoJack_Horseman;;
+              
+                  BoJack_Horseman
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [BoJack_Horseman]
+                    (* <- lang_ru;;	*);
+                    [BoJack_Horseman]
+                    (* <- lang_en;;	*);;
+                  
+                  BoJack_Horseman <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (BoJack_Horseman)](*<-lang_ru;;*);
+                      [Description (BoJack_Horseman)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/BoJack_Horseman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/BoJack_Horseman_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  BoJack_Horseman <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (BoJack_Horseman)](*<-lang_ru;;*);
+                      [Pic. (BoJack_Horseman)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/BoJack_Horseman.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  BoJack_Horseman => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  BoJack_Horseman => nrel_production_year : 2014;;
+                  
+                  value -> 6;;
+                  BoJack_Horseman => nrel_num_of_seasons: 6;;
+                  value -> 76;;
+                  BoJack_Horseman => nrel_num_of_episodes: 76;;
+                  
+                  value -> 6;;
+                  BoJack_Horseman => nrel_no_countries : 6;;
+                  
+                  value -> 11;;
+                  BoJack_Horseman => nrel_viewers_in_millions: 11;;
+                  
+                  BoJack_Horseman => nrel_age_rating: concept_PG12;;
+                  
+                    BoJack_Horseman => nrel_actor : KristenSchaal;;
+                    
+                   
+                    BoJack_Horseman => nrel_actor : PaulFTompkins;;
+                    
+                   
+                    BoJack_Horseman => nrel_actor : AlisonBrie;;
+                    
+                   
+                    BoJack_Horseman => nrel_actor : AmySedaris;;
+                    
+                   
+                    BoJack_Horseman => nrel_actor : AaronPaul;;
+                    
+                   
+                    BoJack_Horseman => nrel_actor : WillArnett;;
+                    
+                  
+                  
+                  BoJack_Horseman
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,67 @@
+film_azy_ubiystva_1991
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Азы убийства / Всё об убийстве]
+(* <- lang_ru;;    *);
+[Murder 101]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Азы убийства / Всё об убийстве)](*<-lang_ru;;*);
+[Description (Murder 101)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/azy-ubiystva-1991_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/azy-ubiystva-1991_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Азы убийства / Всё об убийстве)](*<-lang_ru;;*);
+		[Pic. (Murder 101)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/azy-ubiystva-1991.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [An Edge-Of-Your-Seat Thriller!](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [20.03.1991](*<-lang_ru;;*);;
+    => nrel_main_idtf : [20.03.1991](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H40M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H40M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_azy_ubiystva_1991 =>nrel_keywords: film;;
+
+film_azy_ubiystva_1991 <- concept_mystery;concept_thriller;;
+
+film_azy_ubiystva_1991 => nrel_main_actor : pierce_brosnan;dey_young;antoni_corone;raphael_sbarge;;
+film_azy_ubiystva_1991 => nrel_producer : bill_condon;;

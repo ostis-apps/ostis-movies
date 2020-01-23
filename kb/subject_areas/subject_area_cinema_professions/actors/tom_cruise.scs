@@ -1,0 +1,48 @@
+concept_human -> tom_cruise;;
+ 
+ tom_cruise <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Том Круз)](*<-lang_ru;;*);
+ 		[Description (Tom Cruise)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tom_cruise_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tom_cruise <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Том Круз)](*<-lang_ru;;*);
+ 		[Pic. (Tom Cruise)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tom_cruise.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tom_cruise => nrel_main_idtf : [Том Круз](*<-lang_ru;;*);;
+ tom_cruise => nrel_main_idtf : [Tom Cruise](*<-lang_en;;*);;
+ 
+ 
+ tom_cruise => nrel_birth_date : 1962;;
+ 
+ concept_goverment -> Usa;;
+ tom_cruise => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ tom_cruise => nrel_to_star_in : vanilla_sky;;
+vanilla_sky => nrel_main_idtf : [Vanilla Sky](*<-lang_en;;*);;
+vanilla_sky => nrel_main_idtf : [Ванильное небо](*<-lang_ru;;*);;
+tom_cruise => nrel_to_star_in : interview_with_the_vampire_the_vampire_chronicles;;
+interview_with_the_vampire_the_vampire_chronicles => nrel_main_idtf : [Interview with the Vampire: The Vampire Chronicles](*<-lang_en;;*);;
+interview_with_the_vampire_the_vampire_chronicles => nrel_main_idtf : [Интервью с вампиром](*<-lang_ru;;*);;
+

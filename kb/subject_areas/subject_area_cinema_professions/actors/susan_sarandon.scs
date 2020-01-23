@@ -1,0 +1,45 @@
+concept_human -> susan_sarandon;;
+ 
+ susan_sarandon <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сьюзен Сарандон)](*<-lang_ru;;*);
+ 		[Description (Susan Sarandon)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/susan_sarandon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ susan_sarandon <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сьюзен Сарандон)](*<-lang_ru;;*);
+ 		[Pic. (Susan Sarandon)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/susan_sarandon.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ susan_sarandon => nrel_main_idtf : [Сьюзен Сарандон](*<-lang_ru;;*);;
+ susan_sarandon => nrel_main_idtf : [Susan Sarandon](*<-lang_en;;*);;
+ 
+ 
+ susan_sarandon => nrel_birth_date : 1946;;
+ 
+ concept_goverment -> Usa;;
+ susan_sarandon => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ susan_sarandon => nrel_to_star_in : the_witches_of_eastwick;;
+the_witches_of_eastwick => nrel_main_idtf : [The Witches of Eastwick](*<-lang_en;;*);;
+the_witches_of_eastwick => nrel_main_idtf : [Иствикские ведьмы](*<-lang_ru;;*);;
+

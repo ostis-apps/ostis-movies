@@ -1,0 +1,81 @@
+concept_human -> jason_statham;;
+ 
+ jason_statham <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джейсон Стэтхэм)](*<-lang_ru;;*);
+ 		[Description (Jason Statham)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jason_statham_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jason_statham <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джейсон Стэтхэм)](*<-lang_ru;;*);
+ 		[Pic. (Jason Statham)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jason_statham.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jason_statham => nrel_main_idtf : [Джейсон Стэтхэм](*<-lang_ru;;*);;
+ jason_statham => nrel_main_idtf : [Jason Statham](*<-lang_en;;*);;
+ 
+ 
+ jason_statham => nrel_birth_date : 1967;;
+ 
+ concept_goverment -> UK;;
+ jason_statham => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ jason_statham => nrel_to_star_in : fast__furious_presents_hobbs__shaw;;
+fast__furious_presents_hobbs__shaw => nrel_main_idtf : [Fast & Furious Presents: Hobbs & Shaw](*<-lang_en;;*);;
+fast__furious_presents_hobbs__shaw => nrel_main_idtf : [Форсаж: Хоббс и Шоу](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : the_fate_of_the_furious;;
+the_fate_of_the_furious => nrel_main_idtf : [The Fate of the Furious](*<-lang_en;;*);;
+the_fate_of_the_furious => nrel_main_idtf : [Форсаж 8](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : the_mechanic_2_resurrection;;
+the_mechanic_2_resurrection => nrel_main_idtf : [The Mechanic 2: Resurrection](*<-lang_en;;*);;
+the_mechanic_2_resurrection => nrel_main_idtf : [Механик: Воскрешение](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : furious_7;;
+furious_7 => nrel_main_idtf : [Furious 7](*<-lang_en;;*);;
+furious_7 => nrel_main_idtf : [Форсаж 7](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : fast__furious_6;;
+fast__furious_6 => nrel_main_idtf : [Fast & Furious 6](*<-lang_en;;*);;
+fast__furious_6 => nrel_main_idtf : [Форсаж 6](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : the_expendables_2;;
+the_expendables_2 => nrel_main_idtf : [The Expendables 2](*<-lang_en;;*);;
+the_expendables_2 => nrel_main_idtf : [Неудержимые 2](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : the_mechanic;;
+the_mechanic => nrel_main_idtf : [The Mechanic](*<-lang_en;;*);;
+the_mechanic => nrel_main_idtf : [Механик](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : crank;;
+crank => nrel_main_idtf : [Crank](*<-lang_en;;*);;
+crank => nrel_main_idtf : [Адреналин](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : revolver;;
+revolver => nrel_main_idtf : [Revolver](*<-lang_en;;*);;
+revolver => nrel_main_idtf : [Револьвер](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : london;;
+london => nrel_main_idtf : [London](*<-lang_en;;*);;
+london => nrel_main_idtf : [Лондон](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : the_transporter;;
+the_transporter => nrel_main_idtf : [The Transporter](*<-lang_en;;*);;
+the_transporter => nrel_main_idtf : [Перевозчик](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : snatch;;
+snatch => nrel_main_idtf : [Snatch.](*<-lang_en;;*);;
+snatch => nrel_main_idtf : [Большой Куш](*<-lang_ru;;*);;
+jason_statham => nrel_to_star_in : lock_stock_and_two_smoking_barrels;;
+lock_stock_and_two_smoking_barrels => nrel_main_idtf : [Lock, Stock and Two Smoking Barrels](*<-lang_en;;*);;
+lock_stock_and_two_smoking_barrels => nrel_main_idtf : [Карты, деньги, два ствола](*<-lang_ru;;*);;
+

@@ -1,0 +1,100 @@
+
+                  concept_series -> Krypton;;
+              
+                  Krypton
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [криптон]
+                    (* <- lang_ru;;	*);
+                    [Krypton]
+                    (* <- lang_en;;	*);;
+                  
+                  Krypton <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (криптон)](*<-lang_ru;;*);
+                      [Description (Krypton)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Krypton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Krypton_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Krypton <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (криптон)](*<-lang_ru;;*);
+                      [Pic. (Krypton)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Krypton.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Krypton => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Krypton => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  Krypton => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  Krypton => nrel_num_of_episodes: 20;;
+                  
+                  value -> 12;;
+                  Krypton => nrel_no_countries : 12;;
+                  
+                  value -> 12;;
+                  Krypton => nrel_viewers_in_millions: 12;;
+                  
+                  Krypton => nrel_age_rating: concept_PG12;;
+                  
+                    Krypton => nrel_actor : WallisDay;;
+                    
+                   
+                    Krypton => nrel_actor : CameronCuffe;;
+                    
+                   
+                    Krypton => nrel_actor : GeorginaCampbell;;
+                    
+                   
+                    Krypton => nrel_actor : ColinSalmon;;
+                    
+                   
+                    Krypton => nrel_actor : IanMcElhinney;;
+                    
+                   
+                    Krypton => nrel_actor : ShaunSipos;;
+                    
+                   
+                    Krypton => nrel_actor : AaronPierre;;
+                    
+                   
+                    Krypton => nrel_actor : AnnOgbomo;;
+                    
+                   
+                    Krypton => nrel_actor : RasmusHardiker;;
+                    
+                   
+                    Krypton => nrel_actor : BlakeRitson;;
+                    
+                   
+                    Krypton => nrel_actor : ElliotCowan;;
+                    
+                   
+                    Krypton => nrel_actor : HannahWaddingham;;
+                    
+                  
+                  
+                  Krypton
+                  =>nrel_keywords: concept_detectif;;
+                  

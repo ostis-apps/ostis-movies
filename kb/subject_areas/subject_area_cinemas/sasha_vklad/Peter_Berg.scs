@@ -1,0 +1,50 @@
+concept_human -> Peter_Berg;;
+
+Peter_Berg
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Питер Берг]
+	(* <- lang_ru;;	*);
+	[Peter Berg]
+	(* <- lang_en;;	*);;
+	
+Peter_Berg <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Питер Берг)](*<-lang_ru;;*);
+		[Description (Peter Berg)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Peter_Berg_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Peter_Berg_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Peter_Berg <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Питер Берг)](*<-lang_ru;;*);
+		[Pic. (Peter Berg)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Peter_Berg.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1964;;
+Peter_Berg =>nrel_date_of_birth: 1964;;
+1964=>nrel_main_idtf:[1964 год](*<-lang_ru;;*);;
+1964=>nrel_main_idtf:[year of 1964](*<-lang_en;;*);;
+
+concept_calendar_date->1988;;
+Peter_Berg =>nrel_career_start_date: 1988;;
+1988=>nrel_main_idtf:[1988 год](*<-lang_ru;;*);;
+1988=>nrel_main_idtf:[year of 1988](*<-lang_en;;*);;
+
+Peter_Berg =>nrel_cityzenship: Usa;;

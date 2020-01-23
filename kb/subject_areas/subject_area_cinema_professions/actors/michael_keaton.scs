@@ -1,0 +1,51 @@
+concept_human -> michael_keaton;;
+ 
+ michael_keaton <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майкл Китон)](*<-lang_ru;;*);
+ 		[Description (Michael Keaton)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michael_keaton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michael_keaton <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майкл Китон)](*<-lang_ru;;*);
+ 		[Pic. (Michael Keaton)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michael_keaton.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michael_keaton => nrel_main_idtf : [Майкл Китон](*<-lang_ru;;*);;
+ michael_keaton => nrel_main_idtf : [Michael Keaton](*<-lang_en;;*);;
+ 
+ 
+ michael_keaton => nrel_birth_date : 1951;;
+ 
+ concept_goverment -> Usa;;
+ michael_keaton => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ michael_keaton => nrel_to_star_in : spiderman_far_from_home;;
+spiderman_far_from_home => nrel_main_idtf : [Spider-Man: Far from Home](*<-lang_en;;*);;
+spiderman_far_from_home => nrel_main_idtf : [Человек-паук: Вдали от дома](*<-lang_ru;;*);;
+michael_keaton => nrel_to_star_in : spiderman_homecoming;;
+spiderman_homecoming => nrel_main_idtf : [Spider-Man: Homecoming](*<-lang_en;;*);;
+spiderman_homecoming => nrel_main_idtf : [Человек-паук: Возвращение домой](*<-lang_ru;;*);;
+michael_keaton => nrel_to_star_in : jackie_brown;;
+jackie_brown => nrel_main_idtf : [Jackie Brown](*<-lang_en;;*);;
+jackie_brown => nrel_main_idtf : [Джеки Браун](*<-lang_ru;;*);;
+

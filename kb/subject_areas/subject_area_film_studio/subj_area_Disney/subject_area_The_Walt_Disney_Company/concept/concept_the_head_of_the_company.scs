@@ -1,0 +1,37 @@
+concept_the_head_of_the_company <- sc_node_not_relation;
+
+=> nrel_main_idtf:[президент компании] (* <- lang_ru;; *);
+=> nrel_idtf:[the head of the company] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (президент компании)] (* <- lang_ru;; *);
+							   [Def. (the head of the company)] (* <- lang_en;; *);;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_the_head_of_the_company_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_the_head_of_the_company_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<- rrel_key_sc_element:
+	...(*
+		<- sc_statement;;
+		=> nrel_idtf: [Утв.(президент компании)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...(*
+			-> rrel_example: [Президентом компании может стать дееспособный человек, у которого есть необходимые знания в данной области, а также опыт руководящей работы. ](*<- lang_ru;;*);;
+			*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (президент компании)](*<-lang_ru;;*);
+		[Pic. (the head of the company)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_the_head_of_the_company.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

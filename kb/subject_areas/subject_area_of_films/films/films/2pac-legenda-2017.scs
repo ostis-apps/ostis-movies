@@ -1,0 +1,67 @@
+film_2pac_legenda_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[2pac: Легенда]
+(* <- lang_ru;;    *);
+[All Eyez on Me]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (2pac: Легенда)](*<-lang_ru;;*);
+[Description (All Eyez on Me)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/2pac-legenda-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/2pac-legenda-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (2pac: Легенда)](*<-lang_ru;;*);
+		[Pic. (All Eyez on Me)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/2pac-legenda-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Legends never die](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [14.06.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [14.06.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H19M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H19M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_2pac_legenda_2017 =>nrel_keywords: film;;
+
+film_2pac_legenda_2017 <- concept_biography;concept_drama;concept_music;;
+
+film_2pac_legenda_2017 => nrel_main_actor : demetrius_shipp_jr.;danai_gurira;kat_graham;annie_ilonzeh;;
+film_2pac_legenda_2017 => nrel_producer : benny_boom;;

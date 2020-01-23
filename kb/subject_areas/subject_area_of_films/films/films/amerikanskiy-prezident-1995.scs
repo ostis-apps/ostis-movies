@@ -1,0 +1,67 @@
+film_amerikanskiy_prezident_1995
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американский президент]
+(* <- lang_ru;;    *);
+[The American President]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американский президент)](*<-lang_ru;;*);
+[Description (The American President)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskiy-prezident-1995_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskiy-prezident-1995_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американский президент)](*<-lang_ru;;*);
+		[Pic. (The American President)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskiy-prezident-1995.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Why can't the most powerful man in the world have the one thing he wants most?](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [17.11.1995](*<-lang_ru;;*);;
+    => nrel_main_idtf : [17.11.1995](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H54M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H54M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_amerikanskiy_prezident_1995 =>nrel_keywords: film;;
+
+film_amerikanskiy_prezident_1995 <- concept_comedy;concept_drama;concept_romance;;
+
+film_amerikanskiy_prezident_1995 => nrel_main_actor : michael_douglas;annette_bening;martin_sheen;michael_j._fox;;
+film_amerikanskiy_prezident_1995 => nrel_producer : rob_reiner;;

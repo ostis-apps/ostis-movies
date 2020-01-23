@@ -1,0 +1,97 @@
+
+                  concept_series -> Castle;;
+              
+                  Castle
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Замок]
+                    (* <- lang_ru;;	*);
+                    [Castle]
+                    (* <- lang_en;;	*);;
+                  
+                  Castle <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Замок)](*<-lang_ru;;*);
+                      [Description (Castle)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Castle_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Castle_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Castle <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Замок)](*<-lang_ru;;*);
+                      [Pic. (Castle)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Castle.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Castle => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2009;;
+                  2009 => nrel_main_idtf : [2009 год](*<-lang_ru;;*);;
+                  2009 => nrel_main_idtf : [year of 2009](*<-lang_en;;*);;
+                  Castle => nrel_production_year : 2009;;
+                  
+                  value -> 8;;
+                  Castle => nrel_num_of_seasons: 8;;
+                  value -> 173;;
+                  Castle => nrel_num_of_episodes: 173;;
+                  
+                  value -> 12;;
+                  Castle => nrel_no_countries : 12;;
+                  
+                  value -> 5;;
+                  Castle => nrel_viewers_in_millions: 5;;
+                  
+                  Castle => nrel_age_rating: concept_PG12;;
+                  
+                    Castle => nrel_actor : JonHuertas;;
+                    
+                   
+                    Castle => nrel_actor : SeamusDever;;
+                    
+                   
+                    Castle => nrel_actor : NathanFillion;;
+                    
+                   
+                    Castle => nrel_actor : StanaKatic;;
+                    
+                   
+                    Castle => nrel_actor : SusanSullivan;;
+                    
+                   
+                    Castle => nrel_actor : MollyCaitlynQuinn;;
+                    
+                   
+                    Castle => nrel_actor : TamalaJones;;
+                    
+                   
+                    Castle => nrel_actor : PennyJohnsonJerald;;
+                    
+                   
+                    Castle => nrel_actor : RubenSantiagoHudson;;
+                    
+                   
+                    Castle => nrel_actor : ToksOlagundoye;;
+                    
+                   
+                    Castle => nrel_actor : MontMazur;;
+                    
+                  
+                  
+                  Castle
+                  =>nrel_keywords: concept_detectif;;
+                  

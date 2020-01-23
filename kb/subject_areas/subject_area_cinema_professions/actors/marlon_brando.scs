@@ -1,0 +1,48 @@
+concept_human -> marlon_brando;;
+ 
+ marlon_brando <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Марлон Брандо)](*<-lang_ru;;*);
+ 		[Description (Marlon Brando)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/marlon_brando_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ marlon_brando <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Марлон Брандо)](*<-lang_ru;;*);
+ 		[Pic. (Marlon Brando)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/marlon_brando.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ marlon_brando => nrel_main_idtf : [Марлон Брандо](*<-lang_ru;;*);;
+ marlon_brando => nrel_main_idtf : [Marlon Brando](*<-lang_en;;*);;
+ 
+ 
+ marlon_brando => nrel_birth_date : 1939;;
+ 
+ concept_goverment -> Usa;;
+ marlon_brando => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ marlon_brando => nrel_to_star_in : the_brave;;
+the_brave => nrel_main_idtf : [The Brave](*<-lang_en;;*);;
+the_brave => nrel_main_idtf : [Храбрец](*<-lang_ru;;*);;
+marlon_brando => nrel_to_star_in : the_godfather;;
+the_godfather => nrel_main_idtf : [The Godfather](*<-lang_en;;*);;
+the_godfather => nrel_main_idtf : [Крестный отец](*<-lang_ru;;*);;
+

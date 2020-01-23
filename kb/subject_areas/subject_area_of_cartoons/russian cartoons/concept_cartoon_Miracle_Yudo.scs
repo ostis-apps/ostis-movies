@@ -1,0 +1,44 @@
+concept_cartoon_Miracle_Yudo
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Чудо-Юдо]
+	(* <- lang_ru;;	*);
+	[Miracle Yudo]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Чудо-Юдо)](*<-lang_ru;;*);
+		[Description (Miracle Yudo)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Miracle Yudo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Miracle Yudo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чудо-Юдо)](*<-lang_ru;;*);
+		[Pic. (Miracle Yudo)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Miracle Yudo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_nature;
+=>nrel_keywords: concept_animals;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

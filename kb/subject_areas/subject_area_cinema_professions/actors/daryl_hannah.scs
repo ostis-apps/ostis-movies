@@ -1,0 +1,48 @@
+concept_human -> daryl_hannah;;
+ 
+ daryl_hannah <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэрил Ханна)](*<-lang_ru;;*);
+ 		[Description (Daryl Hannah)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/daryl_hannah_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ daryl_hannah <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэрил Ханна)](*<-lang_ru;;*);
+ 		[Pic. (Daryl Hannah)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/daryl_hannah.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ daryl_hannah => nrel_main_idtf : [Дэрил Ханна](*<-lang_ru;;*);;
+ daryl_hannah => nrel_main_idtf : [Daryl Hannah](*<-lang_en;;*);;
+ 
+ 
+ daryl_hannah => nrel_birth_date : 1961;;
+ 
+ concept_goverment -> Usa;;
+ daryl_hannah => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ daryl_hannah => nrel_to_star_in : kill_bill_vol_2;;
+kill_bill_vol_2 => nrel_main_idtf : [Kill Bill: Vol. 2](*<-lang_en;;*);;
+kill_bill_vol_2 => nrel_main_idtf : [Убить Билла. Фильм 2](*<-lang_ru;;*);;
+daryl_hannah => nrel_to_star_in : kill_bill_vol_1;;
+kill_bill_vol_1 => nrel_main_idtf : [Kill Bill: Vol. 1](*<-lang_en;;*);;
+kill_bill_vol_1 => nrel_main_idtf : [Убить Билла. Фильм 1](*<-lang_ru;;*);;
+

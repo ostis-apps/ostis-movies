@@ -1,0 +1,78 @@
+concept_human -> jessica_alba;;
+ 
+ jessica_alba <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джессика Альба)](*<-lang_ru;;*);
+ 		[Description (Jessica Alba)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jessica_alba_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jessica_alba <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джессика Альба)](*<-lang_ru;;*);
+ 		[Pic. (Jessica Alba)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jessica_alba.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jessica_alba => nrel_main_idtf : [Джессика Альба](*<-lang_ru;;*);;
+ jessica_alba => nrel_main_idtf : [Jessica Alba](*<-lang_en;;*);;
+ 
+ 
+ jessica_alba => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> Usa;;
+ jessica_alba => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jessica_alba => nrel_to_star_in : las_finest;;
+las_finest => nrel_main_idtf : [L.A.`s Finest](*<-lang_en;;*);;
+las_finest => nrel_main_idtf : [Лучшие в Лос-Анджелесе](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : killers_anonymous;;
+killers_anonymous => nrel_main_idtf : [Killers Anonymous](*<-lang_en;;*);;
+killers_anonymous => nrel_main_idtf : [Клуб анонимных киллеров](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : the_mechanic_2_resurrection;;
+the_mechanic_2_resurrection => nrel_main_idtf : [The Mechanic 2: Resurrection](*<-lang_en;;*);;
+the_mechanic_2_resurrection => nrel_main_idtf : [Механик: Воскрешение](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : sin_city_a_dame_to_kill_for;;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Sin City: A Dame to Kill For](*<-lang_en;;*);;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Город грехов 2: Женщина, ради которой стоит убивать](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : machete;;
+machete => nrel_main_idtf : [Machete](*<-lang_en;;*);;
+machete => nrel_main_idtf : [Мачете](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : little_fockers;;
+little_fockers => nrel_main_idtf : [Little Fockers](*<-lang_en;;*);;
+little_fockers => nrel_main_idtf : [Знакомство с факерами 2](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : the_eye;;
+the_eye => nrel_main_idtf : [The Eye](*<-lang_en;;*);;
+the_eye => nrel_main_idtf : [Глаз](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : 4_rise_of_the_silver_surfer;;
+4_rise_of_the_silver_surfer => nrel_main_idtf : [4: Rise of the Silver Surfer](*<-lang_en;;*);;
+4_rise_of_the_silver_surfer => nrel_main_idtf : [Фантастическая четверка 2: Вторжение Серебряного Серфера](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : good_luck_chuck;;
+good_luck_chuck => nrel_main_idtf : [Good Luck Chuck](*<-lang_en;;*);;
+good_luck_chuck => nrel_main_idtf : [Удачи, Чак!](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : awake;;
+awake => nrel_main_idtf : [Awake](*<-lang_en;;*);;
+awake => nrel_main_idtf : [Наркоз](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : sin_city;;
+sin_city => nrel_main_idtf : [Sin City](*<-lang_en;;*);;
+sin_city => nrel_main_idtf : [Город грехов](*<-lang_ru;;*);;
+jessica_alba => nrel_to_star_in : fantastic_four;;
+fantastic_four => nrel_main_idtf : [Fantastic Four](*<-lang_en;;*);;
+fantastic_four => nrel_main_idtf : [Фантастическая четверка](*<-lang_ru;;*);;
+

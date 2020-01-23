@@ -1,0 +1,112 @@
+
+                  concept_series -> Stan_Lee's_Lucky_Man;;
+              
+                  Stan_Lee's_Lucky_Man
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Stan_Lee's_Lucky_Man]
+                    (* <- lang_ru;;	*);
+                    [Stan_Lee's_Lucky_Man]
+                    (* <- lang_en;;	*);;
+                  
+                  Stan_Lee's_Lucky_Man <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Stan_Lee's_Lucky_Man)](*<-lang_ru;;*);
+                      [Description (Stan_Lee's_Lucky_Man)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Stan_Lee's_Lucky_Man_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Stan_Lee's_Lucky_Man_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Stan_Lee's_Lucky_Man <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Stan_Lee's_Lucky_Man)](*<-lang_ru;;*);
+                      [Pic. (Stan_Lee's_Lucky_Man)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Stan_Lee's_Lucky_Man.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Stan_Lee's_Lucky_Man => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Stan_Lee's_Lucky_Man => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  Stan_Lee's_Lucky_Man => nrel_num_of_seasons: 3;;
+                  value -> 28;;
+                  Stan_Lee's_Lucky_Man => nrel_num_of_episodes: 28;;
+                  
+                  value -> 4;;
+                  Stan_Lee's_Lucky_Man => nrel_no_countries : 4;;
+                  
+                  value -> 7;;
+                  Stan_Lee's_Lucky_Man => nrel_viewers_in_millions: 7;;
+                  
+                  Stan_Lee's_Lucky_Man => nrel_age_rating: concept_PG12;;
+                  
+                    Stan_Lee's_Lucky_Man => nrel_actor : JamesNesbitt;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : SiennaGuillory;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : DarrenBoyd;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : AmaraKaran;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : StephenHagan;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : EveBest;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : StevenMackintosh;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : TheklaReuten;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : OmidDjalili;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : JingLusi;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : RupertPenryJones;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : SendhilRamamurthy;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : NeveMcIntosh;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : AlexJennings;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : BurnGorman;;
+                    
+                   
+                    Stan_Lee's_Lucky_Man => nrel_actor : KennethTsang;;
+                    
+                  
+                  
+                  Stan_Lee's_Lucky_Man
+                  =>nrel_keywords: concept_detectif;;
+                  

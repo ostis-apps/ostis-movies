@@ -1,0 +1,88 @@
+
+                  concept_series -> Colony;;
+              
+                  Colony
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [колония]
+                    (* <- lang_ru;;	*);
+                    [Colony]
+                    (* <- lang_en;;	*);;
+                  
+                  Colony <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (колония)](*<-lang_ru;;*);
+                      [Description (Colony)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Colony_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Colony_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Colony <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (колония)](*<-lang_ru;;*);
+                      [Pic. (Colony)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Colony.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Colony => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Colony => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  Colony => nrel_num_of_seasons: 3;;
+                  value -> 36;;
+                  Colony => nrel_num_of_episodes: 36;;
+                  
+                  value -> 5;;
+                  Colony => nrel_no_countries : 5;;
+                  
+                  value -> 5;;
+                  Colony => nrel_viewers_in_millions: 5;;
+                  
+                  Colony => nrel_age_rating: concept_PG12;;
+                  
+                    Colony => nrel_actor : JoshHolloway;;
+                    
+                   
+                    Colony => nrel_actor : SarahWayneCallies;;
+                    
+                   
+                    Colony => nrel_actor : AlexNeustaedter;;
+                    
+                   
+                    Colony => nrel_actor : PeterJacobson;;
+                    
+                   
+                    Colony => nrel_actor : IsabellaCrovetti;;
+                    
+                   
+                    Colony => nrel_actor : ToryKittles;;
+                    
+                   
+                    Colony => nrel_actor : JacobBuster;;
+                    
+                   
+                    Colony => nrel_actor : AmandaRighetti;;
+                    
+                  
+                  
+                  Colony
+                  =>nrel_keywords: concept_detectif;;
+                  

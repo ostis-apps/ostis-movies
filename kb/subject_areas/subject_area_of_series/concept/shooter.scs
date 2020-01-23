@@ -1,0 +1,88 @@
+
+                  concept_series -> Shooter;;
+              
+                  Shooter
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Стрелок]
+                    (* <- lang_ru;;	*);
+                    [Shooter]
+                    (* <- lang_en;;	*);;
+                  
+                  Shooter <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Стрелок)](*<-lang_ru;;*);
+                      [Description (Shooter)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Shooter_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Shooter_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Shooter <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Стрелок)](*<-lang_ru;;*);
+                      [Pic. (Shooter)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Shooter.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Shooter => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Shooter => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  Shooter => nrel_num_of_seasons: 3;;
+                  value -> 31;;
+                  Shooter => nrel_num_of_episodes: 31;;
+                  
+                  value -> 7;;
+                  Shooter => nrel_no_countries : 7;;
+                  
+                  value -> 11;;
+                  Shooter => nrel_viewers_in_millions: 11;;
+                  
+                  Shooter => nrel_age_rating: concept_PG12;;
+                  
+                    Shooter => nrel_actor : CynthiaAddaiRobinson;;
+                    
+                   
+                    Shooter => nrel_actor : OmarEpps;;
+                    
+                   
+                    Shooter => nrel_actor : ShantelVanSanten;;
+                    
+                   
+                    Shooter => nrel_actor : RyanPhillippe;;
+                    
+                   
+                    Shooter => nrel_actor : JesseBradford;;
+                    
+                   
+                    Shooter => nrel_actor : GeraldMcRaney;;
+                    
+                   
+                    Shooter => nrel_actor : EddieMcClintock;;
+                    
+                   
+                    Shooter => nrel_actor : JoshStewart;;
+                    
+                  
+                  
+                  Shooter
+                  =>nrel_keywords: concept_detectif;;
+                  

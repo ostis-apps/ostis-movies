@@ -1,0 +1,88 @@
+
+                  concept_series -> Jane_the_Virgin;;
+              
+                  Jane_the_Virgin
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Jane_the_Virgin]
+                    (* <- lang_ru;;	*);
+                    [Jane_the_Virgin]
+                    (* <- lang_en;;	*);;
+                  
+                  Jane_the_Virgin <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Jane_the_Virgin)](*<-lang_ru;;*);
+                      [Description (Jane_the_Virgin)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Jane_the_Virgin_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Jane_the_Virgin_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Jane_the_Virgin <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Jane_the_Virgin)](*<-lang_ru;;*);
+                      [Pic. (Jane_the_Virgin)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Jane_the_Virgin.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Jane_the_Virgin => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Jane_the_Virgin => nrel_production_year : 2014;;
+                  
+                  value -> 5;;
+                  Jane_the_Virgin => nrel_num_of_seasons: 5;;
+                  value -> 100;;
+                  Jane_the_Virgin => nrel_num_of_episodes: 100;;
+                  
+                  value -> 4;;
+                  Jane_the_Virgin => nrel_no_countries : 4;;
+                  
+                  value -> 5;;
+                  Jane_the_Virgin => nrel_viewers_in_millions: 5;;
+                  
+                  Jane_the_Virgin => nrel_age_rating: concept_PG12;;
+                  
+                    Jane_the_Virgin => nrel_actor : JaimeCamil;;
+                    
+                   
+                    Jane_the_Virgin => nrel_actor : JustinBaldoni;;
+                    
+                   
+                    Jane_the_Virgin => nrel_actor : YaelGrobglas;;
+                    
+                   
+                    Jane_the_Virgin => nrel_actor : AndreaNavedo;;
+                    
+                   
+                    Jane_the_Virgin => nrel_actor : IvonneColl;;
+                    
+                   
+                    Jane_the_Virgin => nrel_actor : GinaRodriguez;;
+                    
+                   
+                    Jane_the_Virgin => nrel_actor : BrettDier;;
+                    
+                   
+                    Jane_the_Virgin => nrel_actor : EliasJanssen;;
+                    
+                  
+                  
+                  Jane_the_Virgin
+                  =>nrel_keywords: concept_detectif;;
+                  

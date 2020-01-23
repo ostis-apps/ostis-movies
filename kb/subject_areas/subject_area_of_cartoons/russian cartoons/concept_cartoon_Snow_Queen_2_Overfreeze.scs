@@ -1,0 +1,45 @@
+concept_cartoon_Snow_Queen_2_Overfreeze
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Снежная королева 2: Перезаморозка]
+	(* <- lang_ru;;	*);
+	[Snow Queen 2: Overfreeze]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Снежная королева 2: Перезаморозка)](*<-lang_ru;;*);
+		[Description (Snow Queen 2: Overfreeze)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Snow Queen 2 Overfreeze_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Snow Queen 2 Overfreeze_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Снежная королева 2: Перезаморозка)](*<-lang_ru;;*);
+		[Pic. (Snow Queen 2: Overfreeze)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Snow Queen 2 Overfreeze.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+<=nrel_inclusion:concept_cartoon_remake;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_winter;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_nature;
+=>nrel_keywords: concept_adventure;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;
+=>nrel_prototype: concept_character_Snow_Queen;;

@@ -1,0 +1,45 @@
+concept_human -> christopher_lloyd;;
+ 
+ christopher_lloyd <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристофер Ллойд)](*<-lang_ru;;*);
+ 		[Description (Christopher Lloyd)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/christopher_lloyd_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ christopher_lloyd <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристофер Ллойд)](*<-lang_ru;;*);
+ 		[Pic. (Christopher Lloyd)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/christopher_lloyd.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ christopher_lloyd => nrel_main_idtf : [Кристофер Ллойд](*<-lang_ru;;*);;
+ christopher_lloyd => nrel_main_idtf : [Christopher Lloyd](*<-lang_en;;*);;
+ 
+ 
+ christopher_lloyd => nrel_birth_date : 1938;;
+ 
+ concept_goverment -> Usa;;
+ christopher_lloyd => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ christopher_lloyd => nrel_to_star_in : sin_city_a_dame_to_kill_for;;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Sin City: A Dame to Kill For](*<-lang_en;;*);;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Город грехов 2: Женщина, ради которой стоит убивать](*<-lang_ru;;*);;
+

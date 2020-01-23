@@ -1,0 +1,51 @@
+concept_human -> Ethan_Cutkosky;;
+
+Ethan_Cutkosky
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Итан Каткоски]
+	(* <- lang_ru;;	*);
+	[Ethan Cutkosky]
+	(* <- lang_en;;	*);;
+	
+Ethan_Cutkosky <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Итан Каткоски)](*<-lang_ru;;*);
+		[Description (Ethan Cutkosky)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ethan_Cutkosky_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ethan_Cutkosky_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ethan_Cutkosky <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Итан Каткоски)](*<-lang_ru;;*);
+		[Pic. (Ethan Cutkosky)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ethan_Cutkosky.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1999;;
+Ethan_Cutkosky=>nrel_date_of_birth: 1999;;
+1999=>nrel_main_idtf:[1999 год](*<-lang_ru;;*);;
+1999=>nrel_main_idtf:[year of 1999](*<-lang_en;;*);;
+
+concept_calendar_date->2003;;
+Ethan_Cutkosky=>nrel_career_start_date: 2003;;
+2003=>nrel_main_idtf:[2003 год](*<-lang_ru;;*);;
+2003=>nrel_main_idtf:[year of 2003](*<-lang_en;;*);;
+
+Ethan_Cutkosky =>nrel_cityzenship:Usa;;
+

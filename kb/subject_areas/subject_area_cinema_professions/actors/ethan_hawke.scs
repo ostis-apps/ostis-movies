@@ -1,0 +1,45 @@
+concept_human -> ethan_hawke;;
+ 
+ ethan_hawke <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Итан Хоук)](*<-lang_ru;;*);
+ 		[Description (Ethan Hawke)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ethan_hawke_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ethan_hawke <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Итан Хоук)](*<-lang_ru;;*);
+ 		[Pic. (Ethan Hawke)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ethan_hawke.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ethan_hawke => nrel_main_idtf : [Итан Хоук](*<-lang_ru;;*);;
+ ethan_hawke => nrel_main_idtf : [Ethan Hawke](*<-lang_en;;*);;
+ 
+ 
+ ethan_hawke => nrel_birth_date : 1970;;
+ 
+ concept_goverment -> Usa;;
+ ethan_hawke => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ ethan_hawke => nrel_to_star_in : lord_of_war;;
+lord_of_war => nrel_main_idtf : [Lord of War](*<-lang_en;;*);;
+lord_of_war => nrel_main_idtf : [Оружейный барон](*<-lang_ru;;*);;
+

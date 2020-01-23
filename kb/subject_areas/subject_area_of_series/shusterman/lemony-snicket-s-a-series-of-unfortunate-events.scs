@@ -1,0 +1,94 @@
+
+                  concept_series -> A_Series_of_Unfortunate_Events;;
+              
+                  A_Series_of_Unfortunate_Events
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Серия Несчастного События]
+                    (* <- lang_ru;;	*);
+                    [A_Series_of_Unfortunate_Events]
+                    (* <- lang_en;;	*);;
+                  
+                  A_Series_of_Unfortunate_Events <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Серия Несчастного События)](*<-lang_ru;;*);
+                      [Description (A_Series_of_Unfortunate_Events)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/A_Series_of_Unfortunate_Events_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/A_Series_of_Unfortunate_Events_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  A_Series_of_Unfortunate_Events <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Серия Несчастного События)](*<-lang_ru;;*);
+                      [Pic. (A_Series_of_Unfortunate_Events)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/A_Series_of_Unfortunate_Events.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  A_Series_of_Unfortunate_Events => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  A_Series_of_Unfortunate_Events => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  A_Series_of_Unfortunate_Events => nrel_num_of_seasons: 3;;
+                  value -> 25;;
+                  A_Series_of_Unfortunate_Events => nrel_num_of_episodes: 25;;
+                  
+                  value -> 14;;
+                  A_Series_of_Unfortunate_Events => nrel_no_countries : 14;;
+                  
+                  value -> 9;;
+                  A_Series_of_Unfortunate_Events => nrel_viewers_in_millions: 9;;
+                  
+                  A_Series_of_Unfortunate_Events => nrel_age_rating: concept_PG12;;
+                  
+                    A_Series_of_Unfortunate_Events => nrel_actor : PresleySmith;;
+                    
+                   
+                    A_Series_of_Unfortunate_Events => nrel_actor : MalinaWeissman;;
+                    
+                   
+                    A_Series_of_Unfortunate_Events => nrel_actor : LouisHynes;;
+                    
+                   
+                    A_Series_of_Unfortunate_Events => nrel_actor : NeilPatrickHarris;;
+                    
+                   
+                    A_Series_of_Unfortunate_Events => nrel_actor : PatrickWarburton;;
+                    
+                   
+                    A_Series_of_Unfortunate_Events => nrel_actor : KToddFreeman;;
+                    
+                   
+                    A_Series_of_Unfortunate_Events => nrel_actor : LucyPunch;;
+                    
+                   
+                    A_Series_of_Unfortunate_Events => nrel_actor : AviLake;;
+                    
+                   
+                    A_Series_of_Unfortunate_Events => nrel_actor : DylanKingwell;;
+                    
+                   
+                    A_Series_of_Unfortunate_Events => nrel_actor : DylanKingwell;;
+                    
+                  
+                  
+                  A_Series_of_Unfortunate_Events
+                  =>nrel_keywords: concept_detectif;;
+                  

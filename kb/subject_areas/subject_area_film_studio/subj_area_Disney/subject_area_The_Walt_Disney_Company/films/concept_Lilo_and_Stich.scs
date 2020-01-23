@@ -1,0 +1,93 @@
+concept_Lilo_and_Stitch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Лило и Стич]
+	(* <- lang_ru;;	*);
+	[Lilo and Stitch]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Лило и Стич)](*<-lang_ru;;*);
+		[Description (Lilo and Stitch)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Lilo_and_Stitch_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Lilo_and_Stitch_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Chris_Sanders;
+=>nrel_producer: Clark_Spencer;
+=>nrel_production_country: USA;
+=>nrel_production_year:   ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2002
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 85
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 273115151
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	<-character_Stitch;;
+	<-character_Lilo;;
+	<-character_Jamba_Jukiba;;
+	<-character_Agent_Wendy_Plicli;;
+	<-character_Nani_Pelekai;;
+	<-character_David_Caven;;
+	*);
+=>nrel_age_rating: concept_PG6;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Лило и Стич)](*<-lang_ru;;*);
+		[Pic. (Lilo and Stitch)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Lilo_and_Stitch.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Chris_Sanders
+=>nrel_main_idtf:
+		[Крис Сандерс](*<-lang_ru;;*);
+		[Chris Sanders](*<-lang_en;;*);;
+Clark_Spencer
+=>nrel_main_idtf:
+		[Кларк Спенсерс](*<-lang_ru;;*);
+		[Clark Spencer](*<-lang_en;;*);;
+

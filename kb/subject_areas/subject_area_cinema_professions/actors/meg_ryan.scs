@@ -1,0 +1,48 @@
+concept_human -> meg_ryan;;
+ 
+ meg_ryan <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мег Райан)](*<-lang_ru;;*);
+ 		[Description (Meg Ryan)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/meg_ryan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ meg_ryan <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мег Райан)](*<-lang_ru;;*);
+ 		[Pic. (Meg Ryan)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/meg_ryan.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ meg_ryan => nrel_main_idtf : [Мег Райан](*<-lang_ru;;*);;
+ meg_ryan => nrel_main_idtf : [Meg Ryan](*<-lang_en;;*);;
+ 
+ 
+ meg_ryan => nrel_birth_date : 1961;;
+ 
+ concept_goverment -> Usa;;
+ meg_ryan => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ meg_ryan => nrel_to_star_in : youve_got_mail;;
+youve_got_mail => nrel_main_idtf : [Youve Got Mail](*<-lang_en;;*);;
+youve_got_mail => nrel_main_idtf : [Вам письмо](*<-lang_ru;;*);;
+meg_ryan => nrel_to_star_in : sleepless_in_seattle;;
+sleepless_in_seattle => nrel_main_idtf : [Sleepless in Seattle](*<-lang_en;;*);;
+sleepless_in_seattle => nrel_main_idtf : [Неспящие в Сиэтле](*<-lang_ru;;*);;
+

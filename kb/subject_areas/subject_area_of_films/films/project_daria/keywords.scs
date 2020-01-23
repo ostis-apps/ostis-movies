@@ -1,0 +1,392 @@
+concept_space
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Космос]
+(* <- lang_ru;;	*);
+[Space]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_planet
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Планета]
+(* <- lang_ru;;	*);
+[Planet]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_vigilante
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Линчеватель]
+(* <- lang_ru;;	*);
+[Vigilante]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_gangster
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Гангстер]
+(* <- lang_ru;;	*);
+[Gangster]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_flashback
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Флэшбэк]
+(* <- lang_ru;;	*);
+[Flashback]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_spy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Шпион]
+(* <- lang_ru;;	*);
+[Spy]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_training
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Тренировка]
+(* <- lang_ru;;	*);
+[Training]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_secret_organization
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Секретная организация]
+(* <- lang_ru;;	*);
+[Secret organization]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_tree
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Дерево]
+(* <- lang_ru;;	*);
+[Tree]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_heroes
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Герои]
+(* <- lang_ru;;	*);
+[Heroes]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_robot
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Робот]
+(* <- lang_ru;;	*);
+[Robot]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_artificial_intelligence
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Искусственный интеллект]
+(* <- lang_ru;;	*);
+[Artificial intelligence]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_turing_test
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Тест Тьюринга]
+(* <- lang_ru;;	*);
+[Turing test]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_prison_escape
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Побег из тюрьмы]
+(* <- lang_ru;;	*);
+[Prison escape]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_hotel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Отель]
+(* <- lang_ru;;	*);
+[Hotel]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_painting
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Картина]
+(* <- lang_ru;;	*);
+[Painting]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_physicist
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Физик]
+(* <- lang_ru;;	*);
+[Physicist]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_cosmology
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Космология]
+(* <- lang_ru;;	*);
+[Cosmology]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_professor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Профессор]
+(* <- lang_ru;;	*);
+[Professor]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_world_war_two
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Вторая мировая война]
+(* <- lang_ru;;	*);
+[World War II]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_cryptography
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Криптография]
+(* <- lang_ru;;	*);
+[Cryptography]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_mathematician
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Математик]
+(* <- lang_ru;;	*);
+[Mathematician]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_actor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Актёр]
+(* <- lang_ru;;	*);
+[Actor]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_inner_voice
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Внутренний голос]
+(* <- lang_ru;;	*);
+[Inner voice]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_showbiz
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Шоу-бизнес]
+(* <- lang_ru;;	*);
+[Showbiz]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_maze
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Лабиринт]
+(* <- lang_ru;;	*);
+[Maze]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_teenager
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Подросток]
+(* <- lang_ru;;	*);
+[Teenager]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_escape
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Побег]
+(* <- lang_ru;;	*);
+[Escape]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_cancer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Рак]
+(* <- lang_ru;;	*);
+[Cancer]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_friendship
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Дружба]
+(* <- lang_ru;;	*);
+[Friendship]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_missed_opportunity
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Упущенная возможность]
+(* <- lang_ru;;	*);
+[Missed opportunity ]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_temporal_agent
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Агент-путешественник во времени]
+(* <- lang_ru;;	*);
+[Temporal agent ]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_time_machine
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Машина времени]
+(* <- lang_ru;;	*);
+[Time machine ]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_terrorism
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Терроризм]
+(* <- lang_ru;;	*);
+[Terrorism]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_exploding_helicopter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Взрывающийся вертолёт]
+(* <- lang_ru;;	*);
+[Exploding helicopter]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_propaganda
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Пропаганда]
+(* <- lang_ru;;	*);
+[Propaganda]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_dictator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Диктатор]
+(* <- lang_ru;;	*);
+[Dictator]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+concept_police
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Полиция]
+(* <- lang_ru;;	*);
+[Police]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_technology
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Технологии]
+(* <- lang_ru;;	*);
+[Technology]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;

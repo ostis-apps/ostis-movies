@@ -1,0 +1,45 @@
+concept_film -> Crow; Tank; Neram;;
+
+Crow => nrel_production_country: uk;;
+
+Tank => nrel_production_country: uk;;
+
+Neram => nrel_production_country: uae;;
+
+Crow => nrel_world_premiere: ...(*-> rrel_number_of_year: 2016;;*);;
+
+Tank => nrel_world_premiere: ...(*-> rrel_number_of_year: 2016;;*);;
+
+Neram => nrel_world_premiere: ...(*-> rrel_number_of_year: 2013;;*);;
+
+concept_country -> uk; uea;;
+
+Neram => nrel_producer: Alphonse_Puthren;;
+
+Tank => nrel_producer: Wyndham_Price;;
+
+Crow => nrel_producer: Kellie_Madison;;
+
+Neram => nrel_main_idtf:
+    [Нерам](*<- lang_ru;;*);;
+    
+Tank => nrel_main_idtf:
+    [Бункер](*<- lang_ru;;*);;
+    
+Crow => nrel_main_idtf:
+    [Ворон](*<- lang_ru;;*);;
+    
+uk => nrel_main_idtf:
+    [Великобритания](*<- lang_ru;;*);;
+    
+uae => nrel_main_idtf:
+    [ОАЭ](*<- lang_ru;;*);;
+    
+Alphonse_Puthren => nrel_main_idtf:
+    [Альфонс Путенр](*<- lang_ru;;*);;
+    
+Wyndham_Price => nrel_main_idtf:
+    [Виндрам Прайс](*<- lang_ru;;*);;
+    
+Kellie_Madison => nrel_main_idtf:
+    [Келли Мэдисон](*<- lang_ru;;*);;

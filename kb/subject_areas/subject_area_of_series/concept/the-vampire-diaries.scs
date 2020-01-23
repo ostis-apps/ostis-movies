@@ -1,0 +1,103 @@
+
+                  concept_series -> The_Vampire_Diaries;;
+              
+                  The_Vampire_Diaries
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Дневники вампира]
+                    (* <- lang_ru;;	*);
+                    [The_Vampire_Diaries]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Vampire_Diaries <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Дневники вампира)](*<-lang_ru;;*);
+                      [Description (The_Vampire_Diaries)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Vampire_Diaries_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Vampire_Diaries_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Vampire_Diaries <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Дневники вампира)](*<-lang_ru;;*);
+                      [Pic. (The_Vampire_Diaries)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Vampire_Diaries.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Vampire_Diaries => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2009;;
+                  2009 => nrel_main_idtf : [2009 год](*<-lang_ru;;*);;
+                  2009 => nrel_main_idtf : [year of 2009](*<-lang_en;;*);;
+                  The_Vampire_Diaries => nrel_production_year : 2009;;
+                  
+                  value -> 8;;
+                  The_Vampire_Diaries => nrel_num_of_seasons: 8;;
+                  value -> 171;;
+                  The_Vampire_Diaries => nrel_num_of_episodes: 171;;
+                  
+                  value -> 6;;
+                  The_Vampire_Diaries => nrel_no_countries : 6;;
+                  
+                  value -> 5;;
+                  The_Vampire_Diaries => nrel_viewers_in_millions: 5;;
+                  
+                  The_Vampire_Diaries => nrel_age_rating: concept_PG12;;
+                  
+                    The_Vampire_Diaries => nrel_actor : PaulWesley;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : IanSomerhalder;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : CandiceAccola;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : KatGraham;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : NinaDobrev;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : ZachRoerig;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : StevenRMcQueen;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : MatthewDavis;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : MichaelTrevino;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : MichaelMalarkey;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : JosephMorgan;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : SaraCanning;;
+                    
+                   
+                    The_Vampire_Diaries => nrel_actor : KaylaEwell;;
+                    
+                  
+                  
+                  The_Vampire_Diaries
+                  =>nrel_keywords: concept_detectif;;
+                  

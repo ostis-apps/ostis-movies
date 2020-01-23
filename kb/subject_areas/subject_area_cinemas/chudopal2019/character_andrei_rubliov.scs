@@ -1,0 +1,33 @@
+character_andrei_rubliov
+	=> nrel_main_idtf:
+	[Андрей Рублев]
+	(* <- lang_ru;;	*);
+	[Andrei Rubliov]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: anatoly_solonitsyn;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Андрей Рублев)](* <- lang_ru;; *);
+		[Desctiption (Andrei Rubliov)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_andrei_rubliov">Андрей Рублев</sc_element></b> — пошел в большой свет, чтобы найти себя и самовыразиться, однако жизнь более жестокая, чем он думал...](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_andrei_rubliov">Andrei Rubliov</sc_element></b> — trying to find himself in life...](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Андрей Рублев)](*<-lang_ru;;*);
+		[Pic. (Andrei Rubliov)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Rubliov.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

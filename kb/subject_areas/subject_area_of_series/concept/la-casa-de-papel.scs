@@ -1,0 +1,112 @@
+
+                  concept_series -> La_Casa_de_Papel;;
+              
+                  La_Casa_de_Papel
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [La_Casa_de_Papel]
+                    (* <- lang_ru;;	*);
+                    [La_Casa_de_Papel]
+                    (* <- lang_en;;	*);;
+                  
+                  La_Casa_de_Papel <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (La_Casa_de_Papel)](*<-lang_ru;;*);
+                      [Description (La_Casa_de_Papel)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/La_Casa_de_Papel_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/La_Casa_de_Papel_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  La_Casa_de_Papel <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (La_Casa_de_Papel)](*<-lang_ru;;*);
+                      [Pic. (La_Casa_de_Papel)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/La_Casa_de_Papel.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  La_Casa_de_Papel => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  La_Casa_de_Papel => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  La_Casa_de_Papel => nrel_num_of_seasons: 2;;
+                  value -> 23;;
+                  La_Casa_de_Papel => nrel_num_of_episodes: 23;;
+                  
+                  value -> 12;;
+                  La_Casa_de_Papel => nrel_no_countries : 12;;
+                  
+                  value -> 9;;
+                  La_Casa_de_Papel => nrel_viewers_in_millions: 9;;
+                  
+                  La_Casa_de_Papel => nrel_age_rating: concept_PG12;;
+                  
+                    La_Casa_de_Papel => nrel_actor : AlbaFlores;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : DarkoPeric;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : JaimeLorente;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : MiguelHerrn;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : lvaroMorte;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : rsulaCorber;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : PedroAlonso;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : EnriqueArce;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : EstherAcebo;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : ItziarItuo;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : PacoTous;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : KitiMnver;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : MaraPedraza;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : RodrigoDelaSerna;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : HovikKeuchkerian;;
+                    
+                   
+                    La_Casa_de_Papel => nrel_actor : NajwaNimri;;
+                    
+                  
+                  
+                  La_Casa_de_Papel
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,67 @@
+film_88_minut_2006
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[88 минут]
+(* <- lang_ru;;    *);
+[88 Minutes]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (88 минут)](*<-lang_ru;;*);
+[Description (88 Minutes)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/88-minut-2006_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/88-minut-2006_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (88 минут)](*<-lang_ru;;*);
+		[Pic. (88 Minutes)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/88-minut-2006.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;germany;canada;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Tick Tock, Tick Tock See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [01.03.2007](*<-lang_ru;;*);;
+    => nrel_main_idtf : [01.03.2007](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H48M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H48M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_88_minut_2006 =>nrel_keywords: film;;
+
+film_88_minut_2006 <- concept_crime;concept_drama;concept_mystery;concept_thriller;;
+
+film_88_minut_2006 => nrel_main_actor : al_pacino;alicia_witt;ben_mckenzie;leelee_sobieski;;
+film_88_minut_2006 => nrel_producer : jon_avnet;;

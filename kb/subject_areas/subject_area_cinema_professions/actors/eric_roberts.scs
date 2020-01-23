@@ -1,0 +1,48 @@
+concept_human -> eric_roberts;;
+ 
+ eric_roberts <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эрик Робертс)](*<-lang_ru;;*);
+ 		[Description (Eric Roberts)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/eric_roberts_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ eric_roberts <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эрик Робертс)](*<-lang_ru;;*);
+ 		[Pic. (Eric Roberts)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/eric_roberts.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ eric_roberts => nrel_main_idtf : [Эрик Робертс](*<-lang_ru;;*);;
+ eric_roberts => nrel_main_idtf : [Eric Roberts](*<-lang_en;;*);;
+ 
+ 
+ eric_roberts => nrel_birth_date : 1956;;
+ 
+ concept_goverment -> Usa;;
+ eric_roberts => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ eric_roberts => nrel_to_star_in : the_dark_knight;;
+the_dark_knight => nrel_main_idtf : [The Dark Knight](*<-lang_en;;*);;
+the_dark_knight => nrel_main_idtf : [Темный рыцарь](*<-lang_ru;;*);;
+eric_roberts => nrel_to_star_in : the_cable_guy;;
+the_cable_guy => nrel_main_idtf : [The Cable Guy](*<-lang_en;;*);;
+the_cable_guy => nrel_main_idtf : [Кабельщик](*<-lang_ru;;*);;
+

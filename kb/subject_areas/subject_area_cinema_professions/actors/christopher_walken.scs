@@ -1,0 +1,54 @@
+concept_human -> christopher_walken;;
+ 
+ christopher_walken <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристофер Уокен)](*<-lang_ru;;*);
+ 		[Description (Christopher Walken)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/christopher_walken_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ christopher_walken <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристофер Уокен)](*<-lang_ru;;*);
+ 		[Pic. (Christopher Walken)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/christopher_walken.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ christopher_walken => nrel_main_idtf : [Кристофер Уокен](*<-lang_ru;;*);;
+ christopher_walken => nrel_main_idtf : [Christopher Walken](*<-lang_en;;*);;
+ 
+ 
+ christopher_walken => nrel_birth_date : 1943;;
+ 
+ concept_goverment -> Usa;;
+ christopher_walken => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ christopher_walken => nrel_to_star_in : click;;
+click => nrel_main_idtf : [Click](*<-lang_en;;*);;
+click => nrel_main_idtf : [Клик: C пультом по жизни](*<-lang_ru;;*);;
+christopher_walken => nrel_to_star_in : catch_me_if_you_can;;
+catch_me_if_you_can => nrel_main_idtf : [Catch Me If You Can](*<-lang_en;;*);;
+catch_me_if_you_can => nrel_main_idtf : [Поймай меня, если сможешь](*<-lang_ru;;*);;
+christopher_walken => nrel_to_star_in : sleepy_hollow;;
+sleepy_hollow => nrel_main_idtf : [Sleepy Hollow](*<-lang_en;;*);;
+sleepy_hollow => nrel_main_idtf : [Сонная лощина](*<-lang_ru;;*);;
+christopher_walken => nrel_to_star_in : pulp_fiction;;
+pulp_fiction => nrel_main_idtf : [Pulp Fiction](*<-lang_en;;*);;
+pulp_fiction => nrel_main_idtf : [Криминальное чтиво](*<-lang_ru;;*);;
+

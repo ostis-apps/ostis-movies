@@ -1,0 +1,45 @@
+concept_human -> madonna;;
+ 
+ madonna <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мадонна)](*<-lang_ru;;*);
+ 		[Description (Madonna)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/madonna_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ madonna <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мадонна)](*<-lang_ru;;*);
+ 		[Pic. (Madonna)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/madonna.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ madonna => nrel_main_idtf : [Мадонна](*<-lang_ru;;*);;
+ madonna => nrel_main_idtf : [Madonna](*<-lang_en;;*);;
+ 
+ 
+ madonna => nrel_birth_date : 1958;;
+ 
+ concept_goverment -> Usa;;
+ madonna => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ madonna => nrel_to_star_in : four_rooms;;
+four_rooms => nrel_main_idtf : [Four Rooms](*<-lang_en;;*);;
+four_rooms => nrel_main_idtf : [Четыре комнаты](*<-lang_ru;;*);;
+

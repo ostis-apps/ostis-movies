@@ -1,0 +1,48 @@
+concept_human -> michael_douglas;;
+ 
+ michael_douglas <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майкл Дуглас)](*<-lang_ru;;*);
+ 		[Description (Michael Douglas)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michael_douglas_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michael_douglas <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майкл Дуглас)](*<-lang_ru;;*);
+ 		[Pic. (Michael Douglas)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michael_douglas.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michael_douglas => nrel_main_idtf : [Майкл Дуглас](*<-lang_ru;;*);;
+ michael_douglas => nrel_main_idtf : [Michael Douglas](*<-lang_en;;*);;
+ 
+ 
+ michael_douglas => nrel_birth_date : 1944;;
+ 
+ concept_goverment -> Usa;;
+ michael_douglas => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ michael_douglas => nrel_to_star_in : antman_and_the_wasp;;
+antman_and_the_wasp => nrel_main_idtf : [Ant-Man and the Wasp](*<-lang_en;;*);;
+antman_and_the_wasp => nrel_main_idtf : [Человек-Муравей и Оса](*<-lang_ru;;*);;
+michael_douglas => nrel_to_star_in : antman;;
+antman => nrel_main_idtf : [Ant-Man](*<-lang_en;;*);;
+antman => nrel_main_idtf : [Человек-муравей](*<-lang_ru;;*);;
+
