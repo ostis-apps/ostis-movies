@@ -1,0 +1,23 @@
+concept_historical_character
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[исторический персонаж](*<-lang_ru;;*);
+	[historical character](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (исторический персонаж)](*<-lang_ru;;*);
+		[Def. (historical character)](*<-lang_en;;*);;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/historical character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/historical character_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+	<=nrel_using_constants:
+	{
+        concept_film;
+	   concept_cartoon
+	};;
+*);;

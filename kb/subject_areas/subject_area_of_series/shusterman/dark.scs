@@ -1,0 +1,244 @@
+
+                  concept_series -> Dark;;
+              
+                  Dark
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Тьма]
+                    (* <- lang_ru;;	*);
+                    [Dark]
+                    (* <- lang_en;;	*);;
+                  
+                  Dark <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Тьма)](*<-lang_ru;;*);
+                      [Description (Dark)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Dark_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Dark_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Dark <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Тьма)](*<-lang_ru;;*);
+                      [Pic. (Dark)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Dark.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Dark => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Dark => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  Dark => nrel_num_of_seasons: 3;;
+                  value -> 18;;
+                  Dark => nrel_num_of_episodes: 18;;
+                  
+                  value -> 11;;
+                  Dark => nrel_no_countries : 11;;
+                  
+                  value -> 6;;
+                  Dark => nrel_viewers_in_millions: 6;;
+                  
+                  Dark => nrel_age_rating: concept_PG12;;
+                  
+                    Dark => nrel_actor : KarolineEichhorn;;
+                    
+                   
+                    Dark => nrel_actor : JrdisTriebel;;
+                    
+                   
+                    Dark => nrel_actor : LouisHofmann;;
+                    
+                   
+                    Dark => nrel_actor : MajaSchne;;
+                    
+                   
+                    Dark => nrel_actor : StephanKampwirth;;
+                    
+                   
+                    Dark => nrel_actor : PeterBenedict;;
+                    
+                   
+                    Dark => nrel_actor : MoritzJahn;;
+                    
+                   
+                    Dark => nrel_actor : OliverMasucci;;
+                    
+                   
+                    Dark => nrel_actor : AndreasPietschmann;;
+                    
+                   
+                    Dark => nrel_actor : DeborahKaufmann;;
+                    
+                   
+                    Dark => nrel_actor : LisaVicari;;
+                    
+                   
+                    Dark => nrel_actor : PaulLux;;
+                    
+                   
+                    Dark => nrel_actor : GinaAliceStiebitz;;
+                    
+                   
+                    Dark => nrel_actor : DaanLennardLiebrenz;;
+                    
+                   
+                    Dark => nrel_actor : MarkWaschke;;
+                    
+                   
+                    Dark => nrel_actor : CarlottavonFalkenhayn;;
+                    
+                   
+                    Dark => nrel_actor : JulikaJenkins;;
+                    
+                   
+                    Dark => nrel_actor : ChristianPtzold;;
+                    
+                   
+                    Dark => nrel_actor : AnneRattePolle;;
+                    
+                   
+                    Dark => nrel_actor : TatjaSeibt;;
+                    
+                   
+                    Dark => nrel_actor : DietrichHollinderbumer;;
+                    
+                   
+                    Dark => nrel_actor : LisaKreuzer;;
+                    
+                   
+                    Dark => nrel_actor : ChristianSteyer;;
+                    
+                   
+                    Dark => nrel_actor : LydiaMariaMakrides;;
+                    
+                   
+                    Dark => nrel_actor : WalterKreye;;
+                    
+                   
+                    Dark => nrel_actor : HermannBeyer;;
+                    
+                   
+                    Dark => nrel_actor : TomPhilipp;;
+                    
+                   
+                    Dark => nrel_actor : SylvesterGroth;;
+                    
+                   
+                    Dark => nrel_actor : NeleTrebs;;
+                    
+                   
+                    Dark => nrel_actor : PeterSchneider;;
+                    
+                   
+                    Dark => nrel_actor : EllaLee;;
+                    
+                   
+                    Dark => nrel_actor : AntjeTraue;;
+                    
+                   
+                    Dark => nrel_actor : LudgerBkelmann;;
+                    
+                   
+                    Dark => nrel_actor : AngelaWinkler;;
+                    
+                   
+                    Dark => nrel_actor : SebastianHlk;;
+                    
+                   
+                    Dark => nrel_actor : AntonRubtsov;;
+                    
+                   
+                    Dark => nrel_actor : SebastianRudolph;;
+                    
+                   
+                    Dark => nrel_actor : CordeliaWege;;
+                    
+                   
+                    Dark => nrel_actor : LeaVanAcken;;
+                    
+                   
+                    Dark => nrel_actor : SandraBorgmann;;
+                    
+                   
+                    Dark => nrel_actor : LuiseHeyer;;
+                    
+                   
+                    Dark => nrel_actor : ArndKlawitter;;
+                    
+                   
+                    Dark => nrel_actor : AnatoleTaubman;;
+                    
+                   
+                    Dark => nrel_actor : JoshioMarlon;;
+                    
+                   
+                    Dark => nrel_actor : AnneLebinsky;;
+                    
+                   
+                    Dark => nrel_actor : CarinaNWiese;;
+                    
+                   
+                    Dark => nrel_actor : MaxSchimmelpfennig;;
+                    
+                   
+                    Dark => nrel_actor : StephanieAmarell;;
+                    
+                   
+                    Dark => nrel_actor : WinfriedGlatzeder;;
+                    
+                   
+                    Dark => nrel_actor : MichaelMendl;;
+                    
+                   
+                    Dark => nrel_actor : GwendolinGbel;;
+                    
+                   
+                    Dark => nrel_actor : FelixKramer;;
+                    
+                   
+                    Dark => nrel_actor : LenaUrzendowsky;;
+                    
+                   
+                    Dark => nrel_actor : BlaGborLenz;;
+                    
+                   
+                    Dark => nrel_actor : FlorianPanzner;;
+                    
+                   
+                    Dark => nrel_actor : WolframKoch;;
+                    
+                   
+                    Dark => nrel_actor : RikeSindler;;
+                    
+                   
+                    Dark => nrel_actor : ValentinOpperman;;
+                    
+                   
+                    Dark => nrel_actor : HelenaPieske;;
+                    
+                   
+                    Dark => nrel_actor : RomanKnika;;
+                    
+                  
+                  
+                  Dark
+                  =>nrel_keywords: concept_detectif;;
+                  

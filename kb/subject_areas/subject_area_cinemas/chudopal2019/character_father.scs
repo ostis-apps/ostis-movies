@@ -1,0 +1,22 @@
+character_father
+	=> nrel_main_idtf:
+	[Отец]
+	(* <- lang_ru;;	*);
+	[Father]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: oleg_yankovsky;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Отец)](* <- lang_ru;; *);
+		[Desctiption (Father)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_father">Отец</sc_element></b> — отец <sc_element sys_idtf="character_alexey">Алексея</sc_element></b>](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_father">Father</sc_element></b> — father of <sc_element sys_idtf="character_alexey">Alexey</sc_element>](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+

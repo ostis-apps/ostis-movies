@@ -1,0 +1,67 @@
+concept_series -> The_big_bang;;
+
+The_big_bang
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Теория Большого взрыва]
+	(* <- lang_ru;;	*);
+	[The big bang]
+	(* <- lang_en;;	*);;
+	
+Friends <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Теория Большого взрыва)](*<-lang_ru;;*);
+		[Description (The big bang)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/The_big_bang_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The_big_bang_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+The_big_bang <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Теория Большого взрыва)](*<-lang_ru;;*);
+		[Pic. (The_big_bang)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/The_big_bang.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+The_big_bang => nrel_production : Usa;;
+
+concept_calendar_date -> 2007;;
+2007 => nrel_main_idtf : [2007 год](*<-lang_ru;;*);;
+2007 => nrel_main_idtf : [year of 2007](*<-lang_en;;*);;
+The_big_bang => nrel_production_year : 2007;;
+	
+value -> 12;;
+The_big_bang => nrel_num_of_seasons: 12;;
+value -> 279;;
+The_big_bang => nrel_num_of_episodes: The_big_bang;;
+	
+value -> 70;;
+The_big_bang => nrel_no_countries : 70;;
+
+value -> 19;;
+The_big_bang => nrel_viewers_in_millions: 19;;
+
+The_big_bang => nrel_age_rating: concept_PG16;;
+
+
+The_big_bang => nrel_actor : James_Joseph_Parsons;;
+The_big_bang => nrel_producer : Chack_Lory;;
+
+The_big_bang
+=>nrel_keywords: concept_camedi;
+=>nrel_keywords: concept_lave;
+=>nrel_keywords: concept_frendship;;

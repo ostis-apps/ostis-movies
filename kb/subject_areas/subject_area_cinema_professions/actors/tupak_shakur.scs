@@ -1,0 +1,45 @@
+concept_human -> tupak_shakur;;
+ 
+ tupak_shakur <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Тупак Шакур)](*<-lang_ru;;*);
+ 		[Description (Tupak Shakur)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tupak_shakur_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tupak_shakur <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Тупак Шакур)](*<-lang_ru;;*);
+ 		[Pic. (Tupak Shakur)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tupak_shakur.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tupak_shakur => nrel_main_idtf : [Тупак Шакур](*<-lang_ru;;*);;
+ tupak_shakur => nrel_main_idtf : [Tupak Shakur](*<-lang_en;;*);;
+ 
+ 
+ tupak_shakur => nrel_birth_date : 1994;;
+ 
+ concept_goverment -> Usa;;
+ tupak_shakur => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ tupak_shakur => nrel_to_star_in : bullet;;
+bullet => nrel_main_idtf : [Bullet](*<-lang_en;;*);;
+bullet => nrel_main_idtf : [Пуля](*<-lang_ru;;*);;
+

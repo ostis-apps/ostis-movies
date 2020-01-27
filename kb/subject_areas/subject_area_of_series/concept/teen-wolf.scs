@@ -1,0 +1,100 @@
+
+                  concept_series -> Teen_Wolf;;
+              
+                  Teen_Wolf
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Teen_Wolf]
+                    (* <- lang_ru;;	*);
+                    [Teen_Wolf]
+                    (* <- lang_en;;	*);;
+                  
+                  Teen_Wolf <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Teen_Wolf)](*<-lang_ru;;*);
+                      [Description (Teen_Wolf)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Teen_Wolf_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Teen_Wolf_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Teen_Wolf <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Teen_Wolf)](*<-lang_ru;;*);
+                      [Pic. (Teen_Wolf)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Teen_Wolf.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Teen_Wolf => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  Teen_Wolf => nrel_production_year : 2011;;
+                  
+                  value -> 6;;
+                  Teen_Wolf => nrel_num_of_seasons: 6;;
+                  value -> 100;;
+                  Teen_Wolf => nrel_num_of_episodes: 100;;
+                  
+                  value -> 6;;
+                  Teen_Wolf => nrel_no_countries : 6;;
+                  
+                  value -> 7;;
+                  Teen_Wolf => nrel_viewers_in_millions: 7;;
+                  
+                  Teen_Wolf => nrel_age_rating: concept_PG12;;
+                  
+                    Teen_Wolf => nrel_actor : TylerPosey;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : HollandRoden;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : LindenAshby;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : DylanOBrien;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : TylerHoechlin;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : JRBourne;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : MelissaPonzio;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : CrystalReed;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : ShelleyHennig;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : DylanSprayberry;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : ArdenCho;;
+                    
+                   
+                    Teen_Wolf => nrel_actor : ColtonHaynes;;
+                    
+                  
+                  
+                  Teen_Wolf
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,45 @@
+concept_human -> emma_roberts;;
+ 
+ emma_roberts <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эмма Робертс)](*<-lang_ru;;*);
+ 		[Description (Emma Roberts)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/emma_roberts_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ emma_roberts <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эмма Робертс)](*<-lang_ru;;*);
+ 		[Pic. (Emma Roberts)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/emma_roberts.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ emma_roberts => nrel_main_idtf : [Эмма Робертс](*<-lang_ru;;*);;
+ emma_roberts => nrel_main_idtf : [Emma Roberts](*<-lang_en;;*);;
+ 
+ 
+ emma_roberts => nrel_birth_date : 1991;;
+ 
+ concept_goverment -> Usa;;
+ emma_roberts => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ emma_roberts => nrel_to_star_in : blow;;
+blow => nrel_main_idtf : [Blow](*<-lang_en;;*);;
+blow => nrel_main_idtf : [Кокаин](*<-lang_ru;;*);;
+

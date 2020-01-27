@@ -1,0 +1,88 @@
+concept_Zootopia
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Зверополис]
+	(* <- lang_ru;;	*);
+	[Zootopia]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Зверополис)](*<-lang_ru;;*);
+		[Description (Zootopia)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Zootopia_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Zootopia_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Byron_Howard;
+=>nrel_producer: Clark_Spencer;
+=>nrel_production_country: USA;
+=>nrel_production_year:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2016
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 108
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 1023784195
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	 <-character_Judy_Hopps;;
+	 <-character_Nick_Wilde;;
+	 <-character_Captain_Buyvolson;;
+	 <-character_Leodor_Zlatogriv;;
+	 <-character_Mr_Big;;
+	 <-character_Dr_Barsuchyha;;
+	*);
+=>nrel_age_rating: concept_PG6;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Зверополис)](*<-lang_ru;;*);
+		[Pic. (Zootopia)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Zootopia.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Byron_Howard
+=>nrel_main_idtf:
+		[Байрон Говард](*<-lang_ru;;*);
+		[Byron Howard](*<-lang_en;;*);;

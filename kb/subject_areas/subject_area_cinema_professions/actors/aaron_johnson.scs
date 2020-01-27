@@ -1,0 +1,54 @@
+concept_human -> aaron_johnson;;
+ 
+ aaron_johnson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Аарон Джонсон)](*<-lang_ru;;*);
+ 		[Description (Aaron Johnson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/aaron_johnson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ aaron_johnson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Аарон Джонсон)](*<-lang_ru;;*);
+ 		[Pic. (Aaron Johnson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/aaron_johnson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ aaron_johnson => nrel_main_idtf : [Аарон Джонсон](*<-lang_ru;;*);;
+ aaron_johnson => nrel_main_idtf : [Aaron Johnson](*<-lang_en;;*);;
+ 
+ 
+ aaron_johnson => nrel_birth_date : 1990;;
+ 
+ concept_goverment -> UK;;
+ aaron_johnson => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ aaron_johnson => nrel_to_star_in : outlaw_king;;
+outlaw_king => nrel_main_idtf : [Outlaw King](*<-lang_en;;*);;
+outlaw_king => nrel_main_idtf : [Король вне закона](*<-lang_ru;;*);;
+aaron_johnson => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+aaron_johnson => nrel_to_star_in : captain_america_the_winter_soldier;;
+captain_america_the_winter_soldier => nrel_main_idtf : [Captain America: The Winter Soldier](*<-lang_en;;*);;
+captain_america_the_winter_soldier => nrel_main_idtf : [Первый мститель: Другая война](*<-lang_ru;;*);;
+aaron_johnson => nrel_to_star_in : anna_karenina;;
+anna_karenina => nrel_main_idtf : [Anna Karenina](*<-lang_en;;*);;
+anna_karenina => nrel_main_idtf : [Анна Каренина](*<-lang_ru;;*);;
+

@@ -1,0 +1,67 @@
+film_80_minut
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[80 минут]
+(* <- lang_ru;;    *);
+[80 Minutes]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (80 минут)](*<-lang_ru;;*);
+[Description (80 Minutes)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/80-minut_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/80-minut_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (80 минут)](*<-lang_ru;;*);
+		[Pic. (80 Minutes)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/80-minut.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;
+
+=> nrel_film_critic_rating : 4;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [15000 short - 80 min. to live - zero chance](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [06.06.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [06.06.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H32M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H32M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_80_minut =>nrel_keywords: film;;
+
+film_80_minut <- concept_action;concept_crime;concept_thriller;;
+
+film_80_minut => nrel_main_actor : gabriel_mann;oliver_kieran_jones;josh_dallas;natalia_avelon;;
+film_80_minut => nrel_producer : thomas_jahn;;

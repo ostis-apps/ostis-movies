@@ -1,0 +1,7 @@
+sc_node_role_relation -> rrel_number_of_seasons;;
+
+rrel_number_of_seasons => nrel_main_idtf:
+	[количество сезонов']
+	(* <- lang_ru;;	*);
+	[number of seasons']
+	(* <- lang_en;;	*);;

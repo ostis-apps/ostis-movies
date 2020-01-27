@@ -1,0 +1,190 @@
+
+                  concept_series -> Outlander;;
+              
+                  Outlander
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [чужеземец]
+                    (* <- lang_ru;;	*);
+                    [Outlander]
+                    (* <- lang_en;;	*);;
+                  
+                  Outlander <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (чужеземец)](*<-lang_ru;;*);
+                      [Description (Outlander)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Outlander_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Outlander_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Outlander <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (чужеземец)](*<-lang_ru;;*);
+                      [Pic. (Outlander)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Outlander.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Outlander => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Outlander => nrel_production_year : 2014;;
+                  
+                  value -> 6;;
+                  Outlander => nrel_num_of_seasons: 6;;
+                  value -> 56;;
+                  Outlander => nrel_num_of_episodes: 56;;
+                  
+                  value -> 11;;
+                  Outlander => nrel_no_countries : 11;;
+                  
+                  value -> 11;;
+                  Outlander => nrel_viewers_in_millions: 11;;
+                  
+                  Outlander => nrel_age_rating: concept_PG12;;
+                  
+                    Outlander => nrel_actor : CaitrionaBalfe;;
+                    
+                   
+                    Outlander => nrel_actor : SamHeughan;;
+                    
+                   
+                    Outlander => nrel_actor : DuncanLacroix;;
+                    
+                   
+                    Outlander => nrel_actor : CsarDomboy;;
+                    
+                   
+                    Outlander => nrel_actor : GrantORourke;;
+                    
+                   
+                    Outlander => nrel_actor : GrahamMcTavish;;
+                    
+                   
+                    Outlander => nrel_actor : SophieSkelton;;
+                    
+                   
+                    Outlander => nrel_actor : StephenWalters;;
+                    
+                   
+                    Outlander => nrel_actor : JohnBell;;
+                    
+                   
+                    Outlander => nrel_actor : TobiasMenzies;;
+                    
+                   
+                    Outlander => nrel_actor : RichardRankin;;
+                    
+                   
+                    Outlander => nrel_actor : TobiasMenzies;;
+                    
+                   
+                    Outlander => nrel_actor : LaurenLyle;;
+                    
+                   
+                    Outlander => nrel_actor : AndrewGower;;
+                    
+                   
+                    Outlander => nrel_actor : NellHudson;;
+                    
+                   
+                    Outlander => nrel_actor : StevenCree;;
+                    
+                   
+                    Outlander => nrel_actor : LauraDonnelly;;
+                    
+                   
+                    Outlander => nrel_actor : LotteVerbeek;;
+                    
+                   
+                    Outlander => nrel_actor : BillPaterson;;
+                    
+                   
+                    Outlander => nrel_actor : DavidBerry;;
+                    
+                   
+                    Outlander => nrel_actor : GaryLewis;;
+                    
+                   
+                    Outlander => nrel_actor : EdwardSpeleers;;
+                    
+                   
+                    Outlander => nrel_actor : RosieDay;;
+                    
+                   
+                    Outlander => nrel_actor : StanleyWeber;;
+                    
+                   
+                    Outlander => nrel_actor : CaitlinORyan;;
+                    
+                   
+                    Outlander => nrel_actor : MariaDoyleKennedy;;
+                    
+                   
+                    Outlander => nrel_actor : SimonCallow;;
+                    
+                   
+                    Outlander => nrel_actor : NatalieSimpson;;
+                    
+                   
+                    Outlander => nrel_actor : ColinMcFarlane;;
+                    
+                   
+                    Outlander => nrel_actor : DominiquePinon;;
+                    
+                   
+                    Outlander => nrel_actor : DouglasHenshall;;
+                    
+                   
+                    Outlander => nrel_actor : BraedenClarke;;
+                    
+                   
+                    Outlander => nrel_actor : FrancesdelaTour;;
+                    
+                   
+                    Outlander => nrel_actor : GregoryOdjig;;
+                    
+                   
+                    Outlander => nrel_actor : TantooCardinal;;
+                    
+                   
+                    Outlander => nrel_actor : TomJackson;;
+                    
+                   
+                    Outlander => nrel_actor : RichardDillane;;
+                    
+                   
+                    Outlander => nrel_actor : CarmenMoore;;
+                    
+                   
+                    Outlander => nrel_actor : CliveRussell;;
+                    
+                   
+                    Outlander => nrel_actor : YanTual;;
+                    
+                   
+                    Outlander => nrel_actor : BillyBoyd;;
+                    
+                   
+                    Outlander => nrel_actor : SeraLysMcArthur;;
+                    
+                  
+                  
+                  Outlander
+                  =>nrel_keywords: concept_detectif;;
+                  

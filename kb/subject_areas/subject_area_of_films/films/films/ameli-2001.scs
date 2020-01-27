@@ -1,0 +1,67 @@
+film_ameli_2001
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Амели]
+(* <- lang_ru;;    *);
+[Le Fabuleux destin d'Amélie Poulain / Amélie]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Амели)](*<-lang_ru;;*);
+[Description (Le Fabuleux destin d'Amélie Poulain / Amélie)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/ameli-2001_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/ameli-2001_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Амели)](*<-lang_ru;;*);
+		[Pic. (Le Fabuleux destin d'Amélie Poulain / Amélie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/ameli-2001.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : france;germany;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [She'll change your life. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [25.04.2001](*<-lang_ru;;*);;
+    => nrel_main_idtf : [25.04.2001](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H2M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H2M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_ameli_2001 =>nrel_keywords: film;;
+
+film_ameli_2001 <- concept_comedy;concept_romance;;
+
+film_ameli_2001 => nrel_main_actor : audrey_tautou;mathieu_kassovitz;rufus;lorella_cravotta;;
+film_ameli_2001 => nrel_producer : jean_pierre_jeunet;;

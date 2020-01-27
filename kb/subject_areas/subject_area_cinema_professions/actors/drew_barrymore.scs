@@ -1,0 +1,51 @@
+concept_human -> drew_barrymore;;
+ 
+ drew_barrymore <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дрю Бэрримор)](*<-lang_ru;;*);
+ 		[Description (Drew Barrymore)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/drew_barrymore_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ drew_barrymore <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дрю Бэрримор)](*<-lang_ru;;*);
+ 		[Pic. (Drew Barrymore)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/drew_barrymore.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ drew_barrymore => nrel_main_idtf : [Дрю Бэрримор](*<-lang_ru;;*);;
+ drew_barrymore => nrel_main_idtf : [Drew Barrymore](*<-lang_en;;*);;
+ 
+ 
+ drew_barrymore => nrel_birth_date : 1975;;
+ 
+ concept_goverment -> Usa;;
+ drew_barrymore => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ drew_barrymore => nrel_to_star_in : 50_first_dates;;
+50_first_dates => nrel_main_idtf : [50 First Dates](*<-lang_en;;*);;
+50_first_dates => nrel_main_idtf : [50 первых поцелуев](*<-lang_ru;;*);;
+drew_barrymore => nrel_to_star_in : charlies_angels;;
+charlies_angels => nrel_main_idtf : [Charlie's Angels](*<-lang_en;;*);;
+charlies_angels => nrel_main_idtf : [Ангелы Чарли](*<-lang_ru;;*);;
+drew_barrymore => nrel_to_star_in : batman_forever;;
+batman_forever => nrel_main_idtf : [Batman Forever](*<-lang_en;;*);;
+batman_forever => nrel_main_idtf : [Бэтмен навсегда](*<-lang_ru;;*);;
+

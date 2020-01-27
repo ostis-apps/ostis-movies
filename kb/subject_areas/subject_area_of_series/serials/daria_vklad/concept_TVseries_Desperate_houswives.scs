@@ -1,0 +1,68 @@
+concept_series -> Desperate_houswives;;
+
+Desperate_houswives
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Отчаянные домохозяйки]
+	(* <- lang_ru;;	*);
+	[Desperate housewives]
+	(* <- lang_en;;	*);;
+	
+Desperate_houswives <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Отчаянные домохозяйки)](*<-lang_ru;;*);
+		[Description (Desperate housewives)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Desperate_housewives_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Desperate_housewives_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Desperate_houswives <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Отчаянные домохозяйки)](*<-lang_ru;;*);
+		[Pic. (Desperate housewives)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Desperate_houswives.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+Desperate_houswives => nrel_production_country : Usa;;
+
+
+Desperate_houswives => nrel_world_premiere: ...(* -> rrel_number_of_year: 2004;;*);;
+	
+value ->8;;
+Desperate_houswives => nrel_num_of_seasons: 8;;
+value -> 180;;
+Desperate_houswives => nrel_num_of_episodes: 180;;
+	
+value -> 68;;
+Desperate_houswives => nrel_no_countries : 68;;
+
+value -> 125;;
+Desperate_houswives => nrel_viewers_in_millions: 125;;
+
+Desperate_houswives => nrel_age_rating: concept_PG12;;
+
+
+Desperate_houswives => nrel_actor : Eva_Longoria;;
+Desperate_houswives => nrel_actor : Teri_Hatcher;;
+Desperate_houswives => nrel_actor : Marcia_Cross;;
+Desperate_houswives => nrel_actor : Felicity_Huffman;;
+
+Desperate_houswives
+=>nrel_keywords: concept_detectif;
+=>nrel_keywords: concept_camedi;
+=>nrel_keywords: concept_lave;
+=>nrel_keywords: concept_frendship;;

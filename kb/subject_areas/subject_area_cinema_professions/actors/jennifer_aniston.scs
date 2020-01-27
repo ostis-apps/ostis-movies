@@ -1,0 +1,51 @@
+concept_human -> jennifer_aniston;;
+ 
+ jennifer_aniston <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дженнифер Энистон)](*<-lang_ru;;*);
+ 		[Description (Jennifer Aniston)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jennifer_aniston_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jennifer_aniston <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дженнифер Энистон)](*<-lang_ru;;*);
+ 		[Pic. (Jennifer Aniston)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jennifer_aniston.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jennifer_aniston => nrel_main_idtf : [Дженнифер Энистон](*<-lang_ru;;*);;
+ jennifer_aniston => nrel_main_idtf : [Jennifer Aniston](*<-lang_en;;*);;
+ 
+ 
+ jennifer_aniston => nrel_birth_date : 1969;;
+ 
+ concept_goverment -> Usa;;
+ jennifer_aniston => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jennifer_aniston => nrel_to_star_in : murder_mystery;;
+murder_mystery => nrel_main_idtf : [Murder Mystery](*<-lang_en;;*);;
+murder_mystery => nrel_main_idtf : [Загадочное убийство](*<-lang_ru;;*);;
+jennifer_aniston => nrel_to_star_in : just_go_with_it;;
+just_go_with_it => nrel_main_idtf : [Just Go with It](*<-lang_en;;*);;
+just_go_with_it => nrel_main_idtf : [Притворись моей женой](*<-lang_ru;;*);;
+jennifer_aniston => nrel_to_star_in : bruce_almighty;;
+bruce_almighty => nrel_main_idtf : [Bruce Almighty](*<-lang_en;;*);;
+bruce_almighty => nrel_main_idtf : [Брюс Всемогущий](*<-lang_ru;;*);;
+

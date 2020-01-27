@@ -1,0 +1,88 @@
+
+                  concept_series -> Black_Lightning;;
+              
+                  Black_Lightning
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Черная молния]
+                    (* <- lang_ru;;	*);
+                    [Black_Lightning]
+                    (* <- lang_en;;	*);;
+                  
+                  Black_Lightning <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Черная молния)](*<-lang_ru;;*);
+                      [Description (Black_Lightning)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Black_Lightning_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Black_Lightning_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Black_Lightning <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Черная молния)](*<-lang_ru;;*);
+                      [Pic. (Black_Lightning)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Black_Lightning.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Black_Lightning => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Black_Lightning => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  Black_Lightning => nrel_num_of_seasons: 3;;
+                  value -> 38;;
+                  Black_Lightning => nrel_num_of_episodes: 38;;
+                  
+                  value -> 7;;
+                  Black_Lightning => nrel_no_countries : 7;;
+                  
+                  value -> 4;;
+                  Black_Lightning => nrel_viewers_in_millions: 4;;
+                  
+                  Black_Lightning => nrel_age_rating: concept_PG12;;
+                  
+                    Black_Lightning => nrel_actor : ChinaAnneMcClain;;
+                    
+                   
+                    Black_Lightning => nrel_actor : CressWilliams;;
+                    
+                   
+                    Black_Lightning => nrel_actor : NafessaWilliams;;
+                    
+                   
+                    Black_Lightning => nrel_actor : ChristineAdams;;
+                    
+                   
+                    Black_Lightning => nrel_actor : JamesRemar;;
+                    
+                   
+                    Black_Lightning => nrel_actor : DamonGupton;;
+                    
+                   
+                    Black_Lightning => nrel_actor : MarvinKrondonJonesIII;;
+                    
+                   
+                    Black_Lightning => nrel_actor : JordanCalloway;;
+                    
+                  
+                  
+                  Black_Lightning
+                  =>nrel_keywords: concept_detectif;;
+                  

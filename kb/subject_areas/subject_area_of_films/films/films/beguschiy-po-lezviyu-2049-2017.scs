@@ -1,0 +1,67 @@
+film_beguschiy_po_lezviyu_2049_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бегущий по лезвию 2049]
+(* <- lang_ru;;    *);
+[Blade Runner 2049]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бегущий по лезвию 2049)](*<-lang_ru;;*);
+[Description (Blade Runner 2049)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/beguschiy-po-lezviyu-2049-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/beguschiy-po-lezviyu-2049-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бегущий по лезвию 2049)](*<-lang_ru;;*);
+		[Pic. (Blade Runner 2049)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/beguschiy-po-lezviyu-2049-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;uk;hungary;canada;spain;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The key to the future is finally unearthed.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [04.10.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [04.10.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H44M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H44M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_beguschiy_po_lezviyu_2049_2017 =>nrel_keywords: film;;
+
+film_beguschiy_po_lezviyu_2049_2017 <- concept_action;concept_drama;concept_mystery;concept_sci_fi;concept_thriller;;
+
+film_beguschiy_po_lezviyu_2049_2017 => nrel_main_actor : harrison_ford;ryan_gosling;ana_de_armas;dave_bautista;;
+film_beguschiy_po_lezviyu_2049_2017 => nrel_producer : denis_villeneuve;;

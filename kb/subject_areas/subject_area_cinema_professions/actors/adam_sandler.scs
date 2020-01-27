@@ -1,0 +1,78 @@
+concept_human -> adam_sandler;;
+ 
+ adam_sandler <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Адам Сэндлер)](*<-lang_ru;;*);
+ 		[Description (Adam Sandler)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/adam_sandler_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ adam_sandler <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Адам Сэндлер)](*<-lang_ru;;*);
+ 		[Pic. (Adam Sandler)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/adam_sandler.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ adam_sandler => nrel_main_idtf : [Адам Сэндлер](*<-lang_ru;;*);;
+ adam_sandler => nrel_main_idtf : [Adam Sandler](*<-lang_en;;*);;
+ 
+ 
+ adam_sandler => nrel_birth_date : 1966;;
+ 
+ concept_goverment -> Usa;;
+ adam_sandler => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ adam_sandler => nrel_to_star_in : murder_mystery;;
+murder_mystery => nrel_main_idtf : [Murder Mystery](*<-lang_en;;*);;
+murder_mystery => nrel_main_idtf : [Загадочное убийство](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : the_cobbler;;
+the_cobbler => nrel_main_idtf : [The Cobbler](*<-lang_en;;*);;
+the_cobbler => nrel_main_idtf : [Сапожник](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : just_go_with_it;;
+just_go_with_it => nrel_main_idtf : [Just Go with It](*<-lang_en;;*);;
+just_go_with_it => nrel_main_idtf : [Притворись моей женой](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : i_now_pronounce_you_chuck__larry;;
+i_now_pronounce_you_chuck__larry => nrel_main_idtf : [I Now Pronounce You Chuck & Larry](*<-lang_en;;*);;
+i_now_pronounce_you_chuck__larry => nrel_main_idtf : [Чак и Ларри: пожарная свадьба](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : click;;
+click => nrel_main_idtf : [Click](*<-lang_en;;*);;
+click => nrel_main_idtf : [Клик: C пультом по жизни](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : 50_first_dates;;
+50_first_dates => nrel_main_idtf : [50 First Dates](*<-lang_en;;*);;
+50_first_dates => nrel_main_idtf : [50 первых поцелуев](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : anger_management;;
+anger_management => nrel_main_idtf : [Anger Management](*<-lang_en;;*);;
+anger_management => nrel_main_idtf : [Управление гневом](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : mr_deeds;;
+mr_deeds => nrel_main_idtf : [Mr. Deeds](*<-lang_en;;*);;
+mr_deeds => nrel_main_idtf : [Миллионер поневоле](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : big_daddy;;
+big_daddy => nrel_main_idtf : [Big Daddy](*<-lang_en;;*);;
+big_daddy => nrel_main_idtf : [Большой папа](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : happy_gilmore;;
+happy_gilmore => nrel_main_idtf : [Happy Gilmore](*<-lang_en;;*);;
+happy_gilmore => nrel_main_idtf : [Счастливчик Гилмор](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : bulletproof;;
+bulletproof => nrel_main_idtf : [Bulletproof](*<-lang_en;;*);;
+bulletproof => nrel_main_idtf : [Пуленепробиваемый](*<-lang_ru;;*);;
+adam_sandler => nrel_to_star_in : airheads;;
+airheads => nrel_main_idtf : [Airheads](*<-lang_en;;*);;
+airheads => nrel_main_idtf : [Пустоголовые](*<-lang_ru;;*);;
+

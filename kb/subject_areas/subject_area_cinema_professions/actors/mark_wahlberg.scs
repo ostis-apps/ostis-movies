@@ -1,0 +1,45 @@
+concept_human -> mark_wahlberg;;
+ 
+ mark_wahlberg <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Марк Уолберг)](*<-lang_ru;;*);
+ 		[Description (Mark Wahlberg)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/mark_wahlberg_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ mark_wahlberg <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Марк Уолберг)](*<-lang_ru;;*);
+ 		[Pic. (Mark Wahlberg)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/mark_wahlberg.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ mark_wahlberg => nrel_main_idtf : [Марк Уолберг](*<-lang_ru;;*);;
+ mark_wahlberg => nrel_main_idtf : [Mark Wahlberg](*<-lang_en;;*);;
+ 
+ 
+ mark_wahlberg => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> Usa;;
+ mark_wahlberg => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ mark_wahlberg => nrel_to_star_in : the_departed;;
+the_departed => nrel_main_idtf : [The Departed](*<-lang_en;;*);;
+the_departed => nrel_main_idtf : [Отступники](*<-lang_ru;;*);;
+

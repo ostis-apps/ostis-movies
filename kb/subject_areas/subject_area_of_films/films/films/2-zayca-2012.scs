@@ -1,0 +1,67 @@
+film_2_zayca_2012
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[2 зайца]
+(* <- lang_ru;;    *);
+[2 Coelhos / Two Rabbits]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (2 зайца)](*<-lang_ru;;*);
+[Description (2 Coelhos / Two Rabbits)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/2-zayca-2012_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/2-zayca-2012_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (2 зайца)](*<-lang_ru;;*);
+		[Pic. (2 Coelhos / Two Rabbits)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/2-zayca-2012.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : brazil;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [2 Coelhos / Two Rabbits](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [20.01.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [20.01.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H41M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H41M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_TV_MA;;
+
+film_2_zayca_2012 =>nrel_keywords: film;;
+
+film_2_zayca_2012 <- concept_action;concept_thriller;;
+
+film_2_zayca_2012 => nrel_main_actor : fernando_alves_pinto;alessandra_negrini;caco_ciocler;marat_descartes;;
+film_2_zayca_2012 => nrel_producer : afonso_poyart;;

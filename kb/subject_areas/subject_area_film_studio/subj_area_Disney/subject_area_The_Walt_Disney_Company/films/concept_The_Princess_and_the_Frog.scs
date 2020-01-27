@@ -1,0 +1,89 @@
+concept_The_Princess_and_the_Frog
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Принцесса и лягушка]
+	(* <- lang_ru;;	*);
+	[The Princess and the Frog]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Принцесса и лягушка)](*<-lang_ru;;*);
+		[Description (The Princess and the Frog)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_The_Princess_and_the_Frog_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_The_Princess_and_the_Frog_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: John_Masker;
+=>nrel_producer:  Peter_Del_Veho;
+=>nrel_production_country: USA;
+=>nrel_production_year:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2009
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 97
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 267045765
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	<-character_Tiana;;
+	<-character_Naveen;;
+	<-character_Louis;;
+ 	<-character_Raymond;;
+ 	<-character_Doctor_Facilier;; 
+	<-character_Mama_Odie;;
+	<-character_Lawrence;;
+	*);
+=>nrel_age_rating: concept_PG0;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Принцесса и лягушка)](*<-lang_ru;;*);
+		[Pic. (The Princess and the Frog)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_The_Princess_and_the_Frog.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+ Peter_Del_Veho
+=>nrel_main_idtf:
+		[Питер Де Векхо](*<-lang_ru;;*);
+		[Peter_Del_Veho](*<-lang_en;;*);;

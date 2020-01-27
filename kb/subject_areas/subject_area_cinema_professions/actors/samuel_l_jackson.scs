@@ -1,0 +1,93 @@
+concept_human -> samuel_l_jackson;;
+ 
+ samuel_l_jackson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джексон)](*<-lang_ru;;*);
+ 		[Description (Samuel L Jackson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/samuel_l_jackson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ samuel_l_jackson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джексон)](*<-lang_ru;;*);
+ 		[Pic. (Samuel L Jackson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/samuel_l_jackson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ samuel_l_jackson => nrel_main_idtf : [Джексон](*<-lang_ru;;*);;
+ samuel_l_jackson => nrel_main_idtf : [Samuel L Jackson](*<-lang_en;;*);;
+ 
+ 
+ samuel_l_jackson => nrel_birth_date : 1949;;
+ 
+ concept_goverment -> Usa;;
+ samuel_l_jackson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ samuel_l_jackson => nrel_to_star_in : spiderman_far_from_home;;
+spiderman_far_from_home => nrel_main_idtf : [Spider-Man: Far from Home](*<-lang_en;;*);;
+spiderman_far_from_home => nrel_main_idtf : [Человек-паук: Вдали от дома](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : captain_marvel;;
+captain_marvel => nrel_main_idtf : [Captain Marvel](*<-lang_en;;*);;
+captain_marvel => nrel_main_idtf : [Капитан Марвел](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : glass;;
+glass => nrel_main_idtf : [Glass](*<-lang_en;;*);;
+glass => nrel_main_idtf : [Стекло](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : the_hateful_eight;;
+the_hateful_eight => nrel_main_idtf : [The Hateful Eight](*<-lang_en;;*);;
+the_hateful_eight => nrel_main_idtf : [Омерзительная восьмерка](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : captain_america_the_winter_soldier;;
+captain_america_the_winter_soldier => nrel_main_idtf : [Captain America: The Winter Soldier](*<-lang_en;;*);;
+captain_america_the_winter_soldier => nrel_main_idtf : [Первый мститель: Другая война](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : the_avengers;;
+the_avengers => nrel_main_idtf : [The Avengers](*<-lang_en;;*);;
+the_avengers => nrel_main_idtf : [Мстители](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : django_unchained;;
+django_unchained => nrel_main_idtf : [Django Unchained](*<-lang_en;;*);;
+django_unchained => nrel_main_idtf : [Джанго освобожденный](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : thor;;
+thor => nrel_main_idtf : [Thor](*<-lang_en;;*);;
+thor => nrel_main_idtf : [Тор](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : captain_america_the_first_avenger;;
+captain_america_the_first_avenger => nrel_main_idtf : [Captain America: The First Avenger](*<-lang_en;;*);;
+captain_america_the_first_avenger => nrel_main_idtf : [Первый мститель](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : iron_man_2;;
+iron_man_2 => nrel_main_idtf : [Iron Man 2](*<-lang_en;;*);;
+iron_man_2 => nrel_main_idtf : [Железный человек 2](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : inglourious_basterds;;
+inglourious_basterds => nrel_main_idtf : [Inglourious Basterds](*<-lang_en;;*);;
+inglourious_basterds => nrel_main_idtf : [Бесславные ублюдки](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : iron_man;;
+iron_man => nrel_main_idtf : [Iron Man](*<-lang_en;;*);;
+iron_man => nrel_main_idtf : [Железный человек](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : kill_bill_vol_2;;
+kill_bill_vol_2 => nrel_main_idtf : [Kill Bill: Vol. 2](*<-lang_en;;*);;
+kill_bill_vol_2 => nrel_main_idtf : [Убить Билла. Фильм 2](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : xxx;;
+xxx => nrel_main_idtf : [xXx](*<-lang_en;;*);;
+xxx => nrel_main_idtf : [Три икса](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : jackie_brown;;
+jackie_brown => nrel_main_idtf : [Jackie Brown](*<-lang_en;;*);;
+jackie_brown => nrel_main_idtf : [Джеки Браун](*<-lang_ru;;*);;
+samuel_l_jackson => nrel_to_star_in : pulp_fiction;;
+pulp_fiction => nrel_main_idtf : [Pulp Fiction](*<-lang_en;;*);;
+pulp_fiction => nrel_main_idtf : [Криминальное чтиво](*<-lang_ru;;*);;
+

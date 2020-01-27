@@ -1,0 +1,33 @@
+character_khary
+	=> nrel_main_idtf:
+	[Хари]
+	(* <- lang_ru;;	*);
+	[Khary]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: natalia_bondarchuk;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Хари)](* <- lang_ru;; *);
+		[Desctiption (Khary)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_khary">Кари</sc_element></b> — ведение жены, что видится <sc_element sys_idtf="character_kris_kalvin">Крису</sc_element>](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_khary">Khary</sc_element></b> — wife's guidance what <sc_element sys_idtf="character_kris_kalvin">Chris</sc_element> sees.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Хари)](*<-lang_ru;;*);
+		[Pic. (Khary)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Khary.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

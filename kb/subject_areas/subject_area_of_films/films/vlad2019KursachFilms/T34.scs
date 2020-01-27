@@ -1,0 +1,68 @@
+concept_film -> T34;;
+
+T34
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[T34]
+	(* <- lang_ru;;	*);
+	[T34]
+	(* <- lang_en;;	*);;
+	
+T34 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (T34)](*<-lang_ru;;*);
+		[Description (T34)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/T34_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/T34_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+T34 <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (T34)](*<-lang_ru;;*);
+		[Pic. (T34)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/T34.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+T34 => nrel_producing_country : Russia;;
+
+concept_calendar_date -> 01_01_2019;;
+01_01_2019 => nrel_main_idtf : [01.01.2019](*<-lang_ru;;*);;
+01_01_2019 => nrel_main_idtf : [01.01.2019](*<-lang_en;;*);;
+T34 => nrel_release_date : 01_01_2019;;
+
+T34 => nrel_tagline_of_film : slogan_T34;;
+slogan_T34 => nrel_main_idtf : [Стерпеть](*<-lang_ru;;*);;
+slogan_T34 => nrel_main_idtf : [Tolerate](*<-lang_en;;*);;
+
+T34 => nrel_duration_of_showing : 2_23;;
+
+value -> 40_000_000;;
+40_000_000 => nrel_main_idtf : [40 000 000$](*<-lang_ru;;*);;
+40_000_000 => nrel_main_idtf : [40 000 000$](*<-lang_en;;*);;
+T34 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 40_000_000;;   
+*);;
+
+T34 => nrel_film_critic_rating : 7;;
+
+T34 =>nrel_keywords: concept_courage;wow;tank;action;;
+T34 =>nrel_age_rating: concept_PG12;;
+
+T34 => nrel_main_actor : Dobranravov; Petrov;;
+T34 => nrel_producer : Sidorov;;
+T34 => nrel_screenwriter : Sidorov;;
+

@@ -1,0 +1,91 @@
+
+                  concept_series -> iZombie;;
+              
+                  iZombie
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [IZombie]
+                    (* <- lang_ru;;	*);
+                    [iZombie]
+                    (* <- lang_en;;	*);;
+                  
+                  iZombie <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (IZombie)](*<-lang_ru;;*);
+                      [Description (iZombie)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/iZombie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/iZombie_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  iZombie <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (IZombie)](*<-lang_ru;;*);
+                      [Pic. (iZombie)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/iZombie.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  iZombie => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  iZombie => nrel_production_year : 2015;;
+                  
+                  value -> 5;;
+                  iZombie => nrel_num_of_seasons: 5;;
+                  value -> 71;;
+                  iZombie => nrel_num_of_episodes: 71;;
+                  
+                  value -> 6;;
+                  iZombie => nrel_no_countries : 6;;
+                  
+                  value -> 11;;
+                  iZombie => nrel_viewers_in_millions: 11;;
+                  
+                  iZombie => nrel_age_rating: concept_PG12;;
+                  
+                    iZombie => nrel_actor : RoseMcIver;;
+                    
+                   
+                    iZombie => nrel_actor : MalcolmGoodwin;;
+                    
+                   
+                    iZombie => nrel_actor : RobertBuckley;;
+                    
+                   
+                    iZombie => nrel_actor : RahulKohli;;
+                    
+                   
+                    iZombie => nrel_actor : DavidAnders;;
+                    
+                   
+                    iZombie => nrel_actor : AlysonMichalka;;
+                    
+                   
+                    iZombie => nrel_actor : BryceHodgson;;
+                    
+                   
+                    iZombie => nrel_actor : RobertKnepper;;
+                    
+                   
+                    iZombie => nrel_actor : BryceHodgson;;
+                    
+                  
+                  
+                  iZombie
+                  =>nrel_keywords: concept_detectif;;
+                  

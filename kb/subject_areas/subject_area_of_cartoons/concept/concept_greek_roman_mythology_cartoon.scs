@@ -1,0 +1,21 @@
+concept_greek_roman_mythology_cartoon
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[мультфильм по сюжетам греко-римской мифологии‎](*<-lang_ru;;*);
+	[cartoon on the plots of Greek-Roman mythology](*<-lang_en;;*);
+=>nrel_idtf:
+	[аниме мультфильм](*<-lang_ru;;*);
+	[animation on the plots of Greek-Roman mythology](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (мультфильм по сюжетам греко-римской мифологии)](*<-lang_ru;;*);
+		[Pic. (concept_greek_roman_mythology_cartoon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_greek_roman_mythology_cartoon.png"(*=>nrel_format:format_png;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_cartoon;;	

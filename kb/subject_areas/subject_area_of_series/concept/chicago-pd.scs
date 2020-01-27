@@ -1,0 +1,103 @@
+
+                  concept_series -> Chicago_P.D.;;
+              
+                  Chicago_P.D.
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Chicago_P.D.]
+                    (* <- lang_ru;;	*);
+                    [Chicago_P.D.]
+                    (* <- lang_en;;	*);;
+                  
+                  Chicago_P.D. <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Chicago_P.D.)](*<-lang_ru;;*);
+                      [Description (Chicago_P.D.)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Chicago_P.D._ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Chicago_P.D._en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Chicago_P.D. <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Chicago_P.D.)](*<-lang_ru;;*);
+                      [Pic. (Chicago_P.D.)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Chicago_P.D..jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Chicago_P.D. => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Chicago_P.D. => nrel_production_year : 2014;;
+                  
+                  value -> 7;;
+                  Chicago_P.D. => nrel_num_of_seasons: 7;;
+                  value -> 138;;
+                  Chicago_P.D. => nrel_num_of_episodes: 138;;
+                  
+                  value -> 5;;
+                  Chicago_P.D. => nrel_no_countries : 5;;
+                  
+                  value -> 12;;
+                  Chicago_P.D. => nrel_viewers_in_millions: 12;;
+                  
+                  Chicago_P.D. => nrel_age_rating: concept_PG12;;
+                  
+                    Chicago_P.D. => nrel_actor : JasonBeghe;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : JesseLeeSoffer;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : PatrickJohnFlueger;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : MarinaSquerciati;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : LaRoyceHawkins;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : AmyMorton;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : JonSeda;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : EliasKoteas;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : SophiaBush;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : TracySpiridakos;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : BrianGeraghty;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : ArchieKao;;
+                    
+                   
+                    Chicago_P.D. => nrel_actor : LissethChavez;;
+                    
+                  
+                  
+                  Chicago_P.D.
+                  =>nrel_keywords: concept_detectif;;
+                  

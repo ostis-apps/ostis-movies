@@ -1,0 +1,67 @@
+film_bar_gadkiy_koyot_2000
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бар Гадкий койот]
+(* <- lang_ru;;    *);
+[Coyote Ugly]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бар Гадкий койот)](*<-lang_ru;;*);
+[Description (Coyote Ugly)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bar-gadkiy-koyot-2000_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bar-gadkiy-koyot-2000_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бар Гадкий койот)](*<-lang_ru;;*);
+		[Pic. (Coyote Ugly)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bar-gadkiy-koyot-2000.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [This party never ends. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [04.08.2000](*<-lang_ru;;*);;
+    => nrel_main_idtf : [04.08.2000](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H40M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H40M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_bar_gadkiy_koyot_2000 =>nrel_keywords: film;;
+
+film_bar_gadkiy_koyot_2000 <- concept_comedy;concept_drama;concept_music;concept_romance;;
+
+film_bar_gadkiy_koyot_2000 => nrel_main_actor : piper_perabo;adam_garcia;john_goodman;maria_bello;;
+film_bar_gadkiy_koyot_2000 => nrel_producer : david_mcnally;;

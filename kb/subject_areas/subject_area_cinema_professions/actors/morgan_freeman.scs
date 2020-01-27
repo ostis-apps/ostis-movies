@@ -1,0 +1,63 @@
+concept_human -> morgan_freeman;;
+ 
+ morgan_freeman <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Морган Фримен)](*<-lang_ru;;*);
+ 		[Description (Morgan Freeman)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/morgan_freeman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ morgan_freeman <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Морган Фримен)](*<-lang_ru;;*);
+ 		[Pic. (Morgan Freeman)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/morgan_freeman.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ morgan_freeman => nrel_main_idtf : [Морган Фримен](*<-lang_ru;;*);;
+ morgan_freeman => nrel_main_idtf : [Morgan Freeman](*<-lang_en;;*);;
+ 
+ 
+ morgan_freeman => nrel_birth_date : 1937;;
+ 
+ concept_goverment -> Usa;;
+ morgan_freeman => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ morgan_freeman => nrel_to_star_in : the_nutcracker_and_the_four_realms;;
+the_nutcracker_and_the_four_realms => nrel_main_idtf : [The Nutcracker and the Four Realms](*<-lang_en;;*);;
+the_nutcracker_and_the_four_realms => nrel_main_idtf : [Щелкунчик и Четыре Королевства](*<-lang_ru;;*);;
+morgan_freeman => nrel_to_star_in : the_dark_knight_rises;;
+the_dark_knight_rises => nrel_main_idtf : [The Dark Knight Rises](*<-lang_en;;*);;
+the_dark_knight_rises => nrel_main_idtf : [Темный рыцарь: Возрождение легенды](*<-lang_ru;;*);;
+morgan_freeman => nrel_to_star_in : the_dark_knight;;
+the_dark_knight => nrel_main_idtf : [The Dark Knight](*<-lang_en;;*);;
+the_dark_knight => nrel_main_idtf : [Темный рыцарь](*<-lang_ru;;*);;
+morgan_freeman => nrel_to_star_in : wanted;;
+wanted => nrel_main_idtf : [Wanted](*<-lang_en;;*);;
+wanted => nrel_main_idtf : [Особо опасен](*<-lang_ru;;*);;
+morgan_freeman => nrel_to_star_in : batman_begins;;
+batman_begins => nrel_main_idtf : [Batman Begins](*<-lang_en;;*);;
+batman_begins => nrel_main_idtf : [Бэтмен: Начало](*<-lang_ru;;*);;
+morgan_freeman => nrel_to_star_in : bruce_almighty;;
+bruce_almighty => nrel_main_idtf : [Bruce Almighty](*<-lang_en;;*);;
+bruce_almighty => nrel_main_idtf : [Брюс Всемогущий](*<-lang_ru;;*);;
+morgan_freeman => nrel_to_star_in : se7en;;
+se7en => nrel_main_idtf : [Se7en](*<-lang_en;;*);;
+se7en => nrel_main_idtf : [Семь](*<-lang_ru;;*);;
+

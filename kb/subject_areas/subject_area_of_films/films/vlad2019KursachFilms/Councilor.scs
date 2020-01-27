@@ -1,0 +1,74 @@
+concept_film -> state_councilor;;
+
+state_councilor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Статский советник]
+	(* <- lang_ru;;	*);
+	[State councilor]
+	(* <- lang_en;;	*);;
+	
+state_councilor <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Статский советник)](*<-lang_ru;;*);
+		[Description (State councilor)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Councilor_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Councilor_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+state_councilor <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Статский советник)](*<-lang_ru;;*);
+		[Pic. (State councilor)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Councilor.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+state_councilor => nrel_producing_country : Russia;;
+concept_country -> Russia;;
+Russia => nrel_main_idtf : [Россия](*<-lang_ru;;*);;
+Russia => nrel_main_idtf : [Russia](*<-lang_en;;*);;
+
+concept_calendar_date -> 12_02_2005;;
+12_02_2005 => nrel_main_idtf : [12.02.2005](*<-lang_ru;;*);;
+12_02_2005 => nrel_main_idtf : [12.02.2005](*<-lang_en;;*);;
+state_councilor => nrel_release_date : 12_02_2005;;
+
+state_councilor => nrel_tagline_of_film : slogan_Councilor;;
+slogan_Councilor => nrel_main_idtf : [Игры закончились](*<-lang_ru;;*);;
+slogan_Councilor => nrel_main_idtf : [Game over](*<-lang_en;;*);;
+
+value -> 2_07;;
+2_07 => nrel_main_idtf : [2 часа и 7 минут](*<-lang_ru;;*);;
+2_07 => nrel_main_idtf : [2 hour and 7 minutes](*<-lang_en;;*);;
+state_councilor => nrel_duration_of_showing : 2_07;;
+
+value -> 7_522_000;;
+7_522_000 => nrel_main_idtf : [7 522 000$](*<-lang_ru;;*);;
+7_522_000 => nrel_main_idtf : [7 522 000$](*<-lang_en;;*);;
+state_councilor <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 7_522_000;;   
+*);;
+
+state_councilor => nrel_film_critic_rating : 7;;
+
+state_councilor =>nrel_keywords: investigation; detective;russian;;
+state_councilor =>nrel_age_rating: concept_PG6;;
+
+state_councilor => nrel_main_actor : Menshikov;Mihalkov;Habenski;;
+state_councilor => nrel_producer : Yankovski;;
+state_councilor => nrel_screenwriter : Akunin;;
+

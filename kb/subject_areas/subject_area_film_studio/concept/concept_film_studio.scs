@@ -1,0 +1,39 @@
+concept_film_studio
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[киностудия](*<-lang_ru;;*);
+	[film studio](*<-lang_en;;*);
+=>nrel_idtf:
+	[кинокомпания](*<-lang_ru;;*);
+    [movie studio](*<-lang_en;;*);
+    [studio](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (киностудия)](*<-lang_ru;;*);
+		[Def. (film studio)](*<-lang_en;;*);;
+	<=nrel_using_constants:{
+		concept_company;
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_film_studio_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_film_studio_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия)](*<-lang_ru;;*);
+		[Pic. (film studio)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/640px-Name_of_Ramoji_Film_City_01.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+<=nrel_inclusion:concept_company;;

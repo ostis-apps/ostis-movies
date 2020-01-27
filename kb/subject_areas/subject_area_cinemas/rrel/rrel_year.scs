@@ -1,0 +1,5 @@
+rrel_year
+<-sc_node_role_relation;
+=>nrel_main_idtf:
+	[год'](*<-lang_ru;;*);
+	[year'](*<-lang_en;;*);;

@@ -1,0 +1,54 @@
+concept_human -> kyle_chandler;;
+ 
+ kyle_chandler <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кайл Чандлер)](*<-lang_ru;;*);
+ 		[Description (Kyle Chandler)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kyle_chandler_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kyle_chandler <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кайл Чандлер)](*<-lang_ru;;*);
+ 		[Pic. (Kyle Chandler)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kyle_chandler.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kyle_chandler => nrel_main_idtf : [Кайл Чандлер](*<-lang_ru;;*);;
+ kyle_chandler => nrel_main_idtf : [Kyle Chandler](*<-lang_en;;*);;
+ 
+ 
+ kyle_chandler => nrel_birth_date : 1965;;
+ 
+ concept_goverment -> Usa;;
+ kyle_chandler => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kyle_chandler => nrel_to_star_in : godzilla_king_of_the_monsters;;
+godzilla_king_of_the_monsters => nrel_main_idtf : [Godzilla: King of the Monsters](*<-lang_en;;*);;
+godzilla_king_of_the_monsters => nrel_main_idtf : [Годзилла 2: Король монстров](*<-lang_ru;;*);;
+kyle_chandler => nrel_to_star_in : first_man;;
+first_man => nrel_main_idtf : [First Man](*<-lang_en;;*);;
+first_man => nrel_main_idtf : [Человек на Луне](*<-lang_ru;;*);;
+kyle_chandler => nrel_to_star_in : game_night;;
+game_night => nrel_main_idtf : [Game Night](*<-lang_en;;*);;
+game_night => nrel_main_idtf : [Ночные игры](*<-lang_ru;;*);;
+kyle_chandler => nrel_to_star_in : the_wolf_of_wall_street;;
+the_wolf_of_wall_street => nrel_main_idtf : [The Wolf of Wall Street](*<-lang_en;;*);;
+the_wolf_of_wall_street => nrel_main_idtf : [Волк с Уолл-Стрит](*<-lang_ru;;*);;
+

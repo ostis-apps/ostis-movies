@@ -1,0 +1,45 @@
+concept_human -> kylie_jenner;;
+ 
+ kylie_jenner <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кайли Дженнер)](*<-lang_ru;;*);
+ 		[Description (Kylie Jenner)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kylie_jenner_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kylie_jenner <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кайли Дженнер)](*<-lang_ru;;*);
+ 		[Pic. (Kylie Jenner)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kylie_jenner.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kylie_jenner => nrel_main_idtf : [Кайли Дженнер](*<-lang_ru;;*);;
+ kylie_jenner => nrel_main_idtf : [Kylie Jenner](*<-lang_en;;*);;
+ 
+ 
+ kylie_jenner => nrel_birth_date : 1997;;
+ 
+ concept_goverment -> Usa;;
+ kylie_jenner => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kylie_jenner => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+

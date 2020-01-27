@@ -1,0 +1,71 @@
+concept_human -> Leonardo_Di_kaprio;;
+
+Leonardo_Di_kaprio <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Леонардо Ди Каприо)](*<-lang_ru;;*);
+		[Description (Leonardo Di Kaprio)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Leonardo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Leonardo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Leonardo_Di_kaprio <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Леонардо Ди Каприо)](*<-lang_ru;;*);
+		[Pic. (Leonardo Di Kaprio)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Leonardo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_palm -> palm;;
+palm => nrel_main_idtf: [Пальмовая Ветвь](*<-lang_ru;;*);;
+palm => nrel_main_idtf: [Palm](*<-lang_en;;*);;
+
+Leonardo_Di_kaprio => nrel_be_awarded: Golden_globe;Oscar;palm;; 
+Leonardo_Di_kaprio => nrel_main_idtf: [Леонардо Ди Каприо](*<-lang_ru;;*);;
+Leonardo_Di_kaprio => nrel_main_idtf: [Leonardo Di Kaprio](*<-lang_en;;*);;
+
+
+concept_calendar_date -> 01_06_1974;;
+Leonardo_Di_kaprio => nrel_date_of_birth : 01_06_1974;;
+01_06_1974 => nrel_main_idtf : [01.06.1974](*<-lang_en;;*);;
+01_06_1974 => nrel_main_idtf : [01.06.1974](*<-lang_ru;;*);;
+
+concept_city -> West_Hollywood;;
+Leonardo_Di_kaprio => nrel_place_of_birth : West_Hollywood;;
+West_Hollywood => nrel_main_idtf : [West Hollywood](*<-lang_en;;*);;
+West_Hollywood => nrel_main_idtf : [Западный Голливуд](*<-lang_ru;;*);;
+
+Leonardo_Di_kaprio => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 18_11_1982;;
+Leonardo_Di_kaprio => nrel_career_start_date : 18_11_1982;;
+18_11_1982 => nrel_main_idtf : [18.11.1982](*<-lang_en;;*);;
+18_11_1982 => nrel_main_idtf : [18.11.1982](*<-lang_ru;;*);;
+
+concept_film -> Wolf;Beach;Getsbi;Diamon;Begin;;
+Wolf => nrel_main_idtf : [Wolf from Wall-Street](*<-lang_en;;*);;
+Wolf => nrel_main_idtf : [Волк с Уолл-стрит](*<-lang_ru;;*);;
+Beach => nrel_main_idtf : [Beach](*<-lang_en;;*);;
+Beach => nrel_main_idtf : [Пляж](*<-lang_ru;;*);;
+Getsbi => nrel_main_idtf : [The Great Gatsby](*<-lang_en;;*);;
+Getsbi => nrel_main_idtf : [Великий Гэтсби](*<-lang_ru;;*);;
+Diamon => nrel_main_idtf : [Blood diamond](*<-lang_en;;*);;
+Diamon => nrel_main_idtf : [Кровавый алмаз](*<-lang_ru;;*);;
+Begin => nrel_main_idtf : [Begin](*<-lang_en;;*);;
+Begin => nrel_main_idtf : [Начало](*<-lang_ru;;*);;
+
+Leonardo_Di_kaprio => nrel_to_star_in : Wolf;Beach;Getsbi;Diamon;Begin;Otstup;;
+

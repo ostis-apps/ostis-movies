@@ -1,0 +1,67 @@
+film_beguschiy_po_lezviyu_1982
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бегущий по лезвию]
+(* <- lang_ru;;    *);
+[Blade Runner]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бегущий по лезвию)](*<-lang_ru;;*);
+[Description (Blade Runner)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/beguschiy-po-lezviyu-1982_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/beguschiy-po-lezviyu-1982_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бегущий по лезвию)](*<-lang_ru;;*);
+		[Pic. (Blade Runner)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/beguschiy-po-lezviyu-1982.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;hong_kong;uk;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The star of "RAIDERS OF THE LOST ARK" and the director of "ALIEN" take you on a spectacular journey to the savage world of the year 2019!! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [25.06.1982](*<-lang_ru;;*);;
+    => nrel_main_idtf : [25.06.1982](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H57M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H57M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_beguschiy_po_lezviyu_1982 =>nrel_keywords: film;;
+
+film_beguschiy_po_lezviyu_1982 <- concept_action;concept_sci_fi;concept_thriller;;
+
+film_beguschiy_po_lezviyu_1982 => nrel_main_actor : harrison_ford;rutger_hauer;sean_young;edward_james_olmos;;
+film_beguschiy_po_lezviyu_1982 => nrel_producer : ridley_scott;;

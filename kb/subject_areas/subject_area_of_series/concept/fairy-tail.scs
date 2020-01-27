@@ -1,0 +1,163 @@
+
+                  concept_series -> Fairy_Tail;;
+              
+                  Fairy_Tail
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Хвост феи]
+                    (* <- lang_ru;;	*);
+                    [Fairy_Tail]
+                    (* <- lang_en;;	*);;
+                  
+                  Fairy_Tail <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Хвост феи)](*<-lang_ru;;*);
+                      [Description (Fairy_Tail)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Fairy_Tail_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Fairy_Tail_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Fairy_Tail <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Хвост феи)](*<-lang_ru;;*);
+                      [Pic. (Fairy_Tail)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Fairy_Tail.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Fairy_Tail => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2009;;
+                  2009 => nrel_main_idtf : [2009 год](*<-lang_ru;;*);;
+                  2009 => nrel_main_idtf : [year of 2009](*<-lang_en;;*);;
+                  Fairy_Tail => nrel_production_year : 2009;;
+                  
+                  value -> 8;;
+                  Fairy_Tail => nrel_num_of_seasons: 8;;
+                  value -> 328;;
+                  Fairy_Tail => nrel_num_of_episodes: 328;;
+                  
+                  value -> 12;;
+                  Fairy_Tail => nrel_no_countries : 12;;
+                  
+                  value -> 10;;
+                  Fairy_Tail => nrel_viewers_in_millions: 10;;
+                  
+                  Fairy_Tail => nrel_age_rating: concept_PG12;;
+                  
+                    Fairy_Tail => nrel_actor : KawanabeMasaki;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : EriKitamura;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : NamekawaKyouko;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : FuyukaOura;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : TakahiroSakurai;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : YuichiNakamura;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : MasayaMatsukaze;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : KatsuiTaira;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : RinMizuhara;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : NaritaSayaka;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : FuyukaOura;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : EriKitamura;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : FuyukaOura;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : ToshiyukiMorikawa;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : SekiguchiEiji;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : EriKitamura;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : AyaHirano;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : TetsuyaKakihara;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : SatomiSato;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : AyaHirano;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : RieKugimiya;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : MomoAsakura;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : KousukeToriumi;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : SayakaOhara;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : TakayaKuroda;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : ShuuheiSakaguchi;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : YichiIguchi;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : HidekatsuShibata;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : HiroshiShirokuma;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : KanamiSatou;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : KenichiSuzumura;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : MasaharuSatou;;
+                    
+                   
+                    Fairy_Tail => nrel_actor : YuiHorie;;
+                    
+                  
+                  
+                  Fairy_Tail
+                  =>nrel_keywords: concept_detectif;;
+                  

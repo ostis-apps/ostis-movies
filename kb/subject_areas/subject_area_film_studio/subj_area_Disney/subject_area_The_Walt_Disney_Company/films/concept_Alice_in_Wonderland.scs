@@ -1,0 +1,281 @@
+concept_Alice_in_Wonderland
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Алиса в стране чудес]
+	(* <- lang_ru;;	*);
+	[Alice in Wonderland]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Алиса в стране чудес)](*<-lang_ru;;*);
+		[Description (Alice in Wonderland)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Alice_in_Wonderland_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Alice_in_Wonderland_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Hamilton_Laski;
+=>nrel_producer:  Walt_Disney;
+=>nrel_production_country: USA;
+=>nrel_production_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1951 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 75
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 52320000
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character: ...
+	(*
+  	->character_Alice;;
+	->character_Hatter;;
+	->character_Caterpillar;;
+ 	->character_Cheshire_Cat;;
+ 	->character_March_Hare;; 
+	->character_Queen_of_Hearts;;
+	*);
+=>nrel_age_rating: concept_PG0;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Алиса в стране чудес)](*<-lang_ru;;*);
+		[Pic. (Alice in Wonderland)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Alice_in_Wonderland.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Alice
+=> nrel_main_idtf: 
+[Алиса] (* <-lang_ru;; *); 
+[Alice] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- child; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Алиса)] (* <-lang_ru;; *); 
+[Description of character(Alice)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Alice_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Alice_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Алиса)](*<-lang_ru;;*); 
+[Pic. (Alice)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Alice.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Hatter
+=> nrel_main_idtf: 
+[Безумный Шляпник] (* <-lang_ru;; *); 
+[Hatter] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- hats_master; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Безумный Шляпник)] (* <-lang_ru;; *); 
+[Description of character(Hatter)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Hatter_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Hatter_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Безумный Шляпник)](*<-lang_ru;;*); 
+[Pic. (Hatter)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Hatter.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Caterpillar
+=> nrel_main_idtf: 
+[Гусеница] (* <-lang_ru;; *); 
+[Caterpillar] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- caterpillar; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Гусеница)] (* <-lang_ru;; *); 
+[Description of character(Caterpillar)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Caterpillar_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Caterpillar_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Гусеница)](*<-lang_ru;;*); 
+[Pic. (Caterpillar)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Caterpillar.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Cheshire_Cat
+=> nrel_main_idtf: 
+[Чеширский Кот] (* <-lang_ru;; *); 
+[Cheshire Cat] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- cat; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Чеширский Кот)] (* <-lang_ru;; *); 
+[Description of character(Cheshire Cat)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Cheshire_Cat_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Cheshire_Cat_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Чеширский Кот)](*<-lang_ru;;*); 
+[Pic. (Cheshire Cat)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Cheshire_Cat.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_March_Hare
+=> nrel_main_idtf: 
+[Мартовский заяц] (* <-lang_ru;; *); 
+[March Hare] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- rabbit; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Мартовский заяц)] (* <-lang_ru;; *); 
+[Description of character(March Hare)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_March_Hare_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_March_Hare_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Мартовский заяц)](*<-lang_ru;;*); 
+[Pic. (March Hare)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_March_Hare.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Queen_of_Hearts
+=> nrel_main_idtf: 
+[Червонная Королева] (* <-lang_ru;; *); 
+[Queen of Hearts] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- queen; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Червонная Королева)] (* <-lang_ru;; *); 
+[Description of character(Queen of Hearts)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Queen_of_Hearts_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Queen_of_Hearts_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Червонная Королева)](*<-lang_ru;;*); 
+[Pic. (Queen of Hearts)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Queen_of_Hearts.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Hamilton_Laski
+=> nrel_main_idtf: 
+            [Гамильтон Лаский] (* <-lang_ru;; *);
+		  [Hamilton Laski] (* <-lang_en;; *);;
+Walt_Disney
+=> nrel_main_idtf: 
+            [Уолт Дисней] (* <-lang_ru;; *);
+		  [Walt Disney] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+hats_master
+=> nrel_main_idtf: 
+            [мастер шляп] (* <-lang_ru;; *);
+		  [hats master] (* <-lang_en;; *);;
+queen
+=> nrel_main_idtf: 
+            [королева] (* <-lang_ru;; *);
+		  [queen] (* <-lang_en;; *);;
+rabbit
+=> nrel_main_idtf: 
+            [кролик] (* <-lang_ru;; *);
+		  [rabbit] (* <-lang_en;; *);;
+caterpillar
+=> nrel_main_idtf: 
+            [гусеница] (* <-lang_ru;; *);
+		  [caterpillar] (* <-lang_en;; *);;
+cat
+=> nrel_main_idtf: 
+            [кот] (* <-lang_ru;; *);
+		  [cat] (* <-lang_en;; *);;
+
+
+
+

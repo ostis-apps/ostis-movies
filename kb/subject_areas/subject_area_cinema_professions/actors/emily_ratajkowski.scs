@@ -1,0 +1,51 @@
+concept_human -> emily_ratajkowski;;
+ 
+ emily_ratajkowski <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эмили Ратаковски)](*<-lang_ru;;*);
+ 		[Description (Emily Ratajkowski)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/emily_ratajkowski_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ emily_ratajkowski <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эмили Ратаковски)](*<-lang_ru;;*);
+ 		[Pic. (Emily Ratajkowski)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/emily_ratajkowski.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ emily_ratajkowski => nrel_main_idtf : [Эмили Ратаковски](*<-lang_ru;;*);;
+ emily_ratajkowski => nrel_main_idtf : [Emily Ratajkowski](*<-lang_en;;*);;
+ 
+ 
+ emily_ratajkowski => nrel_birth_date : 1991;;
+ 
+ concept_goverment -> UK;;
+ emily_ratajkowski => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ emily_ratajkowski => nrel_to_star_in : lying_and_stealing;;
+lying_and_stealing => nrel_main_idtf : [Lying and Stealing](*<-lang_en;;*);;
+lying_and_stealing => nrel_main_idtf : [Искусство обмана](*<-lang_ru;;*);;
+emily_ratajkowski => nrel_to_star_in : in_darkness;;
+in_darkness => nrel_main_idtf : [In Darkness](*<-lang_en;;*);;
+in_darkness => nrel_main_idtf : [Невидимка](*<-lang_ru;;*);;
+emily_ratajkowski => nrel_to_star_in : gone_girl;;
+gone_girl => nrel_main_idtf : [Gone Girl](*<-lang_en;;*);;
+gone_girl => nrel_main_idtf : [Исчезнувшая](*<-lang_ru;;*);;
+

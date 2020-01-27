@@ -1,0 +1,54 @@
+concept_human -> robert_rodriguez;;
+ 
+ robert_rodriguez <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Роберт Родригес)](*<-lang_ru;;*);
+ 		[Description (Robert Rodriguez)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/robert_rodriguez_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ robert_rodriguez <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Роберт Родригес)](*<-lang_ru;;*);
+ 		[Pic. (Robert Rodriguez)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/robert_rodriguez.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ robert_rodriguez => nrel_main_idtf : [Роберт Родригес](*<-lang_ru;;*);;
+ robert_rodriguez => nrel_main_idtf : [Robert Rodriguez](*<-lang_en;;*);;
+ 
+ 
+ robert_rodriguez => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Usa;;
+ robert_rodriguez => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ robert_rodriguez => nrel_to_star_in : sin_city_a_dame_to_kill_for;;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Sin City: A Dame to Kill For](*<-lang_en;;*);;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Город грехов 2: Женщина, ради которой стоит убивать](*<-lang_ru;;*);;
+robert_rodriguez => nrel_to_star_in : machete;;
+machete => nrel_main_idtf : [Machete](*<-lang_en;;*);;
+machete => nrel_main_idtf : [Мачете](*<-lang_ru;;*);;
+robert_rodriguez => nrel_to_star_in : sin_city;;
+sin_city => nrel_main_idtf : [Sin City](*<-lang_en;;*);;
+sin_city => nrel_main_idtf : [Город грехов](*<-lang_ru;;*);;
+robert_rodriguez => nrel_to_star_in : four_rooms;;
+four_rooms => nrel_main_idtf : [Four Rooms](*<-lang_en;;*);;
+four_rooms => nrel_main_idtf : [Четыре комнаты](*<-lang_ru;;*);;
+

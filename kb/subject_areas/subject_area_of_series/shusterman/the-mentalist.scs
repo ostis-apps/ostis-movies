@@ -1,0 +1,91 @@
+
+                  concept_series -> The_Mentalist;;
+              
+                  The_Mentalist
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Менталист]
+                    (* <- lang_ru;;	*);
+                    [The_Mentalist]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Mentalist <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Менталист)](*<-lang_ru;;*);
+                      [Description (The_Mentalist)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Mentalist_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Mentalist_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Mentalist <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Менталист)](*<-lang_ru;;*);
+                      [Pic. (The_Mentalist)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Mentalist.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Mentalist => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2008;;
+                  2008 => nrel_main_idtf : [2008 год](*<-lang_ru;;*);;
+                  2008 => nrel_main_idtf : [year of 2008](*<-lang_en;;*);;
+                  The_Mentalist => nrel_production_year : 2008;;
+                  
+                  value -> 7;;
+                  The_Mentalist => nrel_num_of_seasons: 7;;
+                  value -> 151;;
+                  The_Mentalist => nrel_num_of_episodes: 151;;
+                  
+                  value -> 14;;
+                  The_Mentalist => nrel_no_countries : 14;;
+                  
+                  value -> 12;;
+                  The_Mentalist => nrel_viewers_in_millions: 12;;
+                  
+                  The_Mentalist => nrel_age_rating: concept_PG12;;
+                  
+                    The_Mentalist => nrel_actor : RobinTunney;;
+                    
+                   
+                    The_Mentalist => nrel_actor : TimKang;;
+                    
+                   
+                    The_Mentalist => nrel_actor : SimonBaker;;
+                    
+                   
+                    The_Mentalist => nrel_actor : OwainYeoman;;
+                    
+                   
+                    The_Mentalist => nrel_actor : AmandaRighetti;;
+                    
+                   
+                    The_Mentalist => nrel_actor : RockmondDunbar;;
+                    
+                   
+                    The_Mentalist => nrel_actor : JoeAdler;;
+                    
+                   
+                    The_Mentalist => nrel_actor : EmilySwallow;;
+                    
+                   
+                    The_Mentalist => nrel_actor : JosieLoren;;
+                    
+                  
+                  
+                  The_Mentalist
+                  =>nrel_keywords: concept_detectif;;
+                  

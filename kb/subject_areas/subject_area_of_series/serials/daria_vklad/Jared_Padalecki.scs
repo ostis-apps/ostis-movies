@@ -1,0 +1,51 @@
+concept_human -> Jared_Padalecki;;
+
+Jared_Padalecki
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джаред Падалеки]
+	(* <- lang_ru;;	*);
+	[Jared Padalecki]
+	(* <- lang_en;;	*);;
+	
+Jared_Padalecki <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джаред Падалеки)](*<-lang_ru;;*);
+		[Description (Jared Padalecki)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jared_Padalecki_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jared_Padalecki_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jared_Padalecki <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джаред Падалеки)](*<-lang_ru;;*);
+		[Pic. (Jared Padalecki)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Jared_Padalecki.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1982;;
+Jared_Padalecki=>nrel_date_of_birth: 1982;;
+1982=>nrel_main_idtf:[1982 год](*<-lang_ru;;*);;
+1982=>nrel_main_idtf:[year of 1982](*<-lang_en;;*);;
+
+concept_calendar_date->1999;;
+Jared_Padalecki=>nrel_career_start_date: 1999;;
+1999=>nrel_main_idtf:[1999 год](*<-lang_ru;;*);;
+1999=>nrel_main_idtf:[year of 1999](*<-lang_en;;*);;
+
+Jared_Padalecki =>nrel_cityzenship:Usa;;
+

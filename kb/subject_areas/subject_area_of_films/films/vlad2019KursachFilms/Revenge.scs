@@ -1,0 +1,74 @@
+concept_film -> Revenge;;
+
+Revenge
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Возмездие]
+	(* <- lang_ru;;	*);
+	[Revenge]
+	(* <- lang_en;;	*);;
+	
+Revenge <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Возмездие)](*<-lang_ru;;*);
+		[Description (Revenge)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Revenge_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Revenge_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Revenge <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Возмездие)](*<-lang_ru;;*);
+		[Pic. (Revenge)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Revenge.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Revenge => nrel_producing_country : Usa;Great_Britan;;
+Great_Britan => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+Great_Britan => nrel_main_idtf : [Great Britan](*<-lang_en;;*);;
+
+concept_calendar_date -> 21_11_2010;;
+21_11_2010 => nrel_main_idtf : [21.11.2010](*<-lang_ru;;*);;
+21_11_2010 => nrel_main_idtf : [21.11.2010](*<-lang_en;;*);;
+Revenge => nrel_release_date : 21_11_2010;;
+
+Revenge => nrel_tagline_of_film : slogan_Revenge;;
+slogan_Revenge => nrel_main_idtf : [Путь мести никогда не бывает прямым](*<-lang_ru;;*);;
+slogan_Revenge => nrel_main_idtf : [Revenge is never a straight line](*<-lang_en;;*);;
+
+Revenge => nrel_duration_of_showing : 1_52;;
+
+duration -> 1_52;;
+1_52 => nrel_main_idtf : [1 час и 52 минуты](*<-lang_ru;;*);;
+1_52 => nrel_main_idtf : [1 hour and 52 minutes](*<-lang_en;;*);;
+
+value -> 79_700_000;;
+79_700_000 => nrel_main_idtf : [79 700 000$](*<-lang_ru;;*);;
+79_700_000 => nrel_main_idtf : [79 700 000$](*<-lang_en;;*);;
+Revenge <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 79_700_000;;   
+*);;
+
+Revenge => nrel_film_critic_rating : 6;;
+
+Revenge =>nrel_keywords: thriller;concept_revenge;;
+Revenge =>nrel_age_rating: concept_PG16;;
+
+Revenge => nrel_main_actor : Gibson;;
+Revenge => nrel_producer : King;;
+Revenge => nrel_screenwriter : Monahan;;
+

@@ -1,0 +1,7 @@
+concept_subject_domain_cinema_professions
+<- sc_node_struct;
+=> nrel_main_idtf:
+        [Предметная область кинопрофессии]
+	(* <- lang_ru;; *);
+	[Subject domain of cinema professions]
+        (* <- lang_en;; *);;

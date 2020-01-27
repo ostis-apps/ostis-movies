@@ -1,0 +1,112 @@
+
+                  concept_series -> Hawaii_Five_0;;
+              
+                  Hawaii_Five_0
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Hawaii_Five_0]
+                    (* <- lang_ru;;	*);
+                    [Hawaii_Five_0]
+                    (* <- lang_en;;	*);;
+                  
+                  Hawaii_Five_0 <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Hawaii_Five_0)](*<-lang_ru;;*);
+                      [Description (Hawaii_Five_0)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Hawaii_Five_0_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Hawaii_Five_0_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Hawaii_Five_0 <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Hawaii_Five_0)](*<-lang_ru;;*);
+                      [Pic. (Hawaii_Five_0)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Hawaii_Five_0.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Hawaii_Five_0 => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2010;;
+                  2010 => nrel_main_idtf : [2010 год](*<-lang_ru;;*);;
+                  2010 => nrel_main_idtf : [year of 2010](*<-lang_en;;*);;
+                  Hawaii_Five_0 => nrel_production_year : 2010;;
+                  
+                  value -> 10;;
+                  Hawaii_Five_0 => nrel_num_of_seasons: 10;;
+                  value -> 229;;
+                  Hawaii_Five_0 => nrel_num_of_episodes: 229;;
+                  
+                  value -> 12;;
+                  Hawaii_Five_0 => nrel_no_countries : 12;;
+                  
+                  value -> 7;;
+                  Hawaii_Five_0 => nrel_viewers_in_millions: 7;;
+                  
+                  Hawaii_Five_0 => nrel_age_rating: concept_PG12;;
+                  
+                    Hawaii_Five_0 => nrel_actor : AlexOLoughlin;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : ScottCaan;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : DanielDaeKim;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : GracePark;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : ChiMcBride;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : TaylorWily;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : MasiOka;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : DennisChun;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : JorgeGarcia;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : IanAnthonyDale;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : MeaghanRath;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : BeulahKoale;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : MichelleBorth;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : KimeeBalmilero;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : LaurenGerman;;
+                    
+                   
+                    Hawaii_Five_0 => nrel_actor : KatrinaLaw;;
+                    
+                  
+                  
+                  Hawaii_Five_0
+                  =>nrel_keywords: concept_detectif;;
+                  

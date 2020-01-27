@@ -1,0 +1,94 @@
+
+                  concept_series -> Station_19;;
+              
+                  Station_19
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Station_19]
+                    (* <- lang_ru;;	*);
+                    [Station_19]
+                    (* <- lang_en;;	*);;
+                  
+                  Station_19 <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Station_19)](*<-lang_ru;;*);
+                      [Description (Station_19)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Station_19_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Station_19_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Station_19 <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Station_19)](*<-lang_ru;;*);
+                      [Pic. (Station_19)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Station_19.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Station_19 => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Station_19 => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  Station_19 => nrel_num_of_seasons: 3;;
+                  value -> 28;;
+                  Station_19 => nrel_num_of_episodes: 28;;
+                  
+                  value -> 12;;
+                  Station_19 => nrel_no_countries : 12;;
+                  
+                  value -> 8;;
+                  Station_19 => nrel_viewers_in_millions: 8;;
+                  
+                  Station_19 => nrel_age_rating: concept_PG12;;
+                  
+                    Station_19 => nrel_actor : BarrettDoss;;
+                    
+                   
+                    Station_19 => nrel_actor : JainaLeeOrtiz;;
+                    
+                   
+                    Station_19 => nrel_actor : AlbertoFrezza;;
+                    
+                   
+                    Station_19 => nrel_actor : OkierieteOnaodowan;;
+                    
+                   
+                    Station_19 => nrel_actor : DanielleSavre;;
+                    
+                   
+                    Station_19 => nrel_actor : MiguelSandoval;;
+                    
+                   
+                    Station_19 => nrel_actor : JasonGeorge;;
+                    
+                   
+                    Station_19 => nrel_actor : GreyDamon;;
+                    
+                   
+                    Station_19 => nrel_actor : JayHayden;;
+                    
+                   
+                    Station_19 => nrel_actor : BorisKodjoe;;
+                    
+                  
+                  
+                  Station_19
+                  =>nrel_keywords: concept_detectif;;
+                  

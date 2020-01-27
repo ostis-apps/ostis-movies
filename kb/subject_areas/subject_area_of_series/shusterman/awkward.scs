@@ -1,0 +1,91 @@
+
+                  concept_series -> Awkward.;;
+              
+                  Awkward.
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Неловко.]
+                    (* <- lang_ru;;	*);
+                    [Awkward.]
+                    (* <- lang_en;;	*);;
+                  
+                  Awkward. <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Неловко.)](*<-lang_ru;;*);
+                      [Description (Awkward.)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Awkward._ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Awkward._en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Awkward. <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Неловко.)](*<-lang_ru;;*);
+                      [Pic. (Awkward.)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Awkward..jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Awkward. => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  Awkward. => nrel_production_year : 2011;;
+                  
+                  value -> 5;;
+                  Awkward. => nrel_num_of_seasons: 5;;
+                  value -> 89;;
+                  Awkward. => nrel_num_of_episodes: 89;;
+                  
+                  value -> 4;;
+                  Awkward. => nrel_no_countries : 4;;
+                  
+                  value -> 4;;
+                  Awkward. => nrel_viewers_in_millions: 4;;
+                  
+                  Awkward. => nrel_age_rating: concept_PG12;;
+                  
+                    Awkward. => nrel_actor : AshleyRickards;;
+                    
+                   
+                    Awkward. => nrel_actor : BeauMirchoff;;
+                    
+                   
+                    Awkward. => nrel_actor : BrettDavern;;
+                    
+                   
+                    Awkward. => nrel_actor : JillianRoseReed;;
+                    
+                   
+                    Awkward. => nrel_actor : MollyTarlov;;
+                    
+                   
+                    Awkward. => nrel_actor : NikkiDeLoach;;
+                    
+                   
+                    Awkward. => nrel_actor : GreerGrammer;;
+                    
+                   
+                    Awkward. => nrel_actor : DesiLydic;;
+                    
+                   
+                    Awkward. => nrel_actor : JessicaLu;;
+                    
+                  
+                  
+                  Awkward.
+                  =>nrel_keywords: concept_detectif;;
+                  

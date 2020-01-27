@@ -1,0 +1,44 @@
+concept_cartoon_Ivan_Tsarevich_and_the_Grey_Wolf
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Иван Царевич и Серый Волк]
+	(* <- lang_ru;;	*);
+	[Ivan Tsarevich and the Grey Wolf]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Иван Царевич и Серый Волк)](*<-lang_ru;;*);
+		[Description (Ivan Tsarevich and the Grey Wolf)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ivan Tsarevich and the Grey Wolf_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ivan Tsarevich and the Grey Wolf_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Иван Царевич и Серый Волк)](*<-lang_ru;;*);
+		[Pic. (Ivan Tsarevich and the Grey Wolf)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Ivan Tsarevich and the Grey Wolf.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_superhero;
+=>nrel_keywords: concept_king;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_adventure;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

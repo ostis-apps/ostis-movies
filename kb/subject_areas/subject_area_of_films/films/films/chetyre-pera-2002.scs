@@ -1,0 +1,67 @@
+film_chetyre_pera_2002
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Четыре пера]
+(* <- lang_ru;;    *);
+[The Four Feathers]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Четыре пера)](*<-lang_ru;;*);
+[Description (The Four Feathers)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chetyre-pera-2002_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chetyre-pera-2002_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Четыре пера)](*<-lang_ru;;*);
+		[Pic. (The Four Feathers)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chetyre-pera-2002.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [What would you kill for? See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [20.09.2002](*<-lang_ru;;*);;
+    => nrel_main_idtf : [20.09.2002](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H12M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H12M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_chetyre_pera_2002 =>nrel_keywords: film;;
+
+film_chetyre_pera_2002 <- concept_adventure;concept_drama;concept_romance;concept_war;;
+
+film_chetyre_pera_2002 => nrel_main_actor : heath_ledger;wes_bentley;kate_hudson;mohamed_bouich;;
+film_chetyre_pera_2002 => nrel_producer : shekhar_kapur;;

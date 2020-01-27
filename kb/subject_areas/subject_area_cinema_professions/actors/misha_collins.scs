@@ -1,0 +1,45 @@
+concept_human -> misha_collins;;
+ 
+ misha_collins <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Миша Коллинз)](*<-lang_ru;;*);
+ 		[Description (Misha Collins)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/misha_collins_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ misha_collins <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Миша Коллинз)](*<-lang_ru;;*);
+ 		[Pic. (Misha Collins)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/misha_collins.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ misha_collins => nrel_main_idtf : [Миша Коллинз](*<-lang_ru;;*);;
+ misha_collins => nrel_main_idtf : [Misha Collins](*<-lang_en;;*);;
+ 
+ 
+ misha_collins => nrel_birth_date : 1974;;
+ 
+ concept_goverment -> Usa;;
+ misha_collins => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ misha_collins => nrel_to_star_in : girl_interrupted;;
+girl_interrupted => nrel_main_idtf : [Girl, Interrupted](*<-lang_en;;*);;
+girl_interrupted => nrel_main_idtf : [Прерванная жизнь](*<-lang_ru;;*);;
+

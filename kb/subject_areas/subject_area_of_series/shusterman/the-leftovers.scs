@@ -1,0 +1,121 @@
+
+                  concept_series -> The_Leftovers;;
+              
+                  The_Leftovers
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Пережитки]
+                    (* <- lang_ru;;	*);
+                    [The_Leftovers]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Leftovers <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Пережитки)](*<-lang_ru;;*);
+                      [Description (The_Leftovers)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Leftovers_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Leftovers_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Leftovers <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Пережитки)](*<-lang_ru;;*);
+                      [Pic. (The_Leftovers)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Leftovers.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Leftovers => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  The_Leftovers => nrel_production_year : 2014;;
+                  
+                  value -> 3;;
+                  The_Leftovers => nrel_num_of_seasons: 3;;
+                  value -> 28;;
+                  The_Leftovers => nrel_num_of_episodes: 28;;
+                  
+                  value -> 7;;
+                  The_Leftovers => nrel_no_countries : 7;;
+                  
+                  value -> 4;;
+                  The_Leftovers => nrel_viewers_in_millions: 4;;
+                  
+                  The_Leftovers => nrel_age_rating: concept_PG12;;
+                  
+                    The_Leftovers => nrel_actor : JustinTheroux;;
+                    
+                   
+                    The_Leftovers => nrel_actor : CarrieCoon;;
+                    
+                   
+                    The_Leftovers => nrel_actor : ChristopherEccleston;;
+                    
+                   
+                    The_Leftovers => nrel_actor : AmyBrenneman;;
+                    
+                   
+                    The_Leftovers => nrel_actor : MargaretQualley;;
+                    
+                   
+                    The_Leftovers => nrel_actor : AnnDowd;;
+                    
+                   
+                    The_Leftovers => nrel_actor : ChrisZylka;;
+                    
+                   
+                    The_Leftovers => nrel_actor : KevinCarroll;;
+                    
+                   
+                    The_Leftovers => nrel_actor : JanelMoloney;;
+                    
+                   
+                    The_Leftovers => nrel_actor : LivTyler;;
+                    
+                   
+                    The_Leftovers => nrel_actor : ScottGlenn;;
+                    
+                   
+                    The_Leftovers => nrel_actor : JovanAdepo;;
+                    
+                   
+                    The_Leftovers => nrel_actor : MichaelGaston;;
+                    
+                   
+                    The_Leftovers => nrel_actor : AmandaWarren;;
+                    
+                   
+                    The_Leftovers => nrel_actor : ReginaKing;;
+                    
+                   
+                    The_Leftovers => nrel_actor : AnnieQ;;
+                    
+                   
+                    The_Leftovers => nrel_actor : EmilyMeade;;
+                    
+                   
+                    The_Leftovers => nrel_actor : CharlieCarver;;
+                    
+                   
+                    The_Leftovers => nrel_actor : MaxCarver;;
+                    
+                  
+                  
+                  The_Leftovers
+                  =>nrel_keywords: concept_detectif;;
+                  

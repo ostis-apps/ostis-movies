@@ -1,0 +1,37 @@
+concept_mass_film
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[массовый фильм](*<-lang_ru;;*);
+	[mass film](*<-lang_en;;*);
+=>nrel_idtf:
+	[массовое кино](*<-lang_ru;;*);
+	[mass movie](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (массовый фильм)](*<-lang_ru;;*);
+		[Def. (mass film)](*<-lang_en;;*);;
+        <=nrel_using_constants:
+	{
+        concept_film;
+        concept_cinema
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_mass_film_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_mass_film_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (массовый фильм)](*<-lang_ru;;*);
+		[Pic. (mass film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_mass_film.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_film;;		

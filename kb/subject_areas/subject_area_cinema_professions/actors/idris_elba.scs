@@ -1,0 +1,63 @@
+concept_human -> idris_elba;;
+ 
+ idris_elba <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Идрис Эльба)](*<-lang_ru;;*);
+ 		[Description (Idris Elba)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/idris_elba_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ idris_elba <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Идрис Эльба)](*<-lang_ru;;*);
+ 		[Pic. (Idris Elba)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/idris_elba.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ idris_elba => nrel_main_idtf : [Идрис Эльба](*<-lang_ru;;*);;
+ idris_elba => nrel_main_idtf : [Idris Elba](*<-lang_en;;*);;
+ 
+ 
+ idris_elba => nrel_birth_date : 1972;;
+ 
+ concept_goverment -> UK;;
+ idris_elba => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ idris_elba => nrel_to_star_in : fast__furious_presents_hobbs__shaw;;
+fast__furious_presents_hobbs__shaw => nrel_main_idtf : [Fast & Furious Presents: Hobbs & Shaw](*<-lang_en;;*);;
+fast__furious_presents_hobbs__shaw => nrel_main_idtf : [Форсаж: Хоббс и Шоу](*<-lang_ru;;*);;
+idris_elba => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+idris_elba => nrel_to_star_in : thor_ragnarok;;
+thor_ragnarok => nrel_main_idtf : [Thor: Ragnarok](*<-lang_en;;*);;
+thor_ragnarok => nrel_main_idtf : [Тор: Рагнарёк](*<-lang_ru;;*);;
+idris_elba => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+idris_elba => nrel_to_star_in : thor_the_dark_world;;
+thor_the_dark_world => nrel_main_idtf : [Thor: The Dark World](*<-lang_en;;*);;
+thor_the_dark_world => nrel_main_idtf : [Тор 2: Царство тьмы](*<-lang_ru;;*);;
+idris_elba => nrel_to_star_in : thor;;
+thor => nrel_main_idtf : [Thor](*<-lang_en;;*);;
+thor => nrel_main_idtf : [Тор](*<-lang_ru;;*);;
+idris_elba => nrel_to_star_in : rocknrolla;;
+rocknrolla => nrel_main_idtf : [RocknRolla](*<-lang_en;;*);;
+rocknrolla => nrel_main_idtf : [Рок-н-рольщик](*<-lang_ru;;*);;
+

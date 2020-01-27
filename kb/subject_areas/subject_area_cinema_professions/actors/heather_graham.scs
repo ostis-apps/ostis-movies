@@ -1,0 +1,45 @@
+concept_human -> heather_graham;;
+ 
+ heather_graham <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Хизер Грэм)](*<-lang_ru;;*);
+ 		[Description (Heather Graham)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/heather_graham_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ heather_graham <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Хизер Грэм)](*<-lang_ru;;*);
+ 		[Pic. (Heather Graham)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/heather_graham.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ heather_graham => nrel_main_idtf : [Хизер Грэм](*<-lang_ru;;*);;
+ heather_graham => nrel_main_idtf : [Heather Graham](*<-lang_en;;*);;
+ 
+ 
+ heather_graham => nrel_birth_date : 1970;;
+ 
+ concept_goverment -> Usa;;
+ heather_graham => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ heather_graham => nrel_to_star_in : the_hangover;;
+the_hangover => nrel_main_idtf : [The Hangover](*<-lang_en;;*);;
+the_hangover => nrel_main_idtf : [Мальчишник в Вегасе](*<-lang_ru;;*);;
+

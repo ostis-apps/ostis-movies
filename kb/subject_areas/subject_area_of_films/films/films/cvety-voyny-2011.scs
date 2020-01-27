@@ -1,0 +1,67 @@
+film_cvety_voyny_2011
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Цветы войны]
+(* <- lang_ru;;    *);
+[Jin líng shí san chai / The Flowers of War]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Цветы войны)](*<-lang_ru;;*);
+[Description (Jin líng shí san chai / The Flowers of War)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/cvety-voyny-2011_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/cvety-voyny-2011_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Цветы войны)](*<-lang_ru;;*);
+		[Pic. (Jin líng shí san chai / The Flowers of War)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/cvety-voyny-2011.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : china;hong_kong;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Jin líng shí san chai / The Flowers of War](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [16.12.2011](*<-lang_ru;;*);;
+    => nrel_main_idtf : [16.12.2011](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H26M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H26M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_cvety_voyny_2011 =>nrel_keywords: film;;
+
+film_cvety_voyny_2011 <- concept_drama;concept_history;concept_romance;concept_war;;
+
+film_cvety_voyny_2011 => nrel_main_actor : christian_bale;ni_ni;xinyi_zhang;tianyuan_huang;;
+film_cvety_voyny_2011 => nrel_producer : yimou_zhang;;

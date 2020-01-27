@@ -1,0 +1,94 @@
+
+                  concept_series -> Keeping_Up_with_the_Kardashians;;
+              
+                  Keeping_Up_with_the_Kardashians
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Keeping_Up_with_the_Kardashians]
+                    (* <- lang_ru;;	*);
+                    [Keeping_Up_with_the_Kardashians]
+                    (* <- lang_en;;	*);;
+                  
+                  Keeping_Up_with_the_Kardashians <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Keeping_Up_with_the_Kardashians)](*<-lang_ru;;*);
+                      [Description (Keeping_Up_with_the_Kardashians)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Keeping_Up_with_the_Kardashians_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Keeping_Up_with_the_Kardashians_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Keeping_Up_with_the_Kardashians <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Keeping_Up_with_the_Kardashians)](*<-lang_ru;;*);
+                      [Pic. (Keeping_Up_with_the_Kardashians)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Keeping_Up_with_the_Kardashians.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Keeping_Up_with_the_Kardashians => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2007;;
+                  2007 => nrel_main_idtf : [2007 год](*<-lang_ru;;*);;
+                  2007 => nrel_main_idtf : [year of 2007](*<-lang_en;;*);;
+                  Keeping_Up_with_the_Kardashians => nrel_production_year : 2007;;
+                  
+                  value -> 17;;
+                  Keeping_Up_with_the_Kardashians => nrel_num_of_seasons: 17;;
+                  value -> 244;;
+                  Keeping_Up_with_the_Kardashians => nrel_num_of_episodes: 244;;
+                  
+                  value -> 11;;
+                  Keeping_Up_with_the_Kardashians => nrel_no_countries : 11;;
+                  
+                  value -> 8;;
+                  Keeping_Up_with_the_Kardashians => nrel_viewers_in_millions: 8;;
+                  
+                  Keeping_Up_with_the_Kardashians => nrel_age_rating: concept_PG12;;
+                  
+                    Keeping_Up_with_the_Kardashians => nrel_actor : KhloKardashian;;
+                    
+                   
+                    Keeping_Up_with_the_Kardashians => nrel_actor : KimKardashianWest;;
+                    
+                   
+                    Keeping_Up_with_the_Kardashians => nrel_actor : KrisJenner;;
+                    
+                   
+                    Keeping_Up_with_the_Kardashians => nrel_actor : KourtneyKardashian;;
+                    
+                   
+                    Keeping_Up_with_the_Kardashians => nrel_actor : KylieJenner;;
+                    
+                   
+                    Keeping_Up_with_the_Kardashians => nrel_actor : KendallJenner;;
+                    
+                   
+                    Keeping_Up_with_the_Kardashians => nrel_actor : CaitlynJenner;;
+                    
+                   
+                    Keeping_Up_with_the_Kardashians => nrel_actor : ScottDisick;;
+                    
+                   
+                    Keeping_Up_with_the_Kardashians => nrel_actor : RobKardashian;;
+                    
+                   
+                    Keeping_Up_with_the_Kardashians => nrel_actor : LamarOdom;;
+                    
+                  
+                  
+                  Keeping_Up_with_the_Kardashians
+                  =>nrel_keywords: concept_detectif;;
+                  

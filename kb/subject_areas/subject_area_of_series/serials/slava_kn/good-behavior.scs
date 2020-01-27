@@ -1,0 +1,82 @@
+
+                  concept_series -> Good_Behavior;;
+              
+                  Good_Behavior
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Хорошее поведение]
+                    (* <- lang_ru;;	*);
+                    [Good_Behavior]
+                    (* <- lang_en;;	*);;
+                  
+                  Good_Behavior <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Хорошее поведение)](*<-lang_ru;;*);
+                      [Description (Good_Behavior)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Good_Behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Good_Behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Good_Behavior <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Хорошее поведение)](*<-lang_ru;;*);
+                      [Pic. (Good_Behavior)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Good_Behavior.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Good_Behavior => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Good_Behavior => nrel_production_year : 2016;;
+                  
+                  value -> 2;;
+                  Good_Behavior => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  Good_Behavior => nrel_num_of_episodes: 20;;
+                  
+                  value -> 4;;
+                  Good_Behavior => nrel_no_countries : 4;;
+                  
+                  value -> 11;;
+                  Good_Behavior => nrel_viewers_in_millions: 11;;
+                  
+                  Good_Behavior => nrel_age_rating: concept_PG12;;
+                  
+                    Good_Behavior => nrel_actor : MichelleDockery;;
+                    
+                   
+                    Good_Behavior => nrel_actor : JuanDiegoBotto;;
+                    
+                   
+                    Good_Behavior => nrel_actor : LusiaStrus;;
+                    
+                   
+                    Good_Behavior => nrel_actor : TerryKinney;;
+                    
+                   
+                    Good_Behavior => nrel_actor : NylesJulianSteele;;
+                    
+                   
+                    Good_Behavior => nrel_actor : JoeyKern;;
+                    
+                  
+                  
+                  Good_Behavior
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,67 @@
+film_apgreyd_2018
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Апгрейд]
+(* <- lang_ru;;    *);
+[Upgrade]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Апгрейд)](*<-lang_ru;;*);
+[Description (Upgrade)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/apgreyd-2018_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/apgreyd-2018_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Апгрейд)](*<-lang_ru;;*);
+		[Pic. (Upgrade)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/apgreyd-2018.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : australia;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Not Man. Not Machine. More.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [01.06.2018](*<-lang_ru;;*);;
+    => nrel_main_idtf : [01.06.2018](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H40M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H40M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_apgreyd_2018 =>nrel_keywords: film;;
+
+film_apgreyd_2018 <- concept_action;concept_horror;concept_sci_fi;concept_thriller;;
+
+film_apgreyd_2018 => nrel_main_actor : logan_marshall_green;melanie_vallejo;steve_danielsen;abby_craden;;
+film_apgreyd_2018 => nrel_producer : leigh_whannell;;

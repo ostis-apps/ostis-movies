@@ -1,0 +1,30 @@
+concept_film_Bel_Canto
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бельканто]
+	(* <- lang_ru;;	*);
+	[Bel Canto]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бельканто)](*<-lang_ru;;*);
+		[Description (Bel Canto)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Бельканто.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Bel_Canto.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_singer;
+=>nrel_keywords: concept_terrorism;	
+=>nrel_age_rating: concept_PG16;;	

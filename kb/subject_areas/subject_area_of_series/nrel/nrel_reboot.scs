@@ -1,0 +1,42 @@
+nrel_reboot <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- reflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [reboot*](*<- lang_en;;*);
+    [ребут*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (ребут*)](*<- lang_ru;;*);
+        [Def. (reboot*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_reboot_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_reboot_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_series;
+       nrel_storyline
+    };;
+*);
+
+=> nrel_first_domain: concept_series;
+=> nrel_second_domain: concept_series;
+=> nrel_definitional_domain: concept_series;
+
+<- rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (ребут*)](*<-lang_ru;;*);
+		    [Pic. (reboot*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		    ->"file://IMG/reboot.jpg"(*=>nrel_format:format_jpg;;*);;
+            ->"file://IMG/reboot1.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

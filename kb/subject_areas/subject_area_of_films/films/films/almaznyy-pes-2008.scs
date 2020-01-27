@@ -1,0 +1,67 @@
+film_almaznyy_pes_2008
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Алмазный пес]
+(* <- lang_ru;;    *);
+[Dog Gone]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Алмазный пес)](*<-lang_ru;;*);
+[Description (Dog Gone)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/almaznyy-pes-2008_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/almaznyy-pes-2008_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Алмазный пес)](*<-lang_ru;;*);
+		[Pic. (Dog Gone)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/almaznyy-pes-2008.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Dog Gone](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [28.02.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [28.02.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H48M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H48M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_almaznyy_pes_2008 =>nrel_keywords: film;;
+
+film_almaznyy_pes_2008 <- concept_comedy;concept_family;concept_fantasy;;
+
+film_almaznyy_pes_2008 => nrel_main_actor : luke_benward;french_stewart;kelly_perine;kevin_p._farley;;
+film_almaznyy_pes_2008 => nrel_producer : mark_stouffer;;

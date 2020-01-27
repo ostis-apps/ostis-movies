@@ -1,0 +1,42 @@
+concept_cartoon_Rolly_and_the_Elf_Incredible_Adventures.scs
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ролли и Эльф: Невероятные приключения]
+	(* <- lang_ru;;	*);
+	[Rolly and the Elf: Incredible Adventures]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ролли и Эльф: Невероятные приключения)](*<-lang_ru;;*);
+		[Description (Rolly and the Elf: Incredible Adventures)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Rolly and the Elf Incredible Adventures_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Rolly and the Elf Incredible Adventures_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ролли и Эльф: Невероятные приключения)](*<-lang_ru;;*);
+		[Pic. (Rolly and the Elf: Incredible Adventures)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Rolly and the Elf Incredible Adventures.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

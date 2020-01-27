@@ -1,0 +1,81 @@
+concept_human -> jim_carrey;;
+ 
+ jim_carrey <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джим Керри)](*<-lang_ru;;*);
+ 		[Description (Jim Carrey)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jim_carrey_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jim_carrey <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джим Керри)](*<-lang_ru;;*);
+ 		[Pic. (Jim Carrey)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jim_carrey.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jim_carrey => nrel_main_idtf : [Джим Керри](*<-lang_ru;;*);;
+ jim_carrey => nrel_main_idtf : [Jim Carrey](*<-lang_en;;*);;
+ 
+ 
+ jim_carrey => nrel_birth_date : 1962;;
+ 
+ concept_goverment -> Canada;;
+ jim_carrey => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ jim_carrey => nrel_to_star_in : kidding;;
+kidding => nrel_main_idtf : [Kidding](*<-lang_en;;*);;
+kidding => nrel_main_idtf : [Шучу](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : eternal_sunshine_of_the_spotless_mind;;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Eternal Sunshine of the Spotless Mind](*<-lang_en;;*);;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Вечное сияние чистого разума](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : bruce_almighty;;
+bruce_almighty => nrel_main_idtf : [Bruce Almighty](*<-lang_en;;*);;
+bruce_almighty => nrel_main_idtf : [Брюс Всемогущий](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : me_myself__irene;;
+me_myself__irene => nrel_main_idtf : [Me, Myself & Irene](*<-lang_en;;*);;
+me_myself__irene => nrel_main_idtf : [Я, снова Я и Ирэн](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : man_on_the_moon;;
+man_on_the_moon => nrel_main_idtf : [Man on the Moon](*<-lang_en;;*);;
+man_on_the_moon => nrel_main_idtf : [Человек на луне](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : the_truman_show;;
+the_truman_show => nrel_main_idtf : [The Truman Show](*<-lang_en;;*);;
+the_truman_show => nrel_main_idtf : [Шоу Трумана](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : liar_liar;;
+liar_liar => nrel_main_idtf : [Liar Liar](*<-lang_en;;*);;
+liar_liar => nrel_main_idtf : [Лжец, лжец](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : the_cable_guy;;
+the_cable_guy => nrel_main_idtf : [The Cable Guy](*<-lang_en;;*);;
+the_cable_guy => nrel_main_idtf : [Кабельщик](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : batman_forever;;
+batman_forever => nrel_main_idtf : [Batman Forever](*<-lang_en;;*);;
+batman_forever => nrel_main_idtf : [Бэтмен навсегда](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : ace_ventura_when_nature_calls;;
+ace_ventura_when_nature_calls => nrel_main_idtf : [Ace Ventura: When Nature Calls](*<-lang_en;;*);;
+ace_ventura_when_nature_calls => nrel_main_idtf : [Эйс Вентура 2: Когда зовет природа](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : ace_ventura_pet_detective;;
+ace_ventura_pet_detective => nrel_main_idtf : [Ace Ventura: Pet Detective](*<-lang_en;;*);;
+ace_ventura_pet_detective => nrel_main_idtf : [Эйс Вентура: Розыск домашних животных](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : the_mask;;
+the_mask => nrel_main_idtf : [The Mask](*<-lang_en;;*);;
+the_mask => nrel_main_idtf : [Маска](*<-lang_ru;;*);;
+jim_carrey => nrel_to_star_in : dumb__dumber;;
+dumb__dumber => nrel_main_idtf : [Dumb & Dumber](*<-lang_en;;*);;
+dumb__dumber => nrel_main_idtf : [Тупой и еще тупее](*<-lang_ru;;*);;
+

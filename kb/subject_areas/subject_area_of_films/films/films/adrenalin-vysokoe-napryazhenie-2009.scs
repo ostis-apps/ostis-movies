@@ -1,0 +1,67 @@
+film_adrenalin_vysokoe_napryazhenie_2009
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Адреналин: Высокое напряжение]
+(* <- lang_ru;;    *);
+[Crank: High Voltage]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Адреналин: Высокое напряжение)](*<-lang_ru;;*);
+[Description (Crank: High Voltage)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/adrenalin-vysokoe-napryazhenie-2009_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/adrenalin-vysokoe-napryazhenie-2009_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Адреналин: Высокое напряжение)](*<-lang_ru;;*);
+		[Pic. (Crank: High Voltage)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/adrenalin-vysokoe-napryazhenie-2009.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Stay Charged, Stay Alive! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [16.04.2009](*<-lang_ru;;*);;
+    => nrel_main_idtf : [16.04.2009](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H36M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H36M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_adrenalin_vysokoe_napryazhenie_2009 =>nrel_keywords: film;;
+
+film_adrenalin_vysokoe_napryazhenie_2009 <- concept_action;concept_crime;concept_thriller;;
+
+film_adrenalin_vysokoe_napryazhenie_2009 => nrel_main_actor : jason_statham;amy_smart;clifton_collins_jr.;dwight_yoakam;;
+film_adrenalin_vysokoe_napryazhenie_2009 => nrel_producer : mark_neveldine;brian_taylor;;

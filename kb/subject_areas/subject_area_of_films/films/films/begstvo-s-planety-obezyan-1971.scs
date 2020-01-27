@@ -1,0 +1,67 @@
+film_begstvo_s_planety_obezyan_1971
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бегство с планеты обезьян]
+(* <- lang_ru;;    *);
+[Escape from the Planet of the Apes]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бегство с планеты обезьян)](*<-lang_ru;;*);
+[Description (Escape from the Planet of the Apes)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/begstvo-s-planety-obezyan-1971_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/begstvo-s-planety-obezyan-1971_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бегство с планеты обезьян)](*<-lang_ru;;*);
+		[Pic. (Escape from the Planet of the Apes)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/begstvo-s-planety-obezyan-1971.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The most powerful family of the 20th Century...It's Baby Milo Who Has Washington Terrified! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [09.07.1971](*<-lang_ru;;*);;
+    => nrel_main_idtf : [09.07.1971](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H38M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H38M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_G;;
+
+film_begstvo_s_planety_obezyan_1971 =>nrel_keywords: film;;
+
+film_begstvo_s_planety_obezyan_1971 <- concept_action;concept_sci_fi;;
+
+film_begstvo_s_planety_obezyan_1971 => nrel_main_actor : roddy_mcdowall;kim_hunter;bradford_dillman;natalie_trundy;;
+film_begstvo_s_planety_obezyan_1971 => nrel_producer : don_taylor;;

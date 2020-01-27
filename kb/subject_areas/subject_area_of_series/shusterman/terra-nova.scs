@@ -1,0 +1,91 @@
+
+                  concept_series -> Terra_Nova;;
+              
+                  Terra_Nova
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Terra_Nova]
+                    (* <- lang_ru;;	*);
+                    [Terra_Nova]
+                    (* <- lang_en;;	*);;
+                  
+                  Terra_Nova <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Terra_Nova)](*<-lang_ru;;*);
+                      [Description (Terra_Nova)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Terra_Nova_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Terra_Nova_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Terra_Nova <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Terra_Nova)](*<-lang_ru;;*);
+                      [Pic. (Terra_Nova)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Terra_Nova.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Terra_Nova => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  Terra_Nova => nrel_production_year : 2011;;
+                  
+                  value -> 1;;
+                  Terra_Nova => nrel_num_of_seasons: 1;;
+                  value -> 13;;
+                  Terra_Nova => nrel_num_of_episodes: 13;;
+                  
+                  value -> 3;;
+                  Terra_Nova => nrel_no_countries : 3;;
+                  
+                  value -> 9;;
+                  Terra_Nova => nrel_viewers_in_millions: 9;;
+                  
+                  Terra_Nova => nrel_age_rating: concept_PG12;;
+                  
+                    Terra_Nova => nrel_actor : AllisonMiller;;
+                    
+                   
+                    Terra_Nova => nrel_actor : ShelleyConn;;
+                    
+                   
+                    Terra_Nova => nrel_actor : JasonOMara;;
+                    
+                   
+                    Terra_Nova => nrel_actor : StephenLang;;
+                    
+                   
+                    Terra_Nova => nrel_actor : NaomiScott;;
+                    
+                   
+                    Terra_Nova => nrel_actor : AlanaMansour;;
+                    
+                   
+                    Terra_Nova => nrel_actor : LandonLiboiron;;
+                    
+                   
+                    Terra_Nova => nrel_actor : ChristineAdams;;
+                    
+                   
+                    Terra_Nova => nrel_actor : RodHallett;;
+                    
+                  
+                  
+                  Terra_Nova
+                  =>nrel_keywords: concept_detectif;;
+                  

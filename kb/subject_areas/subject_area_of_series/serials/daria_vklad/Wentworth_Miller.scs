@@ -1,0 +1,51 @@
+concept_human ->Wentworth_Miller;;
+
+Wentworth_Miller
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Уэнтуорт Миллер]
+	(* <- lang_ru;;	*);
+	[Wentworth Miller]
+	(* <- lang_en;;	*);;
+	
+Wentworth_Miller <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Уэнтуорт Миллер)](*<-lang_ru;;*);
+		[Description (Wentworth Miller)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Wentworth_Miller_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Wentworth_Miller_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Wentworth_Miller <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Уэнтуорт Миллер)](*<-lang_ru;;*);
+		[Pic. (Wentworth Miller)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Wentworth_Miller.JPG"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1972;;
+Wentworth_Miller=>nrel_date_of_birth: 1972;;
+1972=>nrel_main_idtf:[1972 год](*<-lang_ru;;*);;
+1972=>nrel_main_idtf:[year of 1972](*<-lang_en;;*);;
+
+concept_calendar_date->1998;;
+Wentworth_Miller=>nrel_career_start_date: 1998;;
+1998=>nrel_main_idtf:[1998 год](*<-lang_ru;;*);;
+1998=>nrel_main_idtf:[year of 1998](*<-lang_en;;*);;
+
+Wentworth_Miller =>nrel_cityzenship:Usa;;
+

@@ -1,0 +1,6 @@
+sc_text_of_agent_of_finding_film_by_rating
+-> rrel_key_sc_element:
+	agent_of_finding_film_by_rating;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_of_finding_film_by_rating = [*^"file://agent_of_finding_film_by_rating.scsi"*];;

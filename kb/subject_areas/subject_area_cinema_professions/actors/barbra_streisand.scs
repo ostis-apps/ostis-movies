@@ -1,0 +1,45 @@
+concept_human -> barbra_streisand;;
+ 
+ barbra_streisand <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Барбара Стрейзанд)](*<-lang_ru;;*);
+ 		[Description (Barbra Streisand)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/barbra_streisand_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ barbra_streisand <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Барбара Стрейзанд)](*<-lang_ru;;*);
+ 		[Pic. (Barbra Streisand)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/barbra_streisand.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ barbra_streisand => nrel_main_idtf : [Барбара Стрейзанд](*<-lang_ru;;*);;
+ barbra_streisand => nrel_main_idtf : [Barbra Streisand](*<-lang_en;;*);;
+ 
+ 
+ barbra_streisand => nrel_birth_date : 1942;;
+ 
+ concept_goverment -> Usa;;
+ barbra_streisand => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ barbra_streisand => nrel_to_star_in : little_fockers;;
+little_fockers => nrel_main_idtf : [Little Fockers](*<-lang_en;;*);;
+little_fockers => nrel_main_idtf : [Знакомство с факерами 2](*<-lang_ru;;*);;
+

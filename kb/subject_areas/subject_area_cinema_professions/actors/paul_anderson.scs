@@ -1,0 +1,51 @@
+concept_human -> paul_anderson;;
+ 
+ paul_anderson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Пол Андерсон)](*<-lang_ru;;*);
+ 		[Description (Paul Anderson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/paul_anderson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ paul_anderson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Пол Андерсон)](*<-lang_ru;;*);
+ 		[Pic. (Paul Anderson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/paul_anderson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ paul_anderson => nrel_main_idtf : [Пол Андерсон](*<-lang_ru;;*);;
+ paul_anderson => nrel_main_idtf : [Paul Anderson](*<-lang_en;;*);;
+ 
+ 
+ paul_anderson => nrel_birth_date : 1978;;
+ 
+ concept_goverment -> UK;;
+ paul_anderson => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ paul_anderson => nrel_to_star_in : robin_hood;;
+robin_hood => nrel_main_idtf : [Robin Hood](*<-lang_en;;*);;
+robin_hood => nrel_main_idtf : [Робин Гуд: Начало](*<-lang_ru;;*);;
+paul_anderson => nrel_to_star_in : the_revenant;;
+the_revenant => nrel_main_idtf : [The Revenant](*<-lang_en;;*);;
+the_revenant => nrel_main_idtf : [Выживший](*<-lang_ru;;*);;
+paul_anderson => nrel_to_star_in : legend;;
+legend => nrel_main_idtf : [Legend](*<-lang_en;;*);;
+legend => nrel_main_idtf : [Легенда](*<-lang_ru;;*);;
+

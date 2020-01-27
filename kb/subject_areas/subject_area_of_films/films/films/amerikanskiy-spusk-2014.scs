@@ -1,0 +1,67 @@
+film_amerikanskiy_spusk_2014
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американский спуск]
+(* <- lang_ru;;    *);
+[American Descent]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американский спуск)](*<-lang_ru;;*);
+[Description (American Descent)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskiy-spusk-2014_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskiy-spusk-2014_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американский спуск)](*<-lang_ru;;*);
+		[Pic. (American Descent)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskiy-spusk-2014.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : canada;
+
+=> nrel_film_critic_rating : 3;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [American Descent](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [17.10.2014](*<-lang_ru;;*);;
+    => nrel_main_idtf : [17.10.2014](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H23M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H23M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_amerikanskiy_spusk_2014 =>nrel_keywords: film;;
+
+film_amerikanskiy_spusk_2014 <- concept_thriller;;
+
+film_amerikanskiy_spusk_2014 => nrel_main_actor : eva_link;madeline_link;olivier_surprenant;caeden_lawrence;;
+film_amerikanskiy_spusk_2014 => nrel_producer : brooks_hunter;;

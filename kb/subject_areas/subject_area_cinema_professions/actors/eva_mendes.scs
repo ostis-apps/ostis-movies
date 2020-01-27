@@ -1,0 +1,48 @@
+concept_human -> eva_mendes;;
+ 
+ eva_mendes <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Ева Мендес)](*<-lang_ru;;*);
+ 		[Description (Eva Mendes)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/eva_mendes_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ eva_mendes <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Ева Мендес)](*<-lang_ru;;*);
+ 		[Pic. (Eva Mendes)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/eva_mendes.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ eva_mendes => nrel_main_idtf : [Ева Мендес](*<-lang_ru;;*);;
+ eva_mendes => nrel_main_idtf : [Eva Mendes](*<-lang_en;;*);;
+ 
+ 
+ eva_mendes => nrel_birth_date : 1974;;
+ 
+ concept_goverment -> Usa;;
+ eva_mendes => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ eva_mendes => nrel_to_star_in : the_place_beyond_the_pines;;
+the_place_beyond_the_pines => nrel_main_idtf : [The Place Beyond the Pines](*<-lang_en;;*);;
+the_place_beyond_the_pines => nrel_main_idtf : [Место под соснами](*<-lang_ru;;*);;
+eva_mendes => nrel_to_star_in : 2_fast_2_furious;;
+2_fast_2_furious => nrel_main_idtf : [2 Fast 2 Furious](*<-lang_en;;*);;
+2_fast_2_furious => nrel_main_idtf : [Двойной форсаж](*<-lang_ru;;*);;
+

@@ -1,0 +1,97 @@
+
+                  concept_series -> Dexter;;
+              
+                  Dexter
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [правый]
+                    (* <- lang_ru;;	*);
+                    [Dexter]
+                    (* <- lang_en;;	*);;
+                  
+                  Dexter <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (правый)](*<-lang_ru;;*);
+                      [Description (Dexter)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Dexter_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Dexter_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Dexter <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (правый)](*<-lang_ru;;*);
+                      [Pic. (Dexter)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Dexter.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Dexter => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2006;;
+                  2006 => nrel_main_idtf : [2006 год](*<-lang_ru;;*);;
+                  2006 => nrel_main_idtf : [year of 2006](*<-lang_en;;*);;
+                  Dexter => nrel_production_year : 2006;;
+                  
+                  value -> 8;;
+                  Dexter => nrel_num_of_seasons: 8;;
+                  value -> 96;;
+                  Dexter => nrel_num_of_episodes: 96;;
+                  
+                  value -> 7;;
+                  Dexter => nrel_no_countries : 7;;
+                  
+                  value -> 9;;
+                  Dexter => nrel_viewers_in_millions: 9;;
+                  
+                  Dexter => nrel_age_rating: concept_PG12;;
+                  
+                    Dexter => nrel_actor : MichaelCHall;;
+                    
+                   
+                    Dexter => nrel_actor : DavidZayas;;
+                    
+                   
+                    Dexter => nrel_actor : JenniferCarpenter;;
+                    
+                   
+                    Dexter => nrel_actor : LaurenVlez;;
+                    
+                   
+                    Dexter => nrel_actor : JamesRemar;;
+                    
+                   
+                    Dexter => nrel_actor : CSLee;;
+                    
+                   
+                    Dexter => nrel_actor : DesmondHarrington;;
+                    
+                   
+                    Dexter => nrel_actor : JulieBenz;;
+                    
+                   
+                    Dexter => nrel_actor : GeoffPierson;;
+                    
+                   
+                    Dexter => nrel_actor : AimeeGarcia;;
+                    
+                   
+                    Dexter => nrel_actor : ErikKing;;
+                    
+                  
+                  
+                  Dexter
+                  =>nrel_keywords: concept_detectif;;
+                  

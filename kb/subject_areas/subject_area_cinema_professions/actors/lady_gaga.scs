@@ -1,0 +1,48 @@
+concept_human -> lady_gaga;;
+ 
+ lady_gaga <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Леди Гага)](*<-lang_ru;;*);
+ 		[Description (Lady Gaga)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/lady_gaga_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ lady_gaga <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Леди Гага)](*<-lang_ru;;*);
+ 		[Pic. (Lady Gaga)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/lady_gaga.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ lady_gaga => nrel_main_idtf : [Леди Гага](*<-lang_ru;;*);;
+ lady_gaga => nrel_main_idtf : [Lady Gaga](*<-lang_en;;*);;
+ 
+ 
+ lady_gaga => nrel_birth_date : 1986;;
+ 
+ concept_goverment -> Usa;;
+ lady_gaga => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ lady_gaga => nrel_to_star_in : a_star_is_born;;
+a_star_is_born => nrel_main_idtf : [A Star Is Born](*<-lang_en;;*);;
+a_star_is_born => nrel_main_idtf : [Звезда родилась](*<-lang_ru;;*);;
+lady_gaga => nrel_to_star_in : sin_city_a_dame_to_kill_for;;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Sin City: A Dame to Kill For](*<-lang_en;;*);;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Город грехов 2: Женщина, ради которой стоит убивать](*<-lang_ru;;*);;
+

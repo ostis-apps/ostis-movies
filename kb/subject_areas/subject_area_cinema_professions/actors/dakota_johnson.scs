@@ -1,0 +1,48 @@
+concept_human -> dakota_johnson;;
+ 
+ dakota_johnson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дакота Джонсон)](*<-lang_ru;;*);
+ 		[Description (Dakota Johnson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/dakota_johnson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ dakota_johnson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дакота Джонсон)](*<-lang_ru;;*);
+ 		[Pic. (Dakota Johnson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/dakota_johnson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ dakota_johnson => nrel_main_idtf : [Дакота Джонсон](*<-lang_ru;;*);;
+ dakota_johnson => nrel_main_idtf : [Dakota Johnson](*<-lang_en;;*);;
+ 
+ 
+ dakota_johnson => nrel_birth_date : 1989;;
+ 
+ concept_goverment -> Usa;;
+ dakota_johnson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ dakota_johnson => nrel_to_star_in : suspiria;;
+suspiria => nrel_main_idtf : [Suspiria](*<-lang_en;;*);;
+suspiria => nrel_main_idtf : [Суспирия](*<-lang_ru;;*);;
+dakota_johnson => nrel_to_star_in : bad_times_at_the_el_royale;;
+bad_times_at_the_el_royale => nrel_main_idtf : [Bad Times at the El Royale](*<-lang_en;;*);;
+bad_times_at_the_el_royale => nrel_main_idtf : [Ничего хорошего в отеле «Эль Рояль»](*<-lang_ru;;*);;
+

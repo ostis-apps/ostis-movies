@@ -1,0 +1,112 @@
+
+                  concept_series -> Criminal_Minds;;
+              
+                  Criminal_Minds
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Преступные умы]
+                    (* <- lang_ru;;	*);
+                    [Criminal_Minds]
+                    (* <- lang_en;;	*);;
+                  
+                  Criminal_Minds <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Преступные умы)](*<-lang_ru;;*);
+                      [Description (Criminal_Minds)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Criminal_Minds_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Criminal_Minds_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Criminal_Minds <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Преступные умы)](*<-lang_ru;;*);
+                      [Pic. (Criminal_Minds)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Criminal_Minds.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Criminal_Minds => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2005;;
+                  2005 => nrel_main_idtf : [2005 год](*<-lang_ru;;*);;
+                  2005 => nrel_main_idtf : [year of 2005](*<-lang_en;;*);;
+                  Criminal_Minds => nrel_production_year : 2005;;
+                  
+                  value -> 15;;
+                  Criminal_Minds => nrel_num_of_seasons: 15;;
+                  value -> 317;;
+                  Criminal_Minds => nrel_num_of_episodes: 317;;
+                  
+                  value -> 11;;
+                  Criminal_Minds => nrel_no_countries : 11;;
+                  
+                  value -> 4;;
+                  Criminal_Minds => nrel_viewers_in_millions: 4;;
+                  
+                  Criminal_Minds => nrel_age_rating: concept_PG12;;
+                  
+                    Criminal_Minds => nrel_actor : KirstenVangsness;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : AJCook;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : MatthewGrayGubler;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : JoeMantegna;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : ThomasGibson;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : ShemarMoore;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : PagetBrewster;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : AishaTyler;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : AdamRodriguez;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : MandyPatinkin;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : JeanneTripplehorn;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : DanielHenney;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : LolaGlaudini;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : JenniferLoveHewitt;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : DamonGupton;;
+                    
+                   
+                    Criminal_Minds => nrel_actor : RachelNichols;;
+                    
+                  
+                  
+                  Criminal_Minds
+                  =>nrel_keywords: concept_detectif;;
+                  

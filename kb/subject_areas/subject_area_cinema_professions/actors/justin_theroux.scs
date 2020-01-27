@@ -1,0 +1,51 @@
+concept_human -> justin_theroux;;
+ 
+ justin_theroux <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джастин Теру)](*<-lang_ru;;*);
+ 		[Description (Justin Theroux)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/justin_theroux_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ justin_theroux <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джастин Теру)](*<-lang_ru;;*);
+ 		[Pic. (Justin Theroux)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/justin_theroux.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ justin_theroux => nrel_main_idtf : [Джастин Теру](*<-lang_ru;;*);;
+ justin_theroux => nrel_main_idtf : [Justin Theroux](*<-lang_en;;*);;
+ 
+ 
+ justin_theroux => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> Usa;;
+ justin_theroux => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ justin_theroux => nrel_to_star_in : bumblebee;;
+bumblebee => nrel_main_idtf : [Bumblebee](*<-lang_en;;*);;
+bumblebee => nrel_main_idtf : [Бамблби](*<-lang_ru;;*);;
+justin_theroux => nrel_to_star_in : star_wars_the_last_jedi;;
+star_wars_the_last_jedi => nrel_main_idtf : [Star Wars: The Last Jedi](*<-lang_en;;*);;
+star_wars_the_last_jedi => nrel_main_idtf : [Звёздные Войны: Последние Джедаи](*<-lang_ru;;*);;
+justin_theroux => nrel_to_star_in : american_psycho;;
+american_psycho => nrel_main_idtf : [American Psycho](*<-lang_en;;*);;
+american_psycho => nrel_main_idtf : [Американский психопат](*<-lang_ru;;*);;
+

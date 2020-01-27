@@ -1,0 +1,88 @@
+
+                  concept_series -> Young_Sheldon;;
+              
+                  Young_Sheldon
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Young_Sheldon]
+                    (* <- lang_ru;;	*);
+                    [Young_Sheldon]
+                    (* <- lang_en;;	*);;
+                  
+                  Young_Sheldon <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Young_Sheldon)](*<-lang_ru;;*);
+                      [Description (Young_Sheldon)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Young_Sheldon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Young_Sheldon_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Young_Sheldon <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Young_Sheldon)](*<-lang_ru;;*);
+                      [Pic. (Young_Sheldon)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Young_Sheldon.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Young_Sheldon => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Young_Sheldon => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  Young_Sheldon => nrel_num_of_seasons: 3;;
+                  value -> 54;;
+                  Young_Sheldon => nrel_num_of_episodes: 54;;
+                  
+                  value -> 4;;
+                  Young_Sheldon => nrel_no_countries : 4;;
+                  
+                  value -> 7;;
+                  Young_Sheldon => nrel_viewers_in_millions: 7;;
+                  
+                  Young_Sheldon => nrel_age_rating: concept_PG12;;
+                  
+                    Young_Sheldon => nrel_actor : IainArmitage;;
+                    
+                   
+                    Young_Sheldon => nrel_actor : MontanaJordan;;
+                    
+                   
+                    Young_Sheldon => nrel_actor : LanceBarber;;
+                    
+                   
+                    Young_Sheldon => nrel_actor : ZoePerry;;
+                    
+                   
+                    Young_Sheldon => nrel_actor : RaeganRevord;;
+                    
+                   
+                    Young_Sheldon => nrel_actor : JimParsons;;
+                    
+                   
+                    Young_Sheldon => nrel_actor : AnniePotts;;
+                    
+                   
+                    Young_Sheldon => nrel_actor : MattHobby;;
+                    
+                  
+                  
+                  Young_Sheldon
+                  =>nrel_keywords: concept_detectif;;
+                  

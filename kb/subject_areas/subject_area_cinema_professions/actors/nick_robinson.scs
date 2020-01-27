@@ -1,0 +1,45 @@
+concept_human -> nick_robinson;;
+ 
+ nick_robinson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Ник Робинсон)](*<-lang_ru;;*);
+ 		[Description (Nick Robinson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/nick_robinson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ nick_robinson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Ник Робинсон)](*<-lang_ru;;*);
+ 		[Pic. (Nick Robinson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/nick_robinson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ nick_robinson => nrel_main_idtf : [Ник Робинсон](*<-lang_ru;;*);;
+ nick_robinson => nrel_main_idtf : [Nick Robinson](*<-lang_en;;*);;
+ 
+ 
+ nick_robinson => nrel_birth_date : 1995;;
+ 
+ concept_goverment -> Usa;;
+ nick_robinson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ nick_robinson => nrel_to_star_in : love_simon;;
+love_simon => nrel_main_idtf : [Love, Simon](*<-lang_en;;*);;
+love_simon => nrel_main_idtf : [С любовью, Саймон](*<-lang_ru;;*);;
+

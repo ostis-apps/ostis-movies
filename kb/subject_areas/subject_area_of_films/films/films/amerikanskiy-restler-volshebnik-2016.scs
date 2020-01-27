@@ -1,0 +1,67 @@
+film_amerikanskiy_restler_volshebnik_2016
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американский рестлер: Волшебник]
+(* <- lang_ru;;    *);
+[American Wrestler: The Wizard]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американский рестлер: Волшебник)](*<-lang_ru;;*);
+[Description (American Wrestler: The Wizard)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskiy-restler-volshebnik-2016_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskiy-restler-volshebnik-2016_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американский рестлер: Волшебник)](*<-lang_ru;;*);
+		[Pic. (American Wrestler: The Wizard)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskiy-restler-volshebnik-2016.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [American Wrestler: The Wizard](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [16.05.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [16.05.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H57M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H57M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_amerikanskiy_restler_volshebnik_2016 =>nrel_keywords: film;;
+
+film_amerikanskiy_restler_volshebnik_2016 <- concept_drama;concept_sport;;
+
+film_amerikanskiy_restler_volshebnik_2016 => nrel_main_actor : george_kosturos;william_fichtner;ali_afshar;lia_marie_johnson;;
+film_amerikanskiy_restler_volshebnik_2016 => nrel_producer : alex_ranarivelo;;

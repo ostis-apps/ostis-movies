@@ -1,0 +1,346 @@
+agent_for_finding_similar_films
+=> nrel_main_idtf:
+	[агентная scp-программа поиска похожих фильмов] 
+	(* <- lang_ru;; *);
+	[agent scp-program of finding similar films] 
+	(* <- lang_en;; *);
+
+<- agent_scp_program;;
+
+scp_program -> agent_for_finding_similar_films
+	(*
+		-> rrel_params: ..agent_for_finding_similar_films_params 
+			(*
+				-> rrel_1: rrel_in: _event;;
+				-> rrel_2: rrel_in: _input_arc;;
+			*);;
+
+		->rrel_operators: ..agent_for_finding_similar_films_operator_set 
+			(*
+				->rrel_init: ..agent_for_finding_similar_films_operator1 
+					(*
+						<- searchElStr3;;
+
+						-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+						-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+
+						=>nrel_goto: ..agent_for_finding_similar_films_operator2;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator2 
+					(*
+						<- searchElStr3;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_const: question_finding_similar_films;;
+						-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+
+						=>nrel_then: ..agent_for_finding_similar_films_operator3;;
+						=>nrel_else: ..agent_for_finding_similar_films_operator_return;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator3 
+					(*
+						<- searchElStr3;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+						-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+						-> rrel_3: rrel_assign: rrel_scp_var: _param;;
+
+						=>nrel_then: ..agent_for_finding_similar_films_operator4;;
+						=>nrel_else: ..agent_for_finding_similar_films_operator_return;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator4
+					(*
+						<- genEl ;;
+
+						-> rrel_1: rrel_assign: rrel_scp_var: rrel_node: rrel_const: _answer ;;
+					 	
+					 	=> nrel_goto: ..agent_for_finding_similar_films_operator5;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator5
+					(*
+						<- searchElStr3 ;;
+
+						-> rrel_1: rrel_assign: rrel_scp_var: rrel_not_relation: _type_of_film ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _param ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator6 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator_return ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator6
+					(*
+						<- searchElStr5;;
+				
+						-> rrel_1: rrel_fixed: rrel_scp_const: concept_film ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: rrel_not_relation: _type_of_film ;;
+						-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_5: rrel_fixed: rrel_scp_const: nrel_inclusion ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator7 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator_return ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator7
+					(*
+						<- searchElStr5 ;;
+						
+						-> rrel_1: rrel_fixed: rrel_scp_var: _param ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+						-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _quantity ;;
+						-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_5: rrel_fixed: rrel_scp_const: nrel_estimate ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator8 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator_return ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator8
+					(*
+						<- searchElStr3 ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_const: quantity ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _quantity ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator9 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator_return ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator9
+					(*
+						<- searchElStr5 ;;
+						
+						-> rrel_1: rrel_fixed: rrel_scp_var: _quantity ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+						-> rrel_3: rrel_assign: rrel_scp_var: rrel_link: _value ;;
+						-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_5: rrel_fixed: rrel_scp_const: nrel_value ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator10 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator_return ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator10
+					(*
+						<- searchElStr3 ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_const: number ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _value ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator11 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator_return ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator11
+					(*
+						<- contSub ;;
+
+						-> rrel_1: rrel_assign: rrel_scp_var: rrel_link: _lower_limit ;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _value ;;
+						-> rrel_3: rrel_fixed: rrel_scp_const: [1] ;;
+		
+						=> nrel_goto: ..agent_for_finding_similar_films_operator12 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator12
+					(*
+						<- contAdd ;;
+
+						-> rrel_1: rrel_assign: rrel_scp_var: rrel_link: _upper_limit ;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: _value ;;
+						-> rrel_3: rrel_fixed: rrel_scp_const: [1] ;;
+		
+						=> nrel_goto: ..agent_for_finding_similar_films_operator13 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator13
+					(*
+						<- searchSetStr3 ;;
+	
+						-> rrel_1: rrel_fixed: rrel_scp_var: _type_of_film ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _film ;;
+
+						-> rrel_set_3: rrel_assign: rrel_scp_var: rrel_node: _set_of_films ;;
+
+						=> nrel_goto: ..agent_for_finding_similar_films_operator14 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator14
+					(*
+						<- searchElStr3 ;;
+	
+						-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_films ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _param ;;
+
+						=> nrel_goto: ..agent_for_finding_similar_films_operator15 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator15
+					(*
+						<- eraseEl ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: rrel_erase: _arc ;;
+	
+						=> nrel_goto: ..agent_for_finding_similar_films_operator16 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator16
+					(*
+						<- searchElStr3 ;;
+	
+						-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_films ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _film ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator17 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator29 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator17
+					(*
+						<- eraseEl ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: rrel_erase: _arc ;;
+	
+						=> nrel_goto: ..agent_for_finding_similar_films_operator18 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator18
+					(*
+						<- searchElStr5 ;;
+						
+						-> rrel_1: rrel_fixed: rrel_scp_var: _film ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+						-> rrel_3: rrel_assign: rrel_scp_var: rrel_node: _quantity ;;
+						-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_5: rrel_fixed: rrel_scp_const: nrel_estimate ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator19 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator16 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator19
+					(*
+						<- searchElStr3 ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_const: quantity ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _quantity ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator20 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator16 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator20
+					(*
+						<- searchElStr5 ;;
+						
+						-> rrel_1: rrel_fixed: rrel_scp_var: _quantity ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_common: _com ;;
+						-> rrel_3: rrel_assign: rrel_scp_var: rrel_link: _value ;;
+						-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_5: rrel_fixed: rrel_scp_const: nrel_value ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator21 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator16 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator21
+					(*
+						<- searchElStr3 ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_const: number ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _value ;;
+
+						=> nrel_then: ..agent_for_finding_similar_films_operator22 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator16 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator22
+					(*
+						<- ifEq ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_var: rrel_link: _value ;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: rrel_link: _lower_limit;;
+	
+						=> nrel_then: ..agent_for_finding_similar_films_operator24 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator23;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator23
+					(*
+						<- ifGr ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_var: rrel_link: _value ;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: rrel_link: _lower_limit;;
+	
+						=> nrel_then: ..agent_for_finding_similar_films_operator24 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator16;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator24
+					(*
+						<- ifEq ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_var: rrel_link: _upper_limit ;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: rrel_link: _value;;
+	
+						=> nrel_then: ..agent_for_finding_similar_films_operator26 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator25;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator25
+					(*
+						<- ifGr ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_var: rrel_link: _upper_limit ;;
+						-> rrel_2: rrel_fixed: rrel_scp_var: rrel_link: _value;;
+	
+						=> nrel_then: ..agent_for_finding_similar_films_operator26 ;;
+						=> nrel_else: ..agent_for_finding_similar_films_operator16;;
+					*);;	
+				-> ..agent_for_finding_similar_films_operator26
+					(*
+						<- searchElStr3 ;;
+
+						-> rrel_1: rrel_fixed: rrel_scp_var: _type_of_film ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _answer_arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _film ;;
+
+						=> nrel_goto: ..agent_for_finding_similar_films_operator27 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator27
+					(*
+						<- genElStr3;;
+				
+						-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: _answer_arc ;;
+
+						=> nrel_goto: ..agent_for_finding_similar_films_operator28 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator28
+					(*
+						<- genElStr3;;
+				
+						-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _film ;;
+
+						=> nrel_goto: ..agent_for_finding_similar_films_operator16 ;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator29
+					(*
+						<- genElStr3;;
+				
+						-> rrel_1: rrel_fixed: rrel_scp_var: _answer ;;
+						-> rrel_2: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc ;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _type_of_film ;;
+
+						=> nrel_goto: ..agent_for_finding_similar_films_operator30 ;;
+					*);;
+				->  ..agent_for_finding_similar_films_operator30
+					(*
+						<- genElStr5;;
+		
+						-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+						-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+						-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+						-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+						-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+		
+						=>nrel_goto: ..agent_for_finding_similar_films_operator_return;;
+					*);;
+				-> ..agent_for_finding_similar_films_operator_return 
+					(*
+						<- return;;
+					*);;
+			*);;
+	*);;			

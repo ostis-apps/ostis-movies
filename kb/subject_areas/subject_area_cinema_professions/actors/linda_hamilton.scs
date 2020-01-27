@@ -1,0 +1,51 @@
+concept_human -> linda_hamilton;;
+ 
+ linda_hamilton <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Линда Хэмилтон)](*<-lang_ru;;*);
+ 		[Description (Linda Hamilton)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/linda_hamilton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ linda_hamilton <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Линда Хэмилтон)](*<-lang_ru;;*);
+ 		[Pic. (Linda Hamilton)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/linda_hamilton.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ linda_hamilton => nrel_main_idtf : [Линда Хэмилтон](*<-lang_ru;;*);;
+ linda_hamilton => nrel_main_idtf : [Linda Hamilton](*<-lang_en;;*);;
+ 
+ 
+ linda_hamilton => nrel_birth_date : 1956;;
+ 
+ concept_goverment -> Usa;;
+ linda_hamilton => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ linda_hamilton => nrel_to_star_in : terminator_dark_fate;;
+terminator_dark_fate => nrel_main_idtf : [Terminator: Dark Fate](*<-lang_en;;*);;
+terminator_dark_fate => nrel_main_idtf : [Терминатор: Темные судьбы](*<-lang_ru;;*);;
+linda_hamilton => nrel_to_star_in : terminator_2_judgment_day;;
+terminator_2_judgment_day => nrel_main_idtf : [Terminator 2: Judgment Day](*<-lang_en;;*);;
+terminator_2_judgment_day => nrel_main_idtf : [Терминатор 2: Судный день](*<-lang_ru;;*);;
+linda_hamilton => nrel_to_star_in : the_terminator;;
+the_terminator => nrel_main_idtf : [The Terminator](*<-lang_en;;*);;
+the_terminator => nrel_main_idtf : [Терминатор](*<-lang_ru;;*);;
+

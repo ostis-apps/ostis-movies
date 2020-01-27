@@ -1,0 +1,91 @@
+
+                  concept_series -> The_Shannara_Chronicles;;
+              
+                  The_Shannara_Chronicles
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Shannara_Chronicles]
+                    (* <- lang_ru;;	*);
+                    [The_Shannara_Chronicles]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Shannara_Chronicles <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Shannara_Chronicles)](*<-lang_ru;;*);
+                      [Description (The_Shannara_Chronicles)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Shannara_Chronicles_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Shannara_Chronicles_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Shannara_Chronicles <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Shannara_Chronicles)](*<-lang_ru;;*);
+                      [Pic. (The_Shannara_Chronicles)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Shannara_Chronicles.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Shannara_Chronicles => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  The_Shannara_Chronicles => nrel_production_year : 2016;;
+                  
+                  value -> 2;;
+                  The_Shannara_Chronicles => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  The_Shannara_Chronicles => nrel_num_of_episodes: 20;;
+                  
+                  value -> 3;;
+                  The_Shannara_Chronicles => nrel_no_countries : 3;;
+                  
+                  value -> 5;;
+                  The_Shannara_Chronicles => nrel_viewers_in_millions: 5;;
+                  
+                  The_Shannara_Chronicles => nrel_age_rating: concept_PG12;;
+                  
+                    The_Shannara_Chronicles => nrel_actor : ManuBennett;;
+                    
+                   
+                    The_Shannara_Chronicles => nrel_actor : AustinButler;;
+                    
+                   
+                    The_Shannara_Chronicles => nrel_actor : IvanaBaquero;;
+                    
+                   
+                    The_Shannara_Chronicles => nrel_actor : AaronJakubenko;;
+                    
+                   
+                    The_Shannara_Chronicles => nrel_actor : MarcusVanco;;
+                    
+                   
+                    The_Shannara_Chronicles => nrel_actor : PoppyDrayton;;
+                    
+                   
+                    The_Shannara_Chronicles => nrel_actor : MaleseJow;;
+                    
+                   
+                    The_Shannara_Chronicles => nrel_actor : VanessaMorgan;;
+                    
+                   
+                    The_Shannara_Chronicles => nrel_actor : GentryWhite;;
+                    
+                  
+                  
+                  The_Shannara_Chronicles
+                  =>nrel_keywords: concept_detectif;;
+                  

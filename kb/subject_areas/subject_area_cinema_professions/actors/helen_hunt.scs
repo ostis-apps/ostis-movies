@@ -1,0 +1,45 @@
+concept_human -> helen_hunt;;
+ 
+ helen_hunt <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Хелен Хант)](*<-lang_ru;;*);
+ 		[Description (Helen Hunt)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/helen_hunt_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ helen_hunt <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Хелен Хант)](*<-lang_ru;;*);
+ 		[Pic. (Helen Hunt)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/helen_hunt.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ helen_hunt => nrel_main_idtf : [Хелен Хант](*<-lang_ru;;*);;
+ helen_hunt => nrel_main_idtf : [Helen Hunt](*<-lang_en;;*);;
+ 
+ 
+ helen_hunt => nrel_birth_date : 1963;;
+ 
+ concept_goverment -> Usa;;
+ helen_hunt => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ helen_hunt => nrel_to_star_in : cast_away;;
+cast_away => nrel_main_idtf : [Cast Away](*<-lang_en;;*);;
+cast_away => nrel_main_idtf : [Изгой](*<-lang_ru;;*);;
+

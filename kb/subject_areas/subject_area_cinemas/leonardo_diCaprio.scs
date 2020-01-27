@@ -1,0 +1,10 @@
+leonardo_diCaprio
+=> nrel_main_idtf:
+	[Леонардо ДиКаприо]
+	(* <- lang_ru;;	*);
+	[Leonardo DiCaprio]
+	(* <- lang_en;;	*);
+<- concept_human;
+<= nrel_actor_of_genre: concept_thriller;
+<= nrel_actor_of_genre: concept_drama;;
+

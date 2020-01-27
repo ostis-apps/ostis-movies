@@ -1,0 +1,48 @@
+concept_human -> terry_gilliam;;
+ 
+ terry_gilliam <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Терри Гиллиам)](*<-lang_ru;;*);
+ 		[Description (Terry Gilliam)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/terry_gilliam_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ terry_gilliam <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Терри Гиллиам)](*<-lang_ru;;*);
+ 		[Pic. (Terry Gilliam)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/terry_gilliam.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ terry_gilliam => nrel_main_idtf : [Терри Гиллиам](*<-lang_ru;;*);;
+ terry_gilliam => nrel_main_idtf : [Terry Gilliam](*<-lang_en;;*);;
+ 
+ 
+ terry_gilliam => nrel_birth_date : 1940;;
+ 
+ concept_goverment -> Usa;;
+ terry_gilliam => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ terry_gilliam => nrel_to_star_in : the_man_who_killed_don_quixote;;
+the_man_who_killed_don_quixote => nrel_main_idtf : [The Man Who Killed Don Quixote](*<-lang_en;;*);;
+the_man_who_killed_don_quixote => nrel_main_idtf : [Человек, который убил Дон Кихота](*<-lang_ru;;*);;
+terry_gilliam => nrel_to_star_in : fear_and_loathing_in_las_vegas;;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Fear and Loathing in Las Vegas](*<-lang_en;;*);;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Страх и ненависть в Лас-Вегасе](*<-lang_ru;;*);;
+

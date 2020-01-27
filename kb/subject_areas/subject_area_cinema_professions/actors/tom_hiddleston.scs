@@ -1,0 +1,60 @@
+concept_human -> tom_hiddleston;;
+ 
+ tom_hiddleston <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Том Хиддлстон)](*<-lang_ru;;*);
+ 		[Description (Tom Hiddleston)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tom_hiddleston_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tom_hiddleston <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Том Хиддлстон)](*<-lang_ru;;*);
+ 		[Pic. (Tom Hiddleston)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tom_hiddleston.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tom_hiddleston => nrel_main_idtf : [Том Хиддлстон](*<-lang_ru;;*);;
+ tom_hiddleston => nrel_main_idtf : [Tom Hiddleston](*<-lang_en;;*);;
+ 
+ 
+ tom_hiddleston => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> UK;;
+ tom_hiddleston => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ tom_hiddleston => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+tom_hiddleston => nrel_to_star_in : thor_ragnarok;;
+thor_ragnarok => nrel_main_idtf : [Thor: Ragnarok](*<-lang_en;;*);;
+thor_ragnarok => nrel_main_idtf : [Тор: Рагнарёк](*<-lang_ru;;*);;
+tom_hiddleston => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+tom_hiddleston => nrel_to_star_in : thor_the_dark_world;;
+thor_the_dark_world => nrel_main_idtf : [Thor: The Dark World](*<-lang_en;;*);;
+thor_the_dark_world => nrel_main_idtf : [Тор 2: Царство тьмы](*<-lang_ru;;*);;
+tom_hiddleston => nrel_to_star_in : the_avengers;;
+the_avengers => nrel_main_idtf : [The Avengers](*<-lang_en;;*);;
+the_avengers => nrel_main_idtf : [Мстители](*<-lang_ru;;*);;
+tom_hiddleston => nrel_to_star_in : thor;;
+thor => nrel_main_idtf : [Thor](*<-lang_en;;*);;
+thor => nrel_main_idtf : [Тор](*<-lang_ru;;*);;
+

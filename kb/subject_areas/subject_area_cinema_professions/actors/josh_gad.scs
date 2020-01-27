@@ -1,0 +1,48 @@
+concept_human -> josh_gad;;
+ 
+ josh_gad <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джош Гад)](*<-lang_ru;;*);
+ 		[Description (Josh Gad)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/josh_gad_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ josh_gad <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джош Гад)](*<-lang_ru;;*);
+ 		[Pic. (Josh Gad)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/josh_gad.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ josh_gad => nrel_main_idtf : [Джош Гад](*<-lang_ru;;*);;
+ josh_gad => nrel_main_idtf : [Josh Gad](*<-lang_en;;*);;
+ 
+ 
+ josh_gad => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> Usa;;
+ josh_gad => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ josh_gad => nrel_to_star_in : beauty_and_the_beast;;
+beauty_and_the_beast => nrel_main_idtf : [Beauty and the Beast](*<-lang_en;;*);;
+beauty_and_the_beast => nrel_main_idtf : [Красавица и чудовище](*<-lang_ru;;*);;
+josh_gad => nrel_to_star_in : murder_on_the_orient_express;;
+murder_on_the_orient_express => nrel_main_idtf : [Murder on the Orient Express](*<-lang_en;;*);;
+murder_on_the_orient_express => nrel_main_idtf : [Убийство в Восточном экспрессе](*<-lang_ru;;*);;
+

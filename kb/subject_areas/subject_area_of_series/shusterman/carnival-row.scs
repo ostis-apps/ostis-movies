@@ -1,0 +1,97 @@
+
+                  concept_series -> Carnival_Row;;
+              
+                  Carnival_Row
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Carnival_Row]
+                    (* <- lang_ru;;	*);
+                    [Carnival_Row]
+                    (* <- lang_en;;	*);;
+                  
+                  Carnival_Row <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Carnival_Row)](*<-lang_ru;;*);
+                      [Description (Carnival_Row)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Carnival_Row_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Carnival_Row_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Carnival_Row <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Carnival_Row)](*<-lang_ru;;*);
+                      [Pic. (Carnival_Row)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Carnival_Row.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Carnival_Row => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Carnival_Row => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Carnival_Row => nrel_num_of_seasons: 1;;
+                  value -> 8;;
+                  Carnival_Row => nrel_num_of_episodes: 8;;
+                  
+                  value -> 12;;
+                  Carnival_Row => nrel_no_countries : 12;;
+                  
+                  value -> 5;;
+                  Carnival_Row => nrel_viewers_in_millions: 5;;
+                  
+                  Carnival_Row => nrel_age_rating: concept_PG12;;
+                  
+                    Carnival_Row => nrel_actor : CaraDelevingne;;
+                    
+                   
+                    Carnival_Row => nrel_actor : KarlaCrome;;
+                    
+                   
+                    Carnival_Row => nrel_actor : OrlandoBloom;;
+                    
+                   
+                    Carnival_Row => nrel_actor : AndrewGower;;
+                    
+                   
+                    Carnival_Row => nrel_actor : DavidGyasi;;
+                    
+                   
+                    Carnival_Row => nrel_actor : ArtyFroushan;;
+                    
+                   
+                    Carnival_Row => nrel_actor : IndiraVarma;;
+                    
+                   
+                    Carnival_Row => nrel_actor : JaredHarris;;
+                    
+                   
+                    Carnival_Row => nrel_actor : TamzinMerchant;;
+                    
+                   
+                    Carnival_Row => nrel_actor : SimonMcBurney;;
+                    
+                   
+                    Carnival_Row => nrel_actor : CarolineFord;;
+                    
+                  
+                  
+                  Carnival_Row
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,67 @@
+concept_human -> Matt_Deimon;;
+
+Matt_Deimon <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мэтт Деймон)](*<-lang_ru;;*);
+		[Description (Matt Deimon)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Deimon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Deimon_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Matt_Deimon <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мэтт Деймон)](*<-lang_ru;;*);
+		[Pic. (Matt Deimon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Deimon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+Matt_Deimon => nrel_be_awarded : Golden_globe;Oscar;silver_bear;; 
+Matt_Deimon => nrel_main_idtf : [Мэтт Деймон](*<-lang_ru;;*);;
+Matt_Deimon => nrel_main_idtf : [Matt Deimon](*<-lang_en;;*);;
+
+concept_calendar_date -> 08_10_1970;;
+Matt_Deimon => nrel_date_of_birth : 08_10_1970;;
+08_10_1970 => nrel_main_idtf : [08.10.1970](*<-lang_en;;*);;
+08_10_1970 => nrel_main_idtf : [08.10.1970](*<-lang_ru;;*);;
+
+Matt_Deimon => nrel_place_of_birth : Cambridge;;
+Cambridge => nrel_main_idtf : [Кембридж](*<-lang_ru;;*);;
+Cambridge => nrel_main_idtf : [Cambridge](*<-lang_en;;*);;
+
+Matt_Deimon => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 03_05_1988;;
+Matt_Deimon => nrel_career_start_date : 03_05_1988;;
+03_05_1988 => nrel_main_idtf : [03.05.1988](*<-lang_en;;*);;
+03_05_1988 => nrel_main_idtf : [03.05.1988](*<-lang_ru;;*);;
+
+concept_film -> Interstellar;EuroTour;Marcianin;Otstup;Born;;
+Interstellar => nrel_main_idtf : [Interstellar](*<-lang_en;;*);;
+Interstellar => nrel_main_idtf : [Интерстеллар](*<-lang_ru;;*);;
+EuroTour => nrel_main_idtf : [Eurotour](*<-lang_en;;*);;
+EuroTour => nrel_main_idtf : [Евротур](*<-lang_ru;;*);;
+Marcianin => nrel_main_idtf : [Martian](*<-lang_en;;*);;
+Marcianin => nrel_main_idtf : [Марсианин](*<-lang_ru;;*);;
+Born => nrel_main_idtf : [Jason Born](*<-lang_en;;*);;
+Born => nrel_main_idtf : [Джейсон Борн](*<-lang_ru;;*);;
+Otstup => nrel_main_idtf : [Apostates](*<-lang_en;;*);;
+Otstup => nrel_main_idtf : [Отступники](*<-lang_ru;;*);;
+
+Matt_Deimon => nrel_to_star_in : Interstellar;EuroTour;Born;Marcianin;Otstup;;
+

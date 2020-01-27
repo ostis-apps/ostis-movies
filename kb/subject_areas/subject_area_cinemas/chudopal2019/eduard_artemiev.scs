@@ -1,0 +1,36 @@
+eduard_artemiev
+<- person;
+<- concept_film_composer;
+=> nrel_main_idtf:
+        [Эдуард Артемьев]
+	(* <- lang_ru;;	*);
+	[Eduard Artemiev]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+        <- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Эдуард Артемьев)](* <- lang_ru;; *);
+		[Desctiption (Eduard Artemiev)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+	        (*
+		        -> rrel_example:[<b><sc_element sys_idtf="eduard_artemiev">Эдуард Артемьев</sc_element></b> —  советский и российский композитор.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="eduard_artemiev">Nikolay Burlyaev</sc_element></b> Soviet and Russian composer](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+        <-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Эдуард Артемьев)](*<-lang_ru;;*);
+		[Pic. (Eduard Artemiev)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Artemiev.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+

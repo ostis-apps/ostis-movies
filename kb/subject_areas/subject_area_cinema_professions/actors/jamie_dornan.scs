@@ -1,0 +1,45 @@
+concept_human -> jamie_dornan;;
+ 
+ jamie_dornan <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джейми Дорнан)](*<-lang_ru;;*);
+ 		[Description (Jamie Dornan)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jamie_dornan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jamie_dornan <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джейми Дорнан)](*<-lang_ru;;*);
+ 		[Pic. (Jamie Dornan)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jamie_dornan.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jamie_dornan => nrel_main_idtf : [Джейми Дорнан](*<-lang_ru;;*);;
+ jamie_dornan => nrel_main_idtf : [Jamie Dornan](*<-lang_en;;*);;
+ 
+ 
+ jamie_dornan => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> UK;;
+ jamie_dornan => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ jamie_dornan => nrel_to_star_in : robin_hood;;
+robin_hood => nrel_main_idtf : [Robin Hood](*<-lang_en;;*);;
+robin_hood => nrel_main_idtf : [Робин Гуд: Начало](*<-lang_ru;;*);;
+

@@ -1,0 +1,142 @@
+
+                  concept_series -> Futurama;;
+              
+                  Futurama
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Футурама]
+                    (* <- lang_ru;;	*);
+                    [Futurama]
+                    (* <- lang_en;;	*);;
+                  
+                  Futurama <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Футурама)](*<-lang_ru;;*);
+                      [Description (Futurama)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Futurama_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Futurama_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Futurama <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Футурама)](*<-lang_ru;;*);
+                      [Pic. (Futurama)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Futurama.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Futurama => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 1999;;
+                  1999 => nrel_main_idtf : [1999 год](*<-lang_ru;;*);;
+                  1999 => nrel_main_idtf : [year of 1999](*<-lang_en;;*);;
+                  Futurama => nrel_production_year : 1999;;
+                  
+                  value -> 7;;
+                  Futurama => nrel_num_of_seasons: 7;;
+                  value -> 124;;
+                  Futurama => nrel_num_of_episodes: 124;;
+                  
+                  value -> 4;;
+                  Futurama => nrel_no_countries : 4;;
+                  
+                  value -> 10;;
+                  Futurama => nrel_viewers_in_millions: 10;;
+                  
+                  Futurama => nrel_age_rating: concept_PG12;;
+                  
+                    Futurama => nrel_actor : KateySagal;;
+                    
+                   
+                    Futurama => nrel_actor : JohnDiMaggio;;
+                    
+                   
+                    Futurama => nrel_actor : BillyWest;;
+                    
+                   
+                    Futurama => nrel_actor : BillyWest;;
+                    
+                   
+                    Futurama => nrel_actor : BillyWest;;
+                    
+                   
+                    Futurama => nrel_actor : LaurenTom;;
+                    
+                   
+                    Futurama => nrel_actor : PhilLaMarr;;
+                    
+                   
+                    Futurama => nrel_actor : FrankWelker;;
+                    
+                   
+                    Futurama => nrel_actor : BillyWest;;
+                    
+                   
+                    Futurama => nrel_actor : KathSoucie;;
+                    
+                   
+                    Futurama => nrel_actor : DavidHerman;;
+                    
+                   
+                    Futurama => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Futurama => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Futurama => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Futurama => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Futurama => nrel_actor : DavidHerman;;
+                    
+                   
+                    Futurama => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Futurama => nrel_actor : DavidHerman;;
+                    
+                   
+                    Futurama => nrel_actor : DavidHerman;;
+                    
+                   
+                    Futurama => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Futurama => nrel_actor : LaurenTom;;
+                    
+                   
+                    Futurama => nrel_actor : DavidHerman;;
+                    
+                   
+                    Futurama => nrel_actor : BillyWest;;
+                    
+                   
+                    Futurama => nrel_actor : DavidHerman;;
+                    
+                   
+                    Futurama => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Futurama => nrel_actor : PhilLaMarr;;
+                    
+                  
+                  
+                  Futurama
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,50 @@
+concept_mirror
+<- sc_node_not_relation;
+=> nrel_main_producer: andrei_tarkovsky;
+=> nrel_screenwriter: andrei_tarkovsky;
+=> nrel_cameraman: vadim_yusov;
+=> nrel_producing_country:Russia;
+=> nrel_main_actor: margarita_terekhova;
+=> nrel_raiting: 9;
+=> nrel_age_limit: PG13;
+=> nrel_editor; lyudmila_feiginova;
+=> nrel_main_idtf:
+        [Зеркало]
+	(* <- lang_ru;;	*);
+	[Mirror]
+	(* <- lang_en;;	*);
+=> nrel_metagenre: concept_arthouse;
+=> nrel_metagenre: concept_biopic;
+=> nrel_metagenre: concept_drama;
+=> nrel_character:...
+	(*
+	->character_mother;;
+	->character_natalia;;
+	->character_father;;
+	->character_alexey;;
+	->character_autor;;
+	*);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Зеркало)](* <- lang_ru;; *);
+		[Desctiption (Mirror)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[ <sc_element sys_idtf="concept_mirror">Зеркало</sc_element> - картина повествует о нескольких временных пластах, отраженных друг в друге словно в зеркале.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[ <sc_element sys_idtf="concept_mirror">Mirror</sc_element> the picture tells of several time layers reflected in each other like in a mirror.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Зеркало)](*<-lang_ru;;*);
+		[Pic. (Mirror)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Mirror.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

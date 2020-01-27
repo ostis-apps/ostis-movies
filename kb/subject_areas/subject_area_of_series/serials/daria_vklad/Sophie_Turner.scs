@@ -1,0 +1,52 @@
+concept_human -> Sophie_Turner;;
+
+Sophie_Turner
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Софи Тёрнер]
+	(* <- lang_ru;;	*);
+	[Sophie Turner]
+	(* <- lang_en;;	*);;
+	
+Sophie_Turner <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Софи Тёрнер)](*<-lang_ru;;*);
+		[Description (Sophie Turner)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sophie_Turner_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sophie_Turner_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Sophie_Turner <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Софи Тёрнер)](*<-lang_ru;;*);
+		[Pic. (Sophie Turner)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Sophie_Turner.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1996;;
+Sophie_Turner=>nrel_date_of_birth: 1996;;
+1996=>nrel_main_idtf:[1996 год](*<-lang_ru;;*);;
+1996=>nrel_main_idtf:[year of 1996](*<-lang_en;;*);;
+
+concept_calendar_date->2011;;
+Sophie_Turner=>nrel_career_start_date: 2011;;
+2011=>nrel_main_idtf:[2011 год](*<-lang_ru;;*);;
+2011=>nrel_main_idtf:[year of 2011](*<-lang_en;;*);;
+
+Sophie_Turner =>nrel_cityzenship:concept_uk;;
+

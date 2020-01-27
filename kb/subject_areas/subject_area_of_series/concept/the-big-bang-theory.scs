@@ -1,0 +1,94 @@
+
+                  concept_series -> The_Big_Bang_Theory;;
+              
+                  The_Big_Bang_Theory
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Теория большого взрыва]
+                    (* <- lang_ru;;	*);
+                    [The_Big_Bang_Theory]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Big_Bang_Theory <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Теория большого взрыва)](*<-lang_ru;;*);
+                      [Description (The_Big_Bang_Theory)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Big_Bang_Theory_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Big_Bang_Theory_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Big_Bang_Theory <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Теория большого взрыва)](*<-lang_ru;;*);
+                      [Pic. (The_Big_Bang_Theory)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Big_Bang_Theory.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Big_Bang_Theory => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2007;;
+                  2007 => nrel_main_idtf : [2007 год](*<-lang_ru;;*);;
+                  2007 => nrel_main_idtf : [year of 2007](*<-lang_en;;*);;
+                  The_Big_Bang_Theory => nrel_production_year : 2007;;
+                  
+                  value -> 12;;
+                  The_Big_Bang_Theory => nrel_num_of_seasons: 12;;
+                  value -> 279;;
+                  The_Big_Bang_Theory => nrel_num_of_episodes: 279;;
+                  
+                  value -> 14;;
+                  The_Big_Bang_Theory => nrel_no_countries : 14;;
+                  
+                  value -> 12;;
+                  The_Big_Bang_Theory => nrel_viewers_in_millions: 12;;
+                  
+                  The_Big_Bang_Theory => nrel_age_rating: concept_PG12;;
+                  
+                    The_Big_Bang_Theory => nrel_actor : JimParsons;;
+                    
+                   
+                    The_Big_Bang_Theory => nrel_actor : SimonHelberg;;
+                    
+                   
+                    The_Big_Bang_Theory => nrel_actor : KunalNayyar;;
+                    
+                   
+                    The_Big_Bang_Theory => nrel_actor : JohnnyGalecki;;
+                    
+                   
+                    The_Big_Bang_Theory => nrel_actor : KaleyCuoco;;
+                    
+                   
+                    The_Big_Bang_Theory => nrel_actor : MelissaRauch;;
+                    
+                   
+                    The_Big_Bang_Theory => nrel_actor : MayimBialik;;
+                    
+                   
+                    The_Big_Bang_Theory => nrel_actor : KevinSussman;;
+                    
+                   
+                    The_Big_Bang_Theory => nrel_actor : LauraSpencer;;
+                    
+                   
+                    The_Big_Bang_Theory => nrel_actor : SaraGilbert;;
+                    
+                  
+                  
+                  The_Big_Bang_Theory
+                  =>nrel_keywords: concept_detectif;;
+                  

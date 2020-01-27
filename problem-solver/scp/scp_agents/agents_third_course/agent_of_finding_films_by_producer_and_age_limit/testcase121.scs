@@ -1,0 +1,15 @@
+Spider_Man => nrel_producer: Sam_Raimi;;
+Spider_Man_2 => nrel_producer: Sam_Raimi;;
+Spider_Man_3 => nrel_producer: Sam_Raimi;;
+
+Sam_Raimi => nrel_main_idtf:
+    [Сэм Райми](*<- lang_ru;;*);;
+    
+Spider_Man => nrel_main_idtf:
+    [Человек Паук](*<- lang_ru;;*);;
+    
+Spider_Man_2 => nrel_main_idtf:
+    [Человек Паук 2](*<- lang_ru;;*);;
+    
+Spider_Man_3 => nrel_main_idtf:
+    [Человек Паук 3](*<- lang_ru;;*);;

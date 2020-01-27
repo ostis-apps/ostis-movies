@@ -1,0 +1,54 @@
+concept_human -> brian_cox;;
+ 
+ brian_cox <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Брайан Кокс)](*<-lang_ru;;*);
+ 		[Description (Brian Cox)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/brian_cox_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ brian_cox <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Брайан Кокс)](*<-lang_ru;;*);
+ 		[Pic. (Brian Cox)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/brian_cox.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ brian_cox => nrel_main_idtf : [Брайан Кокс](*<-lang_ru;;*);;
+ brian_cox => nrel_main_idtf : [Brian Cox](*<-lang_en;;*);;
+ 
+ 
+ brian_cox => nrel_birth_date : 1946;;
+ 
+ concept_goverment -> UK;;
+ brian_cox => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ brian_cox => nrel_to_star_in : xmen_days_of_future_past;;
+xmen_days_of_future_past => nrel_main_idtf : [X-Men: Days of Future Past](*<-lang_en;;*);;
+xmen_days_of_future_past => nrel_main_idtf : [Люди Икс: Дни минувшего будущего](*<-lang_ru;;*);;
+brian_cox => nrel_to_star_in : match_point;;
+match_point => nrel_main_idtf : [Match Point](*<-lang_en;;*);;
+match_point => nrel_main_idtf : [Матч Поинт](*<-lang_ru;;*);;
+brian_cox => nrel_to_star_in : troy;;
+troy => nrel_main_idtf : [Troy](*<-lang_en;;*);;
+troy => nrel_main_idtf : [Троя](*<-lang_ru;;*);;
+brian_cox => nrel_to_star_in : xmen_2;;
+xmen_2 => nrel_main_idtf : [X-Men 2](*<-lang_en;;*);;
+xmen_2 => nrel_main_idtf : [Люди Икс 2](*<-lang_ru;;*);;
+

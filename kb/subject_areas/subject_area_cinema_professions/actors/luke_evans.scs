@@ -1,0 +1,63 @@
+concept_human -> luke_evans;;
+ 
+ luke_evans <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Люк Эванс)](*<-lang_ru;;*);
+ 		[Description (Luke Evans)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/luke_evans_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ luke_evans <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Люк Эванс)](*<-lang_ru;;*);
+ 		[Pic. (Luke Evans)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/luke_evans.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ luke_evans => nrel_main_idtf : [Люк Эванс](*<-lang_ru;;*);;
+ luke_evans => nrel_main_idtf : [Luke Evans](*<-lang_en;;*);;
+ 
+ 
+ luke_evans => nrel_birth_date : 1979;;
+ 
+ concept_goverment -> UK;;
+ luke_evans => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ luke_evans => nrel_to_star_in : murder_mystery;;
+murder_mystery => nrel_main_idtf : [Murder Mystery](*<-lang_en;;*);;
+murder_mystery => nrel_main_idtf : [Загадочное убийство](*<-lang_ru;;*);;
+luke_evans => nrel_to_star_in : beauty_and_the_beast;;
+beauty_and_the_beast => nrel_main_idtf : [Beauty and the Beast](*<-lang_en;;*);;
+beauty_and_the_beast => nrel_main_idtf : [Красавица и чудовище](*<-lang_ru;;*);;
+luke_evans => nrel_to_star_in : the_fate_of_the_furious;;
+the_fate_of_the_furious => nrel_main_idtf : [The Fate of the Furious](*<-lang_en;;*);;
+the_fate_of_the_furious => nrel_main_idtf : [Форсаж 8](*<-lang_ru;;*);;
+luke_evans => nrel_to_star_in : furious_7;;
+furious_7 => nrel_main_idtf : [Furious 7](*<-lang_en;;*);;
+furious_7 => nrel_main_idtf : [Форсаж 7](*<-lang_ru;;*);;
+luke_evans => nrel_to_star_in : the_hobbit_the_battle_of_the_five_armies;;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [The Hobbit: The Battle of the Five Armies](*<-lang_en;;*);;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [Хоббит: Битва пяти воинств](*<-lang_ru;;*);;
+luke_evans => nrel_to_star_in : the_hobbit_the_desolation_of_smaug;;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [The Hobbit: The Desolation of Smaug](*<-lang_en;;*);;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [Хоббит: Пустошь Смауга](*<-lang_ru;;*);;
+luke_evans => nrel_to_star_in : fast__furious_6;;
+fast__furious_6 => nrel_main_idtf : [Fast & Furious 6](*<-lang_en;;*);;
+fast__furious_6 => nrel_main_idtf : [Форсаж 6](*<-lang_ru;;*);;
+

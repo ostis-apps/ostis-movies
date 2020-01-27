@@ -1,0 +1,64 @@
+concept_human -> Mackonahi;;
+
+Mackonahi <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мэтью Макконахи)](*<-lang_ru;;*);
+		[Description (Mattue Mackonahi)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Mattue_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Mattue_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Mackonahi <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мэтью Макконахи)](*<-lang_ru;;*);
+		[Pic. (Mattue Mackonahi)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Mattue.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Mackonahi => nrel_be_awarded : Golden_globe;Oscar;; 
+Mackonahi => nrel_main_idtf : [Мэтью Макконахи](*<-lang_ru;;*);;
+Mackonahi => nrel_main_idtf : [Mattue Mackonahi](*<-lang_en;;*);;
+
+concept_calendar_date -> 04_11_1969;;
+Mackonahi => nrel_date_of_birth : 04_11_1969;;
+04_11_1969 => nrel_main_idtf : [04.11.1969](*<-lang_en;;*);;
+04_11_1969 => nrel_main_idtf : [04.11.1969](*<-lang_ru;;*);;
+
+concept_city -> Uvalde;;
+Mackonahi => nrel_place_of_birth : Uvalde;;
+Uvalde => nrel_main_idtf : [Uvalde](*<-lang_en;;*);;
+Uvalde => nrel_main_idtf : [Ювалде](*<-lang_ru;;*);;
+
+Mackonahi => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 01_07_1992;;
+Mackonahi => nrel_career_start_date : 01_07_1992;;
+01_07_1992 => nrel_main_idtf : [01.07.1992](*<-lang_en;;*);;
+01_07_1992 => nrel_main_idtf : [01.07.1992](*<-lang_ru;;*);;
+
+concept_film -> Gold;Dark_Turrent;White;Sea;;
+Gold => nrel_main_idtf : [Gold](*<-lang_en;;*);;
+Gold => nrel_main_idtf : [Золото](*<-lang_ru;;*);;
+Dark_Turrent => nrel_main_idtf : [Dark turret](*<-lang_en;;*);;
+Dark_Turrent => nrel_main_idtf : [Темная башня](*<-lang_ru;;*);;
+White => nrel_main_idtf : [White men Rick](*<-lang_en;;*);;
+White => nrel_main_idtf : [Белый парень Рик](*<-lang_ru;;*);;
+Sea => nrel_main_idtf : [Sea of trees](*<-lang_en;;*);;
+Sea => nrel_main_idtf : [Море деревьев](*<-lang_ru;;*);;
+
+Mackonahi => nrel_to_star_in : Gold;Dark_Turrent;White;Sea;Interstellar;;
+

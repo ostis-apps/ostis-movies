@@ -1,0 +1,45 @@
+concept_human -> jim_sturgess;;
+ 
+ jim_sturgess <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джим Стерджесс)](*<-lang_ru;;*);
+ 		[Description (Jim Sturgess)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jim_sturgess_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jim_sturgess <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джим Стерджесс)](*<-lang_ru;;*);
+ 		[Pic. (Jim Sturgess)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jim_sturgess.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jim_sturgess => nrel_main_idtf : [Джим Стерджесс](*<-lang_ru;;*);;
+ jim_sturgess => nrel_main_idtf : [Jim Sturgess](*<-lang_en;;*);;
+ 
+ 
+ jim_sturgess => nrel_birth_date : 1978;;
+ 
+ concept_goverment -> UK;;
+ jim_sturgess => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ jim_sturgess => nrel_to_star_in : the_other_boleyn_girl;;
+the_other_boleyn_girl => nrel_main_idtf : [The Other Boleyn Girl](*<-lang_en;;*);;
+the_other_boleyn_girl => nrel_main_idtf : [Еще одна из рода Болейн](*<-lang_ru;;*);;
+

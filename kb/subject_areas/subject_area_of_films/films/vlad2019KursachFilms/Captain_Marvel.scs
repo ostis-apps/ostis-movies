@@ -1,0 +1,68 @@
+concept_film -> Captian_Marvel;;
+
+Captian_Marvel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Капитан Марвел]
+	(* <- lang_ru;;	*);
+	[Captian Marvel]
+	(* <- lang_en;;	*);;
+	
+Captian_Marvel <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Капитан Марвел)](*<-lang_ru;;*);
+		[Description (Captian Marvel)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Captain_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Captain_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Captian_Marvel <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Капитан Марвел)](*<-lang_ru;;*);
+		[Pic. (Captian Marvel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Captain.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Captian_Marvel => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 07_03_2019;;
+07_03_2019 => nrel_main_idtf : [07.03.2019](*<-lang_ru;;*);;
+07_03_2019 => nrel_main_idtf : [07.03.2019](*<-lang_en;;*);;
+Captian_Marvel => nrel_release_date : 07_03_2019;;
+
+Captian_Marvel => nrel_tagline_of_film : slogan_Captain;;
+slogan_Captain => nrel_main_idtf : [Высший разум победит](*<-lang_ru;;*);;
+slogan_Captain => nrel_main_idtf : [Higher mind wins](*<-lang_en;;*);;
+
+Captian_Marvel => nrel_duration_of_showing : 2_05;;
+
+value -> 1_009_423_563;;
+1_009_423_563 => nrel_main_idtf : [1 009 423 563$](*<-lang_ru;;*);;
+1_009_423_563 => nrel_main_idtf : [1 009 423 563$](*<-lang_en;;*);;
+Captian_Marvel <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 1_009_423_563;;   
+*);;
+
+Captian_Marvel => nrel_film_critic_rating : 7;;
+
+Captian_Marvel =>nrel_keywords: concept_courage; super_people;space;alliens;;
+Captian_Marvel =>nrel_age_rating: concept_PG16;;
+
+Captian_Marvel => nrel_main_actor : Larson; Morgan_Friman;Joud_Lou;Samuel_Jackson;;
+Captian_Marvel => nrel_producer : Faigi;;
+Captian_Marvel => nrel_screenwriter : Roy_Thomas;;
+

@@ -1,0 +1,48 @@
+concept_human -> matt_smith;;
+ 
+ matt_smith <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэтт Смит)](*<-lang_ru;;*);
+ 		[Description (Matt Smith)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/matt_smith_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ matt_smith <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэтт Смит)](*<-lang_ru;;*);
+ 		[Pic. (Matt Smith)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/matt_smith.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ matt_smith => nrel_main_idtf : [Мэтт Смит](*<-lang_ru;;*);;
+ matt_smith => nrel_main_idtf : [Matt Smith](*<-lang_en;;*);;
+ 
+ 
+ matt_smith => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> UK;;
+ matt_smith => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ matt_smith => nrel_to_star_in : official_secrets;;
+official_secrets => nrel_main_idtf : [Official Secrets](*<-lang_en;;*);;
+official_secrets => nrel_main_idtf : [Опасные секреты](*<-lang_ru;;*);;
+matt_smith => nrel_to_star_in : terminator_genisys;;
+terminator_genisys => nrel_main_idtf : [Terminator Genisys](*<-lang_en;;*);;
+terminator_genisys => nrel_main_idtf : [Терминатор: Генезис](*<-lang_ru;;*);;
+

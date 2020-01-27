@@ -1,0 +1,41 @@
+concept_cyberpunk <-sc_node_not_relation;
+=>nrel_main_idtf:
+	[ужасы](*<-lang_ru;;*);
+	[horror](*<-lang_en;;*);
+
+=>nrel_idtf:
+	[ужастик](*<-lang_ru;;*);
+	[хоррор](*<-lang_ru;;*);
+
+ <= nrel_inclusion: concept_genre;
+ => nrel_inclusion: concept_giallo;
+ => nrel_inclusion: concept_slasher;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (ужасы)](*<-lang_ru;;*);
+		[Def. (horror)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_genre;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_horror_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_horror_def_ru.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+ <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (ужасы)](*<-lang_ru;;*);
+		[Pic. (horror)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_horror_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

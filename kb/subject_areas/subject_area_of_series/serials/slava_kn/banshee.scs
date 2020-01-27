@@ -1,0 +1,124 @@
+
+                  concept_series -> Banshee;;
+              
+                  Banshee
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [сирена воздушной тревоги]
+                    (* <- lang_ru;;	*);
+                    [Banshee]
+                    (* <- lang_en;;	*);;
+                  
+                  Banshee <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (сирена воздушной тревоги)](*<-lang_ru;;*);
+                      [Description (Banshee)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Banshee_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Banshee_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Banshee <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (сирена воздушной тревоги)](*<-lang_ru;;*);
+                      [Pic. (Banshee)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Banshee.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Banshee => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Banshee => nrel_production_year : 2013;;
+                  
+                  value -> 4;;
+                  Banshee => nrel_num_of_seasons: 4;;
+                  value -> 38;;
+                  Banshee => nrel_num_of_episodes: 38;;
+                  
+                  value -> 7;;
+                  Banshee => nrel_no_countries : 7;;
+                  
+                  value -> 8;;
+                  Banshee => nrel_viewers_in_millions: 8;;
+                  
+                  Banshee => nrel_age_rating: concept_PG12;;
+                  
+                    Banshee => nrel_actor : AntonyStarr;;
+                    
+                   
+                    Banshee => nrel_actor : UlrichThomsen;;
+                    
+                   
+                    Banshee => nrel_actor : IvanaMilicevic;;
+                    
+                   
+                    Banshee => nrel_actor : MattServitto;;
+                    
+                   
+                    Banshee => nrel_actor : FrankieFaison;;
+                    
+                   
+                    Banshee => nrel_actor : MatthewRauch;;
+                    
+                   
+                    Banshee => nrel_actor : LiliSimmons;;
+                    
+                   
+                    Banshee => nrel_actor : HoonLee;;
+                    
+                   
+                    Banshee => nrel_actor : RyannShane;;
+                    
+                   
+                    Banshee => nrel_actor : TriesteKellyDunn;;
+                    
+                   
+                    Banshee => nrel_actor : RusBlackwell;;
+                    
+                   
+                    Banshee => nrel_actor : AnthonyRuivivar;;
+                    
+                   
+                    Banshee => nrel_actor : DemetriusGrosse;;
+                    
+                   
+                    Banshee => nrel_actor : TomPelphrey;;
+                    
+                   
+                    Banshee => nrel_actor : GenoSegers;;
+                    
+                   
+                    Banshee => nrel_actor : BenCross;;
+                    
+                   
+                    Banshee => nrel_actor : ChrisCoy;;
+                    
+                   
+                    Banshee => nrel_actor : AftonWilliamson;;
+                    
+                   
+                    Banshee => nrel_actor : DanielRossOwens;;
+                    
+                   
+                    Banshee => nrel_actor : LangleyKirkwood;;
+                    
+                  
+                  
+                  Banshee
+                  =>nrel_keywords: concept_detectif;;
+                  

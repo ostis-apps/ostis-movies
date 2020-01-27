@@ -1,0 +1,48 @@
+concept_human -> amber_heard;;
+ 
+ amber_heard <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эмбер Херд)](*<-lang_ru;;*);
+ 		[Description (Amber Heard)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/amber_heard_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ amber_heard <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эмбер Херд)](*<-lang_ru;;*);
+ 		[Pic. (Amber Heard)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/amber_heard.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ amber_heard => nrel_main_idtf : [Эмбер Херд](*<-lang_ru;;*);;
+ amber_heard => nrel_main_idtf : [Amber Heard](*<-lang_en;;*);;
+ 
+ 
+ amber_heard => nrel_birth_date : 1986;;
+ 
+ concept_goverment -> Usa;;
+ amber_heard => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ amber_heard => nrel_to_star_in : aquaman;;
+aquaman => nrel_main_idtf : [Aquaman](*<-lang_en;;*);;
+aquaman => nrel_main_idtf : [Аквамен](*<-lang_ru;;*);;
+amber_heard => nrel_to_star_in : the_rum_diary;;
+the_rum_diary => nrel_main_idtf : [The Rum Diary](*<-lang_en;;*);;
+the_rum_diary => nrel_main_idtf : [Ромовый дневник](*<-lang_ru;;*);;
+

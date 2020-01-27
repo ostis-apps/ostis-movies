@@ -1,0 +1,48 @@
+concept_human -> charlie_sheen;;
+ 
+ charlie_sheen <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Чарли Шин)](*<-lang_ru;;*);
+ 		[Description (Charlie Sheen)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/charlie_sheen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ charlie_sheen <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Чарли Шин)](*<-lang_ru;;*);
+ 		[Pic. (Charlie Sheen)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/charlie_sheen.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ charlie_sheen => nrel_main_idtf : [Чарли Шин](*<-lang_ru;;*);;
+ charlie_sheen => nrel_main_idtf : [Charlie Sheen](*<-lang_en;;*);;
+ 
+ 
+ charlie_sheen => nrel_birth_date : 1965;;
+ 
+ concept_goverment -> Usa;;
+ charlie_sheen => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ charlie_sheen => nrel_to_star_in : being_john_malkovich;;
+being_john_malkovich => nrel_main_idtf : [Being John Malkovich](*<-lang_en;;*);;
+being_john_malkovich => nrel_main_idtf : [Быть Джоном Малковичем](*<-lang_ru;;*);;
+charlie_sheen => nrel_to_star_in : platoon;;
+platoon => nrel_main_idtf : [Platoon](*<-lang_en;;*);;
+platoon => nrel_main_idtf : [Взвод](*<-lang_ru;;*);;
+

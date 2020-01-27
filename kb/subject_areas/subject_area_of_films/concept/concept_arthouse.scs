@@ -1,0 +1,21 @@
+concept_arthouse
+<-sc_node_not_relation;
+=>nrel_main_idtf:[артхаус](*<-lang_ru;;*);
+                 [arthouse](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (артхаус)](*<-lang_ru;;*);
+		[Def. (arthouse)](*<-lang_en;;*);;
+        <=nrel_using_constants:{
+        concept_film;
+        concept_cinema
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_arthouse_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_arthouse_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_film;;	

@@ -1,0 +1,67 @@
+film_aferisty_2004
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Аферисты]
+(* <- lang_ru;;    *);
+[Criminal]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Аферисты)](*<-lang_ru;;*);
+[Description (Criminal)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/aferisty-2004_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/aferisty-2004_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Аферисты)](*<-lang_ru;;*);
+		[Pic. (Criminal)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/aferisty-2004.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Ever get the feeling you're being played? See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [24.09.2004](*<-lang_ru;;*);;
+    => nrel_main_idtf : [24.09.2004](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H27M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H27M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_aferisty_2004 =>nrel_keywords: film;;
+
+film_aferisty_2004 <- concept_comedy;concept_crime;concept_drama;concept_thriller;;
+
+film_aferisty_2004 => nrel_main_actor : john_c._reilly;diego_luna;maggie_gyllenhaal;peter_mullan;;
+film_aferisty_2004 => nrel_producer : gregory_jacobs;;

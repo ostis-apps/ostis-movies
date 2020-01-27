@@ -1,0 +1,67 @@
+film_begi_lola_begi_1998
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Беги, Лола, беги]
+(* <- lang_ru;;    *);
+[Lola rennt / Run Lola Run]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Беги, Лола, беги)](*<-lang_ru;;*);
+[Description (Lola rennt / Run Lola Run)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/begi-lola-begi-1998_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/begi-lola-begi-1998_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Беги, Лола, беги)](*<-lang_ru;;*);
+		[Pic. (Lola rennt / Run Lola Run)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/begi-lola-begi-1998.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [(English translation: The difference between life or death can be decided in a split second.) See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [20.08.1998](*<-lang_ru;;*);;
+    => nrel_main_idtf : [20.08.1998](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H20M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H20M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_begi_lola_begi_1998 =>nrel_keywords: film;;
+
+film_begi_lola_begi_1998 <- concept_crime;concept_drama;concept_thriller;;
+
+film_begi_lola_begi_1998 => nrel_main_actor : franka_potente;moritz_bleibtreu;herbert_knaup;nina_petri;;
+film_begi_lola_begi_1998 => nrel_producer : tom_tykwer;;

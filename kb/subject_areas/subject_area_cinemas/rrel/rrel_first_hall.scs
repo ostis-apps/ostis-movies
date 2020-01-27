@@ -1,0 +1,5 @@
+rrel_first_hall
+<-sc_node_role_relation;
+=> nrel_main_idtf:
+	[первый зал'](*<-lang_ru;;*);
+	[first hall'](*<-lang_en;;*);;

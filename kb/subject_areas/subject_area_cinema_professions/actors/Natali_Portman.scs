@@ -1,0 +1,68 @@
+concept_human -> Natali_Portman;;
+
+Natali_Portman <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Натали Портмэн)](*<-lang_ru;;*);
+		[Description (Natali Portman)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Portman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Portman_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Natali_Portman <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Натали Портмэн)](*<-lang_ru;;*);
+		[Pic. (Natali Portman)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Portman.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+Natali_Portman => nrel_be_awarded : Golden_globe;Oscar;; 
+Natali_Portman => nrel_main_idtf : [Натали Портмэн](*<-lang_ru;;*);;
+Natali_Portman => nrel_main_idtf : [Natali Portman](*<-lang_en;;*);;
+
+concept_calendar_date -> 09_06_1981;;
+Natali_Portman => nrel_date_of_birth : 09_06_1981;;
+09_06_1981 => nrel_main_idtf : [09.06.1981](*<-lang_en;;*);;
+09_06_1981 => nrel_main_idtf : [09.06.1981](*<-lang_ru;;*);;
+
+Natali_Portman => nrel_place_of_birth : Jerusalem;;
+Jerusalem => nrel_main_idtf : [Иерусалим](*<-lang_ru;;*);;
+Jerusalem => nrel_main_idtf : [Jerusalem](*<-lang_en;;*);;
+
+Natali_Portman => nrel_cityzenship :Usa;Israel;;
+concept_country -> Israel;;
+Israel => nrel_main_idtf : [Израиль](*<-lang_ru;;*);;
+Israel => nrel_main_idtf : [Israel](*<-lang_en;;*);;
+
+concept_calendar_date -> 14_08_1994;;
+Natali_Portman => nrel_career_start_date : 14_08_1994;;
+14_08_1994 => nrel_main_idtf : [14.08.1994](*<-lang_en;;*);;
+14_08_1994 => nrel_main_idtf : [14.08.1994](*<-lang_ru;;*);;
+
+concept_film -> Voice_Lux;Thor;Thor2;Annigilation;;
+Voice_Lux => nrel_main_idtf : [Voice Lux](*<-lang_en;;*);;
+Voice_Lux => nrel_main_idtf : [Голос люкс](*<-lang_ru;;*);;
+Thor => nrel_main_idtf : [Thor](*<-lang_en;;*);;
+Thor => nrel_main_idtf : [Тор](*<-lang_ru;;*);;
+Thor2 => nrel_main_idtf : [Thor2:Ragnarek](*<-lang_en;;*);;
+Thor2 => nrel_main_idtf : [Тор2:Рогнарёк](*<-lang_ru;;*);;
+Annigilation => nrel_main_idtf : [Annigilation](*<-lang_en;;*);;
+Annigilation => nrel_main_idtf : [Аннигиляция](*<-lang_ru;;*);;
+
+Natali_Portman => nrel_to_star_in : Voice_Lux;Thor;Thor2;Annigilation;Born;;
+

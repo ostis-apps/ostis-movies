@@ -1,0 +1,67 @@
+film_aprelskiy_sneg_2005
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Апрельский снег]
+(* <- lang_ru;;    *);
+[Oechul / April Snow]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Апрельский снег)](*<-lang_ru;;*);
+[Description (Oechul / April Snow)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/aprelskiy-sneg-2005_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/aprelskiy-sneg-2005_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Апрельский снег)](*<-lang_ru;;*);
+		[Pic. (Oechul / April Snow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/aprelskiy-sneg-2005.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : south_korea;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Oechul / April Snow](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [07.09.2005](*<-lang_ru;;*);;
+    => nrel_main_idtf : [07.09.2005](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H45M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H45M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_Not_Rated;;
+
+film_aprelskiy_sneg_2005 =>nrel_keywords: film;;
+
+film_aprelskiy_sneg_2005 <- concept_drama;concept_romance;;
+
+film_aprelskiy_sneg_2005 => nrel_main_actor : yong_jun_bae;ye_jin_son;kook_huan_chun;clazziquai;;
+film_aprelskiy_sneg_2005 => nrel_producer : jin_ho_hur;;

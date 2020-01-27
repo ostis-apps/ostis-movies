@@ -1,0 +1,57 @@
+concept_human -> hayley_atwell;;
+ 
+ hayley_atwell <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Хейли Этвелл)](*<-lang_ru;;*);
+ 		[Description (Hayley Atwell)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/hayley_atwell_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ hayley_atwell <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Хейли Этвелл)](*<-lang_ru;;*);
+ 		[Pic. (Hayley Atwell)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/hayley_atwell.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ hayley_atwell => nrel_main_idtf : [Хейли Этвелл](*<-lang_ru;;*);;
+ hayley_atwell => nrel_main_idtf : [Hayley Atwell](*<-lang_en;;*);;
+ 
+ 
+ hayley_atwell => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> UK;;
+ hayley_atwell => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ hayley_atwell => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+hayley_atwell => nrel_to_star_in : antman;;
+antman => nrel_main_idtf : [Ant-Man](*<-lang_en;;*);;
+antman => nrel_main_idtf : [Человек-муравей](*<-lang_ru;;*);;
+hayley_atwell => nrel_to_star_in : captain_america_the_winter_soldier;;
+captain_america_the_winter_soldier => nrel_main_idtf : [Captain America: The Winter Soldier](*<-lang_en;;*);;
+captain_america_the_winter_soldier => nrel_main_idtf : [Первый мститель: Другая война](*<-lang_ru;;*);;
+hayley_atwell => nrel_to_star_in : captain_america_the_first_avenger;;
+captain_america_the_first_avenger => nrel_main_idtf : [Captain America: The First Avenger](*<-lang_en;;*);;
+captain_america_the_first_avenger => nrel_main_idtf : [Первый мститель](*<-lang_ru;;*);;
+hayley_atwell => nrel_to_star_in : black_mirror;;
+black_mirror => nrel_main_idtf : [Black Mirror](*<-lang_en;;*);;
+black_mirror => nrel_main_idtf : [Черное зеркало](*<-lang_ru;;*);;
+

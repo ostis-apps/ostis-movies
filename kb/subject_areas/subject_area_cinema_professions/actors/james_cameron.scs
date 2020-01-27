@@ -1,0 +1,60 @@
+concept_human -> james_cameron;;
+ 
+ james_cameron <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джеймс Кэмерон)](*<-lang_ru;;*);
+ 		[Description (James Cameron)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/james_cameron_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ james_cameron <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джеймс Кэмерон)](*<-lang_ru;;*);
+ 		[Pic. (James Cameron)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/james_cameron.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ james_cameron => nrel_main_idtf : [Джеймс Кэмерон](*<-lang_ru;;*);;
+ james_cameron => nrel_main_idtf : [James Cameron](*<-lang_en;;*);;
+ 
+ 
+ james_cameron => nrel_birth_date : 1954;;
+ 
+ concept_goverment -> Canada;;
+ james_cameron => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ james_cameron => nrel_to_star_in : terminator_dark_fate;;
+terminator_dark_fate => nrel_main_idtf : [Terminator: Dark Fate](*<-lang_en;;*);;
+terminator_dark_fate => nrel_main_idtf : [Терминатор: Темные судьбы](*<-lang_ru;;*);;
+james_cameron => nrel_to_star_in : terminator_genisys;;
+terminator_genisys => nrel_main_idtf : [Terminator Genisys](*<-lang_en;;*);;
+terminator_genisys => nrel_main_idtf : [Терминатор: Генезис](*<-lang_ru;;*);;
+james_cameron => nrel_to_star_in : terminator_3_rise_of_the_machines;;
+terminator_3_rise_of_the_machines => nrel_main_idtf : [Terminator 3: Rise of the Machines](*<-lang_en;;*);;
+terminator_3_rise_of_the_machines => nrel_main_idtf : [Терминатор 3: Восстание машин](*<-lang_ru;;*);;
+james_cameron => nrel_to_star_in : titanic;;
+titanic => nrel_main_idtf : [Titanic](*<-lang_en;;*);;
+titanic => nrel_main_idtf : [Титаник](*<-lang_ru;;*);;
+james_cameron => nrel_to_star_in : terminator_2_judgment_day;;
+terminator_2_judgment_day => nrel_main_idtf : [Terminator 2: Judgment Day](*<-lang_en;;*);;
+terminator_2_judgment_day => nrel_main_idtf : [Терминатор 2: Судный день](*<-lang_ru;;*);;
+james_cameron => nrel_to_star_in : the_terminator;;
+the_terminator => nrel_main_idtf : [The Terminator](*<-lang_en;;*);;
+the_terminator => nrel_main_idtf : [Терминатор](*<-lang_ru;;*);;
+

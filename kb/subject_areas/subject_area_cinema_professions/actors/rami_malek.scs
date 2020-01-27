@@ -1,0 +1,45 @@
+concept_human -> rami_malek;;
+ 
+ rami_malek <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Рами Малек)](*<-lang_ru;;*);
+ 		[Description (Rami Malek)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/rami_malek_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ rami_malek <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Рами Малек)](*<-lang_ru;;*);
+ 		[Pic. (Rami Malek)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/rami_malek.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ rami_malek => nrel_main_idtf : [Рами Малек](*<-lang_ru;;*);;
+ rami_malek => nrel_main_idtf : [Rami Malek](*<-lang_en;;*);;
+ 
+ 
+ rami_malek => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> Usa;;
+ rami_malek => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ rami_malek => nrel_to_star_in : the_master;;
+the_master => nrel_main_idtf : [The Master](*<-lang_en;;*);;
+the_master => nrel_main_idtf : [Мастер](*<-lang_ru;;*);;
+

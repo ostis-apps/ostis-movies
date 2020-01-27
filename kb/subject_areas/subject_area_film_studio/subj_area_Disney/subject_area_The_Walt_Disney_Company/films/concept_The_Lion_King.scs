@@ -1,0 +1,297 @@
+concept_The_Lion_King
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Король Лев]
+	(* <- lang_ru;;	*);
+	[The Lion King]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Король Лев)](*<-lang_ru;;*);
+		[Description (The Lion King)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_The_Lion_King_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_The_Lion_King_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Roger_Allers;
+=>nrel_producer: Don_Hahn;
+=>nrel_production_country: USA;
+=>nrel_production_year:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1994
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 88
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 968483777
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+     <-character_Simba;;
+     <-character_Mufasa;;
+	<-character_Scar;;
+	<-character_Pumba;;
+	<-character_Timon;;
+	<-character_Sarabi;;
+	*);
+=>nrel_age_rating: concept_PG0;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Король Лев)](*<-lang_ru;;*);
+		[Pic. (The Lion King)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_The_Lion_King.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Simba
+=> nrel_main_idtf: 
+[Симба] (* <-lang_ru;; *); 
+[Simba] (* <-lang_en;; *); 
+<- character; 
+<- male; 
+<- lion; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Симба)] (* <-lang_ru;; *); 
+[Description of character(Simba)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Simba_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Simba_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Симба)](*<-lang_ru;;*); 
+[Pic. (Simba)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Simba.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Mufasa
+=> nrel_main_idtf: 
+[Муфаса] (* <-lang_ru;; *); 
+[Mufasa] (* <-lang_en;; *); 
+<- character; 
+<- male; 
+<- lion; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Муфаса)] (* <-lang_ru;; *); 
+[Description of character(Mufasa)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Mufasa_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Mufasa_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Муфаса)](*<-lang_ru;;*); 
+[Pic. (Mufasa)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Mufasa.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Scar
+=> nrel_main_idtf: 
+[Шрам] (* <-lang_ru;; *); 
+[Scar] (* <-lang_en;; *); 
+<- character; 
+<- male; 
+<- lion; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Шрам)] (* <-lang_ru;; *); 
+[Description of character(Scar)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Scar_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Scar_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Шрам)](*<-lang_ru;;*); 
+[Pic. (Scar)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Scar.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Pumba
+=> nrel_main_idtf: 
+[Пумба] (* <-lang_ru;; *); 
+[Pumba] (* <-lang_en;; *); 
+<- character; 
+<- male; 
+<- boar; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Пумба)] (* <-lang_ru;; *); 
+[Description of character(Pumba)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Pumba_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Pumba_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Пумба)](*<-lang_ru;;*); 
+[Pic. (Pumba)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Pumba.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Timon
+=> nrel_main_idtf: 
+[Тимон] (* <-lang_ru;; *); 
+[Timon] (* <-lang_en;; *); 
+<- character; 
+<- male; 
+<- boar; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Тимон)] (* <-lang_ru;; *); 
+[Description of character(Timon)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Timon_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Timon_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Тимон)](*<-lang_ru;;*); 
+[Pic. (Timon)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Timon.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Sarabi
+=> nrel_main_idtf: 
+[Сараби] (* <-lang_ru;; *); 
+[Sarabi] (* <-lang_en;; *); 
+<- character; 
+<- female; 
+<-lioness; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Сараби)] (* <-lang_ru;; *); 
+[Description of character(Sarabi)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Sarabi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Sarabi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Сараби)](*<-lang_ru;;*); 
+[Pic. (Sarabi)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Sarabi.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Timon
+=> nrel_main_idtf: 
+[Тимон] (* <-lang_ru;; *); 
+[Timon] (* <-lang_en;; *); 
+<- character; 
+<- male; 
+<- meerkat; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Тимон)] (* <-lang_ru;; *); 
+[Description of character(Timon)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Timon_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Timon_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Тимон)](*<-lang_ru;;*); 
+[Pic. (Timon)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Timon.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Roger_Allers
+=>nrel_main_idtf:
+		[Роджер Аллерс](*<-lang_ru;;*);
+		[Roger Allers](*<-lang_en;;*);;
+Don_Hahn
+=>nrel_main_idtf:
+		[Дон Хан](*<-lang_ru;;*);
+		[Don Hahn](*<-lang_en;;*);;
+lion
+=>nrel_main_idtf:
+		[лев](*<-lang_ru;;*);
+		[lion](*<-lang_en;;*);;
+boar
+=>nrel_main_idtf:
+		[кабан](*<-lang_ru;;*);
+		[boar](*<-lang_en;;*);;
+meerkat
+=>nrel_main_idtf:
+		[сурикат](*<-lang_ru;;*);
+		[meerkat](*<-lang_en;;*);;
+lioness
+=>nrel_main_idtf:
+		[львица](*<-lang_ru;;*);
+		[lioness](*<-lang_en;;*);;

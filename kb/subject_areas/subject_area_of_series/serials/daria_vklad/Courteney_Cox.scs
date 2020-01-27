@@ -1,0 +1,51 @@
+concept_human -> Courteney_Cox;;
+
+Courteney_Cox
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кортни Кокс]
+	(* <- lang_ru;;	*);
+	[Courteney Cox]
+	(* <- lang_en;;	*);;
+	
+Courteney_Cox <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кортни Кокс)](*<-lang_ru;;*);
+		[Description (Courteney Cox)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Courteney_Cox_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Courteney_Cox_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Courteney_Cox <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кортни Кокс)](*<-lang_ru;;*);
+		[Pic. (Courteney Cox)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Courteney_Cox.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1964;;
+Courteney_Cox=>nrel_date_of_birth: 1964;;
+1964=>nrel_main_idtf:[1964 год](*<-lang_ru;;*);;
+1964=>nrel_main_idtf:[year of 1964](*<-lang_en;;*);;
+
+concept_calendar_date->1984;;
+Courteney_Cox=>nrel_career_start_date: 1984;;
+1984=>nrel_main_idtf:[1984 год](*<-lang_ru;;*);;
+1984=>nrel_main_idtf:[year of 1984](*<-lang_en;;*);;
+
+Courteney_Cox =>nrel_cityzenship:Usa;;
+

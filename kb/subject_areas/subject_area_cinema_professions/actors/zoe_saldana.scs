@@ -1,0 +1,57 @@
+concept_human -> zoe_saldana;;
+ 
+ zoe_saldana <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Зои Салдана)](*<-lang_ru;;*);
+ 		[Description (Zoe Saldana)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/zoe_saldana_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ zoe_saldana <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Зои Салдана)](*<-lang_ru;;*);
+ 		[Pic. (Zoe Saldana)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/zoe_saldana.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ zoe_saldana => nrel_main_idtf : [Зои Салдана](*<-lang_ru;;*);;
+ zoe_saldana => nrel_main_idtf : [Zoe Saldana](*<-lang_en;;*);;
+ 
+ 
+ zoe_saldana => nrel_birth_date : 1978;;
+ 
+ concept_goverment -> Usa;;
+ zoe_saldana => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ zoe_saldana => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+zoe_saldana => nrel_to_star_in : guardians_of_the_galaxy_vol_2;;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Guardians of the Galaxy Vol. 2](*<-lang_en;;*);;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Стражи Галактики. Часть 2](*<-lang_ru;;*);;
+zoe_saldana => nrel_to_star_in : guardians_of_the_galaxy;;
+guardians_of_the_galaxy => nrel_main_idtf : [Guardians of the Galaxy](*<-lang_en;;*);;
+guardians_of_the_galaxy => nrel_main_idtf : [Стражи Галактики](*<-lang_ru;;*);;
+zoe_saldana => nrel_to_star_in : the_terminal;;
+the_terminal => nrel_main_idtf : [The Terminal](*<-lang_en;;*);;
+the_terminal => nrel_main_idtf : [Терминал](*<-lang_ru;;*);;
+zoe_saldana => nrel_to_star_in : pirates_of_the_caribbean_the_curse_of_the_black_pearl;;
+pirates_of_the_caribbean_the_curse_of_the_black_pearl => nrel_main_idtf : [Pirates of the Caribbean: The Curse of the Black Pearl](*<-lang_en;;*);;
+pirates_of_the_caribbean_the_curse_of_the_black_pearl => nrel_main_idtf : [Пираты Карибского моря: Проклятие Черной жемчужины](*<-lang_ru;;*);;
+

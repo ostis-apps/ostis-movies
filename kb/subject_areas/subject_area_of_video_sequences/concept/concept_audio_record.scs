@@ -1,0 +1,37 @@
+concept_audio_record
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[аудиозапись](*<-lang_ru;;*);
+	[audio record](*<-lang_en;;*);
+=>nrel_idtf:
+	[трек](*<-lang_ru;;*);
+    [music track](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (аудиозапись)](*<-lang_ru;;*);
+		[Def. (audio recording)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+		-> concept_sound;;
+        -> concept_medium;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_audio_recording_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_audio_recording_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (аудиозапись)](*<-lang_ru;;*);
+		[Pic. (audio record)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/audio_recording.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,60 @@
+concept_human -> david_fincher;;
+ 
+ david_fincher <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэвид Финчер)](*<-lang_ru;;*);
+ 		[Description (David Fincher)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/david_fincher_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ david_fincher <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэвид Финчер)](*<-lang_ru;;*);
+ 		[Pic. (David Fincher)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/david_fincher.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ david_fincher => nrel_main_idtf : [Дэвид Финчер](*<-lang_ru;;*);;
+ david_fincher => nrel_main_idtf : [David Fincher](*<-lang_en;;*);;
+ 
+ 
+ david_fincher => nrel_birth_date : 1962;;
+ 
+ concept_goverment -> Usa;;
+ david_fincher => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ david_fincher => nrel_to_star_in : gone_girl;;
+gone_girl => nrel_main_idtf : [Gone Girl](*<-lang_en;;*);;
+gone_girl => nrel_main_idtf : [Исчезнувшая](*<-lang_ru;;*);;
+david_fincher => nrel_to_star_in : the_curious_case_of_benjamin_button;;
+the_curious_case_of_benjamin_button => nrel_main_idtf : [The Curious Case of Benjamin Button](*<-lang_en;;*);;
+the_curious_case_of_benjamin_button => nrel_main_idtf : [Загадочная история Бенджамина Баттона](*<-lang_ru;;*);;
+david_fincher => nrel_to_star_in : panic_room;;
+panic_room => nrel_main_idtf : [Panic Room](*<-lang_en;;*);;
+panic_room => nrel_main_idtf : [Комната страха](*<-lang_ru;;*);;
+david_fincher => nrel_to_star_in : being_john_malkovich;;
+being_john_malkovich => nrel_main_idtf : [Being John Malkovich](*<-lang_en;;*);;
+being_john_malkovich => nrel_main_idtf : [Быть Джоном Малковичем](*<-lang_ru;;*);;
+david_fincher => nrel_to_star_in : fight_club;;
+fight_club => nrel_main_idtf : [Fight Club](*<-lang_en;;*);;
+fight_club => nrel_main_idtf : [Бойцовский клуб](*<-lang_ru;;*);;
+david_fincher => nrel_to_star_in : se7en;;
+se7en => nrel_main_idtf : [Se7en](*<-lang_en;;*);;
+se7en => nrel_main_idtf : [Семь](*<-lang_ru;;*);;
+

@@ -1,0 +1,67 @@
+film_baskiya_1996
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Баския]
+(* <- lang_ru;;    *);
+[Basquiat]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Баския)](*<-lang_ru;;*);
+[Description (Basquiat)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/baskiya-1996_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/baskiya-1996_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Баския)](*<-lang_ru;;*);
+		[Pic. (Basquiat)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/baskiya-1996.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [In 1981, A Nineteen-Year-Old Unknown Graffiti Writer Took The New York Art World By Storm. The Rest Is Art History.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [09.08.1996](*<-lang_ru;;*);;
+    => nrel_main_idtf : [09.08.1996](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H47M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H47M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_baskiya_1996 =>nrel_keywords: film;;
+
+film_baskiya_1996 <- concept_biography;concept_drama;;
+
+film_baskiya_1996 => nrel_main_actor : jeffrey_wright;michael_wincott;benicio_del_toro;claire_forlani;;
+film_baskiya_1996 => nrel_producer : julian_schnabel;;

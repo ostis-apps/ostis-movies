@@ -1,0 +1,41 @@
+concept_cartoon_Winnie_The_Pooh
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Винни-Пух]
+	(* <- lang_ru;;	*);
+	[Winnie-the-Pooh]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Винни-Пух)](*<-lang_ru;;*);
+		[Description (Winnie-the-Pooh)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Winnie The Pooh_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Winnie The Pooh_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Винни-Пух)](*<-lang_ru;;*);
+		[Pic. (Winnie-the-Pooh)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Winnie The Pooh.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_kids;
+=>nrel_keywords: concept_family_film;
+=>nrel_keywords: concept_short_film;
+=>nrel_age_rating: concept_PG6;;

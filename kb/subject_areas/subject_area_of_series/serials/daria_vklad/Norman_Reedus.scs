@@ -1,0 +1,51 @@
+concept_human -> Norman_Reedus;;
+
+Norman_Reedus
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Норман Ридус]
+	(* <- lang_ru;;	*);
+	[Norman Reedus]
+	(* <- lang_en;;	*);;
+	
+Norman_Reedus <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Норман Ридус)](*<-lang_ru;;*);
+		[Description (Norman Reedus)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Norman_Reedus_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Norman_Reedus_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Norman_Reedus <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Норман Ридус)](*<-lang_ru;;*);
+		[Pic. (Norman Reedus)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Norman_Reedus.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1969;;
+Norman_Reedus=>nrel_date_of_birth: 1969;;
+1969=>nrel_main_idtf:[1969 год](*<-lang_ru;;*);;
+1969=>nrel_main_idtf:[year of 1969](*<-lang_en;;*);;
+
+concept_calendar_date->1992;;
+Norman_Reedus=>nrel_career_start_date: 1992;;
+1992=>nrel_main_idtf:[1992 год](*<-lang_ru;;*);;
+1992=>nrel_main_idtf:[year of 1992](*<-lang_en;;*);;
+
+Norman_Reedus =>nrel_cityzenship:Usa;;
+

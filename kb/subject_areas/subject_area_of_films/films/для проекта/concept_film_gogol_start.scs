@@ -1,0 +1,31 @@
+concept_film_gogol_start
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гоголь:начало]
+	(* <- lang_ru;;	*);
+	[Gogol:start]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Гоголь:начало)](*<-lang_ru;;*);
+		[Description (Gogol:start)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Гоголь_начало.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Gogol_start.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_horror;
+=>nrel_keywords:concept_russian;
+=>nrel_keywords:concept_otherworldly;
+=>nrel_age_rating: concept_PG18;;	

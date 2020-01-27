@@ -1,0 +1,71 @@
+concept_film -> transformers2;;
+
+transformers2
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Трансформеры 2]
+	(* <- lang_ru;;	*);
+	[Transformers 2]
+	(* <- lang_en;;	*);;
+	
+transformers2 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Трансформеры 2)](*<-lang_ru;;*);
+		[Description (Transformers 2)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/transformers2_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/transformers2_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+transformers2 <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Трансформеры 2)](*<-lang_ru;;*);
+		[Pic. (Transformers 2)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/transformers2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+transformers2 => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 19_06_2009;;
+19_06_2009 => nrel_main_idtf : [19.06.2009](*<-lang_ru;;*);;
+19_06_2009 => nrel_main_idtf : [19.06.2009](*<-lang_en;;*);;
+transformers2 => nrel_release_date : 19_06_2009;;
+
+transformers2 => nrel_tagline_of_film : slogan_Transformers;;
+slogan_Transformers => nrel_main_idtf : [Месть неизбежна](*<-lang_ru;;*);;
+slogan_Transformers => nrel_main_idtf : [Revenge is inevitable](*<-lang_en;;*);;
+
+value -> 2_30;;
+2_30 => nrel_main_idtf : [2 часа и 30 минут](*<-lang_ru;;*);;
+2_30 => nrel_main_idtf : [2 hour and 30 minutes](*<-lang_en;;*);;
+transformers2 => nrel_duration_of_showing : 2_30;;
+
+value -> 836_303_693;;
+836_303_693 => nrel_main_idtf : [836 303 693$](*<-lang_ru;;*);;
+836_303_693 => nrel_main_idtf : [836 303 693$](*<-lang_en;;*);;
+transformers2 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 836_303_693;;   
+*);;
+
+transformers2 => nrel_film_critic_rating : 9;;
+
+transformers2 =>nrel_keywords: action; super_people;alliens;robots;fantasy;;
+transformers2 =>nrel_age_rating: concept_PG16;;
+
+transformers2 => nrel_main_actor : Merphy;Decanto;;
+transformers2 => nrel_producer : Mikel_Bay;;
+transformers2 => nrel_screenwriter : Kruger;;
+

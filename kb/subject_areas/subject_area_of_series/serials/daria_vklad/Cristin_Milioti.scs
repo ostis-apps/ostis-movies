@@ -1,0 +1,50 @@
+concept_human -> Cristin_Milioti;;
+
+Cristin_Milioti
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кристин Милиоти]
+	(* <- lang_ru;;	*);
+	[Cristin Milioti]
+	(* <- lang_en;;	*);;
+	
+Cristin_Milioti <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кристин Милиоти)](*<-lang_ru;;*);
+		[Description (Cristin Milioti)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Milioti_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Milioti_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Cristin_Milioti <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кристин Милиоти)](*<-lang_ru;;*);
+		[Pic. (Cristin Milioti)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Milioti.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1985;;
+Cristin_Milioti =>nrel_date_of_birth: 1985;;
+1985=>nrel_main_idtf:[1985 год](*<-lang_ru;;*);;
+1985=>nrel_main_idtf:[year of 1985](*<-lang_en;;*);;
+
+concept_calendar_date->2006;;
+Cristin_Milioti =>nrel_career_start_date: 2006;;
+2006=>nrel_main_idtf:[2006 год](*<-lang_ru;;*);;
+2006=>nrel_main_idtf:[year of 2006](*<-lang_en;;*);;
+
+Cristin_Milioti =>nrel_cityzenship:Usa;;

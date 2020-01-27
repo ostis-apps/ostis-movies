@@ -1,0 +1,52 @@
+concept_ivans_childhood
+<- sc_node_not_relation;
+=> nrel_main_producer: andrei_tarkovsky;
+=> nrel_screenwriter: andrei_tarkovsky;
+=> nrel_cameraman: vadim_yusov;
+=> nrel_producing_country:Russia;
+=> nrel_main_actor: nikolay_burlyaev;
+=> nrel_raiting: 9;
+=> nrel_editor; lyudmila_feiginova;
+
+=> nrel_age_limit: PG13;
+=> nrel_be_awarded: concept_venice_film_festival;
+=> nrel_main_idtf:
+        [Иваново детство]
+	(* <- lang_ru;;	*);
+	[Ivan's childhood]
+	(* <- lang_en;;	*);
+=> nrel_metagenre: concept_arthouse;
+=> nrel_metagenre: concept_war_film;
+=> nrel_metagenre: concept_drama;
+=> nrel_keywords: concept_war;
+=> nrel_character:...
+	(*
+  	->character_ivan;;
+	->character_kholin;;
+	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Иваново детство)](* <- lang_ru;; *);
+		[Desctiption (Ivan's childhood)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[ Детство 12-летнего <sc_element sys_idtf="character_ivan">Ивана</sc_element> закончилось в тот день, когда у него на глазах фашисты расстреляли мать и сестренку. Отец мальчика погиб на фронте. Оставшись сиротой, <sc_element sys_idtf="character_ivan">Иван</sc_element> уходит в воинскую часть и становится неуловимым разведчиком. Он с риском для жизни добывает для командования бесценные сведения о противнике.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[The childhood of 12-year-old <sc_element sys_idtf="character_ivan">Ivan</sc_element> ended that day when the Nazis shot his mother and sister in front of him. The boy's father died at the front. Remaining an orphan, Ivan retires to a military unit and becomes an elusive scout.
+Fearing his life, he receives invaluable information about the enemy for command.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Иваново детство)](*<-lang_ru;;*);
+		[Pic. (Ivan's childhood)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/IvansСhidhood.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,5 @@
+rrel_month
+<-sc_node_role_relation;
+=>nrel_main_idtf:
+	[месяц'](*<-lang_ru;;*);
+	[month'](*<-lang_en;;*);;

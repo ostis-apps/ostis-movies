@@ -1,0 +1,67 @@
+film_bolshoy_biznes_1988
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Большой бизнес]
+(* <- lang_ru;;    *);
+[Big Business]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Большой бизнес)](*<-lang_ru;;*);
+[Description (Big Business)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bolshoy-biznes-1988_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bolshoy-biznes-1988_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Большой бизнес)](*<-lang_ru;;*);
+		[Pic. (Big Business)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bolshoy-biznes-1988.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Two's company; four's a riot. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [10.06.1988](*<-lang_ru;;*);;
+    => nrel_main_idtf : [10.06.1988](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H37M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H37M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_bolshoy_biznes_1988 =>nrel_keywords: film;;
+
+film_bolshoy_biznes_1988 <- concept_comedy;;
+
+film_bolshoy_biznes_1988 => nrel_main_actor : bette_midler;lily_tomlin;fred_ward;edward_herrmann;;
+film_bolshoy_biznes_1988 => nrel_producer : jim_abrahams;;

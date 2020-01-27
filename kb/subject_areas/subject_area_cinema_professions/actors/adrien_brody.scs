@@ -1,0 +1,51 @@
+concept_human -> adrien_brody;;
+ 
+ adrien_brody <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эдриан Броуди)](*<-lang_ru;;*);
+ 		[Description (Adrien Brody)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/adrien_brody_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ adrien_brody <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эдриан Броуди)](*<-lang_ru;;*);
+ 		[Pic. (Adrien Brody)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/adrien_brody.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ adrien_brody => nrel_main_idtf : [Эдриан Броуди](*<-lang_ru;;*);;
+ adrien_brody => nrel_main_idtf : [Adrien Brody](*<-lang_en;;*);;
+ 
+ 
+ adrien_brody => nrel_birth_date : 1973;;
+ 
+ concept_goverment -> Usa;;
+ adrien_brody => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ adrien_brody => nrel_to_star_in : the_village;;
+the_village => nrel_main_idtf : [The Village](*<-lang_en;;*);;
+the_village => nrel_main_idtf : [Таинственный лес](*<-lang_ru;;*);;
+adrien_brody => nrel_to_star_in : the_thin_red_line;;
+the_thin_red_line => nrel_main_idtf : [The Thin Red Line](*<-lang_en;;*);;
+the_thin_red_line => nrel_main_idtf : [Тонкая красная линия](*<-lang_ru;;*);;
+adrien_brody => nrel_to_star_in : bullet;;
+bullet => nrel_main_idtf : [Bullet](*<-lang_en;;*);;
+bullet => nrel_main_idtf : [Пуля](*<-lang_ru;;*);;
+

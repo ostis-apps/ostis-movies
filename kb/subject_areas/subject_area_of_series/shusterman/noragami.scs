@@ -1,0 +1,64 @@
+
+                  concept_series -> Noragami;;
+              
+                  Noragami
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Noragami]
+                    (* <- lang_ru;;	*);
+                    [Noragami]
+                    (* <- lang_en;;	*);;
+                  
+                  Noragami <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Noragami)](*<-lang_ru;;*);
+                      [Description (Noragami)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Noragami_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Noragami_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Noragami <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Noragami)](*<-lang_ru;;*);
+                      [Pic. (Noragami)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Noragami.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Noragami => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Noragami => nrel_production_year : 2014;;
+                  
+                  value -> 2;;
+                  Noragami => nrel_num_of_seasons: 2;;
+                  value -> 25;;
+                  Noragami => nrel_num_of_episodes: 25;;
+                  
+                  value -> 5;;
+                  Noragami => nrel_no_countries : 5;;
+                  
+                  value -> 5;;
+                  Noragami => nrel_viewers_in_millions: 5;;
+                  
+                  Noragami => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Noragami
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,67 @@
+film_baletnye_tufelki_2007
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Балетные туфельки]
+(* <- lang_ru;;    *);
+[Ballet Shoes]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Балетные туфельки)](*<-lang_ru;;*);
+[Description (Ballet Shoes)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/baletnye-tufelki-2007_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/baletnye-tufelki-2007_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Балетные туфельки)](*<-lang_ru;;*);
+		[Pic. (Ballet Shoes)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/baletnye-tufelki-2007.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Dreams do come true...](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.12.2007](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.12.2007](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H25M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H25M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_baletnye_tufelki_2007 =>nrel_keywords: film;;
+
+film_baletnye_tufelki_2007 <- concept_drama;concept_family;;
+
+film_baletnye_tufelki_2007 => nrel_main_actor : emma_watson;yasmin_paige;lucy_boynton;emilia_fox;;
+film_baletnye_tufelki_2007 => nrel_producer : sandra_goldbacher;;

@@ -1,0 +1,45 @@
+concept_human -> melissa_mccarthy;;
+ 
+ melissa_mccarthy <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мелисса МакКарти)](*<-lang_ru;;*);
+ 		[Description (Melissa McCarthy)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/melissa_mccarthy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ melissa_mccarthy <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мелисса МакКарти)](*<-lang_ru;;*);
+ 		[Pic. (Melissa McCarthy)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/melissa_mccarthy.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ melissa_mccarthy => nrel_main_idtf : [Мелисса МакКарти](*<-lang_ru;;*);;
+ melissa_mccarthy => nrel_main_idtf : [Melissa McCarthy](*<-lang_en;;*);;
+ 
+ 
+ melissa_mccarthy => nrel_birth_date : 1970;;
+ 
+ concept_goverment -> Usa;;
+ melissa_mccarthy => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ melissa_mccarthy => nrel_to_star_in : ghostbusters;;
+ghostbusters => nrel_main_idtf : [Ghostbusters](*<-lang_en;;*);;
+ghostbusters => nrel_main_idtf : [Охотники за привидениями](*<-lang_ru;;*);;
+

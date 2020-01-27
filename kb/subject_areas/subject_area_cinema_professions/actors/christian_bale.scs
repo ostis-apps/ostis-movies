@@ -1,0 +1,66 @@
+concept_human -> christian_bale;;
+ 
+ christian_bale <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристиан Бейл)](*<-lang_ru;;*);
+ 		[Description (Christian Bale)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/christian_bale_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ christian_bale <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристиан Бейл)](*<-lang_ru;;*);
+ 		[Pic. (Christian Bale)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/christian_bale.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ christian_bale => nrel_main_idtf : [Кристиан Бейл](*<-lang_ru;;*);;
+ christian_bale => nrel_main_idtf : [Christian Bale](*<-lang_en;;*);;
+ 
+ 
+ christian_bale => nrel_birth_date : 1974;;
+ 
+ concept_goverment -> UK;;
+ christian_bale => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ christian_bale => nrel_to_star_in : vice;;
+vice => nrel_main_idtf : [Vice](*<-lang_en;;*);;
+vice => nrel_main_idtf : [Власть](*<-lang_ru;;*);;
+christian_bale => nrel_to_star_in : the_big_short;;
+the_big_short => nrel_main_idtf : [The Big Short](*<-lang_en;;*);;
+the_big_short => nrel_main_idtf : [Игра на понижение](*<-lang_ru;;*);;
+christian_bale => nrel_to_star_in : american_hustle;;
+american_hustle => nrel_main_idtf : [American Hustle](*<-lang_en;;*);;
+american_hustle => nrel_main_idtf : [Афера по-американски](*<-lang_ru;;*);;
+christian_bale => nrel_to_star_in : the_dark_knight_rises;;
+the_dark_knight_rises => nrel_main_idtf : [The Dark Knight Rises](*<-lang_en;;*);;
+the_dark_knight_rises => nrel_main_idtf : [Темный рыцарь: Возрождение легенды](*<-lang_ru;;*);;
+christian_bale => nrel_to_star_in : the_dark_knight;;
+the_dark_knight => nrel_main_idtf : [The Dark Knight](*<-lang_en;;*);;
+the_dark_knight => nrel_main_idtf : [Темный рыцарь](*<-lang_ru;;*);;
+christian_bale => nrel_to_star_in : the_prestige;;
+the_prestige => nrel_main_idtf : [The Prestige](*<-lang_en;;*);;
+the_prestige => nrel_main_idtf : [Престиж](*<-lang_ru;;*);;
+christian_bale => nrel_to_star_in : batman_begins;;
+batman_begins => nrel_main_idtf : [Batman Begins](*<-lang_en;;*);;
+batman_begins => nrel_main_idtf : [Бэтмен: Начало](*<-lang_ru;;*);;
+christian_bale => nrel_to_star_in : american_psycho;;
+american_psycho => nrel_main_idtf : [American Psycho](*<-lang_en;;*);;
+american_psycho => nrel_main_idtf : [Американский психопат](*<-lang_ru;;*);;
+

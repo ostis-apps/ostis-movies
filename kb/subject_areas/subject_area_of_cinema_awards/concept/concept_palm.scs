@@ -1,0 +1,33 @@
+concept_palm
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[плаьмовая ветвь](*<-lang_ru;;*);
+	[palm](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (пальмовая ветвь)](*<-lang_ru;;*);
+		[Def. (palm)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_palm_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_palm_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (пальмовая ветвь)](*<-lang_ru;;*);
+		[Pic. (palm)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/palm.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

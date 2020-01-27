@@ -1,0 +1,45 @@
+concept_human -> taylor_kitsch;;
+ 
+ taylor_kitsch <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Тейлор Китч)](*<-lang_ru;;*);
+ 		[Description (Taylor Kitsch)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/taylor_kitsch_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ taylor_kitsch <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Тейлор Китч)](*<-lang_ru;;*);
+ 		[Pic. (Taylor Kitsch)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/taylor_kitsch.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ taylor_kitsch => nrel_main_idtf : [Тейлор Китч](*<-lang_ru;;*);;
+ taylor_kitsch => nrel_main_idtf : [Taylor Kitsch](*<-lang_en;;*);;
+ 
+ 
+ taylor_kitsch => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> Canada;;
+ taylor_kitsch => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ taylor_kitsch => nrel_to_star_in : xmen_origins_wolverine;;
+xmen_origins_wolverine => nrel_main_idtf : [X-Men Origins: Wolverine](*<-lang_en;;*);;
+xmen_origins_wolverine => nrel_main_idtf : [Люди Икс: Начало. Росомаха](*<-lang_ru;;*);;
+

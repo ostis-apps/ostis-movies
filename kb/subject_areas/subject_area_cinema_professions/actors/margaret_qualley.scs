@@ -1,0 +1,48 @@
+concept_human -> margaret_qualley;;
+ 
+ margaret_qualley <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Маргарет Куэлли)](*<-lang_ru;;*);
+ 		[Description (Margaret Qualley)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/margaret_qualley_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ margaret_qualley <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Маргарет Куэлли)](*<-lang_ru;;*);
+ 		[Pic. (Margaret Qualley)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/margaret_qualley.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ margaret_qualley => nrel_main_idtf : [Маргарет Куэлли](*<-lang_ru;;*);;
+ margaret_qualley => nrel_main_idtf : [Margaret Qualley](*<-lang_en;;*);;
+ 
+ 
+ margaret_qualley => nrel_birth_date : 1994;;
+ 
+ concept_goverment -> Usa;;
+ margaret_qualley => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ margaret_qualley => nrel_to_star_in : once_upon_a_time__in_hollywood;;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Once Upon a Time ... in Hollywood](*<-lang_en;;*);;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Однажды… в Голливуде](*<-lang_ru;;*);;
+margaret_qualley => nrel_to_star_in : the_nice_guys;;
+the_nice_guys => nrel_main_idtf : [The Nice Guys](*<-lang_en;;*);;
+the_nice_guys => nrel_main_idtf : [Славные парни](*<-lang_ru;;*);;
+

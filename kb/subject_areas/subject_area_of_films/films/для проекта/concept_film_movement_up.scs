@@ -1,0 +1,31 @@
+concept_film_movement_up
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Движение вверх]
+	(* <- lang_ru;;	*);
+	[Movement up]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Движение вверх)](*<-lang_ru;;*);
+		[Description (Movement up)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Движение_вверх.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Movement_up.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_sport;
+=>nrel_keywords:concept_russian;
+=>nrel_keywords:concept_basketball;
+=>nrel_age_rating: concept_PG6;;	

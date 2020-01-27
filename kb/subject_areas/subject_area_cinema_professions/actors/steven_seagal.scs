@@ -1,0 +1,57 @@
+concept_human -> steven_seagal;;
+ 
+ steven_seagal <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Стивен Сигал)](*<-lang_ru;;*);
+ 		[Description (Steven Seagal)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/steven_seagal_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ steven_seagal <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Стивен Сигал)](*<-lang_ru;;*);
+ 		[Pic. (Steven Seagal)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/steven_seagal.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ steven_seagal => nrel_main_idtf : [Стивен Сигал](*<-lang_ru;;*);;
+ steven_seagal => nrel_main_idtf : [Steven Seagal](*<-lang_en;;*);;
+ 
+ 
+ steven_seagal => nrel_birth_date : 1952;;
+ 
+ concept_goverment -> Usa;;
+ steven_seagal => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ steven_seagal => nrel_to_star_in : machete;;
+machete => nrel_main_idtf : [Machete](*<-lang_en;;*);;
+machete => nrel_main_idtf : [Мачете](*<-lang_ru;;*);;
+steven_seagal => nrel_to_star_in : executive_decision;;
+executive_decision => nrel_main_idtf : [Executive Decision](*<-lang_en;;*);;
+executive_decision => nrel_main_idtf : [Приказано уничтожить](*<-lang_ru;;*);;
+steven_seagal => nrel_to_star_in : on_deadly_ground;;
+on_deadly_ground => nrel_main_idtf : [On Deadly Ground](*<-lang_en;;*);;
+on_deadly_ground => nrel_main_idtf : [Зона смертельной опасности](*<-lang_ru;;*);;
+steven_seagal => nrel_to_star_in : under_siege;;
+under_siege => nrel_main_idtf : [Under Siege](*<-lang_en;;*);;
+under_siege => nrel_main_idtf : [В осаде](*<-lang_ru;;*);;
+steven_seagal => nrel_to_star_in : above_the_law;;
+above_the_law => nrel_main_idtf : [Above The Law](*<-lang_en;;*);;
+above_the_law => nrel_main_idtf : [Над законом](*<-lang_ru;;*);;
+

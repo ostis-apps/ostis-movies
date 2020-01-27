@@ -1,0 +1,47 @@
+concept_cartoon_Three_Heroes_and_Shamakhan_Queen
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Три богатыря и Шамаханская царица]
+	(* <- lang_ru;;	*);
+	[Three Heroes and Shamakhan Queen]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Три богатыря и Шамаханская царица)](*<-lang_ru;;*);
+		[Description (Three Heroes and Shamakhan Queen)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Three Heroes and Shamakhan Queen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Three Heroes and Shamakhan Queen_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Три богатыря и Шамаханская царица)](*<-lang_ru;;*);
+		[Pic. (Three Heroes and Shamakhan Queen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Three Heroes and Shamakhan Queen.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+<=nrel_inclusion:concept_cartoon_about_russian_warriors;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_superhero;
+=>nrel_keywords: concept_animals;
+=>nrel_age_rating: concept_PG0;
+=> nrel_production_country: Russia;
+=>nrel_prototype: concept_character_Ilya_Muromets;
+=>nrel_prototype: concept_character_Dobrynya_Nikitich;
+=>nrel_prototype: concept_character_Alesha_Popovich;;

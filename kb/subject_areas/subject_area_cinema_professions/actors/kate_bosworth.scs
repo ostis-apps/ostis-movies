@@ -1,0 +1,51 @@
+concept_human -> kate_bosworth;;
+ 
+ kate_bosworth <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кейт Босуорт)](*<-lang_ru;;*);
+ 		[Description (Kate Bosworth)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kate_bosworth_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kate_bosworth <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кейт Босуорт)](*<-lang_ru;;*);
+ 		[Pic. (Kate Bosworth)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kate_bosworth.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kate_bosworth => nrel_main_idtf : [Кейт Босуорт](*<-lang_ru;;*);;
+ kate_bosworth => nrel_main_idtf : [Kate Bosworth](*<-lang_en;;*);;
+ 
+ 
+ kate_bosworth => nrel_birth_date : 1983;;
+ 
+ concept_goverment -> Usa;;
+ kate_bosworth => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kate_bosworth => nrel_to_star_in : the_domestics;;
+the_domestics => nrel_main_idtf : [The Domestics](*<-lang_en;;*);;
+the_domestics => nrel_main_idtf : [Местные](*<-lang_ru;;*);;
+kate_bosworth => nrel_to_star_in : movie_43;;
+movie_43 => nrel_main_idtf : [Movie 43](*<-lang_en;;*);;
+movie_43 => nrel_main_idtf : [Муви 43](*<-lang_ru;;*);;
+kate_bosworth => nrel_to_star_in : the_horse_whisperer;;
+the_horse_whisperer => nrel_main_idtf : [The Horse Whisperer](*<-lang_en;;*);;
+the_horse_whisperer => nrel_main_idtf : [Заклинатель лошадей](*<-lang_ru;;*);;
+

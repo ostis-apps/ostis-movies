@@ -1,0 +1,63 @@
+concept_human -> josh_brolin;;
+ 
+ josh_brolin <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джош Бролин)](*<-lang_ru;;*);
+ 		[Description (Josh Brolin)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/josh_brolin_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ josh_brolin <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джош Бролин)](*<-lang_ru;;*);
+ 		[Pic. (Josh Brolin)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/josh_brolin.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ josh_brolin => nrel_main_idtf : [Джош Бролин](*<-lang_ru;;*);;
+ josh_brolin => nrel_main_idtf : [Josh Brolin](*<-lang_en;;*);;
+ 
+ 
+ josh_brolin => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Usa;;
+ josh_brolin => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ josh_brolin => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+josh_brolin => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+josh_brolin => nrel_to_star_in : deadpool_2;;
+deadpool_2 => nrel_main_idtf : [Deadpool 2](*<-lang_en;;*);;
+deadpool_2 => nrel_main_idtf : [Дэдпул 2](*<-lang_ru;;*);;
+josh_brolin => nrel_to_star_in : everest;;
+everest => nrel_main_idtf : [Everest](*<-lang_en;;*);;
+everest => nrel_main_idtf : [Эверест](*<-lang_ru;;*);;
+josh_brolin => nrel_to_star_in : guardians_of_the_galaxy;;
+guardians_of_the_galaxy => nrel_main_idtf : [Guardians of the Galaxy](*<-lang_en;;*);;
+guardians_of_the_galaxy => nrel_main_idtf : [Стражи Галактики](*<-lang_ru;;*);;
+josh_brolin => nrel_to_star_in : sin_city_a_dame_to_kill_for;;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Sin City: A Dame to Kill For](*<-lang_en;;*);;
+sin_city_a_dame_to_kill_for => nrel_main_idtf : [Город грехов 2: Женщина, ради которой стоит убивать](*<-lang_ru;;*);;
+josh_brolin => nrel_to_star_in : gangster_squad;;
+gangster_squad => nrel_main_idtf : [Gangster Squad](*<-lang_en;;*);;
+gangster_squad => nrel_main_idtf : [Охотники на гангстеров](*<-lang_ru;;*);;
+

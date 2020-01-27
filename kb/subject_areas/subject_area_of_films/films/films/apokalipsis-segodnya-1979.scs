@@ -1,0 +1,67 @@
+film_apokalipsis_segodnya_1979
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Апокалипсис сегодня]
+(* <- lang_ru;;    *);
+[Apocalypse Now]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Апокалипсис сегодня)](*<-lang_ru;;*);
+[Description (Apocalypse Now)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/apokalipsis-segodnya-1979_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/apokalipsis-segodnya-1979_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Апокалипсис сегодня)](*<-lang_ru;;*);
+		[Pic. (Apocalypse Now)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/apokalipsis-segodnya-1979.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The Horror. . . The Horror. . . See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [15.08.1979](*<-lang_ru;;*);;
+    => nrel_main_idtf : [15.08.1979](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H27M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H27M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_apokalipsis_segodnya_1979 =>nrel_keywords: film;;
+
+film_apokalipsis_segodnya_1979 <- concept_drama;concept_mystery;concept_war;;
+
+film_apokalipsis_segodnya_1979 => nrel_main_actor : martin_sheen;marlon_brando;robert_duvall;frederic_forrest;;
+film_apokalipsis_segodnya_1979 => nrel_producer : francis_ford_coppola;francis_ford_coppola;;

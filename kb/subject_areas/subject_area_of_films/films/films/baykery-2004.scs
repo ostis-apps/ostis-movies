@@ -1,0 +1,67 @@
+film_baykery_2004
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Байкеры]
+(* <- lang_ru;;    *);
+[Dhoom]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Байкеры)](*<-lang_ru;;*);
+[Description (Dhoom)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/baykery-2004_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/baykery-2004_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Байкеры)](*<-lang_ru;;*);
+		[Pic. (Dhoom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/baykery-2004.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : india;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [One brave cop... one smart thief... one cool biker... together they create... See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [27.08.2004](*<-lang_ru;;*);;
+    => nrel_main_idtf : [27.08.2004](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H9M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H9M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_Not_Rated;;
+
+film_baykery_2004 =>nrel_keywords: film;;
+
+film_baykery_2004 <- concept_action;concept_thriller;;
+
+film_baykery_2004 => nrel_main_actor : abhishek_bachchan;john_abraham;uday_chopra;esha_deol;;
+film_baykery_2004 => nrel_producer : sanjay_gadhvi;;

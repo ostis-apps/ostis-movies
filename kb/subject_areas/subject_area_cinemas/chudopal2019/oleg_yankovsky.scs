@@ -1,0 +1,33 @@
+oleg_yankovsky
+<- person;
+<- concept_actor;
+=> nrel_main_idtf:
+        [Олег Янковский]
+	(* <- lang_ru;;	*);
+	[Oleg Yankovsky]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+        <- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Олег Янковский)](* <- lang_ru;; *);
+		[Desctiption (Oleg Yankovsky)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+	        (*
+		        -> rrel_example:[<b><sc_element sys_idtf="oleg_yankovsky">Олег Янковский</sc_element></b> — советский и российский актер.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="oleg_yankovsky">Oleg Yankovsky</sc_element></b> -  Soviet and Russian actor.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+        <-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Олег Янковский)](*<-lang_ru;;*);
+		[Pic. (Oleg Yankovsky)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/VadimYusov.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

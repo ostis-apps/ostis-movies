@@ -1,0 +1,366 @@
+concept_antihero
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Антигерой]
+	
+(* <- lang_ru;;	*);
+	
+[Antihero]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_violence
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Насилие]
+	
+(* <- lang_ru;;	*);
+	
+[Violence]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_immortality
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Бессмертие]
+	
+(* <- lang_ru;;	*);
+	
+[Immortality]
+	
+(* <- lang_en;;	*);
+
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_courage
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Отвага]
+	
+(* <- lang_ru;;	*);
+	
+[Courage]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_magic
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Волшебство]
+	
+(* <- lang_ru;;	*);
+	
+[Magic]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_ambiguous_villain
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Неоднозначный злодей]
+	
+(* <- lang_ru;;	*);
+	
+[ambiguous villain]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_amulet
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Амулет]
+(* <- lang_ru;;	*);
+[Amulet]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_anthropomorphism
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Антропоморфизм]
+(* <- lang_ru;;	*);
+[Anthropomorphism]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_fraud
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Мошенничество]
+	
+(* <- lang_ru;;	*);
+	
+[Fraud]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_bulling
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Буллинг]
+	
+(* <- lang_ru;;	*);
+	
+[Bulling]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_gang
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Банда]
+	
+(* <- lang_ru;;	*);
+	
+[Gang]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_survival
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Выживание]
+	
+(* <- lang_ru;;	*);
+	
+[Survival]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_translator
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Переводчик]
+	
+(* <- lang_ru;;	*);
+	
+[Translator]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_disease
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Болезнь]
+	
+(* <- lang_ru;;	*);
+	
+[Disease]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_amnesia
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Амнезия]
+	
+(* <- lang_ru;;	*);
+	
+[Amnesia]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_hell
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Ад]
+	
+(* <- lang_ru;;	*);
+	
+[Hell]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_car_accident
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Автокатастрофа]
+	
+(* <- lang_ru;;	*);
+	
+[Car accident]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_disability
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Инвалидность]
+	
+(* <- lang_ru;;	*);
+	
+[Disability]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_wedding
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Свадьба]
+	
+(* <- lang_ru;;	*);
+	
+[Wedding]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_depression
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Депрессия]
+	
+(* <- lang_ru;;	*);
+	
+[Depression]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_passenger
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Пассажир]
+	
+(* <- lang_ru;;	*);
+	
+[Passenger]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_loneliness
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Одиночество]
+	
+(* <- lang_ru;;	*);
+	
+[Loneliness]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_panic
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Паника]
+	
+(* <- lang_ru;;	*);
+	
+[Panic]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_autism
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Аутизм]
+	
+(* <- lang_ru;;	*);
+	
+[Autism]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_jungle
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Джунгли]
+	
+(* <- lang_ru;;	*);
+	
+[Jungle]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_friendship
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+	
+[Дружба]
+	
+(* <- lang_ru;;	*);
+	
+[Friendship]
+	
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+

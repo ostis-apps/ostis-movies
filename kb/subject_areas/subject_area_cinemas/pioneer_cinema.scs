@@ -1,0 +1,6 @@
+pioneer_cinema
+=>nrel_main_idtf:
+	[кинотеатр Пионер](*<-lang_ru;;*);
+	[Pioneer cinema](*<-lang_en;;*);
+=> nrel_cinema_location: minsk;
+<- concept_cinema;;

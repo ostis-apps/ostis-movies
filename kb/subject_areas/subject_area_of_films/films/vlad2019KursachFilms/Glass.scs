@@ -1,0 +1,78 @@
+concept_film -> Glass;;
+
+Glass
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Стекло]
+	(* <- lang_ru;;	*);
+	[Glass]
+	(* <- lang_en;;	*);;
+	
+Glass <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Стекло)](*<-lang_ru;;*);
+		[Description (Glass)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Glass_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Glass_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Glass <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Стекло)](*<-lang_ru;;*);
+		[Pic. (Glass)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Glass.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Glass => nrel_producing_country : France;;
+concept_country -> France;;
+France => nrel_main_idtf : [Франция](*<-lang_ru;;*);;
+France => nrel_main_idtf : [France](*<-lang_en;;*);;
+
+concept_calendar_date -> 16_01_2019;;
+16_01_2019 => nrel_main_idtf : [16.01.2019](*<-lang_ru;;*);;
+16_01_2019 => nrel_main_idtf : [16.01.2019](*<-lang_en;;*);;
+Glass => nrel_release_date : 16_01_2019;;
+
+Glass => nrel_tagline_of_film : slogan_Glass;;
+slogan_Glass => nrel_main_idtf : [Дай волю своим демонам](*<-lang_ru;;*);;
+slogan_Glass => nrel_main_idtf : [Unleash your demons](*<-lang_en;;*);;
+
+Glass => nrel_duration_of_showing : 2_05;;
+
+duration -> 2_05;;
+2_05 => nrel_main_idtf : [2 часа и 5 минут](*<-lang_ru;;*);;
+2_05 => nrel_main_idtf : [2 hour and 5 minutes](*<-lang_en;;*);;
+
+value -> 245_544_213;;
+245_544_213 => nrel_main_idtf : [245 544 213$](*<-lang_ru;;*);;
+245_544_213 => nrel_main_idtf : [245 544 213$](*<-lang_en;;*);;
+Glass <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 245_544_213;;   
+*);;
+
+value -> 7;;
+Glass => nrel_film_critic_rating : 7;;
+
+Glass =>nrel_keywords: concept_courage; concept_antihero; concept_immortality;super_people;;
+Glass =>nrel_age_rating: concept_PG16;;
+
+Glass => nrel_main_actor : Morgan_Friman; Bruce_Willis;James_McAvoy;Samuel_Jackson;;
+Glass => nrel_producer : Shamalan;;
+Glass => nrel_screenwriter : Shamalan;;
+
+concept_country => nrel_main_idtf : [Страна](*<-lang_ru;;*);;
+concept_country => nrel_main_idtf : [Country](*<-lang_en;;*);;

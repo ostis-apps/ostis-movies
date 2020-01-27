@@ -1,0 +1,9 @@
+concept_film -> Spider_Man; Spider_Man_2; Spider_Man_3;;
+
+Spider_Man => nrel_production_country: USA;;
+Spider_Man_2 => nrel_production_country: UK;;
+Spider_Man_3 => nrel_production_country: USA;;
+
+Spider_Man => nrel_age_rating: concept_PG12;;
+Spider_Man_2 => nrel_age_rating: concept_PG12;;
+Spider_Man_3 => nrel_age_rating: concept_R;;

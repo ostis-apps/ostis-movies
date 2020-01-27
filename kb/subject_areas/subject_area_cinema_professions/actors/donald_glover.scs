@@ -1,0 +1,48 @@
+concept_human -> donald_glover;;
+ 
+ donald_glover <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дональд Гловер)](*<-lang_ru;;*);
+ 		[Description (Donald Glover)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/donald_glover_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ donald_glover <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дональд Гловер)](*<-lang_ru;;*);
+ 		[Pic. (Donald Glover)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/donald_glover.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ donald_glover => nrel_main_idtf : [Дональд Гловер](*<-lang_ru;;*);;
+ donald_glover => nrel_main_idtf : [Donald Glover](*<-lang_en;;*);;
+ 
+ 
+ donald_glover => nrel_birth_date : 1983;;
+ 
+ concept_goverment -> Usa;;
+ donald_glover => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ donald_glover => nrel_to_star_in : solo_a_star_wars_story;;
+solo_a_star_wars_story => nrel_main_idtf : [Solo: A Star Wars Story](*<-lang_en;;*);;
+solo_a_star_wars_story => nrel_main_idtf : [Хан Соло: Звёздные Войны. Истории](*<-lang_ru;;*);;
+donald_glover => nrel_to_star_in : spiderman_homecoming;;
+spiderman_homecoming => nrel_main_idtf : [Spider-Man: Homecoming](*<-lang_en;;*);;
+spiderman_homecoming => nrel_main_idtf : [Человек-паук: Возвращение домой](*<-lang_ru;;*);;
+

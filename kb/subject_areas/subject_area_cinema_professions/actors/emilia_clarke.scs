@@ -1,0 +1,60 @@
+concept_human -> emilia_clarke;;
+ 
+ emilia_clarke <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эмилия Кларк)](*<-lang_ru;;*);
+ 		[Description (Emilia Clarke)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/emilia_clarke_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ emilia_clarke <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эмилия Кларк)](*<-lang_ru;;*);
+ 		[Pic. (Emilia Clarke)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/emilia_clarke.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ emilia_clarke => nrel_main_idtf : [Эмилия Кларк](*<-lang_ru;;*);;
+ emilia_clarke => nrel_main_idtf : [Emilia Clarke](*<-lang_en;;*);;
+ 
+ 
+ emilia_clarke => nrel_birth_date : 1986;;
+ 
+ concept_goverment -> UK;;
+ emilia_clarke => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ emilia_clarke => nrel_to_star_in : solo_a_star_wars_story;;
+solo_a_star_wars_story => nrel_main_idtf : [Solo: A Star Wars Story](*<-lang_en;;*);;
+solo_a_star_wars_story => nrel_main_idtf : [Хан Соло: Звёздные Войны. Истории](*<-lang_ru;;*);;
+emilia_clarke => nrel_to_star_in : voice_from_the_stone;;
+voice_from_the_stone => nrel_main_idtf : [Voice from the Stone](*<-lang_en;;*);;
+voice_from_the_stone => nrel_main_idtf : [Голос из камня](*<-lang_ru;;*);;
+emilia_clarke => nrel_to_star_in : me_before_you;;
+me_before_you => nrel_main_idtf : [Me Before You](*<-lang_en;;*);;
+me_before_you => nrel_main_idtf : [До встречи с тобой](*<-lang_ru;;*);;
+emilia_clarke => nrel_to_star_in : terminator_genisys;;
+terminator_genisys => nrel_main_idtf : [Terminator Genisys](*<-lang_en;;*);;
+terminator_genisys => nrel_main_idtf : [Терминатор: Генезис](*<-lang_ru;;*);;
+emilia_clarke => nrel_to_star_in : dom_hemingway;;
+dom_hemingway => nrel_main_idtf : [Dom Hemingway](*<-lang_en;;*);;
+dom_hemingway => nrel_main_idtf : [Дом Хемингуэй](*<-lang_ru;;*);;
+emilia_clarke => nrel_to_star_in : spike_island;;
+spike_island => nrel_main_idtf : [Spike Island](*<-lang_en;;*);;
+spike_island => nrel_main_idtf : [Спайк Айленд](*<-lang_ru;;*);;
+

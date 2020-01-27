@@ -1,0 +1,130 @@
+
+                  concept_series -> Once_Upon_a_Time;;
+              
+                  Once_Upon_a_Time
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Давным-давно]
+                    (* <- lang_ru;;	*);
+                    [Once_Upon_a_Time]
+                    (* <- lang_en;;	*);;
+                  
+                  Once_Upon_a_Time <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Давным-давно)](*<-lang_ru;;*);
+                      [Description (Once_Upon_a_Time)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Once_Upon_a_Time_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Once_Upon_a_Time_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Once_Upon_a_Time <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Давным-давно)](*<-lang_ru;;*);
+                      [Pic. (Once_Upon_a_Time)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Once_Upon_a_Time.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Once_Upon_a_Time => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  Once_Upon_a_Time => nrel_production_year : 2011;;
+                  
+                  value -> 7;;
+                  Once_Upon_a_Time => nrel_num_of_seasons: 7;;
+                  value -> 156;;
+                  Once_Upon_a_Time => nrel_num_of_episodes: 156;;
+                  
+                  value -> 5;;
+                  Once_Upon_a_Time => nrel_no_countries : 5;;
+                  
+                  value -> 6;;
+                  Once_Upon_a_Time => nrel_viewers_in_millions: 6;;
+                  
+                  Once_Upon_a_Time => nrel_age_rating: concept_PG12;;
+                  
+                    Once_Upon_a_Time => nrel_actor : JenniferMorrison;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : LanaParrilla;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : JaredSGilmore;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : RobertCarlyle;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : GinniferGoodwin;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : JoshDallas;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : ColinODonoghue;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : EmiliedeRavin;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : RebeccaMader;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : SeanMaguire;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : MeghanOry;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : RaphaelSbarge;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : MichaelRaymondJames;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : EionBailey;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : AndrewJWest;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : AlisonFernandez;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : ColinODonoghue;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : DaniaRamirez;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : MichaelSocha;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : MekiaCox;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : GabrielleAnwar;;
+                    
+                   
+                    Once_Upon_a_Time => nrel_actor : JamieDornan;;
+                    
+                  
+                  
+                  Once_Upon_a_Time
+                  =>nrel_keywords: concept_detectif;;
+                  

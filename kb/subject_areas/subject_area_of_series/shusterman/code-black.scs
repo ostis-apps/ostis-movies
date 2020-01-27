@@ -1,0 +1,109 @@
+
+                  concept_series -> Code_Black;;
+              
+                  Code_Black
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Code_Black]
+                    (* <- lang_ru;;	*);
+                    [Code_Black]
+                    (* <- lang_en;;	*);;
+                  
+                  Code_Black <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Code_Black)](*<-lang_ru;;*);
+                      [Description (Code_Black)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Code_Black_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Code_Black_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Code_Black <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Code_Black)](*<-lang_ru;;*);
+                      [Pic. (Code_Black)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Code_Black.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Code_Black => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Code_Black => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Code_Black => nrel_num_of_seasons: 3;;
+                  value -> 47;;
+                  Code_Black => nrel_num_of_episodes: 47;;
+                  
+                  value -> 8;;
+                  Code_Black => nrel_no_countries : 8;;
+                  
+                  value -> 11;;
+                  Code_Black => nrel_viewers_in_millions: 11;;
+                  
+                  Code_Black => nrel_age_rating: concept_PG12;;
+                  
+                    Code_Black => nrel_actor : LuisGuzmn;;
+                    
+                   
+                    Code_Black => nrel_actor : HarryFord;;
+                    
+                   
+                    Code_Black => nrel_actor : MarciaGayHarden;;
+                    
+                   
+                    Code_Black => nrel_actor : BenHollingsworth;;
+                    
+                   
+                    Code_Black => nrel_actor : WilliamAllenYoung;;
+                    
+                   
+                    Code_Black => nrel_actor : BorisKodjoe;;
+                    
+                   
+                    Code_Black => nrel_actor : MelanieChandra;;
+                    
+                   
+                    Code_Black => nrel_actor : RobLowe;;
+                    
+                   
+                    Code_Black => nrel_actor : EmilyTyra;;
+                    
+                   
+                    Code_Black => nrel_actor : NoahGrayCabey;;
+                    
+                   
+                    Code_Black => nrel_actor : JillianMurray;;
+                    
+                   
+                    Code_Black => nrel_actor : BonnieSomerville;;
+                    
+                   
+                    Code_Black => nrel_actor : RazaJaffrey;;
+                    
+                   
+                    Code_Black => nrel_actor : EmilyAlynLind;;
+                    
+                   
+                    Code_Black => nrel_actor : MoonBloodgood;;
+                    
+                  
+                  
+                  Code_Black
+                  =>nrel_keywords: concept_detectif;;
+                  

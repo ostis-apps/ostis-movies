@@ -1,0 +1,109 @@
+
+                  concept_series -> Quantico;;
+              
+                  Quantico
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [квантик]
+                    (* <- lang_ru;;	*);
+                    [Quantico]
+                    (* <- lang_en;;	*);;
+                  
+                  Quantico <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (квантик)](*<-lang_ru;;*);
+                      [Description (Quantico)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Quantico_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Quantico_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Quantico <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (квантик)](*<-lang_ru;;*);
+                      [Pic. (Quantico)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Quantico.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Quantico => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Quantico => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Quantico => nrel_num_of_seasons: 3;;
+                  value -> 57;;
+                  Quantico => nrel_num_of_episodes: 57;;
+                  
+                  value -> 4;;
+                  Quantico => nrel_no_countries : 4;;
+                  
+                  value -> 9;;
+                  Quantico => nrel_viewers_in_millions: 9;;
+                  
+                  Quantico => nrel_age_rating: concept_PG12;;
+                  
+                    Quantico => nrel_actor : PriyankaChopra;;
+                    
+                   
+                    Quantico => nrel_actor : JakeMcLaughlin;;
+                    
+                   
+                    Quantico => nrel_actor : JohannaBraddy;;
+                    
+                   
+                    Quantico => nrel_actor : AunjanueEllis;;
+                    
+                   
+                    Quantico => nrel_actor : YasmineAlMassri;;
+                    
+                   
+                    Quantico => nrel_actor : YasmineAlMassri;;
+                    
+                   
+                    Quantico => nrel_actor : BlairUnderwood;;
+                    
+                   
+                    Quantico => nrel_actor : RussellTovey;;
+                    
+                   
+                    Quantico => nrel_actor : GrahamRogers;;
+                    
+                   
+                    Quantico => nrel_actor : TateEllington;;
+                    
+                   
+                    Quantico => nrel_actor : JoshHopkins;;
+                    
+                   
+                    Quantico => nrel_actor : PearlThusi;;
+                    
+                   
+                    Quantico => nrel_actor : MarleeMatlin;;
+                    
+                   
+                    Quantico => nrel_actor : AlanPowell;;
+                    
+                   
+                    Quantico => nrel_actor : AnabelleAcosta;;
+                    
+                  
+                  
+                  Quantico
+                  =>nrel_keywords: concept_detectif;;
+                  

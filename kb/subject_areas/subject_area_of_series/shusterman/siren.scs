@@ -1,0 +1,82 @@
+
+                  concept_series -> Siren;;
+              
+                  Siren
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Сирена]
+                    (* <- lang_ru;;	*);
+                    [Siren]
+                    (* <- lang_en;;	*);;
+                  
+                  Siren <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Сирена)](*<-lang_ru;;*);
+                      [Description (Siren)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Siren_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Siren_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Siren <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Сирена)](*<-lang_ru;;*);
+                      [Pic. (Siren)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Siren.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Siren => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Siren => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  Siren => nrel_num_of_seasons: 3;;
+                  value -> 26;;
+                  Siren => nrel_num_of_episodes: 26;;
+                  
+                  value -> 10;;
+                  Siren => nrel_no_countries : 10;;
+                  
+                  value -> 6;;
+                  Siren => nrel_viewers_in_millions: 6;;
+                  
+                  Siren => nrel_age_rating: concept_PG12;;
+                  
+                    Siren => nrel_actor : IanVerdun;;
+                    
+                   
+                    Siren => nrel_actor : RenaOwen;;
+                    
+                   
+                    Siren => nrel_actor : AlexRoe;;
+                    
+                   
+                    Siren => nrel_actor : FolaEvansAkingbola;;
+                    
+                   
+                    Siren => nrel_actor : ElinePowell;;
+                    
+                   
+                    Siren => nrel_actor : SibongileMlambo;;
+                    
+                  
+                  
+                  Siren
+                  =>nrel_keywords: concept_detectif;;
+                  

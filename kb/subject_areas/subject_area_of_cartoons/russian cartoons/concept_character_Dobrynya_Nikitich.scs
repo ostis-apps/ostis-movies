@@ -1,0 +1,35 @@
+concept_character_Dobrynya_Nikitich
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Добрыня Никитич](*<-lang_ru;;*);
+	[Dobrynya Nikitich](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Добрыня Никитич)](*<-lang_ru;;*);
+		[Description (Dobrynya Nikitich)](*<-lang_en;;*);;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Dobrynya Nikitich_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Dobrynya Nikitich_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	<=nrel_using_constants:
+	{
+        concept_historical_character
+	};;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Добрыня Никитич)](*<-lang_ru;;*);
+		[Pic. (Dobrynya Nikitich)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Dobrynya Nikitich.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_historical_character;;

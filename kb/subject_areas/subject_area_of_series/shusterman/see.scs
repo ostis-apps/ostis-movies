@@ -1,0 +1,88 @@
+
+                  concept_series -> See;;
+              
+                  See
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Видеть]
+                    (* <- lang_ru;;	*);
+                    [See]
+                    (* <- lang_en;;	*);;
+                  
+                  See <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Видеть)](*<-lang_ru;;*);
+                      [Description (See)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/See_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/See_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  See <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Видеть)](*<-lang_ru;;*);
+                      [Pic. (See)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/See.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  See => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  See => nrel_production_year : 2019;;
+                  
+                  value -> 2;;
+                  See => nrel_num_of_seasons: 2;;
+                  value -> 10;;
+                  See => nrel_num_of_episodes: 10;;
+                  
+                  value -> 5;;
+                  See => nrel_no_countries : 5;;
+                  
+                  value -> 11;;
+                  See => nrel_viewers_in_millions: 11;;
+                  
+                  See => nrel_age_rating: concept_PG12;;
+                  
+                    See => nrel_actor : AlfreWoodard;;
+                    
+                   
+                    See => nrel_actor : ChristianCamargo;;
+                    
+                   
+                    See => nrel_actor : HeraHilmar;;
+                    
+                   
+                    See => nrel_actor : JasonMomoa;;
+                    
+                   
+                    See => nrel_actor : SylviaHoeks;;
+                    
+                   
+                    See => nrel_actor : YadiraGuevaraPrip;;
+                    
+                   
+                    See => nrel_actor : NestaCooper;;
+                    
+                   
+                    See => nrel_actor : ArchieMadekewe;;
+                    
+                  
+                  
+                  See
+                  =>nrel_keywords: concept_detectif;;
+                  

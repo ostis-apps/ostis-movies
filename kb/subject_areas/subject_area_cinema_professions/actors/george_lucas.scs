@@ -1,0 +1,45 @@
+concept_human -> george_lucas;;
+ 
+ george_lucas <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джордж Лукас)](*<-lang_ru;;*);
+ 		[Description (George Lucas)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/george_lucas_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ george_lucas <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джордж Лукас)](*<-lang_ru;;*);
+ 		[Pic. (George Lucas)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/george_lucas.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ george_lucas => nrel_main_idtf : [Джордж Лукас](*<-lang_ru;;*);;
+ george_lucas => nrel_main_idtf : [George Lucas](*<-lang_en;;*);;
+ 
+ 
+ george_lucas => nrel_birth_date : 1944;;
+ 
+ concept_goverment -> Usa;;
+ george_lucas => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ george_lucas => nrel_to_star_in : solo_a_star_wars_story;;
+solo_a_star_wars_story => nrel_main_idtf : [Solo: A Star Wars Story](*<-lang_en;;*);;
+solo_a_star_wars_story => nrel_main_idtf : [Хан Соло: Звёздные Войны. Истории](*<-lang_ru;;*);;
+

@@ -1,0 +1,11 @@
+concept_film -> La_La_Land; The_Star_Is_Born;;
+
+concept_musical -> La_La_Land; The_Star_Is_Born;;
+
+La_La_Land => nrel_actor: Ryan_Gosling;;
+
+The_Star_Is_Born => nrel_actor: Bradley_Cooper;;
+
+concept_human -> Bradley_Cooper; Ryan_Gosling;;
+
+concept_musical <- concept_genre;;

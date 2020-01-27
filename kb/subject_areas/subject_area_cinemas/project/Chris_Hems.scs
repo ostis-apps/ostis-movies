@@ -1,0 +1,52 @@
+concept_human -> Chris_Hems;;
+
+Chris_Hems
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кристофер «Крис» Хемсворт]
+	(* <- lang_ru;;	*);
+	[Christopher "Chris" Hemsworth]
+	(* <- lang_en;;	*);;
+	
+Chris_Hems <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кристофер «Крис» Хемсворт)](*<-lang_ru;;*);
+		[Description (Christopher "Chris" Hemsworth)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        film_studio_Marvel_Studios
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Chris_Hems_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Chris_Hems_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Chris_Hems <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кристофер «Крис» Хемсворт)](*<-lang_ru;;*);
+		[Pic. (Christopher "Chris" Hemsworth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Chris_Hems.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1983;;
+Chris_Hems=>nrel_date_of_birth: 1983;;
+1983=>nrel_main_idtf:[1983 год](*<-lang_ru;;*);;
+1983=>nrel_main_idtf:[year of 1983](*<-lang_en;;*);;
+
+concept_calendar_date-> 2002;;
+Chris_Hems=>nrel_career_start_date: 2002;;
+2002=>nrel_main_idtf:[2002 год](*<-lang_ru;;*);;
+2002=>nrel_main_idtf:[year of 2002](*<-lang_en;;*);;
+
+Chris_Hems =>nrel_cityzenship:Australia;;
+Australia<-concept_country;;

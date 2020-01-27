@@ -1,0 +1,52 @@
+concept_Mulan
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мулан]
+	(* <- lang_ru;;	*);
+	[Mulan]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мулан)](*<-lang_ru;;*);
+		[Description (Mulan)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Mulan_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Mulan_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Tony_Bancroft;
+=>nrel_producer: Pam_Coats;
+=>nrel_production_country: USA;
+=>nrel_production_year: 1998;
+=>nrel_continuance: 88;
+=>nrel_handle: 304320254;
+=>nrel_character:...
+	(*
+  	<-character_Fa_Mulan;;
+	<-character_Fa_Za;; 
+	<-character_Fa_Senha;; 
+	<-character_Fa_Li;;
+	<-character_Yao_Ling;;
+	*);
+=>nrel_age_rating: concept_PG0;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мулан)](*<-lang_ru;;*);
+		[Pic. (Mulan)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Mulan.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,154 @@
+
+                  concept_series -> Narcos;;
+              
+                  Narcos
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Нарко]
+                    (* <- lang_ru;;	*);
+                    [Narcos]
+                    (* <- lang_en;;	*);;
+                  
+                  Narcos <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Нарко)](*<-lang_ru;;*);
+                      [Description (Narcos)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Narcos_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Narcos_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Narcos <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Нарко)](*<-lang_ru;;*);
+                      [Pic. (Narcos)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Narcos.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Narcos => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Narcos => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Narcos => nrel_num_of_seasons: 3;;
+                  value -> 30;;
+                  Narcos => nrel_num_of_episodes: 30;;
+                  
+                  value -> 8;;
+                  Narcos => nrel_no_countries : 8;;
+                  
+                  value -> 6;;
+                  Narcos => nrel_viewers_in_millions: 6;;
+                  
+                  Narcos => nrel_age_rating: concept_PG12;;
+                  
+                    Narcos => nrel_actor : PedroPascal;;
+                    
+                   
+                    Narcos => nrel_actor : AlbertoAmmann;;
+                    
+                   
+                    Narcos => nrel_actor : BoydHolbrook;;
+                    
+                   
+                    Narcos => nrel_actor : WagnerMoura;;
+                    
+                   
+                    Narcos => nrel_actor : PaulinaGaitan;;
+                    
+                   
+                    Narcos => nrel_actor : RalMndez;;
+                    
+                   
+                    Narcos => nrel_actor : FranciscoDenis;;
+                    
+                   
+                    Narcos => nrel_actor : DaminAlczar;;
+                    
+                   
+                    Narcos => nrel_actor : PaulinaGarcia;;
+                    
+                   
+                    Narcos => nrel_actor : DiegoCatao;;
+                    
+                   
+                    Narcos => nrel_actor : JoannaChristie;;
+                    
+                   
+                    Narcos => nrel_actor : MauriceCompte;;
+                    
+                   
+                    Narcos => nrel_actor : MatiasVarela;;
+                    
+                   
+                    Narcos => nrel_actor : BrunoBichir;;
+                    
+                   
+                    Narcos => nrel_actor : ArturoCastro;;
+                    
+                   
+                    Narcos => nrel_actor : ManoloCardona;;
+                    
+                   
+                    Narcos => nrel_actor : AndreaLondo;;
+                    
+                   
+                    Narcos => nrel_actor : MattWhelan;;
+                    
+                   
+                    Narcos => nrel_actor : JorgeJimenez;;
+                    
+                   
+                    Narcos => nrel_actor : MichaelStahlDavid;;
+                    
+                   
+                    Narcos => nrel_actor : PpRapazote;;
+                    
+                   
+                    Narcos => nrel_actor : EricLange;;
+                    
+                   
+                    Narcos => nrel_actor : StephanieSigman;;
+                    
+                   
+                    Narcos => nrel_actor : CristinaUmaa;;
+                    
+                   
+                    Narcos => nrel_actor : FlorenciaLozano;;
+                    
+                   
+                    Narcos => nrel_actor : RobertoUrbina;;
+                    
+                   
+                    Narcos => nrel_actor : AndrMattos;;
+                    
+                   
+                    Narcos => nrel_actor : JavierCmara;;
+                    
+                   
+                    Narcos => nrel_actor : KerryBish;;
+                    
+                   
+                    Narcos => nrel_actor : JosMaraYzpik;;
+                    
+                  
+                  
+                  Narcos
+                  =>nrel_keywords: concept_detectif;;
+                  

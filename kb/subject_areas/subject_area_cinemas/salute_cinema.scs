@@ -1,0 +1,6 @@
+salute_cinema
+=>nrel_main_idtf:
+	[кинотеатр Салют](*<-lang_ru;;*);
+	[Salute cinema](*<-lang_en;;*);
+=> nrel_cinema_location: minsk;
+<- concept_cinema;;

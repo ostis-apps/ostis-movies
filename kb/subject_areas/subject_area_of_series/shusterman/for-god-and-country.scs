@@ -1,0 +1,88 @@
+
+                  concept_series -> The_Brave;;
+              
+                  The_Brave
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Храбрый]
+                    (* <- lang_ru;;	*);
+                    [The_Brave]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Brave <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Храбрый)](*<-lang_ru;;*);
+                      [Description (The_Brave)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Brave_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Brave_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Brave <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Храбрый)](*<-lang_ru;;*);
+                      [Pic. (The_Brave)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Brave.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Brave => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  The_Brave => nrel_production_year : 2017;;
+                  
+                  value -> 1;;
+                  The_Brave => nrel_num_of_seasons: 1;;
+                  value -> 13;;
+                  The_Brave => nrel_num_of_episodes: 13;;
+                  
+                  value -> 11;;
+                  The_Brave => nrel_no_countries : 11;;
+                  
+                  value -> 11;;
+                  The_Brave => nrel_viewers_in_millions: 11;;
+                  
+                  The_Brave => nrel_age_rating: concept_PG12;;
+                  
+                    The_Brave => nrel_actor : DemetriusGrosse;;
+                    
+                   
+                    The_Brave => nrel_actor : SofiaPernas;;
+                    
+                   
+                    The_Brave => nrel_actor : TateEllington;;
+                    
+                   
+                    The_Brave => nrel_actor : AnneHeche;;
+                    
+                   
+                    The_Brave => nrel_actor : HadiTabbal;;
+                    
+                   
+                    The_Brave => nrel_actor : NoahMills;;
+                    
+                   
+                    The_Brave => nrel_actor : NatachaKaram;;
+                    
+                   
+                    The_Brave => nrel_actor : MikeVogel;;
+                    
+                  
+                  
+                  The_Brave
+                  =>nrel_keywords: concept_detectif;;
+                  

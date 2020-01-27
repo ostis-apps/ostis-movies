@@ -1,0 +1,67 @@
+film_absolyutno_tochno_1985
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Абсолютно точно]
+(* <- lang_ru;;    *);
+[The Sure Thing]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Абсолютно точно)](*<-lang_ru;;*);
+[Description (The Sure Thing)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/absolyutno-tochno-1985_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/absolyutno-tochno-1985_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Абсолютно точно)](*<-lang_ru;;*);
+		[Pic. (The Sure Thing)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/absolyutno-tochno-1985.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [He's onto a sure thing . . . but ends up on the funniest journey to romance you've ever seen. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [01.03.1985](*<-lang_ru;;*);;
+    => nrel_main_idtf : [01.03.1985](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H40M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H40M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_absolyutno_tochno_1985 =>nrel_keywords: film;;
+
+film_absolyutno_tochno_1985 <- concept_comedy;concept_drama;concept_romance;;
+
+film_absolyutno_tochno_1985 => nrel_main_actor : john_cusack;daphne_zuniga;anthony_edwards;boyd_gaines;;
+film_absolyutno_tochno_1985 => nrel_producer : rob_reiner;;

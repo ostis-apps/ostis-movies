@@ -1,0 +1,115 @@
+
+                  concept_series -> Sons_of_Anarchy;;
+              
+                  Sons_of_Anarchy
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Sons_of_Anarchy]
+                    (* <- lang_ru;;	*);
+                    [Sons_of_Anarchy]
+                    (* <- lang_en;;	*);;
+                  
+                  Sons_of_Anarchy <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Sons_of_Anarchy)](*<-lang_ru;;*);
+                      [Description (Sons_of_Anarchy)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Sons_of_Anarchy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Sons_of_Anarchy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Sons_of_Anarchy <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Sons_of_Anarchy)](*<-lang_ru;;*);
+                      [Pic. (Sons_of_Anarchy)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Sons_of_Anarchy.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Sons_of_Anarchy => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2008;;
+                  2008 => nrel_main_idtf : [2008 год](*<-lang_ru;;*);;
+                  2008 => nrel_main_idtf : [year of 2008](*<-lang_en;;*);;
+                  Sons_of_Anarchy => nrel_production_year : 2008;;
+                  
+                  value -> 7;;
+                  Sons_of_Anarchy => nrel_num_of_seasons: 7;;
+                  value -> 92;;
+                  Sons_of_Anarchy => nrel_num_of_episodes: 92;;
+                  
+                  value -> 3;;
+                  Sons_of_Anarchy => nrel_no_countries : 3;;
+                  
+                  value -> 5;;
+                  Sons_of_Anarchy => nrel_viewers_in_millions: 5;;
+                  
+                  Sons_of_Anarchy => nrel_age_rating: concept_PG12;;
+                  
+                    Sons_of_Anarchy => nrel_actor : CharlieHunnam;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : KateySagal;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : TommyFlanagan;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : MarkBooneJunior;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : KimCoates;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : TheoRossi;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : DaytonCallie;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : MaggieSiff;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : RonPerlman;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : DavidLabrava;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : RyanHurst;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : WilliamLucking;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : NikoNicotera;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : DreadeMatteo;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : JimmySmits;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : JohnnyLewis;;
+                    
+                   
+                    Sons_of_Anarchy => nrel_actor : PeterWeller;;
+                    
+                  
+                  
+                  Sons_of_Anarchy
+                  =>nrel_keywords: concept_detectif;;
+                  

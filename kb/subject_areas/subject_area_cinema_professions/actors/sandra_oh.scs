@@ -1,0 +1,45 @@
+concept_human -> sandra_oh;;
+ 
+ sandra_oh <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сандра О)](*<-lang_ru;;*);
+ 		[Description (Sandra Oh)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/sandra_oh_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ sandra_oh <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сандра О)](*<-lang_ru;;*);
+ 		[Pic. (Sandra Oh)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/sandra_oh.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ sandra_oh => nrel_main_idtf : [Сандра О](*<-lang_ru;;*);;
+ sandra_oh => nrel_main_idtf : [Sandra Oh](*<-lang_en;;*);;
+ 
+ 
+ sandra_oh => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> Canada;;
+ sandra_oh => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ sandra_oh => nrel_to_star_in : the_princess_diaries;;
+the_princess_diaries => nrel_main_idtf : [The Princess Diaries](*<-lang_en;;*);;
+the_princess_diaries => nrel_main_idtf : [Как стать принцессой](*<-lang_ru;;*);;
+

@@ -1,0 +1,67 @@
+film_angel_mstitel_2007
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Ангел-мститель]
+(* <- lang_ru;;    *);
+[Avenging Angel]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ангел-мститель)](*<-lang_ru;;*);
+[Description (Avenging Angel)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/angel-mstitel-2007_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/angel-mstitel-2007_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ангел-мститель)](*<-lang_ru;;*);
+		[Pic. (Avenging Angel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/angel-mstitel-2007.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Avenging Angel](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [07.07.2007](*<-lang_ru;;*);;
+    => nrel_main_idtf : [07.07.2007](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H21M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H21M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_TV_14;;
+
+film_angel_mstitel_2007 =>nrel_keywords: film;;
+
+film_angel_mstitel_2007 <- concept_drama;concept_western;;
+
+film_angel_mstitel_2007 => nrel_main_actor : kevin_sorbo;nick_chinlund;cynthia_watros;richard_lee_jackson;;
+film_angel_mstitel_2007 => nrel_producer : david_s._cass_sr.;;

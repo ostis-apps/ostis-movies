@@ -1,0 +1,45 @@
+concept_human -> jesse_eisenberg;;
+ 
+ jesse_eisenberg <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джесси Айзенберг)](*<-lang_ru;;*);
+ 		[Description (Jesse Eisenberg)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jesse_eisenberg_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jesse_eisenberg <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джесси Айзенберг)](*<-lang_ru;;*);
+ 		[Pic. (Jesse Eisenberg)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jesse_eisenberg.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jesse_eisenberg => nrel_main_idtf : [Джесси Айзенберг](*<-lang_ru;;*);;
+ jesse_eisenberg => nrel_main_idtf : [Jesse Eisenberg](*<-lang_en;;*);;
+ 
+ 
+ jesse_eisenberg => nrel_birth_date : 1983;;
+ 
+ concept_goverment -> Usa;;
+ jesse_eisenberg => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jesse_eisenberg => nrel_to_star_in : the_village;;
+the_village => nrel_main_idtf : [The Village](*<-lang_en;;*);;
+the_village => nrel_main_idtf : [Таинственный лес](*<-lang_ru;;*);;
+

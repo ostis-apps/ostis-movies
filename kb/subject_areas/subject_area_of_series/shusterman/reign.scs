@@ -1,0 +1,121 @@
+
+                  concept_series -> Reign;;
+              
+                  Reign
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Reign]
+                    (* <- lang_ru;;	*);
+                    [Reign]
+                    (* <- lang_en;;	*);;
+                  
+                  Reign <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Reign)](*<-lang_ru;;*);
+                      [Description (Reign)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Reign_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Reign_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Reign <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Reign)](*<-lang_ru;;*);
+                      [Pic. (Reign)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Reign.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Reign => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Reign => nrel_production_year : 2013;;
+                  
+                  value -> 4;;
+                  Reign => nrel_num_of_seasons: 4;;
+                  value -> 78;;
+                  Reign => nrel_num_of_episodes: 78;;
+                  
+                  value -> 12;;
+                  Reign => nrel_no_countries : 12;;
+                  
+                  value -> 4;;
+                  Reign => nrel_viewers_in_millions: 4;;
+                  
+                  Reign => nrel_age_rating: concept_PG12;;
+                  
+                    Reign => nrel_actor : MeganFollows;;
+                    
+                   
+                    Reign => nrel_actor : AdelaideKane;;
+                    
+                   
+                    Reign => nrel_actor : CelinaSinden;;
+                    
+                   
+                    Reign => nrel_actor : AnnaPopplewell;;
+                    
+                   
+                    Reign => nrel_actor : TorranceCoombs;;
+                    
+                   
+                    Reign => nrel_actor : JonathanKeltz;;
+                    
+                   
+                    Reign => nrel_actor : TobyRegbo;;
+                    
+                   
+                    Reign => nrel_actor : CaitlinStasey;;
+                    
+                   
+                    Reign => nrel_actor : CraigParker;;
+                    
+                   
+                    Reign => nrel_actor : RoseWilliams;;
+                    
+                   
+                    Reign => nrel_actor : RachelSkarsten;;
+                    
+                   
+                    Reign => nrel_actor : SpencerMacpherson;;
+                    
+                   
+                    Reign => nrel_actor : AlanvanSprang;;
+                    
+                   
+                    Reign => nrel_actor : BenGeurens;;
+                    
+                   
+                    Reign => nrel_actor : WillKemp;;
+                    
+                   
+                    Reign => nrel_actor : DanJeannotte;;
+                    
+                   
+                    Reign => nrel_actor : JonathanGoad;;
+                    
+                   
+                    Reign => nrel_actor : JenessaGrant;;
+                    
+                   
+                    Reign => nrel_actor : SeanTeale;;
+                    
+                  
+                  
+                  Reign
+                  =>nrel_keywords: concept_detectif;;
+                  

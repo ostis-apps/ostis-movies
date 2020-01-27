@@ -1,0 +1,45 @@
+concept_human -> olivia_cooke;;
+ 
+ olivia_cooke <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Оливия Кук)](*<-lang_ru;;*);
+ 		[Description (Olivia Cooke)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/olivia_cooke_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ olivia_cooke <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Оливия Кук)](*<-lang_ru;;*);
+ 		[Pic. (Olivia Cooke)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/olivia_cooke.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ olivia_cooke => nrel_main_idtf : [Оливия Кук](*<-lang_ru;;*);;
+ olivia_cooke => nrel_main_idtf : [Olivia Cooke](*<-lang_en;;*);;
+ 
+ 
+ olivia_cooke => nrel_birth_date : 1994;;
+ 
+ concept_goverment -> UK;;
+ olivia_cooke => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ olivia_cooke => nrel_to_star_in : ready_player_one;;
+ready_player_one => nrel_main_idtf : [Ready Player One](*<-lang_en;;*);;
+ready_player_one => nrel_main_idtf : [Первому игроку приготовиться](*<-lang_ru;;*);;
+

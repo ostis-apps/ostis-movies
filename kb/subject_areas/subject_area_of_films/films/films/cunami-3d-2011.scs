@@ -1,0 +1,67 @@
+film_cunami_3d_2011
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Цунами 3D]
+(* <- lang_ru;;    *);
+[Bait]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Цунами 3D)](*<-lang_ru;;*);
+[Description (Bait)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/cunami-3d-2011_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/cunami-3d-2011_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Цунами 3D)](*<-lang_ru;;*);
+		[Pic. (Bait)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/cunami-3d-2011.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : australia;singapore;china;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The ultimate predator is coming to a store near you! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [05.09.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [05.09.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H33M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H33M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_cunami_3d_2011 =>nrel_keywords: film;;
+
+film_cunami_3d_2011 <- concept_action;concept_adventure;concept_drama;concept_horror;concept_thriller;;
+
+film_cunami_3d_2011 => nrel_main_actor : richard_brancatisano;xavier_samuel;chris_betts;sharni_vinson;;
+film_cunami_3d_2011 => nrel_producer : kimble_rendall;;

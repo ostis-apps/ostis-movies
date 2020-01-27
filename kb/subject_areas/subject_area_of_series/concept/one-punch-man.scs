@@ -1,0 +1,127 @@
+
+                  concept_series -> One_Punch_Man;;
+              
+                  One_Punch_Man
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [One_Punch_Man]
+                    (* <- lang_ru;;	*);
+                    [One_Punch_Man]
+                    (* <- lang_en;;	*);;
+                  
+                  One_Punch_Man <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (One_Punch_Man)](*<-lang_ru;;*);
+                      [Description (One_Punch_Man)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/One_Punch_Man_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/One_Punch_Man_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  One_Punch_Man <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (One_Punch_Man)](*<-lang_ru;;*);
+                      [Pic. (One_Punch_Man)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/One_Punch_Man.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  One_Punch_Man => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  One_Punch_Man => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  One_Punch_Man => nrel_num_of_seasons: 2;;
+                  value -> 24;;
+                  One_Punch_Man => nrel_num_of_episodes: 24;;
+                  
+                  value -> 7;;
+                  One_Punch_Man => nrel_no_countries : 7;;
+                  
+                  value -> 4;;
+                  One_Punch_Man => nrel_viewers_in_millions: 4;;
+                  
+                  One_Punch_Man => nrel_age_rating: concept_PG12;;
+                  
+                    One_Punch_Man => nrel_actor : YkiKaji;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : SatoshiHino;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : SaoriHayami;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : KaitoIshikawa;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : MasayaOnosaka;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : MakotoFurukawa;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : DaisukeNamikawa;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : TessyoGenda;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : HirokiYasumoto;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : WataruHatano;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : YuichiNakamura;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : KatsuyukiKonishi;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : MinamiTakayama;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : YujiUeda;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : TakahiroSakurai;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : YujiUeda;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : KenjiroTsuda;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : MamoruMiyano;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : KazuhiroYamaji;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : KousukeToriumi;;
+                    
+                   
+                    One_Punch_Man => nrel_actor : AoiYki;;
+                    
+                  
+                  
+                  One_Punch_Man
+                  =>nrel_keywords: concept_detectif;;
+                  

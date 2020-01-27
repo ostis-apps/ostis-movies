@@ -1,0 +1,32 @@
+concept_war_film
+=> nrel_main_idtf:
+        [Военный фильм]
+	(* <- lang_ru;;	*);
+	[War film]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Военый фильм)](* <- lang_ru;; *);
+		[Desctiption (War film)](* <- lang_en;;
+		*);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="concept_war_film">Военный фильм</sc_element></b> — фильм, повествующий о событиях, разворачивающихся во время военных действий.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_war_film">War film</sc_element></b> is a film that tells about events unfolding during the hostilities..](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Военнный фильм)](*<-lang_ru;;*);
+		[Pic. (War film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/war_film.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

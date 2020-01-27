@@ -1,0 +1,51 @@
+concept_human -> don_johnson;;
+ 
+ don_johnson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дон Джонсон)](*<-lang_ru;;*);
+ 		[Description (Don Johnson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/don_johnson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ don_johnson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дон Джонсон)](*<-lang_ru;;*);
+ 		[Pic. (Don Johnson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/don_johnson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ don_johnson => nrel_main_idtf : [Дон Джонсон](*<-lang_ru;;*);;
+ don_johnson => nrel_main_idtf : [Don Johnson](*<-lang_en;;*);;
+ 
+ 
+ don_johnson => nrel_birth_date : 1950;;
+ 
+ concept_goverment -> Usa;;
+ don_johnson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ don_johnson => nrel_to_star_in : dragged_across_concrete;;
+dragged_across_concrete => nrel_main_idtf : [Dragged Across Concrete](*<-lang_en;;*);;
+dragged_across_concrete => nrel_main_idtf : [Закатать в асфальт](*<-lang_ru;;*);;
+don_johnson => nrel_to_star_in : django_unchained;;
+django_unchained => nrel_main_idtf : [Django Unchained](*<-lang_en;;*);;
+django_unchained => nrel_main_idtf : [Джанго освобожденный](*<-lang_ru;;*);;
+don_johnson => nrel_to_star_in : machete;;
+machete => nrel_main_idtf : [Machete](*<-lang_en;;*);;
+machete => nrel_main_idtf : [Мачете](*<-lang_ru;;*);;
+

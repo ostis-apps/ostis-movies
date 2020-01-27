@@ -1,0 +1,33 @@
+character_kris_kalvin
+	=> nrel_main_idtf:
+	[Крис Кельвин]
+	(* <- lang_ru;;	*);
+	[Kris Kalvin]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: donatas_banionis;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Крис Кельвин)](* <- lang_ru;; *);
+		[Desctiption (Pheophan Grek)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_kris_kalvin">Крис Кельвин</sc_element></b> — борится со своей печалью и винит себя в смерти своей жены.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_kris_kalvin">Kris Kalvin</sc_element></b> — struggling with his sadness and blaming himself for the death of his wife.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Крис Кельвин)](*<-lang_ru;;*);
+		[Pic. (Kris Kalvin)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Kris.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

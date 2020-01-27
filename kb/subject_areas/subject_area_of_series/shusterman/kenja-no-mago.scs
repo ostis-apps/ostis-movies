@@ -1,0 +1,64 @@
+
+                  concept_series -> Kenja_no_Mago;;
+              
+                  Kenja_no_Mago
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Философ _ _ Roh внук]
+                    (* <- lang_ru;;	*);
+                    [Kenja_no_Mago]
+                    (* <- lang_en;;	*);;
+                  
+                  Kenja_no_Mago <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Философ _ _ Roh внук)](*<-lang_ru;;*);
+                      [Description (Kenja_no_Mago)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Kenja_no_Mago_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Kenja_no_Mago_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Kenja_no_Mago <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Философ _ _ Roh внук)](*<-lang_ru;;*);
+                      [Pic. (Kenja_no_Mago)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Kenja_no_Mago.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Kenja_no_Mago => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Kenja_no_Mago => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Kenja_no_Mago => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  Kenja_no_Mago => nrel_num_of_episodes: 12;;
+                  
+                  value -> 11;;
+                  Kenja_no_Mago => nrel_no_countries : 11;;
+                  
+                  value -> 9;;
+                  Kenja_no_Mago => nrel_viewers_in_millions: 9;;
+                  
+                  Kenja_no_Mago => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Kenja_no_Mago
+                  =>nrel_keywords: concept_detectif;;
+                  

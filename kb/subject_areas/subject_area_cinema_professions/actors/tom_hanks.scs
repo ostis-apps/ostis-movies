@@ -1,0 +1,84 @@
+concept_human -> tom_hanks;;
+ 
+ tom_hanks <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Том Хэнкс)](*<-lang_ru;;*);
+ 		[Description (Tom Hanks)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tom_hanks_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tom_hanks <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Том Хэнкс)](*<-lang_ru;;*);
+ 		[Pic. (Tom Hanks)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tom_hanks.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tom_hanks => nrel_main_idtf : [Том Хэнкс](*<-lang_ru;;*);;
+ tom_hanks => nrel_main_idtf : [Tom Hanks](*<-lang_en;;*);;
+ 
+ 
+ tom_hanks => nrel_birth_date : 1956;;
+ 
+ concept_goverment -> Usa;;
+ tom_hanks => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ tom_hanks => nrel_to_star_in : inferno;;
+inferno => nrel_main_idtf : [Inferno](*<-lang_en;;*);;
+inferno => nrel_main_idtf : [Инферно](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : angels__demons;;
+angels__demons => nrel_main_idtf : [Angels & Demons](*<-lang_en;;*);;
+angels__demons => nrel_main_idtf : [Ангелы и демоны](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : the_da_vinci_code;;
+the_da_vinci_code => nrel_main_idtf : [The Da Vinci Code](*<-lang_en;;*);;
+the_da_vinci_code => nrel_main_idtf : [Код Да Винчи](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : the_terminal;;
+the_terminal => nrel_main_idtf : [The Terminal](*<-lang_en;;*);;
+the_terminal => nrel_main_idtf : [Терминал](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : catch_me_if_you_can;;
+catch_me_if_you_can => nrel_main_idtf : [Catch Me If You Can](*<-lang_en;;*);;
+catch_me_if_you_can => nrel_main_idtf : [Поймай меня, если сможешь](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : cast_away;;
+cast_away => nrel_main_idtf : [Cast Away](*<-lang_en;;*);;
+cast_away => nrel_main_idtf : [Изгой](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : the_green_mile;;
+the_green_mile => nrel_main_idtf : [The Green Mile](*<-lang_en;;*);;
+the_green_mile => nrel_main_idtf : [Зеленая миля](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : saving_private_ryan;;
+saving_private_ryan => nrel_main_idtf : [Saving Private Ryan](*<-lang_en;;*);;
+saving_private_ryan => nrel_main_idtf : [Спасти рядового Райана](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : youve_got_mail;;
+youve_got_mail => nrel_main_idtf : [You`ve Got Mail](*<-lang_en;;*);;
+youve_got_mail => nrel_main_idtf : [Вам письмо](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : apollo_13;;
+apollo_13 => nrel_main_idtf : [Apollo 13](*<-lang_en;;*);;
+apollo_13 => nrel_main_idtf : [Аполлон 13](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : forrest_gump;;
+forrest_gump => nrel_main_idtf : [Forrest Gump](*<-lang_en;;*);;
+forrest_gump => nrel_main_idtf : [Форрест Гамп](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : sleepless_in_seattle;;
+sleepless_in_seattle => nrel_main_idtf : [Sleepless in Seattle](*<-lang_en;;*);;
+sleepless_in_seattle => nrel_main_idtf : [Неспящие в Сиэтле](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : turner__hooch;;
+turner__hooch => nrel_main_idtf : [Turner & Hooch](*<-lang_en;;*);;
+turner__hooch => nrel_main_idtf : [Тернер и Хуч](*<-lang_ru;;*);;
+tom_hanks => nrel_to_star_in : big;;
+big => nrel_main_idtf : [Big](*<-lang_en;;*);;
+big => nrel_main_idtf : [Большой](*<-lang_ru;;*);;
+

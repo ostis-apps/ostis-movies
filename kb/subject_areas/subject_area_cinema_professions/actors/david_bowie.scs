@@ -1,0 +1,45 @@
+concept_human -> david_bowie;;
+ 
+ david_bowie <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэвид Боуи)](*<-lang_ru;;*);
+ 		[Description (David Bowie)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/david_bowie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ david_bowie <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэвид Боуи)](*<-lang_ru;;*);
+ 		[Pic. (David Bowie)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/david_bowie.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ david_bowie => nrel_main_idtf : [Дэвид Боуи](*<-lang_ru;;*);;
+ david_bowie => nrel_main_idtf : [David Bowie](*<-lang_en;;*);;
+ 
+ 
+ david_bowie => nrel_birth_date : 1950;;
+ 
+ concept_goverment -> UK;;
+ david_bowie => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ david_bowie => nrel_to_star_in : the_prestige;;
+the_prestige => nrel_main_idtf : [The Prestige](*<-lang_en;;*);;
+the_prestige => nrel_main_idtf : [Престиж](*<-lang_ru;;*);;
+

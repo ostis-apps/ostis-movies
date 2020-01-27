@@ -1,0 +1,33 @@
+character_boriska
+	=> nrel_main_idtf:
+	[Бориска]
+	(* <- lang_ru;;	*);
+	[Boriska]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: nikolay_burlyaev;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Бориска)](* <- lang_ru;; *);
+		[Desctiption (Boriska)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_boriska">Бориска</sc_element></b> — сын кузнеца, который знает, как вылить идеальный колокол.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_boriska">Ivan</sc_element></b> — the son of a blacksmith who knows how to make the perfect bell.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Бориска и Тарковский)](*<-lang_ru;;*);
+		[Pic. (Boriska and Tarkovsky)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Boriska.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,79 @@
+
+                  concept_series -> CBS_News_Sunday_Morning;;
+              
+                  CBS_News_Sunday_Morning
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [CBS_News_Sunday_Morning]
+                    (* <- lang_ru;;	*);
+                    [CBS_News_Sunday_Morning]
+                    (* <- lang_en;;	*);;
+                  
+                  CBS_News_Sunday_Morning <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (CBS_News_Sunday_Morning)](*<-lang_ru;;*);
+                      [Description (CBS_News_Sunday_Morning)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/CBS_News_Sunday_Morning_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/CBS_News_Sunday_Morning_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  CBS_News_Sunday_Morning <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (CBS_News_Sunday_Morning)](*<-lang_ru;;*);
+                      [Pic. (CBS_News_Sunday_Morning)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/CBS_News_Sunday_Morning.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  CBS_News_Sunday_Morning => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 1979;;
+                  1979 => nrel_main_idtf : [1979 год](*<-lang_ru;;*);;
+                  1979 => nrel_main_idtf : [year of 1979](*<-lang_en;;*);;
+                  CBS_News_Sunday_Morning => nrel_production_year : 1979;;
+                  
+                  value -> 7;;
+                  CBS_News_Sunday_Morning => nrel_num_of_seasons: 7;;
+                  value -> 314;;
+                  CBS_News_Sunday_Morning => nrel_num_of_episodes: 314;;
+                  
+                  value -> 6;;
+                  CBS_News_Sunday_Morning => nrel_no_countries : 6;;
+                  
+                  value -> 12;;
+                  CBS_News_Sunday_Morning => nrel_viewers_in_millions: 12;;
+                  
+                  CBS_News_Sunday_Morning => nrel_age_rating: concept_PG12;;
+                  
+                    CBS_News_Sunday_Morning => nrel_actor : JanePauley;;
+                    
+                   
+                    CBS_News_Sunday_Morning => nrel_actor : CharlesKuralt;;
+                    
+                   
+                    CBS_News_Sunday_Morning => nrel_actor : CharlesOsgood;;
+                    
+                   
+                    CBS_News_Sunday_Morning => nrel_actor : ErinMoriarty;;
+                    
+                   
+                    CBS_News_Sunday_Morning => nrel_actor : LeeCowan;;
+                    
+                  
+                  
+                  CBS_News_Sunday_Morning
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,28 @@
+concept_film_The_Matrix
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Матрица](* <- lang_ru;; *);
+	[The Matrix](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Матрица)](*<-lang_ru;;*);
+		[Description (The Matrix)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Матрица.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/The Matrix.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_hacker;
+=> nrel_keywords: concept_artificial_intelligence;
+=> nrel_keywords: concept_technology;
+=> nrel_keywords: concept_illusion;
+=> nrel_age_rating: concept_PG16;;

@@ -1,0 +1,67 @@
+film_angel_2018
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Ангел]
+(* <- lang_ru;;    *);
+[The Angel]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ангел)](*<-lang_ru;;*);
+[Description (The Angel)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/angel-2018_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/angel-2018_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ангел)](*<-lang_ru;;*);
+		[Pic. (The Angel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/angel-2018.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : israel;usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [In the shadow of war, one man fought for peace.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [14.09.2018](*<-lang_ru;;*);;
+    => nrel_main_idtf : [14.09.2018](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H54M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H54M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_TV_MA;;
+
+film_angel_2018 =>nrel_keywords: film;;
+
+film_angel_2018 <- concept_drama;concept_thriller;;
+
+film_angel_2018 => nrel_main_actor : toby_kebbell;marwan_kenzari;hannah_ware;sapir_azulay;;
+film_angel_2018 => nrel_producer : ariel_vromen;;

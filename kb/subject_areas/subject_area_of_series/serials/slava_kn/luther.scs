@@ -1,0 +1,133 @@
+
+                  concept_series -> Luther;;
+              
+                  Luther
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Лютер]
+                    (* <- lang_ru;;	*);
+                    [Luther]
+                    (* <- lang_en;;	*);;
+                  
+                  Luther <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Лютер)](*<-lang_ru;;*);
+                      [Description (Luther)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Luther_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Luther_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Luther <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Лютер)](*<-lang_ru;;*);
+                      [Pic. (Luther)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Luther.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Luther => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2010;;
+                  2010 => nrel_main_idtf : [2010 год](*<-lang_ru;;*);;
+                  2010 => nrel_main_idtf : [year of 2010](*<-lang_en;;*);;
+                  Luther => nrel_production_year : 2010;;
+                  
+                  value -> 5;;
+                  Luther => nrel_num_of_seasons: 5;;
+                  value -> 20;;
+                  Luther => nrel_num_of_episodes: 20;;
+                  
+                  value -> 11;;
+                  Luther => nrel_no_countries : 11;;
+                  
+                  value -> 4;;
+                  Luther => nrel_viewers_in_millions: 4;;
+                  
+                  Luther => nrel_age_rating: concept_PG12;;
+                  
+                    Luther => nrel_actor : IdrisElba;;
+                    
+                   
+                    Luther => nrel_actor : DermotCrowley;;
+                    
+                   
+                    Luther => nrel_actor : MichaelSmiley;;
+                    
+                   
+                    Luther => nrel_actor : WarrenBrown;;
+                    
+                   
+                    Luther => nrel_actor : RuthWilson;;
+                    
+                   
+                    Luther => nrel_actor : PaulMcGann;;
+                    
+                   
+                    Luther => nrel_actor : NikkiAmukaBird;;
+                    
+                   
+                    Luther => nrel_actor : PatrickMalahide;;
+                    
+                   
+                    Luther => nrel_actor : SaskiaReeves;;
+                    
+                   
+                    Luther => nrel_actor : StevenMackintosh;;
+                    
+                   
+                    Luther => nrel_actor : IndiraVarma;;
+                    
+                   
+                    Luther => nrel_actor : HermioneNorris;;
+                    
+                   
+                    Luther => nrel_actor : WunmiMosaku;;
+                    
+                   
+                    Luther => nrel_actor : AimeeFfionEdwards;;
+                    
+                   
+                    Luther => nrel_actor : EnzoCilenti;;
+                    
+                   
+                    Luther => nrel_actor : KierstonWareing;;
+                    
+                   
+                    Luther => nrel_actor : SiennaGuillory;;
+                    
+                   
+                    Luther => nrel_actor : DavidOHara;;
+                    
+                   
+                    Luther => nrel_actor : PamFerris;;
+                    
+                   
+                    Luther => nrel_actor : DavidDawson;;
+                    
+                   
+                    Luther => nrel_actor : LauraHaddock;;
+                    
+                   
+                    Luther => nrel_actor : RoseLeslie;;
+                    
+                   
+                    Luther => nrel_actor : DarrenBoyd;;
+                    
+                  
+                  
+                  Luther
+                  =>nrel_keywords: concept_detectif;;
+                  

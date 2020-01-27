@@ -1,0 +1,57 @@
+concept_human -> casey_affleck;;
+ 
+ casey_affleck <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кейси Аффлек)](*<-lang_ru;;*);
+ 		[Description (Casey Affleck)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/casey_affleck_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ casey_affleck <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кейси Аффлек)](*<-lang_ru;;*);
+ 		[Pic. (Casey Affleck)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/casey_affleck.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ casey_affleck => nrel_main_idtf : [Кейси Аффлек](*<-lang_ru;;*);;
+ casey_affleck => nrel_main_idtf : [Casey Affleck](*<-lang_en;;*);;
+ 
+ 
+ casey_affleck => nrel_birth_date : 1975;;
+ 
+ concept_goverment -> Usa;;
+ casey_affleck => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ casey_affleck => nrel_to_star_in : the_old_man__the_gun;;
+the_old_man__the_gun => nrel_main_idtf : [The Old Man & the Gun](*<-lang_en;;*);;
+the_old_man__the_gun => nrel_main_idtf : [Старик с пистолетом](*<-lang_ru;;*);;
+casey_affleck => nrel_to_star_in : interstellar;;
+interstellar => nrel_main_idtf : [Interstellar](*<-lang_en;;*);;
+interstellar => nrel_main_idtf : [Интерстеллар](*<-lang_ru;;*);;
+casey_affleck => nrel_to_star_in : oceans_thirteen;;
+oceans_thirteen => nrel_main_idtf : [Ocean`s Thirteen](*<-lang_en;;*);;
+oceans_thirteen => nrel_main_idtf : [Тринадцать друзей Оушена](*<-lang_ru;;*);;
+casey_affleck => nrel_to_star_in : oceans_twelve;;
+oceans_twelve => nrel_main_idtf : [Ocean`s Twelve](*<-lang_en;;*);;
+oceans_twelve => nrel_main_idtf : [Двенадцать друзей Оушена](*<-lang_ru;;*);;
+casey_affleck => nrel_to_star_in : oceans_eleven;;
+oceans_eleven => nrel_main_idtf : [Ocean`s Eleven](*<-lang_en;;*);;
+oceans_eleven => nrel_main_idtf : [Одиннадцать друзей Оушена](*<-lang_ru;;*);;
+

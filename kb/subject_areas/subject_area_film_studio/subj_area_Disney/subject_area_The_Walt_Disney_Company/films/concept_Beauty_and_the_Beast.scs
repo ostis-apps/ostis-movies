@@ -1,0 +1,318 @@
+concept_Beauty_and_the_Beast
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Красавица и чудовище]
+	(* <- lang_ru;;	*);
+	[Beauty and the Beast]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Красавица и чудовище)](*<-lang_ru;;*);
+		[Description (Beauty and the Beast)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Beauty_and_the_Beast_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Beauty_and_the_Beast_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Gary_Truzdale;
+=>nrel_producer: Don_Khan;
+=>nrel_production_country: USA;
+=>nrel_production_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1991 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 84
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 424967620
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	->character_Belle;;
+	->character_Monster;;
+	->character_Gaston;;
+	->character_Lumiere;;
+	->character_Cogsworth;;
+	->character_Chip;;
+	->character_Fifi;;
+	*);
+=>nrel_age_rating: concept_PG6;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Красавица и чудовище)](*<-lang_ru;;*);
+		[Pic. (Beauty and the Beast)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Beauty_and_the_Beast.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Belle 
+=> nrel_main_idtf: 
+[Белль] (* <-lang_ru;; *); 
+[Belle] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- daughter_of_a_scientist; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Белль)] (* <-lang_ru;; *); 
+[Description of character(Belle)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Belle_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Belle_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Белль)](*<-lang_ru;;*); 
+[Pic. (Belle)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Belle.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Monster
+=> nrel_main_idtf: 
+[Чудовище] (* <-lang_ru;; *); 
+[Monster] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- prince; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Чудовище)] (* <-lang_ru;; *); 
+[Description of character(Monster)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Monster_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Monster_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Чудовище)](*<-lang_ru;;*); 
+[Pic. (Monster)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Monster.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Gaston
+=> nrel_main_idtf: 
+[Гастон] (* <-lang_ru;; *); 
+[Gaston] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- hunter; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Гастон)] (* <-lang_ru;; *); 
+[Description of character(Gaston)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Gaston_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Gaston_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Гастон)](*<-lang_ru;;*); 
+[Pic. (Gaston)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Gaston.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Lumiere
+=> nrel_main_idtf: 
+[Люмьер] (* <-lang_ru;; *); 
+[Lumiere] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- head_waiter; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Люмьер)] (* <-lang_ru;; *); 
+[Description of character(Lumiere)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Lumiere_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Lumiere_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Люмьер)](*<-lang_ru;;*); 
+[Pic. (Lumiere)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Lumiere.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Cogsworth
+=> nrel_main_idtf: 
+[Когсворт] (* <-lang_ru;; *); 
+[Cogsworth] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- butler; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Когсворт)] (* <-lang_ru;; *); 
+[Description of character(Cogsworth)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Cogsworth_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Cogsworth_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Когсворт)](*<-lang_ru;;*); 
+[Pic. (Cogsworth)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Cogsworth.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Chip
+=> nrel_main_idtf: 
+[Чип] (* <-lang_ru;; *); 
+[Chip] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- child; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Чип)] (* <-lang_ru;; *); 
+[Description of character(Chip)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Chip_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Chip_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Чип)](*<-lang_ru;;*); 
+[Pic. (Chip)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Chip.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Fifi
+=> nrel_main_idtf: 
+[Фифи] (* <-lang_ru;; *); 
+[Fifi] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- housemaid; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Фифи)] (* <-lang_ru;; *); 
+[Description of character(Fifi)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Fifi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Fifi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Фифи)](*<-lang_ru;;*); 
+[Pic. (Fifi)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Fifi.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Gary_Truzdale
+=> nrel_main_idtf: 
+[Гари Трусдейл] (* <-lang_ru;; *); 
+[Gary Truzdale](*<-lang_en;;*);; 
+Don_Khan
+=> nrel_main_idtf: 
+[Дон Хан] (* <-lang_ru;; *); 
+[Don Khan](*<-lang_en;;*);; 
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+prince
+=> nrel_main_idtf: 
+            [принц] (* <-lang_ru;; *);
+		  [prince] (* <-lang_en;; *);;
+housemaid
+=> nrel_main_idtf: 
+            [горничная] (* <-lang_ru;; *);
+		  [housemaid] (* <-lang_en;; *);;
+child
+=> nrel_main_idtf: 
+            [ребенок] (* <-lang_ru;; *);
+		  [child] (* <-lang_en;; *);;
+butler
+=> nrel_main_idtf: 
+            [дворецкий] (* <-lang_ru;; *);
+		  [butler] (* <-lang_en;; *);;
+head_waiter
+=> nrel_main_idtf: 
+            [метрдотель] (* <-lang_ru;; *);
+		  [head waiter] (* <-lang_en;; *);;
+hunter
+=> nrel_main_idtf: 
+            [охотник] (* <-lang_ru;; *);
+		  [hunter] (* <-lang_en;; *);;
+daughter_of_a_scientist
+=> nrel_main_idtf: 
+            [дочь ученого] (* <-lang_ru;; *);
+		  [daughter of a scientist] (* <-lang_en;; *);;
+
+
+
+
+

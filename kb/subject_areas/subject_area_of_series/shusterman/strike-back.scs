@@ -1,0 +1,316 @@
+
+                  concept_series -> Strike_Back;;
+              
+                  Strike_Back
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Strike_Back]
+                    (* <- lang_ru;;	*);
+                    [Strike_Back]
+                    (* <- lang_en;;	*);;
+                  
+                  Strike_Back <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Strike_Back)](*<-lang_ru;;*);
+                      [Description (Strike_Back)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Strike_Back_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Strike_Back_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Strike_Back <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Strike_Back)](*<-lang_ru;;*);
+                      [Pic. (Strike_Back)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Strike_Back.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Strike_Back => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2010;;
+                  2010 => nrel_main_idtf : [2010 год](*<-lang_ru;;*);;
+                  2010 => nrel_main_idtf : [year of 2010](*<-lang_en;;*);;
+                  Strike_Back => nrel_production_year : 2010;;
+                  
+                  value -> 8;;
+                  Strike_Back => nrel_num_of_seasons: 8;;
+                  value -> 66;;
+                  Strike_Back => nrel_num_of_episodes: 66;;
+                  
+                  value -> 4;;
+                  Strike_Back => nrel_no_countries : 4;;
+                  
+                  value -> 4;;
+                  Strike_Back => nrel_viewers_in_millions: 4;;
+                  
+                  Strike_Back => nrel_age_rating: concept_PG12;;
+                  
+                    Strike_Back => nrel_actor : PhilipWinchester;;
+                    
+                   
+                    Strike_Back => nrel_actor : SullivanStapleton;;
+                    
+                   
+                    Strike_Back => nrel_actor : MichelleLukes;;
+                    
+                   
+                    Strike_Back => nrel_actor : AlinSumarwata;;
+                    
+                   
+                    Strike_Back => nrel_actor : DanielMacPherson;;
+                    
+                   
+                    Strike_Back => nrel_actor : RobsonGreen;;
+                    
+                   
+                    Strike_Back => nrel_actor : WarrenBrown;;
+                    
+                   
+                    Strike_Back => nrel_actor : MilaunaJackson;;
+                    
+                   
+                    Strike_Back => nrel_actor : RhonaMitra;;
+                    
+                   
+                    Strike_Back => nrel_actor : ZubinVarla;;
+                    
+                   
+                    Strike_Back => nrel_actor : AmandaMealing;;
+                    
+                   
+                    Strike_Back => nrel_actor : RoxanneMcKee;;
+                    
+                   
+                    Strike_Back => nrel_actor : JamieBamber;;
+                    
+                   
+                    Strike_Back => nrel_actor : VincentRegan;;
+                    
+                   
+                    Strike_Back => nrel_actor : CharlesDance;;
+                    
+                   
+                    Strike_Back => nrel_actor : YaseminAllen;;
+                    
+                   
+                    Strike_Back => nrel_actor : AlecNewman;;
+                    
+                   
+                    Strike_Back => nrel_actor : KatherineKelly;;
+                    
+                   
+                    Strike_Back => nrel_actor : MichelleYeoh;;
+                    
+                   
+                    Strike_Back => nrel_actor : NinaSosanya;;
+                    
+                   
+                    Strike_Back => nrel_actor : VaradaSethu;;
+                    
+                   
+                    Strike_Back => nrel_actor : RichardArmitage;;
+                    
+                   
+                    Strike_Back => nrel_actor : JimiMistry;;
+                    
+                   
+                    Strike_Back => nrel_actor : StephanieVogt;;
+                    
+                   
+                    Strike_Back => nrel_actor : DonHany;;
+                    
+                   
+                    Strike_Back => nrel_actor : TerezaSrbova;;
+                    
+                   
+                    Strike_Back => nrel_actor : ShelleyConn;;
+                    
+                   
+                    Strike_Back => nrel_actor : JodhiMay;;
+                    
+                   
+                    Strike_Back => nrel_actor : MarcelIures;;
+                    
+                   
+                    Strike_Back => nrel_actor : AndrewLincoln;;
+                    
+                   
+                    Strike_Back => nrel_actor : JamesWilby;;
+                    
+                   
+                    Strike_Back => nrel_actor : ChristianAntidormi;;
+                    
+                   
+                    Strike_Back => nrel_actor : WillYunLee;;
+                    
+                   
+                    Strike_Back => nrel_actor : ColinSalmon;;
+                    
+                   
+                    Strike_Back => nrel_actor : EvaBirthistle;;
+                    
+                   
+                    Strike_Back => nrel_actor : DustinClare;;
+                    
+                   
+                    Strike_Back => nrel_actor : TrevorEve;;
+                    
+                   
+                    Strike_Back => nrel_actor : NicolaStephenson;;
+                    
+                   
+                    Strike_Back => nrel_actor : CatherineWalker;;
+                    
+                   
+                    Strike_Back => nrel_actor : MelRaido;;
+                    
+                   
+                    Strike_Back => nrel_actor : KellyBJones;;
+                    
+                   
+                    Strike_Back => nrel_actor : OrlaBrady;;
+                    
+                   
+                    Strike_Back => nrel_actor : RichardDillane;;
+                    
+                   
+                    Strike_Back => nrel_actor : IainGlen;;
+                    
+                   
+                    Strike_Back => nrel_actor : AnnTruong;;
+                    
+                   
+                    Strike_Back => nrel_actor : TimPigottSmith;;
+                    
+                   
+                    Strike_Back => nrel_actor : LiamCunningham;;
+                    
+                   
+                    Strike_Back => nrel_actor : AlexWaldmann;;
+                    
+                   
+                    Strike_Back => nrel_actor : MaxBeesley;;
+                    
+                   
+                    Strike_Back => nrel_actor : DavidHaig;;
+                    
+                   
+                    Strike_Back => nrel_actor : DougrayScott;;
+                    
+                   
+                    Strike_Back => nrel_actor : AidanMcArdle;;
+                    
+                   
+                    Strike_Back => nrel_actor : MasaYamaguchi;;
+                    
+                   
+                    Strike_Back => nrel_actor : MichaelMcElhatton;;
+                    
+                   
+                    Strike_Back => nrel_actor : TimMcInnerny;;
+                    
+                   
+                    Strike_Back => nrel_actor : CalMacAninch;;
+                    
+                   
+                    Strike_Back => nrel_actor : KwangHoonNa;;
+                    
+                   
+                    Strike_Back => nrel_actor : PatrickOKane;;
+                    
+                   
+                    Strike_Back => nrel_actor : LauraHaddock;;
+                    
+                   
+                    Strike_Back => nrel_actor : KellyGough;;
+                    
+                   
+                    Strike_Back => nrel_actor : DervlaKirwan;;
+                    
+                   
+                    Strike_Back => nrel_actor : ShivaniGhai;;
+                    
+                   
+                    Strike_Back => nrel_actor : EamonnWalker;;
+                    
+                   
+                    Strike_Back => nrel_actor : PeterFirth;;
+                    
+                   
+                    Strike_Back => nrel_actor : MaramaCorlett;;
+                    
+                   
+                    Strike_Back => nrel_actor : MarekVaut;;
+                    
+                   
+                    Strike_Back => nrel_actor : VictoriaSmurfit;;
+                    
+                   
+                    Strike_Back => nrel_actor : AdrianEdmondson;;
+                    
+                   
+                    Strike_Back => nrel_actor : MarkStrepan;;
+                    
+                   
+                    Strike_Back => nrel_actor : AdewaleAkinnuoyeAgbaje;;
+                    
+                   
+                    Strike_Back => nrel_actor : TomWu;;
+                    
+                   
+                    Strike_Back => nrel_actor : ChrisObi;;
+                    
+                   
+                    Strike_Back => nrel_actor : SadTaghmaoui;;
+                    
+                   
+                    Strike_Back => nrel_actor : MartinClunes;;
+                    
+                   
+                    Strike_Back => nrel_actor : RudiDharmalingam;;
+                    
+                   
+                    Strike_Back => nrel_actor : PaulFreeman;;
+                    
+                   
+                    Strike_Back => nrel_actor : CathalPendred;;
+                    
+                   
+                    Strike_Back => nrel_actor : ClaraPaget;;
+                    
+                   
+                    Strike_Back => nrel_actor : AdrianPaul;;
+                    
+                   
+                    Strike_Back => nrel_actor : PallaviSharda;;
+                    
+                   
+                    Strike_Back => nrel_actor : SaiBennett;;
+                    
+                   
+                    Strike_Back => nrel_actor : MichaelBisping;;
+                    
+                   
+                    Strike_Back => nrel_actor : GilesMatthey;;
+                    
+                   
+                    Strike_Back => nrel_actor : ChackoVadaketh;;
+                    
+                  
+                  
+                  Strike_Back
+                  =>nrel_keywords: concept_detectif;;
+                  

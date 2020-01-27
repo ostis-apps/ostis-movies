@@ -1,0 +1,43 @@
+concept_cartoon_How_To_Train_Your_Dragon
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Как приручить дракона]
+	(* <- lang_ru;;	*);
+	[How to train your dragon]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Как приручить дракона)](*<-lang_ru;;*);
+		[Description (How to train your dragon)](*<-lang_en;;*);;
+	<=nrel_using_constants: 
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/How To Train Your Dragon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/How To Train Your Dragon_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Как приручить дракона)](*<-lang_ru;;*);
+		[Pic. (How to train your dragon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/How To Train Your Dragon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_kids;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_family_film;
+=>nrel_keywords: concept_comedy;
+=>nrel_keywords: concept_adventure;
+=>nrel_age_rating: concept_PG6;;

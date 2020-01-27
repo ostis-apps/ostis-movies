@@ -1,0 +1,82 @@
+
+                  concept_series -> Bitten;;
+              
+                  Bitten
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [спросить]
+                    (* <- lang_ru;;	*);
+                    [Bitten]
+                    (* <- lang_en;;	*);;
+                  
+                  Bitten <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (спросить)](*<-lang_ru;;*);
+                      [Description (Bitten)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Bitten_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Bitten_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Bitten <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (спросить)](*<-lang_ru;;*);
+                      [Pic. (Bitten)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Bitten.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Bitten => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Bitten => nrel_production_year : 2014;;
+                  
+                  value -> 3;;
+                  Bitten => nrel_num_of_seasons: 3;;
+                  value -> 33;;
+                  Bitten => nrel_num_of_episodes: 33;;
+                  
+                  value -> 3;;
+                  Bitten => nrel_no_countries : 3;;
+                  
+                  value -> 7;;
+                  Bitten => nrel_viewers_in_millions: 7;;
+                  
+                  Bitten => nrel_age_rating: concept_PG12;;
+                  
+                    Bitten => nrel_actor : LauraVandervoort;;
+                    
+                   
+                    Bitten => nrel_actor : GreystonHolt;;
+                    
+                   
+                    Bitten => nrel_actor : SteveLund;;
+                    
+                   
+                    Bitten => nrel_actor : GregBryk;;
+                    
+                   
+                    Bitten => nrel_actor : MichaelXavier;;
+                    
+                   
+                    Bitten => nrel_actor : PaulGreene;;
+                    
+                  
+                  
+                  Bitten
+                  =>nrel_keywords: concept_detectif;;
+                  

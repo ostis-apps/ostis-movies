@@ -1,0 +1,48 @@
+concept_human -> brooke_shields;;
+ 
+ brooke_shields <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Брук Шилдс)](*<-lang_ru;;*);
+ 		[Description (Brooke Shields)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/brooke_shields_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ brooke_shields <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Брук Шилдс)](*<-lang_ru;;*);
+ 		[Pic. (Brooke Shields)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/brooke_shields.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ brooke_shields => nrel_main_idtf : [Брук Шилдс](*<-lang_ru;;*);;
+ brooke_shields => nrel_main_idtf : [Brooke Shields](*<-lang_en;;*);;
+ 
+ 
+ brooke_shields => nrel_birth_date : 1965;;
+ 
+ concept_goverment -> Usa;;
+ brooke_shields => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ brooke_shields => nrel_to_star_in : the_midnight_meat_train;;
+the_midnight_meat_train => nrel_main_idtf : [The Midnight Meat Train](*<-lang_en;;*);;
+the_midnight_meat_train => nrel_main_idtf : [Полуночный экспресс](*<-lang_ru;;*);;
+brooke_shields => nrel_to_star_in : black_and_white;;
+black_and_white => nrel_main_idtf : [Black And White](*<-lang_en;;*);;
+black_and_white => nrel_main_idtf : [Черное и белое](*<-lang_ru;;*);;
+

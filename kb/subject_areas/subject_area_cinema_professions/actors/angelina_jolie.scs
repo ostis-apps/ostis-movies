@@ -1,0 +1,75 @@
+concept_human -> angelina_jolie;;
+ 
+ angelina_jolie <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Анджелина Джоли)](*<-lang_ru;;*);
+ 		[Description (Angelina Jolie)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/angelina_jolie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ angelina_jolie <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Анджелина Джоли)](*<-lang_ru;;*);
+ 		[Pic. (Angelina Jolie)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/angelina_jolie.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ angelina_jolie => nrel_main_idtf : [Анджелина Джоли](*<-lang_ru;;*);;
+ angelina_jolie => nrel_main_idtf : [Angelina Jolie](*<-lang_en;;*);;
+ 
+ 
+ angelina_jolie => nrel_birth_date : 1975;;
+ 
+ concept_goverment -> Usa;;
+ angelina_jolie => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ angelina_jolie => nrel_to_star_in : maleficent_mistress_of_evil;;
+maleficent_mistress_of_evil => nrel_main_idtf : [Maleficent: Mistress of Evil](*<-lang_en;;*);;
+maleficent_mistress_of_evil => nrel_main_idtf : [Малефисента: Владычица тьмы](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : maleficent;;
+maleficent => nrel_main_idtf : [Maleficent](*<-lang_en;;*);;
+maleficent => nrel_main_idtf : [Малефисента](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : salt;;
+salt => nrel_main_idtf : [Salt](*<-lang_en;;*);;
+salt => nrel_main_idtf : [Солт](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : wanted;;
+wanted => nrel_main_idtf : [Wanted](*<-lang_en;;*);;
+wanted => nrel_main_idtf : [Особо опасен](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : changeling;;
+changeling => nrel_main_idtf : [Changeling](*<-lang_en;;*);;
+changeling => nrel_main_idtf : [Подмена](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : mr__mrs_smith;;
+mr__mrs_smith => nrel_main_idtf : [Mr. & Mrs. Smith](*<-lang_en;;*);;
+mr__mrs_smith => nrel_main_idtf : [Мистер и миссис Смит](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : alexander;;
+alexander => nrel_main_idtf : [Alexander](*<-lang_en;;*);;
+alexander => nrel_main_idtf : [Александр](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : lara_croft_tomb_raider;;
+lara_croft_tomb_raider => nrel_main_idtf : [Lara Croft: Tomb Raider](*<-lang_en;;*);;
+lara_croft_tomb_raider => nrel_main_idtf : [Лара Крофт: Расхитительница гробниц](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : gone_in_sixty_seconds;;
+gone_in_sixty_seconds => nrel_main_idtf : [Gone in Sixty Seconds](*<-lang_en;;*);;
+gone_in_sixty_seconds => nrel_main_idtf : [Угнать за 60 секунд](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : girl_interrupted;;
+girl_interrupted => nrel_main_idtf : [Girl, Interrupted](*<-lang_en;;*);;
+girl_interrupted => nrel_main_idtf : [Прерванная жизнь](*<-lang_ru;;*);;
+angelina_jolie => nrel_to_star_in : gia;;
+gia => nrel_main_idtf : [Gia](*<-lang_en;;*);;
+gia => nrel_main_idtf : [Джиа](*<-lang_ru;;*);;
+

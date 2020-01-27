@@ -1,0 +1,67 @@
+film_bryus_vsemoguschiy_2003
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Брюс Всемогущий]
+(* <- lang_ru;;    *);
+[Bruce Almighty]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Брюс Всемогущий)](*<-lang_ru;;*);
+[Description (Bruce Almighty)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bryus-vsemoguschiy-2003_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bryus-vsemoguschiy-2003_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Брюс Всемогущий)](*<-lang_ru;;*);
+		[Pic. (Bruce Almighty)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bryus-vsemoguschiy-2003.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The guy next door just became the guy upstairs. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [23.05.2003](*<-lang_ru;;*);;
+    => nrel_main_idtf : [23.05.2003](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H41M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H41M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_bryus_vsemoguschiy_2003 =>nrel_keywords: film;;
+
+film_bryus_vsemoguschiy_2003 <- concept_comedy;concept_drama;concept_fantasy;;
+
+film_bryus_vsemoguschiy_2003 => nrel_main_actor : jim_carrey;jennifer_aniston;morgan_freeman;philip_baker_hall;;
+film_bryus_vsemoguschiy_2003 => nrel_producer : tom_shadyac;;

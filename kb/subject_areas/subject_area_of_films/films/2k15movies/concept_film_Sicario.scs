@@ -1,0 +1,30 @@
+concept_film_Sicario
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Убийца]
+	(* <- lang_ru;;	*);
+	[Sicario]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Убийца)](*<-lang_ru;;*);
+		[Description (Sicario)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Убийца.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sicario.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_drugs;
+=>nrel_keywords: concept_crime;
+=>nrel_age_rating: concept_PG18;;	

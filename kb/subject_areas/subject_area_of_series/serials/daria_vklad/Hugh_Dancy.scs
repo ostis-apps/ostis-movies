@@ -1,0 +1,51 @@
+concept_human -> Hugh_Dancy;;
+
+Hugh_Dancy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Хью Дэнси]
+	(* <- lang_ru;;	*);
+	[Hugh Dancy]
+	(* <- lang_en;;	*);;
+	
+Hugh_Dancy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Хью Дэнси)](*<-lang_ru;;*);
+		[Description (Hugh Dancy)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Hugh_Dancy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Hugh_Dancy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Hugh_Dancy <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хью Дэнси)](*<-lang_ru;;*);
+		[Pic. (Hugh Dancy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Hugh_Dancy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1975;;
+Hugh_Dancy=>nrel_date_of_birth: 1975;;
+1975=>nrel_main_idtf:[1975 год](*<-lang_ru;;*);;
+1975=>nrel_main_idtf:[year of 1975](*<-lang_en;;*);;
+
+concept_calendar_date->1998;;
+Hugh_Dancy=>nrel_career_start_date: 1998;;
+1998=>nrel_main_idtf:[1998 год](*<-lang_ru;;*);;
+1998=>nrel_main_idtf:[year of 1998](*<-lang_en;;*);;
+
+Hugh_Dancy =>nrel_cityzenship:concept_uk;;
+

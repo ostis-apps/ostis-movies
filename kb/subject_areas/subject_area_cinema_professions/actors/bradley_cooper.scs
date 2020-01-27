@@ -1,0 +1,87 @@
+concept_human -> bradley_cooper;;
+ 
+ bradley_cooper <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Брэдли Купер)](*<-lang_ru;;*);
+ 		[Description (Bradley Cooper)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/bradley_cooper_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ bradley_cooper <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Брэдли Купер)](*<-lang_ru;;*);
+ 		[Pic. (Bradley Cooper)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/bradley_cooper.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ bradley_cooper => nrel_main_idtf : [Брэдли Купер](*<-lang_ru;;*);;
+ bradley_cooper => nrel_main_idtf : [Bradley Cooper](*<-lang_en;;*);;
+ 
+ 
+ bradley_cooper => nrel_birth_date : 1975;;
+ 
+ concept_goverment -> Usa;;
+ bradley_cooper => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ bradley_cooper => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : the_mule;;
+the_mule => nrel_main_idtf : [The Mule](*<-lang_en;;*);;
+the_mule => nrel_main_idtf : [Наркокурьер](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : a_star_is_born;;
+a_star_is_born => nrel_main_idtf : [A Star Is Born](*<-lang_en;;*);;
+a_star_is_born => nrel_main_idtf : [Звезда родилась](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : guardians_of_the_galaxy_vol_2;;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Guardians of the Galaxy Vol. 2](*<-lang_en;;*);;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Стражи Галактики. Часть 2](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : joy;;
+joy => nrel_main_idtf : [Joy](*<-lang_en;;*);;
+joy => nrel_main_idtf : [Джой](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : guardians_of_the_galaxy;;
+guardians_of_the_galaxy => nrel_main_idtf : [Guardians of the Galaxy](*<-lang_en;;*);;
+guardians_of_the_galaxy => nrel_main_idtf : [Стражи Галактики](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : american_hustle;;
+american_hustle => nrel_main_idtf : [American Hustle](*<-lang_en;;*);;
+american_hustle => nrel_main_idtf : [Афера по-американски](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : the_place_beyond_the_pines;;
+the_place_beyond_the_pines => nrel_main_idtf : [The Place Beyond the Pines](*<-lang_en;;*);;
+the_place_beyond_the_pines => nrel_main_idtf : [Место под соснами](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : silver_linings_playbook;;
+silver_linings_playbook => nrel_main_idtf : [Silver Linings Playbook](*<-lang_en;;*);;
+silver_linings_playbook => nrel_main_idtf : [Мой парень - псих](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : the_hangover_part_ii;;
+the_hangover_part_ii => nrel_main_idtf : [The Hangover Part II](*<-lang_en;;*);;
+the_hangover_part_ii => nrel_main_idtf : [Мальчишник 2: Из Вегаса В Бангкок](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : limitless;;
+limitless => nrel_main_idtf : [Limitless](*<-lang_en;;*);;
+limitless => nrel_main_idtf : [Области тьмы](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : the_ateam;;
+the_ateam => nrel_main_idtf : [The A-Team](*<-lang_en;;*);;
+the_ateam => nrel_main_idtf : [Команда А](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : the_hangover;;
+the_hangover => nrel_main_idtf : [The Hangover](*<-lang_en;;*);;
+the_hangover => nrel_main_idtf : [Мальчишник в Вегасе](*<-lang_ru;;*);;
+bradley_cooper => nrel_to_star_in : the_midnight_meat_train;;
+the_midnight_meat_train => nrel_main_idtf : [The Midnight Meat Train](*<-lang_en;;*);;
+the_midnight_meat_train => nrel_main_idtf : [Полуночный экспресс](*<-lang_ru;;*);;
+

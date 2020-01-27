@@ -1,0 +1,54 @@
+concept_human -> robin_wright;;
+ 
+ robin_wright <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Робин Райт)](*<-lang_ru;;*);
+ 		[Description (Robin Wright)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/robin_wright_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ robin_wright <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Робин Райт)](*<-lang_ru;;*);
+ 		[Pic. (Robin Wright)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/robin_wright.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ robin_wright => nrel_main_idtf : [Робин Райт](*<-lang_ru;;*);;
+ robin_wright => nrel_main_idtf : [Robin Wright](*<-lang_en;;*);;
+ 
+ 
+ robin_wright => nrel_birth_date : 1966;;
+ 
+ concept_goverment -> Usa;;
+ robin_wright => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ robin_wright => nrel_to_star_in : blade_runner_2049;;
+blade_runner_2049 => nrel_main_idtf : [Blade Runner 2049](*<-lang_en;;*);;
+blade_runner_2049 => nrel_main_idtf : [Бегущий по лезвию 2049](*<-lang_ru;;*);;
+robin_wright => nrel_to_star_in : everest;;
+everest => nrel_main_idtf : [Everest](*<-lang_en;;*);;
+everest => nrel_main_idtf : [Эверест](*<-lang_ru;;*);;
+robin_wright => nrel_to_star_in : moneyball;;
+moneyball => nrel_main_idtf : [Moneyball](*<-lang_en;;*);;
+moneyball => nrel_main_idtf : [Человек, который изменил все](*<-lang_ru;;*);;
+robin_wright => nrel_to_star_in : forrest_gump;;
+forrest_gump => nrel_main_idtf : [Forrest Gump](*<-lang_en;;*);;
+forrest_gump => nrel_main_idtf : [Форрест Гамп](*<-lang_ru;;*);;
+

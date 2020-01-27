@@ -1,0 +1,44 @@
+concept_cartoon_Puss_in_Boots
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кот в сапогах]
+	(* <- lang_ru;;	*);
+	[Puss in Boots]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кот в сапогах)](*<-lang_ru;;*);
+		[Description (Puss in Boots)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Puss in Boots_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Puss in Boots_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кот в сапогах)](*<-lang_ru;;*);
+		[Pic. (Puss in Boots)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Puss in Boots.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+<=nrel_inclusion:concept_cartoon_remake;
+=> nrel_creation: concept_traditional_animation;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_nature;
+=>nrel_keywords: concept_animals;
+=>nrel_age_rating: concept_PG12;
+=> nrel_production_country: Russia;
+=>nrel_prototype: concept_character_Puss_in_Boots;;

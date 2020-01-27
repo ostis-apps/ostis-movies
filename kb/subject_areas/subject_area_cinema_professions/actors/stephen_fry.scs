@@ -1,0 +1,54 @@
+concept_human -> stephen_fry;;
+ 
+ stephen_fry <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Стивен Фрай)](*<-lang_ru;;*);
+ 		[Description (Stephen Fry)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/stephen_fry_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ stephen_fry <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Стивен Фрай)](*<-lang_ru;;*);
+ 		[Pic. (Stephen Fry)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/stephen_fry.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ stephen_fry => nrel_main_idtf : [Стивен Фрай](*<-lang_ru;;*);;
+ stephen_fry => nrel_main_idtf : [Stephen Fry](*<-lang_en;;*);;
+ 
+ 
+ stephen_fry => nrel_birth_date : 1957;;
+ 
+ concept_goverment -> UK;;
+ stephen_fry => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ stephen_fry => nrel_to_star_in : alice_through_the_looking_glass;;
+alice_through_the_looking_glass => nrel_main_idtf : [Alice Through the Looking Glass](*<-lang_en;;*);;
+alice_through_the_looking_glass => nrel_main_idtf : [Алиса в Зазеркалье](*<-lang_ru;;*);;
+stephen_fry => nrel_to_star_in : the_hobbit_the_battle_of_the_five_armies;;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [The Hobbit: The Battle of the Five Armies](*<-lang_en;;*);;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [Хоббит: Битва пяти воинств](*<-lang_ru;;*);;
+stephen_fry => nrel_to_star_in : the_hobbit_the_desolation_of_smaug;;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [The Hobbit: The Desolation of Smaug](*<-lang_en;;*);;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [Хоббит: Пустошь Смауга](*<-lang_ru;;*);;
+stephen_fry => nrel_to_star_in : alice_in_wonderland;;
+alice_in_wonderland => nrel_main_idtf : [Alice in Wonderland](*<-lang_en;;*);;
+alice_in_wonderland => nrel_main_idtf : [Алиса в стране чудес](*<-lang_ru;;*);;
+

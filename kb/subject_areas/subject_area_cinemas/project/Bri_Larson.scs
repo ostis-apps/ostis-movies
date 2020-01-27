@@ -1,0 +1,52 @@
+concept_human -> Bri_Larson;;
+
+Bri_Larson
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Брианна Сидони Десанье]
+	(* <- lang_ru;;	*);
+	[Brianne Sidonie Desaulniers]
+	(* <- lang_en;;	*);;
+	
+Bri_Larson <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Брианна Сидони Десанье)](*<-lang_ru;;*);
+		[Description (Brianne Sidonie Desaulniers](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        concept_rezeser
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Bri_Larson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Bri_Larson_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Bri_Larson <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Брианна Сидони Десанье)](*<-lang_ru;;*);
+		[Pic. (Brianne Sidonie Desaulniers)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Bri_Larson.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1989;;
+Bri_Larson=>nrel_date_of_birth: 1989;;
+1989=>nrel_main_idtf:[1989 год](*<-lang_ru;;*);;
+1989=>nrel_main_idtf:[year of 1989](*<-lang_en;;*);;
+
+concept_calendar_date->1998;;
+Bri_Larson=>nrel_career_start_date: 1998;;
+1998=>nrel_main_idtf:[1998 год](*<-lang_ru;;*);;
+1998=>nrel_main_idtf:[year of 1998](*<-lang_en;;*);;
+
+Bri_Larson =>nrel_cityzenship:Usa;;
+

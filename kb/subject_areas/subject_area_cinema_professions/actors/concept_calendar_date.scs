@@ -1,0 +1,29 @@
+concept_calendar_date <- sc_node_not_relation;
+
+=> nrel_main_idtf:
+    [calendar date](*<- lang_en;;*);
+    [календарная дата](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (календарная дата)](*<- lang_ru;;*);
+        [Def. (calendar date)](*<- lang_en;;*);;
+    
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_calendar_date_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_calendar_date_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (календарная дата)](*<-lang_ru;;*);
+		    [Pic. (calendar date)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/concept_calendar_date.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

@@ -1,0 +1,269 @@
+concept_Brave
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Храбрая сердцем]
+	(* <- lang_ru;;	*);
+	[Brave]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Храбрая сердцем)](*<-lang_ru;;*);
+		[Description (Brave)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Brave_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Brave_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Brenda_Chapman;
+=>nrel_producer:  Katherine_Sarafyan;
+=>nrel_production_country: USA;
+=>nrel_production_year:  ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2012 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 93
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 540437063
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	->character_Princess_Merida;;
+	->character_King_Fergus;;
+	->character_Queen_Elinor;;
+ 	->character_Witch;;
+ 	->character_Lord_McIntosh;; 
+	->character_Lord_McGuffin;;
+	*);
+=>nrel_age_rating: concept_PG6;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Храбрая сердцем)](*<-lang_ru;;*);
+		[Pic. (Brave)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Brave.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Princess_Merida
+=> nrel_main_idtf: 
+[Принцесса Мерида] (* <-lang_ru;; *); 
+[Princess Merida] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- princess; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Принцесса Мерида)] (* <-lang_ru;; *); 
+[Description of character(Princess Merida)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Princess_Merida_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Princess_Merida_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Принцесса Мерида)](*<-lang_ru;;*); 
+[Pic. (Princess Merida)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Princess_Merida.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_King_Fergus
+=> nrel_main_idtf: 
+[Король Фергус] (* <-lang_ru;; *); 
+[King Fergus] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- king; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Король Фергус)] (* <-lang_ru;; *); 
+[Description of character(King Fergus)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_King_Fergus_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_King_Fergus_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Король Фергус)](*<-lang_ru;;*); 
+[Pic. (King Fergus)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_King_Fergus.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Queen_Elinor
+=> nrel_main_idtf: 
+[Королева Элионора] (* <-lang_ru;; *); 
+[Queen Elinor] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- queen; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Королева Элионора)] (* <-lang_ru;; *); 
+[Description of character(Queen Elinor)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Queen_Elinor_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Queen_Elinor_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Королева Элионора)](*<-lang_ru;;*); 
+[Pic. (Queen_Elinor)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Queen_Elinor.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Witch
+=> nrel_main_idtf: 
+[Ведьма] (* <-lang_ru;; *); 
+[Witch] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- witch; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Ведьма)] (* <-lang_ru;; *); 
+[Description of character(Witch)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Witch_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Witch_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Ведьма)](*<-lang_ru;;*); 
+[Pic. (Witch)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Witch.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Lord_McIntosh
+=> nrel_main_idtf: 
+[Лорд Макинтош] (* <-lang_ru;; *); 
+[Lord McIntosh] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- lord; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Лорд Макинтош)] (* <-lang_ru;; *); 
+[Description of character(Lord McIntosh)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Lord_McIntosh_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Lord_McIntosh_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Лорд Макинтош)](*<-lang_ru;;*); 
+[Pic. (Lord McIntosh)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Lord_McIntosh.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Lord_McGuffin
+=> nrel_main_idtf: 
+[Лорд Макгаффин] (* <-lang_ru;; *); 
+[Lord McGuffin] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- lord; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Лорд Макгаффин)] (* <-lang_ru;; *); 
+[Description of character(Lord McGuffin)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Lord_McGuffin_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Lord_McGuffin_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Лорд Макгаффин)](*<-lang_ru;;*); 
+[Pic. (Lord McGuffin)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Lord_McGuffin.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Brenda_Chapman
+=>nrel_main_idtf: 
+[Бренда Чепмен](*<-lang_ru;;*); 
+[Brenda Chapman](*<-lang_en;;*);; 
+Katherine_Sarafyan
+=>nrel_main_idtf: 
+[Кэтрин Сарафян](*<-lang_ru;;*); 
+[Katherine Sarafyan](*<-lang_en;;*);; 
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+king
+=>nrel_main_idtf: 
+[король](*<-lang_ru;;*); 
+[king](*<-lang_en;;*);; 
+witch
+=>nrel_main_idtf: 
+[ведьма](*<-lang_ru;;*); 
+[witch](*<-lang_en;;*);; 
+lord
+=>nrel_main_idtf: 
+[лорд](*<-lang_ru;;*); 
+[lord](*<-lang_en;;*);; 

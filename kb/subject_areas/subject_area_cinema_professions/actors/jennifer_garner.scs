@@ -1,0 +1,51 @@
+concept_human -> jennifer_garner;;
+ 
+ jennifer_garner <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дженнифер Гарнер)](*<-lang_ru;;*);
+ 		[Description (Jennifer Garner)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jennifer_garner_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jennifer_garner <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дженнифер Гарнер)](*<-lang_ru;;*);
+ 		[Pic. (Jennifer Garner)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jennifer_garner.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jennifer_garner => nrel_main_idtf : [Дженнифер Гарнер](*<-lang_ru;;*);;
+ jennifer_garner => nrel_main_idtf : [Jennifer Garner](*<-lang_en;;*);;
+ 
+ 
+ jennifer_garner => nrel_birth_date : 1972;;
+ 
+ concept_goverment -> Usa;;
+ jennifer_garner => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jennifer_garner => nrel_to_star_in : love_simon;;
+love_simon => nrel_main_idtf : [Love, Simon](*<-lang_en;;*);;
+love_simon => nrel_main_idtf : [С любовью, Саймон](*<-lang_ru;;*);;
+jennifer_garner => nrel_to_star_in : dallas_buyers_club;;
+dallas_buyers_club => nrel_main_idtf : [Dallas Buyers Club](*<-lang_en;;*);;
+dallas_buyers_club => nrel_main_idtf : [Далласский клуб покупателей](*<-lang_ru;;*);;
+jennifer_garner => nrel_to_star_in : catch_me_if_you_can;;
+catch_me_if_you_can => nrel_main_idtf : [Catch Me If You Can](*<-lang_en;;*);;
+catch_me_if_you_can => nrel_main_idtf : [Поймай меня, если сможешь](*<-lang_ru;;*);;
+

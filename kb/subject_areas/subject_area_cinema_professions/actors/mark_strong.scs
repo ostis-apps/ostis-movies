@@ -1,0 +1,54 @@
+concept_human -> mark_strong;;
+ 
+ mark_strong <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Марк Стронг)](*<-lang_ru;;*);
+ 		[Description (Mark Strong)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/mark_strong_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ mark_strong <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Марк Стронг)](*<-lang_ru;;*);
+ 		[Pic. (Mark Strong)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/mark_strong.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ mark_strong => nrel_main_idtf : [Марк Стронг](*<-lang_ru;;*);;
+ mark_strong => nrel_main_idtf : [Mark Strong](*<-lang_en;;*);;
+ 
+ 
+ mark_strong => nrel_birth_date : 1963;;
+ 
+ concept_goverment -> UK;;
+ mark_strong => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ mark_strong => nrel_to_star_in : shazam;;
+shazam => nrel_main_idtf : [Shazam!](*<-lang_en;;*);;
+shazam => nrel_main_idtf : [Шазам!](*<-lang_ru;;*);;
+mark_strong => nrel_to_star_in : the_imitation_game;;
+the_imitation_game => nrel_main_idtf : [The Imitation Game](*<-lang_en;;*);;
+the_imitation_game => nrel_main_idtf : [Игра в имитацию](*<-lang_ru;;*);;
+mark_strong => nrel_to_star_in : rocknrolla;;
+rocknrolla => nrel_main_idtf : [RocknRolla](*<-lang_en;;*);;
+rocknrolla => nrel_main_idtf : [Рок-н-рольщик](*<-lang_ru;;*);;
+mark_strong => nrel_to_star_in : revolver;;
+revolver => nrel_main_idtf : [Revolver](*<-lang_en;;*);;
+revolver => nrel_main_idtf : [Револьвер](*<-lang_ru;;*);;
+

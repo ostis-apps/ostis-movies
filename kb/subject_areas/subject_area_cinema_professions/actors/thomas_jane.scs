@@ -1,0 +1,48 @@
+concept_human -> thomas_jane;;
+ 
+ thomas_jane <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Томас Джейн)](*<-lang_ru;;*);
+ 		[Description (Thomas Jane)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/thomas_jane_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ thomas_jane <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Томас Джейн)](*<-lang_ru;;*);
+ 		[Pic. (Thomas Jane)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/thomas_jane.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ thomas_jane => nrel_main_idtf : [Томас Джейн](*<-lang_ru;;*);;
+ thomas_jane => nrel_main_idtf : [Thomas Jane](*<-lang_en;;*);;
+ 
+ 
+ thomas_jane => nrel_birth_date : 1969;;
+ 
+ concept_goverment -> Usa;;
+ thomas_jane => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ thomas_jane => nrel_to_star_in : predator;;
+predator => nrel_main_idtf : [Predator](*<-lang_en;;*);;
+predator => nrel_main_idtf : [Хищник](*<-lang_ru;;*);;
+thomas_jane => nrel_to_star_in : the_thin_red_line;;
+the_thin_red_line => nrel_main_idtf : [The Thin Red Line](*<-lang_en;;*);;
+the_thin_red_line => nrel_main_idtf : [Тонкая красная линия](*<-lang_ru;;*);;
+

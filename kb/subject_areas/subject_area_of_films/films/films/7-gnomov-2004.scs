@@ -1,0 +1,67 @@
+film_7_gnomov_2004
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[7 гномов]
+(* <- lang_ru;;    *);
+[7 Zwerge / Seven Dwarfs]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (7 гномов)](*<-lang_ru;;*);
+[Description (7 Zwerge / Seven Dwarfs)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/7-gnomov-2004_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/7-gnomov-2004_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (7 гномов)](*<-lang_ru;;*);
+		[Pic. (7 Zwerge / Seven Dwarfs)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/7-gnomov-2004.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [7 Zwerge / Seven Dwarfs](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [28.10.2004](*<-lang_ru;;*);;
+    => nrel_main_idtf : [28.10.2004](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H35M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H35M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_7_gnomov_2004 =>nrel_keywords: film;;
+
+film_7_gnomov_2004 <- concept_comedy;concept_family;;
+
+film_7_gnomov_2004 => nrel_main_actor : otto_waalkes;mirco_nontschew;boris_aljinovic;markus_majowski;;
+film_7_gnomov_2004 => nrel_producer : sven_unterwaldt_jr.;;

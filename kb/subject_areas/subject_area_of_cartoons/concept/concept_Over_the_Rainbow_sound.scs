@@ -1,0 +1,7 @@
+concept_Over_the_Rainbow_sound
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Над радугой](*<-lang_ru;;*);
+	[Over the Rainbow](*<-lang_en;;*);
+<-concept_audio_recording;;
+	

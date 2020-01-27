@@ -1,0 +1,60 @@
+concept_human -> ralph_fiennes;;
+ 
+ ralph_fiennes <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Рэйф Файнс)](*<-lang_ru;;*);
+ 		[Description (Ralph Fiennes)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ralph_fiennes_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ralph_fiennes <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Рэйф Файнс)](*<-lang_ru;;*);
+ 		[Pic. (Ralph Fiennes)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ralph_fiennes.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ralph_fiennes => nrel_main_idtf : [Рэйф Файнс](*<-lang_ru;;*);;
+ ralph_fiennes => nrel_main_idtf : [Ralph Fiennes](*<-lang_en;;*);;
+ 
+ 
+ ralph_fiennes => nrel_birth_date : 1963;;
+ 
+ concept_goverment -> UK;;
+ ralph_fiennes => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ ralph_fiennes => nrel_to_star_in : official_secrets;;
+official_secrets => nrel_main_idtf : [Official Secrets](*<-lang_en;;*);;
+official_secrets => nrel_main_idtf : [Опасные секреты](*<-lang_ru;;*);;
+ralph_fiennes => nrel_to_star_in : harry_potter_and_the_deathly_hallows_part_2;;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Harry Potter and the Deathly Hallows: Part 2](*<-lang_en;;*);;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Гарри Поттер и Дары смерти: Часть 2](*<-lang_ru;;*);;
+ralph_fiennes => nrel_to_star_in : harry_potter_and_the_deathly_hallows_part_1;;
+harry_potter_and_the_deathly_hallows_part_1 => nrel_main_idtf : [Harry Potter and the Deathly Hallows: Part 1](*<-lang_en;;*);;
+harry_potter_and_the_deathly_hallows_part_1 => nrel_main_idtf : [Гарри Поттер и Дары смерти: Часть 1](*<-lang_ru;;*);;
+ralph_fiennes => nrel_to_star_in : harry_potter_and_the_order_of_the_phoenix;;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Harry Potter and the Order of the Phoenix](*<-lang_en;;*);;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Гарри Поттер и Орден Феникса](*<-lang_ru;;*);;
+ralph_fiennes => nrel_to_star_in : harry_potter_and_the_goblet_of_fire;;
+harry_potter_and_the_goblet_of_fire => nrel_main_idtf : [Harry Potter and the Goblet of Fire](*<-lang_en;;*);;
+harry_potter_and_the_goblet_of_fire => nrel_main_idtf : [Гарри Поттер и Кубок огня](*<-lang_ru;;*);;
+ralph_fiennes => nrel_to_star_in : schindlers_list;;
+schindlers_list => nrel_main_idtf : [Schindler's List](*<-lang_en;;*);;
+schindlers_list => nrel_main_idtf : [Список Шиндлера](*<-lang_ru;;*);;
+

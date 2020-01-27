@@ -1,0 +1,67 @@
+film_chelovek_volk_2010
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Человек-волк]
+(* <- lang_ru;;    *);
+[The Wolfman]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Человек-волк)](*<-lang_ru;;*);
+[Description (The Wolfman)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chelovek-volk-2010_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chelovek-volk-2010_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Человек-волк)](*<-lang_ru;;*);
+		[Pic. (The Wolfman)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chelovek-volk-2010.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The Legend Is Alive See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [10.02.2010](*<-lang_ru;;*);;
+    => nrel_main_idtf : [10.02.2010](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H43M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H43M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_chelovek_volk_2010 =>nrel_keywords: film;;
+
+film_chelovek_volk_2010 <- concept_drama;concept_fantasy;concept_horror;concept_thriller;;
+
+film_chelovek_volk_2010 => nrel_main_actor : benicio_del_toro;anthony_hopkins;emily_blunt;simon_merrells;;
+film_chelovek_volk_2010 => nrel_producer : joe_johnston;;

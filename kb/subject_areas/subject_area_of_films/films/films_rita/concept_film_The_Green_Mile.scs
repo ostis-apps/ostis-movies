@@ -1,0 +1,27 @@
+concept_film_The_Green_Mile
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Зеленая миля](* <- lang_ru;; *);
+	[The Green Mile](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Зеленая миля)](*<-lang_ru;;*);
+		[Description (The Green Mile)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Зеленая миля.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/The Green Mile.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_prison;
+=> nrel_keywords: concept_prisoner;
+=> nrel_keywords: concept_healing;
+=> nrel_age_rating: concept_PG16;;

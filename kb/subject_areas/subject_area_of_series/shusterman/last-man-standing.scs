@@ -1,0 +1,106 @@
+
+                  concept_series -> Last_Man_Standing;;
+              
+                  Last_Man_Standing
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Последний герой]
+                    (* <- lang_ru;;	*);
+                    [Last_Man_Standing]
+                    (* <- lang_en;;	*);;
+                  
+                  Last_Man_Standing <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Последний герой)](*<-lang_ru;;*);
+                      [Description (Last_Man_Standing)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Last_Man_Standing_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Last_Man_Standing_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Last_Man_Standing <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Последний герой)](*<-lang_ru;;*);
+                      [Pic. (Last_Man_Standing)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Last_Man_Standing.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Last_Man_Standing => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  Last_Man_Standing => nrel_production_year : 2011;;
+                  
+                  value -> 8;;
+                  Last_Man_Standing => nrel_num_of_seasons: 8;;
+                  value -> 153;;
+                  Last_Man_Standing => nrel_num_of_episodes: 153;;
+                  
+                  value -> 12;;
+                  Last_Man_Standing => nrel_no_countries : 12;;
+                  
+                  value -> 4;;
+                  Last_Man_Standing => nrel_viewers_in_millions: 4;;
+                  
+                  Last_Man_Standing => nrel_age_rating: concept_PG12;;
+                  
+                    Last_Man_Standing => nrel_actor : MollyEphraim;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : MollyMcCook;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : TimAllen;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : NancyTravis;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : HectorElizondo;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : ChristophSanders;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : KaitlynDever;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : AmandaFuller;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : FlynnMorrison;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : JetJurgensmeyer;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : JordanMasterson;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : JonathanAdams;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : AlexandraKrosney;;
+                    
+                   
+                    Last_Man_Standing => nrel_actor : KristaMarieYu;;
+                    
+                  
+                  
+                  Last_Man_Standing
+                  =>nrel_keywords: concept_detectif;;
+                  

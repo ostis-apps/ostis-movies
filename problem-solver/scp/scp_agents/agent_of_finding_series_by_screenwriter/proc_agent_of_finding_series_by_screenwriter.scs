@@ -1,0 +1,28 @@
+scp_program -> proc_find_series_by_screenwriter (*
+	
+	-> rrel_params: ... (*
+		-> rrel_1: rrel_in: _screenwriter;;
+		-> rrel_2: rrel_in: _result;;
+	*);;
+
+	-> rrel_operators: ... (*
+
+		->rrel_init:  ..find_screenwriter (*
+			 <- searchSetStr5;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _series;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: rrel_const: _arc2;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _screenwriter;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: rrel_const: _arc4;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_screenwriter;;
+		
+			->rrel_set_1: rrel_fixed: rrel_scp_var: _result;;
+			=> nrel_then: ..proc_run_testcase_operator_series_by_screenwriter_return;;		
+		 	=> nrel_else: ..proc_run_testcase_operator_series_by_screenwriter_return;;
+		*);;
+
+
+		-> ..proc_run_testcase_operator_series_by_screenwriter_return (*
+			<- return;;
+		*);;
+	*);;
+*);;

@@ -1,0 +1,48 @@
+concept_human -> chris_pine;;
+ 
+ chris_pine <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Крис Пайн)](*<-lang_ru;;*);
+ 		[Description (Chris Pine)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/chris_pine_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ chris_pine <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Крис Пайн)](*<-lang_ru;;*);
+ 		[Pic. (Chris Pine)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/chris_pine.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ chris_pine => nrel_main_idtf : [Крис Пайн](*<-lang_ru;;*);;
+ chris_pine => nrel_main_idtf : [Chris Pine](*<-lang_en;;*);;
+ 
+ 
+ chris_pine => nrel_birth_date : 1980;;
+ 
+ concept_goverment -> Usa;;
+ chris_pine => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ chris_pine => nrel_to_star_in : outlaw_king;;
+outlaw_king => nrel_main_idtf : [Outlaw King](*<-lang_en;;*);;
+outlaw_king => nrel_main_idtf : [Король вне закона](*<-lang_ru;;*);;
+chris_pine => nrel_to_star_in : the_princess_diaries_2_royal_engagement;;
+the_princess_diaries_2_royal_engagement => nrel_main_idtf : [The Princess Diaries 2: Royal Engagement](*<-lang_en;;*);;
+the_princess_diaries_2_royal_engagement => nrel_main_idtf : [Дневники принцессы 2: Как стать королевой](*<-lang_ru;;*);;
+

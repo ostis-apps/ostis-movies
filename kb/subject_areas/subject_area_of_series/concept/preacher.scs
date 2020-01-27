@@ -1,0 +1,118 @@
+
+                  concept_series -> Preacher;;
+              
+                  Preacher
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [проповедник]
+                    (* <- lang_ru;;	*);
+                    [Preacher]
+                    (* <- lang_en;;	*);;
+                  
+                  Preacher <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (проповедник)](*<-lang_ru;;*);
+                      [Description (Preacher)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Preacher_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Preacher_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Preacher <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (проповедник)](*<-lang_ru;;*);
+                      [Pic. (Preacher)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Preacher.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Preacher => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Preacher => nrel_production_year : 2016;;
+                  
+                  value -> 4;;
+                  Preacher => nrel_num_of_seasons: 4;;
+                  value -> 43;;
+                  Preacher => nrel_num_of_episodes: 43;;
+                  
+                  value -> 14;;
+                  Preacher => nrel_no_countries : 14;;
+                  
+                  value -> 4;;
+                  Preacher => nrel_viewers_in_millions: 4;;
+                  
+                  Preacher => nrel_age_rating: concept_PG12;;
+                  
+                    Preacher => nrel_actor : RuthNegga;;
+                    
+                   
+                    Preacher => nrel_actor : DominicCooper;;
+                    
+                   
+                    Preacher => nrel_actor : JosephGilgun;;
+                    
+                   
+                    Preacher => nrel_actor : IanColletti;;
+                    
+                   
+                    Preacher => nrel_actor : GrahamMcTavish;;
+                    
+                   
+                    Preacher => nrel_actor : JulieAnnEmery;;
+                    
+                   
+                    Preacher => nrel_actor : PipTorrens;;
+                    
+                   
+                    Preacher => nrel_actor : NoahTaylor;;
+                    
+                   
+                    Preacher => nrel_actor : MalcolmBarrett;;
+                    
+                   
+                    Preacher => nrel_actor : MarkHarelik;;
+                    
+                   
+                    Preacher => nrel_actor : TysonRitter;;
+                    
+                   
+                    Preacher => nrel_actor : TomBrooke;;
+                    
+                   
+                    Preacher => nrel_actor : BettyBuckley;;
+                    
+                   
+                    Preacher => nrel_actor : WEarlBrown;;
+                    
+                   
+                    Preacher => nrel_actor : ColinCunningham;;
+                    
+                   
+                    Preacher => nrel_actor : LucyGriffiths;;
+                    
+                   
+                    Preacher => nrel_actor : DerekWilson;;
+                    
+                   
+                    Preacher => nrel_actor : AnatolYusef;;
+                    
+                  
+                  
+                  Preacher
+                  =>nrel_keywords: concept_detectif;;
+                  

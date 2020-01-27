@@ -1,0 +1,50 @@
+concept_human -> Benedict_Cumberbatch;;
+
+Benedict_Cumberbatch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бенедикт Камбербэтч]
+	(* <- lang_ru;;	*);
+	[Benedict Cumberbatch]
+	(* <- lang_en;;	*);;
+	
+Benedict_Cumberbatch <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бенедикт Камбербэтч)](*<-lang_ru;;*);
+		[Description (Benedict_Cumberbatch)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Benedicy_Cumberbatch_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Benedicy_Cumberbatch_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Benedict_Cumberbatch <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бенедикт Камбербэтч)](*<-lang_ru;;*);
+		[Pic. (Benedict_Cumberbatch)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Benedicy_Cumberbatch.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1976;;
+Benedict_Cumberbatch=>nrel_date_of_birth: 1976;;
+1976=>nrel_main_idtf:[1976 год](*<-lang_ru;;*);;
+1976=>nrel_main_idtf:[year of 1976](*<-lang_en;;*);;
+
+concept_calendar_date->2001;;
+Benedict_Cumberbatch =>nrel_career_start_date: 2001;;
+2001=>nrel_main_idtf:[2001 год](*<-lang_ru;;*);;
+2001=>nrel_main_idtf:[year of 2001](*<-lang_en;;*);;
+
+Benedict_Cumberbatch =>nrel_cityzenship:Uk;;

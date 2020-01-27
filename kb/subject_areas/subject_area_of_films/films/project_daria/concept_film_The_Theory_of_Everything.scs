@@ -1,0 +1,31 @@
+concept_film_The_Theory_of_Everything 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Вселенная Стивена Хокинга]
+	(* <- lang_ru;;	*);
+	[The Theory of Everything]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Вселенная Стивена Хокинга)](*<-lang_ru;;*);
+		[Description (The Theory of Everything)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Вселенная Стивена Хокинга.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The Theory of Everything.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_physicist;
+=>nrel_keywords: concept_cosmology;
+=>nrel_keywords: concept_professor;	
+=>nrel_age_rating: concept_PG12;;	

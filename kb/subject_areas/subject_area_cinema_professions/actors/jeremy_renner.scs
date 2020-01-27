@@ -1,0 +1,63 @@
+concept_human -> jeremy_renner;;
+ 
+ jeremy_renner <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джереми Реннер)](*<-lang_ru;;*);
+ 		[Description (Jeremy Renner)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jeremy_renner_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jeremy_renner <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джереми Реннер)](*<-lang_ru;;*);
+ 		[Pic. (Jeremy Renner)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jeremy_renner.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jeremy_renner => nrel_main_idtf : [Джереми Реннер](*<-lang_ru;;*);;
+ jeremy_renner => nrel_main_idtf : [Jeremy Renner](*<-lang_en;;*);;
+ 
+ 
+ jeremy_renner => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> Usa;;
+ jeremy_renner => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jeremy_renner => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+jeremy_renner => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+jeremy_renner => nrel_to_star_in : captain_america_civil_war;;
+captain_america_civil_war => nrel_main_idtf : [Captain America: Civil War](*<-lang_en;;*);;
+captain_america_civil_war => nrel_main_idtf : [Первый мститель: Противостояние](*<-lang_ru;;*);;
+jeremy_renner => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+jeremy_renner => nrel_to_star_in : american_hustle;;
+american_hustle => nrel_main_idtf : [American Hustle](*<-lang_en;;*);;
+american_hustle => nrel_main_idtf : [Афера по-американски](*<-lang_ru;;*);;
+jeremy_renner => nrel_to_star_in : the_avengers;;
+the_avengers => nrel_main_idtf : [The Avengers](*<-lang_en;;*);;
+the_avengers => nrel_main_idtf : [Мстители](*<-lang_ru;;*);;
+jeremy_renner => nrel_to_star_in : thor;;
+thor => nrel_main_idtf : [Thor](*<-lang_en;;*);;
+thor => nrel_main_idtf : [Тор](*<-lang_ru;;*);;
+

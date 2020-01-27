@@ -1,0 +1,33 @@
+lib_component_agent_of_finding_film_by_rating
+=> nrel_main_idtf:
+	[Компонент библиотеки. Sc-агент поиска фильмов по оценке]
+	(* <- lang_ru;; *);
+	[Library component. Sc-agent of finding film by rating]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components; 
+<- library_of_atomic_reusable_components; 
+
+-> rrel_key_sc_element: 
+	.platform_independent_realization_of_sc_agent_of_finding_film_by_rating;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+	<- explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			"file://htmls/agent_of_finding_film_by_rating.html"
+				(* <- lang_ru;; *);; 
+		*);;
+*);;
+
+question_of_finding_film_by_rating <- sc_node_not_relation;;
+
+question_of_finding_film_by_rating => nrel_main_idtf: 
+	[действие. Найти фильм по оценке] 
+	(* <- lang_ru;; *);
+	[action. Find film by rating] 
+	(* <- lang_en;; *);;

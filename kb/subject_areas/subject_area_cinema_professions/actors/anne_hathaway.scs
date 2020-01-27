@@ -1,0 +1,72 @@
+concept_human -> anne_hathaway;;
+ 
+ anne_hathaway <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Энн Хэтэуэй)](*<-lang_ru;;*);
+ 		[Description (Anne Hathaway)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/anne_hathaway_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ anne_hathaway <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Энн Хэтэуэй)](*<-lang_ru;;*);
+ 		[Pic. (Anne Hathaway)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/anne_hathaway.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ anne_hathaway => nrel_main_idtf : [Энн Хэтэуэй](*<-lang_ru;;*);;
+ anne_hathaway => nrel_main_idtf : [Anne Hathaway](*<-lang_en;;*);;
+ 
+ 
+ anne_hathaway => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> Usa;;
+ anne_hathaway => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ anne_hathaway => nrel_to_star_in : the_hustle;;
+the_hustle => nrel_main_idtf : [The Hustle](*<-lang_en;;*);;
+the_hustle => nrel_main_idtf : [Отпетые мошенницы](*<-lang_ru;;*);;
+anne_hathaway => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+anne_hathaway => nrel_to_star_in : alice_through_the_looking_glass;;
+alice_through_the_looking_glass => nrel_main_idtf : [Alice Through the Looking Glass](*<-lang_en;;*);;
+alice_through_the_looking_glass => nrel_main_idtf : [Алиса в Зазеркалье](*<-lang_ru;;*);;
+anne_hathaway => nrel_to_star_in : interstellar;;
+interstellar => nrel_main_idtf : [Interstellar](*<-lang_en;;*);;
+interstellar => nrel_main_idtf : [Интерстеллар](*<-lang_ru;;*);;
+anne_hathaway => nrel_to_star_in : the_dark_knight_rises;;
+the_dark_knight_rises => nrel_main_idtf : [The Dark Knight Rises](*<-lang_en;;*);;
+the_dark_knight_rises => nrel_main_idtf : [Темный рыцарь: Возрождение легенды](*<-lang_ru;;*);;
+anne_hathaway => nrel_to_star_in : alice_in_wonderland;;
+alice_in_wonderland => nrel_main_idtf : [Alice in Wonderland](*<-lang_en;;*);;
+alice_in_wonderland => nrel_main_idtf : [Алиса в стране чудес](*<-lang_ru;;*);;
+anne_hathaway => nrel_to_star_in : the_devil_wears_prada;;
+the_devil_wears_prada => nrel_main_idtf : [The Devil Wears Prada](*<-lang_en;;*);;
+the_devil_wears_prada => nrel_main_idtf : [Дьявол носит Prada](*<-lang_ru;;*);;
+anne_hathaway => nrel_to_star_in : brokeback_mountain;;
+brokeback_mountain => nrel_main_idtf : [Brokeback Mountain](*<-lang_en;;*);;
+brokeback_mountain => nrel_main_idtf : [Горбатая гора](*<-lang_ru;;*);;
+anne_hathaway => nrel_to_star_in : the_princess_diaries_2_royal_engagement;;
+the_princess_diaries_2_royal_engagement => nrel_main_idtf : [The Princess Diaries 2: Royal Engagement](*<-lang_en;;*);;
+the_princess_diaries_2_royal_engagement => nrel_main_idtf : [Дневники принцессы 2: Как стать королевой](*<-lang_ru;;*);;
+anne_hathaway => nrel_to_star_in : the_princess_diaries;;
+the_princess_diaries => nrel_main_idtf : [The Princess Diaries](*<-lang_en;;*);;
+the_princess_diaries => nrel_main_idtf : [Как стать принцессой](*<-lang_ru;;*);;
+

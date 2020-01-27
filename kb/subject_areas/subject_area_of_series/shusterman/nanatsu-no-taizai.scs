@@ -1,0 +1,88 @@
+
+                  concept_series -> sin_Nanatsu_no_Taizai;;
+              
+                  sin_Nanatsu_no_Taizai
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Shin _ _ семь Roh _ пребывания]
+                    (* <- lang_ru;;	*);
+                    [sin_Nanatsu_no_Taizai]
+                    (* <- lang_en;;	*);;
+                  
+                  sin_Nanatsu_no_Taizai <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Shin _ _ семь Roh _ пребывания)](*<-lang_ru;;*);
+                      [Description (sin_Nanatsu_no_Taizai)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/sin_Nanatsu_no_Taizai_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/sin_Nanatsu_no_Taizai_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  sin_Nanatsu_no_Taizai <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Shin _ _ семь Roh _ пребывания)](*<-lang_ru;;*);
+                      [Pic. (sin_Nanatsu_no_Taizai)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/sin_Nanatsu_no_Taizai.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  sin_Nanatsu_no_Taizai => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  sin_Nanatsu_no_Taizai => nrel_production_year : 2017;;
+                  
+                  value -> 1;;
+                  sin_Nanatsu_no_Taizai => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  sin_Nanatsu_no_Taizai => nrel_num_of_episodes: 12;;
+                  
+                  value -> 5;;
+                  sin_Nanatsu_no_Taizai => nrel_no_countries : 5;;
+                  
+                  value -> 11;;
+                  sin_Nanatsu_no_Taizai => nrel_viewers_in_millions: 11;;
+                  
+                  sin_Nanatsu_no_Taizai => nrel_age_rating: concept_PG12;;
+                  
+                    sin_Nanatsu_no_Taizai => nrel_actor : AiKakuma;;
+                    
+                   
+                    sin_Nanatsu_no_Taizai => nrel_actor : ChiakiTakahashi;;
+                    
+                   
+                    sin_Nanatsu_no_Taizai => nrel_actor : YuiOgura;;
+                    
+                   
+                    sin_Nanatsu_no_Taizai => nrel_actor : AkaneFujita;;
+                    
+                   
+                    sin_Nanatsu_no_Taizai => nrel_actor : MegumiToda;;
+                    
+                   
+                    sin_Nanatsu_no_Taizai => nrel_actor : ArisaSakuraba;;
+                    
+                   
+                    sin_Nanatsu_no_Taizai => nrel_actor : EriKitamura;;
+                    
+                   
+                    sin_Nanatsu_no_Taizai => nrel_actor : YkoHikasa;;
+                    
+                  
+                  
+                  sin_Nanatsu_no_Taizai
+                  =>nrel_keywords: concept_detectif;;
+                  

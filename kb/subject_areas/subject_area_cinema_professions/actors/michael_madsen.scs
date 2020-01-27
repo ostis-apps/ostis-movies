@@ -1,0 +1,60 @@
+concept_human -> michael_madsen;;
+ 
+ michael_madsen <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майкл Мэдсен)](*<-lang_ru;;*);
+ 		[Description (Michael Madsen)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michael_madsen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michael_madsen <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майкл Мэдсен)](*<-lang_ru;;*);
+ 		[Pic. (Michael Madsen)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michael_madsen.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michael_madsen => nrel_main_idtf : [Майкл Мэдсен](*<-lang_ru;;*);;
+ michael_madsen => nrel_main_idtf : [Michael Madsen](*<-lang_en;;*);;
+ 
+ 
+ michael_madsen => nrel_birth_date : 1957;;
+ 
+ concept_goverment -> Usa;;
+ michael_madsen => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ michael_madsen => nrel_to_star_in : once_upon_a_time__in_hollywood;;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Once Upon a Time ... in Hollywood](*<-lang_en;;*);;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Однажды… в Голливуде](*<-lang_ru;;*);;
+michael_madsen => nrel_to_star_in : the_hateful_eight;;
+the_hateful_eight => nrel_main_idtf : [The Hateful Eight](*<-lang_en;;*);;
+the_hateful_eight => nrel_main_idtf : [Омерзительная восьмерка](*<-lang_ru;;*);;
+michael_madsen => nrel_to_star_in : sin_city;;
+sin_city => nrel_main_idtf : [Sin City](*<-lang_en;;*);;
+sin_city => nrel_main_idtf : [Город грехов](*<-lang_ru;;*);;
+michael_madsen => nrel_to_star_in : kill_bill_vol_2;;
+kill_bill_vol_2 => nrel_main_idtf : [Kill Bill: Vol. 2](*<-lang_en;;*);;
+kill_bill_vol_2 => nrel_main_idtf : [Убить Билла. Фильм 2](*<-lang_ru;;*);;
+michael_madsen => nrel_to_star_in : kill_bill_vol_1;;
+kill_bill_vol_1 => nrel_main_idtf : [Kill Bill: Vol. 1](*<-lang_en;;*);;
+kill_bill_vol_1 => nrel_main_idtf : [Убить Билла. Фильм 1](*<-lang_ru;;*);;
+michael_madsen => nrel_to_star_in : reservoir_dogs;;
+reservoir_dogs => nrel_main_idtf : [Reservoir Dogs](*<-lang_en;;*);;
+reservoir_dogs => nrel_main_idtf : [Бешеные псы](*<-lang_ru;;*);;
+

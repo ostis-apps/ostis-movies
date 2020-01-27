@@ -1,0 +1,250 @@
+
+                  concept_series -> The_Simpsons;;
+              
+                  The_Simpsons
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Симпсоны]
+                    (* <- lang_ru;;	*);
+                    [The_Simpsons]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Simpsons <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Симпсоны)](*<-lang_ru;;*);
+                      [Description (The_Simpsons)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Simpsons_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Simpsons_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Simpsons <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Симпсоны)](*<-lang_ru;;*);
+                      [Pic. (The_Simpsons)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Simpsons.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Simpsons => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 1989;;
+                  1989 => nrel_main_idtf : [1989 год](*<-lang_ru;;*);;
+                  1989 => nrel_main_idtf : [year of 1989](*<-lang_en;;*);;
+                  The_Simpsons => nrel_production_year : 1989;;
+                  
+                  value -> 32;;
+                  The_Simpsons => nrel_num_of_seasons: 32;;
+                  value -> 672;;
+                  The_Simpsons => nrel_num_of_episodes: 672;;
+                  
+                  value -> 5;;
+                  The_Simpsons => nrel_no_countries : 5;;
+                  
+                  value -> 6;;
+                  The_Simpsons => nrel_viewers_in_millions: 6;;
+                  
+                  The_Simpsons => nrel_age_rating: concept_PG12;;
+                  
+                    The_Simpsons => nrel_actor : JulieKavner;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : YeardleySmith;;
+                    
+                   
+                    The_Simpsons => nrel_actor : NancyCartwright;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : PamelaHayden;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : NancyCartwright;;
+                    
+                   
+                    The_Simpsons => nrel_actor : NancyCartwright;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : NancyCartwright;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : JulieKavner;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : PamelaHayden;;
+                    
+                   
+                    The_Simpsons => nrel_actor : JulieKavner;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : TressMacNeille;;
+                    
+                   
+                    The_Simpsons => nrel_actor : TressMacNeille;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : NancyCartwright;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : NancyCartwright;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HankAzaria;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                   
+                    The_Simpsons => nrel_actor : DanCastellaneta;;
+                    
+                   
+                    The_Simpsons => nrel_actor : JulieKavner;;
+                    
+                   
+                    The_Simpsons => nrel_actor : HarryShearer;;
+                    
+                  
+                  
+                  The_Simpsons
+                  =>nrel_keywords: concept_detectif;;
+                  

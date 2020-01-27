@@ -1,0 +1,84 @@
+concept_human -> jennifer_lawrence;;
+ 
+ jennifer_lawrence <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дженнифер Лоуренс)](*<-lang_ru;;*);
+ 		[Description (Jennifer Lawrence)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jennifer_lawrence_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jennifer_lawrence <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дженнифер Лоуренс)](*<-lang_ru;;*);
+ 		[Pic. (Jennifer Lawrence)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jennifer_lawrence.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jennifer_lawrence => nrel_main_idtf : [Дженнифер Лоуренс](*<-lang_ru;;*);;
+ jennifer_lawrence => nrel_main_idtf : [Jennifer Lawrence](*<-lang_en;;*);;
+ 
+ 
+ jennifer_lawrence => nrel_birth_date : 1990;;
+ 
+ concept_goverment -> Usa;;
+ jennifer_lawrence => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jennifer_lawrence => nrel_to_star_in : dark_phoenix;;
+dark_phoenix => nrel_main_idtf : [Dark Phoenix](*<-lang_en;;*);;
+dark_phoenix => nrel_main_idtf : [Люди Икс: Тёмный Феникс](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : red_sparrow;;
+red_sparrow => nrel_main_idtf : [Red Sparrow](*<-lang_en;;*);;
+red_sparrow => nrel_main_idtf : [Красный воробей](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : mother;;
+mother => nrel_main_idtf : [mother!](*<-lang_en;;*);;
+mother => nrel_main_idtf : [мама!](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : xmen_apocalypse;;
+xmen_apocalypse => nrel_main_idtf : [X-Men: Apocalypse](*<-lang_en;;*);;
+xmen_apocalypse => nrel_main_idtf : [Люди Икс: Апокалипсис](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : passengers;;
+passengers => nrel_main_idtf : [Passengers](*<-lang_en;;*);;
+passengers => nrel_main_idtf : [Пассажиры](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : the_hunger_games_mockingjay__part_2;;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 2](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 2](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : joy;;
+joy => nrel_main_idtf : [Joy](*<-lang_en;;*);;
+joy => nrel_main_idtf : [Джой](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : xmen_days_of_future_past;;
+xmen_days_of_future_past => nrel_main_idtf : [X-Men: Days of Future Past](*<-lang_en;;*);;
+xmen_days_of_future_past => nrel_main_idtf : [Люди Икс: Дни минувшего будущего](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : the_hunger_games_mockingjay__part_1;;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 1](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 1](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : the_hunger_games_catching_fire;;
+the_hunger_games_catching_fire => nrel_main_idtf : [The Hunger Games: Catching Fire](*<-lang_en;;*);;
+the_hunger_games_catching_fire => nrel_main_idtf : [Голодные игры: И вспыхнет пламя](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : american_hustle;;
+american_hustle => nrel_main_idtf : [American Hustle](*<-lang_en;;*);;
+american_hustle => nrel_main_idtf : [Афера по-американски](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : silver_linings_playbook;;
+silver_linings_playbook => nrel_main_idtf : [Silver Linings Playbook](*<-lang_en;;*);;
+silver_linings_playbook => nrel_main_idtf : [Мой парень - псих](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : the_hunger_games;;
+the_hunger_games => nrel_main_idtf : [The Hunger Games](*<-lang_en;;*);;
+the_hunger_games => nrel_main_idtf : [Голодные игры](*<-lang_ru;;*);;
+jennifer_lawrence => nrel_to_star_in : xmen_first_class;;
+xmen_first_class => nrel_main_idtf : [X-Men: First Class](*<-lang_en;;*);;
+xmen_first_class => nrel_main_idtf : [Люди Икс: Первый класс](*<-lang_ru;;*);;
+

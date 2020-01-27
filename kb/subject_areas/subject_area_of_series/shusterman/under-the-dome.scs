@@ -1,0 +1,109 @@
+
+                  concept_series -> Under_the_Dome;;
+              
+                  Under_the_Dome
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Под куполом]
+                    (* <- lang_ru;;	*);
+                    [Under_the_Dome]
+                    (* <- lang_en;;	*);;
+                  
+                  Under_the_Dome <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Под куполом)](*<-lang_ru;;*);
+                      [Description (Under_the_Dome)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Under_the_Dome_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Under_the_Dome_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Under_the_Dome <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Под куполом)](*<-lang_ru;;*);
+                      [Pic. (Under_the_Dome)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Under_the_Dome.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Under_the_Dome => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Under_the_Dome => nrel_production_year : 2013;;
+                  
+                  value -> 3;;
+                  Under_the_Dome => nrel_num_of_seasons: 3;;
+                  value -> 39;;
+                  Under_the_Dome => nrel_num_of_episodes: 39;;
+                  
+                  value -> 4;;
+                  Under_the_Dome => nrel_no_countries : 4;;
+                  
+                  value -> 11;;
+                  Under_the_Dome => nrel_viewers_in_millions: 11;;
+                  
+                  Under_the_Dome => nrel_age_rating: concept_PG12;;
+                  
+                    Under_the_Dome => nrel_actor : MackenzieLintz;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : DeanNorris;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : MikeVogel;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : RachelleLefevre;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : AlexanderKoch;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : ColinFord;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : EddieCahill;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : NicholasStrong;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : BrittRobertson;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : AishaHinds;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : NatalieMartinez;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : KarlaCrome;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : KylieBunbury;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : JolenePurdy;;
+                    
+                   
+                    Under_the_Dome => nrel_actor : JeffFahey;;
+                    
+                  
+                  
+                  Under_the_Dome
+                  =>nrel_keywords: concept_detectif;;
+                  

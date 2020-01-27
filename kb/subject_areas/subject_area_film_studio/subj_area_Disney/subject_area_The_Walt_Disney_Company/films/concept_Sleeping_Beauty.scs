@@ -1,0 +1,258 @@
+concept_Sleeping_Beauty
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Спящая красавица]
+	(* <- lang_ru;;	*);
+	[Sleeping Beauty]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Спящая красавица)](*<-lang_ru;;*);
+		[Description (Sleeping Beauty)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Sleeping_Beauty_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Sleeping_Beauty_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Clyde_Jeronimi;
+=>nrel_producer: Walt_Disney;
+=>nrel_production_country: USA;
+=>nrel_production_year:   ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1958
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 75
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 51600000
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+  	<-character_Princess_Aurora;;
+	<-character_Prince_Phillip;; 
+	<-character_Maleficent;;
+	<-character_Marieveza;;
+	<-character_Flora;;
+	<-character_Fauna;;
+	*);
+=>nrel_age_rating: concept_PG12;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Спящая красавица)](*<-lang_ru;;*);
+		[Pic. (Sleeping Beauty)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Sleeping_Beauty.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Princess_Aurora
+=> nrel_main_idtf: 
+[Принцесса Аврора] (* <-lang_ru;; *); 
+[Princess Aurora] (* <-lang_en;; *); 
+<- character; 
+<- female; 
+<- princess; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Принцесса Аврора)] (* <-lang_ru;; *); 
+[Description of character(Princess Aurora)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Princess_Aurora_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Princess_Aurora_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Принцесса Аврора)](*<-lang_ru;;*); 
+[Pic. (Princess Aurora)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Princess_Aurora.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Prince_Phillip
+=> nrel_main_idtf: 
+[Принц Филипп] (* <-lang_ru;; *); 
+[Prince Phillip] (* <-lang_en;; *); 
+<- character; 
+<- male; 
+<- prince; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Принц Филипп)] (* <-lang_ru;; *); 
+[Description of character(Prince Phillip)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Prince_Phillip_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Prince_Phillip_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Принц Филипп)](*<-lang_ru;;*); 
+[Pic. (Prince Phillip)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Prince_Phillip.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Maleficent
+=> nrel_main_idtf: 
+[Малефисента] (* <-lang_ru;; *); 
+[Maleficent] (* <-lang_en;; *); 
+<- character; 
+<- female; 
+<- witch; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Малефисента)] (* <-lang_ru;; *); 
+[Description of character(Maleficent)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Maleficent_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Maleficent_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Малефисента)](*<-lang_ru;;*); 
+[Pic. (Maleficent)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Maleficent.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Marieveza
+=> nrel_main_idtf: 
+[Мэривеза] (* <-lang_ru;; *); 
+[Marieveza] (* <-lang_en;; *); 
+<- character; 
+<- female; 
+<- fairy; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Мэривеза)] (* <-lang_ru;; *); 
+[Description of character(Marieveza)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Marieveza_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Marieveza_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Мэривеза)](*<-lang_ru;;*); 
+[Pic. (Marieveza)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Marieveza.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Flora
+=> nrel_main_idtf: 
+[Флора] (* <-lang_ru;; *); 
+[Flora] (* <-lang_en;; *); 
+<- character; 
+<- female; 
+<- fairy; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Флора)] (* <-lang_ru;; *); 
+[Description of character(Flora)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Flora_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Flora_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Флора)](*<-lang_ru;;*); 
+[Pic. (Flora)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Flora.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Fauna
+=> nrel_main_idtf: 
+[Фауна] (* <-lang_ru;; *); 
+[Fauna] (* <-lang_en;; *); 
+<- character; 
+<- female; 
+<- fairy; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Фауна)] (* <-lang_ru;; *); 
+[Description of character(Fauna)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Fauna_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Fauna_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Фауна)](*<-lang_ru;;*); 
+[Pic. (Fauna)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Fauna.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Walt_Disney
+=>nrel_main_idtf:
+		[Уолт Дисней](*<-lang_ru;;*);
+		[Walt Disney](*<-lang_en;;*);;
+Clyde_Jeronimi
+=>nrel_main_idtf:
+		[Клайд Джероними](*<-lang_ru;;*);
+		[Clyde Jeronimi](*<-lang_en;;*);;
+fairy
+=>nrel_main_idtf:
+		[фея](*<-lang_ru;;*);
+		[fairy](*<-lang_en;;*);;

@@ -1,0 +1,67 @@
+film_britva_1980
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бритва]
+(* <- lang_ru;;    *);
+[Dressed to Kill]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бритва)](*<-lang_ru;;*);
+[Description (Dressed to Kill)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/britva-1980_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/britva-1980_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бритва)](*<-lang_ru;;*);
+		[Pic. (Dressed to Kill)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/britva-1980.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Brian De Palma, Master of the Macabre, invites you to a showing of the latest fashion... ...in murder. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [25.07.1980](*<-lang_ru;;*);;
+    => nrel_main_idtf : [25.07.1980](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H44M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H44M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_britva_1980 =>nrel_keywords: film;;
+
+film_britva_1980 <- concept_mystery;concept_thriller;;
+
+film_britva_1980 => nrel_main_actor : michael_caine;angie_dickinson;nancy_allen;keith_gordon;;
+film_britva_1980 => nrel_producer : brian_de_palma;;

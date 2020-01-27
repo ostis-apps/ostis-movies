@@ -1,0 +1,45 @@
+concept_human -> saoirse_ronan;;
+ 
+ saoirse_ronan <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сирша Ронан)](*<-lang_ru;;*);
+ 		[Description (Saoirse Ronan)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/saoirse_ronan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ saoirse_ronan <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сирша Ронан)](*<-lang_ru;;*);
+ 		[Pic. (Saoirse Ronan)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/saoirse_ronan.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ saoirse_ronan => nrel_main_idtf : [Сирша Ронан](*<-lang_ru;;*);;
+ saoirse_ronan => nrel_main_idtf : [Saoirse Ronan](*<-lang_en;;*);;
+ 
+ 
+ saoirse_ronan => nrel_birth_date : 1994;;
+ 
+ concept_goverment -> Usa;;
+ saoirse_ronan => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ saoirse_ronan => nrel_to_star_in : atonement;;
+atonement => nrel_main_idtf : [Atonement](*<-lang_en;;*);;
+atonement => nrel_main_idtf : [Искупление](*<-lang_ru;;*);;
+

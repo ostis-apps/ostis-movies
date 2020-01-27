@@ -1,0 +1,67 @@
+film_angel_hranitel_2012
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Ангел-хранитель]
+(* <- lang_ru;;    *);
+[Schutzengel]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ангел-хранитель)](*<-lang_ru;;*);
+[Description (Schutzengel)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/angel-hranitel-2012_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/angel-hranitel-2012_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ангел-хранитель)](*<-lang_ru;;*);
+		[Pic. (Schutzengel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/angel-hranitel-2012.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Schutzengel](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [27.09.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [27.09.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H10M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H10M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_angel_hranitel_2012 =>nrel_keywords: film;;
+
+film_angel_hranitel_2012 <- concept_action;concept_crime;concept_drama;concept_thriller;;
+
+film_angel_hranitel_2012 => nrel_main_actor : numan_acar;volker_albers;loyd_bateman;gode_benedix;;
+film_angel_hranitel_2012 => nrel_producer : til_schweiger;;

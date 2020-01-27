@@ -1,0 +1,127 @@
+
+                  concept_series -> Classroom_of_the_Elite;;
+              
+                  Classroom_of_the_Elite
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Classroom_of_the_Elite]
+                    (* <- lang_ru;;	*);
+                    [Classroom_of_the_Elite]
+                    (* <- lang_en;;	*);;
+                  
+                  Classroom_of_the_Elite <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Classroom_of_the_Elite)](*<-lang_ru;;*);
+                      [Description (Classroom_of_the_Elite)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Classroom_of_the_Elite_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Classroom_of_the_Elite_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Classroom_of_the_Elite <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Classroom_of_the_Elite)](*<-lang_ru;;*);
+                      [Pic. (Classroom_of_the_Elite)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Classroom_of_the_Elite.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Classroom_of_the_Elite => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Classroom_of_the_Elite => nrel_production_year : 2017;;
+                  
+                  value -> 1;;
+                  Classroom_of_the_Elite => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  Classroom_of_the_Elite => nrel_num_of_episodes: 12;;
+                  
+                  value -> 9;;
+                  Classroom_of_the_Elite => nrel_no_countries : 9;;
+                  
+                  value -> 4;;
+                  Classroom_of_the_Elite => nrel_viewers_in_millions: 4;;
+                  
+                  Classroom_of_the_Elite => nrel_age_rating: concept_PG12;;
+                  
+                    Classroom_of_the_Elite => nrel_actor : ShyaChiba;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : MikakoKomatsu;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : AkihisaWakayama;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : AyanaTaketatsu;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : KonomiKohara;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : RinaHidaka;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : MutsukiIwanaka;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : MaoIchimichi;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : DaikiAbe;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : YuichiroUmehara;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : EijiTakeuchi;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : HisakoKanemoto;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : MasaakiMizunaka;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : RinaSatou;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : ToshikiIwasawa;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : YurikaKubo;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : TsubasaGda;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : NaoTyama;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : SatoshiHino;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : AkariKit;;
+                    
+                   
+                    Classroom_of_the_Elite => nrel_actor : Rytasaka;;
+                    
+                  
+                  
+                  Classroom_of_the_Elite
+                  =>nrel_keywords: concept_detectif;;
+                  

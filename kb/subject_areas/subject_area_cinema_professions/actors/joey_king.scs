@@ -1,0 +1,48 @@
+concept_human -> joey_king;;
+ 
+ joey_king <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джои Кинг)](*<-lang_ru;;*);
+ 		[Description (Joey King)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/joey_king_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ joey_king <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джои Кинг)](*<-lang_ru;;*);
+ 		[Pic. (Joey King)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/joey_king.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ joey_king => nrel_main_idtf : [Джои Кинг](*<-lang_ru;;*);;
+ joey_king => nrel_main_idtf : [Joey King](*<-lang_en;;*);;
+ 
+ 
+ joey_king => nrel_birth_date : 1999;;
+ 
+ concept_goverment -> Usa;;
+ joey_king => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ joey_king => nrel_to_star_in : the_kissing_booth;;
+the_kissing_booth => nrel_main_idtf : [The Kissing Booth](*<-lang_en;;*);;
+the_kissing_booth => nrel_main_idtf : [Будка поцелуев](*<-lang_ru;;*);;
+joey_king => nrel_to_star_in : the_dark_knight_rises;;
+the_dark_knight_rises => nrel_main_idtf : [The Dark Knight Rises](*<-lang_en;;*);;
+the_dark_knight_rises => nrel_main_idtf : [Темный рыцарь: Возрождение легенды](*<-lang_ru;;*);;
+

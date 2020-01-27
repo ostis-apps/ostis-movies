@@ -1,0 +1,57 @@
+concept_human -> nicolas_hoult;;
+ 
+ nicolas_hoult <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Николас Холт)](*<-lang_ru;;*);
+ 		[Description (Nicolas Hoult)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/nicolas_hoult_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ nicolas_hoult <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Николас Холт)](*<-lang_ru;;*);
+ 		[Pic. (Nicolas Hoult)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/nicolas_hoult.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ nicolas_hoult => nrel_main_idtf : [Николас Холт](*<-lang_ru;;*);;
+ nicolas_hoult => nrel_main_idtf : [Nicolas Hoult](*<-lang_en;;*);;
+ 
+ 
+ nicolas_hoult => nrel_birth_date : 1990;;
+ 
+ concept_goverment -> UK;;
+ nicolas_hoult => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ nicolas_hoult => nrel_to_star_in : dark_phoenix;;
+dark_phoenix => nrel_main_idtf : [Dark Phoenix](*<-lang_en;;*);;
+dark_phoenix => nrel_main_idtf : [Люди Икс: Тёмный Феникс](*<-lang_ru;;*);;
+nicolas_hoult => nrel_to_star_in : xmen_apocalypse;;
+xmen_apocalypse => nrel_main_idtf : [X-Men: Apocalypse](*<-lang_en;;*);;
+xmen_apocalypse => nrel_main_idtf : [Люди Икс: Апокалипсис](*<-lang_ru;;*);;
+nicolas_hoult => nrel_to_star_in : mad_max_fury_road;;
+mad_max_fury_road => nrel_main_idtf : [Mad Max: Fury Road](*<-lang_en;;*);;
+mad_max_fury_road => nrel_main_idtf : [Безумный Макс: Дорога ярости](*<-lang_ru;;*);;
+nicolas_hoult => nrel_to_star_in : xmen_days_of_future_past;;
+xmen_days_of_future_past => nrel_main_idtf : [X-Men: Days of Future Past](*<-lang_en;;*);;
+xmen_days_of_future_past => nrel_main_idtf : [Люди Икс: Дни минувшего будущего](*<-lang_ru;;*);;
+nicolas_hoult => nrel_to_star_in : xmen_first_class;;
+xmen_first_class => nrel_main_idtf : [X-Men: First Class](*<-lang_en;;*);;
+xmen_first_class => nrel_main_idtf : [Люди Икс: Первый класс](*<-lang_ru;;*);;
+

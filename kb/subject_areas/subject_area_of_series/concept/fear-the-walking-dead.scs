@@ -1,0 +1,130 @@
+
+                  concept_series -> Fear_the_Walking_Dead;;
+              
+                  Fear_the_Walking_Dead
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Fear_the_Walking_Dead]
+                    (* <- lang_ru;;	*);
+                    [Fear_the_Walking_Dead]
+                    (* <- lang_en;;	*);;
+                  
+                  Fear_the_Walking_Dead <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Fear_the_Walking_Dead)](*<-lang_ru;;*);
+                      [Description (Fear_the_Walking_Dead)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Fear_the_Walking_Dead_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Fear_the_Walking_Dead_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Fear_the_Walking_Dead <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Fear_the_Walking_Dead)](*<-lang_ru;;*);
+                      [Pic. (Fear_the_Walking_Dead)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Fear_the_Walking_Dead.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Fear_the_Walking_Dead => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Fear_the_Walking_Dead => nrel_production_year : 2015;;
+                  
+                  value -> 6;;
+                  Fear_the_Walking_Dead => nrel_num_of_seasons: 6;;
+                  value -> 69;;
+                  Fear_the_Walking_Dead => nrel_num_of_episodes: 69;;
+                  
+                  value -> 10;;
+                  Fear_the_Walking_Dead => nrel_no_countries : 10;;
+                  
+                  value -> 11;;
+                  Fear_the_Walking_Dead => nrel_viewers_in_millions: 11;;
+                  
+                  Fear_the_Walking_Dead => nrel_age_rating: concept_PG12;;
+                  
+                    Fear_the_Walking_Dead => nrel_actor : AlyciaDebnamCarey;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : ColmanDomingo;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : KimDickens;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : FrankDillane;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : DanayGarca;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : RubnBlades;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : LennieJames;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : JennaElfman;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : GarretDillahunt;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : MercedesMashn;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : AlexaNisenson;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : MaggieGrace;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : CliffCurtis;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : LorenzoJamesHenrie;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : DanielSharman;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : SamUnderwood;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : AustinAmelio;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : KarenDavid;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : ElizabethRodriguez;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : DaytonCallie;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : LisandraTena;;
+                    
+                   
+                    Fear_the_Walking_Dead => nrel_actor : MichelleAng;;
+                    
+                  
+                  
+                  Fear_the_Walking_Dead
+                  =>nrel_keywords: concept_detectif;;
+                  

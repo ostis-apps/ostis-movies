@@ -1,0 +1,36 @@
+concept_family_film
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[семейный фильм](*<-lang_ru;;*);
+	[family film](*<-lang_en;;*);
+=>nrel_idtf:
+	[семейное кино](*<-lang_ru;;*);
+        [family movie](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (семейный фильм)](*<-lang_ru;;*);
+		[Def. (family film)](*<-lang_en;;*);;
+        <=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_family_film_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_family_film_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (семейный фильм)](*<-lang_ru;;*);
+		[Pic. (family film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_family_film.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_film;;

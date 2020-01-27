@@ -1,0 +1,45 @@
+concept_human -> gus_van_sant;;
+ 
+ gus_van_sant <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Гас Ван Сент)](*<-lang_ru;;*);
+ 		[Description (Gus Van Sant)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/gus_van_sant_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ gus_van_sant <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Гас Ван Сент)](*<-lang_ru;;*);
+ 		[Pic. (Gus Van Sant)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/gus_van_sant.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ gus_van_sant => nrel_main_idtf : [Гас Ван Сент](*<-lang_ru;;*);;
+ gus_van_sant => nrel_main_idtf : [Gus Van Sant](*<-lang_en;;*);;
+ 
+ 
+ gus_van_sant => nrel_birth_date : 1952;;
+ 
+ concept_goverment -> Usa;;
+ gus_van_sant => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ gus_van_sant => nrel_to_star_in : dont_worry_he_wont_get_far_on_foot;;
+dont_worry_he_wont_get_far_on_foot => nrel_main_idtf : [Don't Worry, He Won't Get Far on Foot](*<-lang_en;;*);;
+dont_worry_he_wont_get_far_on_foot => nrel_main_idtf : [Не волнуйся, он далеко не уйдет](*<-lang_ru;;*);;
+

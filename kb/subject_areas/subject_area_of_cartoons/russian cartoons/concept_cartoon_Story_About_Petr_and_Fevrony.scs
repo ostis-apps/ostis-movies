@@ -1,0 +1,43 @@
+concept_cartoon_Story_About_Petr_and_Fevrony
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сказ о Петре и Февронии]
+	(* <- lang_ru;;	*);
+	[Story About Petr and Fevrony]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сказ о Петре и Февронии)](*<-lang_ru;;*);
+		[Description (Story About Petr and Fevrony)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Story About Petr and Fevrony_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Story About Petr and Fevrony_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сказ о Петре и Февронии)](*<-lang_ru;;*);
+		[Pic. (Story About Petr and Fevrony)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Story About Petr and Fevrony.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_traditional_animation;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_adventure;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

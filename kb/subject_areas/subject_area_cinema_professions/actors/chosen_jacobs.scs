@@ -1,0 +1,45 @@
+concept_human -> chosen_jacobs;;
+ 
+ chosen_jacobs <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Чоузен Джейкобс)](*<-lang_ru;;*);
+ 		[Description (Chosen Jacobs)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/chosen_jacobs_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ chosen_jacobs <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Чоузен Джейкобс)](*<-lang_ru;;*);
+ 		[Pic. (Chosen Jacobs)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/chosen_jacobs.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ chosen_jacobs => nrel_main_idtf : [Чоузен Джейкобс](*<-lang_ru;;*);;
+ chosen_jacobs => nrel_main_idtf : [Chosen Jacobs](*<-lang_en;;*);;
+ 
+ 
+ chosen_jacobs => nrel_birth_date : 2001;;
+ 
+ concept_goverment -> Usa;;
+ chosen_jacobs => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ chosen_jacobs => nrel_to_star_in : it_chapter_two;;
+it_chapter_two => nrel_main_idtf : [It Chapter Two](*<-lang_en;;*);;
+it_chapter_two => nrel_main_idtf : [Оно 2](*<-lang_ru;;*);;
+

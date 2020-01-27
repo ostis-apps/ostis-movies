@@ -1,0 +1,60 @@
+concept_human -> uma_thurman;;
+ 
+ uma_thurman <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Ума Турман)](*<-lang_ru;;*);
+ 		[Description (Uma Thurman)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/uma_thurman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ uma_thurman <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Ума Турман)](*<-lang_ru;;*);
+ 		[Pic. (Uma Thurman)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/uma_thurman.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ uma_thurman => nrel_main_idtf : [Ума Турман](*<-lang_ru;;*);;
+ uma_thurman => nrel_main_idtf : [Uma Thurman](*<-lang_en;;*);;
+ 
+ 
+ uma_thurman => nrel_birth_date : 1970;;
+ 
+ concept_goverment -> Usa;;
+ uma_thurman => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ uma_thurman => nrel_to_star_in : the_house_that_jack_built;;
+the_house_that_jack_built => nrel_main_idtf : [The House That Jack Built](*<-lang_en;;*);;
+the_house_that_jack_built => nrel_main_idtf : [Дом, который построил Джек](*<-lang_ru;;*);;
+uma_thurman => nrel_to_star_in : movie_43;;
+movie_43 => nrel_main_idtf : [Movie 43](*<-lang_en;;*);;
+movie_43 => nrel_main_idtf : [Муви 43](*<-lang_ru;;*);;
+uma_thurman => nrel_to_star_in : kill_bill_vol_2;;
+kill_bill_vol_2 => nrel_main_idtf : [Kill Bill: Vol. 2](*<-lang_en;;*);;
+kill_bill_vol_2 => nrel_main_idtf : [Убить Билла. Фильм 2](*<-lang_ru;;*);;
+uma_thurman => nrel_to_star_in : kill_bill_vol_1;;
+kill_bill_vol_1 => nrel_main_idtf : [Kill Bill: Vol. 1](*<-lang_en;;*);;
+kill_bill_vol_1 => nrel_main_idtf : [Убить Билла. Фильм 1](*<-lang_ru;;*);;
+uma_thurman => nrel_to_star_in : batman__robin;;
+batman__robin => nrel_main_idtf : [Batman & Robin](*<-lang_en;;*);;
+batman__robin => nrel_main_idtf : [Бэтмен и Робин](*<-lang_ru;;*);;
+uma_thurman => nrel_to_star_in : pulp_fiction;;
+pulp_fiction => nrel_main_idtf : [Pulp Fiction](*<-lang_en;;*);;
+pulp_fiction => nrel_main_idtf : [Криминальное чтиво](*<-lang_ru;;*);;
+

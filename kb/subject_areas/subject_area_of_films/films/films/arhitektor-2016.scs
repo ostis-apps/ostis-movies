@@ -1,0 +1,67 @@
+film_arhitektor_2016
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Архитектор]
+(* <- lang_ru;;    *);
+[The Architect]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Архитектор)](*<-lang_ru;;*);
+[Description (The Architect)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/arhitektor-2016_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/arhitektor-2016_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Архитектор)](*<-lang_ru;;*);
+		[Pic. (The Architect)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/arhitektor-2016.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The Architect](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [15.06.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [15.06.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H35M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H35M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_Not_Rated;;
+
+film_arhitektor_2016 =>nrel_keywords: film;;
+
+film_arhitektor_2016 <- concept_comedy;concept_drama;;
+
+film_arhitektor_2016 => nrel_main_actor : parker_posey;john_carroll_lynch;james_frain;eric_mccormack;;
+film_arhitektor_2016 => nrel_producer : jonathan_parker;;

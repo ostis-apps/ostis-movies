@@ -1,0 +1,76 @@
+
+                  concept_series -> South_Park;;
+              
+                  South_Park
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Южный парк]
+                    (* <- lang_ru;;	*);
+                    [South_Park]
+                    (* <- lang_en;;	*);;
+                  
+                  South_Park <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Южный парк)](*<-lang_ru;;*);
+                      [Description (South_Park)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/South_Park_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/South_Park_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  South_Park <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Южный парк)](*<-lang_ru;;*);
+                      [Pic. (South_Park)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/South_Park.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  South_Park => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 1997;;
+                  1997 => nrel_main_idtf : [1997 год](*<-lang_ru;;*);;
+                  1997 => nrel_main_idtf : [year of 1997](*<-lang_en;;*);;
+                  South_Park => nrel_production_year : 1997;;
+                  
+                  value -> 23;;
+                  South_Park => nrel_num_of_seasons: 23;;
+                  value -> 307;;
+                  South_Park => nrel_num_of_episodes: 307;;
+                  
+                  value -> 8;;
+                  South_Park => nrel_no_countries : 8;;
+                  
+                  value -> 10;;
+                  South_Park => nrel_viewers_in_millions: 10;;
+                  
+                  South_Park => nrel_age_rating: concept_PG12;;
+                  
+                    South_Park => nrel_actor : MattStone;;
+                    
+                   
+                    South_Park => nrel_actor : TreyParker;;
+                    
+                   
+                    South_Park => nrel_actor : TreyParker;;
+                    
+                   
+                    South_Park => nrel_actor : MattStone;;
+                    
+                  
+                  
+                  South_Park
+                  =>nrel_keywords: concept_detectif;;
+                  

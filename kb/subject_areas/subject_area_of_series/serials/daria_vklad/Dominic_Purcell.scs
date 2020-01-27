@@ -1,0 +1,51 @@
+concept_human ->Dominic_Purcell;;
+
+Dominic_Purcell
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Доминик Пёрселл]
+	(* <- lang_ru;;	*);
+	[Dominic Purcell]
+	(* <- lang_en;;	*);;
+	
+Dominic_Purcell <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Доминик Пёрселл)](*<-lang_ru;;*);
+		[Description (Dominic Purcell)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Dominic_Purcell_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Dominic_Purcell_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Dominic_Purcell <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Доминик Пёрселл)](*<-lang_ru;;*);
+		[Pic. (Dominic Purcell)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Dominic_Purcell.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1970;;
+Dominic_Purcell=>nrel_date_of_birth: 1970;;
+1970=>nrel_main_idtf:[1970 год](*<-lang_ru;;*);;
+1970=>nrel_main_idtf:[year of 1970](*<-lang_en;;*);;
+
+concept_calendar_date->1996;;
+Dominic_Purcell=>nrel_career_start_date: 1996;;
+1996=>nrel_main_idtf:[1996 год](*<-lang_ru;;*);;
+1996=>nrel_main_idtf:[year of 1996](*<-lang_en;;*);;
+
+Dominic_Purcell =>nrel_cityzenship:concept_uk;;
+

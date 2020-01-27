@@ -1,0 +1,100 @@
+
+                  concept_series -> Mr._Robot;;
+              
+                  Mr._Robot
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Mr.Robot]
+                    (* <- lang_ru;;	*);
+                    [Mr._Robot]
+                    (* <- lang_en;;	*);;
+                  
+                  Mr._Robot <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Mr.Robot)](*<-lang_ru;;*);
+                      [Description (Mr._Robot)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Mr._Robot_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Mr._Robot_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Mr._Robot <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Mr.Robot)](*<-lang_ru;;*);
+                      [Pic. (Mr._Robot)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Mr._Robot.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Mr._Robot => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Mr._Robot => nrel_production_year : 2015;;
+                  
+                  value -> 4;;
+                  Mr._Robot => nrel_num_of_seasons: 4;;
+                  value -> 45;;
+                  Mr._Robot => nrel_num_of_episodes: 45;;
+                  
+                  value -> 12;;
+                  Mr._Robot => nrel_no_countries : 12;;
+                  
+                  value -> 6;;
+                  Mr._Robot => nrel_viewers_in_millions: 6;;
+                  
+                  Mr._Robot => nrel_age_rating: concept_PG12;;
+                  
+                    Mr._Robot => nrel_actor : RamiMalek;;
+                    
+                   
+                    Mr._Robot => nrel_actor : ChristianSlater;;
+                    
+                   
+                    Mr._Robot => nrel_actor : CarlyChaikin;;
+                    
+                   
+                    Mr._Robot => nrel_actor : PortiaDoubleday;;
+                    
+                   
+                    Mr._Robot => nrel_actor : MartinWallstrm;;
+                    
+                   
+                    Mr._Robot => nrel_actor : GraceGummer;;
+                    
+                   
+                    Mr._Robot => nrel_actor : MichaelCristofer;;
+                    
+                   
+                    Mr._Robot => nrel_actor : BDWong;;
+                    
+                   
+                    Mr._Robot => nrel_actor : StephanieCorneliussen;;
+                    
+                   
+                    Mr._Robot => nrel_actor : BobbyCannavale;;
+                    
+                   
+                    Mr._Robot => nrel_actor : ElliotVillar;;
+                    
+                   
+                    Mr._Robot => nrel_actor : AshlieAtkinson;;
+                    
+                  
+                  
+                  Mr._Robot
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,45 @@
+concept_human -> celine_dion;;
+ 
+ celine_dion <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Селин Дион)](*<-lang_ru;;*);
+ 		[Description (Celine Dion)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/celine_dion_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ celine_dion <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Селин Дион)](*<-lang_ru;;*);
+ 		[Pic. (Celine Dion)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/celine_dion.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ celine_dion => nrel_main_idtf : [Селин Дион](*<-lang_ru;;*);;
+ celine_dion => nrel_main_idtf : [Celine Dion](*<-lang_en;;*);;
+ 
+ 
+ celine_dion => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Canada;;
+ celine_dion => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ celine_dion => nrel_to_star_in : oceans_thirteen;;
+oceans_thirteen => nrel_main_idtf : [Ocean`s Thirteen](*<-lang_en;;*);;
+oceans_thirteen => nrel_main_idtf : [Тринадцать друзей Оушена](*<-lang_ru;;*);;
+

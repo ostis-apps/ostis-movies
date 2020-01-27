@@ -1,0 +1,67 @@
+film_absolyutnaya_vlast_1997
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Абсолютная власть]
+(* <- lang_ru;;    *);
+[Absolute Power]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Абсолютная власть)](*<-lang_ru;;*);
+[Description (Absolute Power)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/absolyutnaya-vlast-1997_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/absolyutnaya-vlast-1997_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Абсолютная власть)](*<-lang_ru;;*);
+		[Pic. (Absolute Power)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/absolyutnaya-vlast-1997.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Corrupts Absolutely.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [14.02.1997](*<-lang_ru;;*);;
+    => nrel_main_idtf : [14.02.1997](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H1M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H1M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_absolyutnaya_vlast_1997 =>nrel_keywords: film;;
+
+film_absolyutnaya_vlast_1997 <- concept_action;concept_crime;concept_drama;concept_thriller;;
+
+film_absolyutnaya_vlast_1997 => nrel_main_actor : clint_eastwood;gene_hackman;ed_harris;laura_linney;;
+film_absolyutnaya_vlast_1997 => nrel_producer : clint_eastwood;;

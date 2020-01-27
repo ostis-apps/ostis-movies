@@ -1,0 +1,100 @@
+
+                  concept_series -> Penny_Dreadful;;
+              
+                  Penny_Dreadful
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Penny_Dreadful]
+                    (* <- lang_ru;;	*);
+                    [Penny_Dreadful]
+                    (* <- lang_en;;	*);;
+                  
+                  Penny_Dreadful <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Penny_Dreadful)](*<-lang_ru;;*);
+                      [Description (Penny_Dreadful)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Penny_Dreadful_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Penny_Dreadful_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Penny_Dreadful <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Penny_Dreadful)](*<-lang_ru;;*);
+                      [Pic. (Penny_Dreadful)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Penny_Dreadful.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Penny_Dreadful => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Penny_Dreadful => nrel_production_year : 2014;;
+                  
+                  value -> 3;;
+                  Penny_Dreadful => nrel_num_of_seasons: 3;;
+                  value -> 27;;
+                  Penny_Dreadful => nrel_num_of_episodes: 27;;
+                  
+                  value -> 9;;
+                  Penny_Dreadful => nrel_no_countries : 9;;
+                  
+                  value -> 10;;
+                  Penny_Dreadful => nrel_viewers_in_millions: 10;;
+                  
+                  Penny_Dreadful => nrel_age_rating: concept_PG12;;
+                  
+                    Penny_Dreadful => nrel_actor : JoshHartnett;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : TimothyDalton;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : HarryTreadaway;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : EvaGreen;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : RoryKinnear;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : BilliePiper;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : ReeveCarney;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : DannySapani;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : SimonRussellBeale;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : HelenMcCrory;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : PattiLuPone;;
+                    
+                   
+                    Penny_Dreadful => nrel_actor : WesStudi;;
+                    
+                  
+                  
+                  Penny_Dreadful
+                  =>nrel_keywords: concept_detectif;;
+                  

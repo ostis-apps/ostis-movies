@@ -1,0 +1,35 @@
+5rooms
+=>nrel_main_idtf:
+	[кинотеатр 5 комнат](*<-lang_ru;;*);
+	[5 rooms cinema](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (кинотеатр 5 комнат)](*<-lang_ru;;*);
+		[Def. (cinema 5 rooms)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+		-> concept_Minsk;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_5rooms_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_5rooms_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кинотеатр 5 комнат)](*<-lang_ru;;*);
+		[Pic. (cinema 5 rooms)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/5rooms.png"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<- concept_3Dcinema;
+=> nrel_cinema_location: minsk;
+<- concept_cinema;;

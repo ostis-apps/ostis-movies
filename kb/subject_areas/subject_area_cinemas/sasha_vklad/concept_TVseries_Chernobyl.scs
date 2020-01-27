@@ -1,0 +1,64 @@
+concept_series -> Chernobyl ;;
+
+Chernobyl
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Чернобыль]
+	(* <- lang_ru;;	*);
+	[Chernobyl]
+	(* <- lang_en;;	*);;
+	
+Chernobyl <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Чернобыль)](*<-lang_ru;;*);
+		[Description (Chernobyl)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Chernobyl_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Chernobyl_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Chernobyl <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чернобыль)](*<-lang_ru;;*);
+		[Pic. (Chernobyl)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Chernobyl.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+Chernobyl => nrel_production_country : Usa;;
+
+concept_calendar_date -> 2019;;
+2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+Chernobyl => nrel_production_year : 2019;;
+	
+value -> 1;;
+Chernobyl => nrel_num_of_seasons: 1;;
+value -> 5;;
+Chernobyl => nrel_num_of_episodes: 5;;
+
+value -> 75;;
+Chernobyl => nrel_no_countries : 75;;
+
+value -> 12;;
+Chernobyl => nrel_viewers_in_millions: 12;;
+
+Chernobyl => nrel_age_rating: concept_PG16;;
+
+Chernobyl => nrel_actor : Jared_Harris;;
+Chernobyl => nrel_producer: Johan_Renck;;
+
+Chernobyl
+=>nrel_keywords: concept_historical_drama;;

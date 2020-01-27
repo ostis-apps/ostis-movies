@@ -1,0 +1,22 @@
+lyudmila_feiginova
+<- person;
+<- concept_editor;
+=> nrel_main_idtf:
+        [Людмила Фейгинова]
+	(* <- lang_ru;;	*);
+	[Lyudmila Feiginova]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+        <- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Людмила Фейгинова)](* <- lang_ru;; *);
+		[Desctiption (Lyudmila Feiginova)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+	        (*
+		        -> rrel_example:[<b><sc_element sys_idtf="lyudmila_feiginova">Николай Бурляев</sc_element></b> — монтажер фильмов <sc_element sys_idtf="andrei_tarkovsky">Тарковского</sc_element>.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="lyudmila_feiginova">Nikolay Burlyaev</sc_element></b> - cutter of <sc_element sys_idtf="andrei_tarkovsky">Tarkovsky's</sc_element> films.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+

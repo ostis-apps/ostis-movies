@@ -1,0 +1,50 @@
+concept_human -> Dominic_West;;
+
+Dominic_West
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Доминик Уэст]
+	(* <- lang_ru;;	*);
+	[Dominic West]
+	(* <- lang_en;;	*);;
+	
+Dominic_West <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Доминик Уэст)](*<-lang_ru;;*);
+		[Description (Dominic West)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Dominic_West_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Dominic_West_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Dominic_West <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Доминик Уэст)](*<-lang_ru;;*);
+		[Pic. (Dominic West)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Dominic_West.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1969;;
+Dominic_West =>nrel_date_of_birth: 1969;;
+1969=>nrel_main_idtf:[1969 год](*<-lang_ru;;*);;
+1969=>nrel_main_idtf:[year of 1969](*<-lang_en;;*);;
+
+concept_calendar_date->1991;;
+Dominic_West =>nrel_career_start_date: 1991;;
+1991=>nrel_main_idtf:[1991 год](*<-lang_ru;;*);;
+1991=>nrel_main_idtf:[year of 1991](*<-lang_en;;*);;
+
+Dominic_West =>nrel_cityzenship: Uk;;

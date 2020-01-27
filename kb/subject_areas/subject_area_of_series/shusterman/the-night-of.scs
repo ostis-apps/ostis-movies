@@ -1,0 +1,127 @@
+
+                  concept_series -> The_Night_Of;;
+              
+                  The_Night_Of
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Night_Of]
+                    (* <- lang_ru;;	*);
+                    [The_Night_Of]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Night_Of <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Night_Of)](*<-lang_ru;;*);
+                      [Description (The_Night_Of)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Night_Of_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Night_Of_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Night_Of <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Night_Of)](*<-lang_ru;;*);
+                      [Pic. (The_Night_Of)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Night_Of.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Night_Of => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  The_Night_Of => nrel_production_year : 2016;;
+                  
+                  value -> 1;;
+                  The_Night_Of => nrel_num_of_seasons: 1;;
+                  value -> 8;;
+                  The_Night_Of => nrel_num_of_episodes: 8;;
+                  
+                  value -> 8;;
+                  The_Night_Of => nrel_no_countries : 8;;
+                  
+                  value -> 6;;
+                  The_Night_Of => nrel_viewers_in_millions: 6;;
+                  
+                  The_Night_Of => nrel_age_rating: concept_PG12;;
+                  
+                    The_Night_Of => nrel_actor : RizAhmed;;
+                    
+                   
+                    The_Night_Of => nrel_actor : JohnTurturro;;
+                    
+                   
+                    The_Night_Of => nrel_actor : BillCamp;;
+                    
+                   
+                    The_Night_Of => nrel_actor : PaymanMaadi;;
+                    
+                   
+                    The_Night_Of => nrel_actor : PoornaJagannathan;;
+                    
+                   
+                    The_Night_Of => nrel_actor : JeannieBerlin;;
+                    
+                   
+                    The_Night_Of => nrel_actor : MichaelKWilliams;;
+                    
+                   
+                    The_Night_Of => nrel_actor : PaulSparks;;
+                    
+                   
+                    The_Night_Of => nrel_actor : AmaraKaran;;
+                    
+                   
+                    The_Night_Of => nrel_actor : SofiaBlackDElia;;
+                    
+                   
+                    The_Night_Of => nrel_actor : AftonWilliamson;;
+                    
+                   
+                    The_Night_Of => nrel_actor : PauloCostanzo;;
+                    
+                   
+                    The_Night_Of => nrel_actor : NabilElouahabi;;
+                    
+                   
+                    The_Night_Of => nrel_actor : GlennFleshler;;
+                    
+                   
+                    The_Night_Of => nrel_actor : BenShenkman;;
+                    
+                   
+                    The_Night_Of => nrel_actor : MohammadBakri;;
+                    
+                   
+                    The_Night_Of => nrel_actor : GlenneHeadly;;
+                    
+                   
+                    The_Night_Of => nrel_actor : StickyFingaz;;
+                    
+                   
+                    The_Night_Of => nrel_actor : AshleyThomas;;
+                    
+                   
+                    The_Night_Of => nrel_actor : ChipZien;;
+                    
+                   
+                    The_Night_Of => nrel_actor : NedEisenberg;;
+                    
+                  
+                  
+                  The_Night_Of
+                  =>nrel_keywords: concept_detectif;;
+                  

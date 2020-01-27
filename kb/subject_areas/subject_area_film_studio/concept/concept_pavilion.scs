@@ -1,0 +1,33 @@
+concept_pavilion
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[павильон](*<-lang_ru;;*);
+	[pavilion](*<-lang_en;;*);
+=>nrel_idtf:
+    [студия](*<-lang_ru;;*);
+	[studio](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (павильон)](*<-lang_ru;;*);
+		[Def. (pavilion)](*<-lang_en;;*);;
+	<=nrel_using_constants:...;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pavilion_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pavilion_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (павильон)](*<-lang_ru;;*);
+		[Pic. (pavilion)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Studio.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

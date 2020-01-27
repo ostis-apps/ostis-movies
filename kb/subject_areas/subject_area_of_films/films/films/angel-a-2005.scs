@@ -1,0 +1,67 @@
+film_angel_a_2005
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Ангел-А]
+(* <- lang_ru;;    *);
+[Angel-A]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ангел-А)](*<-lang_ru;;*);
+[Description (Angel-A)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/angel-a-2005_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/angel-a-2005_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ангел-А)](*<-lang_ru;;*);
+		[Pic. (Angel-A)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/angel-a-2005.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : france;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Angel-A](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [21.12.2005](*<-lang_ru;;*);;
+    => nrel_main_idtf : [21.12.2005](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H31M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H31M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_angel_a_2005 =>nrel_keywords: film;;
+
+film_angel_a_2005 <- concept_comedy;concept_drama;concept_fantasy;concept_romance;;
+
+film_angel_a_2005 => nrel_main_actor : rie_rasmussen;jamel_debbouze;gilbert_melki;serge_riaboukine;;
+film_angel_a_2005 => nrel_producer : luc_besson;;

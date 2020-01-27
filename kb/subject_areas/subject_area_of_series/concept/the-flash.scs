@@ -1,0 +1,118 @@
+
+                  concept_series -> The_Flash;;
+              
+                  The_Flash
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Вспышка]
+                    (* <- lang_ru;;	*);
+                    [The_Flash]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Flash <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Вспышка)](*<-lang_ru;;*);
+                      [Description (The_Flash)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Flash_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Flash_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Flash <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Вспышка)](*<-lang_ru;;*);
+                      [Pic. (The_Flash)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Flash.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Flash => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  The_Flash => nrel_production_year : 2014;;
+                  
+                  value -> 6;;
+                  The_Flash => nrel_num_of_seasons: 6;;
+                  value -> 123;;
+                  The_Flash => nrel_num_of_episodes: 123;;
+                  
+                  value -> 8;;
+                  The_Flash => nrel_no_countries : 8;;
+                  
+                  value -> 12;;
+                  The_Flash => nrel_viewers_in_millions: 12;;
+                  
+                  The_Flash => nrel_age_rating: concept_PG12;;
+                  
+                    The_Flash => nrel_actor : DaniellePanabaker;;
+                    
+                   
+                    The_Flash => nrel_actor : GrantGustin;;
+                    
+                   
+                    The_Flash => nrel_actor : CandicePatton;;
+                    
+                   
+                    The_Flash => nrel_actor : CarlosValds;;
+                    
+                   
+                    The_Flash => nrel_actor : JesseLMartin;;
+                    
+                   
+                    The_Flash => nrel_actor : TomCavanagh;;
+                    
+                   
+                    The_Flash => nrel_actor : DanielleNicolet;;
+                    
+                   
+                    The_Flash => nrel_actor : KeiynanLonsdale;;
+                    
+                   
+                    The_Flash => nrel_actor : TomCavanagh;;
+                    
+                   
+                    The_Flash => nrel_actor : HartleySawyer;;
+                    
+                   
+                    The_Flash => nrel_actor : RickCosnett;;
+                    
+                   
+                    The_Flash => nrel_actor : JessicaParkerKennedy;;
+                    
+                   
+                    The_Flash => nrel_actor : TomCavanagh;;
+                    
+                   
+                    The_Flash => nrel_actor : TomCavanagh;;
+                    
+                   
+                    The_Flash => nrel_actor : ChrisKlein;;
+                    
+                   
+                    The_Flash => nrel_actor : NeilSandilands;;
+                    
+                   
+                    The_Flash => nrel_actor : TomCavanagh;;
+                    
+                   
+                    The_Flash => nrel_actor : LaMonicaGarrett;;
+                    
+                  
+                  
+                  The_Flash
+                  =>nrel_keywords: concept_detectif;;
+                  

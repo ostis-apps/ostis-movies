@@ -1,0 +1,67 @@
+film_adskaya_vecherinka_2008
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Адская вечеринка]
+(* <- lang_ru;;    *);
+[Dance of the Dead]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Адская вечеринка)](*<-lang_ru;;*);
+[Description (Dance of the Dead)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/adskaya-vecherinka-2008_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/adskaya-vecherinka-2008_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Адская вечеринка)](*<-lang_ru;;*);
+		[Pic. (Dance of the Dead)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/adskaya-vecherinka-2008.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [It's their night to come alive.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [09.03.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [09.03.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H27M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H27M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_adskaya_vecherinka_2008 =>nrel_keywords: film;;
+
+film_adskaya_vecherinka_2008 <- concept_comedy;concept_horror;;
+
+film_adskaya_vecherinka_2008 => nrel_main_actor : jared_kusnitz;greyson_chadwick;chandler_darby;carissa_capobianco;;
+film_adskaya_vecherinka_2008 => nrel_producer : gregg_bishop;;

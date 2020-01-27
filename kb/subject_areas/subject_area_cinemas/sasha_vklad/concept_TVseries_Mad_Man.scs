@@ -1,0 +1,65 @@
+concept_series -> Mad_man;;
+
+Mad_man
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Безумцы]
+	(* <- lang_ru;;	*);
+	[Mad_man]
+	(* <- lang_en;;	*);;
+	
+Mad_man <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Безумцы)](*<-lang_ru;;*);
+		[Description (Mad_man)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Mad_man_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Mad_man_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Mad_man <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Безумцы)](*<-lang_ru;;*);
+		[Pic. (Mad_man)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Mad_man.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Mad_man => nrel_production_country : Usa;;
+
+concept_calendar_date -> 2007;;
+2007 => nrel_main_idtf : [2007 год](*<-lang_ru;;*);;
+2007 => nrel_main_idtf : [year of 2007](*<-lang_en;;*);;
+Mad_man => nrel_production_year : 2007;;
+	
+value -> 10;;
+Mad_man => nrel_num_of_seasons: 10;;
+value -> 91;;
+Mad_man => nrel_num_of_episodes: 91;;
+
+value -> 50;;
+Mad_man => nrel_no_countries : 50;;
+
+value -> 6;;
+Mad_man => nrel_viewers_in_millions: 6;;
+
+Mad_man => nrel_age_rating: concept_PG16;;
+
+
+Mad_man  => nrel_actor : John_Hamm;;
+Mad_man => nrel_producer : Phil_Abraham;;
+
+Mad_man
+=>nrel_keywords: concept_drama;;

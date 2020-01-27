@@ -1,0 +1,85 @@
+
+                  concept_series -> Young_Justice;;
+              
+                  Young_Justice
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Young_Justice]
+                    (* <- lang_ru;;	*);
+                    [Young_Justice]
+                    (* <- lang_en;;	*);;
+                  
+                  Young_Justice <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Young_Justice)](*<-lang_ru;;*);
+                      [Description (Young_Justice)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Young_Justice_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Young_Justice_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Young_Justice <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Young_Justice)](*<-lang_ru;;*);
+                      [Pic. (Young_Justice)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Young_Justice.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Young_Justice => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2010;;
+                  2010 => nrel_main_idtf : [2010 год](*<-lang_ru;;*);;
+                  2010 => nrel_main_idtf : [year of 2010](*<-lang_en;;*);;
+                  Young_Justice => nrel_production_year : 2010;;
+                  
+                  value -> 3;;
+                  Young_Justice => nrel_num_of_seasons: 3;;
+                  value -> 72;;
+                  Young_Justice => nrel_num_of_episodes: 72;;
+                  
+                  value -> 5;;
+                  Young_Justice => nrel_no_countries : 5;;
+                  
+                  value -> 8;;
+                  Young_Justice => nrel_viewers_in_millions: 8;;
+                  
+                  Young_Justice => nrel_age_rating: concept_PG12;;
+                  
+                    Young_Justice => nrel_actor : StephanieLemelin;;
+                    
+                   
+                    Young_Justice => nrel_actor : KharyPayton;;
+                    
+                   
+                    Young_Justice => nrel_actor : JesseMcCartney;;
+                    
+                   
+                    Young_Justice => nrel_actor : DanicaMcKellar;;
+                    
+                   
+                    Young_Justice => nrel_actor : NolanNorth;;
+                    
+                   
+                    Young_Justice => nrel_actor : KharyPayton;;
+                    
+                   
+                    Young_Justice => nrel_actor : JasonSpisak;;
+                    
+                  
+                  
+                  Young_Justice
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,67 @@
+film_chelovek_kotoryy_izmenil_vse_2011
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Человек, который изменил всё]
+(* <- lang_ru;;    *);
+[Moneyball]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Человек, который изменил всё)](*<-lang_ru;;*);
+[Description (Moneyball)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chelovek-kotoryy-izmenil-vse-2011_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chelovek-kotoryy-izmenil-vse-2011_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Человек, который изменил всё)](*<-lang_ru;;*);
+		[Pic. (Moneyball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chelovek-kotoryy-izmenil-vse-2011.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [What are you really worth?](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [23.09.2011](*<-lang_ru;;*);;
+    => nrel_main_idtf : [23.09.2011](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H13M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H13M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_chelovek_kotoryy_izmenil_vse_2011 =>nrel_keywords: film;;
+
+film_chelovek_kotoryy_izmenil_vse_2011 <- concept_biography;concept_drama;concept_sport;;
+
+film_chelovek_kotoryy_izmenil_vse_2011 => nrel_main_actor : brad_pitt;robin_wright;jonah_hill;philip_seymour_hoffman;;
+film_chelovek_kotoryy_izmenil_vse_2011 => nrel_producer : bennett_miller;;

@@ -1,0 +1,48 @@
+concept_human -> riz_ahmed;;
+ 
+ riz_ahmed <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Риз Ахмед)](*<-lang_ru;;*);
+ 		[Description (Riz Ahmed)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/riz_ahmed_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ riz_ahmed <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Риз Ахмед)](*<-lang_ru;;*);
+ 		[Pic. (Riz Ahmed)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/riz_ahmed.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ riz_ahmed => nrel_main_idtf : [Риз Ахмед](*<-lang_ru;;*);;
+ riz_ahmed => nrel_main_idtf : [Riz Ahmed](*<-lang_en;;*);;
+ 
+ 
+ riz_ahmed => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> UK;;
+ riz_ahmed => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ riz_ahmed => nrel_to_star_in : venom;;
+venom => nrel_main_idtf : [Venom](*<-lang_en;;*);;
+venom => nrel_main_idtf : [Веном](*<-lang_ru;;*);;
+riz_ahmed => nrel_to_star_in : the_sisters_brothers;;
+the_sisters_brothers => nrel_main_idtf : [The Sisters Brothers](*<-lang_en;;*);;
+the_sisters_brothers => nrel_main_idtf : [Братья Систерс](*<-lang_ru;;*);;
+

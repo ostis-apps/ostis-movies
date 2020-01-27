@@ -1,0 +1,54 @@
+concept_human -> al_pacino;;
+ 
+ al_pacino <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Аль Пачино)](*<-lang_ru;;*);
+ 		[Description (Al Pacino)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/al_pacino_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ al_pacino <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Аль Пачино)](*<-lang_ru;;*);
+ 		[Pic. (Al Pacino)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/al_pacino.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ al_pacino => nrel_main_idtf : [Аль Пачино](*<-lang_ru;;*);;
+ al_pacino => nrel_main_idtf : [Al Pacino](*<-lang_en;;*);;
+ 
+ 
+ al_pacino => nrel_birth_date : 1940;;
+ 
+ concept_goverment -> Usa;;
+ al_pacino => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ al_pacino => nrel_to_star_in : once_upon_a_time__in_hollywood;;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Once Upon a Time ... in Hollywood](*<-lang_en;;*);;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Однажды… в Голливуде](*<-lang_ru;;*);;
+al_pacino => nrel_to_star_in : oceans_thirteen;;
+oceans_thirteen => nrel_main_idtf : [Ocean`s Thirteen](*<-lang_en;;*);;
+oceans_thirteen => nrel_main_idtf : [Тринадцать друзей Оушена](*<-lang_ru;;*);;
+al_pacino => nrel_to_star_in : insomnia;;
+insomnia => nrel_main_idtf : [Insomnia](*<-lang_en;;*);;
+insomnia => nrel_main_idtf : [Бессонница](*<-lang_ru;;*);;
+al_pacino => nrel_to_star_in : the_godfather;;
+the_godfather => nrel_main_idtf : [The Godfather](*<-lang_en;;*);;
+the_godfather => nrel_main_idtf : [Крестный отец](*<-lang_ru;;*);;
+

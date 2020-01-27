@@ -1,0 +1,45 @@
+concept_human -> thomas_anderson;;
+ 
+ thomas_anderson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Пол Томас Андерсон)](*<-lang_ru;;*);
+ 		[Description (Thomas Anderson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/thomas_anderson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ thomas_anderson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Пол Томас Андерсон)](*<-lang_ru;;*);
+ 		[Pic. (Thomas Anderson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/thomas_anderson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ thomas_anderson => nrel_main_idtf : [Пол Томас Андерсон](*<-lang_ru;;*);;
+ thomas_anderson => nrel_main_idtf : [Thomas Anderson](*<-lang_en;;*);;
+ 
+ 
+ thomas_anderson => nrel_birth_date : 1970;;
+ 
+ concept_goverment -> Usa;;
+ thomas_anderson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ thomas_anderson => nrel_to_star_in : the_master;;
+the_master => nrel_main_idtf : [The Master](*<-lang_en;;*);;
+the_master => nrel_main_idtf : [Мастер](*<-lang_ru;;*);;
+

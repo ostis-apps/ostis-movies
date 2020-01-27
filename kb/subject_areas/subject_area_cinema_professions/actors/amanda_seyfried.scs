@@ -1,0 +1,47 @@
+concept_human -> amanda_seyfried;;
+ 
+ amanda_seyfried <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Аманда Сейфрид)](*<-lang_ru;;*);
+ 		[Description (Amanda Seyfried)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/amanda_seyfried_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ amanda_seyfried <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Аманда Сейфрид)](*<-lang_ru;;*);
+ 		[Pic. (Amanda Seyfried)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/amanda_seyfried.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ amanda_seyfried => nrel_main_idtf : [Аманда Сейфрид](*<-lang_ru;;*);;
+ amanda_seyfried => nrel_main_idtf : [Amanda Seyfried](*<-lang_en;;*);;
+ 
+ 
+ amanda_seyfried => nrel_birth_date : 1985;;
+ 
+ concept_goverment -> Usa;;
+ amanda_seyfried => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ amanda_seyfried => nrel_to_star_in : gringo;;
+gringo => nrel_main_idtf : [Gringo](*<-lang_en;;*);;
+gringo => nrel_main_idtf : [Опасный бизнес](*<-lang_ru;;*);;
+amanda_seyfried => nrel_to_star_in : mamma_mia_here_we_go_again;;
+mamma_mia_here_we_go_again => nrel_main_idtf : [Mamma Mia! Here We Go Again](*<-lang_en;;*);;
+mamma_mia_here_we_go_again => nrel_main_idtf : [Mamma Mia! 2](*<-lang_ru;;*);;

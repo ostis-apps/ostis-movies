@@ -1,0 +1,178 @@
+
+                  concept_series -> Strike_the_Blood;;
+              
+                  Strike_the_Blood
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Ударить кровь]
+                    (* <- lang_ru;;	*);
+                    [Strike_the_Blood]
+                    (* <- lang_en;;	*);;
+                  
+                  Strike_the_Blood <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Ударить кровь)](*<-lang_ru;;*);
+                      [Description (Strike_the_Blood)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Strike_the_Blood_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Strike_the_Blood_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Strike_the_Blood <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Ударить кровь)](*<-lang_ru;;*);
+                      [Pic. (Strike_the_Blood)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Strike_the_Blood.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Strike_the_Blood => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Strike_the_Blood => nrel_production_year : 2013;;
+                  
+                  value -> 3;;
+                  Strike_the_Blood => nrel_num_of_seasons: 3;;
+                  value -> 42;;
+                  Strike_the_Blood => nrel_num_of_episodes: 42;;
+                  
+                  value -> 12;;
+                  Strike_the_Blood => nrel_no_countries : 12;;
+                  
+                  value -> 5;;
+                  Strike_the_Blood => nrel_viewers_in_millions: 5;;
+                  
+                  Strike_the_Blood => nrel_age_rating: concept_PG12;;
+                  
+                    Strike_the_Blood => nrel_actor : RisaTaneda;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : HisakoKanemoto;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : JunichiYanagita;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : MaiNakahara;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : YumiUchiyama;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : MinamiTanaka;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : ShinjiKawada;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : MakotoYasumura;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : KanaeIt;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : HarumiSakurai;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : YutakaAoyama;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : AzumiAsakura;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : NatsukiHanae;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : KanaAsumi;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : Rytasaka;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : IkumiHayama;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : YoshimasaHosoya;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : MinamiTsuda;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : YkiKaji;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : HayashiYuuki;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : RinaHidaka;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : SatomiArai;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : KentaMiyake;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : YukoIida;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : YukaIguchi;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : ShizukaIshigami;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : SanaeKobayashi;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : MisakiKuno;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : YuukiOno;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : YoshitsuguMatsuoka;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : TaishiMurata;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : AsamiSeto;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : KenjiHamada;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : MikakoTakahashi;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : ReiMochizuki;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : AiKayano;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : YkoHikasa;;
+                    
+                   
+                    Strike_the_Blood => nrel_actor : Saorinishi;;
+                    
+                  
+                  
+                  Strike_the_Blood
+                  =>nrel_keywords: concept_detectif;;
+                  

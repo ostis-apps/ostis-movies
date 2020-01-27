@@ -1,0 +1,67 @@
+film_besposchadnyy_zapad_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Беспощадный Запад]
+(* <- lang_ru;;    *);
+[The West and the Ruthless]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Беспощадный Запад)](*<-lang_ru;;*);
+[Description (The West and the Ruthless)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/besposchadnyy-zapad-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/besposchadnyy-zapad-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Беспощадный Запад)](*<-lang_ru;;*);
+		[Pic. (The West and the Ruthless)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/besposchadnyy-zapad-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The West and the Ruthless](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [07.11.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [07.11.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H30M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H30M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_Not_Rated;;
+
+film_besposchadnyy_zapad_2017 =>nrel_keywords: film;;
+
+film_besposchadnyy_zapad_2017 <- concept_action;concept_adventure;concept_western;;
+
+film_besposchadnyy_zapad_2017 => nrel_main_actor : danny_brown;dan_fowlks;paul_haapaniemi;alexander_harris;;
+film_besposchadnyy_zapad_2017 => nrel_producer : lexie_findarle_trivundza;nick_trivundza;;

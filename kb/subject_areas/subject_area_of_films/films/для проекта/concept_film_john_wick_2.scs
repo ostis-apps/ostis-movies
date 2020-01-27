@@ -1,0 +1,31 @@
+concept_film_john_wick_2
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джон Уик 2]
+	(* <- lang_ru;;	*);
+	[John Wick 2]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джон Уик 2)](*<-lang_ru;;*);
+		[Description (John Wick 2)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Джон_Уик_2.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/John_Wick_2.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_criminal;
+=>nrel_keywords:concept_murders;
+=>nrel_keywords:concept_revenge;
+=>nrel_age_rating: concept_PG18;;	

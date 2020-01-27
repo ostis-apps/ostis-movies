@@ -1,0 +1,48 @@
+concept_human -> john_cena;;
+ 
+ john_cena <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джон Сина)](*<-lang_ru;;*);
+ 		[Description (John Cena)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/john_cena_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ john_cena <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джон Сина)](*<-lang_ru;;*);
+ 		[Pic. (John Cena)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/john_cena.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ john_cena => nrel_main_idtf : [Джон Сина](*<-lang_ru;;*);;
+ john_cena => nrel_main_idtf : [John Cena](*<-lang_en;;*);;
+ 
+ 
+ john_cena => nrel_birth_date : 1977;;
+ 
+ concept_goverment -> Usa;;
+ john_cena => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ john_cena => nrel_to_star_in : bumblebee;;
+bumblebee => nrel_main_idtf : [Bumblebee](*<-lang_en;;*);;
+bumblebee => nrel_main_idtf : [Бамблби](*<-lang_ru;;*);;
+john_cena => nrel_to_star_in : blockers;;
+blockers => nrel_main_idtf : [Blockers](*<-lang_en;;*);;
+blockers => nrel_main_idtf : [Секса не будет!!!](*<-lang_ru;;*);;
+

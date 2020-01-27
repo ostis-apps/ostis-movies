@@ -1,0 +1,79 @@
+
+                  concept_series -> Chicago_Justice;;
+              
+                  Chicago_Justice
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Chicago_Justice]
+                    (* <- lang_ru;;	*);
+                    [Chicago_Justice]
+                    (* <- lang_en;;	*);;
+                  
+                  Chicago_Justice <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Chicago_Justice)](*<-lang_ru;;*);
+                      [Description (Chicago_Justice)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Chicago_Justice_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Chicago_Justice_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Chicago_Justice <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Chicago_Justice)](*<-lang_ru;;*);
+                      [Pic. (Chicago_Justice)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Chicago_Justice.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Chicago_Justice => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Chicago_Justice => nrel_production_year : 2017;;
+                  
+                  value -> 1;;
+                  Chicago_Justice => nrel_num_of_seasons: 1;;
+                  value -> 13;;
+                  Chicago_Justice => nrel_num_of_episodes: 13;;
+                  
+                  value -> 4;;
+                  Chicago_Justice => nrel_no_countries : 4;;
+                  
+                  value -> 7;;
+                  Chicago_Justice => nrel_viewers_in_millions: 7;;
+                  
+                  Chicago_Justice => nrel_age_rating: concept_PG12;;
+                  
+                    Chicago_Justice => nrel_actor : JonSeda;;
+                    
+                   
+                    Chicago_Justice => nrel_actor : JoelleCarter;;
+                    
+                   
+                    Chicago_Justice => nrel_actor : PhilipWinchester;;
+                    
+                   
+                    Chicago_Justice => nrel_actor : CarlWeathers;;
+                    
+                   
+                    Chicago_Justice => nrel_actor : MonicaBarbaro;;
+                    
+                  
+                  
+                  Chicago_Justice
+                  =>nrel_keywords: concept_detectif;;
+                  

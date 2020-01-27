@@ -1,0 +1,51 @@
+concept_human -> colin_firth;;
+ 
+ colin_firth <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Колин Ферт)](*<-lang_ru;;*);
+ 		[Description (Colin Firth)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/colin_firth_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ colin_firth <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Колин Ферт)](*<-lang_ru;;*);
+ 		[Pic. (Colin Firth)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/colin_firth.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ colin_firth => nrel_main_idtf : [Колин Ферт](*<-lang_ru;;*);;
+ colin_firth => nrel_main_idtf : [Colin Firth](*<-lang_en;;*);;
+ 
+ 
+ colin_firth => nrel_birth_date : 1960;;
+ 
+ concept_goverment -> UK;;
+ colin_firth => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ colin_firth => nrel_to_star_in : the_mercy;;
+the_mercy => nrel_main_idtf : [The Mercy](*<-lang_en;;*);;
+the_mercy => nrel_main_idtf : [Гонка века](*<-lang_ru;;*);;
+colin_firth => nrel_to_star_in : mamma_mia_here_we_go_again;;
+mamma_mia_here_we_go_again => nrel_main_idtf : [Mamma Mia! Here We Go Again](*<-lang_en;;*);;
+mamma_mia_here_we_go_again => nrel_main_idtf : [Mamma Mia! 2](*<-lang_ru;;*);;
+colin_firth => nrel_to_star_in : girl_with_a_pearl_earring;;
+girl_with_a_pearl_earring => nrel_main_idtf : [Girl with a Pearl Earring](*<-lang_en;;*);;
+girl_with_a_pearl_earring => nrel_main_idtf : [Девушка с жемчужной сережкой](*<-lang_ru;;*);;
+

@@ -1,0 +1,67 @@
+film_007_koordinaty_skayfoll_2012
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[007: Координаты «Скайфолл»]
+(* <- lang_ru;;    *);
+[Skyfall]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (007: Координаты «Скайфолл»)](*<-lang_ru;;*);
+[Description (Skyfall)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/007-koordinaty-skayfoll-2012_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/007-koordinaty-skayfoll-2012_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (007: Координаты «Скайфолл»)](*<-lang_ru;;*);
+		[Pic. (Skyfall)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/007-koordinaty-skayfoll-2012.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Skyfall](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.10.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.10.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H23M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H23M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_007_koordinaty_skayfoll_2012 =>nrel_keywords: film;;
+
+film_007_koordinaty_skayfoll_2012 <- concept_action;concept_adventure;concept_thriller;;
+
+film_007_koordinaty_skayfoll_2012 => nrel_main_actor : daniel_craig;javier_bardem;naomie_harris;judi_dench;;
+film_007_koordinaty_skayfoll_2012 => nrel_producer : sam_mendes;;

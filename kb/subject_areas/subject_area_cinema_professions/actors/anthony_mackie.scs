@@ -1,0 +1,66 @@
+concept_human -> anthony_mackie;;
+ 
+ anthony_mackie <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Энтони Маки)](*<-lang_ru;;*);
+ 		[Description (Anthony Mackie)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/anthony_mackie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ anthony_mackie <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Энтони Маки)](*<-lang_ru;;*);
+ 		[Pic. (Anthony Mackie)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/anthony_mackie.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ anthony_mackie => nrel_main_idtf : [Энтони Маки](*<-lang_ru;;*);;
+ anthony_mackie => nrel_main_idtf : [Anthony Mackie](*<-lang_en;;*);;
+ 
+ 
+ anthony_mackie => nrel_birth_date : 1978;;
+ 
+ concept_goverment -> Usa;;
+ anthony_mackie => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ anthony_mackie => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+anthony_mackie => nrel_to_star_in : captain_america_civil_war;;
+captain_america_civil_war => nrel_main_idtf : [Captain America: Civil War](*<-lang_en;;*);;
+captain_america_civil_war => nrel_main_idtf : [Первый мститель: Противостояние](*<-lang_ru;;*);;
+anthony_mackie => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+anthony_mackie => nrel_to_star_in : antman;;
+antman => nrel_main_idtf : [Ant-Man](*<-lang_en;;*);;
+antman => nrel_main_idtf : [Человек-муравей](*<-lang_ru;;*);;
+anthony_mackie => nrel_to_star_in : captain_america_the_winter_soldier;;
+captain_america_the_winter_soldier => nrel_main_idtf : [Captain America: The Winter Soldier](*<-lang_en;;*);;
+captain_america_the_winter_soldier => nrel_main_idtf : [Первый мститель: Другая война](*<-lang_ru;;*);;
+anthony_mackie => nrel_to_star_in : gangster_squad;;
+gangster_squad => nrel_main_idtf : [Gangster Squad](*<-lang_en;;*);;
+gangster_squad => nrel_main_idtf : [Охотники на гангстеров](*<-lang_ru;;*);;
+anthony_mackie => nrel_to_star_in : black_mirror;;
+black_mirror => nrel_main_idtf : [Black Mirror](*<-lang_en;;*);;
+black_mirror => nrel_main_idtf : [Черное зеркало](*<-lang_ru;;*);;
+anthony_mackie => nrel_to_star_in : half_nelson;;
+half_nelson => nrel_main_idtf : [Half Nelson](*<-lang_en;;*);;
+half_nelson => nrel_main_idtf : [Полу-Нельсон](*<-lang_ru;;*);;
+

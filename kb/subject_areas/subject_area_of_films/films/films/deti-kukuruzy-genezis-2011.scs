@@ -1,0 +1,67 @@
+film_deti_kukuruzy_genezis_2011
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Дети кукурузы: Генезис]
+(* <- lang_ru;;    *);
+[Children of the Corn: Genesis]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Дети кукурузы: Генезис)](*<-lang_ru;;*);
+[Description (Children of the Corn: Genesis)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/deti-kukuruzy-genezis-2011_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/deti-kukuruzy-genezis-2011_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дети кукурузы: Генезис)](*<-lang_ru;;*);
+		[Pic. (Children of the Corn: Genesis)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/deti-kukuruzy-genezis-2011.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 4;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Children of the Corn: Genesis](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [17.03.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [17.03.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H20M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H20M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_deti_kukuruzy_genezis_2011 =>nrel_keywords: film;;
+
+film_deti_kukuruzy_genezis_2011 <- concept_horror;concept_thriller;;
+
+film_deti_kukuruzy_genezis_2011 => nrel_main_actor : j.j._banicki;diane_peterson;kai_caster;kelen_coleman;;
+film_deti_kukuruzy_genezis_2011 => nrel_producer : joel_soisson;;

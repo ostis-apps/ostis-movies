@@ -1,0 +1,50 @@
+concept_human -> Jack_Bender;;
+
+Jack_Bender
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джек Бендер]
+	(* <- lang_ru;;	*);
+	[Jack Bender]
+	(* <- lang_en;;	*);;
+	
+Jack_Bender <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джек Бендер)](*<-lang_ru;;*);
+		[Description (Jack Bender)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jack_Bender_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jack_Bender_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jack_Bender <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джек Бендер)](*<-lang_ru;;*);
+		[Pic. (Jack Bender)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Jack_Bender.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1949;;
+Jack_Bender =>nrel_date_of_birth: 1949;;
+1949=>nrel_main_idtf:[1949 год](*<-lang_ru;;*);;
+1949=>nrel_main_idtf:[year of 1949](*<-lang_en;;*);;
+
+concept_calendar_date->1971;;
+Jack_Bender =>nrel_career_start_date: 1971;;
+1971=>nrel_main_idtf:[1971 год](*<-lang_ru;;*);;
+1971=>nrel_main_idtf:[year of 1971](*<-lang_en;;*);;
+
+Jack_Bender =>nrel_cityzenship: Usa;;

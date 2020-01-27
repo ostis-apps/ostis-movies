@@ -1,0 +1,79 @@
+
+                  concept_series -> Gravity_Falls;;
+              
+                  Gravity_Falls
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Гравити Фолз]
+                    (* <- lang_ru;;	*);
+                    [Gravity_Falls]
+                    (* <- lang_en;;	*);;
+                  
+                  Gravity_Falls <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Гравити Фолз)](*<-lang_ru;;*);
+                      [Description (Gravity_Falls)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Gravity_Falls_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Gravity_Falls_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Gravity_Falls <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Гравити Фолз)](*<-lang_ru;;*);
+                      [Pic. (Gravity_Falls)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Gravity_Falls.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Gravity_Falls => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2012;;
+                  2012 => nrel_main_idtf : [2012 год](*<-lang_ru;;*);;
+                  2012 => nrel_main_idtf : [year of 2012](*<-lang_en;;*);;
+                  Gravity_Falls => nrel_production_year : 2012;;
+                  
+                  value -> 2;;
+                  Gravity_Falls => nrel_num_of_seasons: 2;;
+                  value -> 40;;
+                  Gravity_Falls => nrel_num_of_episodes: 40;;
+                  
+                  value -> 5;;
+                  Gravity_Falls => nrel_no_countries : 5;;
+                  
+                  value -> 5;;
+                  Gravity_Falls => nrel_viewers_in_millions: 5;;
+                  
+                  Gravity_Falls => nrel_age_rating: concept_PG12;;
+                  
+                    Gravity_Falls => nrel_actor : JasonRitter;;
+                    
+                   
+                    Gravity_Falls => nrel_actor : AlexHirsch;;
+                    
+                   
+                    Gravity_Falls => nrel_actor : AlexHirsch;;
+                    
+                   
+                    Gravity_Falls => nrel_actor : LindaCardellini;;
+                    
+                   
+                    Gravity_Falls => nrel_actor : KristenSchaal;;
+                    
+                  
+                  
+                  Gravity_Falls
+                  =>nrel_keywords: concept_detectif;;
+                  

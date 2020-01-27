@@ -1,0 +1,67 @@
+film_ahtamar_2009
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Ахтамар]
+(* <- lang_ru;;    *);
+[Ahtamar]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ахтамар)](*<-lang_ru;;*);
+[Description (Ahtamar)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/ahtamar-2009_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/ahtamar-2009_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ахтамар)](*<-lang_ru;;*);
+		[Pic. (Ahtamar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/ahtamar-2009.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;netherlands;armenia;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Follow Your Heart](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [22.10.2009](*<-lang_ru;;*);;
+    => nrel_main_idtf : [22.10.2009](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT19M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT19M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_ahtamar_2009 =>nrel_keywords: film;;
+
+film_ahtamar_2009 <- concept_short;concept_drama;;
+
+film_ahtamar_2009 => nrel_main_actor : grigoriy_dobrygin;armen_dzhigarkhanyan;ravshana_kurkova;;
+film_ahtamar_2009 => nrel_producer : ludwig_shammasian;paul_shammasian;;

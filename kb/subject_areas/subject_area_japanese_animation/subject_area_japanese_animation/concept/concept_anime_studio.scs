@@ -1,0 +1,24 @@
+concept_anime_studio <- sc_node_not_relation;
+
+=> nrel_main_idtf:[аниме-студия] (* <- lang_ru;; *);
+=> nrel_idtf:[anime studio] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (аниме-студия)](* <- lang_ru;; *);
+		[Def. (anime studio)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_anime;;
+		-> nrel_anime_studio;;
+		-> concept_anime_studio;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_anime_studio">Аниме-студия</sc_element></b> - студия-производитель <sc_element sys_idtf="concept_anime">аниме</sc_element>.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_anime_studio">Anime studio</sc_element></b> - <sc_element sys_idtf="concept_anime">anime</sc_element> production studio .](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;
+
+

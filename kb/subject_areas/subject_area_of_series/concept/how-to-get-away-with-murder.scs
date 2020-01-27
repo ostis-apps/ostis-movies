@@ -1,0 +1,106 @@
+
+                  concept_series -> How_to_Get_Away_with_Murder;;
+              
+                  How_to_Get_Away_with_Murder
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [How_to_Get_Away_with_Murder]
+                    (* <- lang_ru;;	*);
+                    [How_to_Get_Away_with_Murder]
+                    (* <- lang_en;;	*);;
+                  
+                  How_to_Get_Away_with_Murder <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (How_to_Get_Away_with_Murder)](*<-lang_ru;;*);
+                      [Description (How_to_Get_Away_with_Murder)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/How_to_Get_Away_with_Murder_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/How_to_Get_Away_with_Murder_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  How_to_Get_Away_with_Murder <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (How_to_Get_Away_with_Murder)](*<-lang_ru;;*);
+                      [Pic. (How_to_Get_Away_with_Murder)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/How_to_Get_Away_with_Murder.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  How_to_Get_Away_with_Murder => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  How_to_Get_Away_with_Murder => nrel_production_year : 2014;;
+                  
+                  value -> 6;;
+                  How_to_Get_Away_with_Murder => nrel_num_of_seasons: 6;;
+                  value -> 85;;
+                  How_to_Get_Away_with_Murder => nrel_num_of_episodes: 85;;
+                  
+                  value -> 3;;
+                  How_to_Get_Away_with_Murder => nrel_no_countries : 3;;
+                  
+                  value -> 10;;
+                  How_to_Get_Away_with_Murder => nrel_viewers_in_millions: 10;;
+                  
+                  How_to_Get_Away_with_Murder => nrel_age_rating: concept_PG12;;
+                  
+                    How_to_Get_Away_with_Murder => nrel_actor : JackFalahee;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : AjaNaomiKing;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : MattMcGorry;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : CharlieWeber;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : LizaWeil;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : ViolaDavis;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : BillyBrown;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : KarlaSouza;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : ConradRicamora;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : AlfredEnoch;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : AmirahVann;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : RomeFlynn;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : KatieFindlay;;
+                    
+                   
+                    How_to_Get_Away_with_Murder => nrel_actor : TimothyHutton;;
+                    
+                  
+                  
+                  How_to_Get_Away_with_Murder
+                  =>nrel_keywords: concept_detectif;;
+                  

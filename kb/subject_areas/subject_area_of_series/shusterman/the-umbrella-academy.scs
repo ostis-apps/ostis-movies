@@ -1,0 +1,97 @@
+
+                  concept_series -> The_Umbrella_Academy;;
+              
+                  The_Umbrella_Academy
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Umbrella_Academy]
+                    (* <- lang_ru;;	*);
+                    [The_Umbrella_Academy]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Umbrella_Academy <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Umbrella_Academy)](*<-lang_ru;;*);
+                      [Description (The_Umbrella_Academy)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Umbrella_Academy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Umbrella_Academy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Umbrella_Academy <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Umbrella_Academy)](*<-lang_ru;;*);
+                      [Pic. (The_Umbrella_Academy)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Umbrella_Academy.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Umbrella_Academy => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  The_Umbrella_Academy => nrel_production_year : 2019;;
+                  
+                  value -> 2;;
+                  The_Umbrella_Academy => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  The_Umbrella_Academy => nrel_num_of_episodes: 20;;
+                  
+                  value -> 11;;
+                  The_Umbrella_Academy => nrel_no_countries : 11;;
+                  
+                  value -> 10;;
+                  The_Umbrella_Academy => nrel_viewers_in_millions: 10;;
+                  
+                  The_Umbrella_Academy => nrel_age_rating: concept_PG12;;
+                  
+                    The_Umbrella_Academy => nrel_actor : EllenPage;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : DavidCastaeda;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : RobertSheehan;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : AidanGallagher;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : EmmyRaverLampman;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : AdamGodley;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : TomHopper;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : CameronBritton;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : MaryJBlige;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : ColmFeore;;
+                    
+                   
+                    The_Umbrella_Academy => nrel_actor : JohnMagaro;;
+                    
+                  
+                  
+                  The_Umbrella_Academy
+                  =>nrel_keywords: concept_detectif;;
+                  

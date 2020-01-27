@@ -1,0 +1,51 @@
+concept_human -> Peter_Dinklage;;
+
+Peter_Dinklage
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Питер Динклэйдж]
+	(* <- lang_ru;;	*);
+	[Peter Dinklage]
+	(* <- lang_en;;	*);;
+	
+Peter_Dinklage <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Питер Динклэйдж)](*<-lang_ru;;*);
+		[Description (Peter Dinklage)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Peter_Dinklage_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Peter_Dinklage_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Peter_Dinklage <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Питер Динклэйдж)](*<-lang_ru;;*);
+		[Pic. (Peter Dinklage)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Peter_Dinklage.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1969;;
+Peter_Dinklage=>nrel_date_of_birth: 1969;;
+1969=>nrel_main_idtf:[1969 год](*<-lang_ru;;*);;
+1969=>nrel_main_idtf:[year of 1969](*<-lang_en;;*);;
+
+concept_calendar_date->1995;;
+Peter_Dinklage=>nrel_career_start_date: 1995;;
+1995=>nrel_main_idtf:[1995 год](*<-lang_ru;;*);;
+1995=>nrel_main_idtf:[year of 1995](*<-lang_en;;*);;
+
+Peter_Dinklage =>nrel_cityzenship:Usa;;
+

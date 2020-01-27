@@ -1,0 +1,51 @@
+concept_solaris
+<- sc_node_not_relation;
+=> nrel_main_producer: andrei_tarkovsky;
+=> nrel_screenwriter: andrei_tarkovsky;
+=> nrel_cameraman: vadim_yusov;
+=> nrel_film_composer: eduard_artemiev;
+=> nrel_main_actor: natalia_bondarchuk;
+=> nrel_producing_country:Russia;
+=> nrel_raiting: 8;
+=> nrel_age_limit: PG13;
+=> nrel_editor; lyudmila_feiginova;
+=> nrel_be_awarded: concept_palm;
+=> nrel_main_idtf:
+        [Солярис]
+	(* <- lang_ru;;	*);
+	[Solaris]
+	(* <- lang_en;;	*);
+=> nrel_metagenre: concept_arthouse;
+=> nrel_metagenre: concept_biopic;
+=> nrel_metagenre: concept_drama;
+=> nrel_metagenre: concept_science_fiction;
+=> nrel_character:...
+	(*
+	->character_khary;;
+	->character_kris_calvin;;
+	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Солярис)](* <- lang_ru;; *);
+		[Desctiption (Solaris)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[ <sc_element sys_idtf="concept_solaris">Солярис</sc_element> - на космическую станцию, сотрудники которой давно и тщетно пытаются сладить с загадкой планеты Солярис, полностью покрытой Океаном, прибывает новый учёный, психолог Крис Кельвин. Его задача — разобраться в странных сообщениях, поступающих со станции и закрыть её вместе со всей бесплодной «соляристикой». Поначалу ему кажется, что немногие уцелевшие на станции ученые сошли с ума, а потом он и сам становится жертвой жуткого наваждения: ему является его жена Хари, некоторое время назад покончившая с собой.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[ <sc_element sys_idtf="concept_solaris">Solaris</sc_element> - A new scientist, psychologist Chris Kelvin arrives at the space station, whose employees have long and vainly tried to cope with the mystery of the planet Solaris, completely covered by the Ocean. His task is to sort out the strange messages coming from the station and close it together with all the barren "Solar". At first, it seems to him that the few scientists who survived at the station went crazy, and then he himself becomes a victim of terrible obsession: he is his wife, Hari, who committed suicide some time ago.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Солярис)](*<-lang_ru;;*);
+		[Pic. (Solaris)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Solaris.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

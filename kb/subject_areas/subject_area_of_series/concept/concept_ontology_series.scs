@@ -1,0 +1,37 @@
+concept_ontology_series
+<-sc_node_not_relation;
+<=nrel_inclusion: concept_series;
+=>nrel_main_idtf:
+	[сериал-антология](*<-lang_ru;;*);
+	[ontology series](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (сериал-антология)](*<-lang_ru;;*);
+		[Def. (ontology series)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_series;;
+        -> nrel_actor;;
+        -> concept_episode;;
+        -> nrel_storyline;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_ontology_series_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_ontology_series_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (сериал-антология)](*<-lang_ru;;*);
+		[Pic. (ontology series)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/american_horror_story.png"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;

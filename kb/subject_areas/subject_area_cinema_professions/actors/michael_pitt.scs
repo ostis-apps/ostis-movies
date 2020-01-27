@@ -1,0 +1,48 @@
+concept_human -> michael_pitt;;
+ 
+ michael_pitt <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майкл Питт)](*<-lang_ru;;*);
+ 		[Description (Michael Pitt)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michael_pitt_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michael_pitt <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майкл Питт)](*<-lang_ru;;*);
+ 		[Pic. (Michael Pitt)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michael_pitt.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michael_pitt => nrel_main_idtf : [Майкл Питт](*<-lang_ru;;*);;
+ michael_pitt => nrel_main_idtf : [Michael Pitt](*<-lang_en;;*);;
+ 
+ 
+ michael_pitt => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> Usa;;
+ michael_pitt => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ michael_pitt => nrel_to_star_in : ghost_in_the_shell;;
+ghost_in_the_shell => nrel_main_idtf : [Ghost in the Shell](*<-lang_en;;*);;
+ghost_in_the_shell => nrel_main_idtf : [Призрак в доспехах](*<-lang_ru;;*);;
+michael_pitt => nrel_to_star_in : the_village;;
+the_village => nrel_main_idtf : [The Village](*<-lang_en;;*);;
+the_village => nrel_main_idtf : [Таинственный лес](*<-lang_ru;;*);;
+

@@ -1,0 +1,31 @@
+concept_film_justice_league
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Лига справедливости]
+	(* <- lang_ru;;	*);
+	[Justice league]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Лига справедливости)](*<-lang_ru;;*);
+		[Description (Justice league)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Лига_справедливости.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Justice_league.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_filmstudio_DC;
+=>nrel_keywords:concept_superman;
+=>nrel_keywords:concept_batman;
+=>nrel_age_rating: concept_PG18;;	

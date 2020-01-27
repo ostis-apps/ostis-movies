@@ -1,0 +1,65 @@
+concept_human -> Morgan_Friman;;
+
+Morgan_Friman <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Морган Фриман)](*<-lang_ru;;*);
+		[Description (Morgan Friman)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Morgan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Morgan_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Morgan_Friman <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Морган Фриман)](*<-lang_ru;;*);
+		[Pic. (Morgan Friman)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Morgan.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_silver_bear -> silver_bear;;
+silver_bear => nrel_main_idtf : [Серебрянный медведь](*<-lang_ru;;*);;
+silver_bear => nrel_main_idtf : [Silver bear](*<-lang_en;;*);;
+
+Morgan_Friman => nrel_be_awarded : Golden_globe;Oscar;silver_bear;; 
+Morgan_Friman => nrel_main_idtf : [Морган Фриман](*<-lang_ru;;*);;
+Morgan_Friman => nrel_main_idtf : [Morgan Friman](*<-lang_en;;*);;
+
+concept_calendar_date -> 01_06_1937;;
+Morgan_Friman => nrel_date_of_birth : 01_06_1937;;
+01_06_1937 => nrel_main_idtf : [01.06.1937](*<-lang_en;;*);;
+01_06_1937 => nrel_main_idtf : [01.06.1937](*<-lang_ru;;*);;
+
+Morgan_Friman => nrel_place_of_birth : Lexington;;
+
+Morgan_Friman => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 08_03_1968;;
+Morgan_Friman => nrel_career_start_date : 08_03_1968;;
+08_03_1968 => nrel_main_idtf : [08.03.1968](*<-lang_en;;*);;
+08_03_1968 => nrel_main_idtf : [08.03.1968](*<-lang_ru;;*);;
+
+concept_film -> StarPerci;Last;Luci;Dark;;
+StarPerci => nrel_main_idtf : [Fuddy-duddies](*<-lang_en;;*);;
+StarPerci => nrel_main_idtf : [Старперцы](*<-lang_ru;;*);;
+Last => nrel_main_idtf : [Last knight](*<-lang_en;;*);;
+Last => nrel_main_idtf : [Последние рыцари](*<-lang_ru;;*);;
+Luci => nrel_main_idtf : [Lucy](*<-lang_en;;*);;
+Luci => nrel_main_idtf : [Люси](*<-lang_ru;;*);;
+Dark => nrel_main_idtf : [Dark knight](*<-lang_en;;*);;
+Dark => nrel_main_idtf : [Темный рыцарь](*<-lang_ru;;*);;
+
+Morgan_Friman => nrel_to_star_in : Captian_Marvel;Glass;StarPerci;Last;Luci;Dark;;
+

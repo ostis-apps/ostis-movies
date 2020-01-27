@@ -1,0 +1,45 @@
+concept_human -> patrick_schwarzenegger;;
+ 
+ patrick_schwarzenegger <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Патрик Шварценеггер)](*<-lang_ru;;*);
+ 		[Description (Patrick Schwarzenegger)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/patrick_schwarzenegger_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ patrick_schwarzenegger <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Патрик Шварценеггер)](*<-lang_ru;;*);
+ 		[Pic. (Patrick Schwarzenegger)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/patrick_schwarzenegger.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ patrick_schwarzenegger => nrel_main_idtf : [Патрик Шварценеггер](*<-lang_ru;;*);;
+ patrick_schwarzenegger => nrel_main_idtf : [Patrick Schwarzenegger](*<-lang_en;;*);;
+ 
+ 
+ patrick_schwarzenegger => nrel_birth_date : 1993;;
+ 
+ concept_goverment -> Usa;;
+ patrick_schwarzenegger => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ patrick_schwarzenegger => nrel_to_star_in : midnight_sun;;
+midnight_sun => nrel_main_idtf : [Midnight Sun](*<-lang_en;;*);;
+midnight_sun => nrel_main_idtf : [Полночное солнце](*<-lang_ru;;*);;
+

@@ -1,0 +1,82 @@
+
+                  concept_series -> 2_Broke_Girls;;
+              
+                  2_Broke_Girls
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [2_Broke_Girls]
+                    (* <- lang_ru;;	*);
+                    [2_Broke_Girls]
+                    (* <- lang_en;;	*);;
+                  
+                  2_Broke_Girls <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (2_Broke_Girls)](*<-lang_ru;;*);
+                      [Description (2_Broke_Girls)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/2_Broke_Girls_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/2_Broke_Girls_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  2_Broke_Girls <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (2_Broke_Girls)](*<-lang_ru;;*);
+                      [Pic. (2_Broke_Girls)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/2_Broke_Girls.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  2_Broke_Girls => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  2_Broke_Girls => nrel_production_year : 2011;;
+                  
+                  value -> 6;;
+                  2_Broke_Girls => nrel_num_of_seasons: 6;;
+                  value -> 138;;
+                  2_Broke_Girls => nrel_num_of_episodes: 138;;
+                  
+                  value -> 9;;
+                  2_Broke_Girls => nrel_no_countries : 9;;
+                  
+                  value -> 6;;
+                  2_Broke_Girls => nrel_viewers_in_millions: 6;;
+                  
+                  2_Broke_Girls => nrel_age_rating: concept_PG12;;
+                  
+                    2_Broke_Girls => nrel_actor : KatDennings;;
+                    
+                   
+                    2_Broke_Girls => nrel_actor : BethBehrs;;
+                    
+                   
+                    2_Broke_Girls => nrel_actor : MatthewMoy;;
+                    
+                   
+                    2_Broke_Girls => nrel_actor : GarrettMorris;;
+                    
+                   
+                    2_Broke_Girls => nrel_actor : JonathanKite;;
+                    
+                   
+                    2_Broke_Girls => nrel_actor : JenniferCoolidge;;
+                    
+                  
+                  
+                  2_Broke_Girls
+                  =>nrel_keywords: concept_detectif;;
+                  

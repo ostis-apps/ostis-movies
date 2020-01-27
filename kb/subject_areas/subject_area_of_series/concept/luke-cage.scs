@@ -1,0 +1,100 @@
+
+                  concept_series -> Marvels_Luke_Cage;;
+              
+                  Marvels_Luke_Cage
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Marvel Люк Кейдж]
+                    (* <- lang_ru;;	*);
+                    [Marvels_Luke_Cage]
+                    (* <- lang_en;;	*);;
+                  
+                  Marvels_Luke_Cage <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Marvel Люк Кейдж)](*<-lang_ru;;*);
+                      [Description (Marvels_Luke_Cage)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Marvel_s_Luke_Cage_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Marvel_s_Luke_Cage_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Marvels_Luke_Cage <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Marvel Люк Кейдж)](*<-lang_ru;;*);
+                      [Pic. (Marvels_Luke_Cage)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Marvel_s_Luke_Cage.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Marvels_Luke_Cage => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Marvels_Luke_Cage => nrel_production_year : 2016;;
+                  
+                  value -> 2;;
+                  Marvels_Luke_Cage => nrel_num_of_seasons: 2;;
+                  value -> 26;;
+                  Marvels_Luke_Cage => nrel_num_of_episodes: 26;;
+                  
+                  value -> 5;;
+                  Marvels_Luke_Cage => nrel_no_countries : 5;;
+                  
+                  value -> 4;;
+                  Marvels_Luke_Cage => nrel_viewers_in_millions: 4;;
+                  
+                  Marvels_Luke_Cage => nrel_age_rating: concept_PG12;;
+                  
+                    Marvels_Luke_Cage => nrel_actor : MikeColter;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : SimoneMissick;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : AlfreWoodard;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : TheoRossi;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : RosarioDawson;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : MustafaShakir;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : GabrielleDennis;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : EricLaRayHarvey;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : MahershalaAli;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : StephenRider;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : JessicaHenwick;;
+                    
+                   
+                    Marvels_Luke_Cage => nrel_actor : FinnJones;;
+                    
+                  
+                  
+                  Marvels_Luke_Cage
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,72 @@
+concept_film -> We;;
+
+We
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мы]
+	(* <- lang_ru;;	*);
+	[We]
+	(* <- lang_en;;	*);;
+	
+We <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мы)](*<-lang_ru;;*);
+		[Description (We)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/We_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/We_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+We <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мы)](*<-lang_ru;;*);
+		[Pic. (We)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/We.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+We => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 22_03_2019;;
+22_03_2019 => nrel_main_idtf : [22.03.2019](*<-lang_ru;;*);;
+22_03_2019 => nrel_main_idtf : [22.03.2019](*<-lang_en;;*);;
+We => nrel_release_date : 22_03_2019;;
+
+We => nrel_tagline_of_film : slogan_We;;
+slogan_We => nrel_main_idtf : [Наш худший враг — это мы](*<-lang_ru;;*);;
+slogan_We => nrel_main_idtf : [Our worst enemy is us](*<-lang_en;;*);;
+
+We => nrel_duration_of_showing : 1_54;;
+
+duration -> 1_54;;
+1_54 => nrel_main_idtf : [1 час и 54 минуты](*<-lang_ru;;*);;
+1_54 => nrel_main_idtf : [1 hour and 54 minutes](*<-lang_en;;*);;
+
+value -> 176_800_000;;
+176_800_000 => nrel_main_idtf : [176 800 000$](*<-lang_ru;;*);;
+176_800_000 => nrel_main_idtf : [176 800 000$](*<-lang_en;;*);;
+We <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 176_800_000;;   
+*);;
+
+We => nrel_film_critic_rating : 8;;
+
+We =>nrel_keywords:horror;action;thriller;;
+We =>nrel_age_rating: concept_PG18;;
+
+We => nrel_main_actor :Dick;;
+We => nrel_producer : Jordan_Pill;;
+We => nrel_screenwriter : Jordan_Pill;;
+

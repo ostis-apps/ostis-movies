@@ -1,0 +1,31 @@
+concept_film_away
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Прочь]
+	(* <- lang_ru;;	*);
+	[Away]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[описание (Прочь)](*<-lang_ru;;*);
+		[Description (Away)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Прочь.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Away.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_horror;
+=>nrel_keywords:concept_psychological_thriller;
+=>nrel_keywords:concept_experiments_on_people;
+=>nrel_age_rating: concept_PG18;;	

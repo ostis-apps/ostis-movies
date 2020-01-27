@@ -1,0 +1,72 @@
+concept_human -> gary_oldman;;
+ 
+ gary_oldman <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Гэри Олдман)](*<-lang_ru;;*);
+ 		[Description (Gary Oldman)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/gary_oldman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ gary_oldman <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Гэри Олдман)](*<-lang_ru;;*);
+ 		[Pic. (Gary Oldman)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/gary_oldman.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ gary_oldman => nrel_main_idtf : [Гэри Олдман](*<-lang_ru;;*);;
+ gary_oldman => nrel_main_idtf : [Gary Oldman](*<-lang_en;;*);;
+ 
+ 
+ gary_oldman => nrel_birth_date : 1958;;
+ 
+ concept_goverment -> UK;;
+ gary_oldman => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ gary_oldman => nrel_to_star_in : killers_anonymous;;
+killers_anonymous => nrel_main_idtf : [Killers Anonymous](*<-lang_en;;*);;
+killers_anonymous => nrel_main_idtf : [Клуб анонимных киллеров](*<-lang_ru;;*);;
+gary_oldman => nrel_to_star_in : the_dark_knight_rises;;
+the_dark_knight_rises => nrel_main_idtf : [The Dark Knight Rises](*<-lang_en;;*);;
+the_dark_knight_rises => nrel_main_idtf : [Темный рыцарь: Возрождение легенды](*<-lang_ru;;*);;
+gary_oldman => nrel_to_star_in : lawless;;
+lawless => nrel_main_idtf : [Lawless](*<-lang_en;;*);;
+lawless => nrel_main_idtf : [Самый пьяный округ в мире](*<-lang_ru;;*);;
+gary_oldman => nrel_to_star_in : harry_potter_and_the_deathly_hallows_part_2;;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Harry Potter and the Deathly Hallows: Part 2](*<-lang_en;;*);;
+harry_potter_and_the_deathly_hallows_part_2 => nrel_main_idtf : [Гарри Поттер и Дары смерти: Часть 2](*<-lang_ru;;*);;
+gary_oldman => nrel_to_star_in : the_dark_knight;;
+the_dark_knight => nrel_main_idtf : [The Dark Knight](*<-lang_en;;*);;
+the_dark_knight => nrel_main_idtf : [Темный рыцарь](*<-lang_ru;;*);;
+gary_oldman => nrel_to_star_in : harry_potter_and_the_order_of_the_phoenix;;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Harry Potter and the Order of the Phoenix](*<-lang_en;;*);;
+harry_potter_and_the_order_of_the_phoenix => nrel_main_idtf : [Гарри Поттер и Орден Феникса](*<-lang_ru;;*);;
+gary_oldman => nrel_to_star_in : batman_begins;;
+batman_begins => nrel_main_idtf : [Batman Begins](*<-lang_en;;*);;
+batman_begins => nrel_main_idtf : [Бэтмен: Начало](*<-lang_ru;;*);;
+gary_oldman => nrel_to_star_in : harry_potter_and_the_goblet_of_fire;;
+harry_potter_and_the_goblet_of_fire => nrel_main_idtf : [Harry Potter and the Goblet of Fire](*<-lang_en;;*);;
+harry_potter_and_the_goblet_of_fire => nrel_main_idtf : [Гарри Поттер и Кубок огня](*<-lang_ru;;*);;
+gary_oldman => nrel_to_star_in : harry_potter_and_the_prisoner_of_azkaban;;
+harry_potter_and_the_prisoner_of_azkaban => nrel_main_idtf : [Harry Potter and the Prisoner of Azkaban](*<-lang_en;;*);;
+harry_potter_and_the_prisoner_of_azkaban => nrel_main_idtf : [Гарри Поттер и узник Азкабана](*<-lang_ru;;*);;
+gary_oldman => nrel_to_star_in : leon;;
+leon => nrel_main_idtf : [Leon](*<-lang_en;;*);;
+leon => nrel_main_idtf : [Леон](*<-lang_ru;;*);;
+

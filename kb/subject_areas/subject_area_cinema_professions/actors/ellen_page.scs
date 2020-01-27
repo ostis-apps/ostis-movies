@@ -1,0 +1,51 @@
+concept_human -> ellen_page;;
+ 
+ ellen_page <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эллен Пейдж)](*<-lang_ru;;*);
+ 		[Description (Ellen Page)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ellen_page_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ellen_page <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эллен Пейдж)](*<-lang_ru;;*);
+ 		[Pic. (Ellen Page)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ellen_page.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ellen_page => nrel_main_idtf : [Эллен Пейдж](*<-lang_ru;;*);;
+ ellen_page => nrel_main_idtf : [Ellen Page](*<-lang_en;;*);;
+ 
+ 
+ ellen_page => nrel_birth_date : 1987;;
+ 
+ concept_goverment -> Canada;;
+ ellen_page => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ ellen_page => nrel_to_star_in : xmen_days_of_future_past;;
+xmen_days_of_future_past => nrel_main_idtf : [X-Men: Days of Future Past](*<-lang_en;;*);;
+xmen_days_of_future_past => nrel_main_idtf : [Люди Икс: Дни минувшего будущего](*<-lang_ru;;*);;
+ellen_page => nrel_to_star_in : inception;;
+inception => nrel_main_idtf : [Inception](*<-lang_en;;*);;
+inception => nrel_main_idtf : [Начало](*<-lang_ru;;*);;
+ellen_page => nrel_to_star_in : xmen_the_last_stand;;
+xmen_the_last_stand => nrel_main_idtf : [X-Men: The Last Stand](*<-lang_en;;*);;
+xmen_the_last_stand => nrel_main_idtf : [Люди Икс: Последняя битва](*<-lang_ru;;*);;
+

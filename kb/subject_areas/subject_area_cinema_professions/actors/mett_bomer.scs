@@ -1,0 +1,45 @@
+concept_human -> mett_bomer;;
+ 
+ mett_bomer <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэтт Бомер)](*<-lang_ru;;*);
+ 		[Description (Mett Bomer)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/mett_bomer_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ mett_bomer <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэтт Бомер)](*<-lang_ru;;*);
+ 		[Pic. (Mett Bomer)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/mett_bomer.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ mett_bomer => nrel_main_idtf : [Мэтт Бомер](*<-lang_ru;;*);;
+ mett_bomer => nrel_main_idtf : [Mett Bomer](*<-lang_en;;*);;
+ 
+ 
+ mett_bomer => nrel_birth_date : 1977;;
+ 
+ concept_goverment -> Usa;;
+ mett_bomer => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ mett_bomer => nrel_to_star_in : the_nice_guys;;
+the_nice_guys => nrel_main_idtf : [The Nice Guys](*<-lang_en;;*);;
+the_nice_guys => nrel_main_idtf : [Славные парни](*<-lang_ru;;*);;
+

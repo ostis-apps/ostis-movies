@@ -1,0 +1,85 @@
+
+                  concept_series -> Frequency;;
+              
+                  Frequency
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [частота]
+                    (* <- lang_ru;;	*);
+                    [Frequency]
+                    (* <- lang_en;;	*);;
+                  
+                  Frequency <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (частота)](*<-lang_ru;;*);
+                      [Description (Frequency)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Frequency_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Frequency_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Frequency <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (частота)](*<-lang_ru;;*);
+                      [Pic. (Frequency)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Frequency.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Frequency => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Frequency => nrel_production_year : 2016;;
+                  
+                  value -> 1;;
+                  Frequency => nrel_num_of_seasons: 1;;
+                  value -> 13;;
+                  Frequency => nrel_num_of_episodes: 13;;
+                  
+                  value -> 3;;
+                  Frequency => nrel_no_countries : 3;;
+                  
+                  value -> 8;;
+                  Frequency => nrel_viewers_in_millions: 8;;
+                  
+                  Frequency => nrel_age_rating: concept_PG12;;
+                  
+                    Frequency => nrel_actor : PeytonList;;
+                    
+                   
+                    Frequency => nrel_actor : RileySmith;;
+                    
+                   
+                    Frequency => nrel_actor : DevinKelley;;
+                    
+                   
+                    Frequency => nrel_actor : MekhiPhifer;;
+                    
+                   
+                    Frequency => nrel_actor : AnthonyRuivivar;;
+                    
+                   
+                    Frequency => nrel_actor : LennyJacobson;;
+                    
+                   
+                    Frequency => nrel_actor : DanielBonjour;;
+                    
+                  
+                  
+                  Frequency
+                  =>nrel_keywords: concept_detectif;;
+                  

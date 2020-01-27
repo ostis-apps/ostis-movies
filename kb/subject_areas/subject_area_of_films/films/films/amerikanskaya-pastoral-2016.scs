@@ -1,0 +1,67 @@
+film_amerikanskaya_pastoral_2016
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американская пастораль]
+(* <- lang_ru;;    *);
+[American Pastoral]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американская пастораль)](*<-lang_ru;;*);
+[Description (American Pastoral)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskaya-pastoral-2016_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskaya-pastoral-2016_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американская пастораль)](*<-lang_ru;;*);
+		[Pic. (American Pastoral)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskaya-pastoral-2016.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : hong_kong;usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [A radically ordinary story. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [20.10.2016](*<-lang_ru;;*);;
+    => nrel_main_idtf : [20.10.2016](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H48M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H48M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_amerikanskaya_pastoral_2016 =>nrel_keywords: film;;
+
+film_amerikanskaya_pastoral_2016 <- concept_crime;concept_drama;;
+
+film_amerikanskaya_pastoral_2016 => nrel_main_actor : ewan_mcgregor;jennifer_connelly;dakota_fanning;peter_riegert;;
+film_amerikanskaya_pastoral_2016 => nrel_producer : ewan_mcgregor;;

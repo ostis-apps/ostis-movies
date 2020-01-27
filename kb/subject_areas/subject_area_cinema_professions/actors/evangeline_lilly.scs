@@ -1,0 +1,57 @@
+concept_human -> evangeline_lilly;;
+ 
+ evangeline_lilly <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Эванджелин Лилли)](*<-lang_ru;;*);
+ 		[Description (Evangeline Lilly)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/evangeline_lilly_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ evangeline_lilly <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Эванджелин Лилли)](*<-lang_ru;;*);
+ 		[Pic. (Evangeline Lilly)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/evangeline_lilly.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ evangeline_lilly => nrel_main_idtf : [Эванджелин Лилли](*<-lang_ru;;*);;
+ evangeline_lilly => nrel_main_idtf : [Evangeline Lilly](*<-lang_en;;*);;
+ 
+ 
+ evangeline_lilly => nrel_birth_date : 1979;;
+ 
+ concept_goverment -> Canada;;
+ evangeline_lilly => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ evangeline_lilly => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+evangeline_lilly => nrel_to_star_in : antman_and_the_wasp;;
+antman_and_the_wasp => nrel_main_idtf : [Ant-Man and the Wasp](*<-lang_en;;*);;
+antman_and_the_wasp => nrel_main_idtf : [Человек-Муравей и Оса](*<-lang_ru;;*);;
+evangeline_lilly => nrel_to_star_in : antman;;
+antman => nrel_main_idtf : [Ant-Man](*<-lang_en;;*);;
+antman => nrel_main_idtf : [Человек-муравей](*<-lang_ru;;*);;
+evangeline_lilly => nrel_to_star_in : the_hobbit_the_battle_of_the_five_armies;;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [The Hobbit: The Battle of the Five Armies](*<-lang_en;;*);;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [Хоббит: Битва пяти воинств](*<-lang_ru;;*);;
+evangeline_lilly => nrel_to_star_in : the_hobbit_the_desolation_of_smaug;;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [The Hobbit: The Desolation of Smaug](*<-lang_en;;*);;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [Хоббит: Пустошь Смауга](*<-lang_ru;;*);;
+

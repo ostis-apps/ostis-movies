@@ -1,0 +1,88 @@
+
+                  concept_series -> Grimm;;
+              
+                  Grimm
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Гримм]
+                    (* <- lang_ru;;	*);
+                    [Grimm]
+                    (* <- lang_en;;	*);;
+                  
+                  Grimm <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Гримм)](*<-lang_ru;;*);
+                      [Description (Grimm)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Grimm_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Grimm_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Grimm <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Гримм)](*<-lang_ru;;*);
+                      [Pic. (Grimm)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Grimm.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Grimm => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  Grimm => nrel_production_year : 2011;;
+                  
+                  value -> 6;;
+                  Grimm => nrel_num_of_seasons: 6;;
+                  value -> 123;;
+                  Grimm => nrel_num_of_episodes: 123;;
+                  
+                  value -> 10;;
+                  Grimm => nrel_no_countries : 10;;
+                  
+                  value -> 7;;
+                  Grimm => nrel_viewers_in_millions: 7;;
+                  
+                  Grimm => nrel_age_rating: concept_PG12;;
+                  
+                    Grimm => nrel_actor : SashaRoiz;;
+                    
+                   
+                    Grimm => nrel_actor : DavidGiuntoli;;
+                    
+                   
+                    Grimm => nrel_actor : SilasWeirMitchell;;
+                    
+                   
+                    Grimm => nrel_actor : RussellHornsby;;
+                    
+                   
+                    Grimm => nrel_actor : ReggieLee;;
+                    
+                   
+                    Grimm => nrel_actor : ElizabethTulloch;;
+                    
+                   
+                    Grimm => nrel_actor : BreeTurner;;
+                    
+                   
+                    Grimm => nrel_actor : ClaireCoffee;;
+                    
+                  
+                  
+                  Grimm
+                  =>nrel_keywords: concept_detectif;;
+                  

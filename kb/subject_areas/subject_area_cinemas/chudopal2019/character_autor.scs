@@ -1,0 +1,21 @@
+character_autor
+	=> nrel_main_idtf:
+	[Автор]
+	(* <- lang_ru;;	*);
+	[Author]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: innokenty_smoktunovsky;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Автор)](* <- lang_ru;; *);
+		[Desctiption (Author)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_autor">Автор</sc_element></b> — читает стихи за кадром.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_autor">Author</sc_element></b> — reads verses behind the scenes.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);;

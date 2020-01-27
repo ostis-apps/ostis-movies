@@ -1,0 +1,91 @@
+
+                  concept_series -> Cobra_Kai;;
+              
+                  Cobra_Kai
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Cobra Kai]
+                    (* <- lang_ru;;	*);
+                    [Cobra_Kai]
+                    (* <- lang_en;;	*);;
+                  
+                  Cobra_Kai <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Cobra Kai)](*<-lang_ru;;*);
+                      [Description (Cobra_Kai)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Cobra_Kai_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Cobra_Kai_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Cobra_Kai <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Cobra Kai)](*<-lang_ru;;*);
+                      [Pic. (Cobra_Kai)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Cobra_Kai.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Cobra_Kai => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Cobra_Kai => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  Cobra_Kai => nrel_num_of_seasons: 3;;
+                  value -> 20;;
+                  Cobra_Kai => nrel_num_of_episodes: 20;;
+                  
+                  value -> 12;;
+                  Cobra_Kai => nrel_no_countries : 12;;
+                  
+                  value -> 7;;
+                  Cobra_Kai => nrel_viewers_in_millions: 7;;
+                  
+                  Cobra_Kai => nrel_age_rating: concept_PG12;;
+                  
+                    Cobra_Kai => nrel_actor : MaryMouser;;
+                    
+                   
+                    Cobra_Kai => nrel_actor : XoloMariduea;;
+                    
+                   
+                    Cobra_Kai => nrel_actor : WilliamZabka;;
+                    
+                   
+                    Cobra_Kai => nrel_actor : RalphMacchio;;
+                    
+                   
+                    Cobra_Kai => nrel_actor : JacobBertrand;;
+                    
+                   
+                    Cobra_Kai => nrel_actor : CourtneyHenggeler;;
+                    
+                   
+                    Cobra_Kai => nrel_actor : TannerBuchanan;;
+                    
+                   
+                    Cobra_Kai => nrel_actor : GianniDeCenzo;;
+                    
+                   
+                    Cobra_Kai => nrel_actor : MartinKove;;
+                    
+                  
+                  
+                  Cobra_Kai
+                  =>nrel_keywords: concept_detectif;;
+                  

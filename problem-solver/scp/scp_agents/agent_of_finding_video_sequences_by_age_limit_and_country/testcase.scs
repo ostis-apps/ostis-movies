@@ -1,0 +1,8 @@
+concept_video_sequence -> great_gatsby;mickey_mouse; rick_and_morty;;
+rick_and_morty => nrel_age_limit: ... (* -> rrel_age: 12;;*);;
+great_gatsby => nrel_age_limit: ...(* -> rrel_age: 18;;*);;
+mickey_mouse => nrel_age_limit: ... (* -> rrel_age: 12;;*);;
+
+great_gatsby => nrel_production_country: ... (*-> USA;;*);;
+mickey_mouse => nrel_production_country: ...(* -> USA;;*);;
+rick_and_morty => nrel_production_country: ...(* -> USA;;*);;

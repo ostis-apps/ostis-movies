@@ -1,0 +1,51 @@
+concept_human -> kate_winslet;;
+ 
+ kate_winslet <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кейт Уинслет)](*<-lang_ru;;*);
+ 		[Description (Kate Winslet)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kate_winslet_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kate_winslet <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кейт Уинслет)](*<-lang_ru;;*);
+ 		[Pic. (Kate Winslet)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kate_winslet.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kate_winslet => nrel_main_idtf : [Кейт Уинслет](*<-lang_ru;;*);;
+ kate_winslet => nrel_main_idtf : [Kate Winslet](*<-lang_en;;*);;
+ 
+ 
+ kate_winslet => nrel_birth_date : 1975;;
+ 
+ concept_goverment -> UK;;
+ kate_winslet => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ kate_winslet => nrel_to_star_in : movie_43;;
+movie_43 => nrel_main_idtf : [Movie 43](*<-lang_en;;*);;
+movie_43 => nrel_main_idtf : [Муви 43](*<-lang_ru;;*);;
+kate_winslet => nrel_to_star_in : eternal_sunshine_of_the_spotless_mind;;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Eternal Sunshine of the Spotless Mind](*<-lang_en;;*);;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Вечное сияние чистого разума](*<-lang_ru;;*);;
+kate_winslet => nrel_to_star_in : titanic;;
+titanic => nrel_main_idtf : [Titanic](*<-lang_en;;*);;
+titanic => nrel_main_idtf : [Титаник](*<-lang_ru;;*);;
+

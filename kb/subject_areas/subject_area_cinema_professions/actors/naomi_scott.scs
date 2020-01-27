@@ -1,0 +1,45 @@
+concept_human -> naomi_scott;;
+ 
+ naomi_scott <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Наоми Скотт)](*<-lang_ru;;*);
+ 		[Description (Naomi Scott)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/naomi_scott_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ naomi_scott <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Наоми Скотт)](*<-lang_ru;;*);
+ 		[Pic. (Naomi Scott)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/naomi_scott.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ naomi_scott => nrel_main_idtf : [Наоми Скотт](*<-lang_ru;;*);;
+ naomi_scott => nrel_main_idtf : [Naomi Scott](*<-lang_en;;*);;
+ 
+ 
+ naomi_scott => nrel_birth_date : 1993;;
+ 
+ concept_goverment -> UK;;
+ naomi_scott => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ naomi_scott => nrel_to_star_in : aladdin;;
+aladdin => nrel_main_idtf : [Aladdin](*<-lang_en;;*);;
+aladdin => nrel_main_idtf : [Аладдин](*<-lang_ru;;*);;
+

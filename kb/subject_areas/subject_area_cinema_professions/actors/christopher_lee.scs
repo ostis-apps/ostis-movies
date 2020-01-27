@@ -1,0 +1,69 @@
+concept_human -> christopher_lee;;
+ 
+ christopher_lee <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристофер Ли)](*<-lang_ru;;*);
+ 		[Description (Christopher Lee)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/christopher_lee_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ christopher_lee <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристофер Ли)](*<-lang_ru;;*);
+ 		[Pic. (Christopher Lee)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/christopher_lee.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ christopher_lee => nrel_main_idtf : [Кристофер Ли](*<-lang_ru;;*);;
+ christopher_lee => nrel_main_idtf : [Christopher Lee](*<-lang_en;;*);;
+ 
+ 
+ christopher_lee => nrel_birth_date : 1926;;
+ 
+ concept_goverment -> UK;;
+ christopher_lee => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ christopher_lee => nrel_to_star_in : the_hobbit_the_battle_of_the_five_armies;;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [The Hobbit: The Battle of the Five Armies](*<-lang_en;;*);;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [Хоббит: Битва пяти воинств](*<-lang_ru;;*);;
+christopher_lee => nrel_to_star_in : the_hobbit_an_unexpected_journey;;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [The Hobbit: An Unexpected Journey](*<-lang_en;;*);;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [Хоббит: Нежданное путешествие](*<-lang_ru;;*);;
+christopher_lee => nrel_to_star_in : dark_shadows;;
+dark_shadows => nrel_main_idtf : [Dark Shadows](*<-lang_en;;*);;
+dark_shadows => nrel_main_idtf : [Мрачные тени](*<-lang_ru;;*);;
+christopher_lee => nrel_to_star_in : alice_in_wonderland;;
+alice_in_wonderland => nrel_main_idtf : [Alice in Wonderland](*<-lang_en;;*);;
+alice_in_wonderland => nrel_main_idtf : [Алиса в стране чудес](*<-lang_ru;;*);;
+christopher_lee => nrel_to_star_in : charlie_and_the_chocolate_factory;;
+charlie_and_the_chocolate_factory => nrel_main_idtf : [Charlie and the Chocolate Factory](*<-lang_en;;*);;
+charlie_and_the_chocolate_factory => nrel_main_idtf : [Чарли и шоколадная фабрика](*<-lang_ru;;*);;
+christopher_lee => nrel_to_star_in : the_lord_of_the_rings_the_return_of_the_king;;
+the_lord_of_the_rings_the_return_of_the_king => nrel_main_idtf : [The Lord of the Rings: The Return of the King](*<-lang_en;;*);;
+the_lord_of_the_rings_the_return_of_the_king => nrel_main_idtf : [Властелин Колец: Возвращение Короля](*<-lang_ru;;*);;
+christopher_lee => nrel_to_star_in : the_lord_of_the_rings_the_two_towers;;
+the_lord_of_the_rings_the_two_towers => nrel_main_idtf : [The Lord of the Rings: The Two Towers](*<-lang_en;;*);;
+the_lord_of_the_rings_the_two_towers => nrel_main_idtf : [Властелин Колец: Две Крепости](*<-lang_ru;;*);;
+christopher_lee => nrel_to_star_in : the_lord_of_the_rings_the_fellowship_of_the_ring;;
+the_lord_of_the_rings_the_fellowship_of_the_ring => nrel_main_idtf : [The Lord of the Rings: The Fellowship of the Ring](*<-lang_en;;*);;
+the_lord_of_the_rings_the_fellowship_of_the_ring => nrel_main_idtf : [Властелин Колец: Братство Кольца](*<-lang_ru;;*);;
+christopher_lee => nrel_to_star_in : sleepy_hollow;;
+sleepy_hollow => nrel_main_idtf : [Sleepy Hollow](*<-lang_en;;*);;
+sleepy_hollow => nrel_main_idtf : [Сонная лощина](*<-lang_ru;;*);;
+

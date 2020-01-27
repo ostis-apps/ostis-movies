@@ -1,0 +1,67 @@
+concept_series -> Shameless;;
+
+Shameless
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бесстыжие]
+	(* <- lang_ru;;	*);
+	[Shameless]
+	(* <- lang_en;;	*);;
+	
+Shameless <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бесстыжие)](*<-lang_ru;;*);
+		[Description (Shameless)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Shameless_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Shameless_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Shameless <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бесстыжие)](*<-lang_ru;;*);
+		[Pic. (Shameless)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Shameless.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Shameless => nrel_production_country : Usa;;
+
+
+Shameless => => nrel_world_premiere: ...(* -> rrel_number_of_year: 2011;;*);;
+	
+value -> 9;;
+Shameless => nrel_num_of_seasons: 9;;
+value -> 103;;
+Shameless => nrel_num_of_episodes: 103;;
+
+value -> 25;;
+Shameless => nrel_no_countries : 25;;
+
+value -> 11;;
+Shameless => nrel_viewers_in_millions: 11;;
+
+Shameless => nrel_age_rating: concept_PG12;;
+
+
+Shameless  => nrel_actor : Emmy_Rossum;;
+Shameless  => nrel_actor : Ethan_Cutkosky;;
+
+Shameless => nrel_producer : Mark_Mylod;;
+
+Shameless
+=>nrel_keywords: concept_famili;
+=>nrel_keywords: concept_camedi;;
+

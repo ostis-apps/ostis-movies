@@ -1,0 +1,45 @@
+concept_cartoon_Teenage_Mutant_Ninja_Turtles
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Черепашки-ниндзя]
+	(* <- lang_ru;;	*);
+	[Teenage Mutant Ninja Turtles]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Черепашки-ниндзя)](*<-lang_ru;;*);
+		[Description (Teenage Mutant Ninja Turtles)](*<-lang_en;;*);;
+	<=nrel_using_constants: 
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Teenage Mutant Ninja Turtles_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Teenage Mutant Ninja Turtles_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Черепашки-ниндзя)](*<-lang_ru;;*);
+		[Pic. (Teenage Mutant Ninja Turtles)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Teenage Mutant Ninja Turtles.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_kids;
+=>nrel_keywords: concept_family;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_comedy;
+=>nrel_keywords: concept_adventure;
+=>nrel_age_rating: concept_PG12;;

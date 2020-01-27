@@ -1,0 +1,28 @@
+concept_film_The_Basketball_Diaries
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дневник баскетболиста](* <- lang_ru;; *);
+	[Дневники баскетболиста](* <- lang_ru;; *);
+	[The Basketball Diaries](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Дневник баскетболиста)](*<-lang_ru;;*);
+		[Description (The Basketball Diaries)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Дневник баскетболиста.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/The Basketball Diaries.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_drugs;
+=> nrel_keywords: concept_basketball;
+=> nrel_keywords: concept_teenager;
+=> nrel_age_rating: concept_PG18;;

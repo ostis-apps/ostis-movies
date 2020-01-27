@@ -1,0 +1,48 @@
+concept_human -> john_cusack;;
+ 
+ john_cusack <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джон Кьюсак)](*<-lang_ru;;*);
+ 		[Description (John Cusack)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/john_cusack_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ john_cusack <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джон Кьюсак)](*<-lang_ru;;*);
+ 		[Pic. (John Cusack)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/john_cusack.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ john_cusack => nrel_main_idtf : [Джон Кьюсак](*<-lang_ru;;*);;
+ john_cusack => nrel_main_idtf : [John Cusack](*<-lang_en;;*);;
+ 
+ 
+ john_cusack => nrel_birth_date : 1966;;
+ 
+ concept_goverment -> Usa;;
+ john_cusack => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ john_cusack => nrel_to_star_in : being_john_malkovich;;
+being_john_malkovich => nrel_main_idtf : [Being John Malkovich](*<-lang_en;;*);;
+being_john_malkovich => nrel_main_idtf : [Быть Джоном Малковичем](*<-lang_ru;;*);;
+john_cusack => nrel_to_star_in : the_thin_red_line;;
+the_thin_red_line => nrel_main_idtf : [The Thin Red Line](*<-lang_en;;*);;
+the_thin_red_line => nrel_main_idtf : [Тонкая красная линия](*<-lang_ru;;*);;
+

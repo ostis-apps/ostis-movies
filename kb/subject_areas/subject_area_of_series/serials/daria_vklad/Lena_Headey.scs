@@ -1,0 +1,52 @@
+concept_human -> Lena_Headey;;
+
+Lena_Headey
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Лина Хиди]
+	(* <- lang_ru;;	*);
+	[Lena Headey]
+	(* <- lang_en;;	*);;
+	
+Lena_Headey <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Лина Хиди)](*<-lang_ru;;*);
+		[Description (Lena Headey)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Lena_Headey_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Lena_Headey_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Lena_Headey <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Лина Хиди)](*<-lang_ru;;*);
+		[Pic. (Lena Headey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Lena_Headey.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1973;;
+Lena_Headey=>nrel_date_of_birth: 1973;;
+1973=>nrel_main_idtf:[1973 год](*<-lang_ru;;*);;
+1973=>nrel_main_idtf:[year of 1973](*<-lang_en;;*);;
+
+concept_calendar_date->1992;;
+Lena_Headey=>nrel_career_start_date: 1992;;
+1992=>nrel_main_idtf:[1992 год](*<-lang_ru;;*);;
+1992=>nrel_main_idtf:[year of 1992](*<-lang_en;;*);;
+
+Lena_Headey =>nrel_cityzenship:concept_uk;;
+

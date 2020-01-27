@@ -1,0 +1,67 @@
+film_buch_kessidi_i_sandens_kid_1969
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Буч Кэссиди и Сандэнс Кид]
+(* <- lang_ru;;    *);
+[Butch Cassidy and the Sundance Kid]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Буч Кэссиди и Сандэнс Кид)](*<-lang_ru;;*);
+[Description (Butch Cassidy and the Sundance Kid)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/buch-kessidi-i-sandens-kid-1969_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/buch-kessidi-i-sandens-kid-1969_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Буч Кэссиди и Сандэнс Кид)](*<-lang_ru;;*);
+		[Pic. (Butch Cassidy and the Sundance Kid)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/buch-kessidi-i-sandens-kid-1969.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [They're taking trains... They're taking banks... And they're taking one piece of baggage! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [24.09.1969](*<-lang_ru;;*);;
+    => nrel_main_idtf : [24.09.1969](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H50M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H50M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_buch_kessidi_i_sandens_kid_1969 =>nrel_keywords: film;;
+
+film_buch_kessidi_i_sandens_kid_1969 <- concept_biography;concept_crime;concept_drama;concept_western;;
+
+film_buch_kessidi_i_sandens_kid_1969 => nrel_main_actor : paul_newman;robert_redford;katharine_ross;strother_martin;;
+film_buch_kessidi_i_sandens_kid_1969 => nrel_producer : george_roy_hill;;

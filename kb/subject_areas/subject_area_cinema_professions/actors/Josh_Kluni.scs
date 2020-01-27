@@ -1,0 +1,66 @@
+concept_human -> Josh_Kluni;;
+
+Josh_Kluni <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джордж Клуни)](*<-lang_ru;;*);
+		[Description (Josh Kluni)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Kluni_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Kluni_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Josh_Kluni <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джордж Клуни)](*<-lang_ru;;*);
+		[Pic. (Josh Kluni)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Kluni.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Josh_Kluni => nrel_be_awarded : Golden_globe;Oscar;; 
+Josh_Kluni => nrel_main_idtf : [Джордж Клуни](*<-lang_ru;;*);;
+Josh_Kluni => nrel_main_idtf : [Josh Kluni](*<-lang_en;;*);;
+
+concept_calendar_date -> 06_05_1961;;
+Josh_Kluni => nrel_date_of_birth : 06_05_1961;;
+06_05_1961 => nrel_main_idtf : [06.05.1961](*<-lang_en;;*);;
+06_05_1961 => nrel_main_idtf : [06.05.1961](*<-lang_ru;;*);;
+
+concept_city -> Lexington;;
+Josh_Kluni => nrel_place_of_birth : Lexington;;
+Lexington => nrel_main_idtf : [Lexington](*<-lang_en;;*);;
+Lexington => nrel_main_idtf : [Лексингтон](*<-lang_ru;;*);;
+
+Josh_Kluni => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 13_07_1984;;
+Josh_Kluni => nrel_career_start_date : 13_07_1984;;
+13_07_1984 => nrel_main_idtf : [13.07.1984](*<-lang_en;;*);;
+13_07_1984 => nrel_main_idtf : [13.07.1984](*<-lang_ru;;*);;
+
+concept_film -> Monster;Gravitation;Hunter;Oshen;Spy;;
+Monster => nrel_main_idtf : [Financial monster](*<-lang_en;;*);;
+Monster => nrel_main_idtf : [Финансовый монстр](*<-lang_ru;;*);;
+Gravitation => nrel_main_idtf : [Gravitation](*<-lang_en;;*);;
+Gravitation => nrel_main_idtf : [Гравитация](*<-lang_ru;;*);;
+Hunter => nrel_main_idtf : [Treasure hunter](*<-lang_en;;*);;
+Hunter => nrel_main_idtf : [Охотники за сокровищами](*<-lang_ru;;*);;
+Oshen => nrel_main_idtf : [13 Oshen's friends](*<-lang_en;;*);;
+Oshen => nrel_main_idtf : [13 друзей Оушена](*<-lang_ru;;*);;
+Spy => nrel_main_idtf : [Spy's childern](*<-lang_en;;*);;
+Spy => nrel_main_idtf : [Дети шпионов](*<-lang_ru;;*);;
+
+Josh_Kluni => nrel_to_star_in : Monster;Gravitation;Hunter;Oshen;Spy;;
+

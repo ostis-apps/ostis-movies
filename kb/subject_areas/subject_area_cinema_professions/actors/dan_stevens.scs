@@ -1,0 +1,51 @@
+concept_human -> dan_stevens;;
+ 
+ dan_stevens <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэн Стивенс)](*<-lang_ru;;*);
+ 		[Description (Dan Stevens)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/dan_stevens_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ dan_stevens <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэн Стивенс)](*<-lang_ru;;*);
+ 		[Pic. (Dan Stevens)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/dan_stevens.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ dan_stevens => nrel_main_idtf : [Дэн Стивенс](*<-lang_ru;;*);;
+ dan_stevens => nrel_main_idtf : [Dan Stevens](*<-lang_en;;*);;
+ 
+ 
+ dan_stevens => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> UK;;
+ dan_stevens => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ dan_stevens => nrel_to_star_in : apostle;;
+apostle => nrel_main_idtf : [Apostle](*<-lang_en;;*);;
+apostle => nrel_main_idtf : [Апостол](*<-lang_ru;;*);;
+dan_stevens => nrel_to_star_in : beauty_and_the_beast;;
+beauty_and_the_beast => nrel_main_idtf : [Beauty and the Beast](*<-lang_en;;*);;
+beauty_and_the_beast => nrel_main_idtf : [Красавица и чудовище](*<-lang_ru;;*);;
+dan_stevens => nrel_to_star_in : the_cobbler;;
+the_cobbler => nrel_main_idtf : [The Cobbler](*<-lang_en;;*);;
+the_cobbler => nrel_main_idtf : [Сапожник](*<-lang_ru;;*);;
+

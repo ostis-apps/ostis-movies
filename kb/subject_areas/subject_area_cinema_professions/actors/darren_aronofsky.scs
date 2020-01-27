@@ -1,0 +1,60 @@
+concept_human -> darren_aronofsky;;
+ 
+ darren_aronofsky <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Даррен Аронофски)](*<-lang_ru;;*);
+ 		[Description (Darren Aronofsky)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/darren_aronofsky_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ darren_aronofsky <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Даррен Аронофски)](*<-lang_ru;;*);
+ 		[Pic. (Darren Aronofsky)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/darren_aronofsky.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ darren_aronofsky => nrel_main_idtf : [Даррен Аронофски](*<-lang_ru;;*);;
+ darren_aronofsky => nrel_main_idtf : [Darren Aronofsky](*<-lang_en;;*);;
+ 
+ 
+ darren_aronofsky => nrel_birth_date : 1969;;
+ 
+ concept_goverment -> Usa;;
+ darren_aronofsky => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ darren_aronofsky => nrel_to_star_in : mother;;
+mother => nrel_main_idtf : [mother!](*<-lang_en;;*);;
+mother => nrel_main_idtf : [мама!](*<-lang_ru;;*);;
+darren_aronofsky => nrel_to_star_in : noah;;
+noah => nrel_main_idtf : [Noah](*<-lang_en;;*);;
+noah => nrel_main_idtf : [Ной](*<-lang_ru;;*);;
+darren_aronofsky => nrel_to_star_in : black_swan;;
+black_swan => nrel_main_idtf : [Black Swan](*<-lang_en;;*);;
+black_swan => nrel_main_idtf : [Черный лебедь](*<-lang_ru;;*);;
+darren_aronofsky => nrel_to_star_in : the_wrestler;;
+the_wrestler => nrel_main_idtf : [The Wrestler](*<-lang_en;;*);;
+the_wrestler => nrel_main_idtf : [Рестлер](*<-lang_ru;;*);;
+darren_aronofsky => nrel_to_star_in : the_fountain;;
+the_fountain => nrel_main_idtf : [The Fountain](*<-lang_en;;*);;
+the_fountain => nrel_main_idtf : [Фонтан](*<-lang_ru;;*);;
+darren_aronofsky => nrel_to_star_in : requiem_for_a_dream;;
+requiem_for_a_dream => nrel_main_idtf : [Requiem for a Dream](*<-lang_en;;*);;
+requiem_for_a_dream => nrel_main_idtf : [Реквием по мечте](*<-lang_ru;;*);;
+

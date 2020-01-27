@@ -1,0 +1,31 @@
+concept_film_The_Big_Take
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Крупный куш]
+	(* <- lang_ru;;	*);
+	[The Big Take]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Крупный куш)](*<-lang_ru;;*);
+		[Description (The Big Take)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Крупный куш.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The Big Take.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_blackmail;
+=>nrel_keywords: concept_intrigue;
+=>nrel_keywords: concept_rascaldom;	
+=>nrel_age_rating: concept_PG16;;	

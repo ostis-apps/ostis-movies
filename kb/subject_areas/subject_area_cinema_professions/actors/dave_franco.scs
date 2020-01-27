@@ -1,0 +1,45 @@
+concept_human -> dave_franco;;
+ 
+ dave_franco <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэйв Франко)](*<-lang_ru;;*);
+ 		[Description (Dave Franco)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/dave_franco_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ dave_franco <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэйв Франко)](*<-lang_ru;;*);
+ 		[Pic. (Dave Franco)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/dave_franco.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ dave_franco => nrel_main_idtf : [Дэйв Франко](*<-lang_ru;;*);;
+ dave_franco => nrel_main_idtf : [Dave Franco](*<-lang_en;;*);;
+ 
+ 
+ dave_franco => nrel_birth_date : 1985;;
+ 
+ concept_goverment -> Usa;;
+ dave_franco => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ dave_franco => nrel_to_star_in : 6_balloons;;
+6_balloons => nrel_main_idtf : [6 Balloons](*<-lang_en;;*);;
+6_balloons => nrel_main_idtf : [6 шариков](*<-lang_ru;;*);;
+

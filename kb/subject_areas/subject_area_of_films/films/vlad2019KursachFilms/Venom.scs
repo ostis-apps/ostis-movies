@@ -1,0 +1,71 @@
+concept_film -> Venom;;
+
+Venom
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Веном]
+	(* <- lang_ru;;	*);
+	[Venom]
+	(* <- lang_en;;	*);;
+	
+Venom <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Веном)](*<-lang_ru;;*);
+		[Description (Venom)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Venom_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Venom_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Venom <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Веном)](*<-lang_ru;;*);
+		[Pic. (Venom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Venom.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Venom => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 05_10_2018;;
+05_10_2018 => nrel_main_idtf : [05.10.2018](*<-lang_ru;;*);;
+05_10_2018 => nrel_main_idtf : [05.10.2018](*<-lang_en;;*);;
+Venom => nrel_release_date : 05_10_2018;;
+
+Venom => nrel_tagline_of_film : slogan_Venom;;
+slogan_Venom => nrel_main_idtf : [Обними своего внутреннего антигероя.](*<-lang_ru;;*);;
+slogan_Venom => nrel_main_idtf : [Embrace your inner anti-hero](*<-lang_en;;*);;
+
+value -> 1_52;;
+1_52 => nrel_main_idtf : [1 час и 52 минуты](*<-lang_ru;;*);;
+1_52 => nrel_main_idtf : [1 hour and 52 minutes](*<-lang_en;;*);;
+Venom => nrel_duration_of_showing : 1_52;;
+
+value -> 855_013_954;;
+855_013_954 => nrel_main_idtf : [855 013 954$](*<-lang_ru;;*);;
+855_013_954 => nrel_main_idtf : [855 013 954$](*<-lang_en;;*);;
+Venom <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 855_013_954;;   
+*);;
+
+Venom => nrel_film_critic_rating : 8;;
+
+Venom =>nrel_keywords: super_people;space;alliens;fantasy;spider_man;;
+Venom =>nrel_age_rating: concept_PG16;;
+
+Venom => nrel_main_actor : Mishell_Williams;Hardi;;
+Venom => nrel_producer : Fleisher;;
+Venom => nrel_screenwriter : Rozenberg;;
+

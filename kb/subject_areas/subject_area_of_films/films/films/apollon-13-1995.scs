@@ -1,0 +1,67 @@
+film_apollon_13_1995
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Аполлон 13]
+(* <- lang_ru;;    *);
+[Apollo 13]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Аполлон 13)](*<-lang_ru;;*);
+[Description (Apollo 13)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/apollon-13-1995_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/apollon-13-1995_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Аполлон 13)](*<-lang_ru;;*);
+		[Pic. (Apollo 13)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/apollon-13-1995.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Failure is not an option. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [30.06.1995](*<-lang_ru;;*);;
+    => nrel_main_idtf : [30.06.1995](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H20M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H20M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_apollon_13_1995 =>nrel_keywords: film;;
+
+film_apollon_13_1995 <- concept_adventure;concept_drama;concept_history;;
+
+film_apollon_13_1995 => nrel_main_actor : tom_hanks;bill_paxton;kevin_bacon;gary_sinise;;
+film_apollon_13_1995 => nrel_producer : ron_howard;;

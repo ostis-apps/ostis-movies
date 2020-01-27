@@ -1,0 +1,67 @@
+film_bonni_i_klayd_1967
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бонни и Клайд]
+(* <- lang_ru;;    *);
+[Bonnie and Clyde]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бонни и Клайд)](*<-lang_ru;;*);
+[Description (Bonnie and Clyde)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bonni-i-klayd-1967_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bonni-i-klayd-1967_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бонни и Клайд)](*<-lang_ru;;*);
+		[Pic. (Bonnie and Clyde)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bonni-i-klayd-1967.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [There has never been... You have never seen... a motion picture like this one! See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [14.08.1967](*<-lang_ru;;*);;
+    => nrel_main_idtf : [14.08.1967](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H51M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H51M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_bonni_i_klayd_1967 =>nrel_keywords: film;;
+
+film_bonni_i_klayd_1967 <- concept_action;concept_biography;concept_crime;concept_drama;;
+
+film_bonni_i_klayd_1967 => nrel_main_actor : warren_beatty;faye_dunaway;michael_j._pollard;gene_hackman;;
+film_bonni_i_klayd_1967 => nrel_producer : arthur_penn;;

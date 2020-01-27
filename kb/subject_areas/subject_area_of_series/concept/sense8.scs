@@ -1,0 +1,106 @@
+
+                  concept_series -> Sense8;;
+              
+                  Sense8
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Sense8]
+                    (* <- lang_ru;;	*);
+                    [Sense8]
+                    (* <- lang_en;;	*);;
+                  
+                  Sense8 <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Sense8)](*<-lang_ru;;*);
+                      [Description (Sense8)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Sense8_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Sense8_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Sense8 <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Sense8)](*<-lang_ru;;*);
+                      [Pic. (Sense8)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Sense8.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Sense8 => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Sense8 => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  Sense8 => nrel_num_of_seasons: 2;;
+                  value -> 22;;
+                  Sense8 => nrel_num_of_episodes: 22;;
+                  
+                  value -> 10;;
+                  Sense8 => nrel_no_countries : 10;;
+                  
+                  value -> 7;;
+                  Sense8 => nrel_viewers_in_millions: 7;;
+                  
+                  Sense8 => nrel_age_rating: concept_PG12;;
+                  
+                    Sense8 => nrel_actor : TobyOnwumere;;
+                    
+                   
+                    Sense8 => nrel_actor : BrianJSmith;;
+                    
+                   
+                    Sense8 => nrel_actor : FreemaAgyeman;;
+                    
+                   
+                    Sense8 => nrel_actor : TuppenceMiddleton;;
+                    
+                   
+                    Sense8 => nrel_actor : AmlAmeen;;
+                    
+                   
+                    Sense8 => nrel_actor : JamieClayton;;
+                    
+                   
+                    Sense8 => nrel_actor : MaxRiemelt;;
+                    
+                   
+                    Sense8 => nrel_actor : MiguelngelSilvestre;;
+                    
+                   
+                    Sense8 => nrel_actor : TinaDesai;;
+                    
+                   
+                    Sense8 => nrel_actor : DarylHannah;;
+                    
+                   
+                    Sense8 => nrel_actor : BaeDooNa;;
+                    
+                   
+                    Sense8 => nrel_actor : TerrenceMann;;
+                    
+                   
+                    Sense8 => nrel_actor : NaveenAndrews;;
+                    
+                   
+                    Sense8 => nrel_actor : AnupamKher;;
+                    
+                  
+                  
+                  Sense8
+                  =>nrel_keywords: concept_detectif;;
+                  

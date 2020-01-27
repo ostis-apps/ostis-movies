@@ -1,0 +1,52 @@
+concept_human -> Emilia_Clarke;;
+
+Emilia_Clarke
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эмилия Кларк]
+	(* <- lang_ru;;	*);
+	[Emilia Clarke]
+	(* <- lang_en;;	*);;
+	
+Emilia_Clarke <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эмилия Кларк)](*<-lang_ru;;*);
+		[Description (Emilia Clarke)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Emilia_Clarke_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Emilia_Clarke_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Emilia_Clarke <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эмилия Кларк)](*<-lang_ru;;*);
+		[Pic. (Emilia Clarke)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Emilia_Clarke.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1986;;
+Emilia_Clarke=>nrel_date_of_birth: 1986;;
+1986=>nrel_main_idtf:[1986 год](*<-lang_ru;;*);;
+1986=>nrel_main_idtf:[year of 1986](*<-lang_en;;*);;
+
+concept_calendar_date->2009;;
+Emilia_Clarke=>nrel_career_start_date: 2009;;
+2009=>nrel_main_idtf:[2009 год](*<-lang_ru;;*);;
+2009=>nrel_main_idtf:[year of 2009](*<-lang_en;;*);;
+
+Emilia_Clarke =>nrel_cityzenship:concept_uk;;
+

@@ -1,0 +1,43 @@
+concept_cartoon_The_Adventures_of_the_Good_Soldier_Schweik
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Похождения бравого солдата Швейка]
+	(* <- lang_ru;;	*);
+	[The Adventures of the Good Soldier Schweik]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Похождения бравого солдата Швейка)](*<-lang_ru;;*);
+		[Description (The Adventures of the Good Soldier Schweik)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/The Adventures of the Good Soldier Schweik_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The Adventures of the Good Soldier Schweik_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Похождения бравого солдата Швейка)](*<-lang_ru;;*);
+		[Pic. (The Adventures of the Good Soldier Schweik)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/The Adventures of the Good Soldier Schweik.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_traditional_animation;
+=>nrel_keywords: concept_soldier;
+=>nrel_keywords: concept_fantasy;
+=> nrel_production_country: Russia;
+=>nrel_keywords: concept_adventure;
+=>nrel_age_rating: concept_PG0;;

@@ -1,0 +1,50 @@
+concept_human -> Billy_Bob_Thornton;;
+
+Billy_Bob_Thornton
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Билли Боб Торнтон]
+	(* <- lang_ru;;	*);
+	[Billy Bob Thornton]
+	(* <- lang_en;;	*);;
+	
+Billy_Bob_Thornton <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Билли Боб Торнтон)](*<-lang_ru;;*);
+		[Description (Billy Bob Thornton)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Billy_Bob_Thornton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Billy_Bob_Thornton_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Billy_Bob_Thornton <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Билли Боб Торнтон)](*<-lang_ru;;*);
+		[Pic. (Billy Bob Thornton)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Billy_Bob_Thornton.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1955;;
+Billy_Bob_Thornton =>nrel_date_of_birth: 1955;;
+1955=>nrel_main_idtf:[1955 год](*<-lang_ru;;*);;
+1955=>nrel_main_idtf:[year of 1955](*<-lang_en;;*);;
+
+concept_calendar_date->1966;;
+Billy_Bob_Thornton =>nrel_career_start_date: 1966;;
+1966=>nrel_main_idtf:[1966 год](*<-lang_ru;;*);;
+1966=>nrel_main_idtf:[year of 1966](*<-lang_en;;*);;
+
+Phil_Abraham =>nrel_cityzenship: Usa;;

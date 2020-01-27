@@ -1,0 +1,18 @@
+concept_art
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[искусство](*<-lang_ru;;*);
+	[art](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (искусство)](*<-lang_ru;;*);
+		[Def. (art)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_art_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_art_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

@@ -1,0 +1,33 @@
+concept_close_up <- sc_node_not_relation;
+
+=> nrel_main_idtf:[крупный план] (* <- lang_ru;; *);
+=> nrel_idtf:[close-up] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (крупный план)] (* <- lang_ru;; *);
+							   [Def. (close-up)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_videocamera;
+				concept_frame
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_close_up_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_close_up_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (крупный план)](*<-lang_ru;;*);
+		[Pic. (close-up)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_close_up.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

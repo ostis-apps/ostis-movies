@@ -1,0 +1,106 @@
+
+                  concept_series -> Into_the_Badlands;;
+              
+                  Into_the_Badlands
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [В Бесплодные земли]
+                    (* <- lang_ru;;	*);
+                    [Into_the_Badlands]
+                    (* <- lang_en;;	*);;
+                  
+                  Into_the_Badlands <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (В Бесплодные земли)](*<-lang_ru;;*);
+                      [Description (Into_the_Badlands)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Into_the_Badlands_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Into_the_Badlands_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Into_the_Badlands <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (В Бесплодные земли)](*<-lang_ru;;*);
+                      [Pic. (Into_the_Badlands)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Into_the_Badlands.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Into_the_Badlands => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Into_the_Badlands => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Into_the_Badlands => nrel_num_of_seasons: 3;;
+                  value -> 32;;
+                  Into_the_Badlands => nrel_num_of_episodes: 32;;
+                  
+                  value -> 11;;
+                  Into_the_Badlands => nrel_no_countries : 11;;
+                  
+                  value -> 8;;
+                  Into_the_Badlands => nrel_viewers_in_millions: 8;;
+                  
+                  Into_the_Badlands => nrel_age_rating: concept_PG12;;
+                  
+                    Into_the_Badlands => nrel_actor : EmilyBeecham;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : AllyIoannides;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : AramisKnight;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : DanielWu;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : OrlaBrady;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : NickFrost;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : MadeleineMantock;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : MartonCsokas;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : BabouCeesay;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : LorraineToussaint;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : ShermanAugustus;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : EllaRaeSmith;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : SarahBolger;;
+                    
+                   
+                    Into_the_Badlands => nrel_actor : OliverStark;;
+                    
+                  
+                  
+                  Into_the_Badlands
+                  =>nrel_keywords: concept_detectif;;
+                  

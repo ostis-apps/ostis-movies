@@ -1,0 +1,157 @@
+
+                  concept_series -> Good_Omens;;
+              
+                  Good_Omens
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Good_Omens]
+                    (* <- lang_ru;;	*);
+                    [Good_Omens]
+                    (* <- lang_en;;	*);;
+                  
+                  Good_Omens <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Good_Omens)](*<-lang_ru;;*);
+                      [Description (Good_Omens)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Good_Omens_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Good_Omens_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Good_Omens <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Good_Omens)](*<-lang_ru;;*);
+                      [Pic. (Good_Omens)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Good_Omens.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Good_Omens => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Good_Omens => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Good_Omens => nrel_num_of_seasons: 1;;
+                  value -> 6;;
+                  Good_Omens => nrel_num_of_episodes: 6;;
+                  
+                  value -> 7;;
+                  Good_Omens => nrel_no_countries : 7;;
+                  
+                  value -> 12;;
+                  Good_Omens => nrel_viewers_in_millions: 12;;
+                  
+                  Good_Omens => nrel_age_rating: concept_PG12;;
+                  
+                    Good_Omens => nrel_actor : DanielMays;;
+                    
+                   
+                    Good_Omens => nrel_actor : BrianCox;;
+                    
+                   
+                    Good_Omens => nrel_actor : FrancesMcDormand;;
+                    
+                   
+                    Good_Omens => nrel_actor : SinBrooke;;
+                    
+                   
+                    Good_Omens => nrel_actor : DavidTennant;;
+                    
+                   
+                    Good_Omens => nrel_actor : JonHamm;;
+                    
+                   
+                    Good_Omens => nrel_actor : SamTaylorBuck;;
+                    
+                   
+                    Good_Omens => nrel_actor : MichaelSheen;;
+                    
+                   
+                    Good_Omens => nrel_actor : MichaelMcKean;;
+                    
+                   
+                    Good_Omens => nrel_actor : NedDennehy;;
+                    
+                   
+                    Good_Omens => nrel_actor : JackWhitehall;;
+                    
+                   
+                    Good_Omens => nrel_actor : AdriaArjona;;
+                    
+                   
+                    Good_Omens => nrel_actor : MirandaRichardson;;
+                    
+                   
+                    Good_Omens => nrel_actor : DoonMackichan;;
+                    
+                   
+                    Good_Omens => nrel_actor : AriyonBakare;;
+                    
+                   
+                    Good_Omens => nrel_actor : SimonMerrells;;
+                    
+                   
+                    Good_Omens => nrel_actor : MireilleEnos;;
+                    
+                   
+                    Good_Omens => nrel_actor : BillPaterson;;
+                    
+                   
+                    Good_Omens => nrel_actor : YusufGatewood;;
+                    
+                   
+                    Good_Omens => nrel_actor : AnnaMaxwellMartin;;
+                    
+                   
+                    Good_Omens => nrel_actor : BenedictCumberbatch;;
+                    
+                   
+                    Good_Omens => nrel_actor : NinaSosanya;;
+                    
+                   
+                    Good_Omens => nrel_actor : NickOfferman;;
+                    
+                   
+                    Good_Omens => nrel_actor : DavidMorrissey;;
+                    
+                   
+                    Good_Omens => nrel_actor : JackWhitehall;;
+                    
+                   
+                    Good_Omens => nrel_actor : JohnnyVegas;;
+                    
+                   
+                    Good_Omens => nrel_actor : MarkGatiss;;
+                    
+                   
+                    Good_Omens => nrel_actor : ReeceShearsmith;;
+                    
+                   
+                    Good_Omens => nrel_actor : AndyHamilton;;
+                    
+                   
+                    Good_Omens => nrel_actor : StevePemberton;;
+                    
+                   
+                    Good_Omens => nrel_actor : DerekJacobi;;
+                    
+                  
+                  
+                  Good_Omens
+                  =>nrel_keywords: concept_detectif;;
+                  

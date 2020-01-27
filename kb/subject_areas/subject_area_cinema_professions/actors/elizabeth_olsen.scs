@@ -1,0 +1,57 @@
+concept_human -> elizabeth_olsen;;
+ 
+ elizabeth_olsen <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Элизабет Олсен)](*<-lang_ru;;*);
+ 		[Description (Elizabeth Olsen)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/elizabeth_olsen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ elizabeth_olsen <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Элизабет Олсен)](*<-lang_ru;;*);
+ 		[Pic. (Elizabeth Olsen)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/elizabeth_olsen.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ elizabeth_olsen => nrel_main_idtf : [Элизабет Олсен](*<-lang_ru;;*);;
+ elizabeth_olsen => nrel_main_idtf : [Elizabeth Olsen](*<-lang_en;;*);;
+ 
+ 
+ elizabeth_olsen => nrel_birth_date : 1989;;
+ 
+ concept_goverment -> Usa;;
+ elizabeth_olsen => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ elizabeth_olsen => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+elizabeth_olsen => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+elizabeth_olsen => nrel_to_star_in : captain_america_civil_war;;
+captain_america_civil_war => nrel_main_idtf : [Captain America: Civil War](*<-lang_en;;*);;
+captain_america_civil_war => nrel_main_idtf : [Первый мститель: Противостояние](*<-lang_ru;;*);;
+elizabeth_olsen => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+elizabeth_olsen => nrel_to_star_in : captain_america_the_winter_soldier;;
+captain_america_the_winter_soldier => nrel_main_idtf : [Captain America: The Winter Soldier](*<-lang_en;;*);;
+captain_america_the_winter_soldier => nrel_main_idtf : [Первый мститель: Другая война](*<-lang_ru;;*);;
+

@@ -1,0 +1,51 @@
+concept_human -> kat_dennings;;
+ 
+ kat_dennings <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кэт Деннингс)](*<-lang_ru;;*);
+ 		[Description (Kat Dennings)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kat_dennings_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kat_dennings <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кэт Деннингс)](*<-lang_ru;;*);
+ 		[Pic. (Kat Dennings)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kat_dennings.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kat_dennings => nrel_main_idtf : [Кэт Деннингс](*<-lang_ru;;*);;
+ kat_dennings => nrel_main_idtf : [Kat Dennings](*<-lang_en;;*);;
+ 
+ 
+ kat_dennings => nrel_birth_date : 1986;;
+ 
+ concept_goverment -> Usa;;
+ kat_dennings => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kat_dennings => nrel_to_star_in : thor_the_dark_world;;
+thor_the_dark_world => nrel_main_idtf : [Thor: The Dark World](*<-lang_en;;*);;
+thor_the_dark_world => nrel_main_idtf : [Тор 2: Царство тьмы](*<-lang_ru;;*);;
+kat_dennings => nrel_to_star_in : thor;;
+thor => nrel_main_idtf : [Thor](*<-lang_en;;*);;
+thor => nrel_main_idtf : [Тор](*<-lang_ru;;*);;
+kat_dennings => nrel_to_star_in : london;;
+london => nrel_main_idtf : [London](*<-lang_en;;*);;
+london => nrel_main_idtf : [Лондон](*<-lang_ru;;*);;
+

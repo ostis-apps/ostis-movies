@@ -1,0 +1,45 @@
+concept_human -> chuck_norris;;
+ 
+ chuck_norris <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Чак Норрис)](*<-lang_ru;;*);
+ 		[Description (Chuck Norris)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/chuck_norris_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ chuck_norris <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Чак Норрис)](*<-lang_ru;;*);
+ 		[Pic. (Chuck Norris)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/chuck_norris.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ chuck_norris => nrel_main_idtf : [Чак Норрис](*<-lang_ru;;*);;
+ chuck_norris => nrel_main_idtf : [Chuck Norris](*<-lang_en;;*);;
+ 
+ 
+ chuck_norris => nrel_birth_date : 1940;;
+ 
+ concept_goverment -> Usa;;
+ chuck_norris => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ chuck_norris => nrel_to_star_in : the_expendables_2;;
+the_expendables_2 => nrel_main_idtf : [The Expendables 2](*<-lang_en;;*);;
+the_expendables_2 => nrel_main_idtf : [Неудержимые 2](*<-lang_ru;;*);;
+

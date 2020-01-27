@@ -1,0 +1,66 @@
+concept_human -> anthony_hopkins;;
+ 
+ anthony_hopkins <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Энтони Хопкинс)](*<-lang_ru;;*);
+ 		[Description (Anthony Hopkins)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/anthony_hopkins_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ anthony_hopkins <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Энтони Хопкинс)](*<-lang_ru;;*);
+ 		[Pic. (Anthony Hopkins)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/anthony_hopkins.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ anthony_hopkins => nrel_main_idtf : [Энтони Хопкинс](*<-lang_ru;;*);;
+ anthony_hopkins => nrel_main_idtf : [Anthony Hopkins](*<-lang_en;;*);;
+ 
+ 
+ anthony_hopkins => nrel_birth_date : 1938;;
+ 
+ concept_goverment -> UK;;
+ anthony_hopkins => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ anthony_hopkins => nrel_to_star_in : thor_ragnarok;;
+thor_ragnarok => nrel_main_idtf : [Thor: Ragnarok](*<-lang_en;;*);;
+thor_ragnarok => nrel_main_idtf : [Тор: Рагнарёк](*<-lang_ru;;*);;
+anthony_hopkins => nrel_to_star_in : noah;;
+noah => nrel_main_idtf : [Noah](*<-lang_en;;*);;
+noah => nrel_main_idtf : [Ной](*<-lang_ru;;*);;
+anthony_hopkins => nrel_to_star_in : thor_the_dark_world;;
+thor_the_dark_world => nrel_main_idtf : [Thor: The Dark World](*<-lang_en;;*);;
+thor_the_dark_world => nrel_main_idtf : [Тор 2: Царство тьмы](*<-lang_ru;;*);;
+anthony_hopkins => nrel_to_star_in : hitchcock;;
+hitchcock => nrel_main_idtf : [Hitchcock](*<-lang_en;;*);;
+hitchcock => nrel_main_idtf : [Хичкок](*<-lang_ru;;*);;
+anthony_hopkins => nrel_to_star_in : thor;;
+thor => nrel_main_idtf : [Thor](*<-lang_en;;*);;
+thor => nrel_main_idtf : [Тор](*<-lang_ru;;*);;
+anthony_hopkins => nrel_to_star_in : fracture;;
+fracture => nrel_main_idtf : [Fracture](*<-lang_en;;*);;
+fracture => nrel_main_idtf : [Перелом](*<-lang_ru;;*);;
+anthony_hopkins => nrel_to_star_in : alexander;;
+alexander => nrel_main_idtf : [Alexander](*<-lang_en;;*);;
+alexander => nrel_main_idtf : [Александр](*<-lang_ru;;*);;
+anthony_hopkins => nrel_to_star_in : meet_joe_black;;
+meet_joe_black => nrel_main_idtf : [Meet Joe Black](*<-lang_en;;*);;
+meet_joe_black => nrel_main_idtf : [Знакомьтесь, Джо Блэк](*<-lang_ru;;*);;
+

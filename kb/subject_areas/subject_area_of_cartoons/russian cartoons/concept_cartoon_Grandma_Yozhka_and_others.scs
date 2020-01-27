@@ -1,0 +1,45 @@
+concept_cartoon_Grandma_Yozhka_and_others
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бабка Ёжка и другие]
+	(* <- lang_ru;;	*);
+	[Grandma Yozhka and others]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бабка Ёжка и другие)](*<-lang_ru;;*);
+		[Description (Grandma Yozhka and others)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Grandma Yozhka and others_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Grandma Yozhka and others_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бабка Ёжка и другие)](*<-lang_ru;;*);
+		[Pic. (Grandma Yozhka and others)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Grandma Yozhka and others.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_witch;
+=>nrel_keywords: concept_black_magic;
+=>nrel_age_rating: concept_PG0;
+=> nrel_production_country: Russia;
+=>nrel_prototype: concept_character_Baba_Yaga;;

@@ -1,0 +1,67 @@
+film_1939_2009
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[1939]
+(* <- lang_ru;;    *);
+[Glorious 39]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (1939)](*<-lang_ru;;*);
+[Description (Glorious 39)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/1939-2009_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/1939-2009_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (1939)](*<-lang_ru;;*);
+		[Pic. (Glorious 39)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/1939-2009.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Glorious 39](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [20.11.2009](*<-lang_ru;;*);;
+    => nrel_main_idtf : [20.11.2009](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H9M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H9M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_1939_2009 =>nrel_keywords: film;;
+
+film_1939_2009 <- concept_drama;concept_history;concept_thriller;concept_war;;
+
+film_1939_2009 => nrel_main_actor : romola_garai;eddie_redmayne;juno_temple;toby_regbo;;
+film_1939_2009 => nrel_producer : stephen_poliakoff;;

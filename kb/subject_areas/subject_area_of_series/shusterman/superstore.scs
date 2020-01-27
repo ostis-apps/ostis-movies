@@ -1,0 +1,88 @@
+
+                  concept_series -> Superstore;;
+              
+                  Superstore
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [большой супермаркет]
+                    (* <- lang_ru;;	*);
+                    [Superstore]
+                    (* <- lang_en;;	*);;
+                  
+                  Superstore <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (большой супермаркет)](*<-lang_ru;;*);
+                      [Description (Superstore)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Superstore_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Superstore_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Superstore <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (большой супермаркет)](*<-lang_ru;;*);
+                      [Pic. (Superstore)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Superstore.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Superstore => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Superstore => nrel_production_year : 2015;;
+                  
+                  value -> 5;;
+                  Superstore => nrel_num_of_seasons: 5;;
+                  value -> 86;;
+                  Superstore => nrel_num_of_episodes: 86;;
+                  
+                  value -> 12;;
+                  Superstore => nrel_no_countries : 12;;
+                  
+                  value -> 7;;
+                  Superstore => nrel_viewers_in_millions: 7;;
+                  
+                  Superstore => nrel_age_rating: concept_PG12;;
+                  
+                    Superstore => nrel_actor : ColtonDunn;;
+                    
+                   
+                    Superstore => nrel_actor : NicoSantos;;
+                    
+                   
+                    Superstore => nrel_actor : LaurenAsh;;
+                    
+                   
+                    Superstore => nrel_actor : MarkMcKinney;;
+                    
+                   
+                    Superstore => nrel_actor : BenFeldman;;
+                    
+                   
+                    Superstore => nrel_actor : AmericaFerrera;;
+                    
+                   
+                    Superstore => nrel_actor : NicholeBloom;;
+                    
+                   
+                    Superstore => nrel_actor : KalikoKauahi;;
+                    
+                  
+                  
+                  Superstore
+                  =>nrel_keywords: concept_detectif;;
+                  

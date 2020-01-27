@@ -1,0 +1,292 @@
+
+                  concept_series -> MINDHUNTER;;
+              
+                  MINDHUNTER
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [MindHunter]
+                    (* <- lang_ru;;	*);
+                    [MINDHUNTER]
+                    (* <- lang_en;;	*);;
+                  
+                  MINDHUNTER <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (MindHunter)](*<-lang_ru;;*);
+                      [Description (MINDHUNTER)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/MINDHUNTER_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/MINDHUNTER_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  MINDHUNTER <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (MindHunter)](*<-lang_ru;;*);
+                      [Pic. (MINDHUNTER)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/MINDHUNTER.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  MINDHUNTER => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  MINDHUNTER => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  MINDHUNTER => nrel_num_of_seasons: 2;;
+                  value -> 19;;
+                  MINDHUNTER => nrel_num_of_episodes: 19;;
+                  
+                  value -> 7;;
+                  MINDHUNTER => nrel_no_countries : 7;;
+                  
+                  value -> 6;;
+                  MINDHUNTER => nrel_viewers_in_millions: 6;;
+                  
+                  MINDHUNTER => nrel_age_rating: concept_PG12;;
+                  
+                    MINDHUNTER => nrel_actor : HoltMcCallany;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JonathanGroff;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : AnnaTorv;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : StaceyRoca;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : ZacharyScottRoss;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JoeTuttle;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : HannahGross;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : CotterSmith;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : LaurenGlazier;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : AlbertJones;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : MichaelCerveris;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JuneCarryl;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : CameronBritton;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : SierraAMcClain;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : AlexMorf;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : ChristopherLivingston;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JesseCBoyd;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JosephCross;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : MichaelPark;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : MarcKudisch;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : BrentSexton;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : DukeLafoon;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : PeterMurnik;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : GeorgeRSheffey;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : HappyAnderson;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : ToddFaulkner;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : RhodaGriffis;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JebKreager;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : CoreyAllen;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : MichaelFilipowich;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : ChristopherMann;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : ChristopherBackus;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : GraceRex;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : LenaOlin;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : AustinArcher;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : SarahWilson;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JordynDiNatale;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JackErdie;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : MorganKelly;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JackieReneeRobinson;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JudithDelgado;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : SamStrike;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : CatherineCurtin;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : FelixSolis;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JohnWalpole;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : EnidGraham;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : RobertAramayo;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : OliverCooper;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : CarlaBrandberg;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : RobertSella;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : AdamWilliamZastrow;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : AdamKroloff;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JoshuaWills;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JordanGelber;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : ThomasFrancisMurphy;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : TobiasSegal;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : EvanderDuckJr;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : LeeSellars;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : EricWilliamMorris;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : RyanDinning;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : SeanGrennan;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : HaydenSaunier;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JasonDavis;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : DashiellEaves;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : SuzanneHevner;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : AndrewSensenig;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : CynthiaMace;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : JuliaCrockett;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : DamonHerriman;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : AmeliaCampbell;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : DavidHHolmes;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : ThomasPhilipONeill;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : MeredithJackson;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : HamiltonClancy;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : TommyNohilly;;
+                    
+                   
+                    MINDHUNTER => nrel_actor : KennethIsrael;;
+                    
+                  
+                  
+                  MINDHUNTER
+                  =>nrel_keywords: concept_detectif;;
+                  

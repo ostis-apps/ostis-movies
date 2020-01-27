@@ -1,0 +1,33 @@
+vadim_yusov
+<- person;
+<- concept_cameraman;
+=> nrel_main_idtf:
+        [Вадим Юсов]
+	(* <- lang_ru;;	*);
+	[Vadim Yusov]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+        <- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Вадим Юсов)](* <- lang_ru;; *);
+		[Desctiption (Vadim Yusov)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+	        (*
+		        -> rrel_example:[<b><sc_element sys_idtf="vadim_yusov">Вадим Юсов</sc_element></b> — советский и российский кинооператор и педагог, завоевавший всемирную известность своим сотрудничеством с режиссёром <sc_element sys_idtf="andrei_tarkovsky">Андрдеем Тарковским</sc_element>.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="vadim_yusov">Vadim Yusov</sc_element></b> -  Soviet and Russian cameraman and teacher, who won worldwide fame for his collaboration with director <sc_element sys_idtf="andrei_tarkovsky">Andrei Tarkovsky</sc_element>.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+        <-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Вадим Юсов)](*<-lang_ru;;*);
+		[Pic. (Vadim Yusov)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/VadimYusov.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

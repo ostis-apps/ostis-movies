@@ -1,0 +1,28 @@
+concept_film_Leon
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Леон](* <- lang_ru;; *);
+	[Leon](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Леон)](*<-lang_ru;;*);
+		[Description (Leon)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Леон.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Leon.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_killer;
+=> nrel_keywords: concept_revenge;
+=> nrel_keywords: concept_attachment;
+=> nrel_age_rating: concept_PG16;;
+

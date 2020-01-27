@@ -1,0 +1,28 @@
+concept_film_The_Shawshank_Redemption
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Побег из Шоушенка](* <- lang_ru;; *);
+	[The Shawshank Redemption](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Побег из Шоушенка)](*<-lang_ru;;*);
+		[Description (The Shawshank Redemption)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Побег из Шоушенка.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/The Shawshank Redemption.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_cruelty;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_prison;
+=> nrel_keywords: concept_escape;
+=> nrel_age_rating: concept_PG16;;

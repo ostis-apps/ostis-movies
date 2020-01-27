@@ -1,0 +1,34 @@
+nrel_release_date <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [release date*](*<- lang_en;;*);
+    [дата выхода в прокат*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (дата выхода в прокат*)](*<- lang_ru;;*);
+        [Def. (release date*)](*<- lang_en;;*);;
+   
+
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_release_date_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_release_date_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=>nrel_first_domain:concept_film;
+=>nrel_second_domain:concept_goverment;
+
+<= nrel_inclusion : binary_relation ; antireflexive_relation ; antitransitive_relation ;
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (дата выхода в прокат*)](*<-lang_ru;;*);
+		    [Pic. (release date*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/nrel_release_date.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

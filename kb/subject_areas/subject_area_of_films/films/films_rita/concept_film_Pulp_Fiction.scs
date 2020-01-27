@@ -1,0 +1,29 @@
+concept_film_Pulp_Fiction
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Криминальное чтиво](* <- lang_ru;; *);
+	[Pulp Fiction](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Криминальное чтиво)](*<-lang_ru;;*);
+		[Description (Pulp Fiction)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Криминальное чтиво.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Pulp Fiction.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_drugs;
+=> nrel_keywords: concept_bandits;
+=> nrel_keywords: concept_murders;
+=> nrel_keywords: concept_shooting;
+=> nrel_keywords: concept_cruelty;
+=> nrel_age_rating: concept_PG18;;

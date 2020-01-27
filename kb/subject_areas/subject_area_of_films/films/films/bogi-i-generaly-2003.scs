@@ -1,0 +1,67 @@
+film_bogi_i_generaly_2003
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Боги и генералы]
+(* <- lang_ru;;    *);
+[Gods and Generals]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Боги и генералы)](*<-lang_ru;;*);
+[Description (Gods and Generals)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bogi-i-generaly-2003_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bogi-i-generaly-2003_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Боги и генералы)](*<-lang_ru;;*);
+		[Pic. (Gods and Generals)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bogi-i-generaly-2003.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [An unforgettable story of the Civil War, from the Director of "GETTYSBURG" See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [21.02.2003](*<-lang_ru;;*);;
+    => nrel_main_idtf : [21.02.2003](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT3H39M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT3H39M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_bogi_i_generaly_2003 =>nrel_keywords: film;;
+
+film_bogi_i_generaly_2003 <- concept_biography;concept_drama;concept_history;concept_war;;
+
+film_bogi_i_generaly_2003 => nrel_main_actor : stephen_lang;robert_duvall;jeff_daniels;donzaleigh_abernathy;;
+film_bogi_i_generaly_2003 => nrel_producer : ron_maxwell;;

@@ -1,0 +1,187 @@
+
+                  concept_series -> Disenchantment;;
+              
+                  Disenchantment
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [разочарование]
+                    (* <- lang_ru;;	*);
+                    [Disenchantment]
+                    (* <- lang_en;;	*);;
+                  
+                  Disenchantment <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (разочарование)](*<-lang_ru;;*);
+                      [Description (Disenchantment)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Disenchantment_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Disenchantment_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Disenchantment <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (разочарование)](*<-lang_ru;;*);
+                      [Pic. (Disenchantment)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Disenchantment.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Disenchantment => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Disenchantment => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  Disenchantment => nrel_num_of_seasons: 2;;
+                  value -> 20;;
+                  Disenchantment => nrel_num_of_episodes: 20;;
+                  
+                  value -> 9;;
+                  Disenchantment => nrel_no_countries : 9;;
+                  
+                  value -> 11;;
+                  Disenchantment => nrel_viewers_in_millions: 11;;
+                  
+                  Disenchantment => nrel_age_rating: concept_PG12;;
+                  
+                    Disenchantment => nrel_actor : AbbiJacobson;;
+                    
+                   
+                    Disenchantment => nrel_actor : EricAndr;;
+                    
+                   
+                    Disenchantment => nrel_actor : JohnDiMaggio;;
+                    
+                   
+                    Disenchantment => nrel_actor : NatFaxon;;
+                    
+                   
+                    Disenchantment => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Disenchantment => nrel_actor : EricAndr;;
+                    
+                   
+                    Disenchantment => nrel_actor : DavidHerman;;
+                    
+                   
+                    Disenchantment => nrel_actor : BillyWest;;
+                    
+                   
+                    Disenchantment => nrel_actor : LucyMontgomery;;
+                    
+                   
+                    Disenchantment => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Disenchantment => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Disenchantment => nrel_actor : MattBerry;;
+                    
+                   
+                    Disenchantment => nrel_actor : BillyWest;;
+                    
+                   
+                    Disenchantment => nrel_actor : BillyWest;;
+                    
+                   
+                    Disenchantment => nrel_actor : NoelFielding;;
+                    
+                   
+                    Disenchantment => nrel_actor : SharonHorgan;;
+                    
+                   
+                    Disenchantment => nrel_actor : BillyWest;;
+                    
+                   
+                    Disenchantment => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Disenchantment => nrel_actor : LucyMontgomery;;
+                    
+                   
+                    Disenchantment => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Disenchantment => nrel_actor : DavidHerman;;
+                    
+                   
+                    Disenchantment => nrel_actor : DavidHerman;;
+                    
+                   
+                    Disenchantment => nrel_actor : DavidHerman;;
+                    
+                   
+                    Disenchantment => nrel_actor : DavidHerman;;
+                    
+                   
+                    Disenchantment => nrel_actor : BillyWest;;
+                    
+                   
+                    Disenchantment => nrel_actor : DavidHerman;;
+                    
+                   
+                    Disenchantment => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Disenchantment => nrel_actor : DavidHerman;;
+                    
+                   
+                    Disenchantment => nrel_actor : BillyWest;;
+                    
+                   
+                    Disenchantment => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Disenchantment => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Disenchantment => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Disenchantment => nrel_actor : DavidHerman;;
+                    
+                   
+                    Disenchantment => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Disenchantment => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Disenchantment => nrel_actor : BillyWest;;
+                    
+                   
+                    Disenchantment => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Disenchantment => nrel_actor : TressMacNeille;;
+                    
+                   
+                    Disenchantment => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Disenchantment => nrel_actor : MauriceLaMarche;;
+                    
+                   
+                    Disenchantment => nrel_actor : MauriceLaMarche;;
+                    
+                  
+                  
+                  Disenchantment
+                  =>nrel_keywords: concept_detectif;;
+                  

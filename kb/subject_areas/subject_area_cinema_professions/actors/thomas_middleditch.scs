@@ -1,0 +1,51 @@
+concept_human -> thomas_middleditch;;
+ 
+ thomas_middleditch <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Томас Миддлдитч)](*<-lang_ru;;*);
+ 		[Description (Thomas Middleditch)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/thomas_middleditch_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ thomas_middleditch <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Томас Миддлдитч)](*<-lang_ru;;*);
+ 		[Pic. (Thomas Middleditch)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/thomas_middleditch.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ thomas_middleditch => nrel_main_idtf : [Томас Миддлдитч](*<-lang_ru;;*);;
+ thomas_middleditch => nrel_main_idtf : [Thomas Middleditch](*<-lang_en;;*);;
+ 
+ 
+ thomas_middleditch => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> Canada;;
+ thomas_middleditch => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ thomas_middleditch => nrel_to_star_in : godzilla_king_of_the_monsters;;
+godzilla_king_of_the_monsters => nrel_main_idtf : [Godzilla: King of the Monsters](*<-lang_en;;*);;
+godzilla_king_of_the_monsters => nrel_main_idtf : [Годзилла 2: Король монстров](*<-lang_ru;;*);;
+thomas_middleditch => nrel_to_star_in : replicas;;
+replicas => nrel_main_idtf : [Replicas](*<-lang_en;;*);;
+replicas => nrel_main_idtf : [Репродукция](*<-lang_ru;;*);;
+thomas_middleditch => nrel_to_star_in : the_wolf_of_wall_street;;
+the_wolf_of_wall_street => nrel_main_idtf : [The Wolf of Wall Street](*<-lang_en;;*);;
+the_wolf_of_wall_street => nrel_main_idtf : [Волк с Уолл-Стрит](*<-lang_ru;;*);;
+

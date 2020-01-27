@@ -1,0 +1,86 @@
+concept_Lady_and_the_Tramp
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Леди и Бродяга]
+	(* <- lang_ru;;	*);
+	[Lady and the Tramp]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Леди и Бродяга)](*<-lang_ru;;*);
+		[Description (Lady and the Tramp)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Lady_and_the_Tramp_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Lady_and_the_Tramp_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+=>nrel_main_producer: Clyde_Jeronimi;
+=>nrel_producer:  Walt_Disney;
+=>nrel_production_country: USA;
+=>nrel_production_year:   ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1955
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance:  ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 73
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle:   ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 93602326
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:...
+	(*
+	<-character_Lady ;;
+	<-character_Tramp;;
+	<-character_Jock;;
+ 	<-character_Trusts;;
+	*);
+=>nrel_age_rating: concept_PG0;
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Леди и Бродяга)](*<-lang_ru;;*);
+		[Pic. (Lady and the Tramp)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Lady_and_the_Tramp.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Clyde_Jeronimi
+=>nrel_main_idtf:
+		[Клайд Джерономи](*<-lang_ru;;*);
+		[Clyde Jeronimi](*<-lang_en;;*);;

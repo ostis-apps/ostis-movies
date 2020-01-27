@@ -1,0 +1,54 @@
+concept_human -> tommy_lee_jones;;
+ 
+ tommy_lee_jones <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Томми Ли Джонс)](*<-lang_ru;;*);
+ 		[Description (Tommy Lee Jones)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tommy_lee_jones_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tommy_lee_jones <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Томми Ли Джонс)](*<-lang_ru;;*);
+ 		[Pic. (Tommy Lee Jones)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tommy_lee_jones.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tommy_lee_jones => nrel_main_idtf : [Томми Ли Джонс](*<-lang_ru;;*);;
+ tommy_lee_jones => nrel_main_idtf : [Tommy Lee Jones](*<-lang_en;;*);;
+ 
+ 
+ tommy_lee_jones => nrel_birth_date : 1946;;
+ 
+ concept_goverment -> Usa;;
+ tommy_lee_jones => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ tommy_lee_jones => nrel_to_star_in : the_mechanic_2_resurrection;;
+the_mechanic_2_resurrection => nrel_main_idtf : [The Mechanic 2: Resurrection](*<-lang_en;;*);;
+the_mechanic_2_resurrection => nrel_main_idtf : [Механик: Воскрешение](*<-lang_ru;;*);;
+tommy_lee_jones => nrel_to_star_in : captain_america_the_first_avenger;;
+captain_america_the_first_avenger => nrel_main_idtf : [Captain America: The First Avenger](*<-lang_en;;*);;
+captain_america_the_first_avenger => nrel_main_idtf : [Первый мститель](*<-lang_ru;;*);;
+tommy_lee_jones => nrel_to_star_in : batman_forever;;
+batman_forever => nrel_main_idtf : [Batman Forever](*<-lang_en;;*);;
+batman_forever => nrel_main_idtf : [Бэтмен навсегда](*<-lang_ru;;*);;
+tommy_lee_jones => nrel_to_star_in : under_siege;;
+under_siege => nrel_main_idtf : [Under Siege](*<-lang_en;;*);;
+under_siege => nrel_main_idtf : [В осаде](*<-lang_ru;;*);;
+

@@ -1,0 +1,54 @@
+concept_human -> linda_cardellini;;
+ 
+ linda_cardellini <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Линда Карделлини)](*<-lang_ru;;*);
+ 		[Description (Linda Cardellini)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/linda_cardellini_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ linda_cardellini <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Линда Карделлини)](*<-lang_ru;;*);
+ 		[Pic. (Linda Cardellini)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/linda_cardellini.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ linda_cardellini => nrel_main_idtf : [Линда Карделлини](*<-lang_ru;;*);;
+ linda_cardellini => nrel_main_idtf : [Linda Cardellini](*<-lang_en;;*);;
+ 
+ 
+ linda_cardellini => nrel_birth_date : 1975;;
+ 
+ concept_goverment -> Usa;;
+ linda_cardellini => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ linda_cardellini => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+linda_cardellini => nrel_to_star_in : green_book;;
+green_book => nrel_main_idtf : [Green Book](*<-lang_en;;*);;
+green_book => nrel_main_idtf : [Зеленая книга](*<-lang_ru;;*);;
+linda_cardellini => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+linda_cardellini => nrel_to_star_in : brokeback_mountain;;
+brokeback_mountain => nrel_main_idtf : [Brokeback Mountain](*<-lang_en;;*);;
+brokeback_mountain => nrel_main_idtf : [Горбатая гора](*<-lang_ru;;*);;
+

@@ -1,0 +1,57 @@
+concept_human -> david_harbour;;
+ 
+ david_harbour <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дэвид Харбор)](*<-lang_ru;;*);
+ 		[Description (David Harbour)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/david_harbour_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ david_harbour <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дэвид Харбор)](*<-lang_ru;;*);
+ 		[Pic. (David Harbour)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/david_harbour.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ david_harbour => nrel_main_idtf : [Дэвид Харбор](*<-lang_ru;;*);;
+ david_harbour => nrel_main_idtf : [David Harbour](*<-lang_en;;*);;
+ 
+ 
+ david_harbour => nrel_birth_date : 1975;;
+ 
+ concept_goverment -> Usa;;
+ david_harbour => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ david_harbour => nrel_to_star_in : hellboy;;
+hellboy => nrel_main_idtf : [Hellboy](*<-lang_en;;*);;
+hellboy => nrel_main_idtf : [Хеллбой](*<-lang_ru;;*);;
+david_harbour => nrel_to_star_in : suicide_squad;;
+suicide_squad => nrel_main_idtf : [Suicide Squad](*<-lang_en;;*);;
+suicide_squad => nrel_main_idtf : [Отряд самоубийц](*<-lang_ru;;*);;
+david_harbour => nrel_to_star_in : stranger_things;;
+stranger_things => nrel_main_idtf : [Stranger Things](*<-lang_en;;*);;
+stranger_things => nrel_main_idtf : [Очень странные дела](*<-lang_ru;;*);;
+david_harbour => nrel_to_star_in : the_green_hornet;;
+the_green_hornet => nrel_main_idtf : [The Green Hornet](*<-lang_en;;*);;
+the_green_hornet => nrel_main_idtf : [Зеленый шершень](*<-lang_ru;;*);;
+david_harbour => nrel_to_star_in : brokeback_mountain;;
+brokeback_mountain => nrel_main_idtf : [Brokeback Mountain](*<-lang_en;;*);;
+brokeback_mountain => nrel_main_idtf : [Горбатая гора](*<-lang_ru;;*);;
+

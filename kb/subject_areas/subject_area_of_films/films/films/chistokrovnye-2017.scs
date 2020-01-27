@@ -1,0 +1,67 @@
+film_chistokrovnye_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Чистокровные]
+(* <- lang_ru;;    *);
+[Thoroughbreds]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Чистокровные)](*<-lang_ru;;*);
+[Description (Thoroughbreds)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chistokrovnye-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chistokrovnye-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чистокровные)](*<-lang_ru;;*);
+		[Pic. (Thoroughbreds)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chistokrovnye-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Good Breeding Gone Bad](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [09.03.2018](*<-lang_ru;;*);;
+    => nrel_main_idtf : [09.03.2018](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H32M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H32M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_chistokrovnye_2017 =>nrel_keywords: film;;
+
+film_chistokrovnye_2017 <- concept_crime;concept_drama;concept_thriller;;
+
+film_chistokrovnye_2017 => nrel_main_actor : olivia_cooke;anya_taylor_joy;anton_yelchin;paul_sparks;;
+film_chistokrovnye_2017 => nrel_producer : cory_finley;;

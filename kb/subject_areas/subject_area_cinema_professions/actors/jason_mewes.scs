@@ -1,0 +1,45 @@
+concept_human -> jason_mewes;;
+ 
+ jason_mewes <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джейсон Мьюз)](*<-lang_ru;;*);
+ 		[Description (Jason Mewes)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jason_mewes_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jason_mewes <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джейсон Мьюз)](*<-lang_ru;;*);
+ 		[Pic. (Jason Mewes)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jason_mewes.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jason_mewes => nrel_main_idtf : [Джейсон Мьюз](*<-lang_ru;;*);;
+ jason_mewes => nrel_main_idtf : [Jason Mewes](*<-lang_en;;*);;
+ 
+ 
+ jason_mewes => nrel_birth_date : 1974;;
+ 
+ concept_goverment -> Usa;;
+ jason_mewes => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jason_mewes => nrel_to_star_in : yoga_hosers;;
+yoga_hosers => nrel_main_idtf : [Yoga Hosers](*<-lang_en;;*);;
+yoga_hosers => nrel_main_idtf : [Йоганутые](*<-lang_ru;;*);;
+

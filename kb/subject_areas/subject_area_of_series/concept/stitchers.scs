@@ -1,0 +1,82 @@
+
+                  concept_series -> Stitchers;;
+              
+                  Stitchers
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Брошюровщики]
+                    (* <- lang_ru;;	*);
+                    [Stitchers]
+                    (* <- lang_en;;	*);;
+                  
+                  Stitchers <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Брошюровщики)](*<-lang_ru;;*);
+                      [Description (Stitchers)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Stitchers_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Stitchers_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Stitchers <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Брошюровщики)](*<-lang_ru;;*);
+                      [Pic. (Stitchers)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Stitchers.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Stitchers => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Stitchers => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Stitchers => nrel_num_of_seasons: 3;;
+                  value -> 30;;
+                  Stitchers => nrel_num_of_episodes: 30;;
+                  
+                  value -> 10;;
+                  Stitchers => nrel_no_countries : 10;;
+                  
+                  value -> 10;;
+                  Stitchers => nrel_viewers_in_millions: 10;;
+                  
+                  Stitchers => nrel_age_rating: concept_PG12;;
+                  
+                    Stitchers => nrel_actor : AllisonScagliotti;;
+                    
+                   
+                    Stitchers => nrel_actor : KyleHarris;;
+                    
+                   
+                    Stitchers => nrel_actor : RiteshRajan;;
+                    
+                   
+                    Stitchers => nrel_actor : EmmaIshta;;
+                    
+                   
+                    Stitchers => nrel_actor : DamonDayoub;;
+                    
+                   
+                    Stitchers => nrel_actor : SalliRichardsonWhitfield;;
+                    
+                  
+                  
+                  Stitchers
+                  =>nrel_keywords: concept_detectif;;
+                  

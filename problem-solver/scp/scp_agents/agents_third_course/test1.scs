@@ -1,0 +1,13 @@
+cartoon_Cinderella<-concept_cartoon;;
+cartoon_Cinderella<-comedy;;
+comedy<-concept_genre;;
+cartoon_Cinderella=>nrel_producer:Clyde_Jeronimi;;
+Clyde_Jeronimi<-concept_human;;
+concept_Cinderella
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Золушка]
+	(* <- lang_ru;;	*);
+	[Cinderella]
+	(* <- lang_en;;	*);;
+

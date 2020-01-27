@@ -1,0 +1,67 @@
+film_agent_kodi_benks_2003
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Агент Коди Бэнкс]
+(* <- lang_ru;;    *);
+[Agent Cody Banks]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Агент Коди Бэнкс)](*<-lang_ru;;*);
+[Description (Agent Cody Banks)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/agent-kodi-benks-2003_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/agent-kodi-benks-2003_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Агент Коди Бэнкс)](*<-lang_ru;;*);
+		[Pic. (Agent Cody Banks)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/agent-kodi-benks-2003.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;canada;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Red Verden. Scor Pigen. Bestå Eksamen.[Denmark] See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [14.03.2003](*<-lang_ru;;*);;
+    => nrel_main_idtf : [14.03.2003](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H42M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H42M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_agent_kodi_benks_2003 =>nrel_keywords: film;;
+
+film_agent_kodi_benks_2003 <- concept_action;concept_adventure;concept_comedy;concept_crime;concept_family;concept_romance;concept_thriller;;
+
+film_agent_kodi_benks_2003 => nrel_main_actor : frankie_muniz;hilary_duff;andrew_francis;angie_harmon;;
+film_agent_kodi_benks_2003 => nrel_producer : harald_zwart;;

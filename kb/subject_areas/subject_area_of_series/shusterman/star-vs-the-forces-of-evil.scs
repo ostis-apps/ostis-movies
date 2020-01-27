@@ -1,0 +1,115 @@
+
+                  concept_series -> Star_vs._the_Forces_of_Evil;;
+              
+                  Star_vs._the_Forces_of_Evil
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Star_vs._the_Forces_of_Evil]
+                    (* <- lang_ru;;	*);
+                    [Star_vs._the_Forces_of_Evil]
+                    (* <- lang_en;;	*);;
+                  
+                  Star_vs._the_Forces_of_Evil <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Star_vs._the_Forces_of_Evil)](*<-lang_ru;;*);
+                      [Description (Star_vs._the_Forces_of_Evil)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Star_vs._the_Forces_of_Evil_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Star_vs._the_Forces_of_Evil_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Star_vs._the_Forces_of_Evil <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Star_vs._the_Forces_of_Evil)](*<-lang_ru;;*);
+                      [Pic. (Star_vs._the_Forces_of_Evil)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Star_vs._the_Forces_of_Evil.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Star_vs._the_Forces_of_Evil => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Star_vs._the_Forces_of_Evil => nrel_production_year : 2015;;
+                  
+                  value -> 4;;
+                  Star_vs._the_Forces_of_Evil => nrel_num_of_seasons: 4;;
+                  value -> 133;;
+                  Star_vs._the_Forces_of_Evil => nrel_num_of_episodes: 133;;
+                  
+                  value -> 10;;
+                  Star_vs._the_Forces_of_Evil => nrel_no_countries : 10;;
+                  
+                  value -> 5;;
+                  Star_vs._the_Forces_of_Evil => nrel_viewers_in_millions: 5;;
+                  
+                  Star_vs._the_Forces_of_Evil => nrel_age_rating: concept_PG12;;
+                  
+                    Star_vs._the_Forces_of_Evil => nrel_actor : RiderStrong;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : ArttButler;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : MichaelCHall;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : CoreyBurton;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : NateTorrence;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : DeeDeeRescher;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : EdenSher;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : JeffreyTambor;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : MattChapman;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : JennySlate;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : GreyGriffin;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : AlanTudyk;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : GreyGriffin;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : AlanTudyk;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : AdamMcArthur;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : JessicaWalter;;
+                    
+                   
+                    Star_vs._the_Forces_of_Evil => nrel_actor : NiaVardalos;;
+                    
+                  
+                  
+                  Star_vs._the_Forces_of_Evil
+                  =>nrel_keywords: concept_detectif;;
+                  

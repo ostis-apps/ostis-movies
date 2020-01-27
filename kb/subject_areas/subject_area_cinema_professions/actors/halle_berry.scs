@@ -1,0 +1,63 @@
+concept_human -> halle_berry;;
+ 
+ halle_berry <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Холли Берри)](*<-lang_ru;;*);
+ 		[Description (Halle Berry)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/halle_berry_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ halle_berry <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Холли Берри)](*<-lang_ru;;*);
+ 		[Pic. (Halle Berry)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/halle_berry.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ halle_berry => nrel_main_idtf : [Холли Берри](*<-lang_ru;;*);;
+ halle_berry => nrel_main_idtf : [Halle Berry](*<-lang_en;;*);;
+ 
+ 
+ halle_berry => nrel_birth_date : 1966;;
+ 
+ concept_goverment -> Usa;;
+ halle_berry => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ halle_berry => nrel_to_star_in : john_wick_chapter_3__parabellum;;
+john_wick_chapter_3__parabellum => nrel_main_idtf : [John Wick: Chapter 3 - Parabellum](*<-lang_en;;*);;
+john_wick_chapter_3__parabellum => nrel_main_idtf : [Джон Уик 3: Парабеллум](*<-lang_ru;;*);;
+halle_berry => nrel_to_star_in : xmen_days_of_future_past;;
+xmen_days_of_future_past => nrel_main_idtf : [X-Men: Days of Future Past](*<-lang_en;;*);;
+xmen_days_of_future_past => nrel_main_idtf : [Люди Икс: Дни минувшего будущего](*<-lang_ru;;*);;
+halle_berry => nrel_to_star_in : movie_43;;
+movie_43 => nrel_main_idtf : [Movie 43](*<-lang_en;;*);;
+movie_43 => nrel_main_idtf : [Муви 43](*<-lang_ru;;*);;
+halle_berry => nrel_to_star_in : xmen_the_last_stand;;
+xmen_the_last_stand => nrel_main_idtf : [X-Men: The Last Stand](*<-lang_en;;*);;
+xmen_the_last_stand => nrel_main_idtf : [Люди Икс: Последняя битва](*<-lang_ru;;*);;
+halle_berry => nrel_to_star_in : xmen_2;;
+xmen_2 => nrel_main_idtf : [X-Men 2](*<-lang_en;;*);;
+xmen_2 => nrel_main_idtf : [Люди Икс 2](*<-lang_ru;;*);;
+halle_berry => nrel_to_star_in : xmen;;
+xmen => nrel_main_idtf : [X-Men](*<-lang_en;;*);;
+xmen => nrel_main_idtf : [Люди Икс](*<-lang_ru;;*);;
+halle_berry => nrel_to_star_in : executive_decision;;
+executive_decision => nrel_main_idtf : [Executive Decision](*<-lang_en;;*);;
+executive_decision => nrel_main_idtf : [Приказано уничтожить](*<-lang_ru;;*);;
+

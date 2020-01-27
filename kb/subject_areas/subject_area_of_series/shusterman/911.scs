@@ -1,0 +1,73 @@
+
+                  concept_series -> Holmes_911;;
+              
+                  Holmes_911
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Holmes_911]
+                    (* <- lang_ru;;	*);
+                    [Holmes_911]
+                    (* <- lang_en;;	*);;
+                  
+                  Holmes_911 <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Holmes_911)](*<-lang_ru;;*);
+                      [Description (Holmes_911)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Holmes_911_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Holmes_911_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Holmes_911 <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Holmes_911)](*<-lang_ru;;*);
+                      [Pic. (Holmes_911)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Holmes_911.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Holmes_911 => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Holmes_911 => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Holmes_911 => nrel_num_of_seasons: 1;;
+                  value -> 6;;
+                  Holmes_911 => nrel_num_of_episodes: 6;;
+                  
+                  value -> 13;;
+                  Holmes_911 => nrel_no_countries : 13;;
+                  
+                  value -> 11;;
+                  Holmes_911 => nrel_viewers_in_millions: 11;;
+                  
+                  Holmes_911 => nrel_age_rating: concept_PG12;;
+                  
+                    Holmes_911 => nrel_actor : MikeHolmes;;
+                    
+                   
+                    Holmes_911 => nrel_actor : MikeHolmesJr;;
+                    
+                   
+                    Holmes_911 => nrel_actor : SherryHolmes;;
+                    
+                  
+                  
+                  Holmes_911
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,51 @@
+concept_human -> shia_labeouf;;
+ 
+ shia_labeouf <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Шайа ЛаБаф)](*<-lang_ru;;*);
+ 		[Description (Shia LaBeouf)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/shia_labeouf_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ shia_labeouf <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Шайа ЛаБаф)](*<-lang_ru;;*);
+ 		[Pic. (Shia LaBeouf)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/shia_labeouf.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ shia_labeouf => nrel_main_idtf : [Шайа ЛаБаф](*<-lang_ru;;*);;
+ shia_labeouf => nrel_main_idtf : [Shia LaBeouf](*<-lang_en;;*);;
+ 
+ 
+ shia_labeouf => nrel_birth_date : 1986;;
+ 
+ concept_goverment -> Usa;;
+ shia_labeouf => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ shia_labeouf => nrel_to_star_in : fury;;
+fury => nrel_main_idtf : [Fury](*<-lang_en;;*);;
+fury => nrel_main_idtf : [Ярость](*<-lang_ru;;*);;
+shia_labeouf => nrel_to_star_in : lawless;;
+lawless => nrel_main_idtf : [Lawless](*<-lang_en;;*);;
+lawless => nrel_main_idtf : [Самый пьяный округ в мире](*<-lang_ru;;*);;
+shia_labeouf => nrel_to_star_in : constantine;;
+constantine => nrel_main_idtf : [Constantine](*<-lang_en;;*);;
+constantine => nrel_main_idtf : [Константин: Повелитель тьмы](*<-lang_ru;;*);;
+

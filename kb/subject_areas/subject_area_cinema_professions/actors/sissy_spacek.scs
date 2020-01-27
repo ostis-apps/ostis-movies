@@ -1,0 +1,45 @@
+concept_human -> sissy_spacek;;
+ 
+ sissy_spacek <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сисси Спейсек)](*<-lang_ru;;*);
+ 		[Description (Sissy Spacek)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/sissy_spacek_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ sissy_spacek <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сисси Спейсек)](*<-lang_ru;;*);
+ 		[Pic. (Sissy Spacek)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/sissy_spacek.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ sissy_spacek => nrel_main_idtf : [Сисси Спейсек](*<-lang_ru;;*);;
+ sissy_spacek => nrel_main_idtf : [Sissy Spacek](*<-lang_en;;*);;
+ 
+ 
+ sissy_spacek => nrel_birth_date : 1950;;
+ 
+ concept_goverment -> Usa;;
+ sissy_spacek => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ sissy_spacek => nrel_to_star_in : the_old_man__the_gun;;
+the_old_man__the_gun => nrel_main_idtf : [The Old Man & the Gun](*<-lang_en;;*);;
+the_old_man__the_gun => nrel_main_idtf : [Старик с пистолетом](*<-lang_ru;;*);;
+

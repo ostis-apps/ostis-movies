@@ -1,0 +1,67 @@
+film_cherepashki_nindzya_3_1992
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Черепашки-ниндзя 3]
+(* <- lang_ru;;    *);
+[Teenage Mutant Ninja Turtles III]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Черепашки-ниндзя 3)](*<-lang_ru;;*);
+[Description (Teenage Mutant Ninja Turtles III)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/cherepashki-nindzya-3-1992_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/cherepashki-nindzya-3-1992_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Черепашки-ниндзя 3)](*<-lang_ru;;*);
+		[Pic. (Teenage Mutant Ninja Turtles III)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/cherepashki-nindzya-3-1992.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;hong_kong;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The Turtles Are Back....In Time See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [19.03.1993](*<-lang_ru;;*);;
+    => nrel_main_idtf : [19.03.1993](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H36M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H36M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_cherepashki_nindzya_3_1992 =>nrel_keywords: film;;
+
+film_cherepashki_nindzya_3_1992 <- concept_action;concept_adventure;concept_comedy;concept_family;concept_fantasy;concept_sci_fi;;
+
+film_cherepashki_nindzya_3_1992 => nrel_main_actor : elias_koteas;paige_turco;stuart_wilson;sab_shimono;;
+film_cherepashki_nindzya_3_1992 => nrel_producer : stuart_gillard;;

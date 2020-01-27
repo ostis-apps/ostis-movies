@@ -1,0 +1,72 @@
+concept_human -> benedict_cumberbatch;;
+ 
+ benedict_cumberbatch <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Бенедикт Камбербэтч)](*<-lang_ru;;*);
+ 		[Description (Benedict Cumberbatch)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/benedict_cumberbatch_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ benedict_cumberbatch <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Бенедикт Камбербэтч)](*<-lang_ru;;*);
+ 		[Pic. (Benedict Cumberbatch)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/benedict_cumberbatch.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ benedict_cumberbatch => nrel_main_idtf : [Бенедикт Камбербэтч](*<-lang_ru;;*);;
+ benedict_cumberbatch => nrel_main_idtf : [Benedict Cumberbatch](*<-lang_en;;*);;
+ 
+ 
+ benedict_cumberbatch => nrel_birth_date : 1976;;
+ 
+ concept_goverment -> UK;;
+ benedict_cumberbatch => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ benedict_cumberbatch => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+benedict_cumberbatch => nrel_to_star_in : thor_ragnarok;;
+thor_ragnarok => nrel_main_idtf : [Thor: Ragnarok](*<-lang_en;;*);;
+thor_ragnarok => nrel_main_idtf : [Тор: Рагнарёк](*<-lang_ru;;*);;
+benedict_cumberbatch => nrel_to_star_in : doctor_strange;;
+doctor_strange => nrel_main_idtf : [Doctor Strange](*<-lang_en;;*);;
+doctor_strange => nrel_main_idtf : [Доктор Стрэндж](*<-lang_ru;;*);;
+benedict_cumberbatch => nrel_to_star_in : the_hobbit_the_battle_of_the_five_armies;;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [The Hobbit: The Battle of the Five Armies](*<-lang_en;;*);;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [Хоббит: Битва пяти воинств](*<-lang_ru;;*);;
+benedict_cumberbatch => nrel_to_star_in : the_imitation_game;;
+the_imitation_game => nrel_main_idtf : [The Imitation Game](*<-lang_en;;*);;
+the_imitation_game => nrel_main_idtf : [Игра в имитацию](*<-lang_ru;;*);;
+benedict_cumberbatch => nrel_to_star_in : the_hobbit_the_desolation_of_smaug;;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [The Hobbit: The Desolation of Smaug](*<-lang_en;;*);;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [Хоббит: Пустошь Смауга](*<-lang_ru;;*);;
+benedict_cumberbatch => nrel_to_star_in : the_hobbit_an_unexpected_journey;;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [The Hobbit: An Unexpected Journey](*<-lang_en;;*);;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [Хоббит: Нежданное путешествие](*<-lang_ru;;*);;
+benedict_cumberbatch => nrel_to_star_in : the_other_boleyn_girl;;
+the_other_boleyn_girl => nrel_main_idtf : [The Other Boleyn Girl](*<-lang_en;;*);;
+the_other_boleyn_girl => nrel_main_idtf : [Еще одна из рода Болейн](*<-lang_ru;;*);;
+benedict_cumberbatch => nrel_to_star_in : stuart_a_life_backwards;;
+stuart_a_life_backwards => nrel_main_idtf : [Stuart: A Life Backwards](*<-lang_en;;*);;
+stuart_a_life_backwards => nrel_main_idtf : [Стюарт: Прошлая жизнь](*<-lang_ru;;*);;
+benedict_cumberbatch => nrel_to_star_in : atonement;;
+atonement => nrel_main_idtf : [Atonement](*<-lang_en;;*);;
+atonement => nrel_main_idtf : [Искупление](*<-lang_ru;;*);;
+

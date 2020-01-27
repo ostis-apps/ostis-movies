@@ -1,0 +1,193 @@
+
+                  concept_series -> The_Last_Kingdom;;
+              
+                  The_Last_Kingdom
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Последнее Королевство]
+                    (* <- lang_ru;;	*);
+                    [The_Last_Kingdom]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Last_Kingdom <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Последнее Королевство)](*<-lang_ru;;*);
+                      [Description (The_Last_Kingdom)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Last_Kingdom_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Last_Kingdom_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Last_Kingdom <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Последнее Королевство)](*<-lang_ru;;*);
+                      [Pic. (The_Last_Kingdom)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Last_Kingdom.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Last_Kingdom => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  The_Last_Kingdom => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  The_Last_Kingdom => nrel_num_of_seasons: 3;;
+                  value -> 26;;
+                  The_Last_Kingdom => nrel_num_of_episodes: 26;;
+                  
+                  value -> 7;;
+                  The_Last_Kingdom => nrel_no_countries : 7;;
+                  
+                  value -> 11;;
+                  The_Last_Kingdom => nrel_viewers_in_millions: 11;;
+                  
+                  The_Last_Kingdom => nrel_age_rating: concept_PG12;;
+                  
+                    The_Last_Kingdom => nrel_actor : AlexanderDreymon;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : DavidDawson;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : IanHart;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : ElizaButterworth;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : HarryMcEntire;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : ArnasFedaravicius;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : EmilyCox;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : MillieBrady;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : MarkRowley;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : AdrianBouchet;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : JeppeBeckLaursen;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : TobyRegbo;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : JamesNorthcote;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : JuliaBacheWiig;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : EwanMitchell;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : TobiasSantelmann;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : SimonKunz;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : EvaBirthistle;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : CavanClerkin;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : AdrianBower;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : TimothyInnes;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : PeriBaumeister;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : KevinEldon;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : ChristianHillborg;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : MagnusBruun;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : TheaSofieLochNss;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : BjrnBengtsson;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : SimonStenspil;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : BrianVernel;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : OlaRapace;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : ThomasWGabrielsson;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : AdrianSchiller;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : OleChristofferErtvaag;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : GerardKearns;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : AmyWren;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : ThureLindhardt;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : AlexandreWillaume;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : JosephMillson;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : RuneTemte;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : PeterMcDonald;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : DavidSchofield;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : CharlieMurphy;;
+                    
+                   
+                    The_Last_Kingdom => nrel_actor : MatthewMacfadyen;;
+                    
+                  
+                  
+                  The_Last_Kingdom
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,48 @@
+concept_human -> gemma_arterton;;
+ 
+ gemma_arterton <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джемма Артертон)](*<-lang_ru;;*);
+ 		[Description (Gemma Arterton)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/gemma_arterton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ gemma_arterton <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джемма Артертон)](*<-lang_ru;;*);
+ 		[Pic. (Gemma Arterton)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/gemma_arterton.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ gemma_arterton => nrel_main_idtf : [Джемма Артертон](*<-lang_ru;;*);;
+ gemma_arterton => nrel_main_idtf : [Gemma Arterton](*<-lang_en;;*);;
+ 
+ 
+ gemma_arterton => nrel_birth_date : 1986;;
+ 
+ concept_goverment -> UK;;
+ gemma_arterton => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ gemma_arterton => nrel_to_star_in : murder_mystery;;
+murder_mystery => nrel_main_idtf : [Murder Mystery](*<-lang_en;;*);;
+murder_mystery => nrel_main_idtf : [Загадочное убийство](*<-lang_ru;;*);;
+gemma_arterton => nrel_to_star_in : rocknrolla;;
+rocknrolla => nrel_main_idtf : [RocknRolla](*<-lang_en;;*);;
+rocknrolla => nrel_main_idtf : [Рок-н-рольщик](*<-lang_ru;;*);;
+

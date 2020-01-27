@@ -1,0 +1,72 @@
+concept_human -> paul_bettani;;
+ 
+ paul_bettani <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Пол Беттани)](*<-lang_ru;;*);
+ 		[Description (Paul Bettani)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/paul_bettani_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ paul_bettani <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Пол Беттани)](*<-lang_ru;;*);
+ 		[Pic. (Paul Bettani)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/paul_bettani.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ paul_bettani => nrel_main_idtf : [Пол Беттани](*<-lang_ru;;*);;
+ paul_bettani => nrel_main_idtf : [Paul Bettani](*<-lang_en;;*);;
+ 
+ 
+ paul_bettani => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> UK;;
+ paul_bettani => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ paul_bettani => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+paul_bettani => nrel_to_star_in : solo_a_star_wars_story;;
+solo_a_star_wars_story => nrel_main_idtf : [Solo: A Star Wars Story](*<-lang_en;;*);;
+solo_a_star_wars_story => nrel_main_idtf : [Хан Соло: Звёздные Войны. Истории](*<-lang_ru;;*);;
+paul_bettani => nrel_to_star_in : captain_america_civil_war;;
+captain_america_civil_war => nrel_main_idtf : [Captain America: Civil War](*<-lang_en;;*);;
+captain_america_civil_war => nrel_main_idtf : [Первый мститель: Противостояние](*<-lang_ru;;*);;
+paul_bettani => nrel_to_star_in : avengers_age_of_ultron;;
+avengers_age_of_ultron => nrel_main_idtf : [Avengers: Age of Ultron](*<-lang_en;;*);;
+avengers_age_of_ultron => nrel_main_idtf : [Мстители: Эра Альтрона](*<-lang_ru;;*);;
+paul_bettani => nrel_to_star_in : legend;;
+legend => nrel_main_idtf : [Legend](*<-lang_en;;*);;
+legend => nrel_main_idtf : [Легенда](*<-lang_ru;;*);;
+paul_bettani => nrel_to_star_in : iron_man_3;;
+iron_man_3 => nrel_main_idtf : [Iron Man 3](*<-lang_en;;*);;
+iron_man_3 => nrel_main_idtf : [Железный человек 3](*<-lang_ru;;*);;
+paul_bettani => nrel_to_star_in : the_avengers;;
+the_avengers => nrel_main_idtf : [The Avengers](*<-lang_en;;*);;
+the_avengers => nrel_main_idtf : [Мстители](*<-lang_ru;;*);;
+paul_bettani => nrel_to_star_in : iron_man_2;;
+iron_man_2 => nrel_main_idtf : [Iron Man 2](*<-lang_en;;*);;
+iron_man_2 => nrel_main_idtf : [Железный человек 2](*<-lang_ru;;*);;
+paul_bettani => nrel_to_star_in : iron_man;;
+iron_man => nrel_main_idtf : [Iron Man](*<-lang_en;;*);;
+iron_man => nrel_main_idtf : [Железный человек](*<-lang_ru;;*);;
+paul_bettani => nrel_to_star_in : the_da_vinci_code;;
+the_da_vinci_code => nrel_main_idtf : [The Da Vinci Code](*<-lang_en;;*);;
+the_da_vinci_code => nrel_main_idtf : [Код Да Винчи](*<-lang_ru;;*);;
+

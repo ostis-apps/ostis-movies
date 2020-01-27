@@ -1,0 +1,84 @@
+concept_human -> vin_diesel;;
+ 
+ vin_diesel <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Вин Дизель)](*<-lang_ru;;*);
+ 		[Description (Vin Diesel)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/vin_diesel_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ vin_diesel <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Вин Дизель)](*<-lang_ru;;*);
+ 		[Pic. (Vin Diesel)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/vin_diesel.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ vin_diesel => nrel_main_idtf : [Вин Дизель](*<-lang_ru;;*);;
+ vin_diesel => nrel_main_idtf : [Vin Diesel](*<-lang_en;;*);;
+ 
+ 
+ vin_diesel => nrel_birth_date : 1967;;
+ 
+ concept_goverment -> Usa;;
+ vin_diesel => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ vin_diesel => nrel_to_star_in : avengers_infinity_war;;
+avengers_infinity_war => nrel_main_idtf : [Avengers: Infinity War](*<-lang_en;;*);;
+avengers_infinity_war => nrel_main_idtf : [Мстители: Война бесконечности](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : guardians_of_the_galaxy_vol_2;;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Guardians of the Galaxy Vol. 2](*<-lang_en;;*);;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Стражи Галактики. Часть 2](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : the_fate_of_the_furious;;
+the_fate_of_the_furious => nrel_main_idtf : [The Fate of the Furious](*<-lang_en;;*);;
+the_fate_of_the_furious => nrel_main_idtf : [Форсаж 8](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : furious_7;;
+furious_7 => nrel_main_idtf : [Furious 7](*<-lang_en;;*);;
+furious_7 => nrel_main_idtf : [Форсаж 7](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : guardians_of_the_galaxy;;
+guardians_of_the_galaxy => nrel_main_idtf : [Guardians of the Galaxy](*<-lang_en;;*);;
+guardians_of_the_galaxy => nrel_main_idtf : [Стражи Галактики](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : fast__furious_6;;
+fast__furious_6 => nrel_main_idtf : [Fast & Furious 6](*<-lang_en;;*);;
+fast__furious_6 => nrel_main_idtf : [Форсаж 6](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : fast_five;;
+fast_five => nrel_main_idtf : [Fast Five](*<-lang_en;;*);;
+fast_five => nrel_main_idtf : [Форсаж 5: Быстрая пятерка](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : fast__furious;;
+fast__furious => nrel_main_idtf : [Fast & Furious](*<-lang_en;;*);;
+fast__furious => nrel_main_idtf : [Форсаж 4](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : the_pacifier;;
+the_pacifier => nrel_main_idtf : [The Pacifier](*<-lang_en;;*);;
+the_pacifier => nrel_main_idtf : [Лысый нянька: Спецзадание](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : the_chronicles_of_riddick;;
+the_chronicles_of_riddick => nrel_main_idtf : [The Chronicles of Riddick](*<-lang_en;;*);;
+the_chronicles_of_riddick => nrel_main_idtf : [Хроники Риддика](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : xxx;;
+xxx => nrel_main_idtf : [xXx](*<-lang_en;;*);;
+xxx => nrel_main_idtf : [Три икса](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : the_fast_and_the_furious;;
+the_fast_and_the_furious => nrel_main_idtf : [The Fast and the Furious](*<-lang_en;;*);;
+the_fast_and_the_furious => nrel_main_idtf : [Форсаж](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : boiler_room;;
+boiler_room => nrel_main_idtf : [Boiler Room](*<-lang_en;;*);;
+boiler_room => nrel_main_idtf : [Бойлерная](*<-lang_ru;;*);;
+vin_diesel => nrel_to_star_in : saving_private_ryan;;
+saving_private_ryan => nrel_main_idtf : [Saving Private Ryan](*<-lang_en;;*);;
+saving_private_ryan => nrel_main_idtf : [Спасти рядового Райана](*<-lang_ru;;*);;
+

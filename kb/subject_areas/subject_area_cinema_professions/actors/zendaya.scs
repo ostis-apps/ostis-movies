@@ -1,0 +1,48 @@
+concept_human -> zendaya;;
+ 
+ zendaya <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Зендая)](*<-lang_ru;;*);
+ 		[Description (Zendaya)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/zendaya_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ zendaya <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Зендая)](*<-lang_ru;;*);
+ 		[Pic. (Zendaya)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/zendaya.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ zendaya => nrel_main_idtf : [Зендая](*<-lang_ru;;*);;
+ zendaya => nrel_main_idtf : [Zendaya](*<-lang_en;;*);;
+ 
+ 
+ zendaya => nrel_birth_date : 1996;;
+ 
+ concept_goverment -> Usa;;
+ zendaya => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ zendaya => nrel_to_star_in : spiderman_far_from_home;;
+spiderman_far_from_home => nrel_main_idtf : [Spider-Man: Far from Home](*<-lang_en;;*);;
+spiderman_far_from_home => nrel_main_idtf : [Человек-паук: Вдали от дома](*<-lang_ru;;*);;
+zendaya => nrel_to_star_in : spiderman_homecoming;;
+spiderman_homecoming => nrel_main_idtf : [Spider-Man: Homecoming](*<-lang_en;;*);;
+spiderman_homecoming => nrel_main_idtf : [Человек-паук: Возвращение домой](*<-lang_ru;;*);;
+

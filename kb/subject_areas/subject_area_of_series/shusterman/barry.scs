@@ -1,0 +1,82 @@
+
+                  concept_series -> Barry;;
+              
+                  Barry
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Барри]
+                    (* <- lang_ru;;	*);
+                    [Barry]
+                    (* <- lang_en;;	*);;
+                  
+                  Barry <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Барри)](*<-lang_ru;;*);
+                      [Description (Barry)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Barry_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Barry_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Barry <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Барри)](*<-lang_ru;;*);
+                      [Pic. (Barry)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Barry.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Barry => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Barry => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  Barry => nrel_num_of_seasons: 2;;
+                  value -> 16;;
+                  Barry => nrel_num_of_episodes: 16;;
+                  
+                  value -> 10;;
+                  Barry => nrel_no_countries : 10;;
+                  
+                  value -> 9;;
+                  Barry => nrel_viewers_in_millions: 9;;
+                  
+                  Barry => nrel_age_rating: concept_PG12;;
+                  
+                    Barry => nrel_actor : StephenRoot;;
+                    
+                   
+                    Barry => nrel_actor : BillHader;;
+                    
+                   
+                    Barry => nrel_actor : HenryWinkler;;
+                    
+                   
+                    Barry => nrel_actor : SarahGoldberg;;
+                    
+                   
+                    Barry => nrel_actor : AnthonyCarrigan;;
+                    
+                   
+                    Barry => nrel_actor : GlennFleshler;;
+                    
+                  
+                  
+                  Barry
+                  =>nrel_keywords: concept_detectif;;
+                  

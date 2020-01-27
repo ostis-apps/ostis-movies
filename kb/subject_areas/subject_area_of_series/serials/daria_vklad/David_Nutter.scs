@@ -1,0 +1,51 @@
+concept_human -> David_Nutter;;
+
+David_Nutter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дэвид Наттер]
+	(* <- lang_ru;;	*);
+	[David Nutter]
+	(* <- lang_en;;	*);;
+	
+David_Nutter <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дэвид Наттер)](*<-lang_ru;;*);
+		[Description (David Nutter)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/David_Nutter_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/David_Nutter_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+David_Nutter <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дэвид Наттер)](*<-lang_ru;;*);
+		[Pic. (David Nutter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/David_Nutter.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1960;;
+David_Nutter=>nrel_date_of_birth: 1960;;
+1960=>nrel_main_idtf:[1960 год](*<-lang_ru;;*);;
+1960=>nrel_main_idtf:[year of 1960](*<-lang_en;;*);;
+
+concept_calendar_date->1985;;
+David_Nutter=>nrel_career_start_date: 1985;;
+1985=>nrel_main_idtf:[1985 год](*<-lang_ru;;*);;
+1985=>nrel_main_idtf:[year of 1985](*<-lang_en;;*);;
+
+David_Nutter =>nrel_cityzenship:Usa;;
+

@@ -1,0 +1,82 @@
+
+                  concept_series -> Future_Man;;
+              
+                  Future_Man
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Future_Man]
+                    (* <- lang_ru;;	*);
+                    [Future_Man]
+                    (* <- lang_en;;	*);;
+                  
+                  Future_Man <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Future_Man)](*<-lang_ru;;*);
+                      [Description (Future_Man)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Future_Man_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Future_Man_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Future_Man <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Future_Man)](*<-lang_ru;;*);
+                      [Pic. (Future_Man)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Future_Man.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Future_Man => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Future_Man => nrel_production_year : 2017;;
+                  
+                  value -> 3;;
+                  Future_Man => nrel_num_of_seasons: 3;;
+                  value -> 26;;
+                  Future_Man => nrel_num_of_episodes: 26;;
+                  
+                  value -> 12;;
+                  Future_Man => nrel_no_countries : 12;;
+                  
+                  value -> 11;;
+                  Future_Man => nrel_viewers_in_millions: 11;;
+                  
+                  Future_Man => nrel_age_rating: concept_PG12;;
+                  
+                    Future_Man => nrel_actor : DerekWilson;;
+                    
+                   
+                    Future_Man => nrel_actor : JoshHutcherson;;
+                    
+                   
+                    Future_Man => nrel_actor : ElizaCoupe;;
+                    
+                   
+                    Future_Man => nrel_actor : HaleyJoelOsment;;
+                    
+                   
+                    Future_Man => nrel_actor : EdBegleyJr;;
+                    
+                   
+                    Future_Man => nrel_actor : GlenneHeadly;;
+                    
+                  
+                  
+                  Future_Man
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,35 @@
+concept_actor <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [actor](*<- lang_en;;*);
+    [актер](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (актер)](*<- lang_ru;;*);
+        [Def. (actor)](*<- lang_en;;*);;
+    <=nrel_using_constants:...(*
+     ->concept_event;;
+
+     *);;
+
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_actor_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_actor_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+->concept_Kiano_Rivz;concept_Stalone;
+
+=>nrel_inclusion:concept_main_actor;concept_extras;
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (актёр)](*<-lang_ru;;*);
+		    [Pic. (actor)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/ACTER.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

@@ -1,0 +1,31 @@
+concept_Suicide_Squad
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Отряд Самоубийц]
+	(* <- lang_ru;;	*);
+	[Suicide Squad]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Отряд Самоубийц)](*<-lang_ru;;*);
+		[Description (Suicide Squad)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Отряд Самоубийц.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Suicide Squad.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_army;
+=>nrel_keywords: concept_courage;
+=>nrel_keywords: concept_violence;	
+=>nrel_age_rating: concept_PG16;;	

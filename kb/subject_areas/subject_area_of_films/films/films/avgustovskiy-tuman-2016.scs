@@ -1,0 +1,67 @@
+film_avgustovskiy_tuman_2016
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Августовский туман]
+(* <- lang_ru;;    *);
+[Nebel im August]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Августовский туман)](*<-lang_ru;;*);
+[Description (Nebel im August)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/avgustovskiy-tuman-2016_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/avgustovskiy-tuman-2016_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Августовский туман)](*<-lang_ru;;*);
+		[Pic. (Nebel im August)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/avgustovskiy-tuman-2016.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : germany;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Nebel im August](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [29.09.2016](*<-lang_ru;;*);;
+    => nrel_main_idtf : [29.09.2016](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H1M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H1M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_avgustovskiy_tuman_2016 =>nrel_keywords: film;;
+
+film_avgustovskiy_tuman_2016 <- concept_drama;concept_war;;
+
+film_avgustovskiy_tuman_2016 => nrel_main_actor : ivo_pietzcker;sebastian_koch;thomas_schubert;fritzi_haberlandt;;
+film_avgustovskiy_tuman_2016 => nrel_producer : kai_wessel;;

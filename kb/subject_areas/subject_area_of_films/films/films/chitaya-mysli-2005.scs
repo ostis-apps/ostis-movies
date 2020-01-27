@@ -1,0 +1,67 @@
+film_chitaya_mysli_2005
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Читая мысли]
+(* <- lang_ru;;    *);
+[Like Minds]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Читая мысли)](*<-lang_ru;;*);
+[Description (Like Minds)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/chitaya-mysli-2005_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/chitaya-mysli-2005_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Читая мысли)](*<-lang_ru;;*);
+		[Pic. (Like Minds)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chitaya-mysli-2005.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : australia;uk;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [How do you stop a killer who is inside your head? See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [03.08.2006](*<-lang_ru;;*);;
+    => nrel_main_idtf : [03.08.2006](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H50M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H50M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_chitaya_mysli_2005 =>nrel_keywords: film;;
+
+film_chitaya_mysli_2005 <- concept_crime;concept_horror;concept_mystery;concept_thriller;;
+
+film_chitaya_mysli_2005 => nrel_main_actor : eddie_redmayne;tom_sturridge;toni_collette;richard_roxburgh;;
+film_chitaya_mysli_2005 => nrel_producer : gregory_read;;

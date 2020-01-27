@@ -1,0 +1,45 @@
+concept_human -> iggy_pop;;
+ 
+ iggy_pop <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Игги Поп)](*<-lang_ru;;*);
+ 		[Description (Iggy Pop)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/iggy_pop_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ iggy_pop <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Игги Поп)](*<-lang_ru;;*);
+ 		[Pic. (Iggy Pop)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/iggy_pop.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ iggy_pop => nrel_main_idtf : [Игги Поп](*<-lang_ru;;*);;
+ iggy_pop => nrel_main_idtf : [Iggy Pop](*<-lang_en;;*);;
+ 
+ 
+ iggy_pop => nrel_birth_date : 1947;;
+ 
+ concept_goverment -> Usa;;
+ iggy_pop => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ iggy_pop => nrel_to_star_in : the_brave;;
+the_brave => nrel_main_idtf : [The Brave](*<-lang_en;;*);;
+the_brave => nrel_main_idtf : [Храбрец](*<-lang_ru;;*);;
+

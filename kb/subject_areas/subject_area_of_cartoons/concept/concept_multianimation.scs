@@ -1,0 +1,23 @@
+concept_multianimation
+<-sc_node_not_relation;
+<-sc_const;
+=>nrel_main_idtf:
+	[мультипликация](*<-lang_ru;;*);
+	[multianimation](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (мультипликация)](*<-lang_ru;;*);
+		[Def. (multianimation)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_multianimation_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_multianimation_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+	

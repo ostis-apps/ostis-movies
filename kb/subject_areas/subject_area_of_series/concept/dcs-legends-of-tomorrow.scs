@@ -1,0 +1,121 @@
+
+                  concept_series -> DCs_Legends_of_Tomorrow;;
+              
+                  DCs_Legends_of_Tomorrow
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [DCs_Legends_of_Tomorrow]
+                    (* <- lang_ru;;	*);
+                    [DCs_Legends_of_Tomorrow]
+                    (* <- lang_en;;	*);;
+                  
+                  DCs_Legends_of_Tomorrow <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (DCs_Legends_of_Tomorrow)](*<-lang_ru;;*);
+                      [Description (DCs_Legends_of_Tomorrow)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/DC_s_Legends_of_Tomorrow_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/DC_s_Legends_of_Tomorrow_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  DCs_Legends_of_Tomorrow <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (DCs_Legends_of_Tomorrow)](*<-lang_ru;;*);
+                      [Pic. (DCs_Legends_of_Tomorrow)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/DC_s_Legends_of_Tomorrow.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  DCs_Legends_of_Tomorrow => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  DCs_Legends_of_Tomorrow => nrel_production_year : 2016;;
+                  
+                  value -> 5;;
+                  DCs_Legends_of_Tomorrow => nrel_num_of_seasons: 5;;
+                  value -> 78;;
+                  DCs_Legends_of_Tomorrow => nrel_num_of_episodes: 78;;
+                  
+                  value -> 4;;
+                  DCs_Legends_of_Tomorrow => nrel_no_countries : 4;;
+                  
+                  value -> 5;;
+                  DCs_Legends_of_Tomorrow => nrel_viewers_in_millions: 5;;
+                  
+                  DCs_Legends_of_Tomorrow => nrel_age_rating: concept_PG12;;
+                  
+                    DCs_Legends_of_Tomorrow => nrel_actor : CaityLotz;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : BrandonRouth;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : DominicPurcell;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : AmyPemberton;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : NickZano;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : FranzDrameh;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : VictorGarber;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : MaisieRichardsonSellers;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : ArthurDarvill;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : TalaAshe;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : JesMacallan;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : CourtneyFord;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : WentworthMiller;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : CiaraRenee;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : MaisieRichardsonSellers;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : RamonaYoung;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : MattLetscher;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : KeiynanLonsdale;;
+                    
+                   
+                    DCs_Legends_of_Tomorrow => nrel_actor : FalkHentschel;;
+                    
+                  
+                  
+                  DCs_Legends_of_Tomorrow
+                  =>nrel_keywords: concept_detectif;;
+                  

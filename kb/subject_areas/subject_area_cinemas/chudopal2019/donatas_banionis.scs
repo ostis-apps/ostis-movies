@@ -1,0 +1,36 @@
+donatas_banionis
+<- person;
+<- concept_actor;
+=> nrel_main_idtf:
+        [Донатас Банионис]
+	(* <- lang_ru;;	*);
+	[Donatas Banionis]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+        <- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Донатас Банионис)](* <- lang_ru;; *);
+		[Desctiption (Donatas Banionis)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+	        (*
+		        -> rrel_example:[<b><sc_element sys_idtf="donatas_banionis">Николай Бурляев</sc_element></b> —  литовский и советский актёр, народный артист СССР.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="donatas_banionis">Nikolay Burlyaev</sc_element></b> Soviet and Lithuanian actor, artist of USSR.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+        <-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Донатас Банионис)](*<-lang_ru;;*);
+		[Pic. (Donatas Banionis)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Banionis.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+

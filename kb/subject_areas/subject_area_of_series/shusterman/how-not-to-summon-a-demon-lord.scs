@@ -1,0 +1,64 @@
+
+                  concept_series -> How_Not_to_Summon_a_Demon_Lord;;
+              
+                  How_Not_to_Summon_a_Demon_Lord
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [How_Not_to_Summon_a_Demon_Lord]
+                    (* <- lang_ru;;	*);
+                    [How_Not_to_Summon_a_Demon_Lord]
+                    (* <- lang_en;;	*);;
+                  
+                  How_Not_to_Summon_a_Demon_Lord <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (How_Not_to_Summon_a_Demon_Lord)](*<-lang_ru;;*);
+                      [Description (How_Not_to_Summon_a_Demon_Lord)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/How_Not_to_Summon_a_Demon_Lord_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/How_Not_to_Summon_a_Demon_Lord_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  How_Not_to_Summon_a_Demon_Lord <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (How_Not_to_Summon_a_Demon_Lord)](*<-lang_ru;;*);
+                      [Pic. (How_Not_to_Summon_a_Demon_Lord)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/How_Not_to_Summon_a_Demon_Lord.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  How_Not_to_Summon_a_Demon_Lord => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  How_Not_to_Summon_a_Demon_Lord => nrel_production_year : 2018;;
+                  
+                  value -> 1;;
+                  How_Not_to_Summon_a_Demon_Lord => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  How_Not_to_Summon_a_Demon_Lord => nrel_num_of_episodes: 12;;
+                  
+                  value -> 6;;
+                  How_Not_to_Summon_a_Demon_Lord => nrel_no_countries : 6;;
+                  
+                  value -> 6;;
+                  How_Not_to_Summon_a_Demon_Lord => nrel_viewers_in_millions: 6;;
+                  
+                  How_Not_to_Summon_a_Demon_Lord => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  How_Not_to_Summon_a_Demon_Lord
+                  =>nrel_keywords: concept_detectif;;
+                  

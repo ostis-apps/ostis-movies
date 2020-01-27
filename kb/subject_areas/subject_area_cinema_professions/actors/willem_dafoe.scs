@@ -1,0 +1,66 @@
+concept_human -> willem_dafoe;;
+ 
+ willem_dafoe <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Уиллем Дефо)](*<-lang_ru;;*);
+ 		[Description (Willem Dafoe)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/willem_dafoe_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ willem_dafoe <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Уиллем Дефо)](*<-lang_ru;;*);
+ 		[Pic. (Willem Dafoe)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/willem_dafoe.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ willem_dafoe => nrel_main_idtf : [Уиллем Дефо](*<-lang_ru;;*);;
+ willem_dafoe => nrel_main_idtf : [Willem Dafoe](*<-lang_en;;*);;
+ 
+ 
+ willem_dafoe => nrel_birth_date : 1955;;
+ 
+ concept_goverment -> Usa;;
+ willem_dafoe => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ willem_dafoe => nrel_to_star_in : aquaman;;
+aquaman => nrel_main_idtf : [Aquaman](*<-lang_en;;*);;
+aquaman => nrel_main_idtf : [Аквамен](*<-lang_ru;;*);;
+willem_dafoe => nrel_to_star_in : at_eternitys_gate;;
+at_eternitys_gate => nrel_main_idtf : [At Eternity's Gate](*<-lang_en;;*);;
+at_eternitys_gate => nrel_main_idtf : [Ван Гог. На пороге вечности](*<-lang_ru;;*);;
+willem_dafoe => nrel_to_star_in : murder_on_the_orient_express;;
+murder_on_the_orient_express => nrel_main_idtf : [Murder on the Orient Express](*<-lang_en;;*);;
+murder_on_the_orient_express => nrel_main_idtf : [Убийство в Восточном экспрессе](*<-lang_ru;;*);;
+willem_dafoe => nrel_to_star_in : john_wick;;
+john_wick => nrel_main_idtf : [John Wick](*<-lang_en;;*);;
+john_wick => nrel_main_idtf : [Джон Уик](*<-lang_ru;;*);;
+willem_dafoe => nrel_to_star_in : the_aviator;;
+the_aviator => nrel_main_idtf : [The Aviator](*<-lang_en;;*);;
+the_aviator => nrel_main_idtf : [Авиатор](*<-lang_ru;;*);;
+willem_dafoe => nrel_to_star_in : spiderman;;
+spiderman => nrel_main_idtf : [Spider-Man](*<-lang_en;;*);;
+spiderman => nrel_main_idtf : [Человек-паук](*<-lang_ru;;*);;
+willem_dafoe => nrel_to_star_in : american_psycho;;
+american_psycho => nrel_main_idtf : [American Psycho](*<-lang_en;;*);;
+american_psycho => nrel_main_idtf : [Американский психопат](*<-lang_ru;;*);;
+willem_dafoe => nrel_to_star_in : platoon;;
+platoon => nrel_main_idtf : [Platoon](*<-lang_en;;*);;
+platoon => nrel_main_idtf : [Взвод](*<-lang_ru;;*);;
+

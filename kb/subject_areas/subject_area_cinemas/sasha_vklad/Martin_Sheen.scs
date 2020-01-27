@@ -1,0 +1,50 @@
+concept_human -> Martin_Sheen;;
+
+Martin_Sheen
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мартин Шин]
+	(* <- lang_ru;;	*);
+	[Martin Sheen]
+	(* <- lang_en;;	*);;
+	
+Martin_Sheen <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Мартин Шин)](*<-lang_ru;;*);
+		[Description (Martin Sheen)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Martin_Sheen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Martin_Sheen_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Martin_Sheen <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мартин Шин)](*<-lang_ru;;*);
+		[Pic. (Martin_Sheen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Martin_Sheen.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1940;;
+Martin_Sheen =>nrel_date_of_birth: 1940;;
+1940=>nrel_main_idtf:[1940 год](*<-lang_ru;;*);;
+1940=>nrel_main_idtf:[year of 1940](*<-lang_en;;*);;
+
+concept_calendar_date->1959;;
+Martin_Sheen =>nrel_career_start_date: 1959;;
+1959=>nrel_main_idtf:[1959 год](*<-lang_ru;;*);;
+1959=>nrel_main_idtf:[year of 1959](*<-lang_en;;*);;
+
+Martin_Sheen =>nrel_cityzenship: Irl;;

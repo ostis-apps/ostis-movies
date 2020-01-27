@@ -1,0 +1,67 @@
+film_amerikanskiy_ekzorcist_2018
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американский экзорцист]
+(* <- lang_ru;;    *);
+[American Exorcist]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американский экзорцист)](*<-lang_ru;;*);
+[Description (American Exorcist)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskiy-ekzorcist-2018_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskiy-ekzorcist-2018_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американский экзорцист)](*<-lang_ru;;*);
+		[Pic. (American Exorcist)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskiy-ekzorcist-2018.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 3;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [American Exorcist](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.10.2018](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.10.2018](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H29M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H29M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_TV_MA;;
+
+film_amerikanskiy_ekzorcist_2018 =>nrel_keywords: film;;
+
+film_amerikanskiy_ekzorcist_2018 <- concept_comedy;concept_horror;;
+
+film_amerikanskiy_ekzorcist_2018 => nrel_main_actor : bill_moseley;gemma_mcilhenny;john_bolaris;john_mckeever;;
+film_amerikanskiy_ekzorcist_2018 => nrel_producer : tony_trov;johnny_zito;;

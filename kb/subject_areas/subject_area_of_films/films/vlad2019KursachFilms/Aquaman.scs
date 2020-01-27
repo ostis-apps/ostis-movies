@@ -1,0 +1,73 @@
+concept_film -> Aquaman;;
+
+Aquaman
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Аквамэн]
+	(* <- lang_ru;;	*);
+	[Aquaman]
+	(* <- lang_en;;	*);;
+	
+Aquaman <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Аквамэн)](*<-lang_ru;;*);
+		[Description (Aquaman)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Aquaman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Aquaman_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Aquaman <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Аквамэн)](*<-lang_ru;;*);
+		[Pic. (Aquaman)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Aquaman.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Aquaman => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 13_12_2018;;
+13_12_2018 => nrel_main_idtf : [13.12.2018](*<-lang_ru;;*);;
+13_12_2018 => nrel_main_idtf : [13.12.2018](*<-lang_en;;*);;
+Aquaman => nrel_release_date : 13_12_2018;;
+
+Aquaman => nrel_tagline_of_film : slogan_Aquaman;;
+slogan_Aquaman => nrel_main_idtf : [Океан зовёт](*<-lang_ru;;*);;
+slogan_Aquaman => nrel_main_idtf : [Ocean is calling](*<-lang_en;;*);;
+
+Aquaman => nrel_duration_of_showing : 2_23;;
+
+duration -> 2_23;;
+2_23 => nrel_main_idtf : [2 часа и 23 минуты](*<-lang_ru;;*);;
+2_23 => nrel_main_idtf : [2 hour and 23 minutes](*<-lang_en;;*);;
+
+value -> 1_146_648_294;;
+1_146_648_294 => nrel_main_idtf : [1 146 648 294$](*<-lang_ru;;*);;
+1_146_648_294 => nrel_main_idtf : [1 146 648 294$](*<-lang_en;;*);;
+Aquaman <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 1_146_648_294;;   
+*);;
+
+value -> 6;;
+Aquaman => nrel_film_critic_rating : 6;;
+
+Aquaman =>nrel_keywords: concept_courage;ocean;super_people;atlant;action;;
+Aquaman =>nrel_age_rating: concept_PG12;;
+
+Aquaman => nrel_main_actor : Willson; Mamoa;;
+Aquaman => nrel_producer : Van;;
+Aquaman => nrel_screenwriter : Jeff_Jons;;
+

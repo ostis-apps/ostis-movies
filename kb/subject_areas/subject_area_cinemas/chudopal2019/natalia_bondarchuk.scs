@@ -1,0 +1,36 @@
+natalia_bondarchuk
+<- person;
+<- concept_actor;
+=> nrel_main_idtf:
+        [Наталья Бондарчук]
+	(* <- lang_ru;;	*);
+	[Natalia Bondarchuk]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+        <- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Наталья Бондарчук)](* <- lang_ru;; *);
+		[Desctiption (Natalia Bondarchuk)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+	        (*
+		        -> rrel_example:[<b><sc_element sys_idtf="natalia_bondarchuk">Наталья Бондарчук</sc_element></b> —  советская и российская актрисса, народная артистка РФ.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="natalia_bondarchuk">Natalia Bondarchuk</sc_element></b> Soviet and Russian actor, artist of the Russian Federation.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+        <-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Наталья Бондарчук)](*<-lang_ru;;*);
+		[Pic. (Natalia Bondarchuk)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Bondarchuk.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+

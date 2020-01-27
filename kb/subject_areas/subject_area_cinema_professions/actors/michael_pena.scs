@@ -1,0 +1,60 @@
+concept_human -> michael_pena;;
+ 
+ michael_pena <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Майкл Пенья)](*<-lang_ru;;*);
+ 		[Description (Michael Pena)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michael_pena_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michael_pena <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Майкл Пенья)](*<-lang_ru;;*);
+ 		[Pic. (Michael Pena)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michael_pena.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michael_pena => nrel_main_idtf : [Майкл Пенья](*<-lang_ru;;*);;
+ michael_pena => nrel_main_idtf : [Michael Pena](*<-lang_en;;*);;
+ 
+ 
+ michael_pena => nrel_birth_date : 1976;;
+ 
+ concept_goverment -> Usa;;
+ michael_pena => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ michael_pena => nrel_to_star_in : antman_and_the_wasp;;
+antman_and_the_wasp => nrel_main_idtf : [Ant-Man and the Wasp](*<-lang_en;;*);;
+antman_and_the_wasp => nrel_main_idtf : [Человек-Муравей и Оса](*<-lang_ru;;*);;
+michael_pena => nrel_to_star_in : the_mule;;
+the_mule => nrel_main_idtf : [The Mule](*<-lang_en;;*);;
+the_mule => nrel_main_idtf : [Наркокурьер](*<-lang_ru;;*);;
+michael_pena => nrel_to_star_in : antman;;
+antman => nrel_main_idtf : [Ant-Man](*<-lang_en;;*);;
+antman => nrel_main_idtf : [Человек-муравей](*<-lang_ru;;*);;
+michael_pena => nrel_to_star_in : fury;;
+fury => nrel_main_idtf : [Fury](*<-lang_en;;*);;
+fury => nrel_main_idtf : [Ярость](*<-lang_ru;;*);;
+michael_pena => nrel_to_star_in : gangster_squad;;
+gangster_squad => nrel_main_idtf : [Gangster Squad](*<-lang_en;;*);;
+gangster_squad => nrel_main_idtf : [Охотники на гангстеров](*<-lang_ru;;*);;
+michael_pena => nrel_to_star_in : american_hustle;;
+american_hustle => nrel_main_idtf : [American Hustle](*<-lang_en;;*);;
+american_hustle => nrel_main_idtf : [Афера по-американски](*<-lang_ru;;*);;
+

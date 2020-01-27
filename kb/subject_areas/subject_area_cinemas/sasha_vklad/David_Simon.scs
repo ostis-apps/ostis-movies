@@ -1,0 +1,50 @@
+concept_human -> David_Simon;;
+
+David_Simon
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дэвид Саймон]
+	(* <- lang_ru;;	*);
+	[David Simon]
+	(* <- lang_en;;	*);;
+	
+David_Simon <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дэвид Саймон)](*<-lang_ru;;*);
+		[Description (David Simon)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/David_Simon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/David_Simon_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+David_Simon <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дэвид Саймон)](*<-lang_ru;;*);
+		[Pic. (David Simon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/David_Simon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1960;;
+David_Simon=>nrel_date_of_birth: 1960;;
+1960=>nrel_main_idtf:[1960 год](*<-lang_ru;;*);;
+1960=>nrel_main_idtf:[year of 1960](*<-lang_en;;*);;
+
+concept_calendar_date->1983;;
+David_Simon =>nrel_career_start_date: 1983;;
+1983=>nrel_main_idtf:[1983 год](*<-lang_ru;;*);;
+1983=>nrel_main_idtf:[year of 1983](*<-lang_en;;*);;
+
+David_Simon =>nrel_cityzenship: Usa;;

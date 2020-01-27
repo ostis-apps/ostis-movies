@@ -1,0 +1,51 @@
+concept_human -> carla_gugino;;
+ 
+ carla_gugino <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Карла Гуджино)](*<-lang_ru;;*);
+ 		[Description (Carla Gugino)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/carla_gugino_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ carla_gugino <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Карла Гуджино)](*<-lang_ru;;*);
+ 		[Pic. (Carla Gugino)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/carla_gugino.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ carla_gugino => nrel_main_idtf : [Карла Гуджино](*<-lang_ru;;*);;
+ carla_gugino => nrel_main_idtf : [Carla Gugino](*<-lang_en;;*);;
+ 
+ 
+ carla_gugino => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> Usa;;
+ carla_gugino => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ carla_gugino => nrel_to_star_in : san_andreas;;
+san_andreas => nrel_main_idtf : [San Andreas](*<-lang_en;;*);;
+san_andreas => nrel_main_idtf : [Разлом Сан-Андреас](*<-lang_ru;;*);;
+carla_gugino => nrel_to_star_in : sin_city;;
+sin_city => nrel_main_idtf : [Sin City](*<-lang_en;;*);;
+sin_city => nrel_main_idtf : [Город грехов](*<-lang_ru;;*);;
+carla_gugino => nrel_to_star_in : this_boys_life;;
+this_boys_life => nrel_main_idtf : [This Boy`s Life](*<-lang_en;;*);;
+this_boys_life => nrel_main_idtf : [Жизнь этого парня](*<-lang_ru;;*);;
+

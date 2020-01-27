@@ -1,0 +1,48 @@
+concept_human -> dennis_hopper;;
+ 
+ dennis_hopper <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Деннис Хоппер)](*<-lang_ru;;*);
+ 		[Description (Dennis Hopper)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/dennis_hopper_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ dennis_hopper <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Деннис Хоппер)](*<-lang_ru;;*);
+ 		[Pic. (Dennis Hopper)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/dennis_hopper.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ dennis_hopper => nrel_main_idtf : [Деннис Хоппер](*<-lang_ru;;*);;
+ dennis_hopper => nrel_main_idtf : [Dennis Hopper](*<-lang_en;;*);;
+ 
+ 
+ dennis_hopper => nrel_birth_date : 1945;;
+ 
+ concept_goverment -> Usa;;
+ dennis_hopper => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ dennis_hopper => nrel_to_star_in : the_other_side_of_the_wind;;
+the_other_side_of_the_wind => nrel_main_idtf : [The Other Side of the Wind](*<-lang_en;;*);;
+the_other_side_of_the_wind => nrel_main_idtf : [Другая сторона ветра](*<-lang_ru;;*);;
+dennis_hopper => nrel_to_star_in : rumble_fish;;
+rumble_fish => nrel_main_idtf : [Rumble Fish](*<-lang_en;;*);;
+rumble_fish => nrel_main_idtf : [Бойцовая рыбка](*<-lang_ru;;*);;
+

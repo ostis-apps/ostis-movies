@@ -1,0 +1,67 @@
+film_auditoriya_iz_stulev_2018
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Аудитория из стульев]
+(* <- lang_ru;;    *);
+[An Audience of Chairs]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Аудитория из стульев)](*<-lang_ru;;*);
+[Description (An Audience of Chairs)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/auditoriya-iz-stulev-2018_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/auditoriya-iz-stulev-2018_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Аудитория из стульев)](*<-lang_ru;;*);
+		[Pic. (An Audience of Chairs)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/auditoriya-iz-stulev-2018.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : canada;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [An Audience of Chairs](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [24.09.2019](*<-lang_ru;;*);;
+    => nrel_main_idtf : [24.09.2019](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H33M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H33M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_auditoriya_iz_stulev_2018 =>nrel_keywords: film;;
+
+film_auditoriya_iz_stulev_2018 <- concept_drama;;
+
+film_auditoriya_iz_stulev_2018 => nrel_main_actor : kate_corbett;christopher_jacot;peter_macneill;carolina_bartczak;;
+film_auditoriya_iz_stulev_2018 => nrel_producer : deanne_foley;;

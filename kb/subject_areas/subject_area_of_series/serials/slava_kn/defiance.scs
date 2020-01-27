@@ -1,0 +1,97 @@
+
+                  concept_series -> Defiance;;
+              
+                  Defiance
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Defiance]
+                    (* <- lang_ru;;	*);
+                    [Defiance]
+                    (* <- lang_en;;	*);;
+                  
+                  Defiance <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Defiance)](*<-lang_ru;;*);
+                      [Description (Defiance)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Defiance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Defiance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Defiance <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Defiance)](*<-lang_ru;;*);
+                      [Pic. (Defiance)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Defiance.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Defiance => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Defiance => nrel_production_year : 2013;;
+                  
+                  value -> 3;;
+                  Defiance => nrel_num_of_seasons: 3;;
+                  value -> 38;;
+                  Defiance => nrel_num_of_episodes: 38;;
+                  
+                  value -> 11;;
+                  Defiance => nrel_no_countries : 11;;
+                  
+                  value -> 4;;
+                  Defiance => nrel_viewers_in_millions: 4;;
+                  
+                  Defiance => nrel_age_rating: concept_PG12;;
+                  
+                    Defiance => nrel_actor : GrantBowler;;
+                    
+                   
+                    Defiance => nrel_actor : StephanieLeonidas;;
+                    
+                   
+                    Defiance => nrel_actor : JulieBenz;;
+                    
+                   
+                    Defiance => nrel_actor : JaimeMurray;;
+                    
+                   
+                    Defiance => nrel_actor : TonyCurran;;
+                    
+                   
+                    Defiance => nrel_actor : JesseRath;;
+                    
+                   
+                    Defiance => nrel_actor : GrahamGreene;;
+                    
+                   
+                    Defiance => nrel_actor : AnnaHopkins;;
+                    
+                   
+                    Defiance => nrel_actor : JamesMurray;;
+                    
+                   
+                    Defiance => nrel_actor : MiaKirshner;;
+                    
+                   
+                    Defiance => nrel_actor : NicholeGalicia;;
+                    
+                  
+                  
+                  Defiance
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,64 @@
+
+                  concept_series -> Super_Dragon_Ball_Heroes;;
+              
+                  Super_Dragon_Ball_Heroes
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Super_Dragon_Ball_Heroes]
+                    (* <- lang_ru;;	*);
+                    [Super_Dragon_Ball_Heroes]
+                    (* <- lang_en;;	*);;
+                  
+                  Super_Dragon_Ball_Heroes <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Super_Dragon_Ball_Heroes)](*<-lang_ru;;*);
+                      [Description (Super_Dragon_Ball_Heroes)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Super_Dragon_Ball_Heroes_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Super_Dragon_Ball_Heroes_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Super_Dragon_Ball_Heroes <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Super_Dragon_Ball_Heroes)](*<-lang_ru;;*);
+                      [Pic. (Super_Dragon_Ball_Heroes)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Super_Dragon_Ball_Heroes.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Super_Dragon_Ball_Heroes => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Super_Dragon_Ball_Heroes => nrel_production_year : 2018;;
+                  
+                  value -> 1;;
+                  Super_Dragon_Ball_Heroes => nrel_num_of_seasons: 1;;
+                  value -> 17;;
+                  Super_Dragon_Ball_Heroes => nrel_num_of_episodes: 17;;
+                  
+                  value -> 13;;
+                  Super_Dragon_Ball_Heroes => nrel_no_countries : 13;;
+                  
+                  value -> 10;;
+                  Super_Dragon_Ball_Heroes => nrel_viewers_in_millions: 10;;
+                  
+                  Super_Dragon_Ball_Heroes => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Super_Dragon_Ball_Heroes
+                  =>nrel_keywords: concept_detectif;;
+                  

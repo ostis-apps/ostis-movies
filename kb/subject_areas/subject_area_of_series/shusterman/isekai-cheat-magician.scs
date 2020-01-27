@@ -1,0 +1,64 @@
+
+                  concept_series -> Isekai_Cheat_Magician;;
+              
+                  Isekai_Cheat_Magician
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Isekai_Cheat_Magician]
+                    (* <- lang_ru;;	*);
+                    [Isekai_Cheat_Magician]
+                    (* <- lang_en;;	*);;
+                  
+                  Isekai_Cheat_Magician <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Isekai_Cheat_Magician)](*<-lang_ru;;*);
+                      [Description (Isekai_Cheat_Magician)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Isekai_Cheat_Magician_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Isekai_Cheat_Magician_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Isekai_Cheat_Magician <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Isekai_Cheat_Magician)](*<-lang_ru;;*);
+                      [Pic. (Isekai_Cheat_Magician)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Isekai_Cheat_Magician.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Isekai_Cheat_Magician => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Isekai_Cheat_Magician => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Isekai_Cheat_Magician => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  Isekai_Cheat_Magician => nrel_num_of_episodes: 12;;
+                  
+                  value -> 6;;
+                  Isekai_Cheat_Magician => nrel_no_countries : 6;;
+                  
+                  value -> 4;;
+                  Isekai_Cheat_Magician => nrel_viewers_in_millions: 4;;
+                  
+                  Isekai_Cheat_Magician => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Isekai_Cheat_Magician
+                  =>nrel_keywords: concept_detectif;;
+                  

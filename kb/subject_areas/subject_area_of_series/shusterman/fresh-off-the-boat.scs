@@ -1,0 +1,88 @@
+
+                  concept_series -> Fresh_Off_the_Boat;;
+              
+                  Fresh_Off_the_Boat
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Fresh_Off_the_Boat]
+                    (* <- lang_ru;;	*);
+                    [Fresh_Off_the_Boat]
+                    (* <- lang_en;;	*);;
+                  
+                  Fresh_Off_the_Boat <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Fresh_Off_the_Boat)](*<-lang_ru;;*);
+                      [Description (Fresh_Off_the_Boat)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Fresh_Off_the_Boat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Fresh_Off_the_Boat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Fresh_Off_the_Boat <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Fresh_Off_the_Boat)](*<-lang_ru;;*);
+                      [Pic. (Fresh_Off_the_Boat)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Fresh_Off_the_Boat.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Fresh_Off_the_Boat => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Fresh_Off_the_Boat => nrel_production_year : 2015;;
+                  
+                  value -> 6;;
+                  Fresh_Off_the_Boat => nrel_num_of_seasons: 6;;
+                  value -> 111;;
+                  Fresh_Off_the_Boat => nrel_num_of_episodes: 111;;
+                  
+                  value -> 12;;
+                  Fresh_Off_the_Boat => nrel_no_countries : 12;;
+                  
+                  value -> 11;;
+                  Fresh_Off_the_Boat => nrel_viewers_in_millions: 11;;
+                  
+                  Fresh_Off_the_Boat => nrel_age_rating: concept_PG12;;
+                  
+                    Fresh_Off_the_Boat => nrel_actor : HudsonYang;;
+                    
+                   
+                    Fresh_Off_the_Boat => nrel_actor : RandallPark;;
+                    
+                   
+                    Fresh_Off_the_Boat => nrel_actor : ConstanceWu;;
+                    
+                   
+                    Fresh_Off_the_Boat => nrel_actor : IanChen;;
+                    
+                   
+                    Fresh_Off_the_Boat => nrel_actor : ForrestWheeler;;
+                    
+                   
+                    Fresh_Off_the_Boat => nrel_actor : LucilleSoong;;
+                    
+                   
+                    Fresh_Off_the_Boat => nrel_actor : ChelseyCrisp;;
+                    
+                   
+                    Fresh_Off_the_Boat => nrel_actor : RayWise;;
+                    
+                  
+                  
+                  Fresh_Off_the_Boat
+                  =>nrel_keywords: concept_detectif;;
+                  

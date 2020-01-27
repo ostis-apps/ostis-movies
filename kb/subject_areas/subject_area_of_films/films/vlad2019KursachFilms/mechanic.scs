@@ -1,0 +1,73 @@
+concept_film -> Mechanic;;
+
+Mechanic
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Механик]
+	(* <- lang_ru;;	*);
+	[Mechanic]
+	(* <- lang_en;;	*);;
+	
+Mechanic <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Механик)](*<-lang_ru;;*);
+		[Description (Mechanic)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/mechanic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/mechanic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Mechanic <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Механик)](*<-lang_ru;;*);
+		[Pic. (Mechanic)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/mechanic.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Mechanic => nrel_producing_country : Usa;;
+
+concept_calendar_date -> 27_01_2011;;
+27_01_2011 => nrel_main_idtf : [27.01.2011](*<-lang_ru;;*);;
+27_01_2011 => nrel_main_idtf : [27.01.2011](*<-lang_en;;*);;
+Mechanic => nrel_release_date : 27_01_2011;;
+
+Mechanic => nrel_tagline_of_film : slogan_Mechanic;;
+slogan_Mechanic => nrel_main_idtf : [Кто-то должен решать проблемы](*<-lang_ru;;*);;
+slogan_Mechanic => nrel_main_idtf : [Someone has to fix problems](*<-lang_en;;*);;
+
+Mechanic => nrel_duration_of_showing : 1_29;;
+
+duration -> 1_29;;
+1_29 => nrel_main_idtf : [1 час и 29 минут](*<-lang_ru;;*);;
+1_29 => nrel_main_idtf : [1 hour and 29 minutes](*<-lang_en;;*);;
+
+value -> 76_129_642;;
+76_129_642 => nrel_main_idtf : [76 129 642$](*<-lang_ru;;*);;
+76_129_642 => nrel_main_idtf : [76 129 642$](*<-lang_en;;*);;
+Mechanic <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 76_129_642;;   
+*);;
+
+value -> 9;;
+Mechanic => nrel_film_critic_rating : 9;;
+
+Mechanic =>nrel_keywords: action;thriller;drama;;
+Mechanic =>nrel_age_rating: concept_PG12;;
+
+Mechanic => nrel_main_actor : Stathem;Foster;;
+Mechanic => nrel_producer : Besson;;
+Mechanic => nrel_screenwriter : Yank;;
+

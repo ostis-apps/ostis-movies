@@ -1,0 +1,26 @@
+concept_film_The_Fifth_Element
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пятый элемент](* <- lang_ru;; *);
+	[The Fifth Element](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Пятый элемент)](*<-lang_ru;;*);
+		[Description (The Fifth Element)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Пятый элемент.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/The Fifth Element.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_future;
+=> nrel_keywords: concept_evil;
+=> nrel_age_rating: concept_PG16;;

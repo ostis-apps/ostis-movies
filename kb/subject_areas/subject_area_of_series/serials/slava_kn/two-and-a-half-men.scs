@@ -1,0 +1,97 @@
+
+                  concept_series -> Two_and_a_Half_Men;;
+              
+                  Two_and_a_Half_Men
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Два с половиной человека]
+                    (* <- lang_ru;;	*);
+                    [Two_and_a_Half_Men]
+                    (* <- lang_en;;	*);;
+                  
+                  Two_and_a_Half_Men <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Два с половиной человека)](*<-lang_ru;;*);
+                      [Description (Two_and_a_Half_Men)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Two_and_a_Half_Men_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Two_and_a_Half_Men_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Two_and_a_Half_Men <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Два с половиной человека)](*<-lang_ru;;*);
+                      [Pic. (Two_and_a_Half_Men)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Two_and_a_Half_Men.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Two_and_a_Half_Men => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2003;;
+                  2003 => nrel_main_idtf : [2003 год](*<-lang_ru;;*);;
+                  2003 => nrel_main_idtf : [year of 2003](*<-lang_en;;*);;
+                  Two_and_a_Half_Men => nrel_production_year : 2003;;
+                  
+                  value -> 12;;
+                  Two_and_a_Half_Men => nrel_num_of_seasons: 12;;
+                  value -> 262;;
+                  Two_and_a_Half_Men => nrel_num_of_episodes: 262;;
+                  
+                  value -> 12;;
+                  Two_and_a_Half_Men => nrel_no_countries : 12;;
+                  
+                  value -> 4;;
+                  Two_and_a_Half_Men => nrel_viewers_in_millions: 4;;
+                  
+                  Two_and_a_Half_Men => nrel_age_rating: concept_PG12;;
+                  
+                    Two_and_a_Half_Men => nrel_actor : JonCryer;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : AngusTJones;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : ConchataFerrell;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : CharlieSheen;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : HollandTaylor;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : AshtonKutcher;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : MarinHinkle;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : MelanieLynskey;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : JenniferTaylor;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : AmberTamblyn;;
+                    
+                   
+                    Two_and_a_Half_Men => nrel_actor : AprilBowlby;;
+                    
+                  
+                  
+                  Two_and_a_Half_Men
+                  =>nrel_keywords: concept_detectif;;
+                  

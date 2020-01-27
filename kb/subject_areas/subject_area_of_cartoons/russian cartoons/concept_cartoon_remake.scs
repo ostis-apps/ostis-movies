@@ -1,0 +1,25 @@
+concept_cartoon_remake
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[мультфильм-ремейк](*<-lang_ru;;*);
+	[cartoon remake](*<-lang_en;;*);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (мультфильм-ремейк)](*<-lang_ru;;*);
+		[Def. (cartoon remake)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/cartoon remake_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/cartoon remake_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+	
+<=nrel_inclusion:concept_cartoon;;

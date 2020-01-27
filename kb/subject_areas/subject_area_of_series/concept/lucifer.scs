@@ -1,0 +1,100 @@
+
+                  concept_series -> Lucifer;;
+              
+                  Lucifer
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Люцифер]
+                    (* <- lang_ru;;	*);
+                    [Lucifer]
+                    (* <- lang_en;;	*);;
+                  
+                  Lucifer <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Люцифер)](*<-lang_ru;;*);
+                      [Description (Lucifer)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Lucifer_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Lucifer_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Lucifer <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Люцифер)](*<-lang_ru;;*);
+                      [Pic. (Lucifer)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Lucifer.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Lucifer => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Lucifer => nrel_production_year : 2016;;
+                  
+                  value -> 5;;
+                  Lucifer => nrel_num_of_seasons: 5;;
+                  value -> 73;;
+                  Lucifer => nrel_num_of_episodes: 73;;
+                  
+                  value -> 5;;
+                  Lucifer => nrel_no_countries : 5;;
+                  
+                  value -> 5;;
+                  Lucifer => nrel_viewers_in_millions: 5;;
+                  
+                  Lucifer => nrel_age_rating: concept_PG12;;
+                  
+                    Lucifer => nrel_actor : KevinAlejandro;;
+                    
+                   
+                    Lucifer => nrel_actor : TomEllis;;
+                    
+                   
+                    Lucifer => nrel_actor : LaurenGerman;;
+                    
+                   
+                    Lucifer => nrel_actor : LesleyAnnBrandt;;
+                    
+                   
+                    Lucifer => nrel_actor : RachaelHarris;;
+                    
+                   
+                    Lucifer => nrel_actor : DBWoodside;;
+                    
+                   
+                    Lucifer => nrel_actor : AimeeGarcia;;
+                    
+                   
+                    Lucifer => nrel_actor : TriciaHelfer;;
+                    
+                   
+                    Lucifer => nrel_actor : ScarlettEstevez;;
+                    
+                   
+                    Lucifer => nrel_actor : TomWelling;;
+                    
+                   
+                    Lucifer => nrel_actor : InbarLavi;;
+                    
+                   
+                    Lucifer => nrel_actor : KevinRankin;;
+                    
+                  
+                  
+                  Lucifer
+                  =>nrel_keywords: concept_detectif;;
+                  

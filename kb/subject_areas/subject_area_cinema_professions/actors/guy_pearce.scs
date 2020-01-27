@@ -1,0 +1,51 @@
+concept_human -> guy_pearce;;
+ 
+ guy_pearce <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Гай Пирс)](*<-lang_ru;;*);
+ 		[Description (Guy Pearce)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/guy_pearce_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ guy_pearce <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Гай Пирс)](*<-lang_ru;;*);
+ 		[Pic. (Guy Pearce)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/guy_pearce.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ guy_pearce => nrel_main_idtf : [Гай Пирс](*<-lang_ru;;*);;
+ guy_pearce => nrel_main_idtf : [Guy Pearce](*<-lang_en;;*);;
+ 
+ 
+ guy_pearce => nrel_birth_date : 1967;;
+ 
+ concept_goverment -> UK;;
+ guy_pearce => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ guy_pearce => nrel_to_star_in : iron_man_3;;
+iron_man_3 => nrel_main_idtf : [Iron Man 3](*<-lang_en;;*);;
+iron_man_3 => nrel_main_idtf : [Железный человек 3](*<-lang_ru;;*);;
+guy_pearce => nrel_to_star_in : lawless;;
+lawless => nrel_main_idtf : [Lawless](*<-lang_en;;*);;
+lawless => nrel_main_idtf : [Самый пьяный округ в мире](*<-lang_ru;;*);;
+guy_pearce => nrel_to_star_in : memento;;
+memento => nrel_main_idtf : [Memento](*<-lang_en;;*);;
+memento => nrel_main_idtf : [Помни](*<-lang_ru;;*);;
+

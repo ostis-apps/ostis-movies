@@ -1,0 +1,45 @@
+concept_human -> hero_fiennes_tiffin;;
+ 
+ hero_fiennes_tiffin <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Тиффин)](*<-lang_ru;;*);
+ 		[Description (Hero Fiennes Tiffin)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/hero_fiennes_tiffin_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ hero_fiennes_tiffin <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Тиффин)](*<-lang_ru;;*);
+ 		[Pic. (Hero Fiennes Tiffin)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/hero_fiennes_tiffin.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ hero_fiennes_tiffin => nrel_main_idtf : [Тиффин](*<-lang_ru;;*);;
+ hero_fiennes_tiffin => nrel_main_idtf : [Hero Fiennes Tiffin](*<-lang_en;;*);;
+ 
+ 
+ hero_fiennes_tiffin => nrel_birth_date : 1997;;
+ 
+ concept_goverment -> UK;;
+ hero_fiennes_tiffin => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ hero_fiennes_tiffin => nrel_to_star_in : harry_potter_and_the_halfblood_prince;;
+harry_potter_and_the_halfblood_prince => nrel_main_idtf : [Harry Potter and the Half-Blood Prince](*<-lang_en;;*);;
+harry_potter_and_the_halfblood_prince => nrel_main_idtf : [Гарри Поттер и Принц-полукровка](*<-lang_ru;;*);;
+

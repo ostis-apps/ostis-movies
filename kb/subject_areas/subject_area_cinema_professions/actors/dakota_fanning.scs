@@ -1,0 +1,48 @@
+concept_human -> dakota_fanning;;
+ 
+ dakota_fanning <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Дакота Фаннинг)](*<-lang_ru;;*);
+ 		[Description (Dakota Fanning)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/dakota_fanning_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ dakota_fanning <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Дакота Фаннинг)](*<-lang_ru;;*);
+ 		[Pic. (Dakota Fanning)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/dakota_fanning.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ dakota_fanning => nrel_main_idtf : [Дакота Фаннинг](*<-lang_ru;;*);;
+ dakota_fanning => nrel_main_idtf : [Dakota Fanning](*<-lang_en;;*);;
+ 
+ 
+ dakota_fanning => nrel_birth_date : 1994;;
+ 
+ concept_goverment -> Usa;;
+ dakota_fanning => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ dakota_fanning => nrel_to_star_in : once_upon_a_time__in_hollywood;;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Once Upon a Time ... in Hollywood](*<-lang_en;;*);;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Однажды… в Голливуде](*<-lang_ru;;*);;
+dakota_fanning => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+

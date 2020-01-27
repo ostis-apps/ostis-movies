@@ -1,0 +1,32 @@
+concept_dresser <- sc_node_norole_relation;
+
+
+=> nrel_main_idtf:
+    [dresser](*<- lang_en;;*);
+    [костюмеp](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (костюмер)](*<- lang_ru;;*);
+        [Def. (dresser)](*<- lang_en;;*);;
+     <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_dresser_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_dresser_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (костюмер)](*<-lang_ru;;*);
+		    [Pic. (dresser)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/DRESSER.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

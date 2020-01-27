@@ -1,0 +1,118 @@
+
+                  concept_series -> Van_Helsing;;
+              
+                  Van_Helsing
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Van_Helsing]
+                    (* <- lang_ru;;	*);
+                    [Van_Helsing]
+                    (* <- lang_en;;	*);;
+                  
+                  Van_Helsing <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Van_Helsing)](*<-lang_ru;;*);
+                      [Description (Van_Helsing)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Van_Helsing_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Van_Helsing_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Van_Helsing <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Van_Helsing)](*<-lang_ru;;*);
+                      [Pic. (Van_Helsing)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Van_Helsing.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Van_Helsing => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Van_Helsing => nrel_production_year : 2016;;
+                  
+                  value -> 4;;
+                  Van_Helsing => nrel_num_of_seasons: 4;;
+                  value -> 52;;
+                  Van_Helsing => nrel_num_of_episodes: 52;;
+                  
+                  value -> 8;;
+                  Van_Helsing => nrel_no_countries : 8;;
+                  
+                  value -> 12;;
+                  Van_Helsing => nrel_viewers_in_millions: 12;;
+                  
+                  Van_Helsing => nrel_age_rating: concept_PG12;;
+                  
+                    Van_Helsing => nrel_actor : KellyOverton;;
+                    
+                   
+                    Van_Helsing => nrel_actor : JonathanScarfe;;
+                    
+                   
+                    Van_Helsing => nrel_actor : AleksPaunovic;;
+                    
+                   
+                    Van_Helsing => nrel_actor : VincentGale;;
+                    
+                   
+                    Van_Helsing => nrel_actor : ChristopherHeyerdahl;;
+                    
+                   
+                    Van_Helsing => nrel_actor : RukiyaBernard;;
+                    
+                   
+                    Van_Helsing => nrel_actor : TrezzoMahoro;;
+                    
+                   
+                    Van_Helsing => nrel_actor : PaulJohansson;;
+                    
+                   
+                    Van_Helsing => nrel_actor : CarolineCave;;
+                    
+                   
+                    Van_Helsing => nrel_actor : DavidCubitt;;
+                    
+                   
+                    Van_Helsing => nrel_actor : LauraMennell;;
+                    
+                   
+                    Van_Helsing => nrel_actor : KeeyaKing;;
+                    
+                   
+                    Van_Helsing => nrel_actor : NicoleMuoz;;
+                    
+                   
+                    Van_Helsing => nrel_actor : NealMcDonough;;
+                    
+                   
+                    Van_Helsing => nrel_actor : JohnCassini;;
+                    
+                   
+                    Van_Helsing => nrel_actor : TimGuinee;;
+                    
+                   
+                    Van_Helsing => nrel_actor : TomCavanagh;;
+                    
+                   
+                    Van_Helsing => nrel_actor : TriciaHelfer;;
+                    
+                  
+                  
+                  Van_Helsing
+                  =>nrel_keywords: concept_detectif;;
+                  

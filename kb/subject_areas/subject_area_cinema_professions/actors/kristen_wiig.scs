@@ -1,0 +1,51 @@
+concept_human -> kristen_wiig;;
+ 
+ kristen_wiig <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристен Уиг)](*<-lang_ru;;*);
+ 		[Description (Kristen Wiig)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kristen_wiig_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kristen_wiig <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристен Уиг)](*<-lang_ru;;*);
+ 		[Pic. (Kristen Wiig)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kristen_wiig.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kristen_wiig => nrel_main_idtf : [Кристен Уиг](*<-lang_ru;;*);;
+ kristen_wiig => nrel_main_idtf : [Kristen Wiig](*<-lang_en;;*);;
+ 
+ 
+ kristen_wiig => nrel_birth_date : 1973;;
+ 
+ concept_goverment -> Usa;;
+ kristen_wiig => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kristen_wiig => nrel_to_star_in : mother;;
+mother => nrel_main_idtf : [mother!](*<-lang_en;;*);;
+mother => nrel_main_idtf : [мама!](*<-lang_ru;;*);;
+kristen_wiig => nrel_to_star_in : ghostbusters;;
+ghostbusters => nrel_main_idtf : [Ghostbusters](*<-lang_en;;*);;
+ghostbusters => nrel_main_idtf : [Охотники за привидениями](*<-lang_ru;;*);;
+kristen_wiig => nrel_to_star_in : her;;
+her => nrel_main_idtf : [Her](*<-lang_en;;*);;
+her => nrel_main_idtf : [Она](*<-lang_ru;;*);;
+

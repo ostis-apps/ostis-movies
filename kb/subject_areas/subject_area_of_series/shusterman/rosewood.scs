@@ -1,0 +1,85 @@
+
+                  concept_series -> Rosewood;;
+              
+                  Rosewood
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [розовое дерево]
+                    (* <- lang_ru;;	*);
+                    [Rosewood]
+                    (* <- lang_en;;	*);;
+                  
+                  Rosewood <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (розовое дерево)](*<-lang_ru;;*);
+                      [Description (Rosewood)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Rosewood_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Rosewood_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Rosewood <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (розовое дерево)](*<-lang_ru;;*);
+                      [Pic. (Rosewood)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Rosewood.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Rosewood => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Rosewood => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  Rosewood => nrel_num_of_seasons: 2;;
+                  value -> 44;;
+                  Rosewood => nrel_num_of_episodes: 44;;
+                  
+                  value -> 10;;
+                  Rosewood => nrel_no_countries : 10;;
+                  
+                  value -> 5;;
+                  Rosewood => nrel_viewers_in_millions: 5;;
+                  
+                  Rosewood => nrel_age_rating: concept_PG12;;
+                  
+                    Rosewood => nrel_actor : MorrisChestnut;;
+                    
+                   
+                    Rosewood => nrel_actor : GabrielleDennis;;
+                    
+                   
+                    Rosewood => nrel_actor : JainaLeeOrtiz;;
+                    
+                   
+                    Rosewood => nrel_actor : AnnaKonkle;;
+                    
+                   
+                    Rosewood => nrel_actor : DomenickLombardozzi;;
+                    
+                   
+                    Rosewood => nrel_actor : LorraineToussaint;;
+                    
+                   
+                    Rosewood => nrel_actor : EddieCibrian;;
+                    
+                  
+                  
+                  Rosewood
+                  =>nrel_keywords: concept_detectif;;
+                  

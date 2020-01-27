@@ -1,0 +1,36 @@
+concept_animation_film
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[анимационный фильм](*<-lang_ru;;*);
+	[animation film](*<-lang_en;;*);
+=>nrel_idtf:
+	[анимационное кино](*<-lang_ru;;*);
+	[animation movie](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (анимационный фильм)](*<-lang_ru;;*);
+		[Def. (animation film)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_animation_film_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_animation_film_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (анимационный фильм)](*<-lang_ru;;*);
+		[Pic. (animation film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_animation_film.png"(*=>nrel_format:format_png;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_film;;	

@@ -1,0 +1,67 @@
+film_222_2008
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[2:22]
+(* <- lang_ru;;    *);
+[2:22]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (2:22)](*<-lang_ru;;*);
+[Description (2:22)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/222-2008_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/222-2008_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (2:22)](*<-lang_ru;;*);
+		[Pic. (2:22)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/222-2008.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : canada;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The plan was simple... the events that followed were not. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [24.09.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [24.09.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H44M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H44M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_222_2008 =>nrel_keywords: film;;
+
+film_222_2008 <- concept_crime;concept_drama;concept_thriller;;
+
+film_222_2008 => nrel_main_actor : mick_rossi;robert_miano;aaron_gallagher;jorge_a._jimenez;;
+film_222_2008 => nrel_producer : phillip_guzman;;

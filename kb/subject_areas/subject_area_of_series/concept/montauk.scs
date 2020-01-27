@@ -1,0 +1,76 @@
+
+                  concept_series -> MolTalk;;
+              
+                  MolTalk
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [MolTalk]
+                    (* <- lang_ru;;	*);
+                    [MolTalk]
+                    (* <- lang_en;;	*);;
+                  
+                  MolTalk <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (MolTalk)](*<-lang_ru;;*);
+                      [Description (MolTalk)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/MolTalk_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/MolTalk_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  MolTalk <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (MolTalk)](*<-lang_ru;;*);
+                      [Pic. (MolTalk)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/MolTalk.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  MolTalk => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  MolTalk => nrel_production_year : 2016;;
+                  
+                  value -> 4;;
+                  MolTalk => nrel_num_of_seasons: 4;;
+                  value -> 32;;
+                  MolTalk => nrel_num_of_episodes: 32;;
+                  
+                  value -> 3;;
+                  MolTalk => nrel_no_countries : 3;;
+                  
+                  value -> 10;;
+                  MolTalk => nrel_viewers_in_millions: 10;;
+                  
+                  MolTalk => nrel_age_rating: concept_PG12;;
+                  
+                    MolTalk => nrel_actor : ViviennevandenAssem;;
+                    
+                   
+                    MolTalk => nrel_actor : RikvandeWestelaken;;
+                    
+                   
+                    MolTalk => nrel_actor : ChrisZegers;;
+                    
+                   
+                    MolTalk => nrel_actor : MargrietvanderLinden;;
+                    
+                  
+                  
+                  MolTalk
+                  =>nrel_keywords: concept_detectif;;
+                  

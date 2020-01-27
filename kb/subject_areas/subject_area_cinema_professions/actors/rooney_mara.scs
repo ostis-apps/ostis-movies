@@ -1,0 +1,51 @@
+concept_human -> rooney_mara;;
+ 
+ rooney_mara <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Руни Мара)](*<-lang_ru;;*);
+ 		[Description (Rooney Mara)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/rooney_mara_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ rooney_mara <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Руни Мара)](*<-lang_ru;;*);
+ 		[Pic. (Rooney Mara)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/rooney_mara.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ rooney_mara => nrel_main_idtf : [Руни Мара](*<-lang_ru;;*);;
+ rooney_mara => nrel_main_idtf : [Rooney Mara](*<-lang_en;;*);;
+ 
+ 
+ rooney_mara => nrel_birth_date : 1985;;
+ 
+ concept_goverment -> Usa;;
+ rooney_mara => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ rooney_mara => nrel_to_star_in : mary_magdalene;;
+mary_magdalene => nrel_main_idtf : [Mary Magdalene](*<-lang_en;;*);;
+mary_magdalene => nrel_main_idtf : [Мария Магдалина](*<-lang_ru;;*);;
+rooney_mara => nrel_to_star_in : dont_worry_he_wont_get_far_on_foot;;
+dont_worry_he_wont_get_far_on_foot => nrel_main_idtf : [Don't Worry, He Won't Get Far on Foot](*<-lang_en;;*);;
+dont_worry_he_wont_get_far_on_foot => nrel_main_idtf : [Не волнуйся, он далеко не уйдет](*<-lang_ru;;*);;
+rooney_mara => nrel_to_star_in : her;;
+her => nrel_main_idtf : [Her](*<-lang_en;;*);;
+her => nrel_main_idtf : [Она](*<-lang_ru;;*);;
+

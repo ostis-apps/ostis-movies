@@ -1,0 +1,54 @@
+concept_human -> michelle_williams;;
+ 
+ michelle_williams <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мишель Уильямс)](*<-lang_ru;;*);
+ 		[Description (Michelle Williams)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/michelle_williams_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ michelle_williams <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мишель Уильямс)](*<-lang_ru;;*);
+ 		[Pic. (Michelle Williams)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/michelle_williams.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ michelle_williams => nrel_main_idtf : [Мишель Уильямс](*<-lang_ru;;*);;
+ michelle_williams => nrel_main_idtf : [Michelle Williams](*<-lang_en;;*);;
+ 
+ 
+ michelle_williams => nrel_birth_date : 1980;;
+ 
+ concept_goverment -> Usa;;
+ michelle_williams => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ michelle_williams => nrel_to_star_in : venom;;
+venom => nrel_main_idtf : [Venom](*<-lang_en;;*);;
+venom => nrel_main_idtf : [Веном](*<-lang_ru;;*);;
+michelle_williams => nrel_to_star_in : shutter_island;;
+shutter_island => nrel_main_idtf : [Shutter Island](*<-lang_en;;*);;
+shutter_island => nrel_main_idtf : [Остров проклятых](*<-lang_ru;;*);;
+michelle_williams => nrel_to_star_in : blue_valentine;;
+blue_valentine => nrel_main_idtf : [Blue Valentine](*<-lang_en;;*);;
+blue_valentine => nrel_main_idtf : [Валентинка](*<-lang_ru;;*);;
+michelle_williams => nrel_to_star_in : brokeback_mountain;;
+brokeback_mountain => nrel_main_idtf : [Brokeback Mountain](*<-lang_en;;*);;
+brokeback_mountain => nrel_main_idtf : [Горбатая гора](*<-lang_ru;;*);;
+

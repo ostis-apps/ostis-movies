@@ -1,0 +1,81 @@
+concept_human -> ryan_gosling;;
+ 
+ ryan_gosling <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Райан Гослинг)](*<-lang_ru;;*);
+ 		[Description (Ryan Gosling)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ryan_gosling_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ryan_gosling <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Райан Гослинг)](*<-lang_ru;;*);
+ 		[Pic. (Ryan Gosling)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ryan_gosling.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ryan_gosling => nrel_main_idtf : [Райан Гослинг](*<-lang_ru;;*);;
+ ryan_gosling => nrel_main_idtf : [Ryan Gosling](*<-lang_en;;*);;
+ 
+ 
+ ryan_gosling => nrel_birth_date : 1980;;
+ 
+ concept_goverment -> Canada;;
+ ryan_gosling => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ ryan_gosling => nrel_to_star_in : first_man;;
+first_man => nrel_main_idtf : [First Man](*<-lang_en;;*);;
+first_man => nrel_main_idtf : [Человек на Луне](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : blade_runner_2049;;
+blade_runner_2049 => nrel_main_idtf : [Blade Runner 2049](*<-lang_en;;*);;
+blade_runner_2049 => nrel_main_idtf : [Бегущий по лезвию 2049](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : the_nice_guys;;
+the_nice_guys => nrel_main_idtf : [The Nice Guys](*<-lang_en;;*);;
+the_nice_guys => nrel_main_idtf : [Славные парни](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : la_la_land;;
+la_la_land => nrel_main_idtf : [La La Land](*<-lang_en;;*);;
+la_la_land => nrel_main_idtf : [Ла-Ла Ленд](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : the_big_short;;
+the_big_short => nrel_main_idtf : [The Big Short](*<-lang_en;;*);;
+the_big_short => nrel_main_idtf : [Игра на понижение](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : gangster_squad;;
+gangster_squad => nrel_main_idtf : [Gangster Squad](*<-lang_en;;*);;
+gangster_squad => nrel_main_idtf : [Охотники на гангстеров](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : the_place_beyond_the_pines;;
+the_place_beyond_the_pines => nrel_main_idtf : [The Place Beyond the Pines](*<-lang_en;;*);;
+the_place_beyond_the_pines => nrel_main_idtf : [Место под соснами](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : the_ides_of_march;;
+the_ides_of_march => nrel_main_idtf : [The Ides of March](*<-lang_en;;*);;
+the_ides_of_march => nrel_main_idtf : [Мартовские иды](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : blue_valentine;;
+blue_valentine => nrel_main_idtf : [Blue Valentine](*<-lang_en;;*);;
+blue_valentine => nrel_main_idtf : [Валентинка](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : fracture;;
+fracture => nrel_main_idtf : [Fracture](*<-lang_en;;*);;
+fracture => nrel_main_idtf : [Перелом](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : half_nelson;;
+half_nelson => nrel_main_idtf : [Half Nelson](*<-lang_en;;*);;
+half_nelson => nrel_main_idtf : [Полу-Нельсон](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : stay;;
+stay => nrel_main_idtf : [Stay](*<-lang_en;;*);;
+stay => nrel_main_idtf : [Останься](*<-lang_ru;;*);;
+ryan_gosling => nrel_to_star_in : the_notebook;;
+the_notebook => nrel_main_idtf : [The Notebook](*<-lang_en;;*);;
+the_notebook => nrel_main_idtf : [Дневник памяти](*<-lang_ru;;*);;
+

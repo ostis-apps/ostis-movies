@@ -1,0 +1,169 @@
+
+                  concept_series -> Peaky_Blinders;;
+              
+                  Peaky_Blinders
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Peaky_Blinders]
+                    (* <- lang_ru;;	*);
+                    [Peaky_Blinders]
+                    (* <- lang_en;;	*);;
+                  
+                  Peaky_Blinders <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Peaky_Blinders)](*<-lang_ru;;*);
+                      [Description (Peaky_Blinders)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Peaky_Blinders_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Peaky_Blinders_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Peaky_Blinders <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Peaky_Blinders)](*<-lang_ru;;*);
+                      [Pic. (Peaky_Blinders)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Peaky_Blinders.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Peaky_Blinders => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Peaky_Blinders => nrel_production_year : 2013;;
+                  
+                  value -> 5;;
+                  Peaky_Blinders => nrel_num_of_seasons: 5;;
+                  value -> 30;;
+                  Peaky_Blinders => nrel_num_of_episodes: 30;;
+                  
+                  value -> 4;;
+                  Peaky_Blinders => nrel_no_countries : 4;;
+                  
+                  value -> 8;;
+                  Peaky_Blinders => nrel_viewers_in_millions: 8;;
+                  
+                  Peaky_Blinders => nrel_age_rating: concept_PG12;;
+                  
+                    Peaky_Blinders => nrel_actor : CillianMurphy;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : HelenMcCrory;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : PaulAnderson;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : SophieRundle;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : NedDennehy;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : FinnCole;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : IanPeck;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : NatashaOKeeffe;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : JoeCole;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : PackyLee;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : AnnabelleWallis;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : AimeeFfionEdwards;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : KatePhillips;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : BenjaminZephaniah;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : SamNeill;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : TomHardy;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : AidanGillen;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : CharlieMurphy;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : NeilMaskell;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : GaiteJansen;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : CharlotteRiley;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : SamClaflin;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : AdrienBrody;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : NoahTaylor;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : AnyaTaylorJoy;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : AlexanderSiddig;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : KingsleyBenAdir;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : JackRowan;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : BrianGleeson;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : PaddyConsidine;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : JanBijvoet;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : DinaKorzun;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : CosmoJarvis;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : AndrewKoji;;
+                    
+                   
+                    Peaky_Blinders => nrel_actor : KateDickie;;
+                    
+                  
+                  
+                  Peaky_Blinders
+                  =>nrel_keywords: concept_detectif;;
+                  

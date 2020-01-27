@@ -1,0 +1,67 @@
+film_amerikanskiy_pirog_3_svadba_2003
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американский пирог 3: Свадьба]
+(* <- lang_ru;;    *);
+[American Wedding]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американский пирог 3: Свадьба)](*<-lang_ru;;*);
+[Description (American Wedding)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskiy-pirog-3-svadba-2003_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskiy-pirog-3-svadba-2003_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американский пирог 3: Свадьба)](*<-lang_ru;;*);
+		[Pic. (American Wedding)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskiy-pirog-3-svadba-2003.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;germany;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Forever hold your piece. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [01.08.2003](*<-lang_ru;;*);;
+    => nrel_main_idtf : [01.08.2003](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H36M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H36M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_amerikanskiy_pirog_3_svadba_2003 =>nrel_keywords: film;;
+
+film_amerikanskiy_pirog_3_svadba_2003 <- concept_comedy;;
+
+film_amerikanskiy_pirog_3_svadba_2003 => nrel_main_actor : jason_biggs;alyson_hannigan;seann_william_scott;eugene_levy;;
+film_amerikanskiy_pirog_3_svadba_2003 => nrel_producer : jesse_dylan;;

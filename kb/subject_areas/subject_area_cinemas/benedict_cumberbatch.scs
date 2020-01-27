@@ -1,0 +1,10 @@
+benedict_cumberbatch
+=> nrel_main_idtf:
+	[Бенедикт Камбербэтч]
+	(* <- lang_ru;;	*);
+	[Benedict Cumberbatch]
+	(* <- lang_en;;	*);
+<- concept_human;
+<= nrel_actor_of_genre: concept_drama;
+<= nrel_actor_of_genre: concept_comedy;
+<= nrel_actor_of_genre: concept_biopic;;

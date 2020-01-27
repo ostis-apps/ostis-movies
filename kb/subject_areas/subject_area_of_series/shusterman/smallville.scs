@@ -1,0 +1,115 @@
+
+                  concept_series -> Smallville;;
+              
+                  Smallville
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Smallville]
+                    (* <- lang_ru;;	*);
+                    [Smallville]
+                    (* <- lang_en;;	*);;
+                  
+                  Smallville <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Smallville)](*<-lang_ru;;*);
+                      [Description (Smallville)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Smallville_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Smallville_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Smallville <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Smallville)](*<-lang_ru;;*);
+                      [Pic. (Smallville)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Smallville.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Smallville => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2001;;
+                  2001 => nrel_main_idtf : [2001 год](*<-lang_ru;;*);;
+                  2001 => nrel_main_idtf : [year of 2001](*<-lang_en;;*);;
+                  Smallville => nrel_production_year : 2001;;
+                  
+                  value -> 10;;
+                  Smallville => nrel_num_of_seasons: 10;;
+                  value -> 217;;
+                  Smallville => nrel_num_of_episodes: 217;;
+                  
+                  value -> 14;;
+                  Smallville => nrel_no_countries : 14;;
+                  
+                  value -> 4;;
+                  Smallville => nrel_viewers_in_millions: 4;;
+                  
+                  Smallville => nrel_age_rating: concept_PG12;;
+                  
+                    Smallville => nrel_actor : TomWelling;;
+                    
+                   
+                    Smallville => nrel_actor : AllisonMack;;
+                    
+                   
+                    Smallville => nrel_actor : MichaelRosenbaum;;
+                    
+                   
+                    Smallville => nrel_actor : KristinKreuk;;
+                    
+                   
+                    Smallville => nrel_actor : AnnetteOToole;;
+                    
+                   
+                    Smallville => nrel_actor : EricaDurance;;
+                    
+                   
+                    Smallville => nrel_actor : JohnSchneider;;
+                    
+                   
+                    Smallville => nrel_actor : JohnGlover;;
+                    
+                   
+                    Smallville => nrel_actor : SamJonesIII;;
+                    
+                   
+                    Smallville => nrel_actor : JustinHartley;;
+                    
+                   
+                    Smallville => nrel_actor : CassidyFreeman;;
+                    
+                   
+                    Smallville => nrel_actor : AaronAshmore;;
+                    
+                   
+                    Smallville => nrel_actor : EricJohnson;;
+                    
+                   
+                    Smallville => nrel_actor : JensenAckles;;
+                    
+                   
+                    Smallville => nrel_actor : LauraVandervoort;;
+                    
+                   
+                    Smallville => nrel_actor : CallumBlue;;
+                    
+                   
+                    Smallville => nrel_actor : SamWitwer;;
+                    
+                  
+                  
+                  Smallville
+                  =>nrel_keywords: concept_detectif;;
+                  

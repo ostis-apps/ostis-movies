@@ -1,0 +1,27 @@
+concept_drama <- sc_node_not_relation;
+
+ => nrel_main_idtf:[драма] (* <- lang_ru;; *);
+ => nrel_idtf:[drama] (* <- lang_en;; *);
+
+ <- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (драма)] (* <- lang_ru;; *);
+							   [Def. (drama)] (* <- lang_ru;; *);;
+			<=nrel_using_constants:
+			{
+				concept_genre;
+				concept_cinematography
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_drama_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_drama_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+ <= nrel_inclusion: concept_genre;
+
+ => nrel_inclusion: concept_melodrama;
+ => nrel_inclusion: concept_psyhodrama;;
+

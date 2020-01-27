@@ -1,0 +1,97 @@
+
+                  concept_series -> Chuck;;
+              
+                  Chuck
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [цыпленок]
+                    (* <- lang_ru;;	*);
+                    [Chuck]
+                    (* <- lang_en;;	*);;
+                  
+                  Chuck <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (цыпленок)](*<-lang_ru;;*);
+                      [Description (Chuck)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Chuck_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Chuck_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Chuck <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (цыпленок)](*<-lang_ru;;*);
+                      [Pic. (Chuck)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Chuck.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Chuck => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2007;;
+                  2007 => nrel_main_idtf : [2007 год](*<-lang_ru;;*);;
+                  2007 => nrel_main_idtf : [year of 2007](*<-lang_en;;*);;
+                  Chuck => nrel_production_year : 2007;;
+                  
+                  value -> 5;;
+                  Chuck => nrel_num_of_seasons: 5;;
+                  value -> 91;;
+                  Chuck => nrel_num_of_episodes: 91;;
+                  
+                  value -> 9;;
+                  Chuck => nrel_no_countries : 9;;
+                  
+                  value -> 5;;
+                  Chuck => nrel_viewers_in_millions: 5;;
+                  
+                  Chuck => nrel_age_rating: concept_PG12;;
+                  
+                    Chuck => nrel_actor : YvonneStrahovski;;
+                    
+                   
+                    Chuck => nrel_actor : ZacharyLevi;;
+                    
+                   
+                    Chuck => nrel_actor : AdamBaldwin;;
+                    
+                   
+                    Chuck => nrel_actor : JoshuaGomez;;
+                    
+                   
+                    Chuck => nrel_actor : BonitaFriedericy;;
+                    
+                   
+                    Chuck => nrel_actor : SarahLancaster;;
+                    
+                   
+                    Chuck => nrel_actor : VikSahay;;
+                    
+                   
+                    Chuck => nrel_actor : ScottKrinsky;;
+                    
+                   
+                    Chuck => nrel_actor : RyanMcPartlin;;
+                    
+                   
+                    Chuck => nrel_actor : MarkChristopherLawrence;;
+                    
+                   
+                    Chuck => nrel_actor : JuliaLing;;
+                    
+                  
+                  
+                  Chuck
+                  =>nrel_keywords: concept_detectif;;
+                  

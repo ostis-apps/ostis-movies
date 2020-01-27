@@ -1,0 +1,57 @@
+concept_human -> jude_law;;
+ 
+ jude_law <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джуд Лоу)](*<-lang_ru;;*);
+ 		[Description (Jude Law)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jude_law_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jude_law <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джуд Лоу)](*<-lang_ru;;*);
+ 		[Pic. (Jude Law)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jude_law.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jude_law => nrel_main_idtf : [Джуд Лоу](*<-lang_ru;;*);;
+ jude_law => nrel_main_idtf : [Jude Law](*<-lang_en;;*);;
+ 
+ 
+ jude_law => nrel_birth_date : 1973;;
+ 
+ concept_goverment -> UK;;
+ jude_law => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ jude_law => nrel_to_star_in : captain_marvel;;
+captain_marvel => nrel_main_idtf : [Captain Marvel](*<-lang_en;;*);;
+captain_marvel => nrel_main_idtf : [Капитан Марвел](*<-lang_ru;;*);;
+jude_law => nrel_to_star_in : fantastic_beasts_the_crimes_of_grindelwald;;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Fantastic Beasts: The Crimes of Grindelwald](*<-lang_en;;*);;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Фантастические твари: Преступления Грин-де-Вальда](*<-lang_ru;;*);;
+jude_law => nrel_to_star_in : dom_hemingway;;
+dom_hemingway => nrel_main_idtf : [Dom Hemingway](*<-lang_en;;*);;
+dom_hemingway => nrel_main_idtf : [Дом Хемингуэй](*<-lang_ru;;*);;
+jude_law => nrel_to_star_in : anna_karenina;;
+anna_karenina => nrel_main_idtf : [Anna Karenina](*<-lang_en;;*);;
+anna_karenina => nrel_main_idtf : [Анна Каренина](*<-lang_ru;;*);;
+jude_law => nrel_to_star_in : the_aviator;;
+the_aviator => nrel_main_idtf : [The Aviator](*<-lang_en;;*);;
+the_aviator => nrel_main_idtf : [Авиатор](*<-lang_ru;;*);;
+

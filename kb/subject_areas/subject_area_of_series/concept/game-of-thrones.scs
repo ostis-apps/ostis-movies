@@ -1,0 +1,190 @@
+
+                  concept_series -> Game_of_Thrones;;
+              
+                  Game_of_Thrones
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Игра престолов]
+                    (* <- lang_ru;;	*);
+                    [Game_of_Thrones]
+                    (* <- lang_en;;	*);;
+                  
+                  Game_of_Thrones <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Игра престолов)](*<-lang_ru;;*);
+                      [Description (Game_of_Thrones)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Game_of_Thrones_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Game_of_Thrones_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Game_of_Thrones <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Игра престолов)](*<-lang_ru;;*);
+                      [Pic. (Game_of_Thrones)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Game_of_Thrones.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Game_of_Thrones => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2011;;
+                  2011 => nrel_main_idtf : [2011 год](*<-lang_ru;;*);;
+                  2011 => nrel_main_idtf : [year of 2011](*<-lang_en;;*);;
+                  Game_of_Thrones => nrel_production_year : 2011;;
+                  
+                  value -> 8;;
+                  Game_of_Thrones => nrel_num_of_seasons: 8;;
+                  value -> 73;;
+                  Game_of_Thrones => nrel_num_of_episodes: 73;;
+                  
+                  value -> 3;;
+                  Game_of_Thrones => nrel_no_countries : 3;;
+                  
+                  value -> 5;;
+                  Game_of_Thrones => nrel_viewers_in_millions: 5;;
+                  
+                  Game_of_Thrones => nrel_age_rating: concept_PG12;;
+                  
+                    Game_of_Thrones => nrel_actor : PeterDinklage;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : KitHarington;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : LenaHeadey;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : EmiliaClarke;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : SophieTurner;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : MaisieWilliams;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : NikolajCosterWaldau;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : IainGlen;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : JohnBradley;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : AlfieAllen;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : ConlethHill;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : GwendolineChristie;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : LiamCunningham;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : AidanGillen;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : IsaacHempsteadWright;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : NathalieEmmanuel;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : JeromeFlynn;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : RoryMcCann;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : JacobAnderson;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : KristoferHivju;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : CaricevanHouten;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : CharlesDance;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : HannahMurray;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : NatalieDormer;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : JackGleeson;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : MichelleFairley;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : DeanCharlesChapman;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : JoeDempsie;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : StephenDillane;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : MichaelMcElhatton;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : RichardMadden;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : MichielHuisman;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : SibelKekilli;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : IwanRheon;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : TomWlaschiha;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : RoseLeslie;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : IndiraVarma;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : JonathanPryce;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : JamesCosmo;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : SeanBean;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : MarkAddy;;
+                    
+                   
+                    Game_of_Thrones => nrel_actor : HarryLloyd;;
+                    
+                  
+                  
+                  Game_of_Thrones
+                  =>nrel_keywords: concept_detectif;;
+                  

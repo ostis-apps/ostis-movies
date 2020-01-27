@@ -1,0 +1,67 @@
+film_bush_2008
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Буш]
+(* <- lang_ru;;    *);
+[W.]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Буш)](*<-lang_ru;;*);
+[Description (W.)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bush-2008_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bush-2008_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Буш)](*<-lang_ru;;*);
+		[Pic. (W.)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bush-2008.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;australia;hong_kong;switzerland;china;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Get Ready See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [17.10.2008](*<-lang_ru;;*);;
+    => nrel_main_idtf : [17.10.2008](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H9M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H9M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_bush_2008 =>nrel_keywords: film;;
+
+film_bush_2008 <- concept_biography;concept_comedy;concept_drama;concept_history;;
+
+film_bush_2008 => nrel_main_actor : josh_brolin;elizabeth_banks;ioan_gruffudd;colin_hanks;;
+film_bush_2008 => nrel_producer : oliver_stone;;

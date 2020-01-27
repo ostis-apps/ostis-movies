@@ -1,0 +1,188 @@
+concept_escape
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Побег]
+(* <- lang_ru;;	*);
+[Escape]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_slavery
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Рабство]
+(* <- lang_ru;;	*);
+[Slavery]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_friendship
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Побег]
+(* <- lang_ru;;	*);
+[Friendship]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_bandits
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бандиты]
+(* <- lang_ru;;	*);
+[Bandits]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_catastrophe
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Катастрофа]
+(* <- lang_ru;;	*);
+[catastrophe]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+concept_arrest
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[арест]
+(* <- lang_ru;;	*);
+[arrest]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_explosion
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[взрыв]
+(* <- lang_ru;;	*);
+[explosion]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_mutant
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[мутант]
+(* <- lang_ru;;	*);
+[mutant]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_drunkenness
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[пьянство]
+(* <- lang_ru;;	*);
+[drunkenness]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_CIA
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[ЦРУ]
+(* <- lang_ru;;	*);
+[cia]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_relations
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[отношения]
+(* <- lang_ru;;	*);
+[relations]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_kiss
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[поцелуй]
+(* <- lang_ru;;	*);
+[kiss]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_police
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[полиция]
+(* <- lang_ru;;	*);
+[police]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_car
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[машина]
+(* <- lang_ru;;	*);
+[car]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_rush
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[гонка]
+(* <- lang_ru;;	*);
+[rush]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_fight
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[бой]
+(* <- lang_ru;;	*);
+[fight]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_box
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[бокс]
+(* <- lang_ru;;	*);
+[box]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_butterfly
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[мотылек]
+(* <- lang_ru;;	*);
+[butterfly]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_freedom
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[freedom]
+(* <- lang_ru;;	*);
+[свобода]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+film_amerikanskiy_pirog_2_2001
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американский пирог 2]
+(* <- lang_ru;;    *);
+[American Pie 2]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американский пирог 2)](*<-lang_ru;;*);
+[Description (American Pie 2)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskiy-pirog-2-2001_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskiy-pirog-2-2001_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американский пирог 2)](*<-lang_ru;;*);
+		[Pic. (American Pie 2)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskiy-pirog-2-2001.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [It's time for a second helping. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [10.08.2001](*<-lang_ru;;*);;
+    => nrel_main_idtf : [10.08.2001](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H48M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H48M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_amerikanskiy_pirog_2_2001 =>nrel_keywords: film;;
+
+film_amerikanskiy_pirog_2_2001 <- concept_comedy;;
+
+film_amerikanskiy_pirog_2_2001 => nrel_main_actor : jason_biggs;seann_william_scott;shannon_elizabeth;alyson_hannigan;;
+film_amerikanskiy_pirog_2_2001 => nrel_producer : j.b._rogers;;

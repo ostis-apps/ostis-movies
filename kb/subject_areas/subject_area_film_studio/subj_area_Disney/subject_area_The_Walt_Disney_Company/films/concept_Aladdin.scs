@@ -1,0 +1,328 @@
+concept_Aladdin 
+<- sc_node_not_relation; 
+=> nrel_main_idtf: 
+[Алладин] 
+(* <- lang_ru;; *); 
+[Aladdin] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Алладин)](*<-lang_ru;;*);
+[Description (Aladdin)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Aladdin_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_Aladdin_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_main_producer: Ron_Clements; 
+=>nrel_producer: John_Masker; 
+=>nrel_production_country: USA; 
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1950 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 90 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 504050219 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Aladdin;; 
+->character_Jasmine;; 
+->character_The_Genie;; 
+->character_Abu;; 
+->character_Jafar;; 
+->character_Iago;; 
+->character_The_Sultan;; 
+*); 
+=>nrel_age_rating: concept_PG0;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Алладин)](*<-lang_ru;;*);
+		[Pic. (Aladdin)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Aladdin.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Aladdin 
+=> nrel_main_idtf: 
+[Алладин] (* <-lang_ru;; *); 
+[Aladdin] (* <-lang_en;; *); 
+<- person; 
+<- male; 
+<- thief; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Алладин)] (* <-lang_ru;; *); 
+[Description of character(Aladdin)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Aladdin_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Aladdin_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Алладин)](*<-lang_ru;;*); 
+[Pic. (Aladdin)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Aladdin.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Jasmine 
+=> nrel_main_idtf: 
+[Жасмин] (* <-lang_ru;; *); 
+[Jasmine] (* <-lang_en;; *); 
+<- person; 
+<- female; 
+<- princess; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Жасмин)] (* <-lang_ru;; *); 
+[Description of character(Jasmine)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Jasmine_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Jasmine_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Жасмин)](*<-lang_ru;;*); 
+[Pic. (Jasmine)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Jasmine.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_The_Genie
+        => nrel_main_idtf: 
+            [Джинн] (* <-lang_ru;; *);
+		  [The_Genie] (* <-lang_en;; *);
+	   <- person;
+        <- male;
+	   <- genie;
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Джинн)] (* <-lang_ru;; *);
+				[Description of character(The_Genie)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_The_Genie_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_The_Genie_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джин)](*<-lang_ru;;*);
+		[Pic. (The_Genie)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_The_Genie.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+character_Abu
+        => nrel_main_idtf: 
+            [Абу] (* <-lang_ru;; *);
+		  [Abu] (* <-lang_en;; *);
+	   <- character;
+        <- male;
+	   <- monkey;
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Абу)] (* <-lang_ru;; *);
+				[Description of character(Abu)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Abu_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Abu_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Абу)](*<-lang_ru;;*);
+		[Pic. (Abu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Abu.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+character_Jafar
+        => nrel_main_idtf: 
+            [Джафар] (* <-lang_ru;; *);
+		  [Jafar] (* <-lang_en;; *);
+	   <- person;
+        <- male;
+	   <- sultans_vizier;
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Джафар)] (* <-lang_ru;; *);
+				[Description of character(Jafar)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Jafar_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Jafar_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+			<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джафар)](*<-lang_ru;;*);
+		[Pic. (Jafar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Jafar.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+character_Iago
+        => nrel_main_idtf: 
+            [Яго] (* <-lang_ru;; *);
+		  [Iago] (* <-lang_en;; *);
+	   <- character;
+        <- male;
+	   <- parrot;
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Яго)] (* <-lang_ru;; *);
+				[Description of character(Iago)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Iago_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Iago_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Яго)](*<-lang_ru;;*);
+		[Pic. (Iago)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Iago.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+character_The_Sultan
+        => nrel_main_idtf: 
+            [Султан] (* <-lang_ru;; *);
+		  [The Sultan] (* <-lang_en;; *);
+	   <- person;
+        <- male;
+	   <- sultan;
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Султан)] (* <-lang_ru;; *);
+				[Description of character(The Sultan)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_The_Sultan_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_The_Sultan_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+			<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Султан)](*<-lang_ru;;*);
+		[Pic. (The_Sultan)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_The_Sultan.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+
+Ron_Clements
+  => nrel_main_idtf: 
+            [Рон Клементс] (* <-lang_ru;; *);
+		  [Ron Clements] (* <-lang_en;; *);;
+John_Masker
+  => nrel_main_idtf: 
+            [Джон Маскер] (* <-lang_ru;; *);
+		  [John_Masker] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+person
+  => nrel_main_idtf: 
+            [человек] (* <-lang_ru;; *);
+		  [person] (* <-lang_en;; *);;
+male
+ => nrel_main_idtf: 
+            [мужской пол] (* <-lang_ru;; *);
+		  [male] (* <-lang_en;; *);;
+female
+ => nrel_main_idtf: 
+            [женский пол] (* <-lang_ru;; *);
+		  [female] (* <-lang_en;; *);;
+princess
+ => nrel_main_idtf: 
+            [принцесса] (* <-lang_ru;; *);
+		  [princess] (* <-lang_en;; *);;
+thief
+ => nrel_main_idtf: 
+            [вор] (* <-lang_ru;; *);
+		  [thief] (* <-lang_en;; *);;
+monkey
+ => nrel_main_idtf: 
+            [обезьянка] (* <-lang_ru;; *);
+		  [monkey] (* <-lang_en;; *);;
+parrot
+ => nrel_main_idtf: 
+            [попугай] (* <-lang_ru;; *);
+		  [parrot] (* <-lang_en;; *);;
+sultan
+ => nrel_main_idtf: 
+            [султан] (* <-lang_ru;; *);
+		  [sultan] (* <-lang_en;; *);;
+sultans_vizier
+ => nrel_main_idtf: 
+            [советник султана] (* <-lang_ru;; *);
+		  [sultans vizier] (* <-lang_en;; *);;
+genie
+ => nrel_main_idtf: 
+            [джинн] (* <-lang_ru;; *);
+		  [genie] (* <-lang_en;; *);;
+character
+ => nrel_main_idtf: 
+            [персонаж] (* <-lang_ru;; *);
+		  [character] (* <-lang_en;; *);;

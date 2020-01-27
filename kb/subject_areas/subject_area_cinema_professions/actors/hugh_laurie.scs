@@ -1,0 +1,45 @@
+concept_human -> hugh_laurie;;
+ 
+ hugh_laurie <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Хью Лори)](*<-lang_ru;;*);
+ 		[Description (Hugh Laurie)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/hugh_laurie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ hugh_laurie <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Хью Лори)](*<-lang_ru;;*);
+ 		[Pic. (Hugh Laurie)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/hugh_laurie.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ hugh_laurie => nrel_main_idtf : [Хью Лори](*<-lang_ru;;*);;
+ hugh_laurie => nrel_main_idtf : [Hugh Laurie](*<-lang_en;;*);;
+ 
+ 
+ hugh_laurie => nrel_birth_date : 1959;;
+ 
+ concept_goverment -> UK;;
+ hugh_laurie => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ hugh_laurie => nrel_to_star_in : the_man_in_the_iron_mask;;
+the_man_in_the_iron_mask => nrel_main_idtf : [The Man in the Iron Mask](*<-lang_en;;*);;
+the_man_in_the_iron_mask => nrel_main_idtf : [Человек в железной маске](*<-lang_ru;;*);;
+

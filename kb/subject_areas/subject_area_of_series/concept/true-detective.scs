@@ -1,0 +1,109 @@
+
+                  concept_series -> True_Detective;;
+              
+                  True_Detective
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Настоящий детектив]
+                    (* <- lang_ru;;	*);
+                    [True_Detective]
+                    (* <- lang_en;;	*);;
+                  
+                  True_Detective <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Настоящий детектив)](*<-lang_ru;;*);
+                      [Description (True_Detective)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/True_Detective_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/True_Detective_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  True_Detective <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Настоящий детектив)](*<-lang_ru;;*);
+                      [Pic. (True_Detective)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/True_Detective.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  True_Detective => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  True_Detective => nrel_production_year : 2014;;
+                  
+                  value -> 3;;
+                  True_Detective => nrel_num_of_seasons: 3;;
+                  value -> 24;;
+                  True_Detective => nrel_num_of_episodes: 24;;
+                  
+                  value -> 12;;
+                  True_Detective => nrel_no_countries : 12;;
+                  
+                  value -> 12;;
+                  True_Detective => nrel_viewers_in_millions: 12;;
+                  
+                  True_Detective => nrel_age_rating: concept_PG12;;
+                  
+                    True_Detective => nrel_actor : VinceVaughn;;
+                    
+                   
+                    True_Detective => nrel_actor : MatthewMcConaughey;;
+                    
+                   
+                    True_Detective => nrel_actor : WoodyHarrelson;;
+                    
+                   
+                    True_Detective => nrel_actor : ScootMcNairy;;
+                    
+                   
+                    True_Detective => nrel_actor : MahershalaAli;;
+                    
+                   
+                    True_Detective => nrel_actor : TaylorKitsch;;
+                    
+                   
+                    True_Detective => nrel_actor : CarmenEjogo;;
+                    
+                   
+                    True_Detective => nrel_actor : MichelleMonaghan;;
+                    
+                   
+                    True_Detective => nrel_actor : RachelMcAdams;;
+                    
+                   
+                    True_Detective => nrel_actor : MichaelPotts;;
+                    
+                   
+                    True_Detective => nrel_actor : KellyReilly;;
+                    
+                   
+                    True_Detective => nrel_actor : ToryKittles;;
+                    
+                   
+                    True_Detective => nrel_actor : RayFisher;;
+                    
+                   
+                    True_Detective => nrel_actor : ColinFarrell;;
+                    
+                   
+                    True_Detective => nrel_actor : StephenDorff;;
+                    
+                  
+                  
+                  True_Detective
+                  =>nrel_keywords: concept_detectif;;
+                  

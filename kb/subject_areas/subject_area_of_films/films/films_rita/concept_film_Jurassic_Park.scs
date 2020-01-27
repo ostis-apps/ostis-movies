@@ -1,0 +1,26 @@
+concept_film_Jurassic_Park
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Парк юрского периода](* <- lang_ru;; *);
+	[Jurassic Park](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Парк юрского периода)](*<-lang_ru;;*);
+		[Description (Jurassic Park)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Парк юрского периода.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Jurassic Park.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_dinosaur;
+=> nrel_keywords: concept_amusement_park;
+=> nrel_age_rating: concept_PG6;;

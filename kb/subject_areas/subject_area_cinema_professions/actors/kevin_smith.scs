@@ -1,0 +1,45 @@
+concept_human -> kevin_smith;;
+ 
+ kevin_smith <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кевин Смит)](*<-lang_ru;;*);
+ 		[Description (Kevin Smith)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kevin_smith_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kevin_smith <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кевин Смит)](*<-lang_ru;;*);
+ 		[Pic. (Kevin Smith)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kevin_smith.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kevin_smith => nrel_main_idtf : [Кевин Смит](*<-lang_ru;;*);;
+ kevin_smith => nrel_main_idtf : [Kevin Smith](*<-lang_en;;*);;
+ 
+ 
+ kevin_smith => nrel_birth_date : 1970;;
+ 
+ concept_goverment -> Usa;;
+ kevin_smith => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kevin_smith => nrel_to_star_in : yoga_hosers;;
+yoga_hosers => nrel_main_idtf : [Yoga Hosers](*<-lang_en;;*);;
+yoga_hosers => nrel_main_idtf : [Йоганутые](*<-lang_ru;;*);;
+

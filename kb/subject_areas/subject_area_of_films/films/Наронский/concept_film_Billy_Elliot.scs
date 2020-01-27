@@ -1,0 +1,29 @@
+concept_film_Billy_Elliot
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Билли Эллиот]
+	(* <- lang_ru;;	*);
+	[Billy Elliot]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Билли Эллиот)](*<-lang_ru;;*);
+		[Description (Billy Elliot)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Билли Эллиот.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Billy Elliot.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_kiss;		
+=>nrel_age_rating: concept_PG16;;	

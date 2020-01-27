@@ -1,0 +1,67 @@
+film_amerikanskiy_pirog_vse_v_sbore_2012
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Американский пирог: Все в сборе]
+(* <- lang_ru;;    *);
+[American Reunion]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Американский пирог: Все в сборе)](*<-lang_ru;;*);
+[Description (American Reunion)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/amerikanskiy-pirog-vse-v-sbore-2012_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/amerikanskiy-pirog-vse-v-sbore-2012_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Американский пирог: Все в сборе)](*<-lang_ru;;*);
+		[Pic. (American Reunion)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amerikanskiy-pirog-vse-v-sbore-2012.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The class of '99 returns for their high school reunion. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [04.04.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [04.04.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H53M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H53M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_amerikanskiy_pirog_vse_v_sbore_2012 =>nrel_keywords: film;;
+
+film_amerikanskiy_pirog_vse_v_sbore_2012 <- concept_comedy;;
+
+film_amerikanskiy_pirog_vse_v_sbore_2012 => nrel_main_actor : jason_biggs;alyson_hannigan;seann_william_scott;chris_klein;;
+film_amerikanskiy_pirog_vse_v_sbore_2012 => nrel_producer : jon_hurwitz;hayden_schlossberg;;

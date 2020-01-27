@@ -1,0 +1,63 @@
+concept_human -> tilda_swinton;;
+ 
+ tilda_swinton <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Тильда Суинтон)](*<-lang_ru;;*);
+ 		[Description (Tilda Swinton)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/tilda_swinton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ tilda_swinton <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Тильда Суинтон)](*<-lang_ru;;*);
+ 		[Pic. (Tilda Swinton)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/tilda_swinton.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ tilda_swinton => nrel_main_idtf : [Тильда Суинтон](*<-lang_ru;;*);;
+ tilda_swinton => nrel_main_idtf : [Tilda Swinton](*<-lang_en;;*);;
+ 
+ 
+ tilda_swinton => nrel_birth_date : 1960;;
+ 
+ concept_goverment -> UK;;
+ tilda_swinton => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ tilda_swinton => nrel_to_star_in : avengers_endgame;;
+avengers_endgame => nrel_main_idtf : [Avengers: Endgame](*<-lang_en;;*);;
+avengers_endgame => nrel_main_idtf : [Мстители: Финал](*<-lang_ru;;*);;
+tilda_swinton => nrel_to_star_in : suspiria;;
+suspiria => nrel_main_idtf : [Suspiria](*<-lang_en;;*);;
+suspiria => nrel_main_idtf : [Суспирия](*<-lang_ru;;*);;
+tilda_swinton => nrel_to_star_in : doctor_strange;;
+doctor_strange => nrel_main_idtf : [Doctor Strange](*<-lang_en;;*);;
+doctor_strange => nrel_main_idtf : [Доктор Стрэндж](*<-lang_ru;;*);;
+tilda_swinton => nrel_to_star_in : the_curious_case_of_benjamin_button;;
+the_curious_case_of_benjamin_button => nrel_main_idtf : [The Curious Case of Benjamin Button](*<-lang_en;;*);;
+the_curious_case_of_benjamin_button => nrel_main_idtf : [Загадочная история Бенджамина Баттона](*<-lang_ru;;*);;
+tilda_swinton => nrel_to_star_in : constantine;;
+constantine => nrel_main_idtf : [Constantine](*<-lang_en;;*);;
+constantine => nrel_main_idtf : [Константин: Повелитель тьмы](*<-lang_ru;;*);;
+tilda_swinton => nrel_to_star_in : vanilla_sky;;
+vanilla_sky => nrel_main_idtf : [Vanilla Sky](*<-lang_en;;*);;
+vanilla_sky => nrel_main_idtf : [Ванильное небо](*<-lang_ru;;*);;
+tilda_swinton => nrel_to_star_in : the_beach;;
+the_beach => nrel_main_idtf : [The Beach](*<-lang_en;;*);;
+the_beach => nrel_main_idtf : [Пляж](*<-lang_ru;;*);;
+

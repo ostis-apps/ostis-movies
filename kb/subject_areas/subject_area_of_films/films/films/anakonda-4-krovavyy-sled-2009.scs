@@ -1,0 +1,67 @@
+film_anakonda_4_krovavyy_sled_2009
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Анаконда 4: Кровавый след]
+(* <- lang_ru;;    *);
+[Anaconda 4: Trail of Blood]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Анаконда 4: Кровавый след)](*<-lang_ru;;*);
+[Description (Anaconda 4: Trail of Blood)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/anakonda-4-krovavyy-sled-2009_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/anakonda-4-krovavyy-sled-2009_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Анаконда 4: Кровавый след)](*<-lang_ru;;*);
+		[Pic. (Anaconda 4: Trail of Blood)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/anakonda-4-krovavyy-sled-2009.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : romania;usa;
+
+=> nrel_film_critic_rating : 3;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Bigger, Faster, Hungrier](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [28.02.2009](*<-lang_ru;;*);;
+    => nrel_main_idtf : [28.02.2009](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H29M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H29M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_anakonda_4_krovavyy_sled_2009 =>nrel_keywords: film;;
+
+film_anakonda_4_krovavyy_sled_2009 <- concept_action;concept_adventure;concept_horror;concept_sci_fi;concept_thriller;;
+
+film_anakonda_4_krovavyy_sled_2009 => nrel_main_actor : crystal_allen;linden_ashby;danny_midwinter;calin_stanciu;;
+film_anakonda_4_krovavyy_sled_2009 => nrel_producer : don_e._fauntleroy;;

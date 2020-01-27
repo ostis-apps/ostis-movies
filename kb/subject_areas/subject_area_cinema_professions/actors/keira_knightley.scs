@@ -1,0 +1,75 @@
+concept_human -> keira_knightley;;
+ 
+ keira_knightley <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кира Найтли)](*<-lang_ru;;*);
+ 		[Description (Keira Knightley)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/keira_knightley_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ keira_knightley <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кира Найтли)](*<-lang_ru;;*);
+ 		[Pic. (Keira Knightley)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/keira_knightley.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ keira_knightley => nrel_main_idtf : [Кира Найтли](*<-lang_ru;;*);;
+ keira_knightley => nrel_main_idtf : [Keira Knightley](*<-lang_en;;*);;
+ 
+ 
+ keira_knightley => nrel_birth_date : 1985;;
+ 
+ concept_goverment -> UK;;
+ keira_knightley => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ keira_knightley => nrel_to_star_in : official_secrets;;
+official_secrets => nrel_main_idtf : [Official Secrets](*<-lang_en;;*);;
+official_secrets => nrel_main_idtf : [Опасные секреты](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : the_nutcracker_and_the_four_realms;;
+the_nutcracker_and_the_four_realms => nrel_main_idtf : [The Nutcracker and the Four Realms](*<-lang_en;;*);;
+the_nutcracker_and_the_four_realms => nrel_main_idtf : [Щелкунчик и Четыре Королевства](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : pirates_of_the_caribbean_dead_men_tell_no_tales;;
+pirates_of_the_caribbean_dead_men_tell_no_tales => nrel_main_idtf : [Pirates of the Caribbean: Dead Men Tell No Tales](*<-lang_en;;*);;
+pirates_of_the_caribbean_dead_men_tell_no_tales => nrel_main_idtf : [Пираты Карибского моря: Мертвецы не рассказывают сказки](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : everest;;
+everest => nrel_main_idtf : [Everest](*<-lang_en;;*);;
+everest => nrel_main_idtf : [Эверест](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : the_imitation_game;;
+the_imitation_game => nrel_main_idtf : [The Imitation Game](*<-lang_en;;*);;
+the_imitation_game => nrel_main_idtf : [Игра в имитацию](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : anna_karenina;;
+anna_karenina => nrel_main_idtf : [Anna Karenina](*<-lang_en;;*);;
+anna_karenina => nrel_main_idtf : [Анна Каренина](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : seeking_a_friend_for_the_end_of_the_world;;
+seeking_a_friend_for_the_end_of_the_world => nrel_main_idtf : [Seeking a Friend for the End of the World](*<-lang_en;;*);;
+seeking_a_friend_for_the_end_of_the_world => nrel_main_idtf : [Ищу друга на конец света](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : pirates_of_the_caribbean_at_worlds_end;;
+pirates_of_the_caribbean_at_worlds_end => nrel_main_idtf : [Pirates of the Caribbean: At World`s End](*<-lang_en;;*);;
+pirates_of_the_caribbean_at_worlds_end => nrel_main_idtf : [Пираты Карибского моря: На краю света](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : atonement;;
+atonement => nrel_main_idtf : [Atonement](*<-lang_en;;*);;
+atonement => nrel_main_idtf : [Искупление](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : pirates_of_the_caribbean_dead_mans_chest;;
+pirates_of_the_caribbean_dead_mans_chest => nrel_main_idtf : [Pirates of the Caribbean: Dead Man`s Chest](*<-lang_en;;*);;
+pirates_of_the_caribbean_dead_mans_chest => nrel_main_idtf : [Пираты Карибского моря: Сундук мертвеца](*<-lang_ru;;*);;
+keira_knightley => nrel_to_star_in : pirates_of_the_caribbean_the_curse_of_the_black_pearl;;
+pirates_of_the_caribbean_the_curse_of_the_black_pearl => nrel_main_idtf : [Pirates of the Caribbean: The Curse of the Black Pearl](*<-lang_en;;*);;
+pirates_of_the_caribbean_the_curse_of_the_black_pearl => nrel_main_idtf : [Пираты Карибского моря: Проклятие Черной жемчужины](*<-lang_ru;;*);;
+

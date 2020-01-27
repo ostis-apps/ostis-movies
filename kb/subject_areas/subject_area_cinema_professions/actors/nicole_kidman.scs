@@ -1,0 +1,60 @@
+concept_human -> nicole_kidman;;
+ 
+ nicole_kidman <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Николь Кидман)](*<-lang_ru;;*);
+ 		[Description (Nicole Kidman)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/nicole_kidman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ nicole_kidman <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Николь Кидман)](*<-lang_ru;;*);
+ 		[Pic. (Nicole Kidman)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/nicole_kidman.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ nicole_kidman => nrel_main_idtf : [Николь Кидман](*<-lang_ru;;*);;
+ nicole_kidman => nrel_main_idtf : [Nicole Kidman](*<-lang_en;;*);;
+ 
+ 
+ nicole_kidman => nrel_birth_date : 1967;;
+ 
+ concept_goverment -> Usa;;
+ nicole_kidman => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ nicole_kidman => nrel_to_star_in : aquaman;;
+aquaman => nrel_main_idtf : [Aquaman](*<-lang_en;;*);;
+aquaman => nrel_main_idtf : [Аквамен](*<-lang_ru;;*);;
+nicole_kidman => nrel_to_star_in : boy_erased;;
+boy_erased => nrel_main_idtf : [Boy Erased](*<-lang_en;;*);;
+boy_erased => nrel_main_idtf : [Стертая личность](*<-lang_ru;;*);;
+nicole_kidman => nrel_to_star_in : big_little_lies;;
+big_little_lies => nrel_main_idtf : [Big Little Lies](*<-lang_en;;*);;
+big_little_lies => nrel_main_idtf : [Большая маленькая ложь](*<-lang_ru;;*);;
+nicole_kidman => nrel_to_star_in : just_go_with_it;;
+just_go_with_it => nrel_main_idtf : [Just Go with It](*<-lang_en;;*);;
+just_go_with_it => nrel_main_idtf : [Притворись моей женой](*<-lang_ru;;*);;
+nicole_kidman => nrel_to_star_in : panic_room;;
+panic_room => nrel_main_idtf : [Panic Room](*<-lang_en;;*);;
+panic_room => nrel_main_idtf : [Комната страха](*<-lang_ru;;*);;
+nicole_kidman => nrel_to_star_in : batman_forever;;
+batman_forever => nrel_main_idtf : [Batman Forever](*<-lang_en;;*);;
+batman_forever => nrel_main_idtf : [Бэтмен навсегда](*<-lang_ru;;*);;
+

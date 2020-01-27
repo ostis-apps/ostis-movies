@@ -1,0 +1,48 @@
+concept_human -> val_kilmer;;
+ 
+ val_kilmer <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Вэл Килмер)](*<-lang_ru;;*);
+ 		[Description (Val Kilmer)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/val_kilmer_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ val_kilmer <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Вэл Килмер)](*<-lang_ru;;*);
+ 		[Pic. (Val Kilmer)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/val_kilmer.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ val_kilmer => nrel_main_idtf : [Вэл Килмер](*<-lang_ru;;*);;
+ val_kilmer => nrel_main_idtf : [Val Kilmer](*<-lang_en;;*);;
+ 
+ 
+ val_kilmer => nrel_birth_date : 1960;;
+ 
+ concept_goverment -> Usa;;
+ val_kilmer => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ val_kilmer => nrel_to_star_in : alexander;;
+alexander => nrel_main_idtf : [Alexander](*<-lang_en;;*);;
+alexander => nrel_main_idtf : [Александр](*<-lang_ru;;*);;
+val_kilmer => nrel_to_star_in : batman_forever;;
+batman_forever => nrel_main_idtf : [Batman Forever](*<-lang_en;;*);;
+batman_forever => nrel_main_idtf : [Бэтмен навсегда](*<-lang_ru;;*);;
+

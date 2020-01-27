@@ -1,0 +1,54 @@
+concept_human -> jack_black;;
+ 
+ jack_black <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джек Блэк)](*<-lang_ru;;*);
+ 		[Description (Jack Black)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jack_black_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jack_black <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джек Блэк)](*<-lang_ru;;*);
+ 		[Pic. (Jack Black)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jack_black.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jack_black => nrel_main_idtf : [Джек Блэк](*<-lang_ru;;*);;
+ jack_black => nrel_main_idtf : [Jack Black](*<-lang_en;;*);;
+ 
+ 
+ jack_black => nrel_birth_date : 1969;;
+ 
+ concept_goverment -> Usa;;
+ jack_black => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jack_black => nrel_to_star_in : the_house_with_a_clock_in_its_walls;;
+the_house_with_a_clock_in_its_walls => nrel_main_idtf : [The House with a Clock in Its Walls](*<-lang_en;;*);;
+the_house_with_a_clock_in_its_walls => nrel_main_idtf : [Тайна дома с часами](*<-lang_ru;;*);;
+jack_black => nrel_to_star_in : dont_worry_he_wont_get_far_on_foot;;
+dont_worry_he_wont_get_far_on_foot => nrel_main_idtf : [Don't Worry, He Won't Get Far on Foot](*<-lang_en;;*);;
+dont_worry_he_wont_get_far_on_foot => nrel_main_idtf : [Не волнуйся, он далеко не уйдет](*<-lang_ru;;*);;
+jack_black => nrel_to_star_in : jumanji_welcome_to_the_jungle;;
+jumanji_welcome_to_the_jungle => nrel_main_idtf : [Jumanji: Welcome to the Jungle](*<-lang_en;;*);;
+jumanji_welcome_to_the_jungle => nrel_main_idtf : [Джуманджи: Зов джунглей](*<-lang_ru;;*);;
+jack_black => nrel_to_star_in : the_cable_guy;;
+the_cable_guy => nrel_main_idtf : [The Cable Guy](*<-lang_en;;*);;
+the_cable_guy => nrel_main_idtf : [Кабельщик](*<-lang_ru;;*);;
+

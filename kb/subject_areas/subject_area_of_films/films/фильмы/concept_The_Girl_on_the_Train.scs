@@ -1,0 +1,31 @@
+concept_The_Girl_on_the_Train
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Девушка в поезде]
+	(* <- lang_ru;;	*);
+	[The Girl on the Train]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Девушка в поезде)](*<-lang_ru;;*);
+		[Description (The Girl on the Train)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Девушка в поезде.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/The Girl on the Train.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_amnesia;
+=>nrel_keywords: concept_depression;
+=>nrel_keywords: concept_panic;	
+=>nrel_age_rating: concept_PG18;;	

@@ -1,0 +1,43 @@
+concept_cartoon_How_to_catch_a_feather_Firebird
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Как поймать перо Жар-Птицы]
+	(* <- lang_ru;;	*);
+	[How to catch a feather Firebird]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Как поймать перо Жар-Птицы)](*<-lang_ru;;*);
+		[Description (How to catch a feather Firebird)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/How to catch a feather Firebird_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/How to catch a feather Firebird_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Как поймать перо Жар-Птицы)](*<-lang_ru;;*);
+		[Pic. (How to catch a feather Firebird)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/How to catch a feather Firebird.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_animals;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

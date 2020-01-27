@@ -1,0 +1,45 @@
+concept_human -> chuck_palahniuk;;
+ 
+ chuck_palahniuk <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Чак Паланик)](*<-lang_ru;;*);
+ 		[Description (Chuck Palahniuk)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/chuck_palahniuk_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ chuck_palahniuk <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Чак Паланик)](*<-lang_ru;;*);
+ 		[Pic. (Chuck Palahniuk)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/chuck_palahniuk.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ chuck_palahniuk => nrel_main_idtf : [Чак Паланик](*<-lang_ru;;*);;
+ chuck_palahniuk => nrel_main_idtf : [Chuck Palahniuk](*<-lang_en;;*);;
+ 
+ 
+ chuck_palahniuk => nrel_birth_date : 1962;;
+ 
+ concept_goverment -> Usa;;
+ chuck_palahniuk => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ chuck_palahniuk => nrel_to_star_in : fight_club;;
+fight_club => nrel_main_idtf : [Fight Club](*<-lang_en;;*);;
+fight_club => nrel_main_idtf : [Бойцовский клуб](*<-lang_ru;;*);;
+

@@ -1,0 +1,67 @@
+film_bratany_2017
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Братаны]
+(* <- lang_ru;;    *);
+[Buradeo]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Братаны)](*<-lang_ru;;*);
+[Description (Buradeo)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bratany-2017_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bratany-2017_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Братаны)](*<-lang_ru;;*);
+		[Pic. (Buradeo)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bratany-2017.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : south_korea;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Buradeo](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [02.11.2017](*<-lang_ru;;*);;
+    => nrel_main_idtf : [02.11.2017](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H42M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H42M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_bratany_2017 =>nrel_keywords: film;;
+
+film_bratany_2017 <- concept_comedy;;
+
+film_bratany_2017 => nrel_main_actor : dong_seok_ma;dong_hwi_lee;lee_hanee;woo_jin_jo;;
+film_bratany_2017 => nrel_producer : you_jeong_chang;;

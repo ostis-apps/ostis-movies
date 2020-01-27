@@ -1,0 +1,67 @@
+film_42_2013
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[42]
+(* <- lang_ru;;    *);
+[42]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (42)](*<-lang_ru;;*);
+[Description (42)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/42-2013_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/42-2013_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (42)](*<-lang_ru;;*);
+		[Pic. (42)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/42-2013.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [In a game divided by color, he made us see greatness.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [12.04.2013](*<-lang_ru;;*);;
+    => nrel_main_idtf : [12.04.2013](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H8M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H8M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_42_2013 =>nrel_keywords: film;;
+
+film_42_2013 <- concept_biography;concept_drama;concept_sport;;
+
+film_42_2013 => nrel_main_actor : chadwick_boseman;t.r._knight;harrison_ford;nicole_beharie;;
+film_42_2013 => nrel_producer : brian_helgeland;;

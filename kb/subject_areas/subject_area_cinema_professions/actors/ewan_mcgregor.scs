@@ -1,0 +1,63 @@
+concept_human -> ewan_mcgregor;;
+ 
+ ewan_mcgregor <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Юэн МакГрегор)](*<-lang_ru;;*);
+ 		[Description (Ewan McGregor)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ewan_mcgregor_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ewan_mcgregor <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Юэн МакГрегор)](*<-lang_ru;;*);
+ 		[Pic. (Ewan McGregor)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ewan_mcgregor.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ewan_mcgregor => nrel_main_idtf : [Юэн МакГрегор](*<-lang_ru;;*);;
+ ewan_mcgregor => nrel_main_idtf : [Ewan McGregor](*<-lang_en;;*);;
+ 
+ 
+ ewan_mcgregor => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> UK;;
+ ewan_mcgregor => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ ewan_mcgregor => nrel_to_star_in : zoe;;
+zoe => nrel_main_idtf : [Zoe](*<-lang_en;;*);;
+zoe => nrel_main_idtf : [Зои](*<-lang_ru;;*);;
+ewan_mcgregor => nrel_to_star_in : beauty_and_the_beast;;
+beauty_and_the_beast => nrel_main_idtf : [Beauty and the Beast](*<-lang_en;;*);;
+beauty_and_the_beast => nrel_main_idtf : [Красавица и чудовище](*<-lang_ru;;*);;
+ewan_mcgregor => nrel_to_star_in : angels__demons;;
+angels__demons => nrel_main_idtf : [Angels & Demons](*<-lang_en;;*);;
+angels__demons => nrel_main_idtf : [Ангелы и демоны](*<-lang_ru;;*);;
+ewan_mcgregor => nrel_to_star_in : stay;;
+stay => nrel_main_idtf : [Stay](*<-lang_en;;*);;
+stay => nrel_main_idtf : [Останься](*<-lang_ru;;*);;
+ewan_mcgregor => nrel_to_star_in : the_island;;
+the_island => nrel_main_idtf : [The Island](*<-lang_en;;*);;
+the_island => nrel_main_idtf : [Остров](*<-lang_ru;;*);;
+ewan_mcgregor => nrel_to_star_in : black_hawk_down;;
+black_hawk_down => nrel_main_idtf : [Black Hawk Down](*<-lang_en;;*);;
+black_hawk_down => nrel_main_idtf : [Черный Ястреб](*<-lang_ru;;*);;
+ewan_mcgregor => nrel_to_star_in : a_life_less_ordinary;;
+a_life_less_ordinary => nrel_main_idtf : [A Life Less Ordinary](*<-lang_en;;*);;
+a_life_less_ordinary => nrel_main_idtf : [Жизнь хуже обычной](*<-lang_ru;;*);;
+

@@ -1,0 +1,91 @@
+
+                  concept_series -> The_Outpost;;
+              
+                  The_Outpost
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_Outpost]
+                    (* <- lang_ru;;	*);
+                    [The_Outpost]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Outpost <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_Outpost)](*<-lang_ru;;*);
+                      [Description (The_Outpost)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Outpost_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Outpost_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Outpost <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_Outpost)](*<-lang_ru;;*);
+                      [Pic. (The_Outpost)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Outpost.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Outpost => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  The_Outpost => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  The_Outpost => nrel_num_of_seasons: 3;;
+                  value -> 23;;
+                  The_Outpost => nrel_num_of_episodes: 23;;
+                  
+                  value -> 10;;
+                  The_Outpost => nrel_no_countries : 10;;
+                  
+                  value -> 10;;
+                  The_Outpost => nrel_viewers_in_millions: 10;;
+                  
+                  The_Outpost => nrel_age_rating: concept_PG12;;
+                  
+                    The_Outpost => nrel_actor : JessicaGreen;;
+                    
+                   
+                    The_Outpost => nrel_actor : RobynMalcolm;;
+                    
+                   
+                    The_Outpost => nrel_actor : ImogenWaterhouse;;
+                    
+                   
+                    The_Outpost => nrel_actor : JakeStormoen;;
+                    
+                   
+                    The_Outpost => nrel_actor : AnandDesaiBarochia;;
+                    
+                   
+                    The_Outpost => nrel_actor : AndrewHoward;;
+                    
+                   
+                    The_Outpost => nrel_actor : AaronFontaine;;
+                    
+                   
+                    The_Outpost => nrel_actor : KevinMcNally;;
+                    
+                   
+                    The_Outpost => nrel_actor : GlynisBarber;;
+                    
+                  
+                  
+                  The_Outpost
+                  =>nrel_keywords: concept_detectif;;
+                  

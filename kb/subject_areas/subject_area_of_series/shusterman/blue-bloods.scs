@@ -1,0 +1,94 @@
+
+                  concept_series -> Blue_Bloods;;
+              
+                  Blue_Bloods
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Голубых кровей]
+                    (* <- lang_ru;;	*);
+                    [Blue_Bloods]
+                    (* <- lang_en;;	*);;
+                  
+                  Blue_Bloods <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Голубых кровей)](*<-lang_ru;;*);
+                      [Description (Blue_Bloods)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Blue_Bloods_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Blue_Bloods_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Blue_Bloods <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Голубых кровей)](*<-lang_ru;;*);
+                      [Pic. (Blue_Bloods)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Blue_Bloods.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Blue_Bloods => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2010;;
+                  2010 => nrel_main_idtf : [2010 год](*<-lang_ru;;*);;
+                  2010 => nrel_main_idtf : [year of 2010](*<-lang_en;;*);;
+                  Blue_Bloods => nrel_production_year : 2010;;
+                  
+                  value -> 10;;
+                  Blue_Bloods => nrel_num_of_seasons: 10;;
+                  value -> 209;;
+                  Blue_Bloods => nrel_num_of_episodes: 209;;
+                  
+                  value -> 13;;
+                  Blue_Bloods => nrel_no_countries : 13;;
+                  
+                  value -> 5;;
+                  Blue_Bloods => nrel_viewers_in_millions: 5;;
+                  
+                  Blue_Bloods => nrel_age_rating: concept_PG12;;
+                  
+                    Blue_Bloods => nrel_actor : TomSelleck;;
+                    
+                   
+                    Blue_Bloods => nrel_actor : DonnieWahlberg;;
+                    
+                   
+                    Blue_Bloods => nrel_actor : WillEstes;;
+                    
+                   
+                    Blue_Bloods => nrel_actor : LenCariou;;
+                    
+                   
+                    Blue_Bloods => nrel_actor : BridgetMoynahan;;
+                    
+                   
+                    Blue_Bloods => nrel_actor : SamiGayle;;
+                    
+                   
+                    Blue_Bloods => nrel_actor : MarisaRamirez;;
+                    
+                   
+                    Blue_Bloods => nrel_actor : AmyCarlson;;
+                    
+                   
+                    Blue_Bloods => nrel_actor : VanessaRay;;
+                    
+                   
+                    Blue_Bloods => nrel_actor : JenniferEsposito;;
+                    
+                  
+                  
+                  Blue_Bloods
+                  =>nrel_keywords: concept_detectif;;
+                  

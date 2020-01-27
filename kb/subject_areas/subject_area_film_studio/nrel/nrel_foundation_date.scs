@@ -1,0 +1,28 @@
+nrel_foundation_date <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+        [дата основания*](*<- lang_ru;;*);
+        [foundation date*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (дата основания*)](*<- lang_ru;;*);
+        [Def. (foundation date*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_foundation_date_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_foundation_date_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_company;
+       concept_team
+    };;
+*);
+
+=> nrel_first_domain: concept_company;
+=> nrel_second_domain: ...;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_company;;
+    *);;
+*);;

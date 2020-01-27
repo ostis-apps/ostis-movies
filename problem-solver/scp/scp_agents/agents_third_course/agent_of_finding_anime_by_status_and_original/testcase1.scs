@@ -1,0 +1,19 @@
+concept_anime -> black_butler_book_of_circus;;
+
+concept_completed -> concept_black_butler; black_butler_book_of_circus;;
+
+black_butler_book_of_circus => nrel_original: concept_manga_black_butler;;
+
+concept_completed <- concept_release_status;;
+
+concept_release_status => nrel_main_idtf:
+    [release status](*<- lang_en;;*);
+    [статус релиза](*<- lang_ru;;*);;
+
+concept_completed => nrel_main_idtf:
+    [completed](*<- lang_en;;*);
+    [выпуск завершен](*<- lang_ru;;*);;
+
+black_butler_book_of_circus => nrel_main_idtf:
+    [Black Butler: Book of Circus](*<- lang_en;;*);
+    [Темный Дворецкий: Книга Цирка](*<- lang_ru;;*);;

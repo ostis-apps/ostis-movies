@@ -1,0 +1,67 @@
+film_ataka_legkoy_kavalerii_1968
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Атака легкой кавалерии]
+(* <- lang_ru;;    *);
+[The Charge of the Light Brigade]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Атака легкой кавалерии)](*<-lang_ru;;*);
+[Description (The Charge of the Light Brigade)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/ataka-legkoy-kavalerii-1968_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/ataka-legkoy-kavalerii-1968_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Атака легкой кавалерии)](*<-lang_ru;;*);
+		[Pic. (The Charge of the Light Brigade)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/ataka-legkoy-kavalerii-1968.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : ["Theirs not to reason why..."](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [10.08.1968](*<-lang_ru;;*);;
+    => nrel_main_idtf : [10.08.1968](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H19M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H19M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_ataka_legkoy_kavalerii_1968 =>nrel_keywords: film;;
+
+film_ataka_legkoy_kavalerii_1968 <- concept_drama;concept_history;concept_war;;
+
+film_ataka_legkoy_kavalerii_1968 => nrel_main_actor : trevor_howard;vanessa_redgrave;john_gielgud;harry_andrews;;
+film_ataka_legkoy_kavalerii_1968 => nrel_producer : tony_richardson;;

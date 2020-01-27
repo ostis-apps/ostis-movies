@@ -1,0 +1,28 @@
+concept_screwball_comedy <- sc_node_not_relation;
+
+ => nrel_main_idtf:[эксцентрическая комедия] (* <- lang_ru;; *);
+ => nrel_idtf:[screwball comedy] (* <- lang_en;; *);
+
+ <- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (эксцентрическая комедия)] (* <- lang_ru;; *);
+							   [Def. (screwball comedy)] (* <- lang_en;; *);;
+			<=nrel_using_constants: concept_comedy;;
+			<= nrel_sc_text_translation: ...(*
+				-> [Эксцентрическая комедия - поджанр кинокомедии, для которого свойственно быстрое развертывание действия в непредсказуемом и зачастую неправдоподобном направлении, сопровождаемое 
+множеством сюжетных перипетий.]  (*<- lang_ru;;*);;
+			*);;
+		*);
+ 
+ <- rrel_key_sc_element:
+	...(*
+		<- sc_statement;;
+		=> nrel_idtf: [Утв.(эксцентрическая комедия)] (* <- lang_ru;; *);;
+		<= nrel_sc_text_translation: ...(*
+			-> [В эксцентрических комедиях мужчины часто переодеваются в женщин, персонажи принимают друг друга не за того, кем они являются, и эта путаница растёт как снежный ком с каждой сценой. Характерны фарсовые ситуации с оттенком буффонады. ](*<- lang_ru;;*);;
+			*);;
+*);
+
+<= nrel_inclusion: concept_genre;;

@@ -1,0 +1,52 @@
+concept_human -> Chr_Evans;;
+
+Chr_Evans
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кристофер Роберт Эванс]
+	(* <- lang_ru;;	*);
+	[Christopher Robert Evans]
+	(* <- lang_en;;	*);;
+	
+Chr_Evans <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кристофер Роберт Эванс)](*<-lang_ru;;*);
+		[Description (Christopher Robert Evans)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        film_studio_Marvel_Studios
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Chris_Evans_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Chris_Evans_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Chr_Evans <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кристофер Роберт Эванс)](*<-lang_ru;;*);
+		[Pic. (Christopher Robert Evans)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Chris_Evans.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1981;;
+Ethan_Cutkosky=>nrel_date_of_birth: 1981;;
+1981=>nrel_main_idtf:[1981 год](*<-lang_ru;;*);;
+1981=>nrel_main_idtf:[year of 1981](*<-lang_en;;*);;
+
+concept_calendar_date->2000;;
+Ethan_Cutkosky=>nrel_career_start_date: 2000;;
+2000=>nrel_main_idtf:[2000 год](*<-lang_ru;;*);;
+2000=>nrel_main_idtf:[year of 2000](*<-lang_en;;*);;
+
+Chr_Evans =>nrel_cityzenship:Usa;;
+

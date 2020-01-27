@@ -1,0 +1,100 @@
+
+                  concept_series -> Ray_Donovan;;
+              
+                  Ray_Donovan
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Ray_Donovan]
+                    (* <- lang_ru;;	*);
+                    [Ray_Donovan]
+                    (* <- lang_en;;	*);;
+                  
+                  Ray_Donovan <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Ray_Donovan)](*<-lang_ru;;*);
+                      [Description (Ray_Donovan)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Ray_Donovan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Ray_Donovan_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Ray_Donovan <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Ray_Donovan)](*<-lang_ru;;*);
+                      [Pic. (Ray_Donovan)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Ray_Donovan.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Ray_Donovan => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Ray_Donovan => nrel_production_year : 2013;;
+                  
+                  value -> 7;;
+                  Ray_Donovan => nrel_num_of_seasons: 7;;
+                  value -> 84;;
+                  Ray_Donovan => nrel_num_of_episodes: 84;;
+                  
+                  value -> 10;;
+                  Ray_Donovan => nrel_no_countries : 10;;
+                  
+                  value -> 5;;
+                  Ray_Donovan => nrel_viewers_in_millions: 5;;
+                  
+                  Ray_Donovan => nrel_age_rating: concept_PG12;;
+                  
+                    Ray_Donovan => nrel_actor : LievSchreiber;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : JonVoight;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : KerrisDorsey;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : EddieMarsan;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : DashMihok;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : PoochHall;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : KatherineMoennig;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : PaulaMalcomson;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : DevonBagby;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : StevenBauer;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : GrahamRogers;;
+                    
+                   
+                    Ray_Donovan => nrel_actor : SusanSarandon;;
+                    
+                  
+                  
+                  Ray_Donovan
+                  =>nrel_keywords: concept_detectif;;
+                  

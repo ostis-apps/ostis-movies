@@ -1,0 +1,31 @@
+concept_film_Cinderella
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Золушка]
+	(* <- lang_ru;;	*);
+	[Cinderella]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Золушка)](*<-lang_ru;;*);
+		[Description (Cinderella)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Золушка.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Cinderella.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords: concept_dance;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_princess;
+=>nrel_age_rating: concept_PG0;;	

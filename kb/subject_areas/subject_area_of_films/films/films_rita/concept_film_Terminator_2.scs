@@ -1,0 +1,27 @@
+concept_film_Terminator_2
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Терминатор 2: Судный день](* <- lang_ru;; *);
+	[Terminator 2: Judgment Day](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Терминатор 2: Судный день)](*<-lang_ru;;*);
+		[Description (Terminator 2: Judgment Day)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Терминатор 2.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Terminator 2.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_cyborg;
+=> nrel_keywords: concept_robot;
+=> nrel_keywords: concept_future;
+=> nrel_age_rating: concept_PG18;;

@@ -1,0 +1,103 @@
+
+                  concept_series -> The_Musketeers;;
+              
+                  The_Musketeers
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Мушкетеры]
+                    (* <- lang_ru;;	*);
+                    [The_Musketeers]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Musketeers <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Мушкетеры)](*<-lang_ru;;*);
+                      [Description (The_Musketeers)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Musketeers_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Musketeers_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Musketeers <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Мушкетеры)](*<-lang_ru;;*);
+                      [Pic. (The_Musketeers)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Musketeers.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Musketeers => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  The_Musketeers => nrel_production_year : 2014;;
+                  
+                  value -> 3;;
+                  The_Musketeers => nrel_num_of_seasons: 3;;
+                  value -> 30;;
+                  The_Musketeers => nrel_num_of_episodes: 30;;
+                  
+                  value -> 5;;
+                  The_Musketeers => nrel_no_countries : 5;;
+                  
+                  value -> 12;;
+                  The_Musketeers => nrel_viewers_in_millions: 12;;
+                  
+                  The_Musketeers => nrel_age_rating: concept_PG12;;
+                  
+                    The_Musketeers => nrel_actor : SantiagoCabrera;;
+                    
+                   
+                    The_Musketeers => nrel_actor : TomBurke;;
+                    
+                   
+                    The_Musketeers => nrel_actor : HowardCharles;;
+                    
+                   
+                    The_Musketeers => nrel_actor : LukePasqualino;;
+                    
+                   
+                    The_Musketeers => nrel_actor : HugoSpeer;;
+                    
+                   
+                    The_Musketeers => nrel_actor : RyanGage;;
+                    
+                   
+                    The_Musketeers => nrel_actor : TamlaKari;;
+                    
+                   
+                    The_Musketeers => nrel_actor : AlexandraDowling;;
+                    
+                   
+                    The_Musketeers => nrel_actor : MaimieMcCoy;;
+                    
+                   
+                    The_Musketeers => nrel_actor : PeterCapaldi;;
+                    
+                   
+                    The_Musketeers => nrel_actor : MarcWarren;;
+                    
+                   
+                    The_Musketeers => nrel_actor : MatthewMcNulty;;
+                    
+                   
+                    The_Musketeers => nrel_actor : RupertEverett;;
+                    
+                  
+                  
+                  The_Musketeers
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,72 @@
+concept_human -> kurt_russell;;
+ 
+ kurt_russell <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Курт Рассел)](*<-lang_ru;;*);
+ 		[Description (Kurt Russell)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kurt_russell_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kurt_russell <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Курт Рассел)](*<-lang_ru;;*);
+ 		[Pic. (Kurt Russell)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kurt_russell.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kurt_russell => nrel_main_idtf : [Курт Рассел](*<-lang_ru;;*);;
+ kurt_russell => nrel_main_idtf : [Kurt Russell](*<-lang_en;;*);;
+ 
+ 
+ kurt_russell => nrel_birth_date : 1951;;
+ 
+ concept_goverment -> Usa;;
+ kurt_russell => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kurt_russell => nrel_to_star_in : once_upon_a_time__in_hollywood;;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Once Upon a Time ... in Hollywood](*<-lang_en;;*);;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Однажды… в Голливуде](*<-lang_ru;;*);;
+kurt_russell => nrel_to_star_in : guardians_of_the_galaxy_vol_2;;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Guardians of the Galaxy Vol. 2](*<-lang_en;;*);;
+guardians_of_the_galaxy_vol_2 => nrel_main_idtf : [Стражи Галактики. Часть 2](*<-lang_ru;;*);;
+kurt_russell => nrel_to_star_in : the_fate_of_the_furious;;
+the_fate_of_the_furious => nrel_main_idtf : [The Fate of the Furious](*<-lang_en;;*);;
+the_fate_of_the_furious => nrel_main_idtf : [Форсаж 8](*<-lang_ru;;*);;
+kurt_russell => nrel_to_star_in : the_hateful_eight;;
+the_hateful_eight => nrel_main_idtf : [The Hateful Eight](*<-lang_en;;*);;
+the_hateful_eight => nrel_main_idtf : [Омерзительная восьмерка](*<-lang_ru;;*);;
+kurt_russell => nrel_to_star_in : furious_7;;
+furious_7 => nrel_main_idtf : [Furious 7](*<-lang_en;;*);;
+furious_7 => nrel_main_idtf : [Форсаж 7](*<-lang_ru;;*);;
+kurt_russell => nrel_to_star_in : death_proof;;
+death_proof => nrel_main_idtf : [Death Proof](*<-lang_en;;*);;
+death_proof => nrel_main_idtf : [Доказательство смерти](*<-lang_ru;;*);;
+kurt_russell => nrel_to_star_in : vanilla_sky;;
+vanilla_sky => nrel_main_idtf : [Vanilla Sky](*<-lang_en;;*);;
+vanilla_sky => nrel_main_idtf : [Ванильное небо](*<-lang_ru;;*);;
+kurt_russell => nrel_to_star_in : executive_decision;;
+executive_decision => nrel_main_idtf : [Executive Decision](*<-lang_en;;*);;
+executive_decision => nrel_main_idtf : [Приказано уничтожить](*<-lang_ru;;*);;
+kurt_russell => nrel_to_star_in : tango__cash;;
+tango__cash => nrel_main_idtf : [Tango & Cash](*<-lang_en;;*);;
+tango__cash => nrel_main_idtf : [Танго и Кэш](*<-lang_ru;;*);;
+kurt_russell => nrel_to_star_in : silkwood;;
+silkwood => nrel_main_idtf : [Silkwood](*<-lang_en;;*);;
+silkwood => nrel_main_idtf : [Силквуд](*<-lang_ru;;*);;
+

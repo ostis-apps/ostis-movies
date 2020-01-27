@@ -1,0 +1,67 @@
+film_astral_na_ulice_arlett_2011
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Астрал на улице Арлетт]
+(* <- lang_ru;;    *);
+[388 Arletta Avenue]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Астрал на улице Арлетт)](*<-lang_ru;;*);
+[Description (388 Arletta Avenue)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/astral-na-ulice-arlett-2011_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/astral-na-ulice-arlett-2011_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Астрал на улице Арлетт)](*<-lang_ru;;*);
+		[Pic. (388 Arletta Avenue)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/astral-na-ulice-arlett-2011.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : canada;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [388 Arletta Avenue](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [10.11.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [10.11.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H27M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H27M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_TV_MA;;
+
+film_astral_na_ulice_arlett_2011 =>nrel_keywords: film;;
+
+film_astral_na_ulice_arlett_2011 <- concept_horror;concept_thriller;;
+
+film_astral_na_ulice_arlett_2011 => nrel_main_actor : nick_stahl;mia_kirshner;devon_sawa;aaron_abrams;;
+film_astral_na_ulice_arlett_2011 => nrel_producer : randall_cole;;

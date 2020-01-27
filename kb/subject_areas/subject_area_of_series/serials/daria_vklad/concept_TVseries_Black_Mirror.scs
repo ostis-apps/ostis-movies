@@ -1,0 +1,64 @@
+concept_series -> Black_Mirror;;
+
+Black_Mirror
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Чёрное зеркало]
+	(* <- lang_ru;;	*);
+	[Black Mirror]
+	(* <- lang_en;;	*);;
+	
+Black_Mirror <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Чёрное зеркало)](*<-lang_ru;;*);
+		[Description (Black Mirror)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Black_Mirror_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Black_Mirror_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Black_Mirror <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чёрное зеркало)](*<-lang_ru;;*);
+		[Pic. (Black Mirror)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Black_Mirror.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
+Black_Mirror => nrel_production_country : Uk;;
+
+
+Black_Mirror => nrel_world_premiere: ...(* -> rrel_number_of_year: 2011;;*);;
+	
+value -> 4;;
+Black_Mirror => nrel_num_of_seasons: 4;;
+value -> 19;;
+Black_Mirror => nrel_num_of_episodes: 19;;
+
+value -> 10;;
+Black_Mirror => nrel_no_countries : 10;;
+
+value -> 15;;
+Black_Mirror => nrel_viewers_in_millions: 15;;
+
+Black_Mirror => nrel_age_rating: concept_PG12;;
+
+Black_Mirror => nrel_actor : Cristin_Milioti;;
+Black_Mirror => nrel_producer: Michael_Spiller;;
+
+Black_Mirror
+=>nrel_keywords: concept_future;
+=>nrel_keywords: concept_hitech;
+=>nrel_keywords: concept_utopia;;

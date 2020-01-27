@@ -1,0 +1,36 @@
+nikolay_burlyaev
+<- person;
+<- concept_actor;
+=> nrel_main_idtf:
+        [Николай Бурляев]
+	(* <- lang_ru;;	*);
+	[Nikolay Burlyaev]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+        <- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Николай Бурляев)](* <- lang_ru;; *);
+		[Desctiption (Nikolay Burlyaev)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+	        (*
+		        -> rrel_example:[<b><sc_element sys_idtf="nikolay_burlyaev">Николай Бурляев</sc_element></b> —  советский и российский актёр, народный артист РФ.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="nikolay_burlyaev">Nikolay Burlyaev</sc_element></b> Soviet and Russian actor, artist of the Russian Federation.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+        <-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Николай Бурляев)](*<-lang_ru;;*);
+		[Pic. (Nikolay Burlyaev)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/NikolayBurlyaev.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+

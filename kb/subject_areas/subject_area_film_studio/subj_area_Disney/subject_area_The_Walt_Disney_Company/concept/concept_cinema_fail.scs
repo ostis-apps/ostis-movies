@@ -1,0 +1,21 @@
+concept_cinema_fail <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киноляп] (* <- lang_ru;; *);
+=> nrel_idtf:[cinema fai] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (киноляп)] (* <- lang_ru;; *);
+							   [Def. (cinema fai)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_cinema
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_cinema_fail_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_cinema_fail_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);;
+

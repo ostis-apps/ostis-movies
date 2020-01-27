@@ -1,0 +1,124 @@
+belarus_cinema
+=>nrel_main_idtf:
+	[кинотеатр Беларусь](*<-lang_ru;;*);
+	[Belarus cinema](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (кинотеатр Беларусь)](*<-lang_ru;;*);
+		[Def. (Belarus cinema)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+		-> concept_cinema;;
+        -> concept_multiplex;;
+		-> concept_film;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_belarus_cinema_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_belarus_cinema_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кинотеатр Беларусь)](*<-lang_ru;;*);
+		[Pic. (Belarus cinema)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/belarus_cinema.png"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_cinema_location: minsk;
+=> nrel_foundation_date: belarus_foudation_date
+(*
+	-> rrel_day: 12(*<-concept_number;;*);;
+	-> rrel_month: ...
+	(*
+	=>nrel_main_idtf:
+		[сентябрь](*<-lang_ru;;*);
+		[september](*<-lang_en;;*);;
+	*);;
+	-> rrel_year: 2008(*<-concept_number;;*);;
+*);
+=> nrel_address: belarus_address
+(*
+	-> rrel_house_number: 28(*<-concept_number;;*);;
+	-> rrel_street:...
+	(*
+	=> nrel_main_idtf:
+		[Романовская Слобода](*<-lang_ru;;*);
+		[Romanov Sloboda](*<-lang_en;;*);;
+	*);;
+*);
+-> rrel_cinema_halls: belarus_cinema_halls
+(*
+	-> rrel_first_hall: first_belarus_hall
+	(*
+	=> nrel_main_idtf:
+		[первый зал кинотеатра Беларусь](*<-lang_ru;;*);
+		[first hall of Belarus cinema](*<-lang_en;;*);;
+	=> nrel_people_capacity: 280(*<-concept_number;;*);;
+	*);;
+	-> rrel_second_hall: second_belarus_hall
+	(*
+	=> nrel_main_idtf:
+		[второй зал кинотеатра Беларусь](*<-lang_ru;;*);
+		[second hall of Belarus cinema](*<-lang_en;;*);;
+	=> nrel_people_capacity: 221(*<-concept_number;;*);;
+	*);;
+	-> rrel_third_hall: third_belarus_hall
+	(*
+	=> nrel_main_idtf:
+		[третий зал кинотеатра Беларусь](*<-lang_ru;;*);
+		[third hall of Belarus cinema](*<-lang_en;;*);;
+	=> nrel_people_capacity: 169(*<-concept_number;;*);;
+	*);;
+	-> rrel_fifth_hall: fifth_belarus_hall
+	(*
+	=> nrel_main_idtf:
+		[пятый зал кинотеатра Беларусь](*<-lang_ru;;*);
+		[fifth hall of Belarus cinema](*<-lang_en;;*);;
+	=> nrel_people_capacity: 145(*<-concept_number;;*);;
+	*);;
+	-> rrel_fourth_hall: fourth_belarus_hall
+	(*
+	=> nrel_main_idtf:
+		[четвертый зал кинотеатра Беларусь](*<-lang_ru;;*);
+		[fourth hall of Belarus cinema](*<-lang_en;;*);;
+	=> nrel_people_capacity: 197(*<-concept_number;;*);;
+	*);;
+*);
+<- concept_cinema;
+<- concept_3Dcinema;
+=> nrel_cinema_location: minsk;;
+
+belarus_address
+=>nrel_main_idtf:
+	[адрес кинотеатра Беларусь](*<-lang_ru;;*);
+	[address of Belarus cinema](*<-lang_en;;*);;
+
+belarus_foudation_date
+=>nrel_main_idtf:
+	[дата основания кинотеатра Беларусь](*<-lang_ru;;*);
+	[foudation date of Belarus cinema](*<-lang_en;;*);;
+
+belarus_cinema_halls
+=>nrel_main_idtf:
+	[кинозалы кинотеатра Беларусь](*<-lang_ru;;*);
+	[cinema halls of Belarus cinema](*<-lang_en;;*);;
+
+rrel_fourth_hall
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+	[четвертый зал](*<-lang_ru;;*);
+	[fourth hall](*<-lang_en;;*);;
+
+rrel_fifth_hall
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+	[пятый зал](*<-lang_ru;;*);
+	[fifth hall](*<-lang_en;;*);;

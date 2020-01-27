@@ -1,0 +1,280 @@
+concept_fighting
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Борьба](*<- lang_ru;; *);
+	[Fighting](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_psychological_disorder
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Психологическое расстройство](*<- lang_ru;; *);
+	[Psychological disorder](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_killer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Киллер](*<- lang_ru;; *);
+	[Killer](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_attachment
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Привязанность](*<- lang_ru;; *);
+	[Attachment](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_holocaust
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Холокост](*<- lang_ru;; *);
+	[Holocaust](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_jew
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Еврей](*<- lang_ru;; *);
+	[Jew](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_history
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[История](*<- lang_ru;; *);
+	[History](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_ship
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Лайнер](*<- lang_ru;; *);
+	[Корабль](*<- lang_ru;; *);
+	[Ship](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_hacker
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Хакер](*<- lang_ru;; *);
+	[Hacker](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_illusion
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Иллюзия](*<- lang_ru;; *);
+	[Illusion](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_prison
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Тюрьма](*<- lang_ru;; *);
+	[Prison](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_prisoner
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Заключенный](*<- lang_ru;; *);
+	[Prisoner](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_healing
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Исцеление](*<- lang_ru;; *);
+	[Healing](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_time
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Время](*<- lang_ru;; *);
+	[Time](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_time_loop
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Временная петля](*<- lang_ru;; *);
+	[Time loop](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_rock_and_roll
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Рок-н-ролл](*<- lang_ru;; *);
+	[Rock and roll](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_bully
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Хулиган](*<- lang_ru;; *);
+	[Bully](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_shooting
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Стрельба](*<- lang_ru;; *);
+	[Shooting](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_cruelty
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Жестокость](*<- lang_ru;; *);
+	[Cruelty](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_woman
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Женщина](*<- lang_ru;; *);
+	[Woman](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_purpose
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Цель](*<- lang_ru;; *);
+	[Purpose](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_life
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Жизнь](*<- lang_ru;; *);
+	[Life](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_running
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бег](*<- lang_ru;; *);
+	[Running](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_agent
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Агент](*<- lang_ru;; *);
+	[Agent](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_evil
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Зло](*<- lang_ru;; *);
+	[Evil](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_loser
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Неудачник](*<- lang_ru;; *);
+	[Loser](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_dinosaur
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Динозавр](*<- lang_ru;; *);
+	[Dinosaur](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_amusement_park
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Парк развлечений](*<- lang_ru;; *);
+	[Amusement park](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_maniac
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Маньяк](*<- lang_ru;; *);
+	[Maniac](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_pirate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пират](*<- lang_ru;; *);
+	[Pirate](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_desert_island
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Необитаемый остров](*<- lang_ru;; *);
+	[Desert island](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_experiment
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эксперимент](*<- lang_ru;; *);
+	[Experiment](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_student
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Студент](*<- lang_ru;; *);
+	[Student](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_invention
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Изобретение](*<- lang_ru;; *);
+	[Invention](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_scientist
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ученый](*<- lang_ru;; *);
+	[Scientist](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_wolf
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Волк](*<- lang_ru;; *);
+	[Wolf](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_tribe
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Племя](*<- lang_ru;; *);
+	[Tribe](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_supernatural
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сверхъестественное](*<- lang_ru;; *);
+	[Supernatural](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+concept_soldier
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Солдат](*<- lang_ru;; *);
+	[Soldier](*<- lang_en;; *);
+<= nrel_inclusion: concept_keywords;;
+
+
+
+
+
+
+

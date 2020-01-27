@@ -1,0 +1,94 @@
+
+                  concept_series -> Ash_vs_Evil_Dead;;
+              
+                  Ash_vs_Evil_Dead
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Ash_vs_Evil_Dead]
+                    (* <- lang_ru;;	*);
+                    [Ash_vs_Evil_Dead]
+                    (* <- lang_en;;	*);;
+                  
+                  Ash_vs_Evil_Dead <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Ash_vs_Evil_Dead)](*<-lang_ru;;*);
+                      [Description (Ash_vs_Evil_Dead)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Ash_vs_Evil_Dead_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Ash_vs_Evil_Dead_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Ash_vs_Evil_Dead <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Ash_vs_Evil_Dead)](*<-lang_ru;;*);
+                      [Pic. (Ash_vs_Evil_Dead)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Ash_vs_Evil_Dead.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Ash_vs_Evil_Dead => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Ash_vs_Evil_Dead => nrel_production_year : 2015;;
+                  
+                  value -> 3;;
+                  Ash_vs_Evil_Dead => nrel_num_of_seasons: 3;;
+                  value -> 30;;
+                  Ash_vs_Evil_Dead => nrel_num_of_episodes: 30;;
+                  
+                  value -> 12;;
+                  Ash_vs_Evil_Dead => nrel_no_countries : 12;;
+                  
+                  value -> 8;;
+                  Ash_vs_Evil_Dead => nrel_viewers_in_millions: 8;;
+                  
+                  Ash_vs_Evil_Dead => nrel_age_rating: concept_PG12;;
+                  
+                    Ash_vs_Evil_Dead => nrel_actor : DanaDeLorenzo;;
+                    
+                   
+                    Ash_vs_Evil_Dead => nrel_actor : BruceCampbell;;
+                    
+                   
+                    Ash_vs_Evil_Dead => nrel_actor : RaySantiago;;
+                    
+                   
+                    Ash_vs_Evil_Dead => nrel_actor : LucyLawless;;
+                    
+                   
+                    Ash_vs_Evil_Dead => nrel_actor : ArielleCarverONeill;;
+                    
+                   
+                    Ash_vs_Evil_Dead => nrel_actor : JillMarieJones;;
+                    
+                   
+                    Ash_vs_Evil_Dead => nrel_actor : TedRaimi;;
+                    
+                   
+                    Ash_vs_Evil_Dead => nrel_actor : PepiSonuga;;
+                    
+                   
+                    Ash_vs_Evil_Dead => nrel_actor : MichelleHurd;;
+                    
+                   
+                    Ash_vs_Evil_Dead => nrel_actor : LindsayFarris;;
+                    
+                  
+                  
+                  Ash_vs_Evil_Dead
+                  =>nrel_keywords: concept_detectif;;
+                  

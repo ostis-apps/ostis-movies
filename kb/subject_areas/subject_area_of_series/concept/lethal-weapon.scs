@@ -1,0 +1,94 @@
+
+                  concept_series -> Lethal_Weapon;;
+              
+                  Lethal_Weapon
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Смертельное оружие]
+                    (* <- lang_ru;;	*);
+                    [Lethal_Weapon]
+                    (* <- lang_en;;	*);;
+                  
+                  Lethal_Weapon <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Смертельное оружие)](*<-lang_ru;;*);
+                      [Description (Lethal_Weapon)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Lethal_Weapon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Lethal_Weapon_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Lethal_Weapon <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Смертельное оружие)](*<-lang_ru;;*);
+                      [Pic. (Lethal_Weapon)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Lethal_Weapon.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Lethal_Weapon => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Lethal_Weapon => nrel_production_year : 2016;;
+                  
+                  value -> 3;;
+                  Lethal_Weapon => nrel_num_of_seasons: 3;;
+                  value -> 55;;
+                  Lethal_Weapon => nrel_num_of_episodes: 55;;
+                  
+                  value -> 5;;
+                  Lethal_Weapon => nrel_no_countries : 5;;
+                  
+                  value -> 4;;
+                  Lethal_Weapon => nrel_viewers_in_millions: 4;;
+                  
+                  Lethal_Weapon => nrel_age_rating: concept_PG12;;
+                  
+                    Lethal_Weapon => nrel_actor : DamonWayans;;
+                    
+                   
+                    Lethal_Weapon => nrel_actor : KeeshaSharp;;
+                    
+                   
+                    Lethal_Weapon => nrel_actor : KevinRahm;;
+                    
+                   
+                    Lethal_Weapon => nrel_actor : MichelleMitchenor;;
+                    
+                   
+                    Lethal_Weapon => nrel_actor : JohnathanFernandez;;
+                    
+                   
+                    Lethal_Weapon => nrel_actor : ClayneCrawford;;
+                    
+                   
+                    Lethal_Weapon => nrel_actor : JordanaBrewster;;
+                    
+                   
+                    Lethal_Weapon => nrel_actor : ChandlerKinney;;
+                    
+                   
+                    Lethal_Weapon => nrel_actor : DanteBrown;;
+                    
+                   
+                    Lethal_Weapon => nrel_actor : SeannWilliamScott;;
+                    
+                  
+                  
+                  Lethal_Weapon
+                  =>nrel_keywords: concept_detectif;;
+                  

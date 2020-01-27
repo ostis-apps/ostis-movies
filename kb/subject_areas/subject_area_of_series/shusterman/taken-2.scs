@@ -1,0 +1,76 @@
+
+                  concept_series -> Full_House_Take_2;;
+              
+                  Full_House_Take_2
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Full_House_Take_2]
+                    (* <- lang_ru;;	*);
+                    [Full_House_Take_2]
+                    (* <- lang_en;;	*);;
+                  
+                  Full_House_Take_2 <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Full_House_Take_2)](*<-lang_ru;;*);
+                      [Description (Full_House_Take_2)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Full_House_Take_2_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Full_House_Take_2_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Full_House_Take_2 <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Full_House_Take_2)](*<-lang_ru;;*);
+                      [Pic. (Full_House_Take_2)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Full_House_Take_2.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Full_House_Take_2 => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2012;;
+                  2012 => nrel_main_idtf : [2012 год](*<-lang_ru;;*);;
+                  2012 => nrel_main_idtf : [year of 2012](*<-lang_en;;*);;
+                  Full_House_Take_2 => nrel_production_year : 2012;;
+                  
+                  value -> 1;;
+                  Full_House_Take_2 => nrel_num_of_seasons: 1;;
+                  value -> 32;;
+                  Full_House_Take_2 => nrel_num_of_episodes: 32;;
+                  
+                  value -> 9;;
+                  Full_House_Take_2 => nrel_no_countries : 9;;
+                  
+                  value -> 11;;
+                  Full_House_Take_2 => nrel_viewers_in_millions: 11;;
+                  
+                  Full_House_Take_2 => nrel_age_rating: concept_PG12;;
+                  
+                    Full_House_Take_2 => nrel_actor : HwangJungEum;;
+                    
+                   
+                    Full_House_Take_2 => nrel_actor : ParkKiWoong;;
+                    
+                   
+                    Full_House_Take_2 => nrel_actor : NoMinWoo;;
+                    
+                   
+                    Full_House_Take_2 => nrel_actor : YooSulAh;;
+                    
+                  
+                  
+                  Full_House_Take_2
+                  =>nrel_keywords: concept_detectif;;
+                  

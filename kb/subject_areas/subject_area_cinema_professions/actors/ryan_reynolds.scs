@@ -1,0 +1,54 @@
+concept_human -> ryan_reynolds;;
+ 
+ ryan_reynolds <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Райан Рейнольдс)](*<-lang_ru;;*);
+ 		[Description (Ryan Reynolds)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ryan_reynolds_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ryan_reynolds <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Райан Рейнольдс)](*<-lang_ru;;*);
+ 		[Pic. (Ryan Reynolds)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ryan_reynolds.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ryan_reynolds => nrel_main_idtf : [Райан Рейнольдс](*<-lang_ru;;*);;
+ ryan_reynolds => nrel_main_idtf : [Ryan Reynolds](*<-lang_en;;*);;
+ 
+ 
+ ryan_reynolds => nrel_birth_date : 1976;;
+ 
+ concept_goverment -> Canada;;
+ ryan_reynolds => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ ryan_reynolds => nrel_to_star_in : pokemon_detective_pikachu;;
+pokemon_detective_pikachu => nrel_main_idtf : [Pokémon Detective Pikachu](*<-lang_en;;*);;
+pokemon_detective_pikachu => nrel_main_idtf : [Покемон. Детектив Пикачу](*<-lang_ru;;*);;
+ryan_reynolds => nrel_to_star_in : deadpool_2;;
+deadpool_2 => nrel_main_idtf : [Deadpool 2](*<-lang_en;;*);;
+deadpool_2 => nrel_main_idtf : [Дэдпул 2](*<-lang_ru;;*);;
+ryan_reynolds => nrel_to_star_in : deadpool;;
+deadpool => nrel_main_idtf : [Deadpool](*<-lang_en;;*);;
+deadpool => nrel_main_idtf : [Дэдпул](*<-lang_ru;;*);;
+ryan_reynolds => nrel_to_star_in : xmen_origins_wolverine;;
+xmen_origins_wolverine => nrel_main_idtf : [X-Men Origins: Wolverine](*<-lang_en;;*);;
+xmen_origins_wolverine => nrel_main_idtf : [Люди Икс: Начало. Росомаха](*<-lang_ru;;*);;
+

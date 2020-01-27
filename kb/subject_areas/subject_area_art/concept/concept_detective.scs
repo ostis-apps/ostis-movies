@@ -1,0 +1,33 @@
+concept_detective
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[детектив](*<-lang_ru;;*);
+	[detective](*<-lang_en;;*);
+
+<= nrel_inclusion: concept_genre;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (детектив)](*<-lang_ru;;*);
+		[Def. (detective)](*<-lang_en;;*);;
+	<=nrel_using_constants: concept_piece_of_art;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_detective_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_detective_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (детектив)](*<-lang_ru;;*);
+		[Pic. (detective)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_detective_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

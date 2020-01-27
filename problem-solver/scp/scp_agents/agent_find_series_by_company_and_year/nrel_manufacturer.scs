@@ -1,0 +1,7 @@
+nrel_manufacturer <- sc_node_norole_relation;;
+
+nrel_manufacturer => nrel_main_idtf:
+    [производитель](*<- lang_ru;;*);
+    [manufacturer](*<- lang_en;;*);;
+
+

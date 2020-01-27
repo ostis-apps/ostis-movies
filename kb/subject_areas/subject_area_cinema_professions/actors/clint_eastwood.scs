@@ -1,0 +1,48 @@
+concept_human -> clint_eastwood;;
+ 
+ clint_eastwood <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Клинт Иствуд)](*<-lang_ru;;*);
+ 		[Description (Clint Eastwood)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/clint_eastwood_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ clint_eastwood <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Клинт Иствуд)](*<-lang_ru;;*);
+ 		[Pic. (Clint Eastwood)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/clint_eastwood.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ clint_eastwood => nrel_main_idtf : [Клинт Иствуд](*<-lang_ru;;*);;
+ clint_eastwood => nrel_main_idtf : [Clint Eastwood](*<-lang_en;;*);;
+ 
+ 
+ clint_eastwood => nrel_birth_date : 1930;;
+ 
+ concept_goverment -> Usa;;
+ clint_eastwood => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ clint_eastwood => nrel_to_star_in : the_mule;;
+the_mule => nrel_main_idtf : [The Mule](*<-lang_en;;*);;
+the_mule => nrel_main_idtf : [Наркокурьер](*<-lang_ru;;*);;
+clint_eastwood => nrel_to_star_in : changeling;;
+changeling => nrel_main_idtf : [Changeling](*<-lang_en;;*);;
+changeling => nrel_main_idtf : [Подмена](*<-lang_ru;;*);;
+

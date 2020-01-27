@@ -1,0 +1,67 @@
+film_7_dney_i_nochey_s_merilin_2011
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[7 дней и ночей с Мэрилин]
+(* <- lang_ru;;    *);
+[My Week with Marilyn]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (7 дней и ночей с Мэрилин)](*<-lang_ru;;*);
+[Description (My Week with Marilyn)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/7-dney-i-nochey-s-merilin-2011_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/7-dney-i-nochey-s-merilin-2011_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (7 дней и ночей с Мэрилин)](*<-lang_ru;;*);
+		[Pic. (My Week with Marilyn)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/7-dney-i-nochey-s-merilin-2011.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [My Week with Marilyn](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [25.11.2011](*<-lang_ru;;*);;
+    => nrel_main_idtf : [25.11.2011](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H39M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H39M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_7_dney_i_nochey_s_merilin_2011 =>nrel_keywords: film;;
+
+film_7_dney_i_nochey_s_merilin_2011 <- concept_biography;concept_drama;;
+
+film_7_dney_i_nochey_s_merilin_2011 => nrel_main_actor : michelle_williams;eddie_redmayne;kenneth_branagh;julia_ormond;;
+film_7_dney_i_nochey_s_merilin_2011 => nrel_producer : simon_curtis;;

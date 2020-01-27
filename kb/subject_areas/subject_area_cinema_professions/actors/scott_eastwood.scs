@@ -1,0 +1,51 @@
+concept_human -> scott_eastwood;;
+ 
+ scott_eastwood <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Скотт Иствуд)](*<-lang_ru;;*);
+ 		[Description (Scott Eastwood)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/scott_eastwood_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ scott_eastwood <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Скотт Иствуд)](*<-lang_ru;;*);
+ 		[Pic. (Scott Eastwood)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/scott_eastwood.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ scott_eastwood => nrel_main_idtf : [Скотт Иствуд](*<-lang_ru;;*);;
+ scott_eastwood => nrel_main_idtf : [Scott Eastwood](*<-lang_en;;*);;
+ 
+ 
+ scott_eastwood => nrel_birth_date : 1986;;
+ 
+ concept_goverment -> Usa;;
+ scott_eastwood => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ scott_eastwood => nrel_to_star_in : the_fate_of_the_furious;;
+the_fate_of_the_furious => nrel_main_idtf : [The Fate of the Furious](*<-lang_en;;*);;
+the_fate_of_the_furious => nrel_main_idtf : [Форсаж 8](*<-lang_ru;;*);;
+scott_eastwood => nrel_to_star_in : suicide_squad;;
+suicide_squad => nrel_main_idtf : [Suicide Squad](*<-lang_en;;*);;
+suicide_squad => nrel_main_idtf : [Отряд самоубийц](*<-lang_ru;;*);;
+scott_eastwood => nrel_to_star_in : fury;;
+fury => nrel_main_idtf : [Fury](*<-lang_en;;*);;
+fury => nrel_main_idtf : [Ярость](*<-lang_ru;;*);;
+

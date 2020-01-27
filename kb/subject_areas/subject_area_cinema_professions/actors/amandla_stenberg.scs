@@ -1,0 +1,45 @@
+concept_human -> amandla_stenberg;;
+ 
+ amandla_stenberg <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Амандла Стенберг)](*<-lang_ru;;*);
+ 		[Description (Amandla Stenberg)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/amandla_stenberg_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ amandla_stenberg <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Амандла Стенберг)](*<-lang_ru;;*);
+ 		[Pic. (Amandla Stenberg)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/amandla_stenberg.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ amandla_stenberg => nrel_main_idtf : [Амандла Стенберг](*<-lang_ru;;*);;
+ amandla_stenberg => nrel_main_idtf : [Amandla Stenberg](*<-lang_en;;*);;
+ 
+ 
+ amandla_stenberg => nrel_birth_date : 1998;;
+ 
+ concept_goverment -> Usa;;
+ amandla_stenberg => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ amandla_stenberg => nrel_to_star_in : the_hunger_games;;
+the_hunger_games => nrel_main_idtf : [The Hunger Games](*<-lang_en;;*);;
+the_hunger_games => nrel_main_idtf : [Голодные игры](*<-lang_ru;;*);;
+

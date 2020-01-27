@@ -1,0 +1,45 @@
+concept_human -> cole_sprouse;;
+ 
+ cole_sprouse <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Коул Спроус)](*<-lang_ru;;*);
+ 		[Description (Cole Sprouse)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/cole_sprouse_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ cole_sprouse <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Коул Спроус)](*<-lang_ru;;*);
+ 		[Pic. (Cole Sprouse)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/cole_sprouse.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ cole_sprouse => nrel_main_idtf : [Коул Спроус](*<-lang_ru;;*);;
+ cole_sprouse => nrel_main_idtf : [Cole Sprouse](*<-lang_en;;*);;
+ 
+ 
+ cole_sprouse => nrel_birth_date : 1992;;
+ 
+ concept_goverment -> Italy;;
+ cole_sprouse => nrel_cityzenship : Italy;;
+ Italy => nrel_main_idtf : [Italy](*<-lang_en;;*);;
+ Italy => nrel_main_idtf : [Италия](*<-lang_ru;;*);;
+ 
+ cole_sprouse => nrel_to_star_in : big_daddy;;
+big_daddy => nrel_main_idtf : [Big Daddy](*<-lang_en;;*);;
+big_daddy => nrel_main_idtf : [Большой папа](*<-lang_ru;;*);;
+

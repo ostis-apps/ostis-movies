@@ -1,0 +1,54 @@
+concept_human -> Scarlett_Joh;;
+
+Scarlett_Joh
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Скарлетт Ингрид Йоханссон]
+	(* <- lang_ru;;	*);
+	[Scarlett Ingrid Johansson]
+	(* <- lang_en;;	*);;
+	
+Scarlett_Joh <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Скарлетт Ингрид Йоханссон)](*<-lang_ru;;*);
+		[Description (Scarlett Ingrid Johansson)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        film_studio_Marvel_Studios
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Scarlett_Joh_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Scarlett_Joh_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Scarlett_Joh <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Скарлетт Ингрид Йоханссон)](*<-lang_ru;;*);
+		[Pic. (Scarlett Ingrid Johansson)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Scarlett_Joh.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1984;;
+Scarlett_Joh=>nrel_date_of_birth: 1984;;
+1984=>nrel_main_idtf:[1984 год](*<-lang_ru;;*);;
+1984=>nrel_main_idtf:[year of 1984](*<-lang_en;;*);;
+
+concept_calendar_date-> 1994;;
+Scarlett_Joh=>nrel_career_start_date: 1994;;
+1994=>nrel_main_idtf:[1994 год](*<-lang_ru;;*);;
+1994=>nrel_main_idtf:[year of 1994](*<-lang_en;;*);;
+
+Scarlett_Joh =>nrel_cityzenship:Usa;;
+Scarlett_Joh =>nrel_cityzenship:Denmark;;
+Denmark <-concept_country;;
+

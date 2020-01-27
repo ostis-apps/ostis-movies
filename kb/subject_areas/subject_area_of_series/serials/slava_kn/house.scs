@@ -1,0 +1,100 @@
+
+                  concept_series -> House;;
+              
+                  House
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [дом]
+                    (* <- lang_ru;;	*);
+                    [House]
+                    (* <- lang_en;;	*);;
+                  
+                  House <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (дом)](*<-lang_ru;;*);
+                      [Description (House)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/House_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/House_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  House <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (дом)](*<-lang_ru;;*);
+                      [Pic. (House)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/House.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  House => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2004;;
+                  2004 => nrel_main_idtf : [2004 год](*<-lang_ru;;*);;
+                  2004 => nrel_main_idtf : [year of 2004](*<-lang_en;;*);;
+                  House => nrel_production_year : 2004;;
+                  
+                  value -> 8;;
+                  House => nrel_num_of_seasons: 8;;
+                  value -> 176;;
+                  House => nrel_num_of_episodes: 176;;
+                  
+                  value -> 11;;
+                  House => nrel_no_countries : 11;;
+                  
+                  value -> 8;;
+                  House => nrel_viewers_in_millions: 8;;
+                  
+                  House => nrel_age_rating: concept_PG12;;
+                  
+                    House => nrel_actor : HughLaurie;;
+                    
+                   
+                    House => nrel_actor : RobertSeanLeonard;;
+                    
+                   
+                    House => nrel_actor : OmarEpps;;
+                    
+                   
+                    House => nrel_actor : JesseSpencer;;
+                    
+                   
+                    House => nrel_actor : LisaEdelstein;;
+                    
+                   
+                    House => nrel_actor : JenniferMorrison;;
+                    
+                   
+                    House => nrel_actor : PeterJacobson;;
+                    
+                   
+                    House => nrel_actor : OliviaWilde;;
+                    
+                   
+                    House => nrel_actor : KalPenn;;
+                    
+                   
+                    House => nrel_actor : CharlyneYi;;
+                    
+                   
+                    House => nrel_actor : OdetteAnnable;;
+                    
+                   
+                    House => nrel_actor : AmberTamblyn;;
+                    
+                  
+                  
+                  House
+                  =>nrel_keywords: concept_detectif;;
+                  

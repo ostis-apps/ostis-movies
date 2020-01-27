@@ -1,0 +1,57 @@
+concept_human -> martin_freeman;;
+ 
+ martin_freeman <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мартин Фримен)](*<-lang_ru;;*);
+ 		[Description (Martin Freeman)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/martin_freeman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ martin_freeman <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мартин Фримен)](*<-lang_ru;;*);
+ 		[Pic. (Martin Freeman)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/martin_freeman.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ martin_freeman => nrel_main_idtf : [Мартин Фримен](*<-lang_ru;;*);;
+ martin_freeman => nrel_main_idtf : [Martin Freeman](*<-lang_en;;*);;
+ 
+ 
+ martin_freeman => nrel_birth_date : 1971;;
+ 
+ concept_goverment -> UK;;
+ martin_freeman => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ martin_freeman => nrel_to_star_in : black_panther;;
+black_panther => nrel_main_idtf : [Black Panther](*<-lang_en;;*);;
+black_panther => nrel_main_idtf : [Черная Пантера](*<-lang_ru;;*);;
+martin_freeman => nrel_to_star_in : captain_america_civil_war;;
+captain_america_civil_war => nrel_main_idtf : [Captain America: Civil War](*<-lang_en;;*);;
+captain_america_civil_war => nrel_main_idtf : [Первый мститель: Противостояние](*<-lang_ru;;*);;
+martin_freeman => nrel_to_star_in : the_hobbit_the_battle_of_the_five_armies;;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [The Hobbit: The Battle of the Five Armies](*<-lang_en;;*);;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [Хоббит: Битва пяти воинств](*<-lang_ru;;*);;
+martin_freeman => nrel_to_star_in : the_hobbit_the_desolation_of_smaug;;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [The Hobbit: The Desolation of Smaug](*<-lang_en;;*);;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [Хоббит: Пустошь Смауга](*<-lang_ru;;*);;
+martin_freeman => nrel_to_star_in : the_hobbit_an_unexpected_journey;;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [The Hobbit: An Unexpected Journey](*<-lang_en;;*);;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [Хоббит: Нежданное путешествие](*<-lang_ru;;*);;
+

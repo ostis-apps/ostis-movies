@@ -1,0 +1,38 @@
+concept_traditional_animation
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[рисованная мультипликация](*<-lang_ru;;*);
+	[traditional animation](*<-lang_en;;*);
+	[classical animation](*<-lang_en;;*);
+	[hand-drawn animation](*<-lang_en;;*);
+
+
+<- concept_multianimation;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (рисованная мультипликация)](*<-lang_ru;;*);
+		[Def. (traditional animation)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_traditional_animation_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_traditional_animation_def_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (рисованная мультипликация)](*<-lang_ru;;*);
+		[Pic. (traditional animation)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_traditional_animation.jpeg"(*=>nrel_format:format_jpeg;;*);;
+	*);;
+*);;
+	

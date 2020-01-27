@@ -1,0 +1,45 @@
+concept_human -> maisie_williams;;
+ 
+ maisie_williams <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэйси Уильямс)](*<-lang_ru;;*);
+ 		[Description (Maisie Williams)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/maisie_williams_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ maisie_williams <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэйси Уильямс)](*<-lang_ru;;*);
+ 		[Pic. (Maisie Williams)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/maisie_williams.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ maisie_williams => nrel_main_idtf : [Мэйси Уильямс](*<-lang_ru;;*);;
+ maisie_williams => nrel_main_idtf : [Maisie Williams](*<-lang_en;;*);;
+ 
+ 
+ maisie_williams => nrel_birth_date : 1997;;
+ 
+ concept_goverment -> UK;;
+ maisie_williams => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ maisie_williams => nrel_to_star_in : the_new_mutants;;
+the_new_mutants => nrel_main_idtf : [The New Mutants](*<-lang_en;;*);;
+the_new_mutants => nrel_main_idtf : [Новые мутанты](*<-lang_ru;;*);;
+

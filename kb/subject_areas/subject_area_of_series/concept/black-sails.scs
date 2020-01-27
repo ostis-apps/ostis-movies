@@ -1,0 +1,112 @@
+
+                  concept_series -> Black_Sails;;
+              
+                  Black_Sails
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Черные паруса]
+                    (* <- lang_ru;;	*);
+                    [Black_Sails]
+                    (* <- lang_en;;	*);;
+                  
+                  Black_Sails <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Черные паруса)](*<-lang_ru;;*);
+                      [Description (Black_Sails)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Black_Sails_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Black_Sails_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Black_Sails <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Черные паруса)](*<-lang_ru;;*);
+                      [Pic. (Black_Sails)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Black_Sails.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Black_Sails => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Black_Sails => nrel_production_year : 2014;;
+                  
+                  value -> 4;;
+                  Black_Sails => nrel_num_of_seasons: 4;;
+                  value -> 38;;
+                  Black_Sails => nrel_num_of_episodes: 38;;
+                  
+                  value -> 13;;
+                  Black_Sails => nrel_no_countries : 13;;
+                  
+                  value -> 11;;
+                  Black_Sails => nrel_viewers_in_millions: 11;;
+                  
+                  Black_Sails => nrel_age_rating: concept_PG12;;
+                  
+                    Black_Sails => nrel_actor : TobyStephens;;
+                    
+                   
+                    Black_Sails => nrel_actor : LukeArnold;;
+                    
+                   
+                    Black_Sails => nrel_actor : TobySchmitz;;
+                    
+                   
+                    Black_Sails => nrel_actor : JessicaParkerKennedy;;
+                    
+                   
+                    Black_Sails => nrel_actor : ClaraPaget;;
+                    
+                   
+                    Black_Sails => nrel_actor : TomHopper;;
+                    
+                   
+                    Black_Sails => nrel_actor : HannahNew;;
+                    
+                   
+                    Black_Sails => nrel_actor : ZachMcGowan;;
+                    
+                   
+                    Black_Sails => nrel_actor : HakeemKaeKazim;;
+                    
+                   
+                    Black_Sails => nrel_actor : LukeRoberts;;
+                    
+                   
+                    Black_Sails => nrel_actor : LouiseBarnes;;
+                    
+                   
+                    Black_Sails => nrel_actor : RayStevenson;;
+                    
+                   
+                    Black_Sails => nrel_actor : SeanCameronMichael;;
+                    
+                   
+                    Black_Sails => nrel_actor : DavidWilmot;;
+                    
+                   
+                    Black_Sails => nrel_actor : MarkRyan;;
+                    
+                   
+                    Black_Sails => nrel_actor : HarrietWalter;;
+                    
+                  
+                  
+                  Black_Sails
+                  =>nrel_keywords: concept_detectif;;
+                  

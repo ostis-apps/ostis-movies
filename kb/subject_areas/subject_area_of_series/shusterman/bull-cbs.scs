@@ -1,0 +1,70 @@
+
+                  concept_series -> Penn_&_Teller:_Bullshit!;;
+              
+                  Penn_&_Teller:_Bullshit!
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Penn _ & _ Teller: _Bullshit!]
+                    (* <- lang_ru;;	*);
+                    [Penn_&_Teller:_Bullshit!]
+                    (* <- lang_en;;	*);;
+                  
+                  Penn_&_Teller:_Bullshit! <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Penn _ & _ Teller: _Bullshit!)](*<-lang_ru;;*);
+                      [Description (Penn_&_Teller:_Bullshit!)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Penn_&_Teller:_Bullshit!_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Penn_&_Teller:_Bullshit!_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Penn_&_Teller:_Bullshit! <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Penn _ & _ Teller: _Bullshit!)](*<-lang_ru;;*);
+                      [Pic. (Penn_&_Teller:_Bullshit!)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Penn_&_Teller:_Bullshit!.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Penn_&_Teller:_Bullshit! => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2003;;
+                  2003 => nrel_main_idtf : [2003 год](*<-lang_ru;;*);;
+                  2003 => nrel_main_idtf : [year of 2003](*<-lang_en;;*);;
+                  Penn_&_Teller:_Bullshit! => nrel_production_year : 2003;;
+                  
+                  value -> 8;;
+                  Penn_&_Teller:_Bullshit! => nrel_num_of_seasons: 8;;
+                  value -> 89;;
+                  Penn_&_Teller:_Bullshit! => nrel_num_of_episodes: 89;;
+                  
+                  value -> 11;;
+                  Penn_&_Teller:_Bullshit! => nrel_no_countries : 11;;
+                  
+                  value -> 7;;
+                  Penn_&_Teller:_Bullshit! => nrel_viewers_in_millions: 7;;
+                  
+                  Penn_&_Teller:_Bullshit! => nrel_age_rating: concept_PG12;;
+                  
+                    Penn_&_Teller:_Bullshit! => nrel_actor : PennJillette;;
+                    
+                   
+                    Penn_&_Teller:_Bullshit! => nrel_actor : Teller;;
+                    
+                  
+                  
+                  Penn_&_Teller:_Bullshit!
+                  =>nrel_keywords: concept_detectif;;
+                  

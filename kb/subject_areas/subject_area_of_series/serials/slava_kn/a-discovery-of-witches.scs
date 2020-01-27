@@ -1,0 +1,118 @@
+
+                  concept_series -> A_Discovery_of_Witches;;
+              
+                  A_Discovery_of_Witches
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [A_Discovery_of_Witches]
+                    (* <- lang_ru;;	*);
+                    [A_Discovery_of_Witches]
+                    (* <- lang_en;;	*);;
+                  
+                  A_Discovery_of_Witches <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (A_Discovery_of_Witches)](*<-lang_ru;;*);
+                      [Description (A_Discovery_of_Witches)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/A_Discovery_of_Witches_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/A_Discovery_of_Witches_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  A_Discovery_of_Witches <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (A_Discovery_of_Witches)](*<-lang_ru;;*);
+                      [Pic. (A_Discovery_of_Witches)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/A_Discovery_of_Witches.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  A_Discovery_of_Witches => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  A_Discovery_of_Witches => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  A_Discovery_of_Witches => nrel_num_of_seasons: 3;;
+                  value -> 16;;
+                  A_Discovery_of_Witches => nrel_num_of_episodes: 16;;
+                  
+                  value -> 3;;
+                  A_Discovery_of_Witches => nrel_no_countries : 3;;
+                  
+                  value -> 6;;
+                  A_Discovery_of_Witches => nrel_viewers_in_millions: 6;;
+                  
+                  A_Discovery_of_Witches => nrel_age_rating: concept_PG12;;
+                  
+                    A_Discovery_of_Witches => nrel_actor : MalinBuska;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : TeresaPalmer;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : ValariePettiford;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : OwenTeale;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : MatthewGoode;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : GreggChillin;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : EdwardBluemel;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : AiyshaHart;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : AlexKingston;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : TrevorEve;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : LouiseBrealey;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : TanyaMoodie;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : DanielEzra;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : TrystanGravelle;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : AislingLoftus;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : LindsayDuncan;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : SorchaCusack;;
+                    
+                   
+                    A_Discovery_of_Witches => nrel_actor : GregMcHugh;;
+                    
+                  
+                  
+                  A_Discovery_of_Witches
+                  =>nrel_keywords: concept_detectif;;
+                  

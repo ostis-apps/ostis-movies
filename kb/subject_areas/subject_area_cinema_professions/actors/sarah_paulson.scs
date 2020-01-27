@@ -1,0 +1,48 @@
+concept_human -> sarah_paulson;;
+ 
+ sarah_paulson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сара Полсон)](*<-lang_ru;;*);
+ 		[Description (Sarah Paulson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/sarah_paulson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ sarah_paulson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сара Полсон)](*<-lang_ru;;*);
+ 		[Pic. (Sarah Paulson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/sarah_paulson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ sarah_paulson => nrel_main_idtf : [Сара Полсон](*<-lang_ru;;*);;
+ sarah_paulson => nrel_main_idtf : [Sarah Paulson](*<-lang_en;;*);;
+ 
+ 
+ sarah_paulson => nrel_birth_date : 1975;;
+ 
+ concept_goverment -> Usa;;
+ sarah_paulson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ sarah_paulson => nrel_to_star_in : glass;;
+glass => nrel_main_idtf : [Glass](*<-lang_en;;*);;
+glass => nrel_main_idtf : [Стекло](*<-lang_ru;;*);;
+sarah_paulson => nrel_to_star_in : oceans_8;;
+oceans_8 => nrel_main_idtf : [Ocean`s 8](*<-lang_en;;*);;
+oceans_8 => nrel_main_idtf : [8 подруг Оушена](*<-lang_ru;;*);;
+

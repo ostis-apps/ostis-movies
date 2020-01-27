@@ -1,0 +1,63 @@
+concept_human -> elijah_wood;;
+ 
+ elijah_wood <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Элайджа Вуд)](*<-lang_ru;;*);
+ 		[Description (Elijah Wood)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/elijah_wood_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ elijah_wood <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Элайджа Вуд)](*<-lang_ru;;*);
+ 		[Pic. (Elijah Wood)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/elijah_wood.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ elijah_wood => nrel_main_idtf : [Элайджа Вуд](*<-lang_ru;;*);;
+ elijah_wood => nrel_main_idtf : [Elijah Wood](*<-lang_en;;*);;
+ 
+ 
+ elijah_wood => nrel_birth_date : 1981;;
+ 
+ concept_goverment -> Usa;;
+ elijah_wood => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ elijah_wood => nrel_to_star_in : the_hobbit_an_unexpected_journey;;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [The Hobbit: An Unexpected Journey](*<-lang_en;;*);;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [Хоббит: Нежданное путешествие](*<-lang_ru;;*);;
+elijah_wood => nrel_to_star_in : sin_city;;
+sin_city => nrel_main_idtf : [Sin City](*<-lang_en;;*);;
+sin_city => nrel_main_idtf : [Город грехов](*<-lang_ru;;*);;
+elijah_wood => nrel_to_star_in : eternal_sunshine_of_the_spotless_mind;;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Eternal Sunshine of the Spotless Mind](*<-lang_en;;*);;
+eternal_sunshine_of_the_spotless_mind => nrel_main_idtf : [Вечное сияние чистого разума](*<-lang_ru;;*);;
+elijah_wood => nrel_to_star_in : the_lord_of_the_rings_the_return_of_the_king;;
+the_lord_of_the_rings_the_return_of_the_king => nrel_main_idtf : [The Lord of the Rings: The Return of the King](*<-lang_en;;*);;
+the_lord_of_the_rings_the_return_of_the_king => nrel_main_idtf : [Властелин Колец: Возвращение Короля](*<-lang_ru;;*);;
+elijah_wood => nrel_to_star_in : the_lord_of_the_rings_the_two_towers;;
+the_lord_of_the_rings_the_two_towers => nrel_main_idtf : [The Lord of the Rings: The Two Towers](*<-lang_en;;*);;
+the_lord_of_the_rings_the_two_towers => nrel_main_idtf : [Властелин Колец: Две Крепости](*<-lang_ru;;*);;
+elijah_wood => nrel_to_star_in : the_lord_of_the_rings_the_fellowship_of_the_ring;;
+the_lord_of_the_rings_the_fellowship_of_the_ring => nrel_main_idtf : [The Lord of the Rings: The Fellowship of the Ring](*<-lang_en;;*);;
+the_lord_of_the_rings_the_fellowship_of_the_ring => nrel_main_idtf : [Властелин Колец: Братство Кольца](*<-lang_ru;;*);;
+elijah_wood => nrel_to_star_in : black_and_white;;
+black_and_white => nrel_main_idtf : [Black And White](*<-lang_en;;*);;
+black_and_white => nrel_main_idtf : [Черное и белое](*<-lang_ru;;*);;
+

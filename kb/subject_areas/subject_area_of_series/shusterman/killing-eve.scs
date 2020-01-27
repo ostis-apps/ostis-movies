@@ -1,0 +1,118 @@
+
+                  concept_series -> Killing_Eve;;
+              
+                  Killing_Eve
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Killing_Eve]
+                    (* <- lang_ru;;	*);
+                    [Killing_Eve]
+                    (* <- lang_en;;	*);;
+                  
+                  Killing_Eve <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Killing_Eve)](*<-lang_ru;;*);
+                      [Description (Killing_Eve)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Killing_Eve_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Killing_Eve_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Killing_Eve <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Killing_Eve)](*<-lang_ru;;*);
+                      [Pic. (Killing_Eve)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Killing_Eve.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Killing_Eve => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Killing_Eve => nrel_production_year : 2018;;
+                  
+                  value -> 3;;
+                  Killing_Eve => nrel_num_of_seasons: 3;;
+                  value -> 16;;
+                  Killing_Eve => nrel_num_of_episodes: 16;;
+                  
+                  value -> 14;;
+                  Killing_Eve => nrel_no_countries : 14;;
+                  
+                  value -> 9;;
+                  Killing_Eve => nrel_viewers_in_millions: 9;;
+                  
+                  Killing_Eve => nrel_age_rating: concept_PG12;;
+                  
+                    Killing_Eve => nrel_actor : FionaShaw;;
+                    
+                   
+                    Killing_Eve => nrel_actor : SandraOh;;
+                    
+                   
+                    Killing_Eve => nrel_actor : JodieComer;;
+                    
+                   
+                    Killing_Eve => nrel_actor : KimBodnia;;
+                    
+                   
+                    Killing_Eve => nrel_actor : OwenMcDonnell;;
+                    
+                   
+                    Killing_Eve => nrel_actor : SeanDelaney;;
+                    
+                   
+                    Killing_Eve => nrel_actor : KirbyHowellBaptiste;;
+                    
+                   
+                    Killing_Eve => nrel_actor : EdwardBluemel;;
+                    
+                   
+                    Killing_Eve => nrel_actor : NinaSosanya;;
+                    
+                   
+                    Killing_Eve => nrel_actor : HenryLloydHughes;;
+                    
+                   
+                    Killing_Eve => nrel_actor : DarrenBoyd;;
+                    
+                   
+                    Killing_Eve => nrel_actor : AdrianScarborough;;
+                    
+                   
+                    Killing_Eve => nrel_actor : DavidHaig;;
+                    
+                   
+                    Killing_Eve => nrel_actor : SusanLynch;;
+                    
+                   
+                    Killing_Eve => nrel_actor : ShannonTarbet;;
+                    
+                   
+                    Killing_Eve => nrel_actor : ZoWanamaker;;
+                    
+                   
+                    Killing_Eve => nrel_actor : RemoGirone;;
+                    
+                   
+                    Killing_Eve => nrel_actor : JulianBarratt;;
+                    
+                  
+                  
+                  Killing_Eve
+                  =>nrel_keywords: concept_detectif;;
+                  

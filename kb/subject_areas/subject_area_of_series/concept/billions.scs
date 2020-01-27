@@ -1,0 +1,94 @@
+
+                  concept_series -> Billions;;
+              
+                  Billions
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Миллиарды]
+                    (* <- lang_ru;;	*);
+                    [Billions]
+                    (* <- lang_en;;	*);;
+                  
+                  Billions <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Миллиарды)](*<-lang_ru;;*);
+                      [Description (Billions)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Billions_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Billions_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Billions <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Миллиарды)](*<-lang_ru;;*);
+                      [Pic. (Billions)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Billions.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Billions => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  Billions => nrel_production_year : 2016;;
+                  
+                  value -> 5;;
+                  Billions => nrel_num_of_seasons: 5;;
+                  value -> 48;;
+                  Billions => nrel_num_of_episodes: 48;;
+                  
+                  value -> 14;;
+                  Billions => nrel_no_countries : 14;;
+                  
+                  value -> 12;;
+                  Billions => nrel_viewers_in_millions: 12;;
+                  
+                  Billions => nrel_age_rating: concept_PG12;;
+                  
+                    Billions => nrel_actor : PaulGiamatti;;
+                    
+                   
+                    Billions => nrel_actor : DamianLewis;;
+                    
+                   
+                    Billions => nrel_actor : MaggieSiff;;
+                    
+                   
+                    Billions => nrel_actor : DavidCostabile;;
+                    
+                   
+                    Billions => nrel_actor : TobyLeonardMoore;;
+                    
+                   
+                    Billions => nrel_actor : CondolaRashad;;
+                    
+                   
+                    Billions => nrel_actor : KellyAuCoin;;
+                    
+                   
+                    Billions => nrel_actor : AsiaKateDillon;;
+                    
+                   
+                    Billions => nrel_actor : JeffreyDeMunn;;
+                    
+                   
+                    Billions => nrel_actor : MalinAkerman;;
+                    
+                  
+                  
+                  Billions
+                  =>nrel_keywords: concept_detectif;;
+                  

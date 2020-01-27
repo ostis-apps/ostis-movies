@@ -1,0 +1,145 @@
+
+                  concept_series -> Akame_Ga_Kill!;;
+              
+                  Akame_Ga_Kill!
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Красные глаза _ _ это набор л!]
+                    (* <- lang_ru;;	*);
+                    [Akame_Ga_Kill!]
+                    (* <- lang_en;;	*);;
+                  
+                  Akame_Ga_Kill! <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Красные глаза _ _ это набор л!)](*<-lang_ru;;*);
+                      [Description (Akame_Ga_Kill!)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Akame_Ga_Kill!_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Akame_Ga_Kill!_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Akame_Ga_Kill! <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Красные глаза _ _ это набор л!)](*<-lang_ru;;*);
+                      [Pic. (Akame_Ga_Kill!)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Akame_Ga_Kill!.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Akame_Ga_Kill! => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Akame_Ga_Kill! => nrel_production_year : 2014;;
+                  
+                  value -> 1;;
+                  Akame_Ga_Kill! => nrel_num_of_seasons: 1;;
+                  value -> 24;;
+                  Akame_Ga_Kill! => nrel_num_of_episodes: 24;;
+                  
+                  value -> 14;;
+                  Akame_Ga_Kill! => nrel_no_countries : 14;;
+                  
+                  value -> 8;;
+                  Akame_Ga_Kill! => nrel_viewers_in_millions: 8;;
+                  
+                  Akame_Ga_Kill! => nrel_age_rating: concept_PG12;;
+                  
+                    Akame_Ga_Kill! => nrel_actor : SomaSaito;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : SoraAmamiya;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : YuuAsakawa;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : RisaMizuno;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : YukariTamura;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : SatomiAkesaka;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : YoshitsuguMatsuoka;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : YoshimasaHosoya;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : JunjiMajima;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : AyakaOhashi;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : KanaHanazawa;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : KoujiIshii;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : KatsuyukiKonishi;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : ShintaroAsanuma;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : YTaichi;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : EijiTakemoto;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : MamikoNoto;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : KaoriNazuka;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : KoujiTakahashi;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : KenNarita;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : MikakoKomatsu;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : HitomiNabatame;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : AnriKatsu;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : JoujiNakata;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : SatoshiTsuruoka;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : TsuyoshiKoyama;;
+                    
+                   
+                    Akame_Ga_Kill! => nrel_actor : KanamiSatou;;
+                    
+                  
+                  
+                  Akame_Ga_Kill!
+                  =>nrel_keywords: concept_detectif;;
+                  

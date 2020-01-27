@@ -1,0 +1,54 @@
+concept_human -> bill_murray;;
+ 
+ bill_murray <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Билл Мюррей)](*<-lang_ru;;*);
+ 		[Description (Bill Murray)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/bill_murray_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ bill_murray <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Билл Мюррей)](*<-lang_ru;;*);
+ 		[Pic. (Bill Murray)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/bill_murray.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ bill_murray => nrel_main_idtf : [Билл Мюррей](*<-lang_ru;;*);;
+ bill_murray => nrel_main_idtf : [Bill Murray](*<-lang_en;;*);;
+ 
+ 
+ bill_murray => nrel_birth_date : 1950;;
+ 
+ concept_goverment -> Usa;;
+ bill_murray => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ bill_murray => nrel_to_star_in : ghostbusters;;
+ghostbusters => nrel_main_idtf : [Ghostbusters](*<-lang_en;;*);;
+ghostbusters => nrel_main_idtf : [Охотники за привидениями](*<-lang_ru;;*);;
+bill_murray => nrel_to_star_in : lost_in_translation;;
+lost_in_translation => nrel_main_idtf : [Lost in Translation](*<-lang_en;;*);;
+lost_in_translation => nrel_main_idtf : [Трудности перевода](*<-lang_ru;;*);;
+bill_murray => nrel_to_star_in : charlies_angels;;
+charlies_angels => nrel_main_idtf : [Charlie's Angels](*<-lang_en;;*);;
+charlies_angels => nrel_main_idtf : [Ангелы Чарли](*<-lang_ru;;*);;
+bill_murray => nrel_to_star_in : ed_wood;;
+ed_wood => nrel_main_idtf : [Ed Wood](*<-lang_en;;*);;
+ed_wood => nrel_main_idtf : [Эд Вуд](*<-lang_ru;;*);;
+

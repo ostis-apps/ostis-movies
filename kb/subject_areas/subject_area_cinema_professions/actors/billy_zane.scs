@@ -1,0 +1,45 @@
+concept_human -> billy_zane;;
+ 
+ billy_zane <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Билли Зейн)](*<-lang_ru;;*);
+ 		[Description (Billy Zane)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/billy_zane_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ billy_zane <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Билли Зейн)](*<-lang_ru;;*);
+ 		[Pic. (Billy Zane)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/billy_zane.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ billy_zane => nrel_main_idtf : [Билли Зейн](*<-lang_ru;;*);;
+ billy_zane => nrel_main_idtf : [Billy Zane](*<-lang_en;;*);;
+ 
+ 
+ billy_zane => nrel_birth_date : 1966;;
+ 
+ concept_goverment -> Usa;;
+ billy_zane => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ billy_zane => nrel_to_star_in : titanic;;
+titanic => nrel_main_idtf : [Titanic](*<-lang_en;;*);;
+titanic => nrel_main_idtf : [Титаник](*<-lang_ru;;*);;
+

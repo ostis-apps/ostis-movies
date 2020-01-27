@@ -1,0 +1,64 @@
+
+                  concept_series -> Goblin_Slayer;;
+              
+                  Goblin_Slayer
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Goblin_Slayer]
+                    (* <- lang_ru;;	*);
+                    [Goblin_Slayer]
+                    (* <- lang_en;;	*);;
+                  
+                  Goblin_Slayer <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Goblin_Slayer)](*<-lang_ru;;*);
+                      [Description (Goblin_Slayer)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Goblin_Slayer_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Goblin_Slayer_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Goblin_Slayer <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Goblin_Slayer)](*<-lang_ru;;*);
+                      [Pic. (Goblin_Slayer)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Goblin_Slayer.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Goblin_Slayer => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Goblin_Slayer => nrel_production_year : 2018;;
+                  
+                  value -> 1;;
+                  Goblin_Slayer => nrel_num_of_seasons: 1;;
+                  value -> 12;;
+                  Goblin_Slayer => nrel_num_of_episodes: 12;;
+                  
+                  value -> 9;;
+                  Goblin_Slayer => nrel_no_countries : 9;;
+                  
+                  value -> 10;;
+                  Goblin_Slayer => nrel_viewers_in_millions: 10;;
+                  
+                  Goblin_Slayer => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Goblin_Slayer
+                  =>nrel_keywords: concept_detectif;;
+                  

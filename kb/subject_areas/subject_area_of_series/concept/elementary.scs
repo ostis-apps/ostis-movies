@@ -1,0 +1,88 @@
+
+                  concept_series -> Elementary;;
+              
+                  Elementary
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [элементарный]
+                    (* <- lang_ru;;	*);
+                    [Elementary]
+                    (* <- lang_en;;	*);;
+                  
+                  Elementary <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (элементарный)](*<-lang_ru;;*);
+                      [Description (Elementary)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Elementary_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Elementary_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Elementary <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (элементарный)](*<-lang_ru;;*);
+                      [Pic. (Elementary)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Elementary.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Elementary => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2012;;
+                  2012 => nrel_main_idtf : [2012 год](*<-lang_ru;;*);;
+                  2012 => nrel_main_idtf : [year of 2012](*<-lang_en;;*);;
+                  Elementary => nrel_production_year : 2012;;
+                  
+                  value -> 7;;
+                  Elementary => nrel_num_of_seasons: 7;;
+                  value -> 154;;
+                  Elementary => nrel_num_of_episodes: 154;;
+                  
+                  value -> 11;;
+                  Elementary => nrel_no_countries : 11;;
+                  
+                  value -> 6;;
+                  Elementary => nrel_viewers_in_millions: 6;;
+                  
+                  Elementary => nrel_age_rating: concept_PG12;;
+                  
+                    Elementary => nrel_actor : JonnyLeeMiller;;
+                    
+                   
+                    Elementary => nrel_actor : LucyLiu;;
+                    
+                   
+                    Elementary => nrel_actor : JonMichaelHill;;
+                    
+                   
+                    Elementary => nrel_actor : AidanQuinn;;
+                    
+                   
+                    Elementary => nrel_actor : JohnNoble;;
+                    
+                   
+                    Elementary => nrel_actor : NelsanEllis;;
+                    
+                   
+                    Elementary => nrel_actor : DesmondHarrington;;
+                    
+                   
+                    Elementary => nrel_actor : JamesFrain;;
+                    
+                  
+                  
+                  Elementary
+                  =>nrel_keywords: concept_detectif;;
+                  

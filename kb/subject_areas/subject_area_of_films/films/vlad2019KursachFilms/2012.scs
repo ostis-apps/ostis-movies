@@ -1,0 +1,75 @@
+concept_film -> 2012_film;;
+
+2012_film
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[2012]
+	(* <- lang_ru;;	*);
+	[2012]
+	(* <- lang_en;;	*);;
+	
+2012_film <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (2012)](*<-lang_ru;;*);
+		[Description (2012)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/2012_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/2012_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+2012_film <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (2012)](*<-lang_ru;;*);
+		[Pic. (2012)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/2012.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_country -> Canada;;
+2012_film => nrel_producing_country : Usa;Canada;;
+Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+
+concept_calendar_date -> 13_11_2009;;
+13_11_2009 => nrel_main_idtf : [13.11.2009](*<-lang_ru;;*);;
+13_11_2009 => nrel_main_idtf : [13.11.2009](*<-lang_en;;*);;
+2012_film => nrel_release_date : 13_11_2009;;
+
+2012_film => nrel_tagline_of_film : slogan_2012;;
+slogan_2012 => nrel_main_idtf : [Выживи, если сможешь](*<-lang_ru;;*);;
+slogan_2012 => nrel_main_idtf : [Survive if you can](*<-lang_en;;*);;
+
+value -> 2_38;;
+2_38 => nrel_main_idtf : [2 часа и 38 минут](*<-lang_ru;;*);;
+2_38 => nrel_main_idtf : [2 hour and 38 minutes](*<-lang_en;;*);;
+2012_film => nrel_duration_of_showing : 2_38;;
+
+value -> 769_679_473;;
+769_679_473 => nrel_main_idtf : [769 679 473$](*<-lang_ru;;*);;
+769_679_473 => nrel_main_idtf : [769 679 473$](*<-lang_en;;*);;
+2012_film <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 769_679_473;;   
+*);;
+
+2012_film => nrel_film_critic_rating : 7;;
+
+2012_film =>nrel_keywords:accident;fantasy;drama;;
+2012_film =>nrel_age_rating: concept_PG12;;
+
+2012_film => nrel_main_actor : Brad_Pitt;Kuisak;;
+2012_film => nrel_producer : Emerich;;
+2012_film => nrel_screenwriter : Emerich;;
+

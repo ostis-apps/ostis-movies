@@ -1,0 +1,65 @@
+concept_human -> Ketty;;
+
+Ketty <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кетти Холмс)](*<-lang_ru;;*);
+		[Description (Ketty Holms)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ketty_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ketty_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ketty <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кетти Холмс)](*<-lang_ru;;*);
+		[Pic. (Ketty Holms)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Ketty.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Ketty => nrel_main_idtf : [Кетти Холмс](*<-lang_ru;;*);;
+Ketty => nrel_main_idtf : [Ketty Holms](*<-lang_en;;*);;
+
+concept_calendar_date -> 18_12_1978;;
+Ketty => nrel_date_of_birth : 18_12_1978;;
+18_12_1978 => nrel_main_idtf : [18.12.1978](*<-lang_en;;*);;
+18_12_1978 => nrel_main_idtf : [18.12.1978](*<-lang_ru;;*);;
+
+concept_city -> Tolido;;
+Ketty => nrel_place_of_birth : Tolido;;
+Tolido => nrel_main_idtf : [Tolido](*<-lang_en;;*);;
+Tolido => nrel_main_idtf : [Толидо](*<-lang_ru;;*);;
+
+Ketty => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 30_11_1997;;
+Ketty => nrel_career_start_date : 30_11_1997;;
+30_11_1997 => nrel_main_idtf : [30.11.1997](*<-lang_en;;*);;
+30_11_1997 => nrel_main_idtf : [30.11.1997](*<-lang_ru;;*);;
+
+concept_film -> Logan_Lucky;Women_in_gold;Money;Stone;Dangerous;;
+Logan_Lucky => nrel_main_idtf : [Logan lucky](*<-lang_en;;*);;
+Logan_Lucky => nrel_main_idtf : [Удача Логана](*<-lang_ru;;*);;
+Women_in_gold => nrel_main_idtf : [Women in gold](*<-lang_en;;*);;
+Women_in_gold => nrel_main_idtf : [Женщина в золоте](*<-lang_ru;;*);;
+Money => nrel_main_idtf : [Crazy money](*<-lang_en;;*);;
+Money => nrel_main_idtf : [Шальные деньги](*<-lang_ru;;*);;
+Stone => nrel_main_idtf : [Eli Stone](*<-lang_en;;*);;
+Stone => nrel_main_idtf : [Элай Стоун](*<-lang_ru;;*);;
+Dangerous => nrel_main_idtf : [Dangerous distinct](*<-lang_en;;*);;
+Dangerous => nrel_main_idtf : [Опасный квартал](*<-lang_ru;;*);;
+
+Ketty => nrel_to_star_in : Logan_Lucky;Women_in_gold;Money;Stone;Dangerous;;
+

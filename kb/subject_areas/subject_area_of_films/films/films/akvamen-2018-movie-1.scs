@@ -1,0 +1,67 @@
+film_akvamen_2018_movie_1
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Аквамен]
+(* <- lang_ru;;    *);
+[Aquaman]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Аквамен)](*<-lang_ru;;*);
+[Description (Aquaman)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/akvamen-2018-movie-1_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/akvamen-2018-movie-1_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Аквамен)](*<-lang_ru;;*);
+		[Pic. (Aquaman)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/akvamen-2018-movie-1.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;australia;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [A tide is coming. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [07.12.2018](*<-lang_ru;;*);;
+    => nrel_main_idtf : [07.12.2018](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H23M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H23M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_akvamen_2018_movie_1 =>nrel_keywords: film;;
+
+film_akvamen_2018_movie_1 <- concept_action;concept_adventure;concept_fantasy;concept_sci_fi;;
+
+film_akvamen_2018_movie_1 => nrel_main_actor : jason_momoa;amber_heard;willem_dafoe;patrick_wilson;;
+film_akvamen_2018_movie_1 => nrel_producer : james_wan;;

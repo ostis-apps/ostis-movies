@@ -1,0 +1,44 @@
+concept_cartoon_Two_tails
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Два хвоста]
+	(* <- lang_ru;;	*);
+	[Two tails]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Два хвоста)](*<-lang_ru;;*);
+		[Description (Two tails)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Two tails_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Two tails_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Два хвоста)](*<-lang_ru;;*);
+		[Pic. (Two tails)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/Two tails.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_magic;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_nature;
+=>nrel_keywords: concept_animals;
+=> nrel_production_country: Russia;
+=>nrel_age_rating: concept_PG0;;

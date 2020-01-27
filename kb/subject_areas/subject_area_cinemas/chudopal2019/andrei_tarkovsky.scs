@@ -1,0 +1,38 @@
+andrei_tarkovsky
+<- person;
+<- concept_rezeser;
+<- concept_screenwriter;
+<- concept_actor;
+=> nrel_be_awarded: concept_venice_film_festival;
+=> nrel_be_awarded: concept_palm;
+=>nrel_nominee: concept_silver_bear;
+=> nrel_main_idtf:
+	[Андрей Тарковский]
+	(* <- lang_ru;;	*);
+	[Andrei Tarkovsky]
+	(* <- lang_en;;	*);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Андрей Тарковский)](* <- lang_ru;; *);
+		[Desctiption (Andrei Tarkovsky)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="andrei_tarkovsky">Андрей Тарковский</sc_element></b> — русский режиссер, писатель и теоретик кино. Он считается одним из величайших режиссеров в истории кино и одним из самых влиятельных российских режиссеров. Его фильмы исследовали духовные и метафизические темы и известны тем, что в них используются медленные длинные кадры и сказочные визуальные образы, а также восхвалением ими природы и памяти.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="andrei_tarkovsky">Andrei Tarkovsky</sc_element></b> was a Russian filmmaker, <b><sc_element sys_idtf="concept_screenwriter">writer</sc_element></b>, and film theorist. He is widely considered one of the greatest directors in the history of cinema, and one of Russia's most influential filmmakers. His films explored spiritual and metaphysical themes, and are noted for their use of slow long takes and dreamlike visual imagery, as well as their preoccupation with nature and memory.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Андрей Тарковский)](*<-lang_ru;;*);
+		[Pic. (Andrei Tarkovsky)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/AndreiTarkovsky.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

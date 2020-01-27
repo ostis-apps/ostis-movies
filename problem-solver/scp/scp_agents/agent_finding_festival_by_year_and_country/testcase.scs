@@ -1,0 +1,8 @@
+concept_film_festival -> bristol_independent;;
+
+bristol_independent => nrel_foundation_date: ...(* -> rrel_number_of_year: 1999;;*);;
+
+bristol_independent => nrel_location: ... (*-> USA;;*);;
+USA <- concept_country;;
+
+

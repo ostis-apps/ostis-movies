@@ -1,0 +1,54 @@
+concept_human -> steven_soderbergh;;
+ 
+ steven_soderbergh <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Стивен Содерберг)](*<-lang_ru;;*);
+ 		[Description (Steven Soderbergh)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/steven_soderbergh_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ steven_soderbergh <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Стивен Содерберг)](*<-lang_ru;;*);
+ 		[Pic. (Steven Soderbergh)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/steven_soderbergh.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ steven_soderbergh => nrel_main_idtf : [Стивен Содерберг](*<-lang_ru;;*);;
+ steven_soderbergh => nrel_main_idtf : [Steven Soderbergh](*<-lang_en;;*);;
+ 
+ 
+ steven_soderbergh => nrel_birth_date : 1963;;
+ 
+ concept_goverment -> Usa;;
+ steven_soderbergh => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ steven_soderbergh => nrel_to_star_in : unsane;;
+unsane => nrel_main_idtf : [Unsane](*<-lang_en;;*);;
+unsane => nrel_main_idtf : [Не в себе](*<-lang_ru;;*);;
+steven_soderbergh => nrel_to_star_in : oceans_thirteen;;
+oceans_thirteen => nrel_main_idtf : [Ocean`s Thirteen](*<-lang_en;;*);;
+oceans_thirteen => nrel_main_idtf : [Тринадцать друзей Оушена](*<-lang_ru;;*);;
+steven_soderbergh => nrel_to_star_in : oceans_twelve;;
+oceans_twelve => nrel_main_idtf : [Ocean`s Twelve](*<-lang_en;;*);;
+oceans_twelve => nrel_main_idtf : [Двенадцать друзей Оушена](*<-lang_ru;;*);;
+steven_soderbergh => nrel_to_star_in : oceans_eleven;;
+oceans_eleven => nrel_main_idtf : [Ocean`s Eleven](*<-lang_en;;*);;
+oceans_eleven => nrel_main_idtf : [Одиннадцать друзей Оушена](*<-lang_ru;;*);;
+

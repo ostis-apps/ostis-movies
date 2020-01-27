@@ -1,0 +1,45 @@
+concept_human -> bryan_cranston;;
+ 
+ bryan_cranston <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Брайан Крэнстон)](*<-lang_ru;;*);
+ 		[Description (Bryan Cranston)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/bryan_cranston_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ bryan_cranston <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Брайан Крэнстон)](*<-lang_ru;;*);
+ 		[Pic. (Bryan Cranston)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/bryan_cranston.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ bryan_cranston => nrel_main_idtf : [Брайан Крэнстон](*<-lang_ru;;*);;
+ bryan_cranston => nrel_main_idtf : [Bryan Cranston](*<-lang_en;;*);;
+ 
+ 
+ bryan_cranston => nrel_birth_date : 1956;;
+ 
+ concept_goverment -> Usa;;
+ bryan_cranston => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ bryan_cranston => nrel_to_star_in : saving_private_ryan;;
+saving_private_ryan => nrel_main_idtf : [Saving Private Ryan](*<-lang_en;;*);;
+saving_private_ryan => nrel_main_idtf : [Спасти рядового Райана](*<-lang_ru;;*);;
+

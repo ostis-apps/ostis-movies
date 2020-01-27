@@ -1,0 +1,109 @@
+
+                  concept_series -> Altered_Carbon;;
+              
+                  Altered_Carbon
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Altered Carbon]
+                    (* <- lang_ru;;	*);
+                    [Altered_Carbon]
+                    (* <- lang_en;;	*);;
+                  
+                  Altered_Carbon <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Altered Carbon)](*<-lang_ru;;*);
+                      [Description (Altered_Carbon)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Altered_Carbon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Altered_Carbon_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Altered_Carbon <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Altered Carbon)](*<-lang_ru;;*);
+                      [Pic. (Altered_Carbon)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Altered_Carbon.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Altered_Carbon => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2018;;
+                  2018 => nrel_main_idtf : [2018 год](*<-lang_ru;;*);;
+                  2018 => nrel_main_idtf : [year of 2018](*<-lang_en;;*);;
+                  Altered_Carbon => nrel_production_year : 2018;;
+                  
+                  value -> 2;;
+                  Altered_Carbon => nrel_num_of_seasons: 2;;
+                  value -> 10;;
+                  Altered_Carbon => nrel_num_of_episodes: 10;;
+                  
+                  value -> 13;;
+                  Altered_Carbon => nrel_no_countries : 13;;
+                  
+                  value -> 7;;
+                  Altered_Carbon => nrel_viewers_in_millions: 7;;
+                  
+                  Altered_Carbon => nrel_age_rating: concept_PG12;;
+                  
+                    Altered_Carbon => nrel_actor : JoelKinnaman;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : ChrisConner;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : MarthaHigareda;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : ReneEliseGoldsberry;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : JamesPurefoy;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : KristinLehman;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : AtoEssandoh;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : TrieuTran;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : DichenLachman;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : LelaLoren;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : SimoneMissick;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : TorbenLiebrecht;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : AnthonyMackie;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : JamesSaito;;
+                    
+                   
+                    Altered_Carbon => nrel_actor : DinaShihabi;;
+                    
+                  
+                  
+                  Altered_Carbon
+                  =>nrel_keywords: concept_detectif;;
+                  

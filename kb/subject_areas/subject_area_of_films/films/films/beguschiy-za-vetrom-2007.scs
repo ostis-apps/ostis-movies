@@ -1,0 +1,67 @@
+film_beguschiy_za_vetrom_2007
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бегущий за ветром]
+(* <- lang_ru;;    *);
+[The Kite Runner]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бегущий за ветром)](*<-lang_ru;;*);
+[Description (The Kite Runner)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/beguschiy-za-vetrom-2007_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/beguschiy-za-vetrom-2007_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бегущий за ветром)](*<-lang_ru;;*);
+		[Pic. (The Kite Runner)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/beguschiy-za-vetrom-2007.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;china;uk;afghanistan;
+
+=> nrel_film_critic_rating : 8;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [There is a way to be good again.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [26.12.2007](*<-lang_ru;;*);;
+    => nrel_main_idtf : [26.12.2007](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H8M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H8M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_beguschiy_za_vetrom_2007 =>nrel_keywords: film;;
+
+film_beguschiy_za_vetrom_2007 <- concept_drama;;
+
+film_beguschiy_za_vetrom_2007 => nrel_main_actor : khalid_abdalla;ahmad_khan_mahmoodzada;atossa_leoni;shaun_toub;;
+film_beguschiy_za_vetrom_2007 => nrel_producer : marc_forster;;

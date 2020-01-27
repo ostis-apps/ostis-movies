@@ -1,0 +1,53 @@
+concept_PG0
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[ Без возрастных ограничений]
+(* <- lang_ru;;	*);
+[No age limit]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_age_rating;;
+
+
+
+concept_PG6
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[ Показ фильма разрешен  зрителям старше 6 лет]
+(* <- lang_ru;;	*);
+[The screening of the film allowed the audience over the age of 6 years]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_age_rating;;
+
+
+
+concept_PG12
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[ Показ фильма разрешен  зрителям старше 12 лет]
+(* <- lang_ru;;	*);
+[The screening of the film allowed the audience over the age of 12 years.]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_age_rating;;
+
+
+
+concept_PG16
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[ Показ фильма разрешен  зрителям старше 16 лет]
+(* <- lang_ru;;	*);
+[The screening of the film allowed the audience over the age of 16 years.]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_age_rating;;
+
+
+
+
+concept_PG18
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[ Показ фильма разрешен  зрителям старше 18 лет]
+(* <- lang_ru;;	*);
+[The screening of the film allowed the audience over the age of 18 years.]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_age_rating;;

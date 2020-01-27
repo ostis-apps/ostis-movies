@@ -1,0 +1,54 @@
+concept_human -> christina_ricci;;
+ 
+ christina_ricci <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кристина Риччи)](*<-lang_ru;;*);
+ 		[Description (Christina Ricci)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/christina_ricci_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ christina_ricci <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кристина Риччи)](*<-lang_ru;;*);
+ 		[Pic. (Christina Ricci)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/christina_ricci.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ christina_ricci => nrel_main_idtf : [Кристина Риччи](*<-lang_ru;;*);;
+ christina_ricci => nrel_main_idtf : [Christina Ricci](*<-lang_en;;*);;
+ 
+ 
+ christina_ricci => nrel_birth_date : 1980;;
+ 
+ concept_goverment -> Usa;;
+ christina_ricci => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ christina_ricci => nrel_to_star_in : penelope;;
+penelope => nrel_main_idtf : [Penelope](*<-lang_en;;*);;
+penelope => nrel_main_idtf : [Пенелопа](*<-lang_ru;;*);;
+christina_ricci => nrel_to_star_in : sleepy_hollow;;
+sleepy_hollow => nrel_main_idtf : [Sleepy Hollow](*<-lang_en;;*);;
+sleepy_hollow => nrel_main_idtf : [Сонная лощина](*<-lang_ru;;*);;
+christina_ricci => nrel_to_star_in : fear_and_loathing_in_las_vegas;;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Fear and Loathing in Las Vegas](*<-lang_en;;*);;
+fear_and_loathing_in_las_vegas => nrel_main_idtf : [Страх и ненависть в Лас-Вегасе](*<-lang_ru;;*);;
+christina_ricci => nrel_to_star_in : mermaids;;
+mermaids => nrel_main_idtf : [Mermaids](*<-lang_en;;*);;
+mermaids => nrel_main_idtf : [Русалки](*<-lang_ru;;*);;
+

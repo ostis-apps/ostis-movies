@@ -1,0 +1,33 @@
+concept_childrens_television <- sc_node_not_relation;
+
+=> nrel_main_idtf:[детское телевидение] (* <- lang_ru;; *);
+=> nrel_idtf:[childrens television] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (детское телевидение)] (* <- lang_ru;; *);
+							   [Def. (childrens television)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_childrens_television_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_childrens_television_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (детское телевидение)](*<-lang_ru;;*);
+		[Pic. (childrens television)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_childrens_television.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+ <= nrel_inclusion: concept_broadcasting;;

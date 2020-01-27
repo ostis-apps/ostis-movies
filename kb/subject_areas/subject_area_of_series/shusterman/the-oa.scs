@@ -1,0 +1,109 @@
+
+                  concept_series -> The_OA;;
+              
+                  The_OA
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [The_OA]
+                    (* <- lang_ru;;	*);
+                    [The_OA]
+                    (* <- lang_en;;	*);;
+                  
+                  The_OA <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (The_OA)](*<-lang_ru;;*);
+                      [Description (The_OA)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_OA_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_OA_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_OA <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (The_OA)](*<-lang_ru;;*);
+                      [Pic. (The_OA)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_OA.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_OA => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2016;;
+                  2016 => nrel_main_idtf : [2016 год](*<-lang_ru;;*);;
+                  2016 => nrel_main_idtf : [year of 2016](*<-lang_en;;*);;
+                  The_OA => nrel_production_year : 2016;;
+                  
+                  value -> 2;;
+                  The_OA => nrel_num_of_seasons: 2;;
+                  value -> 16;;
+                  The_OA => nrel_num_of_episodes: 16;;
+                  
+                  value -> 12;;
+                  The_OA => nrel_no_countries : 12;;
+                  
+                  value -> 7;;
+                  The_OA => nrel_viewers_in_millions: 7;;
+                  
+                  The_OA => nrel_age_rating: concept_PG12;;
+                  
+                    The_OA => nrel_actor : BritMarling;;
+                    
+                   
+                    The_OA => nrel_actor : PatrickGibson;;
+                    
+                   
+                    The_OA => nrel_actor : EmoryCohen;;
+                    
+                   
+                    The_OA => nrel_actor : IanAlexander;;
+                    
+                   
+                    The_OA => nrel_actor : JasonIsaacs;;
+                    
+                   
+                    The_OA => nrel_actor : PhyllisSmith;;
+                    
+                   
+                    The_OA => nrel_actor : WillBrill;;
+                    
+                   
+                    The_OA => nrel_actor : BrendanMeyer;;
+                    
+                   
+                    The_OA => nrel_actor : BrandonPerea;;
+                    
+                   
+                    The_OA => nrel_actor : SharonVanEtten;;
+                    
+                   
+                    The_OA => nrel_actor : AliceKrige;;
+                    
+                   
+                    The_OA => nrel_actor : PazVega;;
+                    
+                   
+                    The_OA => nrel_actor : ScottWilson;;
+                    
+                   
+                    The_OA => nrel_actor : KingsleyBenAdir;;
+                    
+                   
+                    The_OA => nrel_actor : ChloLevine;;
+                    
+                  
+                  
+                  The_OA
+                  =>nrel_keywords: concept_detectif;;
+                  

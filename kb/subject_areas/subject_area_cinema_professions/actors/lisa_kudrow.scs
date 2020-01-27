@@ -1,0 +1,45 @@
+concept_human -> lisa_kudrow;;
+ 
+ lisa_kudrow <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Лиза Кудроу)](*<-lang_ru;;*);
+ 		[Description (Lisa Kudrow)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/lisa_kudrow_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ lisa_kudrow <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Лиза Кудроу)](*<-lang_ru;;*);
+ 		[Pic. (Lisa Kudrow)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/lisa_kudrow.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ lisa_kudrow => nrel_main_idtf : [Лиза Кудроу](*<-lang_ru;;*);;
+ lisa_kudrow => nrel_main_idtf : [Lisa Kudrow](*<-lang_en;;*);;
+ 
+ 
+ lisa_kudrow => nrel_birth_date : 1963;;
+ 
+ concept_goverment -> Usa;;
+ lisa_kudrow => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ lisa_kudrow => nrel_to_star_in : long_shot;;
+long_shot => nrel_main_idtf : [Long Shot](*<-lang_en;;*);;
+long_shot => nrel_main_idtf : [Та еще парочка](*<-lang_ru;;*);;
+

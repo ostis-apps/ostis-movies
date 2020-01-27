@@ -1,0 +1,48 @@
+concept_human -> bob_odenkirk;;
+ 
+ bob_odenkirk <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Боб Оденкерк)](*<-lang_ru;;*);
+ 		[Description (Bob Odenkirk)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/bob_odenkirk_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ bob_odenkirk <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Боб Оденкерк)](*<-lang_ru;;*);
+ 		[Pic. (Bob Odenkirk)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/bob_odenkirk.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ bob_odenkirk => nrel_main_idtf : [Боб Оденкерк](*<-lang_ru;;*);;
+ bob_odenkirk => nrel_main_idtf : [Bob Odenkirk](*<-lang_en;;*);;
+ 
+ 
+ bob_odenkirk => nrel_birth_date : 1962;;
+ 
+ concept_goverment -> Usa;;
+ bob_odenkirk => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ bob_odenkirk => nrel_to_star_in : long_shot;;
+long_shot => nrel_main_idtf : [Long Shot](*<-lang_en;;*);;
+long_shot => nrel_main_idtf : [Та еще парочка](*<-lang_ru;;*);;
+bob_odenkirk => nrel_to_star_in : the_cable_guy;;
+the_cable_guy => nrel_main_idtf : [The Cable Guy](*<-lang_en;;*);;
+the_cable_guy => nrel_main_idtf : [Кабельщик](*<-lang_ru;;*);;
+

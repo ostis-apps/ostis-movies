@@ -1,0 +1,23 @@
+concept_utopia <- sc_node_not_relation;
+
+ => nrel_main_idtf:[утопия] (* <- lang_ru;; *);
+ => nrel_idtf:[utopia] (* <- lang_en;; *);
+
+ <- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Опр. (утопия)] (* <- lang_ru;; *);
+								[Def. (utopia)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_genre;
+				concept_science_fiction
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_utopia_def_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_utopia_def_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<= nrel_inclusion: concept_genre;;

@@ -1,0 +1,109 @@
+
+                  concept_series -> Scandal;;
+              
+                  Scandal
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Скандал]
+                    (* <- lang_ru;;	*);
+                    [Scandal]
+                    (* <- lang_en;;	*);;
+                  
+                  Scandal <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Скандал)](*<-lang_ru;;*);
+                      [Description (Scandal)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Scandal_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Scandal_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Scandal <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Скандал)](*<-lang_ru;;*);
+                      [Pic. (Scandal)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Scandal.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Scandal => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2012;;
+                  2012 => nrel_main_idtf : [2012 год](*<-lang_ru;;*);;
+                  2012 => nrel_main_idtf : [year of 2012](*<-lang_en;;*);;
+                  Scandal => nrel_production_year : 2012;;
+                  
+                  value -> 7;;
+                  Scandal => nrel_num_of_seasons: 7;;
+                  value -> 124;;
+                  Scandal => nrel_num_of_episodes: 124;;
+                  
+                  value -> 14;;
+                  Scandal => nrel_no_countries : 14;;
+                  
+                  value -> 4;;
+                  Scandal => nrel_viewers_in_millions: 4;;
+                  
+                  Scandal => nrel_age_rating: concept_PG12;;
+                  
+                    Scandal => nrel_actor : KerryWashington;;
+                    
+                   
+                    Scandal => nrel_actor : KatieLowes;;
+                    
+                   
+                    Scandal => nrel_actor : DarbyStanchfield;;
+                    
+                   
+                    Scandal => nrel_actor : GuillermoDiaz;;
+                    
+                   
+                    Scandal => nrel_actor : TonyGoldwyn;;
+                    
+                   
+                    Scandal => nrel_actor : JeffPerry;;
+                    
+                   
+                    Scandal => nrel_actor : BellamyYoung;;
+                    
+                   
+                    Scandal => nrel_actor : JoshuaMalina;;
+                    
+                   
+                    Scandal => nrel_actor : ScottFoley;;
+                    
+                   
+                    Scandal => nrel_actor : JoeMorton;;
+                    
+                   
+                    Scandal => nrel_actor : GeorgeNewbern;;
+                    
+                   
+                    Scandal => nrel_actor : CorneliusSmithJr;;
+                    
+                   
+                    Scandal => nrel_actor : PortiadeRossi;;
+                    
+                   
+                    Scandal => nrel_actor : ColumbusShort;;
+                    
+                   
+                    Scandal => nrel_actor : HenryIanCusick;;
+                    
+                  
+                  
+                  Scandal
+                  =>nrel_keywords: concept_detectif;;
+                  

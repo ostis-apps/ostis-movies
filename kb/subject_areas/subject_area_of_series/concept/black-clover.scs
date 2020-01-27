@@ -1,0 +1,64 @@
+
+                  concept_series -> Black_Clover;;
+              
+                  Black_Clover
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Black_Clover]
+                    (* <- lang_ru;;	*);
+                    [Black_Clover]
+                    (* <- lang_en;;	*);;
+                  
+                  Black_Clover <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Black_Clover)](*<-lang_ru;;*);
+                      [Description (Black_Clover)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Black_Clover_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Black_Clover_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Black_Clover <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Black_Clover)](*<-lang_ru;;*);
+                      [Pic. (Black_Clover)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Black_Clover.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Black_Clover => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Black_Clover => nrel_production_year : 2017;;
+                  
+                  value -> 2;;
+                  Black_Clover => nrel_num_of_seasons: 2;;
+                  value -> 112;;
+                  Black_Clover => nrel_num_of_episodes: 112;;
+                  
+                  value -> 10;;
+                  Black_Clover => nrel_no_countries : 10;;
+                  
+                  value -> 10;;
+                  Black_Clover => nrel_viewers_in_millions: 10;;
+                  
+                  Black_Clover => nrel_age_rating: concept_PG12;;
+                  
+                  
+                  Black_Clover
+                  =>nrel_keywords: concept_detectif;;
+                  

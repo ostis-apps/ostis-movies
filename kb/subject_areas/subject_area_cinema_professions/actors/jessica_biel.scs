@@ -1,0 +1,54 @@
+concept_human -> jessica_biel;;
+ 
+ jessica_biel <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джессика Бил)](*<-lang_ru;;*);
+ 		[Description (Jessica Biel)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jessica_biel_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jessica_biel <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джессика Бил)](*<-lang_ru;;*);
+ 		[Pic. (Jessica Biel)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jessica_biel.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jessica_biel => nrel_main_idtf : [Джессика Бил](*<-lang_ru;;*);;
+ jessica_biel => nrel_main_idtf : [Jessica Biel](*<-lang_en;;*);;
+ 
+ 
+ jessica_biel => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> Usa;;
+ jessica_biel => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jessica_biel => nrel_to_star_in : hitchcock;;
+hitchcock => nrel_main_idtf : [Hitchcock](*<-lang_en;;*);;
+hitchcock => nrel_main_idtf : [Хичкок](*<-lang_ru;;*);;
+jessica_biel => nrel_to_star_in : the_ateam;;
+the_ateam => nrel_main_idtf : [The A-Team](*<-lang_en;;*);;
+the_ateam => nrel_main_idtf : [Команда А](*<-lang_ru;;*);;
+jessica_biel => nrel_to_star_in : i_now_pronounce_you_chuck__larry;;
+i_now_pronounce_you_chuck__larry => nrel_main_idtf : [I Now Pronounce You Chuck & Larry](*<-lang_en;;*);;
+i_now_pronounce_you_chuck__larry => nrel_main_idtf : [Чак и Ларри: пожарная свадьба](*<-lang_ru;;*);;
+jessica_biel => nrel_to_star_in : london;;
+london => nrel_main_idtf : [London](*<-lang_en;;*);;
+london => nrel_main_idtf : [Лондон](*<-lang_ru;;*);;
+

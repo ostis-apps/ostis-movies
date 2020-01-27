@@ -1,0 +1,133 @@
+
+                  concept_series -> Vikings;;
+              
+                  Vikings
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Викинги]
+                    (* <- lang_ru;;	*);
+                    [Vikings]
+                    (* <- lang_en;;	*);;
+                  
+                  Vikings <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Викинги)](*<-lang_ru;;*);
+                      [Description (Vikings)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Vikings_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Vikings_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Vikings <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Викинги)](*<-lang_ru;;*);
+                      [Pic. (Vikings)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Vikings.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Vikings => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2013;;
+                  2013 => nrel_main_idtf : [2013 год](*<-lang_ru;;*);;
+                  2013 => nrel_main_idtf : [year of 2013](*<-lang_en;;*);;
+                  Vikings => nrel_production_year : 2013;;
+                  
+                  value -> 6;;
+                  Vikings => nrel_num_of_seasons: 6;;
+                  value -> 73;;
+                  Vikings => nrel_num_of_episodes: 73;;
+                  
+                  value -> 3;;
+                  Vikings => nrel_no_countries : 3;;
+                  
+                  value -> 12;;
+                  Vikings => nrel_viewers_in_millions: 12;;
+                  
+                  Vikings => nrel_age_rating: concept_PG12;;
+                  
+                    Vikings => nrel_actor : KatherynWinnick;;
+                    
+                   
+                    Vikings => nrel_actor : GustafSkarsgrd;;
+                    
+                   
+                    Vikings => nrel_actor : AlexanderLudwig;;
+                    
+                   
+                    Vikings => nrel_actor : TravisFimmel;;
+                    
+                   
+                    Vikings => nrel_actor : CliveStanden;;
+                    
+                   
+                    Vikings => nrel_actor : MoeDunford;;
+                    
+                   
+                    Vikings => nrel_actor : AlyssaSutherland;;
+                    
+                   
+                    Vikings => nrel_actor : PeterFranzen;;
+                    
+                   
+                    Vikings => nrel_actor : LinusRoache;;
+                    
+                   
+                    Vikings => nrel_actor : JohnKavanagh;;
+                    
+                   
+                    Vikings => nrel_actor : GeorgeBlagden;;
+                    
+                   
+                    Vikings => nrel_actor : AlexHghAndersen;;
+                    
+                   
+                    Vikings => nrel_actor : JordanPatrickSmith;;
+                    
+                   
+                    Vikings => nrel_actor : MarcoIls;;
+                    
+                   
+                    Vikings => nrel_actor : JessalynGilsig;;
+                    
+                   
+                    Vikings => nrel_actor : JasperPkknen;;
+                    
+                   
+                    Vikings => nrel_actor : JonathanRhysMeyers;;
+                    
+                   
+                    Vikings => nrel_actor : BenRobson;;
+                    
+                   
+                    Vikings => nrel_actor : LothaireBluteau;;
+                    
+                   
+                    Vikings => nrel_actor : DonalLogue;;
+                    
+                   
+                    Vikings => nrel_actor : DavidLindstrm;;
+                    
+                   
+                    Vikings => nrel_actor : KevinDurand;;
+                    
+                   
+                    Vikings => nrel_actor : GabrielByrne;;
+                    
+                  
+                  
+                  Vikings
+                  =>nrel_keywords: concept_detectif;;
+                  

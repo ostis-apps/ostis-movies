@@ -1,0 +1,82 @@
+
+                  concept_series -> The_Middle;;
+              
+                  The_Middle
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Середина]
+                    (* <- lang_ru;;	*);
+                    [The_Middle]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Middle <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Середина)](*<-lang_ru;;*);
+                      [Description (The_Middle)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Middle_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Middle_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Middle <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Середина)](*<-lang_ru;;*);
+                      [Pic. (The_Middle)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Middle.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Middle => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2009;;
+                  2009 => nrel_main_idtf : [2009 год](*<-lang_ru;;*);;
+                  2009 => nrel_main_idtf : [year of 2009](*<-lang_en;;*);;
+                  The_Middle => nrel_production_year : 2009;;
+                  
+                  value -> 9;;
+                  The_Middle => nrel_num_of_seasons: 9;;
+                  value -> 215;;
+                  The_Middle => nrel_num_of_episodes: 215;;
+                  
+                  value -> 6;;
+                  The_Middle => nrel_no_countries : 6;;
+                  
+                  value -> 9;;
+                  The_Middle => nrel_viewers_in_millions: 9;;
+                  
+                  The_Middle => nrel_age_rating: concept_PG12;;
+                  
+                    The_Middle => nrel_actor : CharlieMcDermott;;
+                    
+                   
+                    The_Middle => nrel_actor : EdenSher;;
+                    
+                   
+                    The_Middle => nrel_actor : AtticusShaffer;;
+                    
+                   
+                    The_Middle => nrel_actor : PatriciaHeaton;;
+                    
+                   
+                    The_Middle => nrel_actor : NeilFlynn;;
+                    
+                   
+                    The_Middle => nrel_actor : ChrisKattan;;
+                    
+                  
+                  
+                  The_Middle
+                  =>nrel_keywords: concept_detectif;;
+                  

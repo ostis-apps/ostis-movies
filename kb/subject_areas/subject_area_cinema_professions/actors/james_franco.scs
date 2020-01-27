@@ -1,0 +1,51 @@
+concept_human -> james_franco;;
+ 
+ james_franco <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джеймс Франко)](*<-lang_ru;;*);
+ 		[Description (James Franco)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/james_franco_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ james_franco <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джеймс Франко)](*<-lang_ru;;*);
+ 		[Pic. (James Franco)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/james_franco.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ james_franco => nrel_main_idtf : [Джеймс Франко](*<-lang_ru;;*);;
+ james_franco => nrel_main_idtf : [James Franco](*<-lang_en;;*);;
+ 
+ 
+ james_franco => nrel_birth_date : 1978;;
+ 
+ concept_goverment -> Usa;;
+ james_franco => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ james_franco => nrel_to_star_in : the_ballad_of_buster_scruggs;;
+the_ballad_of_buster_scruggs => nrel_main_idtf : [The Ballad of Buster Scruggs](*<-lang_en;;*);;
+the_ballad_of_buster_scruggs => nrel_main_idtf : [Баллада Бастера Скраггса](*<-lang_ru;;*);;
+james_franco => nrel_to_star_in : the_green_hornet;;
+the_green_hornet => nrel_main_idtf : [The Green Hornet](*<-lang_en;;*);;
+the_green_hornet => nrel_main_idtf : [Зеленый шершень](*<-lang_ru;;*);;
+james_franco => nrel_to_star_in : spiderman;;
+spiderman => nrel_main_idtf : [Spider-Man](*<-lang_en;;*);;
+spiderman => nrel_main_idtf : [Человек-паук](*<-lang_ru;;*);;
+

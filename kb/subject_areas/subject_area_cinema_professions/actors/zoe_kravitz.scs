@@ -1,0 +1,57 @@
+concept_human -> zoe_kravitz;;
+ 
+ zoe_kravitz <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Зои Кравиц)](*<-lang_ru;;*);
+ 		[Description (Zoe Kravitz)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/zoe_kravitz_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ zoe_kravitz <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Зои Кравиц)](*<-lang_ru;;*);
+ 		[Pic. (Zoe Kravitz)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/zoe_kravitz.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ zoe_kravitz => nrel_main_idtf : [Зои Кравиц](*<-lang_ru;;*);;
+ zoe_kravitz => nrel_main_idtf : [Zoe Kravitz](*<-lang_en;;*);;
+ 
+ 
+ zoe_kravitz => nrel_birth_date : 1988;;
+ 
+ concept_goverment -> Usa;;
+ zoe_kravitz => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ zoe_kravitz => nrel_to_star_in : fantastic_beasts_the_crimes_of_grindelwald;;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Fantastic Beasts: The Crimes of Grindelwald](*<-lang_en;;*);;
+fantastic_beasts_the_crimes_of_grindelwald => nrel_main_idtf : [Фантастические твари: Преступления Грин-де-Вальда](*<-lang_ru;;*);;
+zoe_kravitz => nrel_to_star_in : big_little_lies;;
+big_little_lies => nrel_main_idtf : [Big Little Lies](*<-lang_en;;*);;
+big_little_lies => nrel_main_idtf : [Большая маленькая ложь](*<-lang_ru;;*);;
+zoe_kravitz => nrel_to_star_in : fantastic_beasts_and_where_to_find_them;;
+fantastic_beasts_and_where_to_find_them => nrel_main_idtf : [Fantastic Beasts and Where to Find Them](*<-lang_en;;*);;
+fantastic_beasts_and_where_to_find_them => nrel_main_idtf : [Фантастические твари и где они обитают](*<-lang_ru;;*);;
+zoe_kravitz => nrel_to_star_in : mad_max_fury_road;;
+mad_max_fury_road => nrel_main_idtf : [Mad Max: Fury Road](*<-lang_en;;*);;
+mad_max_fury_road => nrel_main_idtf : [Безумный Макс: Дорога ярости](*<-lang_ru;;*);;
+zoe_kravitz => nrel_to_star_in : xmen_first_class;;
+xmen_first_class => nrel_main_idtf : [X-Men: First Class](*<-lang_en;;*);;
+xmen_first_class => nrel_main_idtf : [Люди Икс: Первый класс](*<-lang_ru;;*);;
+

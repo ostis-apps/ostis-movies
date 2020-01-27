@@ -1,0 +1,67 @@
+film_agent_dzhonni_inglish_30_2018
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Агент Джонни Инглиш 3.0]
+(* <- lang_ru;;    *);
+[Johnny English Strikes Again]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Агент Джонни Инглиш 3.0)](*<-lang_ru;;*);
+[Description (Johnny English Strikes Again)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/agent-dzhonni-inglish-30-2018_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/agent-dzhonni-inglish-30-2018_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Агент Джонни Инглиш 3.0)](*<-lang_ru;;*);
+		[Pic. (Johnny English Strikes Again)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/agent-dzhonni-inglish-30-2018.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;france;usa;china;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [When only the best will do* --- *And no-one else is available. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [13.09.2018](*<-lang_ru;;*);;
+    => nrel_main_idtf : [13.09.2018](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H29M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H29M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG;;
+
+film_agent_dzhonni_inglish_30_2018 =>nrel_keywords: film;;
+
+film_agent_dzhonni_inglish_30_2018 <- concept_action;concept_adventure;concept_comedy;;
+
+film_agent_dzhonni_inglish_30_2018 => nrel_main_actor : rowan_atkinson;ben_miller;olga_kurylenko;emma_thompson;;
+film_agent_dzhonni_inglish_30_2018 => nrel_producer : david_kerr;;

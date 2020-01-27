@@ -1,0 +1,11 @@
+concept_subj_japanese_animation
+<- sc_node_struct;
+
+=> nrel_main_idtf:
+	[Предметная область японской анимации]
+	(* <- lang_ru;; *);
+	[Subject domain of japanese animation]
+    	(* <- lang_en;; *);;
+
+
+

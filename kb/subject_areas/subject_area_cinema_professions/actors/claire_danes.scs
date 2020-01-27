@@ -1,0 +1,48 @@
+concept_human -> claire_danes;;
+ 
+ claire_danes <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Клэр Дэйнс)](*<-lang_ru;;*);
+ 		[Description (Claire Danes)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/claire_danes_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ claire_danes <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Клэр Дэйнс)](*<-lang_ru;;*);
+ 		[Pic. (Claire Danes)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/claire_danes.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ claire_danes => nrel_main_idtf : [Клэр Дэйнс](*<-lang_ru;;*);;
+ claire_danes => nrel_main_idtf : [Claire Danes](*<-lang_en;;*);;
+ 
+ 
+ claire_danes => nrel_birth_date : 1979;;
+ 
+ concept_goverment -> Usa;;
+ claire_danes => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ claire_danes => nrel_to_star_in : terminator_3_rise_of_the_machines;;
+terminator_3_rise_of_the_machines => nrel_main_idtf : [Terminator 3: Rise of the Machines](*<-lang_en;;*);;
+terminator_3_rise_of_the_machines => nrel_main_idtf : [Терминатор 3: Восстание машин](*<-lang_ru;;*);;
+claire_danes => nrel_to_star_in : romeo_juliet;;
+romeo_juliet => nrel_main_idtf : [Romeo + Juliet](*<-lang_en;;*);;
+romeo_juliet => nrel_main_idtf : [Ромео + Джульетта](*<-lang_ru;;*);;
+

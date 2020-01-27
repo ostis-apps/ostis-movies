@@ -1,0 +1,42 @@
+concept_cartoon_There_Once_Was_A_Dog
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Жил-был пес]
+	(* <- lang_ru;;	*);
+	[There once was a dog]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Жил-был пес)](*<-lang_ru;;*);
+		[Description (There once was a dog)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/There Once Was A Dog_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/There Once Was A Dog_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Жил-был пес)](*<-lang_ru;;*);
+		[Pic. (There once was a dog)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://IMG/There Once Was A Dog.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_keywords: concept_kids;
+=>nrel_keywords: concept_family_film;
+=>nrel_keywords: concept_comedy;
+=>nrel_keywords: concept_short_film;
+=>nrel_age_rating: concept_PG6;;

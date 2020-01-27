@@ -1,0 +1,48 @@
+concept_human -> woody_allen;;
+ 
+ woody_allen <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Вуди Аллен)](*<-lang_ru;;*);
+ 		[Description (Woody Allen)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/woody_allen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ woody_allen <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Вуди Аллен)](*<-lang_ru;;*);
+ 		[Pic. (Woody Allen)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/woody_allen.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ woody_allen => nrel_main_idtf : [Вуди Аллен](*<-lang_ru;;*);;
+ woody_allen => nrel_main_idtf : [Woody Allen](*<-lang_en;;*);;
+ 
+ 
+ woody_allen => nrel_birth_date : 1935;;
+ 
+ concept_goverment -> Usa;;
+ woody_allen => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ woody_allen => nrel_to_star_in : vicky_cristina_barcelona;;
+vicky_cristina_barcelona => nrel_main_idtf : [Vicky Cristina Barcelona](*<-lang_en;;*);;
+vicky_cristina_barcelona => nrel_main_idtf : [Вики Кристина Барселона](*<-lang_ru;;*);;
+woody_allen => nrel_to_star_in : match_point;;
+match_point => nrel_main_idtf : [Match Point](*<-lang_en;;*);;
+match_point => nrel_main_idtf : [Матч Поинт](*<-lang_ru;;*);;
+

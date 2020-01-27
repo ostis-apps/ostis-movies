@@ -1,0 +1,48 @@
+concept_human -> kevin_hart;;
+ 
+ kevin_hart <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Кевин Харт)](*<-lang_ru;;*);
+ 		[Description (Kevin Hart)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/kevin_hart_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ kevin_hart <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Кевин Харт)](*<-lang_ru;;*);
+ 		[Pic. (Kevin Hart)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/kevin_hart.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ kevin_hart => nrel_main_idtf : [Кевин Харт](*<-lang_ru;;*);;
+ kevin_hart => nrel_main_idtf : [Kevin Hart](*<-lang_en;;*);;
+ 
+ 
+ kevin_hart => nrel_birth_date : 1979;;
+ 
+ concept_goverment -> Usa;;
+ kevin_hart => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ kevin_hart => nrel_to_star_in : jumanji_welcome_to_the_jungle;;
+jumanji_welcome_to_the_jungle => nrel_main_idtf : [Jumanji: Welcome to the Jungle](*<-lang_en;;*);;
+jumanji_welcome_to_the_jungle => nrel_main_idtf : [Джуманджи: Зов джунглей](*<-lang_ru;;*);;
+kevin_hart => nrel_to_star_in : central_intelligence;;
+central_intelligence => nrel_main_idtf : [Central Intelligence](*<-lang_en;;*);;
+central_intelligence => nrel_main_idtf : [Полтора шпиона](*<-lang_ru;;*);;
+

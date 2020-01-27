@@ -1,0 +1,45 @@
+concept_human -> pharrell_williams;;
+ 
+ pharrell_williams <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Фаррелл Уильямс)](*<-lang_ru;;*);
+ 		[Description (Pharrell Williams)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/pharrell_williams_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ pharrell_williams <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Фаррелл Уильямс)](*<-lang_ru;;*);
+ 		[Pic. (Pharrell Williams)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/pharrell_williams.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ pharrell_williams => nrel_main_idtf : [Фаррелл Уильямс](*<-lang_ru;;*);;
+ pharrell_williams => nrel_main_idtf : [Pharrell Williams](*<-lang_en;;*);;
+ 
+ 
+ pharrell_williams => nrel_birth_date : 1973;;
+ 
+ concept_goverment -> Usa;;
+ pharrell_williams => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ pharrell_williams => nrel_to_star_in : the_big_short;;
+the_big_short => nrel_main_idtf : [The Big Short](*<-lang_en;;*);;
+the_big_short => nrel_main_idtf : [Игра на понижение](*<-lang_ru;;*);;
+

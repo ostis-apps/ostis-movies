@@ -1,0 +1,48 @@
+concept_human -> ridley_scott;;
+ 
+ ridley_scott <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Ридли Скотт)](*<-lang_ru;;*);
+ 		[Description (Ridley Scott)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ridley_scott_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ridley_scott <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Ридли Скотт)](*<-lang_ru;;*);
+ 		[Pic. (Ridley Scott)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ridley_scott.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ridley_scott => nrel_main_idtf : [Ридли Скотт](*<-lang_ru;;*);;
+ ridley_scott => nrel_main_idtf : [Ridley Scott](*<-lang_en;;*);;
+ 
+ 
+ ridley_scott => nrel_birth_date : 1937;;
+ 
+ concept_goverment -> UK;;
+ ridley_scott => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ ridley_scott => nrel_to_star_in : black_hawk_down;;
+black_hawk_down => nrel_main_idtf : [Black Hawk Down](*<-lang_en;;*);;
+black_hawk_down => nrel_main_idtf : [Черный Ястреб](*<-lang_ru;;*);;
+ridley_scott => nrel_to_star_in : gladiator;;
+gladiator => nrel_main_idtf : [Gladiator](*<-lang_en;;*);;
+gladiator => nrel_main_idtf : [Гладиатор](*<-lang_ru;;*);;
+

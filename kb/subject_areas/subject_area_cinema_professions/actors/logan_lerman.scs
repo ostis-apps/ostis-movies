@@ -1,0 +1,48 @@
+concept_human -> logan_lerman;;
+ 
+ logan_lerman <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Логан Лерман)](*<-lang_ru;;*);
+ 		[Description (Logan Lerman)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/logan_lerman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ logan_lerman <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Логан Лерман)](*<-lang_ru;;*);
+ 		[Pic. (Logan Lerman)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/logan_lerman.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ logan_lerman => nrel_main_idtf : [Логан Лерман](*<-lang_ru;;*);;
+ logan_lerman => nrel_main_idtf : [Logan Lerman](*<-lang_en;;*);;
+ 
+ 
+ logan_lerman => nrel_birth_date : 1992;;
+ 
+ concept_goverment -> Usa;;
+ logan_lerman => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ logan_lerman => nrel_to_star_in : noah;;
+noah => nrel_main_idtf : [Noah](*<-lang_en;;*);;
+noah => nrel_main_idtf : [Ной](*<-lang_ru;;*);;
+logan_lerman => nrel_to_star_in : fury;;
+fury => nrel_main_idtf : [Fury](*<-lang_en;;*);;
+fury => nrel_main_idtf : [Ярость](*<-lang_ru;;*);;
+

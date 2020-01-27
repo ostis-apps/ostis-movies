@@ -1,0 +1,52 @@
+concept_human -> Gary_Halvorson;;
+
+Gary_Halvorson
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гари Хэлворсон]
+	(* <- lang_ru;;	*);
+	[Gary Halvorson]
+	(* <- lang_en;;	*);;
+	
+Gary_Halvorson <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Гари Хэлворсон)](*<-lang_ru;;*);
+		[Description (Gary Halvorson)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Gary_Halvorson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Gary_Halvorson_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Gary_Halvorson <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Гари Хэлворсон)](*<-lang_ru;;*);
+		[Pic. (Gary Halvorson)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Gary_Halvorson.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1956;;
+Gary_Halvorson=>nrel_date_of_birth: 1956;;
+1956=>nrel_main_idtf:[1956 год](*<-lang_ru;;*);;
+1956=>nrel_main_idtf:[year of 1956](*<-lang_en;;*);;
+
+concept_calendar_date->1991;;
+Gary_Halvorson=>nrel_career_start_date: 1991;;
+1991=>nrel_main_idtf:[1991 год](*<-lang_ru;;*);;
+1991=>nrel_main_idtf:[year of 1991](*<-lang_en;;*);;
+
+Gary_Halvorson =>nrel_cityzenship: concept_uk;;
+

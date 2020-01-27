@@ -1,0 +1,54 @@
+concept_human -> William_Hid;;
+
+William_Hid
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Томас Уильям Хиддлстон]
+	(* <- lang_ru;;	*);
+	[Thomas William Hiddleston]
+	(* <- lang_en;;	*);;
+	
+William_Hid <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Томас Уильям Хиддлстон)](*<-lang_ru;;*);
+		[Description (Thomas William Hiddleston)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        concept_producer;
+        film_studio_Marvel_Studios
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/William_Hid_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/William_Hid_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+William_Hid <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Томас Уильям Хиддлстон)](*<-lang_ru;;*);
+		[Pic. (Thomas William Hiddleston)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/William_Hid.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1981;;
+William_Hid=>nrel_date_of_birth: 1981;;
+1981=>nrel_main_idtf:[1981 год](*<-lang_ru;;*);;
+1981=>nrel_main_idtf:[year of 1981](*<-lang_en;;*);;
+
+concept_calendar_date-> 2001;;
+William_Hid=>nrel_career_start_date: 2001;;
+2001=>nrel_main_idtf:[2001 год](*<-lang_ru;;*);;
+2001=>nrel_main_idtf:[year of 2001](*<-lang_en;;*);;
+
+William_Hid =>nrel_cityzenship:UK;;
+UK<-concept_contry;;
+

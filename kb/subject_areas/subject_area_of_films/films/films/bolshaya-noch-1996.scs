@@ -1,0 +1,67 @@
+film_bolshaya_noch_1996
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Большая ночь]
+(* <- lang_ru;;    *);
+[Big Night]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Большая ночь)](*<-lang_ru;;*);
+[Description (Big Night)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bolshaya-noch-1996_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bolshaya-noch-1996_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Большая ночь)](*<-lang_ru;;*);
+		[Pic. (Big Night)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bolshaya-noch-1996.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [In love and life, one big night can change everything.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [20.09.1996](*<-lang_ru;;*);;
+    => nrel_main_idtf : [20.09.1996](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H49M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H49M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_bolshaya_noch_1996 =>nrel_keywords: film;;
+
+film_bolshaya_noch_1996 <- concept_drama;concept_romance;;
+
+film_bolshaya_noch_1996 => nrel_main_actor : tony_shalhoub;stanley_tucci;marc_anthony;larry_block;;
+film_bolshaya_noch_1996 => nrel_producer : campbell_scott;stanley_tucci;;

@@ -1,0 +1,45 @@
+concept_human -> gillian_anderson;;
+ 
+ gillian_anderson <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джиллиан Андерсон)](*<-lang_ru;;*);
+ 		[Description (Gillian Anderson)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/gillian_anderson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ gillian_anderson <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джиллиан Андерсон)](*<-lang_ru;;*);
+ 		[Pic. (Gillian Anderson)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/gillian_anderson.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ gillian_anderson => nrel_main_idtf : [Джиллиан Андерсон](*<-lang_ru;;*);;
+ gillian_anderson => nrel_main_idtf : [Gillian Anderson](*<-lang_en;;*);;
+ 
+ 
+ gillian_anderson => nrel_birth_date : 1968;;
+ 
+ concept_goverment -> Usa;;
+ gillian_anderson => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ gillian_anderson => nrel_to_star_in : the_last_king_of_scotland;;
+the_last_king_of_scotland => nrel_main_idtf : [The Last King of Scotland](*<-lang_en;;*);;
+the_last_king_of_scotland => nrel_main_idtf : [Последний король Шотландии](*<-lang_ru;;*);;
+

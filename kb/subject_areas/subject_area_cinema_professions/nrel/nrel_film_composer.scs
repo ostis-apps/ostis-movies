@@ -1,0 +1,38 @@
+nrel_film_composer <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [filmcomposer*](*<- lang_en;;*);
+    [кинокомпозитор*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (кинокомпозитор*)](*<- lang_ru;;*);
+        [Def. (filmcomposer*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_film_composer_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_film_composer_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=> nrel_first_domain: concept_film;
+=> nrel_second_domain: concept_human;
+=> nrel_definitional_domain: concept_film;
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (кинокомпозитор*)](*<-lang_ru;;*);
+		    [Pic. (filmcomposer*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/KINOCOMPOSITER.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

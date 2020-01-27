@@ -1,0 +1,27 @@
+concept_film_Six_Days_Seven_Nights
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Шесть дней, семь ночей](* <- lang_ru;; *);
+	[Six Days Seven Nights](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Шесть дней, семь ночей)](*<-lang_ru;;*);
+		[Description (Six Days Seven Nights)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	<= nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://HTML/Шесть дней, семь ночей.html"(* <- lang_ru;; => nrel_format: format_html;; *);;
+		-> rrel_example: "file://HTML/Six Days Seven Nights.html"(* <- lang_en;; => nrel_format: format_html;; *);;
+	*);;
+*); 
+
+=> nrel_keywords: concept_catastrophe;
+=> nrel_keywords: concept_pirate;
+=> nrel_keywords: concept_desert_island;
+=> nrel_age_rating: concept_PG16;;

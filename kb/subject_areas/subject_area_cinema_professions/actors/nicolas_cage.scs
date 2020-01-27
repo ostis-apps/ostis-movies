@@ -1,0 +1,57 @@
+concept_human -> nicolas_cage;;
+ 
+ nicolas_cage <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Николас Кейдж)](*<-lang_ru;;*);
+ 		[Description (Nicolas Cage)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/nicolas_cage_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ nicolas_cage <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Николас Кейдж)](*<-lang_ru;;*);
+ 		[Pic. (Nicolas Cage)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/nicolas_cage.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ nicolas_cage => nrel_main_idtf : [Николас Кейдж](*<-lang_ru;;*);;
+ nicolas_cage => nrel_main_idtf : [Nicolas Cage](*<-lang_en;;*);;
+ 
+ 
+ nicolas_cage => nrel_birth_date : 1964;;
+ 
+ concept_goverment -> Usa;;
+ nicolas_cage => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ nicolas_cage => nrel_to_star_in : mandy;;
+mandy => nrel_main_idtf : [Mandy](*<-lang_en;;*);;
+mandy => nrel_main_idtf : [Мэнди](*<-lang_ru;;*);;
+nicolas_cage => nrel_to_star_in : lord_of_war;;
+lord_of_war => nrel_main_idtf : [Lord of War](*<-lang_en;;*);;
+lord_of_war => nrel_main_idtf : [Оружейный барон](*<-lang_ru;;*);;
+nicolas_cage => nrel_to_star_in : gone_in_sixty_seconds;;
+gone_in_sixty_seconds => nrel_main_idtf : [Gone in Sixty Seconds](*<-lang_en;;*);;
+gone_in_sixty_seconds => nrel_main_idtf : [Угнать за 60 секунд](*<-lang_ru;;*);;
+nicolas_cage => nrel_to_star_in : moonstruck;;
+moonstruck => nrel_main_idtf : [Moonstruck](*<-lang_en;;*);;
+moonstruck => nrel_main_idtf : [Во власти Луны](*<-lang_ru;;*);;
+nicolas_cage => nrel_to_star_in : rumble_fish;;
+rumble_fish => nrel_main_idtf : [Rumble Fish](*<-lang_en;;*);;
+rumble_fish => nrel_main_idtf : [Бойцовая рыбка](*<-lang_ru;;*);;
+

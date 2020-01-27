@@ -1,0 +1,67 @@
+film_begi_tolstyak_begi_2007
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Беги, толстяк, беги]
+(* <- lang_ru;;    *);
+[Run Fatboy Run]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Беги, толстяк, беги)](*<-lang_ru;;*);
+[Description (Run Fatboy Run)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/begi-tolstyak-begi-2007_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/begi-tolstyak-begi-2007_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Беги, толстяк, беги)](*<-lang_ru;;*);
+		[Pic. (Run Fatboy Run)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/begi-tolstyak-begi-2007.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Love. Commitment. Responsibility. There's nothing he won't run away from. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [07.09.2007](*<-lang_ru;;*);;
+    => nrel_main_idtf : [07.09.2007](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H40M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H40M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_PG_13;;
+
+film_begi_tolstyak_begi_2007 =>nrel_keywords: film;;
+
+film_begi_tolstyak_begi_2007 <- concept_comedy;concept_romance;concept_sport;;
+
+film_begi_tolstyak_begi_2007 => nrel_main_actor : simon_pegg;thandie_newton;hank_azaria;dylan_moran;;
+film_begi_tolstyak_begi_2007 => nrel_producer : david_schwimmer;;

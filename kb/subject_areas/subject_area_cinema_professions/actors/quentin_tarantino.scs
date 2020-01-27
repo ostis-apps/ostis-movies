@@ -1,0 +1,78 @@
+concept_human -> quentin_tarantino;;
+ 
+ quentin_tarantino <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Квентин Тарантино)](*<-lang_ru;;*);
+ 		[Description (Quentin Tarantino)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/quentin_tarantino_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ quentin_tarantino <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Квентин Тарантино)](*<-lang_ru;;*);
+ 		[Pic. (Quentin Tarantino)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/quentin_tarantino.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ quentin_tarantino => nrel_main_idtf : [Квентин Тарантино](*<-lang_ru;;*);;
+ quentin_tarantino => nrel_main_idtf : [Quentin Tarantino](*<-lang_en;;*);;
+ 
+ 
+ quentin_tarantino => nrel_birth_date : 1963;;
+ 
+ concept_goverment -> Usa;;
+ quentin_tarantino => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ quentin_tarantino => nrel_to_star_in : once_upon_a_time__in_hollywood;;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Once Upon a Time ... in Hollywood](*<-lang_en;;*);;
+once_upon_a_time__in_hollywood => nrel_main_idtf : [Однажды… в Голливуде](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : the_hateful_eight;;
+the_hateful_eight => nrel_main_idtf : [The Hateful Eight](*<-lang_en;;*);;
+the_hateful_eight => nrel_main_idtf : [Омерзительная восьмерка](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : django_unchained;;
+django_unchained => nrel_main_idtf : [Django Unchained](*<-lang_en;;*);;
+django_unchained => nrel_main_idtf : [Джанго освобожденный](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : inglourious_basterds;;
+inglourious_basterds => nrel_main_idtf : [Inglourious Basterds](*<-lang_en;;*);;
+inglourious_basterds => nrel_main_idtf : [Бесславные ублюдки](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : death_proof;;
+death_proof => nrel_main_idtf : [Death Proof](*<-lang_en;;*);;
+death_proof => nrel_main_idtf : [Доказательство смерти](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : sin_city;;
+sin_city => nrel_main_idtf : [Sin City](*<-lang_en;;*);;
+sin_city => nrel_main_idtf : [Город грехов](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : kill_bill_vol_2;;
+kill_bill_vol_2 => nrel_main_idtf : [Kill Bill: Vol. 2](*<-lang_en;;*);;
+kill_bill_vol_2 => nrel_main_idtf : [Убить Билла. Фильм 2](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : kill_bill_vol_1;;
+kill_bill_vol_1 => nrel_main_idtf : [Kill Bill: Vol. 1](*<-lang_en;;*);;
+kill_bill_vol_1 => nrel_main_idtf : [Убить Билла. Фильм 1](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : jackie_brown;;
+jackie_brown => nrel_main_idtf : [Jackie Brown](*<-lang_en;;*);;
+jackie_brown => nrel_main_idtf : [Джеки Браун](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : four_rooms;;
+four_rooms => nrel_main_idtf : [Four Rooms](*<-lang_en;;*);;
+four_rooms => nrel_main_idtf : [Четыре комнаты](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : pulp_fiction;;
+pulp_fiction => nrel_main_idtf : [Pulp Fiction](*<-lang_en;;*);;
+pulp_fiction => nrel_main_idtf : [Криминальное чтиво](*<-lang_ru;;*);;
+quentin_tarantino => nrel_to_star_in : reservoir_dogs;;
+reservoir_dogs => nrel_main_idtf : [Reservoir Dogs](*<-lang_en;;*);;
+reservoir_dogs => nrel_main_idtf : [Бешеные псы](*<-lang_ru;;*);;
+

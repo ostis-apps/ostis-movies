@@ -1,0 +1,29 @@
+concept_film_Requiem_for_a_Dream
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Реквием по мечте]
+	(* <- lang_ru;;	*);
+	[Requiem for a Dream]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Реквием по мечте)](*<-lang_ru;;*);
+		[Description (Requiem for a Dream)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Реквием по мечте.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Requiem for a Dream.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+	
+	
+
+=>nrel_keywords:concept_friendship;		
+=>nrel_age_rating: concept_PG18;;	

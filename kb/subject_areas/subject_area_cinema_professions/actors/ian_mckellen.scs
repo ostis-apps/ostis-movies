@@ -1,0 +1,81 @@
+concept_human -> ian_mckellen;;
+ 
+ ian_mckellen <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Иэн Маккеллен)](*<-lang_ru;;*);
+ 		[Description (Ian McKellen)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/ian_mckellen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ ian_mckellen <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Иэн Маккеллен)](*<-lang_ru;;*);
+ 		[Pic. (Ian McKellen)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/ian_mckellen.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ ian_mckellen => nrel_main_idtf : [Иэн Маккеллен](*<-lang_ru;;*);;
+ ian_mckellen => nrel_main_idtf : [Ian McKellen](*<-lang_en;;*);;
+ 
+ 
+ ian_mckellen => nrel_birth_date : 1939;;
+ 
+ concept_goverment -> UK;;
+ ian_mckellen => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ ian_mckellen => nrel_to_star_in : beauty_and_the_beast;;
+beauty_and_the_beast => nrel_main_idtf : [Beauty and the Beast](*<-lang_en;;*);;
+beauty_and_the_beast => nrel_main_idtf : [Красавица и чудовище](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : the_hobbit_the_battle_of_the_five_armies;;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [The Hobbit: The Battle of the Five Armies](*<-lang_en;;*);;
+the_hobbit_the_battle_of_the_five_armies => nrel_main_idtf : [Хоббит: Битва пяти воинств](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : xmen_days_of_future_past;;
+xmen_days_of_future_past => nrel_main_idtf : [X-Men: Days of Future Past](*<-lang_en;;*);;
+xmen_days_of_future_past => nrel_main_idtf : [Люди Икс: Дни минувшего будущего](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : the_hobbit_the_desolation_of_smaug;;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [The Hobbit: The Desolation of Smaug](*<-lang_en;;*);;
+the_hobbit_the_desolation_of_smaug => nrel_main_idtf : [Хоббит: Пустошь Смауга](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : the_wolverine;;
+the_wolverine => nrel_main_idtf : [The Wolverine](*<-lang_en;;*);;
+the_wolverine => nrel_main_idtf : [Росомаха: Бессмертный](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : the_hobbit_an_unexpected_journey;;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [The Hobbit: An Unexpected Journey](*<-lang_en;;*);;
+the_hobbit_an_unexpected_journey => nrel_main_idtf : [Хоббит: Нежданное путешествие](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : xmen_the_last_stand;;
+xmen_the_last_stand => nrel_main_idtf : [X-Men: The Last Stand](*<-lang_en;;*);;
+xmen_the_last_stand => nrel_main_idtf : [Люди Икс: Последняя битва](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : the_da_vinci_code;;
+the_da_vinci_code => nrel_main_idtf : [The Da Vinci Code](*<-lang_en;;*);;
+the_da_vinci_code => nrel_main_idtf : [Код Да Винчи](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : the_lord_of_the_rings_the_return_of_the_king;;
+the_lord_of_the_rings_the_return_of_the_king => nrel_main_idtf : [The Lord of the Rings: The Return of the King](*<-lang_en;;*);;
+the_lord_of_the_rings_the_return_of_the_king => nrel_main_idtf : [Властелин Колец: Возвращение Короля](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : xmen_2;;
+xmen_2 => nrel_main_idtf : [X-Men 2](*<-lang_en;;*);;
+xmen_2 => nrel_main_idtf : [Люди Икс 2](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : the_lord_of_the_rings_the_two_towers;;
+the_lord_of_the_rings_the_two_towers => nrel_main_idtf : [The Lord of the Rings: The Two Towers](*<-lang_en;;*);;
+the_lord_of_the_rings_the_two_towers => nrel_main_idtf : [Властелин Колец: Две Крепости](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : the_lord_of_the_rings_the_fellowship_of_the_ring;;
+the_lord_of_the_rings_the_fellowship_of_the_ring => nrel_main_idtf : [The Lord of the Rings: The Fellowship of the Ring](*<-lang_en;;*);;
+the_lord_of_the_rings_the_fellowship_of_the_ring => nrel_main_idtf : [Властелин Колец: Братство Кольца](*<-lang_ru;;*);;
+ian_mckellen => nrel_to_star_in : xmen;;
+xmen => nrel_main_idtf : [X-Men](*<-lang_en;;*);;
+xmen => nrel_main_idtf : [Люди Икс](*<-lang_ru;;*);;
+

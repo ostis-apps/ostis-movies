@@ -1,0 +1,60 @@
+concept_human -> jonah_hill;;
+ 
+ jonah_hill <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джона Хилл)](*<-lang_ru;;*);
+ 		[Description (Jonah Hill)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/jonah_hill_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ jonah_hill <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джона Хилл)](*<-lang_ru;;*);
+ 		[Pic. (Jonah Hill)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/jonah_hill.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ jonah_hill => nrel_main_idtf : [Джона Хилл](*<-lang_ru;;*);;
+ jonah_hill => nrel_main_idtf : [Jonah Hill](*<-lang_en;;*);;
+ 
+ 
+ jonah_hill => nrel_birth_date : 1984;;
+ 
+ concept_goverment -> Usa;;
+ jonah_hill => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ jonah_hill => nrel_to_star_in : dont_worry_he_wont_get_far_on_foot;;
+dont_worry_he_wont_get_far_on_foot => nrel_main_idtf : [Don't Worry, He Won't Get Far on Foot](*<-lang_en;;*);;
+dont_worry_he_wont_get_far_on_foot => nrel_main_idtf : [Не волнуйся, он далеко не уйдет](*<-lang_ru;;*);;
+jonah_hill => nrel_to_star_in : mid90s;;
+mid90s => nrel_main_idtf : [Mid90s](*<-lang_en;;*);;
+mid90s => nrel_main_idtf : [Середина 90-х](*<-lang_ru;;*);;
+jonah_hill => nrel_to_star_in : the_wolf_of_wall_street;;
+the_wolf_of_wall_street => nrel_main_idtf : [The Wolf of Wall Street](*<-lang_en;;*);;
+the_wolf_of_wall_street => nrel_main_idtf : [Волк с Уолл-Стрит](*<-lang_ru;;*);;
+jonah_hill => nrel_to_star_in : django_unchained;;
+django_unchained => nrel_main_idtf : [Django Unchained](*<-lang_en;;*);;
+django_unchained => nrel_main_idtf : [Джанго освобожденный](*<-lang_ru;;*);;
+jonah_hill => nrel_to_star_in : moneyball;;
+moneyball => nrel_main_idtf : [Moneyball](*<-lang_en;;*);;
+moneyball => nrel_main_idtf : [Человек, который изменил все](*<-lang_ru;;*);;
+jonah_hill => nrel_to_star_in : click;;
+click => nrel_main_idtf : [Click](*<-lang_en;;*);;
+click => nrel_main_idtf : [Клик: C пультом по жизни](*<-lang_ru;;*);;
+

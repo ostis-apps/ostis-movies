@@ -1,0 +1,67 @@
+film_444_posledniy_den_na_zemle_2011
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[4:44 Последний день на Земле]
+(* <- lang_ru;;    *);
+[4:44 Last Day on Earth]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (4:44 Последний день на Земле)](*<-lang_ru;;*);
+[Description (4:44 Last Day on Earth)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/444-posledniy-den-na-zemle-2011_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/444-posledniy-den-na-zemle-2011_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (4:44 Последний день на Земле)](*<-lang_ru;;*);
+		[Pic. (4:44 Last Day on Earth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/444-posledniy-den-na-zemle-2011.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;switzerland;france;
+
+=> nrel_film_critic_rating : 5;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [4:44 Last Day on Earth](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [19.07.2012](*<-lang_ru;;*);;
+    => nrel_main_idtf : [19.07.2012](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H22M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H22M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_444_posledniy_den_na_zemle_2011 =>nrel_keywords: film;;
+
+film_444_posledniy_den_na_zemle_2011 <- concept_drama;concept_fantasy;concept_sci_fi;;
+
+film_444_posledniy_den_na_zemle_2011 => nrel_main_actor : willem_dafoe;shanyn_leigh;natasha_lyonne;paul_hipp;;
+film_444_posledniy_den_na_zemle_2011 => nrel_producer : abel_ferrara;;

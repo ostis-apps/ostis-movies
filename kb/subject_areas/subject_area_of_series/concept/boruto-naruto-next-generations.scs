@@ -1,0 +1,109 @@
+
+                  concept_series -> Boruto:_Naruto_Next_Generations;;
+              
+                  Boruto:_Naruto_Next_Generations
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Болт: _ _ происходит, когда я xt_ Generachion s]
+                    (* <- lang_ru;;	*);
+                    [Boruto:_Naruto_Next_Generations]
+                    (* <- lang_en;;	*);;
+                  
+                  Boruto:_Naruto_Next_Generations <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Болт: _ _ происходит, когда я xt_ Generachion s)](*<-lang_ru;;*);
+                      [Description (Boruto:_Naruto_Next_Generations)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Boruto:_Naruto_Next_Generations_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Boruto:_Naruto_Next_Generations_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Boruto:_Naruto_Next_Generations <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Болт: _ _ происходит, когда я xt_ Generachion s)](*<-lang_ru;;*);
+                      [Pic. (Boruto:_Naruto_Next_Generations)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Boruto:_Naruto_Next_Generations.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Boruto:_Naruto_Next_Generations => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Boruto:_Naruto_Next_Generations => nrel_production_year : 2017;;
+                  
+                  value -> 1;;
+                  Boruto:_Naruto_Next_Generations => nrel_num_of_seasons: 1;;
+                  value -> 139;;
+                  Boruto:_Naruto_Next_Generations => nrel_num_of_episodes: 139;;
+                  
+                  value -> 14;;
+                  Boruto:_Naruto_Next_Generations => nrel_no_countries : 14;;
+                  
+                  value -> 6;;
+                  Boruto:_Naruto_Next_Generations => nrel_viewers_in_millions: 6;;
+                  
+                  Boruto:_Naruto_Next_Generations => nrel_age_rating: concept_PG12;;
+                  
+                    Boruto:_Naruto_Next_Generations => nrel_actor : KenshoOno;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : YukoSanpei;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : ShinyaHamazoe;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : KokoroKikuchi;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : AtsushiAbe;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : JunkoTakeuchi;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : ShowtaroMorikubo;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : NanaMizuki;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : HidenoriTakahashi;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : ShinjiKawada;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : ChihiroIkki;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : RyuichiKijima;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : RyNishitani;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : AyaEndo;;
+                    
+                   
+                    Boruto:_Naruto_Next_Generations => nrel_actor : RyokoShiraishi;;
+                    
+                  
+                  
+                  Boruto:_Naruto_Next_Generations
+                  =>nrel_keywords: concept_detectif;;
+                  

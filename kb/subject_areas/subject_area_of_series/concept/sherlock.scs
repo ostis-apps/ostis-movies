@@ -1,0 +1,70 @@
+
+                  concept_series -> Sherlock;;
+              
+                  Sherlock
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Шерлок]
+                    (* <- lang_ru;;	*);
+                    [Sherlock]
+                    (* <- lang_en;;	*);;
+                  
+                  Sherlock <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Шерлок)](*<-lang_ru;;*);
+                      [Description (Sherlock)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Sherlock_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Sherlock_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Sherlock <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Шерлок)](*<-lang_ru;;*);
+                      [Pic. (Sherlock)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Sherlock.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Sherlock => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2010;;
+                  2010 => nrel_main_idtf : [2010 год](*<-lang_ru;;*);;
+                  2010 => nrel_main_idtf : [year of 2010](*<-lang_en;;*);;
+                  Sherlock => nrel_production_year : 2010;;
+                  
+                  value -> 4;;
+                  Sherlock => nrel_num_of_seasons: 4;;
+                  value -> 12;;
+                  Sherlock => nrel_num_of_episodes: 12;;
+                  
+                  value -> 9;;
+                  Sherlock => nrel_no_countries : 9;;
+                  
+                  value -> 5;;
+                  Sherlock => nrel_viewers_in_millions: 5;;
+                  
+                  Sherlock => nrel_age_rating: concept_PG12;;
+                  
+                    Sherlock => nrel_actor : MartinFreeman;;
+                    
+                   
+                    Sherlock => nrel_actor : BenedictCumberbatch;;
+                    
+                  
+                  
+                  Sherlock
+                  =>nrel_keywords: concept_detectif;;
+                  

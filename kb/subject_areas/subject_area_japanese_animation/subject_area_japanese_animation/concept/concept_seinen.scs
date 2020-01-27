@@ -1,0 +1,37 @@
+concept_seinen <- sc_node_not_relation;
+
+=> nrel_main_idtf:[сэйнэн] (* <- lang_ru;; *);
+=> nrel_idtf:[seinen] (* <- lang_en;; *);
+
+<- concept_anime_genre;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (сэйнэн)](* <- lang_ru;; *);
+		[Def. (seinen)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_anime;;
+		-> concept_manga;;
+		-> nrel_metagenre;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_seinen">Сэйнэн</sc_element></b> - <sc_element sys_idtf="nrel_metagenre">метажанр</sc_element> <sc_element sys_idtf="concept_anime">аниме</sc_element> и <sc_element sys_idtf="concept_manga">манги</sc_element>, основной целевой аудиторией которого являются мужчины в возрасте от 18 до 25 лет.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_seinen">Seinen</sc_element></b> - <sc_element sys_idtf="nrel_metagenre">metagenre</sc_element> of <sc_element sys_idtf="concept_anime">anime</sc_element> and <sc_element sys_idtf="concept_manga">manga</sc_element>, the main target audience of which are mens between the ages of 18 and 25.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (сэйнэн)](*<-lang_ru;;*);
+		[Pic. (seinen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_seinen.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

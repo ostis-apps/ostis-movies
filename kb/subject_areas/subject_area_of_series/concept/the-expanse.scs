@@ -1,0 +1,97 @@
+
+                  concept_series -> The_Expanse;;
+              
+                  The_Expanse
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [раздолье]
+                    (* <- lang_ru;;	*);
+                    [The_Expanse]
+                    (* <- lang_en;;	*);;
+                  
+                  The_Expanse <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (раздолье)](*<-lang_ru;;*);
+                      [Description (The_Expanse)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/The_Expanse_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/The_Expanse_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Expanse <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (раздолье)](*<-lang_ru;;*);
+                      [Pic. (The_Expanse)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/The_Expanse.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  The_Expanse => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  The_Expanse => nrel_production_year : 2015;;
+                  
+                  value -> 4;;
+                  The_Expanse => nrel_num_of_seasons: 4;;
+                  value -> 46;;
+                  The_Expanse => nrel_num_of_episodes: 46;;
+                  
+                  value -> 6;;
+                  The_Expanse => nrel_no_countries : 6;;
+                  
+                  value -> 11;;
+                  The_Expanse => nrel_viewers_in_millions: 11;;
+                  
+                  The_Expanse => nrel_age_rating: concept_PG12;;
+                  
+                    The_Expanse => nrel_actor : DominiqueTipper;;
+                    
+                   
+                    The_Expanse => nrel_actor : WesChatham;;
+                    
+                   
+                    The_Expanse => nrel_actor : StevenStrait;;
+                    
+                   
+                    The_Expanse => nrel_actor : CasAnvar;;
+                    
+                   
+                    The_Expanse => nrel_actor : ShohrehAghdashloo;;
+                    
+                   
+                    The_Expanse => nrel_actor : ShawnDoyle;;
+                    
+                   
+                    The_Expanse => nrel_actor : FrankieAdams;;
+                    
+                   
+                    The_Expanse => nrel_actor : ThomasJane;;
+                    
+                   
+                    The_Expanse => nrel_actor : FlorenceFaivre;;
+                    
+                   
+                    The_Expanse => nrel_actor : PauloCostanzo;;
+                    
+                   
+                    The_Expanse => nrel_actor : LyndieGreenwood;;
+                    
+                  
+                  
+                  The_Expanse
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,45 @@
+concept_human -> matthew_broderick;;
+ 
+ matthew_broderick <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Мэттью Бродерик)](*<-lang_ru;;*);
+ 		[Description (Matthew Broderick)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/matthew_broderick_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ matthew_broderick <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Мэттью Бродерик)](*<-lang_ru;;*);
+ 		[Pic. (Matthew Broderick)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/matthew_broderick.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ matthew_broderick => nrel_main_idtf : [Мэттью Бродерик](*<-lang_ru;;*);;
+ matthew_broderick => nrel_main_idtf : [Matthew Broderick](*<-lang_en;;*);;
+ 
+ 
+ matthew_broderick => nrel_birth_date : 1962;;
+ 
+ concept_goverment -> Usa;;
+ matthew_broderick => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ matthew_broderick => nrel_to_star_in : the_cable_guy;;
+the_cable_guy => nrel_main_idtf : [The Cable Guy](*<-lang_en;;*);;
+the_cable_guy => nrel_main_idtf : [Кабельщик](*<-lang_ru;;*);;
+

@@ -1,0 +1,67 @@
+film_bagsi_1991
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Багси]
+(* <- lang_ru;;    *);
+[Bugsy]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Багси)](*<-lang_ru;;*);
+[Description (Bugsy)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/bagsi-1991_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/bagsi-1991_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Багси)](*<-lang_ru;;*);
+		[Pic. (Bugsy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/bagsi-1991.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Glamour Was The Disguise.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [20.12.1991](*<-lang_ru;;*);;
+    => nrel_main_idtf : [20.12.1991](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT2H16M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT2H16M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_bagsi_1991 =>nrel_keywords: film;;
+
+film_bagsi_1991 <- concept_biography;concept_crime;concept_drama;;
+
+film_bagsi_1991 => nrel_main_actor : warren_beatty;annette_bening;harvey_keitel;ben_kingsley;;
+film_bagsi_1991 => nrel_producer : barry_levinson;;

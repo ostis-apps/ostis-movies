@@ -1,0 +1,45 @@
+concept_human -> whoopi_goldberg;;
+ 
+ whoopi_goldberg <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Вупи Голдберг)](*<-lang_ru;;*);
+ 		[Description (Whoopi Goldberg)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/whoopi_goldberg_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ whoopi_goldberg <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Вупи Голдберг)](*<-lang_ru;;*);
+ 		[Pic. (Whoopi Goldberg)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/whoopi_goldberg.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ whoopi_goldberg => nrel_main_idtf : [Вупи Голдберг](*<-lang_ru;;*);;
+ whoopi_goldberg => nrel_main_idtf : [Whoopi Goldberg](*<-lang_en;;*);;
+ 
+ 
+ whoopi_goldberg => nrel_birth_date : 1955;;
+ 
+ concept_goverment -> Usa;;
+ whoopi_goldberg => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ whoopi_goldberg => nrel_to_star_in : girl_interrupted;;
+girl_interrupted => nrel_main_idtf : [Girl, Interrupted](*<-lang_en;;*);;
+girl_interrupted => nrel_main_idtf : [Прерванная жизнь](*<-lang_ru;;*);;
+

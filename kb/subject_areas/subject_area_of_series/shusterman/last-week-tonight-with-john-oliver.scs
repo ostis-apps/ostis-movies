@@ -1,0 +1,67 @@
+
+                  concept_series -> Last_Week_Tonight_with_John_Oliver;;
+              
+                  Last_Week_Tonight_with_John_Oliver
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Последняя неделя Сегодня с Джоном Оливером]
+                    (* <- lang_ru;;	*);
+                    [Last_Week_Tonight_with_John_Oliver]
+                    (* <- lang_en;;	*);;
+                  
+                  Last_Week_Tonight_with_John_Oliver <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Последняя неделя Сегодня с Джоном Оливером)](*<-lang_ru;;*);
+                      [Description (Last_Week_Tonight_with_John_Oliver)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Last_Week_Tonight_with_John_Oliver_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Last_Week_Tonight_with_John_Oliver_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Last_Week_Tonight_with_John_Oliver <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Последняя неделя Сегодня с Джоном Оливером)](*<-lang_ru;;*);
+                      [Pic. (Last_Week_Tonight_with_John_Oliver)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Last_Week_Tonight_with_John_Oliver.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Last_Week_Tonight_with_John_Oliver => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2014;;
+                  2014 => nrel_main_idtf : [2014 год](*<-lang_ru;;*);;
+                  2014 => nrel_main_idtf : [year of 2014](*<-lang_en;;*);;
+                  Last_Week_Tonight_with_John_Oliver => nrel_production_year : 2014;;
+                  
+                  value -> 7;;
+                  Last_Week_Tonight_with_John_Oliver => nrel_num_of_seasons: 7;;
+                  value -> 179;;
+                  Last_Week_Tonight_with_John_Oliver => nrel_num_of_episodes: 179;;
+                  
+                  value -> 11;;
+                  Last_Week_Tonight_with_John_Oliver => nrel_no_countries : 11;;
+                  
+                  value -> 7;;
+                  Last_Week_Tonight_with_John_Oliver => nrel_viewers_in_millions: 7;;
+                  
+                  Last_Week_Tonight_with_John_Oliver => nrel_age_rating: concept_PG12;;
+                  
+                    Last_Week_Tonight_with_John_Oliver => nrel_actor : JohnOliver;;
+                    
+                  
+                  
+                  Last_Week_Tonight_with_John_Oliver
+                  =>nrel_keywords: concept_detectif;;
+                  

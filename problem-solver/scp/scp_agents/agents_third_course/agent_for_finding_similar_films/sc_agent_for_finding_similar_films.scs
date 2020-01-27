@@ -1,0 +1,50 @@
+sc_agent_for_finding_similar_films
+=> nrel_main_idtf:
+	[sc-агент поиска похожих фильмов по оценке] 
+	(* <- lang_ru;; *);
+	[sc-agent of finding similar films by rating] 
+	(* <- lang_en;; *);
+
+<- abstract_sc_agent;
+
+=> nrel_primary_initiation_condition: 
+	(sc_event_add_output_arc => question_initiated);
+
+=> nrel_initiation_condition_and_result: 
+	(..sc_agent_for_finding_similar_films_condition => ..sc_agent_for_finding_similar_films_result);
+
+<= nrel_sc_agent_key_sc_elements: 
+	{
+	question_initiated;
+	question;
+	question_finding_similar_films
+	};
+
+=> nrel_inclusion: 
+	.platform_independent_realization_of_sc_agent_for_finding_similar_films
+	(*
+	<- platform_independent_abstract_sc_agent;;
+	<= nrel_sc_agent_program: 
+		{
+		agent_for_finding_similar_films	
+		};;
+	-> sc_agent_for_finding_similar_films_scp   
+		(* <- active_sc_agent;; *);;
+	*);;
+
+..sc_agent_for_finding_similar_films_condition
+= [*
+	question_finding_similar_films _-> .._question;;
+	question_initiated _-> .._question;;
+	question _-> .._question;;
+	.._question _-> .._parameter;;
+*];;
+
+..sc_agent_for_finding_similar_films_result
+= [*
+	question_finding_similar_films _-> .._question;;
+	question_finished _-> .._question;;
+	question _-> .._question;;
+	.._question _=> nrel_answer:: .._answer;;
+	.._question _-> .._parameter;;
+*];;

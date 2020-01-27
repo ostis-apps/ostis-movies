@@ -1,0 +1,112 @@
+
+                  concept_series -> Scream_Queens;;
+              
+                  Scream_Queens
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Scream_Queens]
+                    (* <- lang_ru;;	*);
+                    [Scream_Queens]
+                    (* <- lang_en;;	*);;
+                  
+                  Scream_Queens <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Scream_Queens)](*<-lang_ru;;*);
+                      [Description (Scream_Queens)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Scream_Queens_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Scream_Queens_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Scream_Queens <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Scream_Queens)](*<-lang_ru;;*);
+                      [Pic. (Scream_Queens)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Scream_Queens.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Scream_Queens => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Scream_Queens => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  Scream_Queens => nrel_num_of_seasons: 2;;
+                  value -> 23;;
+                  Scream_Queens => nrel_num_of_episodes: 23;;
+                  
+                  value -> 8;;
+                  Scream_Queens => nrel_no_countries : 8;;
+                  
+                  value -> 11;;
+                  Scream_Queens => nrel_viewers_in_millions: 11;;
+                  
+                  Scream_Queens => nrel_age_rating: concept_PG12;;
+                  
+                    Scream_Queens => nrel_actor : BillieLourd;;
+                    
+                   
+                    Scream_Queens => nrel_actor : JamieLeeCurtis;;
+                    
+                   
+                    Scream_Queens => nrel_actor : AbigailBreslin;;
+                    
+                   
+                    Scream_Queens => nrel_actor : LeaMichele;;
+                    
+                   
+                    Scream_Queens => nrel_actor : EmmaRoberts;;
+                    
+                   
+                    Scream_Queens => nrel_actor : KekePalmer;;
+                    
+                   
+                    Scream_Queens => nrel_actor : GlenPowell;;
+                    
+                   
+                    Scream_Queens => nrel_actor : OliverHudson;;
+                    
+                   
+                    Scream_Queens => nrel_actor : SkylerSamuels;;
+                    
+                   
+                    Scream_Queens => nrel_actor : DiegoBoneta;;
+                    
+                   
+                    Scream_Queens => nrel_actor : NasimPedrad;;
+                    
+                   
+                    Scream_Queens => nrel_actor : TaylorLautner;;
+                    
+                   
+                    Scream_Queens => nrel_actor : JohnStamos;;
+                    
+                   
+                    Scream_Queens => nrel_actor : LucienLaviscount;;
+                    
+                   
+                    Scream_Queens => nrel_actor : KirstieAlley;;
+                    
+                   
+                    Scream_Queens => nrel_actor : JamesEarl;;
+                    
+                  
+                  
+                  Scream_Queens
+                  =>nrel_keywords: concept_detectif;;
+                  

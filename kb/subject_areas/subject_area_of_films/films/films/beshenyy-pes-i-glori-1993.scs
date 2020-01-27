@@ -1,0 +1,67 @@
+film_beshenyy_pes_i_glori_1993
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бешеный пес и Глори]
+(* <- lang_ru;;    *);
+[Mad Dog and Glory]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Бешеный пес и Глори)](*<-lang_ru;;*);
+[Description (Mad Dog and Glory)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/beshenyy-pes-i-glori-1993_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/beshenyy-pes-i-glori-1993_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бешеный пес и Глори)](*<-lang_ru;;*);
+		[Pic. (Mad Dog and Glory)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/beshenyy-pes-i-glori-1993.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : usa;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [A cop who'd rather be an artist. A mobster who'd rather be a comic. And a woman who'd rather be anywhere but between them.](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [05.03.1993](*<-lang_ru;;*);;
+    => nrel_main_idtf : [05.03.1993](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H37M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H37M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_beshenyy_pes_i_glori_1993 =>nrel_keywords: film;;
+
+film_beshenyy_pes_i_glori_1993 <- concept_comedy;concept_crime;concept_drama;concept_romance;;
+
+film_beshenyy_pes_i_glori_1993 => nrel_main_actor : robert_de_niro;uma_thurman;bill_murray;david_caruso;;
+film_beshenyy_pes_i_glori_1993 => nrel_producer : john_mcnaughton;;

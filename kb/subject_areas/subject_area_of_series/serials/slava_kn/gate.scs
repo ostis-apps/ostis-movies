@@ -1,0 +1,100 @@
+
+                  concept_series -> Gate;;
+              
+                  Gate
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Ворота]
+                    (* <- lang_ru;;	*);
+                    [Gate]
+                    (* <- lang_en;;	*);;
+                  
+                  Gate <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Ворота)](*<-lang_ru;;*);
+                      [Description (Gate)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Gate_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Gate_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Gate <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Ворота)](*<-lang_ru;;*);
+                      [Pic. (Gate)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Gate.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Gate => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Gate => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  Gate => nrel_num_of_seasons: 2;;
+                  value -> 24;;
+                  Gate => nrel_num_of_episodes: 24;;
+                  
+                  value -> 14;;
+                  Gate => nrel_no_countries : 14;;
+                  
+                  value -> 7;;
+                  Gate => nrel_viewers_in_millions: 7;;
+                  
+                  Gate => nrel_age_rating: concept_PG12;;
+                  
+                    Gate => nrel_actor : HarukaTomatsu;;
+                    
+                   
+                    Gate => nrel_actor : RisaTaneda;;
+                    
+                   
+                    Gate => nrel_actor : YumiUchiyama;;
+                    
+                   
+                    Gate => nrel_actor : KaitoIshikawa;;
+                    
+                   
+                    Gate => nrel_actor : HisakoKanemoto;;
+                    
+                   
+                    Gate => nrel_actor : MaayaUchida;;
+                    
+                   
+                    Gate => nrel_actor : SatomiAkesaka;;
+                    
+                   
+                    Gate => nrel_actor : SatomiAkesaka;;
+                    
+                   
+                    Gate => nrel_actor : NaoTyama;;
+                    
+                   
+                    Gate => nrel_actor : JunichiSuwabe;;
+                    
+                   
+                    Gate => nrel_actor : IkumiHayama;;
+                    
+                   
+                    Gate => nrel_actor : HarukaTomatsu;;
+                    
+                  
+                  
+                  Gate
+                  =>nrel_keywords: concept_detectif;;
+                  

@@ -1,0 +1,85 @@
+
+                  concept_series -> Fire_Force;;
+              
+                  Fire_Force
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Fire_Force]
+                    (* <- lang_ru;;	*);
+                    [Fire_Force]
+                    (* <- lang_en;;	*);;
+                  
+                  Fire_Force <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Fire_Force)](*<-lang_ru;;*);
+                      [Description (Fire_Force)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Fire_Force_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Fire_Force_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Fire_Force <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Fire_Force)](*<-lang_ru;;*);
+                      [Pic. (Fire_Force)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Fire_Force.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Fire_Force => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Fire_Force => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Fire_Force => nrel_num_of_seasons: 1;;
+                  value -> 24;;
+                  Fire_Force => nrel_num_of_episodes: 24;;
+                  
+                  value -> 3;;
+                  Fire_Force => nrel_no_countries : 3;;
+                  
+                  value -> 11;;
+                  Fire_Force => nrel_viewers_in_millions: 11;;
+                  
+                  Fire_Force => nrel_age_rating: concept_PG12;;
+                  
+                    Fire_Force => nrel_actor : KazuyaNakai;;
+                    
+                   
+                    Fire_Force => nrel_actor : AoiYki;;
+                    
+                   
+                    Fire_Force => nrel_actor : KenichiSuzumura;;
+                    
+                   
+                    Fire_Force => nrel_actor : MaoIchimichi;;
+                    
+                   
+                    Fire_Force => nrel_actor : YsukeKobayashi;;
+                    
+                   
+                    Fire_Force => nrel_actor : GakutoKajiwara;;
+                    
+                   
+                    Fire_Force => nrel_actor : SaekoKamijou;;
+                    
+                  
+                  
+                  Fire_Force
+                  =>nrel_keywords: concept_detectif;;
+                  

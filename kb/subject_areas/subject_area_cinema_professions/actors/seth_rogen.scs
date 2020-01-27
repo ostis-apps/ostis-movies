@@ -1,0 +1,48 @@
+concept_human -> seth_rogen;;
+ 
+ seth_rogen <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сет Роген)](*<-lang_ru;;*);
+ 		[Description (Seth Rogen)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/seth_rogen_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ seth_rogen <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сет Роген)](*<-lang_ru;;*);
+ 		[Pic. (Seth Rogen)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/seth_rogen.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ seth_rogen => nrel_main_idtf : [Сет Роген](*<-lang_ru;;*);;
+ seth_rogen => nrel_main_idtf : [Seth Rogen](*<-lang_en;;*);;
+ 
+ 
+ seth_rogen => nrel_birth_date : 1982;;
+ 
+ concept_goverment -> Canada;;
+ seth_rogen => nrel_cityzenship : Canada;;
+ Canada => nrel_main_idtf : [Canada](*<-lang_en;;*);;
+ Canada => nrel_main_idtf : [Канада](*<-lang_ru;;*);;
+ 
+ seth_rogen => nrel_to_star_in : long_shot;;
+long_shot => nrel_main_idtf : [Long Shot](*<-lang_en;;*);;
+long_shot => nrel_main_idtf : [Та еще парочка](*<-lang_ru;;*);;
+seth_rogen => nrel_to_star_in : the_green_hornet;;
+the_green_hornet => nrel_main_idtf : [The Green Hornet](*<-lang_en;;*);;
+the_green_hornet => nrel_main_idtf : [Зеленый шершень](*<-lang_ru;;*);;
+

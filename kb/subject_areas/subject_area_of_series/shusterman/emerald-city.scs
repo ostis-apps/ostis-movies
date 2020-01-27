@@ -1,0 +1,88 @@
+
+                  concept_series -> Emerald_City;;
+              
+                  Emerald_City
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Изумрудный город]
+                    (* <- lang_ru;;	*);
+                    [Emerald_City]
+                    (* <- lang_en;;	*);;
+                  
+                  Emerald_City <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Изумрудный город)](*<-lang_ru;;*);
+                      [Description (Emerald_City)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Emerald_City_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Emerald_City_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Emerald_City <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Изумрудный город)](*<-lang_ru;;*);
+                      [Pic. (Emerald_City)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Emerald_City.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Emerald_City => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2017;;
+                  2017 => nrel_main_idtf : [2017 год](*<-lang_ru;;*);;
+                  2017 => nrel_main_idtf : [year of 2017](*<-lang_en;;*);;
+                  Emerald_City => nrel_production_year : 2017;;
+                  
+                  value -> 1;;
+                  Emerald_City => nrel_num_of_seasons: 1;;
+                  value -> 10;;
+                  Emerald_City => nrel_num_of_episodes: 10;;
+                  
+                  value -> 11;;
+                  Emerald_City => nrel_no_countries : 11;;
+                  
+                  value -> 7;;
+                  Emerald_City => nrel_viewers_in_millions: 7;;
+                  
+                  Emerald_City => nrel_age_rating: concept_PG12;;
+                  
+                    Emerald_City => nrel_actor : VincentDOnofrio;;
+                    
+                   
+                    Emerald_City => nrel_actor : AnaUlaru;;
+                    
+                   
+                    Emerald_City => nrel_actor : AdriaArjona;;
+                    
+                   
+                    Emerald_City => nrel_actor : OliverJacksonCohen;;
+                    
+                   
+                    Emerald_City => nrel_actor : GerranHowell;;
+                    
+                   
+                    Emerald_City => nrel_actor : JordanLoughran;;
+                    
+                   
+                    Emerald_City => nrel_actor : MidoHamada;;
+                    
+                   
+                    Emerald_City => nrel_actor : JoelyRichardson;;
+                    
+                  
+                  
+                  Emerald_City
+                  =>nrel_keywords: concept_detectif;;
+                  

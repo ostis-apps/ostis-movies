@@ -1,0 +1,53 @@
+concept_human -> Misha_Cl;;
+
+Misha_Cl
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дмитрий «Миша» Коллинз]
+	(* <- lang_ru;;	*);
+	[Dmitri "Misha" Collins]
+	(* <- lang_en;;	*);;
+	
+Misha_Cl <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дмитрий «Миша» Коллинз)](*<-lang_ru;;*);
+		[Description (Dmitri "Misha" Collins)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor;
+        Supernatural;
+        concept_rezeser
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Misha_Cl_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Misha_Cl_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Misha_Cl <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дмитрий «Миша» Коллинз)](*<-lang_ru;;*);
+		[Pic. (Dmitri "Misha" Collins)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Misha_Cl.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1974;;
+Misha_Cl=>nrel_date_of_birth: 1974;;
+1974=>nrel_main_idtf:[1974 год](*<-lang_ru;;*);;
+1974=>nrel_main_idtf:[year of 1974](*<-lang_en;;*);;
+
+concept_calendar_date-> 1993;;
+Misha_Cl=>nrel_career_start_date: 1993;;
+1993=>nrel_main_idtf:[1993 год](*<-lang_ru;;*);;
+1993=>nrel_main_idtf:[year of 1993](*<-lang_en;;*);;
+
+Misha_Cl =>nrel_cityzenship:Usa;;
+

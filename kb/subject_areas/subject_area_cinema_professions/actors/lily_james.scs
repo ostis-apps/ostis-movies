@@ -1,0 +1,45 @@
+concept_human -> lily_james;;
+ 
+ lily_james <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Лили Джеймс)](*<-lang_ru;;*);
+ 		[Description (Lily James)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/lily_james_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ lily_james <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Лили Джеймс)](*<-lang_ru;;*);
+ 		[Pic. (Lily James)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/lily_james.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ lily_james => nrel_main_idtf : [Лили Джеймс](*<-lang_ru;;*);;
+ lily_james => nrel_main_idtf : [Lily James](*<-lang_en;;*);;
+ 
+ 
+ lily_james => nrel_birth_date : 1989;;
+ 
+ concept_goverment -> UK;;
+ lily_james => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ lily_james => nrel_to_star_in : mamma_mia_here_we_go_again;;
+mamma_mia_here_we_go_again => nrel_main_idtf : [Mamma Mia! Here We Go Again](*<-lang_en;;*);;
+mamma_mia_here_we_go_again => nrel_main_idtf : [Mamma Mia! 2](*<-lang_ru;;*);;
+

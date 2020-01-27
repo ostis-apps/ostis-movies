@@ -1,0 +1,85 @@
+
+                  concept_series -> Batwoman;;
+              
+                  Batwoman
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Batwoman]
+                    (* <- lang_ru;;	*);
+                    [Batwoman]
+                    (* <- lang_en;;	*);;
+                  
+                  Batwoman <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Batwoman)](*<-lang_ru;;*);
+                      [Description (Batwoman)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Batwoman_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Batwoman_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Batwoman <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Batwoman)](*<-lang_ru;;*);
+                      [Pic. (Batwoman)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Batwoman.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Batwoman => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2019;;
+                  2019 => nrel_main_idtf : [2019 год](*<-lang_ru;;*);;
+                  2019 => nrel_main_idtf : [year of 2019](*<-lang_en;;*);;
+                  Batwoman => nrel_production_year : 2019;;
+                  
+                  value -> 1;;
+                  Batwoman => nrel_num_of_seasons: 1;;
+                  value -> 9;;
+                  Batwoman => nrel_num_of_episodes: 9;;
+                  
+                  value -> 11;;
+                  Batwoman => nrel_no_countries : 11;;
+                  
+                  value -> 10;;
+                  Batwoman => nrel_viewers_in_millions: 10;;
+                  
+                  Batwoman => nrel_age_rating: concept_PG12;;
+                  
+                    Batwoman => nrel_actor : RubyRose;;
+                    
+                   
+                    Batwoman => nrel_actor : MeaganTandy;;
+                    
+                   
+                    Batwoman => nrel_actor : ElizabethAnweis;;
+                    
+                   
+                    Batwoman => nrel_actor : CamrusJohnson;;
+                    
+                   
+                    Batwoman => nrel_actor : NicoleKang;;
+                    
+                   
+                    Batwoman => nrel_actor : RachelSkarsten;;
+                    
+                   
+                    Batwoman => nrel_actor : DougrayScott;;
+                    
+                  
+                  
+                  Batwoman
+                  =>nrel_keywords: concept_detectif;;
+                  

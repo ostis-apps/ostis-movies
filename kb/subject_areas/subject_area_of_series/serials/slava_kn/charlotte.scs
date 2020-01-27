@@ -1,0 +1,85 @@
+
+                  concept_series -> Charlotte;;
+              
+                  Charlotte
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [шарлотка]
+                    (* <- lang_ru;;	*);
+                    [Charlotte]
+                    (* <- lang_en;;	*);;
+                  
+                  Charlotte <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (шарлотка)](*<-lang_ru;;*);
+                      [Description (Charlotte)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Charlotte_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Charlotte_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Charlotte <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (шарлотка)](*<-lang_ru;;*);
+                      [Pic. (Charlotte)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Charlotte.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Charlotte => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Charlotte => nrel_production_year : 2015;;
+                  
+                  value -> 1;;
+                  Charlotte => nrel_num_of_seasons: 1;;
+                  value -> 13;;
+                  Charlotte => nrel_num_of_episodes: 13;;
+                  
+                  value -> 8;;
+                  Charlotte => nrel_no_countries : 8;;
+                  
+                  value -> 10;;
+                  Charlotte => nrel_viewers_in_millions: 10;;
+                  
+                  Charlotte => nrel_age_rating: concept_PG12;;
+                  
+                    Charlotte => nrel_actor : DaisukeOno;;
+                    
+                   
+                    Charlotte => nrel_actor : TakahiroMizushima;;
+                    
+                   
+                    Charlotte => nrel_actor : MaayaUchida;;
+                    
+                   
+                    Charlotte => nrel_actor : MomoAsakura;;
+                    
+                   
+                    Charlotte => nrel_actor : AyaneSakura;;
+                    
+                   
+                    Charlotte => nrel_actor : KoukiUchiyama;;
+                    
+                   
+                    Charlotte => nrel_actor : EijiTakemoto;;
+                    
+                  
+                  
+                  Charlotte
+                  =>nrel_keywords: concept_detectif;;
+                  

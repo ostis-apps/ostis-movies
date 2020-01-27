@@ -1,0 +1,66 @@
+concept_human -> Jhon_Travolta;;
+
+Jhon_Travolta <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джон Траволта)](*<-lang_ru;;*);
+		[Description (Jhon Travolta)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Travolta_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Travolta_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jhon_Travolta <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джон Траволта)](*<-lang_ru;;*);
+		[Pic. (Jhon Travolta)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Travolta.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Jhon_Travolta => nrel_be_awarded : Golden_globe;; 
+Jhon_Travolta => nrel_main_idtf : [Джон Траволта](*<-lang_ru;;*);;
+Jhon_Travolta => nrel_main_idtf : [Jhon Travolta](*<-lang_en;;*);;
+
+concept_calendar_date -> 18_02_1954;;
+Jhon_Travolta => nrel_date_of_birth : 18_02_1954;;
+18_02_1954 => nrel_main_idtf : [18.02.1954](*<-lang_en;;*);;
+18_02_1954 => nrel_main_idtf : [18.02.1954](*<-lang_ru;;*);;
+
+concept_city -> Englvood;;
+Jhon_Travolta => nrel_place_of_birth : Englvood;;
+Englvood => nrel_main_idtf : [Englvood](*<-lang_en;;*);;
+Englvood => nrel_main_idtf : [Энглвуд](*<-lang_ru;;*);;
+
+Jhon_Travolta => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 21_05_1972;;
+Jhon_Travolta => nrel_career_start_date : 21_05_1972;;
+21_05_1972 => nrel_main_idtf : [21.05.1972](*<-lang_en;;*);;
+21_05_1972 => nrel_main_idtf : [21.05.1972](*<-lang_ru;;*);;
+
+concept_film -> Gotti;Cabani;Gnev;Karat;Life;;
+Gotti => nrel_main_idtf : [Code Gotti](*<-lang_en;;*);;
+Gotti => nrel_main_idtf : [Кодекс Готти](*<-lang_ru;;*);;
+Cabani => nrel_main_idtf : [Wild hogs](*<-lang_en;;*);;
+Cabani => nrel_main_idtf : [Реальные кабаны](*<-lang_ru;;*);;
+Gnev => nrel_main_idtf : [I am anger](*<-lang_en;;*);;
+Gnev => nrel_main_idtf : [Я есть гнев](*<-lang_ru;;*);;
+Karat => nrel_main_idtf : [Punisher](*<-lang_en;;*);;
+Karat => nrel_main_idtf : [Каратель](*<-lang_ru;;*);;
+Life => nrel_main_idtf : [Life on the edge](*<-lang_en;;*);;
+Life => nrel_main_idtf : [Жизнь на грани](*<-lang_ru;;*);;
+
+Jhon_Travolta => nrel_to_star_in : Gotti;Cabani;Gnev;Karat;Life;;
+

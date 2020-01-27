@@ -1,0 +1,33 @@
+character_natalia
+	=> nrel_main_idtf:
+	[Наталья]
+	(* <- lang_ru;;	*);
+	[Natalia]
+	(* <- lang_en;;	*);
+
+=> nrel_actor: margarita_terekhova;
+<- character;
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+	        [Описание (Наталья)](* <- lang_ru;; *);
+		[Desctiption (Natalia)](* <- lang_en;; *);;
+	<= nrel_sc_text_translation:...
+		(*
+		        -> rrel_example:[<b><sc_element sys_idtf="character_natalia">Наталья</sc_element></b> — бывшая жена <sc_element sys_idtf="character_alexey">Алексея</sc_element>](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="character_natalia">Pheophan Grek</sc_element></b> — Ex-wife of <sc_element sys_idtf="character_alexey">Aexey</sc_element>](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+	        [Рис. (Наталья)](*<-lang_ru;;*);
+		[Pic. (Natalia)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+	        ->"file://IMG/Natali.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

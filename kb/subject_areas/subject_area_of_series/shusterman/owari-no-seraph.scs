@@ -1,0 +1,85 @@
+
+                  concept_series -> Seraph_of_the_End:_Vampire_Reign;;
+              
+                  Seraph_of_the_End:_Vampire_Reign
+                  <- sc_node_not_relation;
+                  => nrel_main_idtf:
+                    [Seraph_of_the_End: _Vampire_Reign]
+                    (* <- lang_ru;;	*);
+                    [Seraph_of_the_End:_Vampire_Reign]
+                    (* <- lang_en;;	*);;
+                  
+                  Seraph_of_the_End:_Vampire_Reign <-rrel_key_sc_element:...
+                  (*
+                    <-definition;;
+                    =>nrel_main_idtf:
+                      [Описание (Seraph_of_the_End: _Vampire_Reign)](*<-lang_ru;;*);
+                      [Description (Seraph_of_the_End:_Vampire_Reign)](*<-lang_en;;*);;
+                    <=nrel_using_constants:
+                    {
+                          concept_series
+                    };;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://HTML/Seraph_of_the_End:_Vampire_Reign_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+                      ->rrel_example: "file://HTML/Seraph_of_the_End:_Vampire_Reign_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+                  *);;
+                  
+                  Seraph_of_the_End:_Vampire_Reign <-rrel_key_sc_element:...
+                  (*
+                    <-illustration;;
+                    =>nrel_main_idtf:
+                      [Рис. (Seraph_of_the_End: _Vampire_Reign)](*<-lang_ru;;*);
+                      [Pic. (Seraph_of_the_End:_Vampire_Reign)](*<-lang_en;;*);;
+                    <=nrel_sc_text_translation:...
+                    (*
+                      ->rrel_example: "file://IMG/Seraph_of_the_End:_Vampire_Reign.jpg"(*=>nrel_format:format_jpg;;*);;
+                    *);;
+                  *);;
+                  
+                  Seraph_of_the_End:_Vampire_Reign => nrel_production_country : Usa;;
+                  
+                  concept_calendar_date -> 2015;;
+                  2015 => nrel_main_idtf : [2015 год](*<-lang_ru;;*);;
+                  2015 => nrel_main_idtf : [year of 2015](*<-lang_en;;*);;
+                  Seraph_of_the_End:_Vampire_Reign => nrel_production_year : 2015;;
+                  
+                  value -> 2;;
+                  Seraph_of_the_End:_Vampire_Reign => nrel_num_of_seasons: 2;;
+                  value -> 24;;
+                  Seraph_of_the_End:_Vampire_Reign => nrel_num_of_episodes: 24;;
+                  
+                  value -> 3;;
+                  Seraph_of_the_End:_Vampire_Reign => nrel_no_countries : 3;;
+                  
+                  value -> 11;;
+                  Seraph_of_the_End:_Vampire_Reign => nrel_viewers_in_millions: 11;;
+                  
+                  Seraph_of_the_End:_Vampire_Reign => nrel_age_rating: concept_PG12;;
+                  
+                    Seraph_of_the_End:_Vampire_Reign => nrel_actor : KaitoIshikawa;;
+                    
+                   
+                    Seraph_of_the_End:_Vampire_Reign => nrel_actor : NobuhikoOkamoto;;
+                    
+                   
+                    Seraph_of_the_End:_Vampire_Reign => nrel_actor : KenshoOno;;
+                    
+                   
+                    Seraph_of_the_End:_Vampire_Reign => nrel_actor : MiyuIrino;;
+                    
+                   
+                    Seraph_of_the_End:_Vampire_Reign => nrel_actor : YuichiNakamura;;
+                    
+                   
+                    Seraph_of_the_End:_Vampire_Reign => nrel_actor : SaoriHayami;;
+                    
+                   
+                    Seraph_of_the_End:_Vampire_Reign => nrel_actor : YukaIguchi;;
+                    
+                  
+                  
+                  Seraph_of_the_End:_Vampire_Reign
+                  =>nrel_keywords: concept_detectif;;
+                  

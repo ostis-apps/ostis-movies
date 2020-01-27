@@ -1,0 +1,45 @@
+concept_human -> paul_dano;;
+ 
+ paul_dano <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Пол Дано)](*<-lang_ru;;*);
+ 		[Description (Paul Dano)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/paul_dano_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ paul_dano <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Пол Дано)](*<-lang_ru;;*);
+ 		[Pic. (Paul Dano)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/paul_dano.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ paul_dano => nrel_main_idtf : [Пол Дано](*<-lang_ru;;*);;
+ paul_dano => nrel_main_idtf : [Paul Dano](*<-lang_en;;*);;
+ 
+ 
+ paul_dano => nrel_birth_date : 1984;;
+ 
+ concept_goverment -> Usa;;
+ paul_dano => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ paul_dano => nrel_to_star_in : wildlife;;
+wildlife => nrel_main_idtf : [Wildlife](*<-lang_en;;*);;
+wildlife => nrel_main_idtf : [Дикая жизнь](*<-lang_ru;;*);;
+

@@ -1,0 +1,45 @@
+concept_human -> isabella_rossellini;;
+ 
+ isabella_rossellini <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Изабелла Росселлини)](*<-lang_ru;;*);
+ 		[Description (Isabella Rossellini)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/isabella_rossellini_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ isabella_rossellini <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Изабелла Росселлини)](*<-lang_ru;;*);
+ 		[Pic. (Isabella Rossellini)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/isabella_rossellini.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ isabella_rossellini => nrel_main_idtf : [Изабелла Росселлини](*<-lang_ru;;*);;
+ isabella_rossellini => nrel_main_idtf : [Isabella Rossellini](*<-lang_en;;*);;
+ 
+ 
+ isabella_rossellini => nrel_birth_date : 1952;;
+ 
+ concept_goverment -> Italy;;
+ isabella_rossellini => nrel_cityzenship : Italy;;
+ Italy => nrel_main_idtf : [Italy](*<-lang_en;;*);;
+ Italy => nrel_main_idtf : [Италия](*<-lang_ru;;*);;
+ 
+ isabella_rossellini => nrel_to_star_in : joy;;
+joy => nrel_main_idtf : [Joy](*<-lang_en;;*);;
+joy => nrel_main_idtf : [Джой](*<-lang_ru;;*);;
+

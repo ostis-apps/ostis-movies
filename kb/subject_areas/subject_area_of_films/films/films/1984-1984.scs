@@ -1,0 +1,67 @@
+film_1984_1984
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[1984]
+(* <- lang_ru;;    *);
+[Nineteen Eighty-Four]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (1984)](*<-lang_ru;;*);
+[Description (Nineteen Eighty-Four)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/1984-1984_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/1984-1984_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (1984)](*<-lang_ru;;*);
+		[Pic. (Nineteen Eighty-Four)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/1984-1984.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : uk;
+
+=> nrel_film_critic_rating : 7;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [The year of the movie. The movie of the year. See more »](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [10.10.1984](*<-lang_ru;;*);;
+    => nrel_main_idtf : [10.10.1984](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H53M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H53M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_R;;
+
+film_1984_1984 =>nrel_keywords: film;;
+
+film_1984_1984 <- concept_drama;concept_sci_fi;;
+
+film_1984_1984 => nrel_main_actor : john_hurt;richard_burton;suzanna_hamilton;cyril_cusack;;
+film_1984_1984 => nrel_producer : michael_radford;;

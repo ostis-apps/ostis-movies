@@ -1,0 +1,25 @@
+concept_science_fiction
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[научная фантастика](*<-lang_ru;;*);
+	[science fiction](*<-lang_en;;*);
+
+ <= nrel_inclusion: concept_genre;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (научная фантастика)](*<-lang_ru;;*);
+		[Def. (science fiction)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_film;;
+        -> concept_genre;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_science_fiction_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_science_fiction_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

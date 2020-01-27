@@ -1,0 +1,45 @@
+concept_human -> annasophia_robb;;
+ 
+ annasophia_robb <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Робб)](*<-lang_ru;;*);
+ 		[Description (AnnaSophia Robb)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/annasophia_robb_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ annasophia_robb <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Робб)](*<-lang_ru;;*);
+ 		[Pic. (AnnaSophia Robb)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/annasophia_robb.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ annasophia_robb => nrel_main_idtf : [Робб](*<-lang_ru;;*);;
+ annasophia_robb => nrel_main_idtf : [AnnaSophia Robb](*<-lang_en;;*);;
+ 
+ 
+ annasophia_robb => nrel_birth_date : 1993;;
+ 
+ concept_goverment -> Usa;;
+ annasophia_robb => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ annasophia_robb => nrel_to_star_in : charlie_and_the_chocolate_factory;;
+charlie_and_the_chocolate_factory => nrel_main_idtf : [Charlie and the Chocolate Factory](*<-lang_en;;*);;
+charlie_and_the_chocolate_factory => nrel_main_idtf : [Чарли и шоколадная фабрика](*<-lang_ru;;*);;
+

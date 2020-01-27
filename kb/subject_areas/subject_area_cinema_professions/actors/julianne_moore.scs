@@ -1,0 +1,51 @@
+concept_human -> julianne_moore;;
+ 
+ julianne_moore <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Джулианна Мур)](*<-lang_ru;;*);
+ 		[Description (Julianne Moore)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/julianne_moore_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ julianne_moore <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Джулианна Мур)](*<-lang_ru;;*);
+ 		[Pic. (Julianne Moore)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/julianne_moore.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ julianne_moore => nrel_main_idtf : [Джулианна Мур](*<-lang_ru;;*);;
+ julianne_moore => nrel_main_idtf : [Julianne Moore](*<-lang_en;;*);;
+ 
+ 
+ julianne_moore => nrel_birth_date : 1960;;
+ 
+ concept_goverment -> Usa;;
+ julianne_moore => nrel_cityzenship : Usa;;
+ Usa => nrel_main_idtf : [Usa](*<-lang_en;;*);;
+ Usa => nrel_main_idtf : [США](*<-lang_ru;;*);;
+ 
+ julianne_moore => nrel_to_star_in : the_hunger_games_mockingjay__part_2;;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 2](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_2 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 2](*<-lang_ru;;*);;
+julianne_moore => nrel_to_star_in : the_hunger_games_mockingjay__part_1;;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [The Hunger Games: Mockingjay - Part 1](*<-lang_en;;*);;
+the_hunger_games_mockingjay__part_1 => nrel_main_idtf : [Голодные игры: Сойка-пересмешница. Часть 1](*<-lang_ru;;*);;
+julianne_moore => nrel_to_star_in : benny__joon;;
+benny__joon => nrel_main_idtf : [Benny & Joon](*<-lang_en;;*);;
+benny__joon => nrel_main_idtf : [Бенни и Джун](*<-lang_ru;;*);;
+

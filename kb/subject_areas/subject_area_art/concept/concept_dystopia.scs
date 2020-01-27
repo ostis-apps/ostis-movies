@@ -1,0 +1,36 @@
+concept_dystopia <-sc_node_not_relation;
+=>nrel_main_idtf:
+	[антиутопия](*<-lang_ru;;*);
+	[dystopia](*<-lang_en;;*);
+
+ <= nrel_inclusion: concept_genre;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (антиутопия)](*<-lang_ru;;*);
+		[Def. (dystopia)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_film;;
+        -> concept_genre;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_dystopia_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_dystopia_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (антиутопия)](*<-lang_ru;;*);
+		[Pic. (dystopia)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_dystopia_img.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

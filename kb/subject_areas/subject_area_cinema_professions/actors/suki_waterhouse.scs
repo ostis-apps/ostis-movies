@@ -1,0 +1,48 @@
+concept_human -> suki_waterhouse;;
+ 
+ suki_waterhouse <-rrel_key_sc_element:...
+ (*
+ 	<-definition;;
+ 	=>nrel_main_idtf:
+ 		[Описание (Сьюки Уотерхаус)](*<-lang_ru;;*);
+ 		[Description (Suki Waterhouse)](*<-lang_en;;*);;
+ 	<=nrel_using_constants:
+ 	{
+        concept_actor
+ 	};;
+ 	<=nrel_sc_text_translation:...
+     	(*
+     		->rrel_example: "file://HTML/suki_waterhouse_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+     	*);;
+ *);;
+ 
+ suki_waterhouse <-rrel_key_sc_element:...
+ (*
+ 	<-illustration;;
+ 	=>nrel_main_idtf:
+ 		[Рис. (Сьюки Уотерхаус)](*<-lang_ru;;*);
+ 		[Pic. (Suki Waterhouse)](*<-lang_en;;*);;
+ 	<=nrel_sc_text_translation:...
+ 	(*
+ 		->"file://IMG/suki_waterhouse.jpg"(*=>nrel_format:format_jpg;;*);;
+ 	*);;
+ *);;
+ 
+ suki_waterhouse => nrel_main_idtf : [Сьюки Уотерхаус](*<-lang_ru;;*);;
+ suki_waterhouse => nrel_main_idtf : [Suki Waterhouse](*<-lang_en;;*);;
+ 
+ 
+ suki_waterhouse => nrel_birth_date : 1992;;
+ 
+ concept_goverment -> UK;;
+ suki_waterhouse => nrel_cityzenship : UK;;
+ UK => nrel_main_idtf : [UK](*<-lang_en;;*);;
+ UK => nrel_main_idtf : [Великобритания](*<-lang_ru;;*);;
+ 
+ suki_waterhouse => nrel_to_star_in : pokemon_detective_pikachu;;
+pokemon_detective_pikachu => nrel_main_idtf : [Pokémon Detective Pikachu](*<-lang_en;;*);;
+pokemon_detective_pikachu => nrel_main_idtf : [Покемон. Детектив Пикачу](*<-lang_ru;;*);;
+suki_waterhouse => nrel_to_star_in : killers_anonymous;;
+killers_anonymous => nrel_main_idtf : [Killers Anonymous](*<-lang_en;;*);;
+killers_anonymous => nrel_main_idtf : [Клуб анонимных киллеров](*<-lang_ru;;*);;
+

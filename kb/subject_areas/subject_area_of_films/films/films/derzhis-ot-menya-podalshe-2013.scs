@@ -1,0 +1,67 @@
+film_derzhis_ot_menya_podalshe_2013
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Держись от меня подальше]
+(* <- lang_ru;;    *);
+[Stai lontana da me]
+(* <- lang_en;;    *);
+
+<- concept_film;
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Держись от меня подальше)](*<-lang_ru;;*);
+[Description (Stai lontana da me)](*<-lang_en;;*);;
+<=nrel_using_constants:
+{
+concept_film
+};;
+<=nrel_sc_text_translation:...
+(*
+->rrel_example: "file://HTML/derzhis-ot-menya-podalshe-2013_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+->rrel_example: "file://HTML/derzhis-ot-menya-podalshe-2013_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Держись от меня подальше)](*<-lang_ru;;*);
+		[Pic. (Stai lontana da me)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/derzhis-ot-menya-podalshe-2013.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_producing_country : italy;
+
+=> nrel_film_critic_rating : 6;
+
+=> nrel_tagline_of_film: ...(*
+    => nrel_main_idtf : [Stai lontana da me](*<-lang_en;;*);;
+*);
+
+=> nrel_release_date : ...(*
+    <- concept_calendar_date;;
+    => nrel_main_idtf : [14.11.2013](*<-lang_ru;;*);;
+    => nrel_main_idtf : [14.11.2013](*<-lang_en;;*);;
+*);
+
+=> nrel_duration_of_showing : ...(*
+    <- value;;
+    => nrel_main_idtf : [PT1H40M](*<-lang_ru;;*);;
+    => nrel_main_idtf : [PT1H40M](*<-lang_en;;*);;
+*);
+
+=>nrel_age_rating: concept_not_rated;;
+
+film_derzhis_ot_menya_podalshe_2013 =>nrel_keywords: film;;
+
+film_derzhis_ot_menya_podalshe_2013 <- concept_comedy;;
+
+film_derzhis_ot_menya_podalshe_2013 => nrel_main_actor : enrico_brignano;ambra_angiolini;anna_galiena;giampaolo_morelli;;
+film_derzhis_ot_menya_podalshe_2013 => nrel_producer : alessio_maria_federici;;
