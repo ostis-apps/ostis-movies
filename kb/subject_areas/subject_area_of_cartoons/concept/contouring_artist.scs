@@ -1,0 +1,35 @@
+concept_contouring_artist
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[художник-контуровщик](*<-lang_ru;;*);
+	[contouring artist](*<-lang_en;;*);
+
+<- concept_human;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (художник-контуровщик)](*<-lang_ru;;*);
+		[Def. (contouring artist)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        	concept_animator
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/contouring_artist_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/contouring_artist_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (художник-контуровщик)](*<-lang_ru;;*);
+		[Pic. (contouring artist)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/contouring_artist.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
