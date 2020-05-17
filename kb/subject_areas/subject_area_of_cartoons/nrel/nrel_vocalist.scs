@@ -1,0 +1,27 @@
+nrel_vocalist
+<- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [vocalist*](*<- lang_en;;*);
+    [вокалист*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (вокалист*)](*<- lang_ru;;*);
+        [Def. (vocalist*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_vocalist_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_vocalist_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+<-rrel_explored_relation:concept_subject_domain_cinema_professions;
+=> nrel_first_domain: concept_vocal_part;
+=> nrel_second_domain: concept_human;
+=> nrel_definitional_domain: concept_vocal_part;;

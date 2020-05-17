@@ -1,0 +1,36 @@
+nrel_original_language
+	<-sc_node_norole_relation;
+	=>nrel_main_idtf:
+	[язык оригинала*](*<-lang_ru;;*);
+	[original language*](*<-lang_en;;*);
+
+	<- binary_relation;
+	<- antitransitive_relation;
+	<- antireflexive_relation;
+	<- antisymmetric_relation;
+	<- oriented_relation;
+
+	<- rrel_explored_relation: concept_subj_cartoons; concept_subject_domain_of_films;
+	=> nrel_first_domain: concept_film; concept_cartoon;
+	=> nrel_second_domain: languages;
+
+	<- rrel_key_sc_element:... (*
+   		<- definition;;
+    		=> nrel_main_idtf: 
+       		[Опр. (язык оригинала*)](*<- lang_ru;;*);
+       		[Def. (original language*)](*<- lang_en;;*);;
+    		<= nrel_sc_text_translation:...(*
+        		-> rrel_example: "file://HTML/nrel_original_language_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+			-> rrel_example: "file://HTML/nrel_original_language_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    		*);;
+	*);
+
+	=> nrel_definitional_domain: ...(*
+		<= nrel_combination: ...(*
+			<- sc_node_not_binary_tuple;;
+			-> concept_film;;
+			-> languages;;
+		*);;
+	*);;
+
+	
