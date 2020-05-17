@@ -1,0 +1,84 @@
+concept_Pinocchio
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Пиноккио]
+	(* <- lang_ru;;	*);
+	[Pinocchio]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пиноккио)](*<-lang_ru;;*);
+		[Description (Pinocchio)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pinocchio_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pinocchio_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пиноккио)](*<-lang_ru;;*);
+		[Pic. (Pinocchio)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Pinocchio.JPG"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_cartoon;
+<-concept_full_length_cartoon;
+<-concept_color_film;
+<- concept_fantasy;
+<= nrel_production: Disney;
+=> nrel_creation: concept_traditional_animation;
+=>nrel_age_rating: concept_PG0;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+=>nrel_graphics: concept_two_dimensional_graphics;
+
+=>nrel_main_producer: Ben_Sharpsteen;
+=>nrel_producer: Walt_Disney;
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 1940
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 88
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_american_dollar: 84254167
+		(* 
+		<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+

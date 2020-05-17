@@ -1,0 +1,71 @@
+concept_Buzz_Lightyear_of_Star_Command
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Базз Лайтер из звёздной команды: Приключения начинаются]
+	(* <- lang_ru;;	*);
+	[Buzz Lightyear of Star Command: The Adventure Begins]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Базз Лайтер из звёздной команды: Приключения начинаются)](*<-lang_ru;;*);
+		[Description (Buzz Lightyear of Star Command: The Adventure Begins)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Buzz_Lightyear_of_Star_Command_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Buzz_Lightyear_of_Star_Command_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Базз Лайтер из звёздной команды: Приключения начинаются)](*<-lang_ru;;*);
+		[Pic. (Buzz Lightyear of Star Command: The Adventure Begins)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Buzz_Lightyear_of_Star_Command.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_cartoon;
+<-concept_full_length_cartoon;
+<-concept_color_film;
+<= nrel_production: Disney;
+=> nrel_creation: concept_traditional_animation;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+
+=>nrel_main_producer: Ted_Stones;
+=>nrel_screenwriter: Mark_Mccorkle;
+=>nrel_producer: Mark_Mccorkle;
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 2000
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 70
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+

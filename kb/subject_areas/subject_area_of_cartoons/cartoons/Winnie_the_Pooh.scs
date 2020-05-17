@@ -1,0 +1,85 @@
+concept_Winnie_the_Pooh
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Медвежонок Винни и его друзья]
+	(* <- lang_ru;;	*);
+	[Winnie the Pooh]
+	(* <- lang_en;;	*);
+
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Медвежонок Винни и его друзья)](*<-lang_ru;;*);
+		[Description (Winnie the Pooh)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Winnie_the_Pooh_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Winnie_the_Pooh_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Медвежонок Винни и его друзья)](*<-lang_ru;;*);
+		[Pic. (Winnie the Pooh)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Winnie_the_Pooh.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_cartoon;
+<-concept_full_length_cartoon;
+<-concept_family_film;
+<-concept_color_film;
+<= nrel_production: Disney;
+=> nrel_creation: concept_traditional_animation;
+=>nrel_age_rating: concept_PG0;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+=>nrel_graphics: concept_two_dimensional_graphics;
+
+=>nrel_main_producer: Stephen_Anderson;
+=>nrel_producer: John_Lasseter;
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 2011
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 64
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_american_dollar: 33152846
+		(* 
+		<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+

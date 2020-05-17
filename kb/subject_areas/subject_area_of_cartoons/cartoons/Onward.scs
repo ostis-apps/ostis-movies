@@ -1,0 +1,85 @@
+concept_Onward
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Вперёд]
+	(* <- lang_ru;;	*);
+	[Onward]
+	(* <- lang_en;;	*);
+
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Вперёд)](*<-lang_ru;;*);
+		[Description (Onward)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Onward_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Onward_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Вперёд)](*<-lang_ru;;*);
+		[Pic. (Onward)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Onward.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_cartoon;
+<-concept_full_length_cartoon;
+<-concept_family_film;
+<-concept_color_film;
+<= nrel_production: Disney;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_age_rating: concept_PG6;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+=>nrel_graphics: concept_three_dimensional_graphics;
+
+=>nrel_main_producer: Dan_Scanlon;
+=>nrel_producer: Corey_Ray;
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 2020
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 103
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_american_dollar: 103086594
+		(* 
+		<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+

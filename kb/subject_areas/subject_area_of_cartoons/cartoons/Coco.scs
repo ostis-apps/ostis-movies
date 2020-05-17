@@ -1,0 +1,88 @@
+concept_Coco
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Тайна Коко]
+	(* <- lang_ru;;	*);
+	[Coco]
+	(* <- lang_en;;	*);
+
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Тайна Коко)](*<-lang_ru;;*);
+		[Description (Coco)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Coco_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Coco_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тайна Коко)](*<-lang_ru;;*);
+		[Pic. (Coco)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Coco.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_cartoon;
+<-concept_full_length_cartoon;
+<-concept_family_film;
+<-concept_musical_film;
+<-concept_color_film;
+<- concept_fantasy;
+<= nrel_production: Disney;
+<= nrel_production: Pixar;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_age_rating: concept_PG12;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+=>nrel_graphics: concept_three_dimensional_graphics;
+
+=>nrel_main_producer: Li_Unkrich;
+=>nrel_producer: Darla_Anderson;
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 2017
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 105
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_american_dollar: 807082196
+		(* 
+		<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+

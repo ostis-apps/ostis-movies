@@ -1,0 +1,90 @@
+concept_Toy_Story_2
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[История игрушек 2]
+	(* <- lang_ru;;	*);
+	[Toy Story 2]
+	(* <- lang_en;;	*);
+
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (История игрушек 2)](*<-lang_ru;;*);
+		[Description (Toy Story 2)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Toy_Story_2_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Toy_Story_2_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (История игрушек 2)](*<-lang_ru;;*);
+		[Pic. (Toy Story 2)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Toy_Story_2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=>nrel_sequel: concept_Toy_Story_3; concept_Toy_Story_4;
+=>nrel_prequel: concept_Toy_Story;	
+<- concept_cartoon;
+<-concept_full_length_cartoon;
+<-concept_color_film;
+<-concept_comedy;
+<= nrel_production: Pixar;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+=>nrel_graphics: concept_three_dimensional_graphics;
+=>nrel_age_rating: concept_PG6;
+
+=>nrel_main_producer: John_Lasseter;
+=>nrel_main_producer: Li_Unkrich;
+=>nrel_producer: Helen_Plotkin;
+=>nrel_screenwriter: John_Lasseter;
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 1999
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);
+
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 95
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_american_dollar: 497366869
+		(* 
+		<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+
+
