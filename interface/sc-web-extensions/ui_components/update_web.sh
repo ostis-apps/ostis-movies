@@ -34,5 +34,14 @@ grunt build
 cd ../../ui_components/search_series_by_country_and_age_limit
 npm install
 grunt build
+cd ../../ui_components/search_anime_by_metagenre_and_year
+npm install
+grunt build
+cd ../../ui_components/search_anime_by_status_and_original
+npm install
+grunt build
+cd ../../ui_components/search_film_by_country_and_year
+npm install
+grunt build
 
 cd ../../scripts
