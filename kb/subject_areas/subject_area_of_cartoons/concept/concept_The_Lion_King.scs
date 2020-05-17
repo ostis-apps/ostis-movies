@@ -39,4 +39,6 @@ concept_The_Lion_King
 <- concept_fantasy;
 =>nrel_soundtrack: concept_Can_You_Feel_the_Love_Tonight_sound;
 <= nrel_production: disney;
+=>nrel_age_rating: concept_PG0;	
+=> nrel_production_country: USA;
 => nrel_creation: concept_computer_graphics;;

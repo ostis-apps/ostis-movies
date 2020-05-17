@@ -45,5 +45,5 @@ concept_The_Little_Mermaid
 =>nrel_soundtrack: concept_Over_the_Rainbow_sound;
 <= nrel_production: disney;
 => nrel_creation: concept_computer_graphics;
-
-<=nrel_production_country:concept_USA;;
+=>nrel_age_rating: concept_PG0;
+=>nrel_production_country: USA;;

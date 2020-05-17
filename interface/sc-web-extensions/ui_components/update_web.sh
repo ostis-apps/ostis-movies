@@ -43,5 +43,12 @@ grunt build
 cd ../../ui_components/search_film_by_country_and_year
 npm install
 grunt build
+cd ../../ui_components/search_cartoons_by_country_and_age_limit
+npm install
+grunt build
+cd ../../ui_components/search_cartoons_by_genre_and_prototype
+npm install
+grunt build
+
 
 cd ../../scripts
