@@ -1,0 +1,39 @@
+concept_animation_film_studio
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[анимационная киностудия](*<-lang_ru;;*);
+	[animation film studio](*<-lang_en;;*);
+=>nrel_idtf:
+	[мультипликационная киностудия](*<-lang_ru;;*);
+    [cartoon movie studio](*<-lang_en;;*);
+    [cartoon studio](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (мультипликационная киностудия)](*<-lang_ru;;*);
+		[Def. (animation film studio)](*<-lang_en;;*);;
+	<=nrel_using_constants:{
+		concept_company;
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_animation_film_studio_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_animation_film_studio_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (мультипликационная киностудия)](*<-lang_ru;;*);
+		[Pic. (animation film studio)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/animation_film_studio.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+<=nrel_inclusion:concept_company;;

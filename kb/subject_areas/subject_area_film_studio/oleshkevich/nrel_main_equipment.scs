@@ -1,0 +1,38 @@
+nrel_main_equipment <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [Main equipment*](*<- lang_en;;*);
+    [Основное оборудование*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (основное оборудование*)](*<- lang_ru;;*);
+        [Def. (Main equipment*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_main_equipment_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_main_equipment_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_film_studio;
+       concept_equipment;
+       concept_enterprise
+    };;
+*);
+
+=> nrel_first_domain: concept_film_studio;
+=> nrel_second_domain: concept_equipment;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+       ->concept_film_studio;;
+       ->concept_equipment;;
+    *);;
+*);;
+
+

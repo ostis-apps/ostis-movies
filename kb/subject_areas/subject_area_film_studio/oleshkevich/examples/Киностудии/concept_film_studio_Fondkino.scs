@@ -1,0 +1,59 @@
+concept_film_studio_Fond_kino <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия Фонд кино] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio Fond kino] (* <- lang_en;; *);
+=> nrel_idtf:[Fond kino] (* <- lang_en;; *);
+=> nrel_idtf:[Федеральный фонд социальной и экономической поддержки отечественной кинематографии] (* <- lang_ru;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия Фонд кино)] (* <- lang_ru;; *);
+							   [Statement(film studio Fond kino)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_Fondkino_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_Fondkino_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Фонд кино)](*<-lang_ru;;*);
+		[Pic. (film studio Fond kino)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Fondkino.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_distributor;
+
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1995 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_site:[http://www.fond-kino.ru/] (* <- lang_en;; *);
+=>nrel_cinema_location: Moscow;
+
+
+<=nrel_responsobility_zone: Leonid_Vereshchagin;;
+
+concept_Leonid_Vereshchagin <-concept_human;
+=> nrel_main_idtf: 
+[Леонид Верещагин] (* <-lang_ru;; *); 
+[Leonid Vereshchagin] (* <-lang_en;; *);
+=>nrel_cityzenship: Russia;;
+

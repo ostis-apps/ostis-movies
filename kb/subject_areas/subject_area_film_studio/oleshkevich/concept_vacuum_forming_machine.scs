@@ -1,0 +1,33 @@
+concept_vacuum_forming_machine
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[вакуумно-формовочная машина](*<-lang_ru;;*);
+	[vacuum forming machine](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (вакуумно-формовочная машина)](*<-lang_ru;;*);
+		[Def. (vacuum forming machine)](*<-lang_en;;*);;
+	<=nrel_using_constants:{ 
+        concept_material;
+		concept_decoration
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_vfm_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_vfm_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (вакуумно-формовочная машина)](*<-lang_ru;;*);
+		[Pic. (vacuum forming machine)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/vfm.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

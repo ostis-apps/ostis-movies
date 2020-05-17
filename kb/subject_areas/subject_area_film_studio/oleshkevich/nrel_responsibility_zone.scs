@@ -1,0 +1,38 @@
+nrel_responsibility_zone <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [responsibility zone*](*<- lang_en;;*);
+    [зона ответственности*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (зона ответственности*)](*<- lang_ru;;*);
+        [Def. (responsibility zone*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_responsibility_zone_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_responsibility_zone_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_film_studio;
+       concept_human;
+       concept_event
+    };;
+*);
+
+=> nrel_first_domain: concept_human;
+=> nrel_second_domain: concept_event;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+       ->concept_human;;
+       ->concept_event;;
+    *);;
+*);;
+
+

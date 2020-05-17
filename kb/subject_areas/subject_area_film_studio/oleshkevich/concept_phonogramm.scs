@@ -1,0 +1,27 @@
+concept_phonogramm
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[фонограмма](*<-lang_ru;;*);
+	[phonogramm](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (фонограмма)](*<-lang_ru;;*);
+		[Def. (phonogramm)](*<-lang_en;;*);;
+	<=nrel_using_constants:{ 
+        concept_sound
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_phonogramm_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_phonogramm_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<=nrel_responsibility_zone:{
+concept_composer;
+concept_sound_engeneer};
+<=nrel_fabricate:concept_mixing_console;;
+

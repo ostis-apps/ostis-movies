@@ -1,0 +1,50 @@
+concept_movie_set
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[съемочная площадка](*<-lang_ru;;*);
+	[movie set](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (съемочная площадка)](*<-lang_ru;;*);
+		[Def. (movie set)](*<-lang_en;;*);;
+	<=nrel_using_constants:{
+		concept_film_crew;
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_movie_set_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_movie_set_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+
+
+
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (съемочная площадка)](*<-lang_ru;;*);
+		[Pic. (movie set)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/movie_set.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_enterprise;
+<=nrel_responsobility_zone:{
+concept_main_producer;
+concept_operator;
+concept_actor;
+concept_production_designer;
+concept_stage_director;
+concept_make_up_artist;
+concept_sound_engineer
+};
+<=nrel_production_link:{concept_comby_surveying;
+concept_filming;
+concept_shooting_on_location
+};;

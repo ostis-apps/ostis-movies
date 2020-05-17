@@ -1,0 +1,44 @@
+concept_comby_survying_enterpise
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[цех комбинированных съемок](*<-lang_ru;;*);
+	[comby survying enterpise](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (цех комбинированных съемок)](*<-lang_ru;;*);
+		[Def. (comby survyinng enterprise)](*<-lang_en;;*);;
+	<=nrel_using_constants:{
+        concept_enterprise;
+        concept_comby_survying
+
+    };;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_cse_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_cse_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (цех комбинированных съемок)](*<-lang_ru;;*);
+		[Pic. (comby survying enterprise)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/cse.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=>nrel_main_equipment:concept_chromakey;
+=>nrel_production_link:concept_cameraman;
+<=nrel_responsobility_zone:{
+concept_main_producer;
+concept_operator;
+concept_actor;
+concept_stage_director;
+concept_make_up_artist
+};
+=>nrel_take_place: concept_comby_survying;;

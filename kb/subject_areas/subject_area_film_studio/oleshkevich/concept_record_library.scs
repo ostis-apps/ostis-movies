@@ -1,0 +1,28 @@
+concept_record_library
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[фонотека](*<-lang_ru;;*);
+	[record library](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (фонотека)](*<-lang_ru;;*);
+		[Def. (record library)](*<-lang_en;;*);;
+	<=nrel_using_constants:{ 
+        concept_sound
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_record_library_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_record_library_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<=nrel_responsibility_zone:{
+concept_composer;
+concept_sound_engineer};
+<=nrel_fabricate:concept_mixing_console;
+->concept_phonogramm;
+->concept_soundtrack;;

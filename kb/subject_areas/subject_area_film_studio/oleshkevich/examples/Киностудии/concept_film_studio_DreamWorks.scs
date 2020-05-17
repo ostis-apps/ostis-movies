@@ -1,0 +1,100 @@
+concept_film_studio_DreamWorks<- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия DreamWorks] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio DreamWorks] (* <- lang_en;; *);
+=> nrel_idtf:[DreamWorks] (* <- lang_en;; *);
+
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия DreamWorks)] (* <- lang_ru;; *);
+							   [Statement(film studio DreamWorks)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio
+				
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_DreamWorks_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_DreamWorks_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия DreamWorks)](*<-lang_ru;;*);
+		[Pic. (film studio DreamWorks)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/DreamWorks.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+=>nrel_fabricate:concept_TV_series;
+=>nrel_fabricate:concept_film;
+=>nrel_fabricate:concept_cartoon;
+=>nrel_fabricate:concept_web_series;
+<-concept_animation_film_studio;
+=>nrel_site:[http://www.dreamworksanimation.com/](*<-lang_en;;*);
+<=nrel_subsidiary_company: concept_film_studio_universal;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1994 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+=>nrel_stuff_number: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_measurement: 80
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_cinema_location: Glendeyl;
+=>nrel_founder:concept_Steven_Spielberg;
+=>nrel_founder:concept_Jeffrey_Katzenberg;
+=>nrel_founder:concept_David_Geffen;
+=>nrel_film_studio:concept_cartoon_Shrek;
+<=nrel_responsobility_zone: concept_Steven_Spielberg;
+ <=nrel_responsobility_zone: concept_Jeffrey_Katzenberg;
+ <=nrel_responsobility_zone: concept_David_Geffen;;
+
+concept_Steven_Spielberg <-concept_human;
+=> nrel_main_idtf: 
+[Стивен Спилберг] (* <-lang_ru;; *); 
+[Steven Spielberg] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+concept_Jeffrey_Katzenberg<-concept_human;
+=> nrel_main_idtf: 
+[Джеффри Катценберг] (* <-lang_ru;; *); 
+[Jeffrey Katzenberg] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+concept_David_Geffen<-concept_human;
+=> nrel_main_idtf: 
+[Дэвид Геффен] (* <-lang_ru;; *); 
+[David_Geffen] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+
+Glendeyl <-concept_city;
+=> nrel_main_idtf: 
+[Глендейл] (* <-lang_ru;; *); 
+[Glendayl] (* <-lang_en;; *);
+<-USA;;
+

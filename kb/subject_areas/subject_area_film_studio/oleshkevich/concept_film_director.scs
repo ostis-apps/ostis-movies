@@ -1,0 +1,39 @@
+concept_film_director <-sc_node_not_relation;
+
+=> nrel_main_idtf:
+    [film director](*<- lang_en;;*);
+    [режиссер-постановщик](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (режиссер-постановщик)](*<- lang_ru;;*);
+        [Def. (film director)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+        -> concept_screenplay;;
+        -> concept_film;;
+        -> concept_series;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/film_director_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/film_director_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (режиссер-постановщик)](*<-lang_ru;;*);
+		    [Pic. (film_director)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/film_director.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);
+<=nrel_production_link:concept_assembly_enterprise;
+<=nrel_production_link:concept_preparation_enterprise;
+<-concept_human;;

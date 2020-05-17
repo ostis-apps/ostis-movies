@@ -1,0 +1,79 @@
+concept_film_studio_sony <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия sony] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio sony] (* <- lang_en;; *);
+=> nrel_idtf:[sony] (* <- lang_en;; *);
+=> nrel_idtf:[Sony Pictures Entertainment ] (* <- lang_en;; *);
+=> nrel_idtf:[sony pictures] (* <- lang_en;; *);
+=> nrel_idtf:[SPE] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия Sony)] (* <- lang_ru;; *);
+							   [Statement(film studio Sony)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_sony_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_sony_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Sony)](*<-lang_ru;;*);
+		[Pic. (film studio Sony)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/sony.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+=>nrel_fabricate:{
+concept_TV_series;
+concept_series;
+concept_film;
+concept_original_series;
+concept_web_series;
+concept_action;
+concept_adventure
+};
+<-concept_art_film_studio;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1987 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+ 
+=>nrel_cinema_location: concept_Culver_City;
+
+=>nrel_film_studio: Spider_Man;
+<=nrel_responsobility_zone: Tony_Vinciquerra;;
+
+
+
+concept_Culver_City <-concept_city;
+=> nrel_main_idtf: 
+[Калвер-сити] (* <-lang_ru;; *); 
+[Culver City] (* <-lang_en;; *);;
+
+Tony_Vinciquerra<-concept_human;
+=> nrel_main_idtf: 
+[Тони Винцеурро] (* <-lang_ru;; *); 
+[Tony Vinciquerra] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+
