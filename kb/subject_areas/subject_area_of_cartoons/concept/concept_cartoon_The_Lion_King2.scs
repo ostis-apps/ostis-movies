@@ -1,0 +1,44 @@
+concept_cartoon_The_Lion_King2
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Король Лев 2]
+	(* <- lang_ru;;	*);
+	[The Lion King 2]
+	(* <- lang_en;;	*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Король Лев 2)](*<-lang_ru;;*);
+		[Description (The Lion King 2)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_The_Lion_King_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_The_Lion_King_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Король Лев 2)](*<-lang_ru;;*);
+		[Pic. (The Lion King 2)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_The_Lion_King.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_cartoon;
+<-concept_family_film;
+<-concept_musical_film;
+<-concept_color_film;
+<- concept_fantasy;
+=>nrel_soundtrack: concept_Can_You_Feel_the_Love_Tonight_sound;
+<= nrel_production: disney;
+=>nrel_age_rating: concept_PG0;	
+=> nrel_production_country: USA;
+=> nrel_creation: concept_computer_graphics;;

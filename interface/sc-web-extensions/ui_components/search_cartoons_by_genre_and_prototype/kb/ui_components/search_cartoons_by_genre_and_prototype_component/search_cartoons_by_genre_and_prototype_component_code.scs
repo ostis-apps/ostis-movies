@@ -1,0 +1,27 @@
+format_search_cartoons_by_genre_and_prototype_json
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf:
+	[формат search cartoon (json)] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[format search cartoon (json)] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/json];;
+
+search_cartoons_by_genre_and_prototype_code <- ui_external_languages;
+=> nrel_main_idtf: 
+	[Поиск мультфильмов по жанру и прототипу]
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[Find cartoons by genre and prototype] 
+	(* 
+	<- lang_en;;
+	*);;

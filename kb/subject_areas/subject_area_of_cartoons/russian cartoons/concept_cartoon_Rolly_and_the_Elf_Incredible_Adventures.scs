@@ -1,4 +1,4 @@
-concept_cartoon_Rolly_and_the_Elf_Incredible_Adventures.scs
+concept_cartoon_Rolly_and_the_Elf_Incredible_Adventures
 <- sc_node_not_relation;
 => nrel_main_idtf:
 	[Ролли и Эльф: Невероятные приключения]
