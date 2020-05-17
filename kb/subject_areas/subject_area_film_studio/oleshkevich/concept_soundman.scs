@@ -1,0 +1,43 @@
+concept_soundman <-sc_node_not_relation;
+
+=> nrel_main_idtf:
+    [soundman](*<- lang_en;;*);
+    [звукооператор](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (звукооператор)](*<- lang_ru;;*);
+        [Def. (soundman)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_film;;
+        -> concept_sound;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/soundman_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/soundman_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (звукооператор)](*<-lang_ru;;*);
+		    [Pic. (soundman)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/soundman.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);
+<=nrel_production_link:concept_sound_assembly;
+<=nrel_production_link:concept_montage_enterprise;
+<=nrel_production_link:concept_film_crew;
+=>nrel_responsibility_zone:{
+    concept_sound;
+    concept_phonogramm;
+    concept_record_library
+};
+<-concept_human;;

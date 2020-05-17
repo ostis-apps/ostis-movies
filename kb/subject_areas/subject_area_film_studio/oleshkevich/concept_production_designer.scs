@@ -1,0 +1,39 @@
+concept_production_designer <-sc_node_not_relation;
+
+=> nrel_main_idtf:
+    [Production designer](*<- lang_en;;*);
+    [художник-постановщик](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (Художник-постановщик)](*<- lang_ru;;*);
+        [Def. (Production designer)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+        -> concept_decorations;;
+        -> concept_costumes;;
+        -> concept_film;;
+        -> concept_series;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/production_designer_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/production_designer_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (художник-постановщик)](*<-lang_ru;;*);
+		    [Pic. (production designer)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/production_designer.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);
+<=nrel_production_link:concept_decorative_technical_enterprise;
+<-concept_human;;

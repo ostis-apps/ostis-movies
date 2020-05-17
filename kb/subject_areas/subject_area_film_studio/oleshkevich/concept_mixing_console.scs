@@ -1,0 +1,37 @@
+concept_mixing_console
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[микшерный пульт](*<-lang_ru;;*);
+	[mixing console](*<-lang_en;;*);
+=>nrel_idtf:
+	[микшерная консоль](*<-lang_ru;;*);
+	[mixer](*<-lang_en;;*);
+    [микшер](*<-lang_ru;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (микшерный пульт)](*<-lang_ru;;*);
+		[Def. (mixing console)](*<-lang_en;;*);;
+	<=nrel_using_constants:{ 
+        concept_sound
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_mixing_console_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_mixing_console_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (микшерный пульт)](*<-lang_ru;;*);
+		[Pic. (mixing console)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/mixing_console.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

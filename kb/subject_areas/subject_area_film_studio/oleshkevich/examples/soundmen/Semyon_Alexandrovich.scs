@@ -1,0 +1,49 @@
+concept_human -> Semyon_Alexandrovich;;
+
+Semyon_Alexandrovich
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Литвинов, Семён Александрович]
+	(* <- lang_ru;;	*);
+	[Litvinov Semyon]
+	(* <- lang_en;;	*);;
+	
+Semyon_Alexandrovich <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Литвинов, Семён Александрович)](*<-lang_ru;;*);
+		[Description (Litvinov Semyon)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_sound_engineer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Semyon_Alexandrovich_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Semyon_Alexandrovich_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1929;;
+Semyon_Alexandrovich =>nrel_date_of_birth: 1929;;
+1929=>nrel_main_idtf:[1929 год](*<-lang_ru;;*);;
+1929=>nrel_main_idtf:[year of 1929](*<-lang_en;;*);;
+
+concept_calendar_date->1953;;
+Semyon_Alexandrovich =>nrel_career_start_date: 1953;;
+1953=>nrel_main_idtf:[1953 год](*<-lang_ru;;*);;
+1953=>nrel_main_idtf:[year of 1953](*<-lang_en;;*);;
+
+Semyon_Alexandrovich =>nrel_cityzenship: Russia;
+<-concept_soundman;;
+
+Russia
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Россия]
+	(* <- lang_ru;;	*);
+	[Russia]
+	(* <- lang_en;;	*);;
+

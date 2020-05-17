@@ -1,0 +1,42 @@
+concept_stage_director <-sc_node_not_relation;
+
+=> nrel_main_idtf:
+    [stage director](*<- lang_en;;*);
+    [постановщик](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (постановщик)](*<- lang_ru;;*);
+        [Def. (stage director)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+        -> concept_decoration;;
+        -> concept_film;;
+        -> concept_series;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/stage_director_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/stage_director_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (постановщик)](*<-lang_ru;;*);
+		    [Pic. (stage director)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/stage_director.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);
+<=nrel_production_link:concept_decorative_technical_enterprise;
+<=nrel_production_link:concept_preparation_enterprise;
+=>nrel_responsibility_zone:{
+concept_decoration;
+concept_movie_set};
+<-concept_human;;

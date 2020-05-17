@@ -1,0 +1,39 @@
+concept_decorative_technical_enterprise
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[цех декоративно-технических сооружений](*<-lang_ru;;*);
+	[decorative technical enterprise](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (цех декоративно-технических сооружений)](*<-lang_ru;;*);
+		[Def. (decorative technical enterprise)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+    (*
+        ->concept_enterprise;;
+        ->concept_decorations;;
+     *);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_decorative_technical_enterprise_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_decorative_technical_enterprise_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (цех декоративно-технических сооружений)](*<-lang_ru;;*);
+		[Pic. (decorative technical enterprise)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/qwerty.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<=nrel_production_link:concept_film_studio;
+=>nrel_production_link:concept_stage_director;
+=>nrel_production_link:concept_ancillary_worker;
+=>nrel_main_equipment:concept_vacuum_forming_machine;
+<-concept_enterprise;;

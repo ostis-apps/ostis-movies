@@ -1,0 +1,46 @@
+concept_chromakey
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[хромакей](*<-lang_ru;;*);
+	[chromakey](*<-lang_en;;*);
+=>nrel_idtf:
+	[синий фон](*<-lang_ru;;*);
+    [blue screen](*<-lang_en;;*);
+    [зеленый фон](*<-lang_ru;;*);
+    [green screen](*<-lang_en;;*);
+    [красный фон](*<-lang_ru;;*);
+    [red screen](*<-lang_en;;*);
+    [colored screen](*<-lang_en;;*);
+    [цветной фон](*<-lang_ru;;*);
+    [цветной экран](*<-lang_ru;;*);
+    [зеленый экран](*<-lang_ru;;*);
+    [синий экран](*<-lang_ru;;*);
+    [красный экран](*<-lang_ru;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (хромакей)](*<-lang_ru;;*);
+		[Def. (chromakey)](*<-lang_en;;*);;
+	<=nrel_using_constants:{ 
+        concept_comby_survying;
+        concept_equipment
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_chromakey_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_chromakey_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (хромакей)](*<-lang_ru;;*);
+		[Pic. (chromakey)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/chromakey.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

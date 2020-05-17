@@ -1,0 +1,44 @@
+concept_decoration
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[декорации](*<-lang_ru;;*);
+	[decorations](*<-lang_en;;*);
+=>nrel_idtf:
+	[украшения](*<-lang_ru;;*);
+    [кинодекорации](*<-lang_ru;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (декорации)](*<-lang_ru;;*);
+		[Def. (decorations)](*<-lang_en;;*);;
+	<=nrel_using_constants:{
+    concept_film;
+    concept_movie_set;
+    concept_stage_director
+};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/decoration_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/decoration_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (декорации)](*<-lang_ru;;*);
+		[Pic. (decorations)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/decoration.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<=nrel_fabricate:concept_vacuum_forming_machine;
+<=nrel_decorate:concept_movie_set;
+<=nrel_responsobility_zone:{
+    concept_flower_installer;
+    concept_production_designer;
+    concept_stage_director
+};;

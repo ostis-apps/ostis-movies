@@ -1,0 +1,41 @@
+concept_sound_recording <-sc_node_not_relation;
+
+=> nrel_main_idtf:
+    [sound recording](*<- lang_en;;*);
+    [запись звука](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (запись звука)](*<- lang_ru;;*);
+        [Def. (sound recording)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_film;;
+        -> concept_sound;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/sound_recording_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/sound_recording_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (запись звука)](*<-lang_ru;;*);
+		    [Pic. (sound recording)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/sound_recording.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);
+<=nrel_responsibility_zone:{
+    concept_soundman;
+    concept_sound_engeneer;
+    concept_composer
+};
+<-nrel_material:concept_phonogramm;
+<-concept_record_library;;

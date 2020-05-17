@@ -1,0 +1,42 @@
+concept_ancillary_worker<- sc_node_not_relation;
+
+=> nrel_main_idtf:
+    [ancillary_worker](*<- lang_en;;*);
+    [подсобный рабочий](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (подсобный рабочий)](*<- lang_ru;;*);
+        [Def. (ancillary worker)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_work;;
+        -> concept_movie_set;;
+        -> concept_film_studio;;
+        -> concept_decoration;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/ancillary_worker_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/ancillary_worker_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (подсобный рабочий)](*<-lang_ru;;*);
+		    [Pic. (ancillary_worker)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/ancillary_worker.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);
+<=nrel_production_link:concept_sound_assembly;
+<=nrel_production_link:concept_decorative_technical_enterprise;
+<=nrel_production_link:concept_assembly_enterprise;
+<=nrel_production_link:concept_workshop;
+<=nrel_production_link:concept_lighting_enterprise;
+<-concept_human;;

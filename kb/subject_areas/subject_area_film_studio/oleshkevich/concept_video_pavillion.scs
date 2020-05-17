@@ -1,0 +1,48 @@
+concept_video_pavillion
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[видеопавильон](*<-lang_ru;;*);
+	[video pavillion](*<-lang_en;;*);
+=>nrel_idtf:
+	[ателье для фото и видеопроб](*<-lang_ru;;*);
+    [фотоцех](*<-lang_ru;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (видеопавильон)](*<-lang_ru;;*);
+		[Def. (videopavillion)](*<-lang_en;;*);;
+	<=nrel_using_constants:{
+concept_phonogramm;
+concept_sound_recording;
+concept_auditions
+};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_video_pavillion_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_video_pavillion_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (видеопавильон)](*<-lang_ru;;*);
+		[Pic. (video pavillion)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/video_pavillion.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+<=nrel_inclusion:concept_company;
+=>nrel_take_place:{
+concept_voice_over;
+concept_noise_over;
+concept_phonogramm;
+concept_sound_recording;
+concept_audio_explication;
+concept_auditions
+};
+<=nrel_responsibility_zone:concept_soundman;;
