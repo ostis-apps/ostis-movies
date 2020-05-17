@@ -1,0 +1,87 @@
+concept_Cars_3
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Тачки 3]
+	(* <- lang_ru;;	*);
+	[Cars 3]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Тачки 3)](*<-lang_ru;;*);
+		[Description (Cars 3)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Cars_3_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Cars_3_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тачки 3)](*<-lang_ru;;*);
+		[Pic. (Cars 3)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Cars_3.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+=>nrel_prequel: concept_Cars_3; concept_cartoon_Cars;
+<- concept_cartoon;
+<-concept_full_length_cartoon;
+<-concept_color_film;
+<-concept_family_film;
+<= nrel_production: Disney;
+<= nrel_production: Pixar;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_age_rating: concept_PG6;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+=>nrel_graphics: concept_three_dimensional_graphics;
+
+=>nrel_main_producer: Brian_Fee;
+=>nrel_screenwriter: Brian_Fee;
+=>nrel_producer: Kevin_Reer;
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 2017
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 102
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_american_dollar: 383930656
+		(* 
+		<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+

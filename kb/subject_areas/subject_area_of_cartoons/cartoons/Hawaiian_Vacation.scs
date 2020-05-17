@@ -1,0 +1,76 @@
+concept_Hawaiian_Vacation
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[История игрушек: Гавайские каникулы]
+	(* <- lang_ru;;	*);
+	[Toy Story Toons: Hawaiian Vacation]
+	(* <- lang_en;;	*);
+
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (История игрушек: Гавайские каникулы)](*<-lang_ru;;*);
+		[Description (Toy Story Toons: Hawaiian Vacation)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Hawaiian_Vacation_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Hawaiian_Vacation_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (История игрушек: Гавайские каникулы)](*<-lang_ru;;*);
+		[Pic. (Toy Story Toons: Hawaiian Vacation)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Hawaiian_Vacation.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_cartoon;
+<-concept_short_cartoon;
+<-concept_fantasy;
+<= nrel_production: Pixar; Disney;
+=> nrel_creation: concept_computer_graphics;
+<=nrel_production_country: USA;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+=>nrel_graphics: concept_three_dimensional_graphics;
+
+=>nrel_main_producer: Gary_Rydstrom;
+=>nrel_producer: John_Lasseter;
+
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 2011
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);
+
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 6
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+
+

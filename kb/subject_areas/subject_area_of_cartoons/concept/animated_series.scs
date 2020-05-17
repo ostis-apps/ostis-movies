@@ -1,0 +1,25 @@
+concept_animated_series
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[мультсериал](*<-lang_ru;;*);
+	[animated series](*<-lang_en;;*);
+=>nrel_idtf:
+	[мультсериал](*<-lang_ru;;*);
+	[animated series](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (мультсериал)](*<-lang_ru;;*);
+		[Def. (animated series)](*<-lang_en;;*);;
+         <=nrel_using_constants:{
+        	concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/animated_series_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/animated_series_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<=nrel_inclusion:concept_cartoon;;

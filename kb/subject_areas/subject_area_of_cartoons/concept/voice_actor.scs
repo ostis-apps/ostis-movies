@@ -1,0 +1,36 @@
+concept_voice_actor
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[актер озвучивания](*<-lang_ru;;*);
+	[voice actor](*<-lang_en;;*);
+
+<- concept_human;
+<-rrel_not_maximum_studied_object_class: concept_subject_domain_cinema_professions;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (актер озвучивания)](*<-lang_ru;;*);
+		[Def. (voice actor)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        	concept_voice_acting
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/voice_actor_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/voice_actor_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (актер озвучивания)](*<-lang_ru;;*);
+		[Pic. (voice actor)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/voice_actor.png"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+	

@@ -1,0 +1,21 @@
+concept_Peter_and_Wolf
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Песок, или Питер и Волк](* <- lang_ru;;*);
+	[Песок, или Петя и Волк](* <- lang_ru;;*);
+	[Sand, or Peter and the Wolf](* <- lang_en;;*);
+
+=> nrel_creation: concept_sand_animation;
+<-concept_short_cartoon;
+
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 1969
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);;

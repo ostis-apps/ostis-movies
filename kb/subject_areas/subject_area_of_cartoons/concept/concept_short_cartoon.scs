@@ -1,0 +1,25 @@
+concept_short_cartoon
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[короткометражный мультфильм](*<-lang_ru;;*);
+	[short cartoon](*<-lang_en;;*);
+=>nrel_idtf:
+	[короткометражный мультфильм](*<-lang_ru;;*);
+	[short cartoon](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (короткометражный мультфильм)](*<-lang_ru;;*);
+		[Def. (short cartoon)](*<-lang_en;;*);;
+         <=nrel_using_constants:{
+        	concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/short_cartoon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/short_cartoon_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<=nrel_inclusion:concept_cartoon;;

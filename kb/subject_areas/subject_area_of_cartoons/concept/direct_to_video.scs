@@ -1,0 +1,21 @@
+concept_direct_to_video
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[direct-to-video](*<-lang_ru;;*);
+	[direct-to-video](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (direct-to-video)](*<-lang_ru;;*);
+		[Def. (direct-to-video)](*<-lang_en;;*);;
+         <=nrel_using_constants:{
+        	concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/direct_to_video_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/direct_to_video_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_cartoon;;

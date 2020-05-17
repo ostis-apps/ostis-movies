@@ -1,0 +1,50 @@
+concept_animator
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[аниматор](*<-lang_ru;;*);
+	[animator](*<-lang_en;;*);
+
+=>nrel_idtf:
+	[мультипликатор](*<-lang_ru;;*);
+	[cartoonist](*<-lang_en;;*);
+
+=>nrel_subdividing: ... (*
+	<- sc_node_not_binary_tuple;;
+	-> concept_character_artist;;
+	-> concept_production_designer;;
+	-> concept_drawing_artist;;
+	-> concept_contouring_artist;;
+	-> concept_background_artist;;
+	-> concept_phase_artist;;
+*);
+
+<- concept_human;
+<-rrel_not_maximum_studied_object_class: concept_subject_domain_cinema_professions;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (аниматор)](*<-lang_ru;;*);
+		[Def. (animator)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        	concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/animator_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/animator_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (аниматор)](*<-lang_ru;;*);
+		[Pic. (animator)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/animator.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	

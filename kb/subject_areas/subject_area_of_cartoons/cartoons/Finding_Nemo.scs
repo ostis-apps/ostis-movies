@@ -1,0 +1,86 @@
+concept_Finding_Nemo
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[В поисках Немо]
+	(* <- lang_ru;;	*);
+	[Finding Nemo]
+	(* <- lang_en;;	*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (В поисках Немо)](*<-lang_ru;;*);
+		[Description (Finding Nemo)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Finding_Nemo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Finding_Nemo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (В поисках Немо)](*<-lang_ru;;*);
+		[Pic. (Finding Nemo)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Finding_Nemo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_cartoon;
+<-concept_full_length_cartoon;
+<-concept_color_film;
+<- concept_family_film;
+<= nrel_production: Disney;
+<= nrel_production: Pixar;
+=> nrel_creation: concept_computer_graphics;
+=>nrel_age_rating: concept_PG0;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+=>nrel_graphics: concept_three_dimensional_graphics;
+
+=>nrel_main_producer: Andrew_Stanton;
+=>nrel_producer: Graham_Walters;
+=>nrel_screenwriter:  Andrew_Stanton;
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 2003
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 104
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+=>nrel_handle:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_american_dollar: 940335536
+		(* 
+		<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+

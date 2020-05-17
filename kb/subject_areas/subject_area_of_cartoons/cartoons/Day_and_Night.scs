@@ -1,0 +1,75 @@
+concept_Day_and_Night
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[День и Ночь ]
+	(* <- lang_ru;;	*);
+	[Day & Night]
+	(* <- lang_en;;	*);
+
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (День и Ночь )](*<-lang_ru;;*);
+		[Description (Day & Night)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Day_and_Night_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Day_and_Night_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (День и Ночь )](*<-lang_ru;;*);
+		[Pic. (Day & Night)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Day_and_Night.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_cartoon;
+<-concept_short_cartoon;
+<-concept_fantasy;
+<-concept_family_film;
+<= nrel_production: Pixar;
+=> nrel_creation: concept_traditional_animation; concept_computer_graphics;
+=>nrel_production_country: USA;
+=>nrel_original_language: lang_en;
+
+=>nrel_main_producer: Teddy_Newton;
+=>nrel_screenwriter: Teddy_Newton;
+
+=>nrel_production_year:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 2010
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);
+
+=>nrel_continuance:   ... 
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_minute: 6
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);;
+
+

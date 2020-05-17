@@ -1,0 +1,35 @@
+concept_production_designer
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[художник-постановщик](*<-lang_ru;;*);
+	[production designer](*<-lang_en;;*);
+
+<- concept_human;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (художник-постановщик)](*<-lang_ru;;*);
+		[Def. (production designer)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        	concept_animator
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/production_designer_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/production_designer_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (художник-постановщик)](*<-lang_ru;;*);
+		[Pic. (production designer)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/production_designer.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	
