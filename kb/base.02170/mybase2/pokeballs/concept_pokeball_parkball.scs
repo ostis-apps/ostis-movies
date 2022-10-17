@@ -1,0 +1,62 @@
+concept_pokeball -> concept_pokeball_parkball;;
+
+concept_pokeball_parkball
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Паркбол]
+	(* <- lang_ru;;	*);
+	[Parkball]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball_parkball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешний вид (Паркбол)](*<-lang_ru;;*);
+		[Appearance (parkball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_parkball_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_parkball_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokeball_parkball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характеристика (Паркбол)](*<-lang_ru;;*);
+		[Characteristic (parkball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_parkball_characteristic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_parkball_characteristic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_parkball <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Паркбол)](*<-lang_ru;;*);
+		[Pic. (parkball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokeball_parkball.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_category_C -> concept_pokeball_parkball;;
+
+concept_pokeball_parkball => nrel_top_cover_color:concept_color_yellow;;
+concept_pokeball_parkball => nrel_bottom_cover_color:concept_color_white;;
+
+concept_pokeball_sportball => nrel_place_of_use: concept_friendship_park ;;
+
+
+
+
+
+

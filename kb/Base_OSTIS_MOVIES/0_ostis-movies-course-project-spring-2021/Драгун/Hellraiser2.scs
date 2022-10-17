@@ -1,0 +1,139 @@
+concept_hellraiser2
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Восставший из ада: 2] 
+(* <- lang_ru;; *); 
+[Hellbound: Hellraiser II] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Восставший из ада 2)](*<-lang_ru;;*);
+[Description (Hellbound: Hellraiser II)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Hellraiser2_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Hellraiser2_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["Время играть"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Time to play »] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Tony_Randle; 
+=>nrel_producer: Clive_Barker ; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Robin_Vidgeon; 
+=>nrel_editor: Richard_Marden; 
+=>nrel_genre:concept_horror;
+=>nrel_be_awarded:{Saturn}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1988
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 99
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 12090735
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Julia_Cotton;; 
+->character_Kirsty_Cotton;; 
+->character_Frank_Cotton;; 
+->character_Lead_Cenobite;; 
+->character_Chattering_Cenobite;; 
+->character_Butterball_Cenobite;; 
+->character_Female_Cenobite;; 
+->character_Doctor_Cenobite;;
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Восставший из ада 2)](*<-lang_ru;;*);
+		[Pic. (Hellbound: Hellraiser II))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Hellraiser2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+character_Doctor_Cenobite
+=> nrel_main_idtf: 
+[ Доктор ] (* <-lang_ru;; *); 
+[ Doctor ] (* <-lang_en;; *); 
+<- character_Chattering_Cenobite; 
+<- character_Butterball_Cenobite; 
+<- character_Female_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Филип Ченнар )] (* <-lang_ru;; *); 
+[Description of character(Philip Channard)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_PhChannard_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_PhChannard_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Доктор )](*<-lang_ru;;*); 
+[Pic. ( Doctor )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_PhChannard.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn
+ => nrel_main_idtf: 
+            [Сатурн, 1982 год] (* <-lang_ru;; *);
+		  [Saturn, 1982] (* <-lang_en;; *);;
+

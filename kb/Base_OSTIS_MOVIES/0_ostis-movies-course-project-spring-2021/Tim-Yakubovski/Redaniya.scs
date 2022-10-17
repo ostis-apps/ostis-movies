@@ -1,0 +1,53 @@
+kingdom_Redaniya
+=> nrel_main_idtf: 
+[ Редания] (* <-lang_ru;; *); 
+[ Redaniya ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Редания )] (* <-lang_ru;; *); 
+[Description of character(Redaniya)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_kingdom_Redaniya_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_kingdom_Redaniya_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+=>nrel_character:... 
+(* 
+->character_radovid;; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Редания)](*<-lang_ru;;*); 
+[Pic. (Redaniya)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_kingdom_Redaniya.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+
+character_radovid
+=> nrel_main_idtf: 
+[ Король Радовид ] (* <-lang_ru;; *); 
+[ King Radovid ] (* <-lang_en;; *); 
+<- kingdom_Redaniya; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Король Радовид )] (* <-lang_ru;; *); 
+[Description of character(King Radovid)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_radovid_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_radovid_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Король радовид )](*<-lang_ru;;*); 
+[Pic. ( King radovid )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_radovid.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 

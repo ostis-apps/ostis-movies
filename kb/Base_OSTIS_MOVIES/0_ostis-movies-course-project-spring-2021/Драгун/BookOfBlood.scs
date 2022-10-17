@@ -1,0 +1,79 @@
+concept_Book_of_Blood
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Книга крови] 
+(* <- lang_ru;; *); 
+[Book of Blood] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Книга крови)](*<-lang_ru;;*);
+[Description (Book of Blood)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Book_of_Blood_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Book_of_Blood_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["Мертвые не будут молчать!"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«The dead will not be silent!»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: John_Harrison; 
+=>nrel_producer: Clive_Barker ; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Philip_Robertson; 
+=>nrel_editor: Harry_Miller; 
+=>nrel_genre:concept_horror;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2009
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 100
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 8480735
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Книга крови)](*<-lang_ru;;*);
+		[Pic. (Book of Blood))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Book_of_Blood.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

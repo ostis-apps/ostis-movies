@@ -1,0 +1,62 @@
+section_subject_domain_of_interview_films
+=> nrel_main_idtf:
+	[Раздел. Предметная область документальных фильмов жанра интервью]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of interview films]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_of_interview_films->rrel_key_sc_element:
+    concept_human_film;;
+
+section_subject_domain_of_interview_films = [*
+subject_domain_of_interview_films
+=> nrel_main_idtf:
+	[Предметная область документальных фильмов жанра интервью]
+	(* <- lang_ru;; *);
+	[Subject domain of interview films]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_of_interview_films;
+-> rrel_maximum_studied_object_class: concept_interview_film;
+-> rrel_not_maximum_studied_object_class:
+		concept_human_film;
+    concept_genres_of_documentary_film;;
+
+concept_interview_film<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Документальный фильм-интервью]
+	(* <- lang_ru;; *);
+	[Documentary interview film]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_interview_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальный фильм-интервью. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Документальный фильм-интервью)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_documentary_film;;
+->concept_interview;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_interview_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальное кино-интервью - фильм в форме диалога.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О документальном фильме-интервью)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_interview;;
+->concept_documentary_film;;
+        *);;
+*);;
+*];;

@@ -1,0 +1,29 @@
+section_subject_domain_of_story_mark
+<- section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область сюжетных меток]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of story marks]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий типы сюжетных меток.]
+	(* <- lang_ru;; *);
+	
+<= nrel_section_decomposition: 
+	{
+		section_subject_domain_of_derection;
+	    section_subject_domain_of_warning
+	};
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element:
+	subject_domain_of_story_mark;
+	concept_story_mark;
+	nrel_story_mark;
+	concept_warning;
+    concept_derection;; 	
+
+section_subject_domain_of_story_mark = [*^"file://subject_domain_of_story_mark.scsi"*];;

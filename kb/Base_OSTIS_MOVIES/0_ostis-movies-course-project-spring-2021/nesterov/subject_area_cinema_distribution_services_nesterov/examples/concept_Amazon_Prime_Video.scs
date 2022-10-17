@@ -1,0 +1,87 @@
+concept_Amazon_Prime_Video <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Amazon Prime Video] (* <- lang_ru;; *);
+=> nrel_idtf:[Amazon Prime Video] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Описание (Amazon Prime Video)] (* <- lang_ru;; *);
+							   [Statement(Amazon Prime Video)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_cinema_distribution_service
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_Amazon_Prime_Video_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_Amazon_Prime_Video_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Amazon Prime Video)](*<-lang_ru;;*);
+		[Pic. (Amazon Prime Video)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Amazon_Prime_Video.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_cinema_distribution_service;
+=>nrel_site:[www.primevideo.com](*<-lang_en;;*);
+=>nrel_digital_distribution:concept_TV_series;
+=>nrel_digital_distribution:concept_film;
+=>nrel_digital_distribution:concept_original_series;
+=>nrel_owner:concept_Amazon;
+<=nrel_subsidiary_company:concept_Video_Direct;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2006 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+=>nrel_users_count: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_measurement: 175000000
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_subscription_price: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 8
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*);;
+
+concept_Amazon <-concept_company;
+ => nrel_main_idtf: 
+[Amazon] (* <-lang_ru;; *); 
+[Amazon] (* <-lang_en;; *);
+=>nrel_take_place: USA;;
+
+concept_Video_Direct <-concept_company;
+ => nrel_main_idtf: 
+[Video Direct] (* <-lang_ru;; *); 
+[Video Direct] (* <-lang_en;; *);
+=>nrel_take_place: USA;;
+
+

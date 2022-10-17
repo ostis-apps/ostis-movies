@@ -1,0 +1,54 @@
+concept_human -> Deborah_Nadoolman_Landis;;
+
+Deborah_Nadoolman_Landis
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Дебора Надулман Лэндис]
+	(* <- lang_ru;;	*);
+	[Deborah Nadoolman Landis]
+	(* <- lang_en;;	*);;
+	
+Deborah_Nadoolman_Landis <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дебора Надулман Лэндис  )](*<-lang_ru;;*);
+		[Description (Deborah Nadoolman Landis)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Deborah_Nadoolman_Landis_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Deborah_Nadoolman_Landis_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Deborah_Nadoolman_Landis 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дебора Надулман Лэндис  )](*<-lang_ru;;*);
+		[Pic. (Deborah Nadoolman Landis)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Deborah_Nadoolman_Landis.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1952;;
+Deborah_Nadoolman_Landis=>nrel_date_of_birth: 1952;;
+1952=>nrel_main_idtf:[1952 год](*<-lang_ru;;*);;
+1952=>nrel_main_idtf:[year of 1952](*<-lang_en;;*);;
+
+concept_calendar_date->1977;;
+Deborah_Nadoolman_Landis=>nrel_career_start_date: 1977;;
+1977=>nrel_main_idtf:[1977 год](*<-lang_ru;;*);;
+1977=>nrel_main_idtf:[year of 1977](*<-lang_en;;*);;
+
+Deborah_Nadoolman_Landis =>nrel_cityzenship:USA;;
+USA<-concept_country;;
+

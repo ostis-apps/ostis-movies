@@ -1,0 +1,29 @@
+subject_domain_of_pokemon_dragon_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов драконьего типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon dragon type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_dragon_type;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_pure_dragon_type;
+    concept_half_main_dragon_type;
+    concept_half_secondary_dragon_type;
+	
+
+-> rrel_explored_relation:
+	nrel_dragon_breath_attack;
+    nrel_dragon_claw_attack;
+    nrel_dragon_pulse_attack;
+    nrel_dragon_tail_attack;
+    nrel_outrage_attack;
+    nrel_twister_attack;	
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

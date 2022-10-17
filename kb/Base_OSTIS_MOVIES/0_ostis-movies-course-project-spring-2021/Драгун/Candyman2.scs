@@ -1,0 +1,99 @@
+concept_Candyman2
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Кэндимэн 2: Прощание с плотью] 
+(* <- lang_ru;; *); 
+[Candyman: Farewell to the Flesh] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Кэндимэн 2: Прощание с плотью)](*<-lang_ru;;*);
+[Description (Candyman: Farewell to the Flesh)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Candyman2_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Candyman2_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+
+=>nrel_tag_line: ["Зло приходит, когда вы называете его имя"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Evil comes when you call his name»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Bill_Condon; 
+=>nrel_producer: Clive_Barker; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Tobias_Schliessler; 
+=>nrel_editor: Virginia_Katz; 
+=>nrel_genre:concept_horror;
+
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1995
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 94
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 13940383
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Candyman;; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кэндимэн 2: Прощание с плотью)](*<-lang_ru;;*);
+		[Pic. (Candyman: Farewell to the Flesh))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Candyman2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;

@@ -1,0 +1,58 @@
+section_subject_domain_of_Russian_Film_Awards <-non_atomic_section;
+
+=>nrel_main_idtf:
+[Раздел. Предметная область Русских Кинопремий] (*<-lang_ru;;*);
+[Section. Subject domain of Russian film awards] (*<-lang_en;;*);
+
+<= nrel_section_decomposition:{
+concept_film_award_Golden_Eagle;
+concept_film_award_Nika;
+concept_film_award_TEFI
+};;
+
+section_subject_domain_of_Russian_Film_Awards -> rrel_key_sc_element:
+subject_domain_of_Russian_Film_Awards;
+concept_film_award;
+
+concept_nomination;
+concept_award;
+concept_award_ceremony;
+concept_award_nominee;
+concept_award_winner;
+
+nrel_nomination;
+nrel_award;
+nrel_award_ceremony;
+nrel_award_nominee;
+nrel_location_of_the_event;
+nrel_award_winner;;
+
+section_subject_domain_of_Russian_Film_Awards= [*
+subject_domain_of_Russian_Film_Awards
+<-subject_domain;
+
+=>nrel_main_idtf:
+[Предметная область Русских Кинопремий] (*<-lang_ru;;*);
+[Subject domain of Russian film awards] (*<-lang_en;;*);
+
+<= nrel_private_subject_domain:{
+subject_domain_of_Russian_Film_Awards
+};;
+
+subject_domain_of_Russian_Film_Awards->rrel_maximum_studied_object_class:concept_Russian_Film_Awards;;
+subject_domain_of_Russian_Film_Awards->rrel_not_maximum_studied_object_class:
+concept_nomination;
+concept_award;
+concept_award_ceremony;
+concept_award_nominee;
+concept_award_winner;;
+
+subject_domain_of_Russian_Film_Awards->rrel_explored_relation:
+nrel_nomination;
+nrel_award;
+nrel_award_ceremony;
+nrel_award_nominee;
+nrel_location_of_the_event;
+nrel_award_winner;;
+*];;
+

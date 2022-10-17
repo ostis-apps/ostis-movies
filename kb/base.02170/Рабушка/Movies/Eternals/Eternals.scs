@@ -1,0 +1,88 @@
+Eternals<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Вечные](* <- lang_ru;;*);
+	[Eternals](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Вечные)](*<-lang_ru;;*);
+		[Description (Eternals)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Eternals_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Eternals_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Вечные)](*<-lang_ru;;*);
+		[Pic. (Eternals)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Eternals.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["В самом начале..."] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«In the beginning...»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+	
+
+=>nrel_production_country: USA;
+=>nrel_production_country: Great_Britan;
+=>nrel_film_critic_rating: 6.7;
+=>nrel_genre: concept_fantasy;
+=>nrel_genre: concept_action;
+=>nrel_genre: concept_adventure;
+=>nrel_genre: concept_fantastic;
+
+=>nrel_age_rating: concept_PG18;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_fantastic;
+=>nrel_keywards: concept_adventure;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_marvel;
+=>nrel_keywords: concept_fantasy;;
+
+
+Eternals => nrel_actor : Harry_Styles;;
+Eternals => nrel_actor : Angelina_Joli(*=> nrel_to_star_in : Eternals;;*);;
+
+concept_calendar_date -> 18_10_2021;;
+18_10_2021 => nrel_main_idtf : [18 октября 2021](*<-lang_ru;;*);;
+18_10_2021 => nrel_main_idtf : [18 October 2021](*<-lang_en;;*);;
+Eternals => nrel_release_date: 18_10_2021;;
+
+
+value -> 2_36;;
+2_36 => nrel_main_idtf : [2 часа и 36 минут](*<-lang_ru;;*);;
+2_36 => nrel_main_idtf : [2 hours and 36 minutes](*<-lang_en;;*);;
+Eternals=> nrel_duration_of_showing : 2_36;;
+
+value -> 346_147_867;;
+346_147_867 => nrel_main_idtf : [346 147 867$](*<-lang_ru;;*);;
+346_147_867 => nrel_main_idtf : [346 147 867$](*<-lang_en;;*);;
+Eternals <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 346_147_867;;   
+*);;
+

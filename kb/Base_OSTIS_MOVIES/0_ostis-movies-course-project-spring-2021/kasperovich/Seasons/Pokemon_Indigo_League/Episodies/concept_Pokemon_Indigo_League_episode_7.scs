@@ -1,0 +1,70 @@
+concept_episode -> Pokemon_Indigo_League_episode_7;;
+
+Pokemon_Indigo_League_episode_7
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эп. 7:  Водные цветы Церулина]
+	(* <- lang_ru;;	*);
+	[Ep. 7: Cerulina water flowers ]
+	(* <- lang_en;;	*);;
+
+Pokemon_Indigo_League_episode_7 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эп. 7:  Водные цветы Церулина)](*<-lang_ru;;*);
+		[Description (Ep. 7: Cerulina water flowers )](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_episode
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_7_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_7_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Pokemon_Indigo_League_episode_7 <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эп. 7:  Водные цветы Церулина)](*<-lang_ru;;*);
+		[Pic. (Ep. 7: Cerulina water flowers )](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Pokemon_Indigo_League_episode_7.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_7 <- concept_anime;;
+Pokemon_Indigo_League_episode_7 <- concept_cartoon;;
+Pokemon_Indigo_League_episode_7 <- concept_comedy;;
+Pokemon_Indigo_League_episode_7 <- concept_adventure;;
+Pokemon_Indigo_League_episode_7 <- concept_action;;
+Pokemon_Indigo_League_episode_7 <- concept_fantasy;;
+
+concept_calendar_date -> 1997;;
+1997 => nrel_main_idtf : [1997 год](*<-lang_ru;;*);;
+1997 => nrel_main_idtf : [year of 1997](*<-lang_en;;*);;
+Pokemon_Indigo_League_episode_7 => nrel_production_year : 1997;;
+
+Pokemon_Indigo_League_episode_7 
+=> nrel_anime_character : Ash_Ketchum;   
+=> nrel_anime_character : Misty;;
+
+
+Pokemon_Indigo_League_episode_7 => nrel_production_country : Japan;;
+
+Pokemon_Indigo_League_episode_7
+=> nrel_city: Cerulin_City;;
+
+Pokemon_Indigo_League_episode_7
+=> nrel_screenwriter:Osamu_Inue;;
+
+Pokemon_Indigo_League_episode_7
+=> nrel_season: Pokemon_Indigo_League;;
+
+
+

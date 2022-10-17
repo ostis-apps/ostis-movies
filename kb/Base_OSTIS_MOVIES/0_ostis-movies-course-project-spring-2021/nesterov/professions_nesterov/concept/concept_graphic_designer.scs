@@ -1,0 +1,31 @@
+concept_graphic_artist <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [Graphic artist](*<- lang_en;;*);
+    [Графический дизайнер](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (Графический дизайнер)](*<- lang_ru;;*);
+        [Def. (Graphic artist)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_graphic_designer_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_graphic_designer_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+<-  rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (Графический дизайнер)](*<-lang_ru;;*);
+		    [Pic. (Graphic artist)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/Graphic_designer.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

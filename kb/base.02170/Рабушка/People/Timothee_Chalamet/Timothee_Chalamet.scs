@@ -1,0 +1,46 @@
+Timothee_Chalamet <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Тимоти Шаламе)](*<-lang_ru;;*);
+		[Description (Timothee Chalamet)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+	concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Timothee_Chalamet_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Timothee_Chalamet_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Тимоти Шаламе)](*<-lang_ru;;*);
+		[Pic. (Timothee Chalamet)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Timothee_Chalamet.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Timothee_Chalamet => nrel_place_of_birth: NewYork;;
+timothee_Chalamet => nrel_cityzenship: USA;;
+
+concept_calendar_date -> 27_12_1995;;
+Timothee_Chalamet => nrel_date_of_birth: 27_12_1995;;
+27_12_1995 => nrel_main_idtf : [27 декабря 1995](*<-lang_ru;;*);;
+27_12_1995 => nrel_main_idtf : [27 December 1995](*<-lang_en;;*);;
+
+Timothee_Chalamet => nrel_to_star_in : Little_Women; Dune; The_King;;
+
+
+NewYork<-concept_city;
+=> nrel_main_idtf: 
+	[Нью-Йорк](* <- lang_ru;;*);
+	[New York](* <- lang_en;;*);;

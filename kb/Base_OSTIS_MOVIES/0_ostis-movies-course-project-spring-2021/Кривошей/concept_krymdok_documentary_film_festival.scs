@@ -1,0 +1,49 @@
+concept_krymdok_documentary_film_festival
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Крымский открытый фестиваль документального кино «КрымДок»]
+	(* <- lang_ru;; *);
+	[Crimean Open Documentary Film Festival "KrymDok"]
+	(* <- lang_en;; *);;
+
+concept_krymdok_documentary_film_festival<=nrel_inclusion: concept_documentary_film_festivals;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_krymdok_documentary_film_festival;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Крымский открытый фестиваль документального кино «КрымДок» - кинофестиваль, проходящий в Крыму.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Крымский открытый фестиваль документального кино «КрымДок»)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_greece;;
+->concept_krymdok_documentary_film_festival;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_krymdok_documentary_film_festival;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Фестиваль является постоянно действующим культурным проектом Республики Крым.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О Крымском открытом фестивале документального кино «КрымДок»)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_krymdok_documentary_film_festival;;
+        *);;
+*);;
+
+illustration->...
+(*
+    ->rrel_key_sc_element: concept_krymdok_documentary_film_festival;;
+	=>nrel_main_idtf:
+		[Рис. (Крымский открытый фестиваль документального кино «КрымДок»)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/krymdok.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

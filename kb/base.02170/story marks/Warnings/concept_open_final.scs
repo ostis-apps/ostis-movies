@@ -1,0 +1,22 @@
+concept_open_final
+<= nrel_inclusion: concept_warning;
+=> nrel_main_idtf: 
+	[открытый финал] (*<- lang_ru;;*);
+	[open final] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. открытый финал] (*<- lang_ru;;*);
+		[Def. open final] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_open_final_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_open_final_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       concept_moviegoer;
+       concept_film;
+       concept_series
+    };;
+*);;

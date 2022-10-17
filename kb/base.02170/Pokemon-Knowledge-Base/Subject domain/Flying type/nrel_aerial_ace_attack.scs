@@ -1,0 +1,33 @@
+nrel_aerial_ace_attack <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [атака воздушный ас*](*<- lang_ru;;*);
+    [aerial ace attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (атака воздушный ас*)](*<- lang_ru;;*);
+        [Def. (aerial ace attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>Атака воздушный ас</b> - <sc_element sys_idtf="concept_pokemon">покемон</sc_element>, быстро передвигаясь, запутывает цель, а затем наносит режущий удар.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>Aerial ace attack</b> - <sc_element sys_idtf="concept_pokemon">pokemon</sc_element>, moving quickly, confuse the target, and then inflict a slashing blow.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

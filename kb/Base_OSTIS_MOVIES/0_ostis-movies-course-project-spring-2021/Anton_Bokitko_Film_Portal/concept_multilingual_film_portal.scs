@@ -1,0 +1,30 @@
+concept_multilingual_film_portal <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Многоязычный кинопортал] (* <- lang_ru;; *);
+=> nrel_main_idtf:[Multilingual Film Portal] (* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Многоязычный кинопортал)](*<-lang_ru;;*);
+		[Def. (Multilingual Film Portal)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_service;
+        concept_internet_service;
+        concept_subscription;
+        concept_library_with_licensed_content
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_multilingual_film_portal_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_multilingual_film_portal_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_multilingual_film_portal
+->concept_kinogo;
+->concept_tvzavr;
+->concept_ivi;;
+

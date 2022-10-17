@@ -1,0 +1,49 @@
+concept_human -> Michael_Robert_Johnson;;
+
+Michael_Robert_Johnson
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Майкл Роберт Джонсон]
+	(* <- lang_ru;;	*);
+	[Michael Robert Johnson]
+	(* <- lang_en;;	*);;
+	
+Michael_Robert_Johnson <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Майкл Роберт Джонсон)](*<-lang_ru;;*);
+		[Description (Michael Robert Johnson)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_screenwriter
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Michael_Robert_Johnson_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Michael_Robert_Johnson_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1967;;
+Michael_Robert_Johnson=>nrel_date_of_birth: 1967;;
+1967=>nrel_main_idtf:[1967 год](*<-lang_ru;;*);;
+1967=>nrel_main_idtf:[year of 1967](*<-lang_en;;*);;
+
+concept_calendar_date->2009;;
+Michael_Robert_Johnson=>nrel_career_start_date: 2009;;
+2009=>nrel_main_idtf:[2009 год](*<-lang_ru;;*);;
+2009=>nrel_main_idtf:[year of 2009](*<-lang_en;;*);;
+
+Michael_Robert_Johnson =>nrel_cityzenship: Usa;
+<-concept_screenwriter;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+	

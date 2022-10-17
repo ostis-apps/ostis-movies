@@ -1,0 +1,64 @@
+concept_episode -> Pokemon_Indigo_League_episode_6;;
+
+Pokemon_Indigo_League_episode_6
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эп. 6:  Клефейри и лунный камень ]
+	(* <- lang_ru;;	*);
+	[Ep. 6: Clefairie and the moonstone ]
+	(* <- lang_en;;	*);;
+
+Pokemon_Indigo_League_episode_6 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эп. 6:  Клефейри и лунный камень ](*<-lang_ru;;*);
+		[Description (Ep. 6: Clefairie and the moonstone )](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_episode
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_6_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_6_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Pokemon_Indigo_League_episode_6 <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эп. 6:  Клефейри и лунный камень ](*<-lang_ru;;*);
+		[Pic. (Ep. 6: Clefairie and the moonstone )](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Pokemon_Indigo_League_episode_6.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_6 <- concept_anime;;
+Pokemon_Indigo_League_episode_6 <- concept_cartoon;;
+Pokemon_Indigo_League_episode_6 <- concept_comedy;;
+Pokemon_Indigo_League_episode_6 <- concept_adventure;;
+Pokemon_Indigo_League_episode_6 <- concept_action;;
+Pokemon_Indigo_League_episode_6 <- concept_fantasy;;
+
+concept_calendar_date -> 1998;;
+1998 => nrel_main_idtf : [1998 год](*<-lang_ru;;*);;
+1998 => nrel_main_idtf : [year of 1998](*<-lang_en;;*);;
+Pokemon_Indigo_League_episode_6 => nrel_production_year : 1998;;
+
+Pokemon_Indigo_League_episode_6 
+=> nrel_anime_character : Ash_Ketchum;   
+=> nrel_anime_character : Misty;;
+
+
+Pokemon_Indigo_League_episode_6 => nrel_production_country : Japan;;
+
+Pokemon_Indigo_League_episode_6
+=> nrel_season: Pokemon_Indigo_League;;
+
+
+

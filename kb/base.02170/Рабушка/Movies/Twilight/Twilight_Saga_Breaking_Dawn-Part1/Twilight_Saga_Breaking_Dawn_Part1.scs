@@ -1,0 +1,92 @@
+The_Twilight_Saga_Breaking_Dawn_Part1<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Сумерки. Сага. Рассвет: Часть 1](* <- lang_ru;;*);
+	[The Twilight Saga: Breaking Dawn - Part 1](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сумерки. Сага. Рассвет: Часть 1)](*<-lang_ru;;*);
+		[Description (The Twilight Saga: Breaking Dawn - Part 1)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Twilight_Saga_Breaking_Dawn-Part1_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Twilight_Saga_Breaking_Dawn-Part1_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сумерки. Сага. Рассвет: Часть 1)](*<-lang_ru;;*);
+		[Pic. (The Twilight Saga: Breaking Dawn - Part 1)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Twilight_Saga_Breaking_Dawn-Part1.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["Вечность - это только начало"] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Forever is only the beginning»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+
+=>nrel_main_producer: Bill_Condon;
+=>nrel_production_country: USA;
+=>nrel_film_critic_rating: 5.89;
+=>nrel_genre: concept_thriller;
+=>nrel_genre: concept_adventure;
+=>nrel_genre: concept_drama;
+=>nrel_genre: concept_romance;
+=>nrel_genre: concept_fantasy;
+
+=>nrel_age_rating: concept_PG12;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_thriller;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_romance;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_vampire;
+
+=>nrel_character: Edward_Cullen;
+=>nrel_character: Bella_Swan;;
+
+
+The_Twilight_Saga_Breaking_Dawn_Part1 => nrel_actor : Robert_Pattinson;;
+The_Twilight_Saga_Breaking_Dawn_Part1 => nrel_actor : kristen_stewart;;
+
+concept_calendar_date -> 30_10_2011;;
+30_10_2011 => nrel_main_idtf : [30 10 2011](*<-lang_ru;;*);;
+30_10_2011 => nrel_main_idtf : [30 10 2011](*<-lang_en;;*);;
+The_Twilight_Saga_Breaking_Dawn_Part1 => nrel_release_date: 30_10_2011;;
+
+
+value -> 1_57;;
+1_57 => nrel_main_idtf : [1 час и 57 минут](*<-lang_ru;;*);;
+1_57 => nrel_main_idtf : [1 hour and 57 minutes](*<-lang_en;;*);;
+The_Twilight_Saga_Breaking_Dawn_Part1 => nrel_duration_of_showing : 1_57;;
+
+value -> 712_205_856;;
+712_205_856 => nrel_main_idtf : [712 205 856$](*<-lang_ru;;*);;
+712_205_856 => nrel_main_idtf : [712 205 856$](*<-lang_en;;*);;
+The_Twilight_Saga_Breaking_Dawn_Part1 <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 712_205_856;;   
+*);;
+

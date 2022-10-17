@@ -1,0 +1,34 @@
+concept_tip_up_chair <- sc_node_not_relation;
+
+=> nrel_main_idtf:[тип-ап кресло] (* <- lang_ru;; *);
+=> nrel_idtf:[tip_up_chair] (* <- lang_en;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (тип-ап кресло)](* <- lang_ru;; *);
+		[Def. (tip_up_chair)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_tip_up_chair;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_tip_up_chair">Тип-ап кресло</sc_element></b> представляет собой монолитную спинку с ножками, которые крепятся к полу, и с откидывающимся сиденьем. Подлокотники так же, как и в случае с классическим креслом, могут иметь разную форму в зависимости от пожеланий. Спинка может иметь защиту как из дерева, так и из полиуретана. Вся конструкция антивандальная, включая в том числе ткань.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_tip_up_chair">Tip-up chair</sc_element></b>  it represents a monolithic back with legs which fasten to a floor, and with a reclining seat. The armrests, just like in the case of a classic chair, can have a different shape depending on the wishes. The back can be protected both in wood and in polyurethane. The whole structure is vandal-proof, including the fabric.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (тип-ап кресло)](*<-lang_ru;;*);
+		[Pic. (tip_up_chair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/tip_up_chair.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

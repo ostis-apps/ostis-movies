@@ -1,0 +1,39 @@
+concept_sand_animation
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[песочная анимация](*<-lang_ru;;*);
+	[sand animation](*<-lang_en;;*);
+
+=>nrel_idtf:
+	[песочная мультипликация](*<-lang_ru;;*);
+	[sand animation](*<-lang_en;;*);
+
+<- concept_multianimation;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (песочная анимация)](*<-lang_ru;;*);
+		[Def. (sand animation)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        	concept_multianimation
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/sand_animation_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/sand_animation_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (песочная анимация)](*<-lang_ru;;*);
+		[Pic. (sand animation)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/sand_animation.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+	

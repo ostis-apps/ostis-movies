@@ -1,0 +1,83 @@
+concept_Lord_of_Illusions
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Повелитель иллюзий] 
+(* <- lang_ru;; *); 
+[Lord of Illusions] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Повелитель иллюзий)](*<-lang_ru;;*);
+[Description (Lord of Illusions)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Lord_of_Illusions_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Lord_of_Illusions_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["Зло ждет на другой стороне"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«The evil awaits in the other side»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Clive_Barker; 
+=>nrel_producer: Clive_Barker ; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Rohn_Schmidt; 
+=>nrel_editor: Alan_Baumgarten; 
+=>nrel_genre:concept_horror;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1995
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 109
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 13294422
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Harry_DAmour;; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Повелитель иллюзий)](*<-lang_ru;;*);
+		[Pic. (Lord of Illusions))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Lord_of_Illusions.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

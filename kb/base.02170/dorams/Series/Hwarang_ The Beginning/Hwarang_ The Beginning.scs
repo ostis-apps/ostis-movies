@@ -1,0 +1,68 @@
+Hwarang__The_Beginning
+<- concept_series;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Хваран: Начало](* <- lang_ru;; *);
+	[Hwarang: The beginning](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Хваран: Начало)](*<-lang_ru;;*);
+		[Description (Hwarang: The beginning)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_series
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Hwarang__The_Beginning_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Hwarang__The_Beginning_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хваран: Начало)](*<-lang_ru;;*);
+		[Pic. (Hwarang: The beginning)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Hwarang__The_Beginning.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_keywords: concept_historical_film;
+=> nrel_keywords: concept_comedy;
+=> nrel_keywords: concept_drama;
+
+
+=> nrel_production_year : 2016;
+=> nrel_num_of_seasons: 1;
+=> nrel_num_of_episodes: 20;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Yoon_Sungsik;
+=> nrel_screenwriter : Park_Eunyoung;
+=> nrel_producer: Kim_Sanghee;
+=> nrel_composer : Oh_Joonsung;
+=> nrel_cameraman : Choi_Kiha;
+=> nrel_editor : Kim_Taeyoung;
+
+
+=> nrel_main_actor : Park_Seojoon;
+=> nrel_main_actor : Go_Ara;
+=> nrel_main_actor : Park_Hyungsik;
+=> nrel_actor : Sung_Dongil;
+=> nrel_actor : Kim_Wonhae;
+=> nrel_actor : Yoo_Jaemyung;;
+
+
+2016
+<- concept_calendar_date;
+=> nrel_main_idtf : [2016](*<-lang_ru;;*);
+=> nrel_main_idtf : [2016](*<-lang_en;;*);;      

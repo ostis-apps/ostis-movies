@@ -1,0 +1,31 @@
+subject_domain_of_pokemon_flying_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов летающего типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon flying type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_flying_type;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_pure_flying_type;
+    concept_half_main_flying_type;
+    concept_half_secondary_flying_type;
+	
+-> rrel_explored_relation:
+	nrel_aerial_ace_attack;
+    nrel_air_cutter_attack;
+    nrel_air_slash_attack;
+    nrel_brave_bird_attack;
+    nrel_drill_peck_attack;
+    nrel_hurricane_attack;
+    nrel_peck_attack;
+    nrel_sky_attack;
+    nrel_wing_attack;    
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

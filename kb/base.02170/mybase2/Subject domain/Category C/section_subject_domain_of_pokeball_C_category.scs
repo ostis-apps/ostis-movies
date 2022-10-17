@@ -1,0 +1,22 @@
+section_subject_domain_of_pokeball_C_category
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покеболов категории С]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokeballs category C]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покеболы категории С.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+
+	
+-> rrel_key_sc_element: 
+    concept_pokeball_of_eighth_generation;
+    
+	nrel_place_of_use;
+	   subject_domain_of_pokeball_C_category;;
+
+section_subject_domain_of_pokeball_C_category = [*^"file://subject_domain_of_pokeball_C_category.scsi"*];;

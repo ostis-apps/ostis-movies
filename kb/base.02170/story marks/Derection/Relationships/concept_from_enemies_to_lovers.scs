@@ -1,0 +1,22 @@
+concept_from_enemies_to_lovers
+
+=> nrel_main_idtf: 
+	[от ненависти до любви] (*<- lang_ru;;*);
+	[from enemies to lovers] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. от ненависти до любви] (*<- lang_ru;;*);
+		[Def. from enemies to lovers] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_from_enemies_to_lovers_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_from_enemies_to_lovers_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline;
+       concept_character
+    };;
+*);;
+

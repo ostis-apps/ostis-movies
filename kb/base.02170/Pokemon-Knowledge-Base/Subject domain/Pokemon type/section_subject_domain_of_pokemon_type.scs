@@ -1,0 +1,59 @@
+section_subject_domain_of_pokemon_type
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область типов покемонов]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokemon type]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий типы покемонов.]
+	(* <- lang_ru;; *);
+	
+<= nrel_section_decomposition: 
+	{
+		section_subject_domain_of_pokemon_bug_type;
+	    section_subject_domain_of_pokemon_dark_type;
+	    section_subject_domain_of_pokemon_dragon_type;
+	    section_subject_domain_of_pokemon_electric_type;
+	    section_subject_domain_of_pokemon_fairy_type;
+	    section_subject_domain_of_pokemon_fighing_type;
+	    section_subject_domain_of_pokemon_fire_type;
+	    section_subject_domain_of_pokemon_flying_type;
+	    section_subject_domain_of_pokemon_ghost_type;
+	    section_subject_domain_of_pokemon_grass_type;
+	    section_subject_domain_of_pokemon_ground_type;
+	    section_subject_domain_of_pokemon_ice_type;
+	    section_subject_domain_of_pokemon_normal_type;
+	    section_subject_domain_of_pokemon_poison_type;
+	    section_subject_domain_of_pokemon_psychic_type;
+	    section_subject_domain_of_pokemon_rock_type;
+	    section_subject_domain_of_pokemon_steel_type;
+	    section_subject_domain_of_pokemon_water_type
+	};
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element: 
+	concept_pokemon_type;
+    concept_bug_type;
+	concept_dark_type;
+	concept_dragon_type;
+	concept_electric_type;
+	concept_fairy_type;
+	concept_fighing_type;
+	concept_fire_type;
+	concept_flying_type;
+	concept_ghost_type;
+	concept_grass_type;
+	concept_ground_type;
+	concept_ice_type;
+	concept_normal_type;
+	concept_poison_type;
+	concept_psychic_type;
+	concept_rock_type;
+	concept_steel_type;
+	concept_water_type;
+	subject_domain_of_pokemon_type;;
+
+section_subject_domain_of_pokemon_type = [*^"file://subject_domain_of_pokemon_type.scsi"*];;

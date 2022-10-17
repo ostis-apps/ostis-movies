@@ -1,0 +1,40 @@
+Zeke_Norton <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Зик Нортон)](*<-lang_ru;;*);
+		[Description (Zeke Norton)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Zeke_Norton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Zeke_Norton_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Зик Нортон)](*<-lang_ru;;*);
+		[Pic. (Zeke Norton)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Zeke_Norton.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1970;;
+Zeke_Norton=>nrel_date_of_birth: 1970;;
+1970=>nrel_main_idtf:[1970 год](*<-lang_ru;;*);;
+1970=>nrel_main_idtf:[year of 1970](*<-lang_en;;*);;
+
+Zeke_Norton
+=>nrel_cityzenship: Canada;
+=>nrel_production_link: concept_Mainframe_Studios;
+<-concept_film_director;
+=>nrel_site:[https://www.zekenorton.com/](* <- lang_en;; *);;

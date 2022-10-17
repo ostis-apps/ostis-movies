@@ -1,0 +1,33 @@
+concept_trailer <- sc_node_not_relation;
+
+=> nrel_main_idtf:[трейлер] (* <- lang_ru;; *);
+=> nrel_idtf:[trailer] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (трейлер)](* <- lang_ru;; *);
+		[Def. (trailer)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_trailer;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_trailer">Трейлер</sc_element></b> небольшой видеоролик, состоящий из кратких и обычно наиболее зрелищных фрагментов фильма, используемый для анонсирования или рекламы этого фильма. ](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_trailer">Poster</sc_element></b>  a short video consisting of brief and usually the most spectacular parts of a movie, used to announce or advertise that movie.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (трейлер)](*<-lang_ru;;*);
+		[Pic. (trailer)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/trailer.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

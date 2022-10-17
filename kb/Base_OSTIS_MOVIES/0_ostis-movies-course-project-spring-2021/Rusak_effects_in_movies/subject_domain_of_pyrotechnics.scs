@@ -1,0 +1,29 @@
+subject_domain_of_pyrotechnics
+
+=> nrel_main_idtf: 
+	[Предметная область пиротехники]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[Subject domain of pyrotechnics]
+	(* <- lang_en;; *);
+
+		
+-> rrel_maximum_studied_object_class:
+	concept_pyrotechnics;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_pyrotechnician;
+	concept_permissions;
+
+	
+	
+	
+-> rrel_explored_relation:
+	nrel_pyrotechnician;
+		
+	
+<- subject_domain;;
+
+
+
+

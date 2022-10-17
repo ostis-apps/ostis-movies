@@ -1,0 +1,33 @@
+concept_booklets <- sc_node_not_relation;
+
+=> nrel_main_idtf:[буклеты] (* <- lang_ru;; *);
+=> nrel_idtf:[booklets] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (буклеты)](* <- lang_ru;; *);
+		[Def. (booklets)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_booklets;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_booklets">Буклеты</sc_element></b> небольшая бумажка с описанием фильма,который сейчас в прокате.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_booklets">Booklets</sc_element></b> a small piece of paper describing the film, which is now at the box office.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (буклеты)](*<-lang_ru;;*);
+		[Pic. (booklets)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/booklets.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

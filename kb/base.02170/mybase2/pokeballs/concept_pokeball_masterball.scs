@@ -1,0 +1,64 @@
+concept_pokeball -> concept_pokeball_masterball;;
+
+concept_pokeball_masterball
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мастербол]
+	(* <- lang_ru;;	*);
+	[Masterball]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball_masterball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешний вид (Мастербол)](*<-lang_ru;;*);
+		[Appearance (masterball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_masterball_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_masterball_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokeball_masterball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характеристика (Мастербол)](*<-lang_ru;;*);
+		[Characteristic (masterball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_masterball_characteristic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_masterball_characteristic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_masterball <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мастербол)](*<-lang_ru;;*);
+		[Pic. (masterball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokeball_masterball.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_category_A -> concept_pokeball_masterball;;
+concept_pokeball_of_first_generation -> concept_pokeball_masterball;;
+
+concept_pokeball_masterball => nrel_top_cover_color:concept_color_purple;;
+concept_pokeball_masterball => nrel_bottom_cover_color:concept_color_white;;
+
+value -> 255;;
+concept_pokeball_masterball => nrel_catch_rate: 255;;
+
+
+
+
+
+

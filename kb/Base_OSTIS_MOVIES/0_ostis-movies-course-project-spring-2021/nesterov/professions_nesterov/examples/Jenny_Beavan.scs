@@ -1,0 +1,54 @@
+concept_human -> Jenny_Beavan;;
+
+Jenny_Beavan
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Дженни Беван]
+	(* <- lang_ru;;*);
+	[Jenny Beavan]
+	(* <- lang_en;;*);;
+	
+Jenny_Beavan <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дженни Беван)](*<-lang_ru;;*);
+		[Description (Jenny Beavan)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jenny_Beavan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jenny_Beavan_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Jenny_Beavan 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дженни Беван)](*<-lang_ru;;*);
+		[Pic. (Jenny Beavan)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Jenny_Beavan.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1950;;
+Jenny_Beavan=>nrel_date_of_birth: 1950;;
+1950=>nrel_main_idtf:[1950 год](*<-lang_ru;;*);;
+1950=>nrel_main_idtf:[year of 1950](*<-lang_en;;*);;
+
+concept_calendar_date->1978;;
+Jenny_Beavan=>nrel_career_start_date: 1978;;
+1978=>nrel_main_idtf:[1978 год](*<-lang_ru;;*);;
+1978=>nrel_main_idtf:[year of 1978](*<-lang_en;;*);;
+
+Jenny_Beavan =>nrel_cityzenship:UK;;
+UK<-concept_country;;
+

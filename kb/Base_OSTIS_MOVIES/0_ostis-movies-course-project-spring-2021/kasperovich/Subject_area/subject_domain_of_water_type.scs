@@ -1,0 +1,26 @@
+subject_domain_of_pokemon_water_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов водного типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon water type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_water_type;
+	
+-> rrel_explored_relation:
+	nrel_aqua_jet_attack        ;
+    nrel_aqua_tail_attack        ;
+    nrel_brine_attack        ;
+    nrel_bubble_attack;
+    nrel_bubble_beam_attack        ;
+    nrel_hydro_pump_attack        ;
+    nrel_scald_attack;
+    nrel_splash_attack;
+    nrel_water_gun_attack        ;
+    nrel_water_pulse_attack        ;
+    
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

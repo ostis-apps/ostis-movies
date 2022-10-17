@@ -1,0 +1,33 @@
+nrel_silver_wind_attack <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [атака серебряный ветер*](*<- lang_ru;;*);
+    [silver wind attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (атака серебряный ветер*)](*<- lang_ru;;*);
+        [Def. (silver wind attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>Атака серебряный ветер</b> - цель атакуют порошкообразной чешуей, приносимой ветром.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>Silver wind attack</b> - the target is attacked with powdered scales blown by the wind.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

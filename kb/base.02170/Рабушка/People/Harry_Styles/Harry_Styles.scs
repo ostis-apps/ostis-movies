@@ -1,0 +1,39 @@
+Harry_Styles <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Гарри Стайлс)](*<-lang_ru;;*);
+		[Description (Harry Styles)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+	concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Harry_Styles_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Harry_Styles_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Гарри Стайлс)](*<-lang_ru;;*);
+		[Pic. (Harry Styles)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Harry_Styles.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Harry_Styles => nrel_cityzenship: Great_Britan;;
+
+concept_calendar_date -> 01_02_1994;;
+Harry_Styles => nrel_date_of_birth: 01_02_1994;;
+01_02_1994 => nrel_main_idtf : [27 декабря 1995](*<-lang_ru;;*);;
+01_02_1994 => nrel_main_idtf : [27 December 1995](*<-lang_en;;*);;
+
+Harry_Styles => nrel_to_star_in : dunkirk; Eternals;;

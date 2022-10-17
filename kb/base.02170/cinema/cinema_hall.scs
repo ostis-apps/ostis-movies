@@ -1,0 +1,60 @@
+subject_domain_of_cinema_hall
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область кинозал] (*<- lang_ru;;*);
+	[Subject domain area of cinema hall] (*<- lang_en;;*);
+	
+->rrel_maximum_studied_object_class: concept_cinema_hall;
+
+<= nrel_private_subject_domain: subject_domain_of_cinema_services;
+
+->rrel_not_maximum_studied_object_class: concept_air_conditioning;
+->rrel_not_maximum_studied_object_class: concept_armchair;
+->rrel_not_maximum_studied_object_class: concept_cinema_lighting;
+->rrel_not_maximum_studied_object_class: concept_screen;
+->rrel_not_maximum_studied_object_class: concept_soundproofing;
+->rrel_not_maximum_studied_object_class: concept_stand;;
+
+
+
+concept_cinema_hall <- sc_node_not_relation;
+
+=> nrel_main_idtf:[кинозал] (* <- lang_ru;; *);
+=> nrel_idtf:[cinema_hall] (* <- lang_en;; *);
+
+->studied_object_class: concept_air_conditioning;
+->studied_object_class: concept_armchair;
+->studied_object_class: concept_cinema_lighting;
+->studied_object_class: concept_screen;
+->studied_object_class: concept_soundproofing;
+->studied_object_class: concept_stand;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (кинозал)](* <- lang_ru;; *);
+		[Def. (cinema_hall)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_cinema_hall;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cinema_hall">Кинозал</sc_element></b> место, в котором осуществляется показ фильма.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cinema_hall">Cinema hall</sc_element></b> the location where the film is shown.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кинозал)](*<-lang_ru;;*);
+		[Pic. (cinema_hall)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/cinema_hall.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

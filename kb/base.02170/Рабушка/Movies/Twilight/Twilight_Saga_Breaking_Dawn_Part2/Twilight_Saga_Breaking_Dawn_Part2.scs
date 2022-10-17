@@ -1,0 +1,92 @@
+The_Twilight_Saga_Breaking_Dawn_Part2<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Сумерки. Сага. Рассвет: Часть 2](* <- lang_ru;;*);
+	[The Twilight Saga: Breaking Dawn - Part 2](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сумерки. Сага. Рассвет: Часть 2)](*<-lang_ru;;*);
+		[Description (The Twilight Saga: Breaking Dawn - Part 2)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Twilight_Saga_Breaking_Dawn_Part2_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Twilight_Saga_Breaking_Dawn_Part2_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сумерки. Сага. Рассвет: Часть 2)](*<-lang_ru;;*);
+		[Pic. (The Twilight Saga: Breaking Dawn - Part 2)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Twilight_Saga_Breaking_Dawn_Part2.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["Грандиозный финал бессмертной саги"] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«The epic finale that will live forever»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+
+=>nrel_main_producer: Bill_Condon;
+=>nrel_production_country: USA;
+=>nrel_film_critic_rating: 5.89;
+=>nrel_genre: concept_thriller;
+=>nrel_genre: concept_adventure;
+=>nrel_genre: concept_drama;
+=>nrel_genre: concept_melodrama;
+=>nrel_genre: concept_fantasy;
+
+=>nrel_age_rating: concept_PG12;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_thriller;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_melodrama;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_vampire;
+
+=>nrel_character: Edward_Cullen;
+=>nrel_character: Bella_Swan;;
+
+
+The_Twilight_Saga_Breaking_Dawn_Part2 => nrel_actor : Robert_Pattinson;;
+The_Twilight_Saga_Breaking_Dawn_Part2 => nrel_actor : kristen_stewart;;
+
+concept_calendar_date -> 12_11_2012;;
+12_11_2012 => nrel_main_idtf : [12 11 2012](*<-lang_ru;;*);;
+12_11_2012 => nrel_main_idtf : [12 11 2012](*<-lang_en;;*);;
+The_Twilight_Saga_Breaking_Dawn_Part2 => nrel_release_date: 12_11_2012;;
+
+
+value -> 1_55;;
+1_55 => nrel_main_idtf : [1 час и 55 минут](*<-lang_ru;;*);;
+1_55 => nrel_main_idtf : [1 hour and 55 minutes](*<-lang_en;;*);;
+The_Twilight_Saga_Breaking_Dawn_Part2=> nrel_duration_of_showing : 1_55;;
+
+value -> 829_746_820;;
+829_746_820 => nrel_main_idtf : [829 746 820$](*<-lang_ru;;*);;
+829_746_820 => nrel_main_idtf : [829 746 820$](*<-lang_en;;*);;
+The_Twilight_Saga_Breaking_Dawn_Part2 <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 829_746_820;;   
+*);;
+

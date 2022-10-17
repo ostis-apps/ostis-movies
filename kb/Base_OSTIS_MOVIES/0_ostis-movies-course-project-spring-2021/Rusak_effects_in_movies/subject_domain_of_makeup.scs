@@ -1,0 +1,28 @@
+subject_domain_of_makeup
+
+=> nrel_main_idtf: 
+	[Предметная область грима]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[Subject domain of makeup]
+	(* <- lang_en;; *);
+
+		
+-> rrel_maximum_studied_object_class:
+	concept_makeup;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_make_up_artist;
+
+	
+	
+	
+-> rrel_explored_relation:
+	nrel_make_up_artist;
+		
+	
+<- subject_domain;;
+
+
+
+

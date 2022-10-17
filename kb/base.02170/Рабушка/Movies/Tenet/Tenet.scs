@@ -1,0 +1,87 @@
+Tenet<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Довод](* <- lang_ru;;*);
+	[Tenet](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Довод)](*<-lang_ru;;*);
+		[Description (Tenet)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Tenet_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Tenet_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Довод)](*<-lang_ru;;*);
+		[Pic. (Tenet)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Tenet.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["Время уходит"] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Time Runs Out»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+
+=>nrel_main_producer: christopher_nolan;
+=>nrel_production_country: USA;
+=>nrel_production_country: UK;
+=>nrel_film_critic_rating: 7.6;
+=>nrel_genre: concept_fantasy;
+=>nrel_genre: concept_thriller;
+=>nrel_genre: concept_action;
+=>nrel_genre: concept_sci_fi;
+
+=>nrel_age_rating: concept_PG16;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_sci_fi;
+=>nrel_keywords: concept_thriller;;
+
+
+Tenet => nrel_actor : Robert_Pattinson;;
+Tenet => nrel_actor : David_Washington;;
+
+concept_calendar_date -> 22_08_2020;;
+22_08_2020 => nrel_main_idtf : [22 августа 2020](*<-lang_ru;;*);;
+22_08_2020 => nrel_main_idtf : [22 August 2020](*<-lang_en;;*);;
+Tenet => nrel_release_date: 22_08_2020;;
+
+
+value -> 2_30;;
+2_30 => nrel_main_idtf : [2 часа и 30 минут](*<-lang_ru;;*);;
+2_30 => nrel_main_idtf : [2 hours and 30 minutes](*<-lang_en;;*);;
+Tenet=> nrel_duration_of_showing : 2_30;;
+
+value -> 363_656_624;;
+363_656_624 => nrel_main_idtf : [363 656 624$](*<-lang_ru;;*);;
+363_656_624 => nrel_main_idtf : [363 656 624$](*<-lang_en;;*);;
+Tenet <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 363_656_624;;   
+*);;
+

@@ -1,0 +1,33 @@
+nrel_heavy_catch_rate <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [коэфициент ловли с эффектом тяжести*](*<- lang_ru;;*);
+    [heavy catch rate*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (коэфициент ловли с эффектом тяжести*)](*<- lang_ru;;*);
+        [Def. (heavy catch rate*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>коэфициент ловли с эффектом тяжести</b> - если используется на Покемоне весом 661,4 фунта. (300,0 кг) или более .] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>heavy catch rate</b> - if used on a 661.4 lb (300.0 kg) Pokémon  or more.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokeball
+    };;
+*);
+
+=> nrel_first_domain: ...;
+=> nrel_second_domain: ...;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokeball;;
+    *);;
+*);;

@@ -1,0 +1,38 @@
+nrel_award_ceremony <- sc_node_norole_relation;
+
+<- binary_relation;
+<- asymmetric_relation;
+<- notransitive_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии*](*<-lang_ru;;*);
+	[Award Ceremony*](*<-lang_en;;*); 
+=> nrel_idtf:[Церемония награждения*] (* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Церемония вручения кинопремии*)](*<-lang_ru;;*);
+		[Def. (Award Ceremony*)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/cocnept_award_ceremony_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/cocnept_award_ceremony_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+=> nrel_first_domain:  concept_film_award;
+=> nrel_second_domain: concept_award_ceremony;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_award_ceremony;;
+        -> concept_film_award;;
+    *);;
+*);;

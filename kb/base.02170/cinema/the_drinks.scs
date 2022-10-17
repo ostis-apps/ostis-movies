@@ -1,0 +1,38 @@
+concept_the_drinks <- sc_node_not_relation;
+
+=> nrel_main_idtf:[напитки] (* <- lang_ru;; *);
+=> nrel_idtf:[the_drinks] (* <- lang_en;; *);
+
+->studied_object_class: concept_the_juice;
+->studied_object_class: concept_soda;
+->studied_object_class: concept_drinking_water;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (напитки)](* <- lang_ru;; *);
+		[Def. (the_drinks)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_the_drinks;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_the_drinks">Напитки</sc_element></b> жидкость, предназначенная для питья.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_the_drinks">The drinks</sc_element></b> liquid for drinking.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (напитки)](*<-lang_ru;;*);
+		[Pic. (the_drinks)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/the_drinks.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

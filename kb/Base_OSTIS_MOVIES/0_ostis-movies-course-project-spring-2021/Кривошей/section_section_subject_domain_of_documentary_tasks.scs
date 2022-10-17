@@ -1,0 +1,49 @@
+section_subject_domain_of_documentary_tasks
+=> nrel_main_idtf:
+	[Раздел. Предметная область задач документалистики]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of documentary tasks]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_of_documentary_tasks->rrel_key_sc_element:
+	concept_research;
+    concept_propaganda;
+    concept_newsreel;
+    concept_journalism;;
+
+section_subject_domain_of_documentary_tasks = [*
+subject_domain_of_documentary_tasks
+=> nrel_main_idtf:
+	[Предметная область задач документалистики]
+	(* <- lang_ru;; *);
+	[Subject domain of documentary tasks]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_of_documentary_tasks;
+-> rrel_maximum_studied_object_class: concept_of_documentary_tasks;
+-> rrel_not_maximum_studied_object_class:
+    concept_research;
+    concept_propaganda;;
+
+concept_of_documentary_tasks<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Задачи документалистики]
+	(* <- lang_ru;; *);
+	[Documentary tasks]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_of_documentary_tasks;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Задачи документалистики - способы рассказать людям о мире, в котором они живут с определенной целью.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Задачи документалистики)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_of_documentary_tasks;;
+        *);;
+*);;
+*];;

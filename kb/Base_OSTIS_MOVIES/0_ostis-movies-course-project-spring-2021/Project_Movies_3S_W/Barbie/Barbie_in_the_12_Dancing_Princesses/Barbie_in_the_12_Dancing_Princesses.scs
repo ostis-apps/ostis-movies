@@ -1,0 +1,82 @@
+Barbie_in_the_12_Dancing_Princesses <- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби и 12 танцующих принцесс]
+	(* <- lang_ru;;	*);
+	[Barbie in the 12 Dancing Princesses]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби и 12 танцующих принцесс)](*<-lang_ru;;*);
+		[Description (Barbie in the 12 Dancing Princesses)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_in_the_12_Dancing_Princesses_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_in_the_12_Dancing_Princesses_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби и 12 танцующих принцесс)](*<-lang_ru;;*);
+		[Pic. (Barbie in the 12 Dancing Princesses)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_in_the_12_Dancing_Princesses.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_soundman: Robert_Duran;
+=> nrel_production_designer: Diana_Brostow;
+=> nrel_film_director: Greg_Richardson;
+=> nrel_composer: Arnie_Roth;
+
+
+=> nrel_producer: Shea_Wageman;
+=> nrel_screenwriter : Elana_Lesser;
+=> nrel_screenwriter : Cliff_Ruby;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 19_09_2006;
+=> nrel_duration_of_showing : 1_21;
+=> nrel_film_critic_rating:  ...
+(*
+	<- concept_quality;;
+	-> [7];;
+*);
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_princess;
+=> nrel_keywords: concept_family;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_dance;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_family_film;;
+
+7 <- concept_number;;
+
+Barbie_in_the_12_Dancing_Princesses => nrel_tagline_of_film : slogan_Barbie_in_the_12_Dancing_Princesses;;
+slogan_Barbie_in_the_12_Dancing_Princesses => nrel_main_idtf : [Зачарованные танцы в волшебном мире!](*<-lang_ru;;*);;
+slogan_Barbie_in_the_12_Dancing_Princesses => nrel_main_idtf : [Enchanted Dancing in a Magical World!](*<-lang_en;;*);;
+
+duration -> 1_21;;
+1_21 => nrel_main_idtf : [1 час и 21 минута](*<-lang_ru;;*);;
+1_21 => nrel_main_idtf : [1 hour and 21 minutes](*<-lang_en;;*);;
+
+concept_calendar_date -> 19_09_2006;;
+19_09_2006 => nrel_main_idtf : [19.09.2006](*<-lang_ru;;*);;
+19_09_2006 => nrel_main_idtf : [19.09.2006](*<-lang_en;;*);;
+

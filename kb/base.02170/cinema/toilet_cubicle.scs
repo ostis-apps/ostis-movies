@@ -1,0 +1,33 @@
+concept_toilet_cubicle <- sc_node_not_relation;
+
+=> nrel_main_idtf:[кабинка туалета] (* <- lang_ru;; *);
+=> nrel_idtf:[toilet_cubicle] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (кабинка туалета)](* <- lang_ru;; *);
+		[Def. (toilet_cubicle)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_toilet_cubicle;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_toilet_cubicle">Кабинка туалета</sc_element></b> это место для удовлетворения естественных нужд организма.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_toilet_cubicle">Toilet cubicle</sc_element></b> it is a place to meet the natural needs of the body.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кабинка туалета)](*<-lang_ru;;*);
+		[Pic. (toilet_cubicle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/toilet_cubicle.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

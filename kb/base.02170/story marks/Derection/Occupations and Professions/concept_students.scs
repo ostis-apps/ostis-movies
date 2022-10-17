@@ -1,0 +1,21 @@
+concept_students
+
+=> nrel_main_idtf: 
+	[учащиеся] (*<- lang_ru;;*);
+	[students] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. учащиеся] (*<- lang_ru;;*);
+		[Def. students] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_students_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_students_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline;
+       concept_character
+    };;
+*);;

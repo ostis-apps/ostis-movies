@@ -1,0 +1,38 @@
+subject_domain_of_visual_effects
+
+=> nrel_main_idtf: 
+	[Предметная область визуальных эффектов]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[Subject domain of visual effects]
+	(* <- lang_en;; *);
+
+=> nrel_private_subject_domain:
+		subject_domain_of_optical_effects;
+		subject_domain_of_computer_graphics;
+		
+		
+
+		
+-> rrel_maximum_studied_object_class:
+	concept_visual_effect;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_VFX_supervisor;
+	concept_software_for_creating_graphics;
+	concept_visual_effects_vendor;
+
+	
+	
+	
+-> rrel_explored_relation:
+	nrel_cost_of_creating_graphics;
+	nrel_VFX_supervisor;
+	nrel_visual_effects_vendor;
+	nrel_visual_effect_quality;	
+	
+<- subject_domain;;
+
+
+
+

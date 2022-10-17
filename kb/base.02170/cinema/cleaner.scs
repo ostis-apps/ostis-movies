@@ -1,0 +1,33 @@
+concept_cleaner <- sc_node_not_relation;
+
+=> nrel_main_idtf:[уборщик] (* <- lang_ru;; *);
+=> nrel_idtf:[cleaner] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (уборщик)](* <- lang_ru;; *);
+		[Def. (cleaner)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_cleaner;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cleaner">Уборщик</sc_element></b> это специалист, который занимается уборкой внутренних помещений и территорий.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cleaner">Cleaner</sc_element></b> this is a specialist who cleans interiors and territories. ](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (уборщик)](*<-lang_ru;;*);
+		[Pic. (cleaner)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/cleaner.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

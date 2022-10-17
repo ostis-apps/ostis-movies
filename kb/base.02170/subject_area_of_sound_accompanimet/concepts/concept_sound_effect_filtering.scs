@@ -1,0 +1,22 @@
+concept_sound_effect_filtering <- sc_node_norole_relation;
+
+<-nrel_inclusion: concept_sound_effects;
+
+=> nrel_main_idtf:
+	[sound effect filtering] (*<- lang_en;;*);
+	[звуковой эффект фильтрация] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[filtering] (*<- lang_en;;*);
+	[фильтрация звука] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (звуковой эффект фильтрация)] (*<- lang_ru;;*);
+		[Def. (sound effect filtering)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_sound_effect_filtering_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_sound_effect_filtering_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;
+

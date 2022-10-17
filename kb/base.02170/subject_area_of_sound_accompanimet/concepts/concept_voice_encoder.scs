@@ -1,0 +1,33 @@
+concept_voice_encoder <- sc_node_norole_relation;
+
+<- concept_sound_studio;
+
+=> nrel_main_idtf:
+	[voice encoder] (*<- lang_en;;*);
+	[кодировщик голоса] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[vocoder] (*<- lang_en;;*);
+	[вокодер] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (кодировщик голоса)] (*<- lang_ru;;*);
+		[Def. (voice encoder)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_voice_encoder_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_voice_encoder_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кодировщик голоса)](*<-lang_ru;;*);
+		[Pic. (voice encoder)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_voice_encoder.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

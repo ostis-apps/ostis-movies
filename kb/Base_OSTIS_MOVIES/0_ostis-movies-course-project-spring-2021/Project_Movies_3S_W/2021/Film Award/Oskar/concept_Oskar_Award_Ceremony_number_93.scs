@@ -1,0 +1,135 @@
+concept_Oskar_Award_Ceremony_number_93<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[93-я церемония вручения наград премии «Оскар»](*<-lang_ru;;*);
+	[93rd Academy Awards](*<-lang_en;;*); 
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (93-я церемония вручения наград премии «Оскар»)](*<-lang_ru;;*);
+		[Def. (93rd Academy Awards)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Award_Ceremony_number_93_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Award_Ceremony_number_93_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (93-я церемония вручения наград премии «Оскар»)](*<-lang_ru;;*);
+		[Pic. (93rd Academy Awards)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Oskar_Award_Ceremony_number_93.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_Oskar_Award_Ceremony_number_93
+=>nrel_date_event: 25_04_2021;;
+
+nrel_date_event => nrel_main_idtf:
+    [Date Event*](*<- lang_en;;*);
+    [Дата проведения мероприятия*](*<- lang_ru;;*);;
+
+concept_Oskar_Award_Ceremony_number_93 <-concept_Oskar_award_ceremony;;
+
+nrel_award_winner->(film_Nomadland <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Motion));;
+nrel_award_nominee->(film_The_Father <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Motion));;
+nrel_award_nominee->(film_Mank <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Motion));;
+nrel_award_nominee->(film_Minari <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Motion));;
+nrel_award_nominee->(film_Promising_Young_Woman <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Motion));;
+nrel_award_nominee->(film_Promising_Young_Woman <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Motion));;
+
+nrel_award_winner->(Chloe_Zhao <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Director));;
+nrel_award_winner->(Philip_Anthony_Hopkins <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Actor_in_a_Leading_Role));;
+nrel_award_winner->(Frances_Louise_McDormand <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Actor_in_a_Supporting_Role));;
+nrel_award_winner->(animation_film_soul <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Animated_Feature));;
+nrel_award_nominee->(animation_film_Onward <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Motion));;
+nrel_award_nominee->(animation_film_Over_the_Moon <= (concept_Oskar_Award_Ceremony_number_93 <=> concept_Oskar_Nomination_Best_Motion));;
+
+film_Nomadland=> nrel_main_idtf:
+    [Nomadland](*<- lang_en;;*);
+    [Земля Кочевников](*<- lang_ru;;*);
+<-concept_film;
+<-concept_award_winner;;
+
+film_The_Father=> nrel_main_idtf:
+    [Отец](*<- lang_en;;*);
+    [The Father](*<- lang_ru;;*);
+<-concept_film;
+<-concept_award_nominee;;
+
+film_Judas_and_the_Black_Messiah=> nrel_main_idtf:
+    [Иуда и чёрный мессия](*<- lang_en;;*);
+    [Judas and the Black Messiah](*<- lang_ru;;*);
+<-concept_film;
+<-concept_award_nominee;;
+
+film_Mank=> nrel_main_idtf:
+    [Манк](*<- lang_en;;*);
+    [Mank](*<- lang_ru;;*);
+<-concept_film;
+<-concept_award_nominee;;
+
+film_Minari=> nrel_main_idtf:
+    [Минари](*<- lang_en;;*);
+    [Minari](*<- lang_ru;;*);
+<-concept_film;
+<-concept_award_nominee;;
+
+film_Promising_Young_Woman=> nrel_main_idtf:
+    [Девушка, подающая надежды](*<- lang_en;;*);
+    [Promising Young Woman](*<- lang_ru;;*);
+<-concept_film;
+<-concept_award_nominee;;
+
+film_Sound_of_Metal=> nrel_main_idtf:
+    [Звук металла](*<- lang_en;;*);
+    [Sound of Metal](*<- lang_ru;;*);
+<-concept_film;
+<-concept_award_nominee;;
+
+Chloe_Zhao => nrel_main_idtf:
+    [Chloe Zhao](*<- lang_en;;*);
+    [Хлоя Чжао](*<- lang_ru;;*);
+<-concept_human;
+<-concept_award_winner;;
+
+Philip_Anthony_Hopkins=> nrel_main_idtf:
+    [Philip Anthony Hopkins](*<- lang_en;;*);
+    [Энтони Хопкинс](*<- lang_ru;;*);
+<-concept_human;
+<-concept_award_winner;;
+
+Frances_Louise_McDormand=> nrel_main_idtf:
+    [Frances Louise McDormand](*<- lang_en;;*);
+    [Фрэнсис Макдорманд ](*<- lang_ru;;*);
+<-concept_human;
+<-concept_award_winner;;
+
+animation_film_soul=> nrel_main_idtf:
+    [Soul](*<- lang_en;;*);
+    [Душа](*<- lang_ru;;*);
+<-concept_animation_film;
+<-concept_award_winner;;
+
+animation_film_Onward=> nrel_main_idtf:
+    [Onward](*<- lang_en;;*);
+    [Вперед](*<- lang_ru;;*);
+<-concept_animation_film;
+<-concept_award_nominee;;
+
+animation_film_Over_the_Moon=> nrel_main_idtf:
+    [animation film Over the Moon](*<- lang_en;;*);
+    [Путешествие на Луну](*<- lang_ru;;*);
+<-concept_animation_film;
+<-concept_award_nominee;;
+
+nrel_channel=> nrel_main_idtf:
+    [Channel](*<- lang_en;;*);
+    [Канал Трансляции](*<- lang_ru;;*);;
+
+

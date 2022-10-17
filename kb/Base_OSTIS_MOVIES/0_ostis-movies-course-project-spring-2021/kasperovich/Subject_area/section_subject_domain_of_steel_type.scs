@@ -1,0 +1,27 @@
+section_subject_domain_of_pokemon_steel_type
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покемонов стального типа]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokemon steel type]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покемонов стального типа.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+
+	
+-> rrel_key_sc_element: 
+    nrel_bullet_punch_attack       ; 
+    nrel_flash_cannon_attack      ;  
+    nrel_gyro_ball_attack        ;
+    nrel_heavy_slam_attack        ;
+    nrel_iron_head_attack        ;
+    nrel_iron_tail_attack        ;
+    nrel_magnet_bomb_attack        ;
+    nrel_metal_claw_attack        ;
+    nrel_steel_wing_attack        ;;
+
+section_subject_domain_of_pokemon_steel_type   = [*^"file://subject_domain_of_steel_type.scs"*];;

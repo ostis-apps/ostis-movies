@@ -1,0 +1,39 @@
+concept_research
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Задача: исследование]
+	(* <- lang_ru;; *);
+	[Task: research]
+	(* <- lang_en;; *);;
+
+concept_research<=nrel_inclusion: section_subject_domain_of_documentary_tasks;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_research;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Исследование - изучение чего-либо](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Задача: исследование)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_research;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_research;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Исследование включает в себя географическое, зоологическое, историческое, этнографическое и так далее.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О исследовании)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->subject_domain_of_documentary_tasks;;
+->concept_research;;
+        *);;
+*);;
+

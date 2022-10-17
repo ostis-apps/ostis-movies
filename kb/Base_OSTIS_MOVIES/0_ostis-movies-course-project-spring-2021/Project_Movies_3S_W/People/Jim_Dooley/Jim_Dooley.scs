@@ -1,0 +1,40 @@
+Jim_Dooley <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джеймс Дули)](*<-lang_ru;;*);
+		[Description (Jim Dooley)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Jim_Dooley_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Jim_Dooley_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джеймс Дули)](*<-lang_ru;;*);
+		[Pic. (Jim Dooley)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Jim_Dooley_2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1976;;
+Jim_Dooley=>nrel_date_of_birth: 1976;;
+1976=>nrel_main_idtf:[1976 год](*<-lang_ru;;*);;
+1976=>nrel_main_idtf:[year of 1976](*<-lang_en;;*);;
+
+Jim_Dooley
+=>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_Mainframe_Studios;
+<-concept_composer;
+=>nrel_site:[https://jimdooley.com/](* <- lang_en;; *);;

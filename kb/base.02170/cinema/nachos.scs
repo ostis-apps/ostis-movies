@@ -1,0 +1,36 @@
+concept_nachos <- sc_node_not_relation;
+
+=> nrel_main_idtf:[начос] (* <- lang_ru;; *);
+=> nrel_idtf:[nachos] (* <- lang_en;; *);
+
+->studied_object_class: concept_sauce;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (начос)](* <- lang_ru;; *);
+		[Def. (nachos)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_nachos;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_nachos">Начос</sc_element></b> это техасско-мексиканская еда, состоящая из жареных чипсов из тортильи или тотопос, покрытых плавленым сыром или сырным соусом, а также с множеством других начинок, часто включающих мясо, овощи и приправы, такие как сальса или сметана.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_nachos">Nachos</sc_element></b> are a Tex-Mex food consisting of fried tortilla chips or totopos covered with melted cheese or cheese sauce, as well as a variety of other toppings, often including meats, vegetables, and condiments such as salsa or sour cream.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (начос)](*<-lang_ru;;*);
+		[Pic. (nachos)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/nachos.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

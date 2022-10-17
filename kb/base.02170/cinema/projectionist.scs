@@ -1,0 +1,33 @@
+concept_projectionist <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киномеханик] (* <- lang_ru;; *);
+=> nrel_idtf:[projectionist] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (киномеханик)](* <- lang_ru;; *);
+		[Def. (projectionist)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_projectionist;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_projectionist">Киномеханик</sc_element></b> это человек, который управляет кинопроектором, в частности, в качестве сотрудника кинотеатра.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_projectionist">Projectionist</sc_element></b> is a person who operates a movie projector, particularly as an employee of a movie theater. ](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киномеханик)](*<-lang_ru;;*);
+		[Pic. (projectionist)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/projectionist.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

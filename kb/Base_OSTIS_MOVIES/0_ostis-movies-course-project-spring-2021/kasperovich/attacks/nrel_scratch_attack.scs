@@ -1,0 +1,33 @@
+nrel_scratch_attack<- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [царапина атака*](*<- lang_ru;;*);
+    [scratch attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (царапина атака*)](*<- lang_ru;;*);
+        [Def. (scratch attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>царапина атака</b> - Урон наносится жесткими, заостренными когтями.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>scratch attack</b> - Damage is dealt with hard, sharpened claws.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

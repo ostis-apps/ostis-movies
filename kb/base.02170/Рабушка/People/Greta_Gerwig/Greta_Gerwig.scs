@@ -1,0 +1,38 @@
+Greta_Gerwig <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Грета Гервиг)](*<-lang_ru;;*);
+		[Description (Greta Gerwig)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Greta_Gerwig_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Greta_Gerwig_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Грета Гервиг)](*<-lang_ru;;*);
+		[Pic. (Greta Gerwig)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Greta_Gerwig.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Greta_Gerwig => nrel_cityzenship : Great_Britan;;
+
+concept_calendar_date -> 04_08_1983;;
+Greta_Gerwig=>nrel_date_of_birth: 04_08_1983;;
+04_08_1983 => nrel_main_idtf:[4 августа 1983](*<-lang_ru;;*);;
+04_08_1983 => nrel_main_idtf:[4 august 1983](*<-lang_en;;*);;
+

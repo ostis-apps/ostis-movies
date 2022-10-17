@@ -1,0 +1,30 @@
+concept_sound <- sc_node_norole_relation;
+
+<- subject_domain_of_sound_accompaniment;
+
+=> nrel_main_idtf:
+	[sound] (*<- lang_en;;*);
+	[звук] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (звук)] (*<- lang_ru;;*);
+		[Def. (sound)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_sound_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_sound_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (звук)](*<-lang_ru;;*);
+		[Pic. (sound)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_sound.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

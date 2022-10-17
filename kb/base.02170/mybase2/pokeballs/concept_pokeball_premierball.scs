@@ -1,0 +1,65 @@
+concept_pokeball -> concept_pokeball_premierball;;
+
+concept_pokeball_premierball
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Премьербол]
+	(* <- lang_ru;;	*);
+	[Premierball]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball_premierball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешний вид (Премьербол)](*<-lang_ru;;*);
+		[Appearance (premierball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_premierball_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_premierball_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokeball_premierball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характеристика (Премьербол)](*<-lang_ru;;*);
+		[Characteristic (premierball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_premierball_characteristic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_premierball_characteristic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_premierball <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Премьербол)](*<-lang_ru;;*);
+		[Pic. (premierball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokeball_premierball.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_category_B -> concept_pokeball_premierball;;
+concept_pokeball_of_third_generation -> concept_pokeball_premierball;;
+
+concept_pokeball_premierball => nrel_top_cover_color:concept_color_white;;
+concept_pokeball_premierball => nrel_bottom_cover_color:concept_color_white;;
+
+value -> 1;;
+concept_pokeball_premierball => nrel_catch_rate: 1;;
+
+
+
+
+
+
+

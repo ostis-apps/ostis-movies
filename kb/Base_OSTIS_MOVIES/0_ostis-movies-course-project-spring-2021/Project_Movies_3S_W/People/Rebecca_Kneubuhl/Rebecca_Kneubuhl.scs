@@ -1,0 +1,40 @@
+Rebecca_Kneubuhl <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ребекка Кнейбуль)](*<-lang_ru;;*);
+		[Description (Rebecca Kneubuhl)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Rebecca_Kneubuhl_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Rebecca_Kneubuhl_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ребекка Кнейбуль)](*<-lang_ru;;*);
+		[Pic. (Rebecca Kneubuhl)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Rebecca_Kneubuhl.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1986;;
+Rebecca_Kneubuhl=>nrel_date_of_birth: 1986;;
+1986=>nrel_main_idtf:[1986 год](*<-lang_ru;;*);;
+1986=>nrel_main_idtf:[year of 1986](*<-lang_en;;*);;
+
+Rebecca_Kneubuhl 
+=>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_Mainframe_Studios;
+<-concept_soundman;
+<-concept_composer;;

@@ -1,0 +1,22 @@
+concept_pokeball_category_B -> concept_kurts_pokeball;;
+
+concept_kurts_pokeball
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Покебол Курта категории B ]
+	(* <- lang_ru;;	*);
+	[B category Kurts pokeball]
+	(* <- lang_en;;	*);;
+	
+concept_kurts_pokeball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Покебол Курта категории B )](*<-lang_ru;;*);
+		[Description (B category Kurts pokeball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		-> rrel_example:[<sc_element sys_idtf="concept_pokeball_category">Категория покеболов</sc_element>, которые относятся к категории B, появились во втором поколении и принадлежали Курту.](* <- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example:[<sc_element sys_idtf="concept_pokeball_category">The category of pokeball</sc_element> , which belong to category B, appeared in the second generation and belongs to Kurt.](* <- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;

@@ -1,0 +1,88 @@
+The_Twilight_Saga_New_Moon<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Сумерки. Сага. Новолуние](* <- lang_ru;;*);
+	[The Twilight Saga: New Moon](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сумерки. Сага. Новолуние)](*<-lang_ru;;*);
+		[Description (The Twilight Saga: New Moon)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Twilight_Saga_New_Moon_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Twilight_Saga_New_Moon_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сумерки. Сага. Новолуние)](*<-lang_ru;;*);
+		[Pic. (The Twilight Saga: New Moon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Twilight_Saga_New_Moon.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["Это будет как если бы я никогда не существовал"] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«It will be as if I'd never existed»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+
+=>nrel_main_producer: Christopher_Weitz;
+=>nrel_production_country: USA;
+=>nrel_film_critic_rating: 5.9;
+=>nrel_genre: concept_drama;
+=>nrel_genre: concept_melodrama;
+=>nrel_genre: concept_fantasy;
+=>nrel_genre: concept_adventure;
+
+=>nrel_age_rating: concept_PG16;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_melodrama;
+=>nrel_keywords: concept_vampire;
+
+=>nrel_character: Edward_Cullen;
+=>nrel_character: Bella_Swan;;
+
+The_Twilight_Saga_New_Moon => nrel_actor : Robert_Pattinson;;
+The_Twilight_Saga_New_Moon => nrel_actor : kristen_stewart;;
+
+concept_calendar_date -> 16_11_2009;;
+16_11_2009 => nrel_main_idtf : [16.11.2009](*<-lang_ru;;*);;
+16_11_2009 => nrel_main_idtf : [16.11.2009](*<-lang_en;;*);;
+The_Twilight_Saga_New_Moon => nrel_release_date: 16_11_2009;;
+
+
+value -> 2_10;;
+2_10 => nrel_main_idtf : [2 часа и 10 минут](*<-lang_ru;;*);;
+2_10 => nrel_main_idtf : [2 hours and 10 minutes](*<-lang_en;;*);;
+The_Twilight_Saga_New_Moon => nrel_duration_of_showing : 2_10;;
+
+value -> 296_623_634;;
+296_623_634 => nrel_main_idtf : [296 623 634$](*<-lang_ru;;*);;
+296_623_634 => nrel_main_idtf : [296 623 634$](*<-lang_en;;*);;
+Twilight <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 296_623_634;;   
+*);;
+

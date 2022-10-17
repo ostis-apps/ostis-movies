@@ -1,0 +1,72 @@
+Parasite
+<- concept_film;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Паразиты](* <- lang_ru;; *);
+	[Parasite](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Паразиты)](*<-lang_ru;;*);
+		[Description (Parasite)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+
+<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Parasite_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Parasite_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Паразиты)](*<-lang_ru;;*);
+		[Pic. (Parasite)](*<-lang_en;;*);;
+		
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Parasite.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+		
+*);
+
+=> nrel_keywords: concept_drama;
+=> nrel_keywords: concept_thriller;
+=> nrel_keywords: concept_comedy;
+=> nrel_age_rating: concept_PG18;
+
+
+=> nrel_release_date : 30_05_2019;
+=> nrel_duration_of_showing : 2_12;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Bong_Joonho;
+=> nrel_screenwriter : Bong_Joonho;
+=> nrel_screenwriter : Han_Jinwon;
+=> nrel_producer: Kwak_Sinae;
+=> nrel_cameraman : Hong_Kyungpyo;
+=> nrel_composer: Jung_Jaeil;
+=> nrel_editor : Yang_Jinmo;
+
+=> nrel_main_actor : Choi_Wooshik;
+=> nrel_main_actor : Park_Seojoon;
+=> nrel_main_actor : Song_Kangho;
+=> nrel_main_actor : Lee_Sunkyun;
+=> nrel_main_actor : Cho_Yeojeong;
+=> nrel_main_actor : Park_Sodam;
+=> nrel_main_actor : Lee_Jungeun;
+=> nrel_main_actor : Jang_Hyejin;;
+
+
+30_05_2019
+<- concept_calendar_date;
+=> nrel_main_idtf : [30 мая 2019](*<-lang_ru;;*);
+=> nrel_main_idtf : [May 30, 2019](*<-lang_en;;*);;

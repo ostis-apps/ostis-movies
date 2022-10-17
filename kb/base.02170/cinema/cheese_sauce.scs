@@ -1,0 +1,33 @@
+concept_cheese_sauce <- sc_node_not_relation;
+
+=> nrel_main_idtf:[сырный соус] (* <- lang_ru;; *);
+=> nrel_idtf:[cheese_sauce] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (сырный соус)](* <- lang_ru;; *);
+		[Def. (cheese_sauce)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_cheese_sauce;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cheese_sauce">Сырный соус</sc_element></b> соус, приготовленный из сыра или плавленого сыра в качестве основного ингредиента. Иногда используется сушеный сыр или сырный порошок. Существует несколько разновидностей, и он имеет множество различных кулинарных применений.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cheese_sauce">Cheese sauce</sc_element></b> is a sauce made with cheese or processed cheese as a primary ingredient. Sometimes dried cheese or cheese powder is used. Several varieties exist and it has many various culinary uses. ](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (сырный соус)](*<-lang_ru;;*);
+		[Pic. (cheese_sauce)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/cheese_sauce.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

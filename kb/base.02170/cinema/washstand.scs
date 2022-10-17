@@ -1,0 +1,33 @@
+concept_washstand <- sc_node_not_relation;
+
+=> nrel_main_idtf:[умывальник] (* <- lang_ru;; *);
+=> nrel_idtf:[washstand] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (умывальник)](* <- lang_ru;; *);
+		[Def. (washstand)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_washstand;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_washstand">Умывальник</sc_element></b> это раковина с краном или специальный сосуд с краном,носиком и тому подобное,служащий для умывания.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_washstand">Washstand</sc_element></b> it is a sink with a faucet or a special vessel with a faucet,spout and the like,serving for washing.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (умывальник)](*<-lang_ru;;*);
+		[Pic. (washstand)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/washstand.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

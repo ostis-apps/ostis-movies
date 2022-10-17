@@ -1,0 +1,62 @@
+The_Davil_Judge
+<- concept_series;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дьявольский судья](* <- lang_ru;; *);
+	[The davil judge](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Дьявольский судья)](*<-lang_ru;;*);
+		[Description (The davil judge)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_series
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://The_Davil_Judge_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://The_Davil_Judge_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дьявольский судья)](*<-lang_ru;;*);
+		[Pic. (The davil judge)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://The_Davil_Judge.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_keywords: concept_detective;
+=> nrel_keywords: concept_drama;
+
+
+=> nrel_production_year : 2021;
+=> nrel_num_of_seasons: 1;
+=> nrel_num_of_episodes: 16;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Choi_Junggyu;
+=> nrel_screenwriter : Moon_Yooseok;
+=> nrel_producer: Kim_Wootaek;
+=> nrel_composer : Jeong_Serin;
+
+=> nrel_main_actor : Park_Jinyoung;
+=> nrel_main_actor : Park_Gyuyoung;
+=> nrel_main_actor : Kim_Minjung;
+=> nrel_main_actor : Ji_Sung;;
+
+
+2021
+<- concept_calendar_date;
+=> nrel_main_idtf : [2021](*<-lang_ru;;*);
+=> nrel_main_idtf : [2021](*<-lang_en;;*);;      

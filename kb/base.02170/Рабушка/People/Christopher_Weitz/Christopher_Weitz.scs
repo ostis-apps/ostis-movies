@@ -1,0 +1,39 @@
+Christopher_Weitz <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кристофер Вайц)](*<-lang_ru;;*);
+		[Description (Christopher Weitz)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Christopher_Weitz_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Christopher_Weitz_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кристофер Вайц)](*<-lang_ru;;*);
+		[Pic. (Christopher Weitz)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Christopher_Weitz.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Christopher_Weitz => nrel_place_of_birth : NewYork;;
+Christopher_Weitz => nrel_cityzenship : USA;;
+
+concept_calendar_date -> 30_11_1969;;
+Christopher_Weitz=>nrel_date_of_birth: 30_11_1969;;
+30_11_1969 => nrel_main_idtf:[30 ноября 1969](*<-lang_ru;;*);;
+30_11_1969 => nrel_main_idtf:[30 November 1969](*<-lang_en;;*);;
+

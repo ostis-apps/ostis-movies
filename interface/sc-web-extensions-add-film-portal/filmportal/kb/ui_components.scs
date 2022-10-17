@@ -1,0 +1,25 @@
+ui_filmportal_text_component <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Компонент пользовательского интерфейса для добавления кинопортала.]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[This is a component for adding film portal.]
+	(*
+	<- lang_en;;
+	*);;
+
+ui_filmportal_answer_button <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Создать]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Create]
+	(*
+	<- lang_en;;
+	*);;
+
+

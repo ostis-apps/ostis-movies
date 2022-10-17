@@ -1,0 +1,94 @@
+StarWars2
+=> nrel_main_idtf:
+	[Звёздные войны: Эпизод 2 — Атака клонов]
+	(* <- lang_ru;;	*);
+	[Star wars: Episode 2-Attack of the clones]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_lucasfilm;
+=> nrel_film_studio: concept_film_studio_20_century_fox;
+=>nrel_soundman: Tom_Bellfort;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Звёздные войны: Эпизод 2 — Атака клонов)](*<-lang_ru;;*);
+		[Description (Star wars: Episode 2-Attack of the clones)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/StarWars2_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/StarWars2_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (StarWars2)](*<-lang_ru;;*);
+		[Pic. (StarWars2)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/StarWars2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Usa;
+=> nrel_film_critic_rating : 8;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_keywords: alliens;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Ewan_McGregor;
+=> nrel_producer : George_Lucas;
+=> nrel_screenwriter : Jonathan_Hales;;
+
+
+concept_calendar_date -> 16_05_2002;;
+16_05_2002 => nrel_main_idtf : [16.05.2002](*<-lang_ru;;*);;
+16_05_2002 => nrel_main_idtf : [16.05.2002](*<-lang_en;;*);;
+StarWars2 => nrel_release_date : 16_05_2002;;
+
+
+value -> 2_22;;
+2_22 => nrel_main_idtf : [2 часа и 22 минуты](*<-lang_ru;;*);;
+2_22 => nrel_main_idtf : [2 hour and 22 minutes](*<-lang_en;;*);;
+StarWars2 => nrel_duration_of_showing : 2_22;;
+
+value -> 115_000_000;;
+115_000_000 => nrel_main_idtf : [115 000 000$](*<-lang_ru;;*);;
+115_000_000 => nrel_main_idtf : [115 000 000$](*<-lang_en;;*);;
+StarWars2 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 115_000_000;;   
+*);;
+
+
+Ewan_McGregor<-concept_human;
+=> nrel_main_idtf:
+	[Юэн Макгрегор]
+	(* <- lang_ru;;	*);
+	[Ewan_McGregor]
+	(* <- lang_en;;	*);;
+
+StarWars2 => nrel_take_place: Tunis;
+=> nrel_take_place: GB;
+=> nrel_take_place: Italy;
+=> nrel_production_designer: John_Barry;
+=> nrel_film_director: George_Lucas;
+=> nrel_composer: John_Williams;;
+
+John_Barry<-concept_human;
+=> nrel_main_idtf:
+  [Джон Берри]
+  (* <- lang_ru;;  *);
+  [John_Barry]
+  (* <- lang_en;;  *);;
+
+Jonathan_Hales<-concept_human;
+=> nrel_main_idtf:
+	[Джонатан Хейлс]
+	(* <- lang_ru;;	*);
+	[Jonathan Hales]
+	(* <- lang_en;;	*);;

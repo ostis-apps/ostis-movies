@@ -1,0 +1,39 @@
+Hayao_Miyazaki <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Хаяо Миядзаки)](*<-lang_ru;;*);
+		[Description (Hayao Miyazaki)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_animator
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Hayao_Miyazaki_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Hayao_Miyazaki_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хаяо Миядзаки)](*<-lang_ru;;*);
+		[Pic. (Hayao Miyazaki)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Hayao_Miyazaki.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->05_01_1941;;
+Hayao_Miyazaki=>nrel_date_of_birth: 05_01_1941;;
+05_01_1941 => nrel_main_idtf:[5 января 1941](*<-lang_ru;;*);;
+05_01_1941 => nrel_main_idtf:[5 January 1941](*<-lang_en;;*);;
+
+Hayao_Miyazaki => nrel_place_of_birth : Tokio;;
+Hayao_Miyazaki => nrel_cityzenship : Japan;;

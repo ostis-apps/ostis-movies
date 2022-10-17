@@ -1,0 +1,22 @@
+subject_domain_of_pokeball_A_category
+
+=> nrel_main_idtf:
+	[Предметная область покболов категории А]
+	(*<-lang_ru;;*);
+	[Subject domain of pokeball category A]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_pokeball_category_A;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_pokeball_of_first_generation;
+	
+-> rrel_explored_relation:
+	nrel_price_in_pokedollars;
+
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

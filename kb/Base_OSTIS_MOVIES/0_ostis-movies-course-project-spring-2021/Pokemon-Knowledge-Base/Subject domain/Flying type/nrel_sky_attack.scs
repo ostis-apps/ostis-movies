@@ -1,0 +1,33 @@
+nrel_sky_attack <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [атака небесная*](*<- lang_ru;;*);
+    [sky attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (атака небесная*)](*<- lang_ru;;*);
+        [Def. (sky attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>Атака небесная</b> - воздушная атака, которая сильна против насекомых, боевых и травяных типов.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>Sky attack</b> - an aerial attack that is strong against bug, fighing and grass types.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

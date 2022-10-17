@@ -1,0 +1,50 @@
+concept_human -> John_Barry;;
+
+John_Barry
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джон Берри]
+	(* <- lang_ru;;	*);
+	[John Barry]
+	(* <- lang_en;;	*);;
+	
+John_Barry <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джон Берри)](*<-lang_ru;;*);
+		[Description (John Barry)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_production_designer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/John_Barry_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/John_Barry_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1933;;
+John_Barry=>nrel_date_of_birth: 1933;;
+1933=>nrel_main_idtf:[1933 год](*<-lang_ru;;*);;
+1933=>nrel_main_idtf:[year of 1933](*<-lang_en;;*);;
+
+concept_calendar_date->1960;;
+John_Barry=>nrel_career_start_date: 1960;;
+1960=>nrel_main_idtf:[1960 год](*<-lang_ru;;*);;
+1960=>nrel_main_idtf:[year of 1960](*<-lang_en;;*);;
+
+Ewan_McGregor =>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_film_studio_lucasfilm;
+<-concept_main_actor;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+

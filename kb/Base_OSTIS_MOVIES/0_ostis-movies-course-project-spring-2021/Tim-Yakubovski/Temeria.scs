@@ -1,0 +1,53 @@
+kingdom_Temeriya
+=> nrel_main_idtf: 
+[ Тимерия] (* <-lang_ru;; *); 
+[ Temeriya ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Тимерия )] (* <-lang_ru;; *); 
+[Description of character(Temeriya)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_kingdom_Temeriya_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_kingdom_Temeriya_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+=>nrel_character:... 
+(* 
+->character_Foltest;; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Тимерия)](*<-lang_ru;;*); 
+[Pic. (Temeriya)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_kingdom_Temeriya.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+
+character_Foltest
+=> nrel_main_idtf: 
+[ Король Фольтест ] (* <-lang_ru;; *); 
+[ King Foltest ] (* <-lang_en;; *); 
+<- kingdom_Temeriya; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Король Фольтест )] (* <-lang_ru;; *); 
+[Description of character(King Foltest)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Foltest_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Foltest_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Король Фольтест )](*<-lang_ru;;*); 
+[Pic. ( King Foltest )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Foltest.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 

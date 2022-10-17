@@ -1,0 +1,42 @@
+Aleksandr_Akopov
+=>nrel_main_idtf:
+    [Александр Акопов](*<-lang_ru;;*);
+    [Aleksandr_Akopov](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+    <-definition;;
+	=>nrel_main_idtf:
+		[Описание (Александр Акопов)](*<-lang_ru;;*);
+		[Description (Aleksandr Akopov)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_founder_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Aleksandr_Akopov_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Aleksandr_Akopov_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Александр Акопов)](*<-lang_ru;;*);
+		[Pic. (Aleksandr Akopov)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Aleksandr_Akopov.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1957;;
+Aleksandr_Akopov=>nrel_date_of_birth: 1957;;
+1957=>nrel_main_idtf:[1957 год](*<-lang_ru;;*);;
+1957=>nrel_main_idtf:[year of 1957](*<-lang_en;;*);;
+
+Aleksandr_Akopov
+=>nrel_cityzenship: Russia;
+<-concept_founder_film_portal;;

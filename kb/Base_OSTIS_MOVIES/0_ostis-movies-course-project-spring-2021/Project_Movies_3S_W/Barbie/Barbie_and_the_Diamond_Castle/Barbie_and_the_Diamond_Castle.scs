@@ -1,0 +1,72 @@
+Barbie_and_the_Diamond_Castle<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби и Хрустальный замок]
+	(* <- lang_ru;;	*);
+	[Barbie and the Diamond Castle]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби и Хрустальный замок)](*<-lang_ru;;*);
+		[Description (Barbie and the Diamond Castle)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_and_the_Diamond_Castle_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_and_the_Diamond_Castle_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби и Хрустальный замок)](*<-lang_ru;;*);
+		[Pic. (Barbie and the Diamond Castle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_and_the_Diamond_Castle.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: 	Gino_Nichele;
+=> nrel_production_designer: Walter_Martishius;
+=> nrel_composer: Arnie_Roth;
+
+=> nrel_producer: Nancy_Bennett;
+=> nrel_producer: Luke_Carroll;
+=> nrel_screenwriter : Elana_Lesser;
+=> nrel_screenwriter : Cliff_Ruby;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 09_09_2008;
+=> nrel_duration_of_showing : 1_18;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_princess;
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_puppies;
+=> nrel_keywords: concept_castle;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_family;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;;
+
+
+concept_calendar_date -> 09_09_2008;;
+09_09_2008 => nrel_main_idtf : [09.09.2008](*<-lang_ru;;*);;
+09_09_2008 => nrel_main_idtf : [09.09.2008](*<-lang_en;;*);;

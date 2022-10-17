@@ -1,0 +1,20 @@
+concept_organization <- sc_node_norole_relation;
+
+-> concept_sound_studio;
+-> concept_film_studio;
+-> concept_animation_film_studio;
+
+=> nrel_main_idtf:
+	[organization] (*<- lang_en;;*);
+	[организация] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (организация)] (*<- lang_ru;;*);
+		[Def. (organization)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_organization_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_organization_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;

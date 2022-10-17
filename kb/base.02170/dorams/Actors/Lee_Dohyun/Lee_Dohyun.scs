@@ -1,0 +1,52 @@
+Lee_Dohyun
+<-concept_human;
+=> nrel_main_idtf : [Ли До Хён](*<-lang_ru;;*);
+=> nrel_main_idtf : [Lee Do-hyun](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ли До Хён)](*<-lang_ru;;*);
+		[Description (Lee Do-hyun)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Lee_Dohyun_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Lee_Dohyun_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ли До Хён)](*<-lang_ru;;*);
+		[Pic. (Lee Do-hyun)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Lee_Dohyun.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 11_05_1995;
+=> nrel_place_of_birth : Goyang;
+=> nrel_career_start_date : 2017;;
+
+11_05_1995
+<- concept_calendar_date;
+=> nrel_main_idtf : [11 апреля 1995](*<-lang_ru;;*);
+=> nrel_main_idtf : [April 11, 1995](*<-lang_en;;*);;
+
+2017
+<- concept_calendar_date;
+=> nrel_main_idtf : [2017](*<-lang_en;;*);
+=> nrel_main_idtf : [2017](*<-lang_ru;;*);;
+
+

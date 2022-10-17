@@ -1,0 +1,31 @@
+concept_requisite <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [requisite](*<- lang_en;;*);
+    [реквизит](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (реквизит)](*<- lang_ru;;*);
+        [Def. (requisite)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_requisite_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_requisite_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+<- rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (реквизит)](*<-lang_ru;;*);
+		    [Pic. (requisite)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/requisite.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

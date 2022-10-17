@@ -1,0 +1,96 @@
+concept_episode -> Pokemon_Indigo_League_episode_8;;
+
+Pokemon_Indigo_League_episode_8
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эп.8: Дорога в Лигу покемонов]
+	(* <- lang_ru;;	*);
+	[Ep.8: Road to Pokemon League]
+	(* <- lang_en;;	*);;
+
+
+Pokemon_Indigo_League_episode_8 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эп.8: Дорога в Лигу покемонов)](*<-lang_ru;;*);
+		[Description (Ep.8: Road to Pokemon League)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_episode
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_8_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_8_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Pokemon_Indigo_League_episode_8 <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Интересные факты (Эп.8: Дорога в Лигу покемонов)](*<-lang_ru;;*);
+		[Interesting facts (Ep.8: Road to Pokemon League)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_8_interesting_facts_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pokemon_Indigo_League_episode_8_interesting_facts_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Pokemon_Indigo_League_episode_8 <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эп.8: Дорога в Лигу покемонов)](*<-lang_ru;;*);
+		[Pic. (Ep.8: Road to Pokemon League)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Pokemon_Indigo_League_episode_8.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_anime -> Pokemon_Indigo_League_episode_8;;
+concept_cartoon -> Pokemon_Indigo_League_episode_8;;
+concept_comedy -> Pokemon_Indigo_League_episode_8;;
+concept_adventure -> Pokemon_Indigo_League_episode_8;;
+concept_action -> Pokemon_Indigo_League_episode_8;;
+concept_fantasy -> Pokemon_Indigo_League_episode_8;;
+
+concept_calendar_date -> 1997;;
+1997 => nrel_main_idtf : [1997 год](*<-lang_ru;;*);;
+1997 => nrel_main_idtf : [year of 1997](*<-lang_en;;*);;
+Pokemon_Indigo_League_episode_8 => nrel_production_year : 1997;;
+
+Pokemon_Indigo_League_episode_8 
+=> nrel_anime_character : Ash_Ketchum;;
+
+Pokemon_Indigo_League_episode_8
+=> nrel_pokemon_character : concept_pokemon_pikachu;
+=> nrel_pokemon_character : concept_pokemon_sandshrew;;
+
+Pokemon_Indigo_League_episode_8 => nrel_production_country : Japan;;
+
+Pokemon_Indigo_League_episode_8
+=> nrel_screenwriter: Atsuhiro_Tomioka;;
+
+Pokemon_Indigo_League_episode_8
+=> nrel_season: Pokemon_Indigo_League;;
+
+concept_calendar_date -> 1997;;
+1997 => nrel_main_idtf : [1997 год](*<-lang_ru;;*);;
+1997 => nrel_main_idtf : [year of 1997](*<-lang_en;;*);;
+Pokemon_Indigo_League_episode_8 => nrel_shown_in_japan : 1997;;
+
+concept_calendar_date -> 1998;;
+1998 => nrel_main_idtf : [1998 год](*<-lang_ru;;*);;
+1998 => nrel_main_idtf : [year of 1998](*<-lang_en;;*);;
+Pokemon_Indigo_League_episode_8 => nrel_shown_in_usa : 1998;;
+
+

@@ -1,0 +1,49 @@
+concept_human -> Jonathan_Hales;;
+
+Jonathan_Hales
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джонатан Хейлс]
+	(* <- lang_ru;;	*);
+	[Jonathan Hales]
+	(* <- lang_en;;	*);;
+	
+Jonathan_Hales <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джонатан Хейлс)](*<-lang_ru;;*);
+		[Description (Jonathan Hales)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_screenwriter
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Jonathan_Hales_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Jonathan_Hales_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1937;;
+Jonathan_Hales=>nrel_date_of_birth: 1937;;
+1937=>nrel_main_idtf:[1937 год](*<-lang_ru;;*);;
+1937=>nrel_main_idtf:[year of 1937](*<-lang_en;;*);;
+
+concept_calendar_date->1956;;
+Jonathan_Hales=>nrel_career_start_date: 1956;;
+1956=>nrel_main_idtf:[1956 год](*<-lang_ru;;*);;
+1956=>nrel_main_idtf:[year of 1956](*<-lang_en;;*);;
+
+Jonathan_Hales =>nrel_cityzenship: GB;;
+
+
+GB
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Великобритания]
+	(* <- lang_ru;;	*);
+	[Breat Britain]
+	(* <- lang_en;;	*);;
+

@@ -1,0 +1,28 @@
+subject_domain_of_animatronics
+
+=> nrel_main_idtf: 
+	[Предметная область аниматроники]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[Subject domain of animatronics]
+	(* <- lang_en;; *);
+
+		
+-> rrel_maximum_studied_object_class:
+	concept_animatronic;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_animatronics_specialist;
+
+	
+	
+	
+-> rrel_explored_relation:
+	nrel_animatronics_specialist;
+		
+	
+<- subject_domain;;
+
+
+
+

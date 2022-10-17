@@ -1,0 +1,91 @@
+Barbie_as_the_Princess_and_the_Pauper<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Принцесса и Нищенка]
+	(* <- lang_ru;;	*);
+	[Barbie as the Princess and the Pauper]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Принцесса и Нищенка)](*<-lang_ru;;*);
+		[Description (Barbie as the Princess and the Pauper)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_as_the_Princess_and_the_Pauper_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_as_the_Princess_and_the_Pauper_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Принцесса и Нищенка)](*<-lang_ru;;*);
+		[Pic. (Barbie as the Princess and the Pauper)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_as_the_Princess_and_the_Pauper.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: William_Lau;
+=> nrel_composer: Arnie_Roth;
+=> nrel_soundman: Arnie_Roth;
+=> nrel_production_designer: Diana_Brostow;
+
+=> nrel_producer: Jesyca_Durchin;
+=> nrel_producer: Jennifer_Twiner_McCaron;
+=> nrel_screenwriter : Elana_Lesser;
+=> nrel_screenwriter : Cliff_Ruby;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 28_09_2004;
+=> nrel_duration_of_showing : 1_25;
+=> nrel_film_critic_rating : 7;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_puppies;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_family_film;
+=> nrel_keywords: concept_singer;
+=> nrel_keywords: concept_comedy;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_musical;
+=> nrel_keywords: concept_dance;;
+
+
+Barbie_as_the_Princess_and_the_Pauper=> nrel_tagline_of_film : slogan_Barbie_as_the_Princess_and_the_Pauper;;
+slogan_Barbie_as_the_Princess_and_the_Pauper => nrel_main_idtf : [Поет в своем первом мюзикле!](*<-lang_ru;;*);;
+slogan_Barbie_as_the_Princess_and_the_Pauper => nrel_main_idtf : [Singing in her first movie musical!](*<-lang_en;;*);;
+
+
+duration -> 1_25;;
+1_25 => nrel_main_idtf : [1 час и 25 минут](*<-lang_ru;;*);;
+1_25 => nrel_main_idtf : [1 hour and 25 minutes](*<-lang_en;;*);;
+
+concept_calendar_date -> 28_09_2004;;
+28_09_2004 => nrel_main_idtf : [28.09.2004](*<-lang_ru;;*);;
+28_09_2004 => nrel_main_idtf : [28.09.2004](*<-lang_en;;*);;
+
+concept_puppies
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Щенки]
+(* <- lang_ru;;	*);
+[Puppies]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;

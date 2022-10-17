@@ -1,0 +1,33 @@
+nrel_water_pulse_attack<- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [атака водяным пульсом*](*<- lang_ru;;*);
+    [water pulse attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (атака водяным пульсом*)](*<- lang_ru;;*);
+        [Def. (water pulse attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>атака водяным пульсом</b> - Атака пульсирующей струей воды.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>water pulse attack</b> - Pulsing water jet attack.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

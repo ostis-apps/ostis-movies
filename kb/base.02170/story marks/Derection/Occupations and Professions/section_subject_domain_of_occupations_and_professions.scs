@@ -1,0 +1,25 @@
+section_subject_domain_of_occupations_and_professions
+<- section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область занятий и профессий]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of occupations and professions]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий занятия и провессии (сюжетные метки)]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element:
+	subject_domain_of_occupations_and_professions;
+	concept_occupations_and_professions;
+    concept_students;
+	concept_police_offecers; 
+	concept_celebrities;
+	concept_cerial_killers; 
+	concept_lawyers;;
+
+section_subject_domain_of_occupations_and_professions = [*^"file://subject_domain_of_occupations_and_professions.scsi"*];;

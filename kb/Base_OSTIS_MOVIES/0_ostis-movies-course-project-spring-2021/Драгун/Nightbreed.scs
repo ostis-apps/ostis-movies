@@ -1,0 +1,154 @@
+concept_Nightbreed
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Ночной народ] 
+(* <- lang_ru;; *); 
+[Nightbreed] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ночной народ)](*<-lang_ru;;*);
+[Description (Nightbreed)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Nightbreed_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Nightbreed_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["Наконец-то у ночи есть герой"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«At last, the night has a hero»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Clive_Barker; 
+=>nrel_producer: Gabriella_Martinelli; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Robin_Vidgeon; 
+=>nrel_editor: Mark_Goldblatt; 
+=>nrel_genre:concept_horror;
+=>nrel_be_awarded:{Saturn}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1990
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 102
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 8862354
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Aaron_Boone;;
+->character_Shuna_Sassi;;  
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ночной народ)](*<-lang_ru;;*);
+		[Pic. (Nightbreed))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Nightbreed.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Aaron_Boone
+=> nrel_main_idtf: 
+[ Аарон Бун ] (* <-lang_ru;; *); 
+[ Aaron Boone ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Аарон Бун )] (* <-lang_ru;; *); 
+[Description of character(Aaron Boone)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_AaronBoone_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_AaronBoone_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Аарон Бун )](*<-lang_ru;;*); 
+[Pic. ( Aaron Boone )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_AaronBoone.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Shuna_Sassi
+=> nrel_main_idtf: 
+[ Шуна Сасси ] (* <-lang_ru;; *); 
+[ Shuna Sassi ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Шуна Сасси )] (* <-lang_ru;; *); 
+[Description of character(Shuna Sassi)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_actor_Shuna_Sassi_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_actor_Shuna_Sassi_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Шуна Сасси )](*<-lang_ru;;*); 
+[Pic. ( Shuna Sassi )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_Shuna_Sassi.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn
+ => nrel_main_idtf: 
+            [Сатурн, 1982 год] (* <-lang_ru;; *);
+		  [Saturn, 1982] (* <-lang_en;; *);;
+

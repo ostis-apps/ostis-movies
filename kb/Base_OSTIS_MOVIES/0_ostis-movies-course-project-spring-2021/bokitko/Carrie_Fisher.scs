@@ -1,0 +1,49 @@
+concept_human -> Carrie_Fisher;;
+
+Carrie_Fisher
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кэрри Фишер]
+	(* <- lang_ru;;	*);
+	[Carrie Fisher]
+	(* <- lang_en;;	*);;
+	
+Carrie_Fisher <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ричард Маркванд)](*<-lang_ru;;*);
+		[Description (Richard Marquand)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Carrie_Fisher_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Carrie_Fisher_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1956;;
+Carrie_Fisher=>nrel_date_of_birth: 1956;;
+1956=>nrel_main_idtf:[1956 год](*<-lang_ru;;*);;
+1956=>nrel_main_idtf:[year of 1956](*<-lang_en;;*);;
+
+concept_calendar_date->1969;;
+Carrie_Fisher=>nrel_career_start_date: 1969;;
+1969=>nrel_main_idtf:[1969 год](*<-lang_ru;;*);;
+1969=>nrel_main_idtf:[year of 1969](*<-lang_en;;*);;
+
+Carrie_Fisher =>nrel_cityzenship: Usa;
+<-concept_main_actor;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+	

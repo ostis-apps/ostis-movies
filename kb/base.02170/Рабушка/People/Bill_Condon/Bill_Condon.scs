@@ -1,0 +1,39 @@
+Bill_Condon <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Билл Кондон)](*<-lang_ru;;*);
+		[Description (Bill Condon)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Bill_Condon_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Bill_Condon_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Билл Кондон)](*<-lang_ru;;*);
+		[Pic. (Bill Condon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Bill_Condon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->22_10_1995;;
+22_10_1995 => nrel_main_idtf:[22 октября 1995](*<-lang_ru;;*);;
+22_10_1995 => nrel_main_idtf:[22 October 1995](*<-lang_en;;*);;
+Bill_Condon => nrel_date_of_birth: 22_10_1995;;
+
+
+Bill_Condon => nrel_place_of_birth : NewYork;;
+Bill_Condon => nrel_cityzenship : USA;;

@@ -1,0 +1,33 @@
+concept_screen <- sc_node_not_relation;
+
+=> nrel_main_idtf:[экран] (* <- lang_ru;; *);
+=> nrel_idtf:[screen] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (экран)](* <- lang_ru;; *);
+		[Def. (screen)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_screen;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_screen">Экран</sc_element></b> это натянутая белая ткань на холст, на которую проектируются изображения с диапозитивов, фильмы.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_screen">Screen</sc_element></b> it is stretched white fabric on canvas, on which images from transparencies, films are projected.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (экран)](*<-lang_ru;;*);
+		[Pic. (screen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/screen.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

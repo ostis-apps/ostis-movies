@@ -1,0 +1,93 @@
+Dune<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Дюна](* <- lang_ru;;*);
+	[Dune](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дюна)](*<-lang_ru;;*);
+		[Description (Dune)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Dune_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Dune_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дюна)](*<-lang_ru;;*);
+		[Pic. (Dune)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Dune.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["Час настал"] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Beyond fear, destiny awaits»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+
+=>nrel_main_producer: Denis_Villeneuve;
+=>nrel_production_country: USA;
+=>nrel_production_country: Canada;
+=>nrel_production_country: Hungary;
+=>nrel_film_critic_rating: 7.75;
+=>nrel_genre: concept_drama;
+=>nrel_genre: concept_adventure;
+=>nrel_genre: concept_action;
+=>nrel_genre: concept_sci_fi;
+
+=>nrel_age_rating: concept_PG12;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_sci_fi;
+=>nrel_keywords: concept_adventure;;
+
+
+Dune => nrel_actor : Timothee_Chalamet; zendaya;;
+
+concept_calendar_date -> 03_09_2021;;
+03_09_2021 => nrel_main_idtf : [3 сентября 2021](*<-lang_ru;;*);;
+03_09_2021 => nrel_main_idtf : [3 September 2021](*<-lang_en;;*);;
+Dune => nrel_release_date: 03_09_2021;;
+
+
+value -> 2_35;;
+2_35 => nrel_main_idtf : [2 часа и 35 минут](*<-lang_ru;;*);;
+2_35 => nrel_main_idtf : [2 hours and 35 minutes](*<-lang_en;;*);;
+Dune=> nrel_duration_of_showing : 2_35;;
+
+value -> 366_441_909;;
+366_441_909 => nrel_main_idtf : [366 441 909$](*<-lang_ru;;*);;
+366_441_909 => nrel_main_idtf : [366 441 909$](*<-lang_en;;*);;
+Dune <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 366_441_909;;   
+*);;
+
+
+Hungary<-concept_country;
+=> nrel_main_idtf: 
+	[Венгрия](* <- lang_ru;;*);
+	[Hungary](* <- lang_en;;*);;
+

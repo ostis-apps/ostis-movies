@@ -1,0 +1,36 @@
+nrel_the_minor_character
+<- sc_node_norole_relation;
+
+=> nrel_main_idtf: 
+	[второстепенный персонаж*] (*<- lang_ru;;*);
+	[the minor character*] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. второстепенный персонаж*] (*<- lang_ru;;*);
+		[Def. minor character*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://the_minor_character_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://the_minor_character_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       nrel_storyline;
+       concept_character
+    };;
+*);
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_first_domain: nrel_storyline;
+=> nrel_second_domain: concept_character;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> nrel_storyline;;
+        -> concept_character;;
+  	  *);;
+	*);;

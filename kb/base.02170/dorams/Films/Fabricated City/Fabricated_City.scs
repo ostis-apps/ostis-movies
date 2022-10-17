@@ -1,0 +1,66 @@
+Fabricated_City
+<- concept_film;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Подставной город](* <- lang_ru;; *);
+	[Fabrikcated City](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Подставной город)](*<-lang_ru;;*);
+		[Description (Fabrikcated City)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Fabricated_City_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Fabricated_City_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Подставной город)](*<-lang_ru;;*);
+		[Pic. (Fabrikcated City)](*<-lang_en;;*);;
+		
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Fabricated_City.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+		
+*);
+
+=> nrel_keywords: concept_thriller;
+
+
+=> nrel_release_date : 09_02_2017;
+=> nrel_duration_of_showing : 2_06;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Park_Kwanghyun;
+=> nrel_screenwriter : Park_Kwanghyun;
+=> nrel_producer: Kim_Hyuncheol;
+=> nrel_producer: Jang_Yeonghwan;
+=> nrel_cameraman : Nam_Donggeun;
+=> nrel_composer: Kim_Taeseong;
+=> nrel_editor : Kim_Jinoh;
+
+=> nrel_main_actor : Ji_Changwook;
+=> nrel_main_actor : Kim_Sangho;
+=> nrel_main_actor : Shim_Eunkyung;
+=> nrel_main_actor : Ahn_Jaehong;;
+
+
+
+09_02_2017
+<- concept_calendar_date;
+=> nrel_main_idtf : [9 февраля 2017](*<-lang_ru;;*);
+=> nrel_main_idtf : [February 9, 2017](*<-lang_en;;*);;

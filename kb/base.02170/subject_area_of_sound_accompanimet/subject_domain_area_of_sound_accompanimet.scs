@@ -1,0 +1,14 @@
+subject_domain_of_sound_accompaniment
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область звукового сопровождения] (*<- lang_ru;;*);
+	[Subject domain area of sound accompaniment] (*<- lang_en;;*);
+	
+->rrel_maximum_studied_object_class: concept_audio_sequence;
+->rrel_maximum_studied_object_class: concept_dubbing;
+
+<= nrel_private_subject_domain: concept_subject_domain_of_films;
+
+->rrel_not_maximum_studied_object_class: concept_sound_effects;
+->rrel_not_maximum_studied_object_class: concept_sound;
+->rrel_not_maximum_studied_object_class: concept_soundtrack;;

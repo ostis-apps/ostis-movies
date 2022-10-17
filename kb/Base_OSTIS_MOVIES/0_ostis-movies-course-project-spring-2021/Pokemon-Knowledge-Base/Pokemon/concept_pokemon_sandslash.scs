@@ -1,0 +1,103 @@
+concept_pokemon -> concept_pokemon_sandslash;;
+
+concept_pokemon_sandslash
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сэндслэш]
+	(* <- lang_ru;;	*);
+	[Sandslash]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_sandslash <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сэндслэш)](*<-lang_ru;;*);
+		[Description (Sandslash)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_sandslash <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Сэндслэш)](*<-lang_ru;;*);
+		[Appearance (Sandslash)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_sandslash <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Сэндслэш)](*<-lang_ru;;*);
+		[Behavior (Sandslash)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_sandslash <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Сэндслэш)](*<-lang_ru;;*);
+		[Natural ability (Sandslash)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_sandslash <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Сэндслэш)](*<-lang_ru;;*);
+		[Habitat (Sandslash)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_sandslash_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_sandslash <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сэндслэш)](*<-lang_ru;;*);
+		[Pic. (Sandslash)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_sandslash.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_color_yellow -> concept_pokemon_sandslash;;
+
+concept_ground_type -> concept_pokemon_sandslash;;
+
+value -> 28;;
+concept_pokemon_sandslash => nrel_pokedex_number: 28;;
+
+value -> 1;;
+concept_pokemon_sandslash => nrel_height: 1;;
+
+value -> 29.5;;
+concept_pokemon_sandslash => nrel_weight: 29.5;;
+

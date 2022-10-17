@@ -1,0 +1,13 @@
+section_subject_domain_of_tricks
+=> nrel_main_idtf: 
+	[Раздел. Предметная область трюков]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[Section. Subject domain of tricks]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	concept_stuntman;
+	nrel_stuntman;
+	concept_trick;;
+
+section_subject_domain_of_tricks = [*^"file://subject_domain_of_tricks.scs"*];;

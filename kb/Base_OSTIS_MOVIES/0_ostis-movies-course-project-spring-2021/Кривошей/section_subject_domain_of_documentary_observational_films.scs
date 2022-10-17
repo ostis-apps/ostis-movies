@@ -1,0 +1,62 @@
+section_subject_domain_of_documentary_observational_films
+=> nrel_main_idtf:
+	[Раздел. Предметная область документальных фильмов-наблюдений]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of documentary observation films]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_of_documentary_observational_films->rrel_key_sc_element:
+  concept_obs_film;;
+
+section_subject_domain_of_documentary_observational_films = [*
+subject_domain_of_documentary_observational_films
+=> nrel_main_idtf:
+	[Предметная область документальных фильмов]
+	(* <- lang_ru;; *);
+	[Subject domain of documentary films]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_of_documentary_observational_films;
+-> rrel_maximum_studied_object_class: concept_documentary_observational_film;
+-> rrel_not_maximum_studied_object_class:
+    concept_genres_of_documentary_film;
+    concept_obs_film;;
+
+concept_documentary_observational_film<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Документальный фильм-наблюдение]
+	(* <- lang_ru;; *);
+	[Documentary Observational film]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_documentary_observational_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальный фильм-ниблюдние -  Жанр документальных фильмов, который основывается на наблюдении. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Документальный фильм-наблюдение)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_documentary_observational_film;;
+->concept_genre;;
+->concept_observation;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_documentary_observational_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [В фильмах-наблюдениях не допускатеся непосредственного вмешательства в течение событий.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О документальном фильме-наблюдении)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_documentary_observational_film;;
+        *);;
+*);;
+*];;

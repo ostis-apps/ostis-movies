@@ -1,0 +1,39 @@
+concept_journalism
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Задача: публицистика]
+	(* <- lang_ru;; *);
+	[Task: journalism]
+	(* <- lang_en;; *);;
+
+concept_journalism<=nrel_inclusion: section_subject_domain_of_documentary_tasks;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_journalism;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [публицистика - род произведений, посвящённых актуальным проблемам и явлениям текущей жизни общества; играет важную политическую и идеологическую роль как средство выражения плюрализма общественного мнения, в том числе формирующегося вокруг острых проблем жизни. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Задача: публицистика)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_journalism;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_journalism;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Можно сказать, что публицистика относится к науке об обществе и государстве.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О задаче "публицистика")](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->subject_domain_of_documentary_tasks;;
+->concept_journalism;;
+        *);;
+*);;
+

@@ -1,0 +1,43 @@
+Edward_Cullen<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Эдвард Каллен](*<-lang_ru;;*);
+	[Edward Cullen](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эдвард Каллен)](*<-lang_ru;;*);
+		[Description (Edward Cullen)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+	concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Edward_Cullen_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Edward_Cullen_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эдвард Каллен)](*<-lang_ru;;*);
+		[Pic. (Edward Cullen)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Edward_Cullen.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Edward_Cullen => nrel_cityzenship: USA;;
+
+concept_calendar_date -> 20_06_1901;;
+Edward_Cullen => nrel_date_of_birth: 20_06_1901;;
+20_06_1901 => nrel_main_idtf : [20 июня 1901](*<-lang_ru;;*);;
+20_06_1901 => nrel_main_idtf : [20 June 1901](*<-lang_en;;*);;
+

@@ -1,0 +1,53 @@
+kingdom_Cintra
+=> nrel_main_idtf: 
+[ Цинтра] (* <-lang_ru;; *); 
+[ Cintra ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Цинтра )] (* <-lang_ru;; *); 
+[Description of character(Cintra)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_kingdom_Cintra_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_kingdom_Cintra_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+=>nrel_character:... 
+(* 
+->character_Calante;; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Цинтра)](*<-lang_ru;;*); 
+[Pic. (Cintra)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_kingdom_Cintra.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+
+character_Calante
+=> nrel_main_idtf: 
+[ Каланте ] (* <-lang_ru;; *); 
+[ Calante ] (* <-lang_en;; *); 
+<- kingdom_Cintra; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Каланте )] (* <-lang_ru;; *); 
+[Description of character(Calante)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Calante_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Calante_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Каланте )](*<-lang_ru;;*); 
+[Pic. (Calante)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Calante.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 

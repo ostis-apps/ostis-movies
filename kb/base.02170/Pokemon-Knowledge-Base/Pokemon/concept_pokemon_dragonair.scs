@@ -1,0 +1,104 @@
+concept_pokemon -> concept_pokemon_dragonair;;
+
+concept_pokemon_dragonair
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Драгонэйр]
+	(* <- lang_ru;;	*);
+	[Dragonair]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_dragonair <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Драгонэйр)](*<-lang_ru;;*);
+		[Description (Dragonair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_dragonair <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Драгонэйр)](*<-lang_ru;;*);
+		[Appearance (Dragonair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_dragonair <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Драгонэйр)](*<-lang_ru;;*);
+		[Behavior (Dragonair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_dragonair <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Драгонэйр)](*<-lang_ru;;*);
+		[Natural ability (Dragonair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_dragonair <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Драгонэйр)](*<-lang_ru;;*);
+		[Habitat (Dragonair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dragonair_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_dragonair <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Драгонэйр)](*<-lang_ru;;*);
+		[Pic. (Dragonair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_dragonair.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_dragonair 
+=> nrel_pokemon_evolution: concept_pokemon_dragonite;;
+
+concept_dragon_type -> concept_pokemon_dragonair;;
+
+concept_color_blue -> concept_pokemon_dragonair;;
+
+value -> 148;;
+concept_pokemon_dragonair => nrel_pokedex_number: 148;;
+
+value -> 3.99;;
+concept_pokemon_dragonair => nrel_height: 3.99;;
+
+value -> 16.5;;
+concept_pokemon_dragonair => nrel_weight: 16.5;;

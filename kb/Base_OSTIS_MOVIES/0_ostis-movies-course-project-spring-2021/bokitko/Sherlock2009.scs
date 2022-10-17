@@ -1,0 +1,91 @@
+Sherlock2009
+=> nrel_main_idtf:
+	[Шерлок холмс]
+	(* <- lang_ru;;	*);
+	[Sherlock Holmes]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_WarnerBrosPict;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Шерлок холмс (2009))](*<-lang_ru;;*);
+		[Description (Sherlock Holmes (2009))](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sherlock2009_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sherlock2009_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Sherlock2009)](*<-lang_ru;;*);
+		[Pic. (Sherlock2009)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Sherlock2009.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : GB;
+=> nrel_film_critic_rating : 8.1;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Downey_Jr;
+=> nrel_producer : concept_Joel_Silver;
+=> nrel_screenwriter : Michael_Robert_Johnson;;
+
+
+concept_calendar_date -> 24_12_2009;;
+24_12_2009 => nrel_main_idtf : [24.12.2009](*<-lang_ru;;*);;
+24_12_2009 => nrel_main_idtf : [24.12.2009](*<-lang_en;;*);;
+Sherlock2009 => nrel_release_date : 24_12_2009;;
+
+
+value -> 2_08;;
+2_08 => nrel_main_idtf : [2 часа и 08 минут](*<-lang_ru;;*);;
+2_08 => nrel_main_idtf : [2 hour and 08 minutes](*<-lang_en;;*);;
+Sherlock2009=> nrel_duration_of_showing : 2_08;;
+
+value -> 90_000_000;;
+90_000_000 => nrel_main_idtf : [90 000 000$](*<-lang_ru;;*);;
+90_000_000 => nrel_main_idtf : [90 000 000$](*<-lang_en;;*);;
+Sherlock2009 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 90_000_000;;   
+*);;
+
+
+Sherlock2009 => nrel_take_place: GB;
+=> nrel_take_place: Usa;
+=> nrel_production_designer: Gavin_Boke;
+=> nrel_film_director: Guy_Ritchie;
+=> nrel_composer: Hans_Zimmer;;
+
+Michael_Robert_Johnson <-concept_human;
+=> nrel_main_idtf:
+	[Михаил Роберт Джонсон]
+	(* <- lang_ru;;	*);
+	[Michael Robert Johnson]
+	(* <- lang_en;;	*);;
+
+
+Guy_Ritchie <-concept_human;
+=> nrel_main_idtf:
+	[Гай Ричи]
+	(* <- lang_ru;;	*);
+	[Guy Ritchie]
+	(* <- lang_en;;	*);;
+
+Hans_Zimmer <-concept_human;
+=> nrel_main_idtf:
+	[Ханс Зиммер]
+	(* <- lang_ru;;	*);
+	[Hans Zimmer]
+	(* <- lang_en;;	*);;

@@ -1,0 +1,22 @@
+concept_sound_effect_sound_compression <- sc_node_norole_relation;
+
+<-nrel_inclusion: concept_sound_effects;
+
+=> nrel_main_idtf:
+	[sound effect sound compression] (*<- lang_en;;*);
+	[звуковой эффект компрессия звука] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[sound compression] (*<- lang_en;;*);
+	[компрессия звука] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (студийные звуковой эффект клмпрессия звука)] (*<- lang_ru;;*);
+		[Def. (sound effect sound compression)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_sound_effect_sound_compression_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_sound_effect_sound_compression_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,41 @@
+BC_Smith <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (БиСи Смит)](*<-lang_ru;;*);
+		[Description (BC Smith)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://BC_Smith_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://BC_Smith_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (БиСи Смит)](*<-lang_ru;;*);
+		[Pic. (BC Smith)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://BC_Smith.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1976;;
+BC_Smith=>nrel_date_of_birth: 1976;;
+1976=>nrel_main_idtf:[1976 год](*<-lang_ru;;*);;
+1976=>nrel_main_idtf:[year of 1976](*<-lang_en;;*);;
+
+BC_Smith 
+=>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_Mainframe_Studios;
+<-concept_soundman;
+<-concept_composer;
+=>nrel_site:[https://www.mainframe.cahttps://bcsmithmusic.com/about/](* <- lang_en;; *);;

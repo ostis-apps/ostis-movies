@@ -1,0 +1,52 @@
+Sung_Dongil
+<-concept_human;
+=> nrel_main_idtf : [Сон Дон Иль](*<-lang_ru;;*);
+=> nrel_main_idtf : [Sung Dong-il](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сон Дон Иль)](*<-lang_ru;;*);
+		[Description (Sung Dong-il)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Sung_Dongil_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Sung_Dongil_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сон Дон Иль)](*<-lang_ru;;*);
+		[Pic. (Sung Dong-il)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Sung_Dongil.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 27_04_1964;
+=> nrel_place_of_birth : Incheon;
+=> nrel_career_start_date : 1987;
+
+<= nrel_actor : Legend_of_the_Blue_Sea;
+<= nrel_actor : Sisyphus__The_Myth;;
+
+27_04_1964
+<- concept_calendar_date;
+=> nrel_main_idtf : [27 апреля 1964](*<-lang_ru;;*);
+=> nrel_main_idtf : [April 27, 1964](*<-lang_en;;*);;
+
+1987
+<- concept_calendar_date;
+=> nrel_main_idtf : [1987](*<-lang_en;;*);
+=> nrel_main_idtf : [1987](*<-lang_ru;;*);;

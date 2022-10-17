@@ -1,0 +1,25 @@
+ui_filmstudio_text_component <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Компонента пользовательского интерфейса для добавления киностудии.]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[This is a component for adding movie studio.]
+	(*
+	<- lang_en;;
+	*);;
+
+ui_filmstudio_answer_button <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Создать]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Create]
+	(*
+	<- lang_en;;
+	*);;
+
+

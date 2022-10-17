@@ -1,0 +1,54 @@
+concept_human -> Edith_Head;;
+
+Edith_Head
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Эдит Хэд]
+	(* <- lang_ru;;	*);
+	[Edith Head]
+	(* <- lang_en;;	*);;
+	
+Edith_Head <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эдит Хэд)](*<-lang_ru;;*);
+		[Description (Edith Head)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Edith_Head_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Edith_Head_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Edith_Head 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эдит Хэд)](*<-lang_ru;;*);
+		[Pic. (Edith Head)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Edith_Head.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1897;;
+Edith_Head=>nrel_date_of_birth: 1897;;
+1897=>nrel_main_idtf:[1897 год](*<-lang_ru;;*);;
+1897=>nrel_main_idtf:[year of 1897](*<-lang_en;;*);;
+
+concept_calendar_date->1927;;
+Edith_Head=>nrel_career_start_date: 1927;;
+1927=>nrel_main_idtf:[1927 год](*<-lang_ru;;*);;
+1927=>nrel_main_idtf:[year of 1927](*<-lang_en;;*);;
+
+Edith_Head =>nrel_cityzenship:USA;;
+USA<-concept_country;;
+

@@ -1,0 +1,33 @@
+concept_chips <- sc_node_not_relation;
+
+=> nrel_main_idtf:[чипсы] (* <- lang_ru;; *);
+=> nrel_idtf:[chips] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (чипсы)](* <- lang_ru;; *);
+		[Def. (chips)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_chips;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_chips">Чипсы</sc_element></b> представляет собой тонкий ломтик картофеля, обжаренный во фритюре, запеченный или обжаренный на воздухе до хрустящей корочки.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_chips">Chips</sc_element></b> is a thin slice of potato that has been either deep fried, baked, or air fried until crunchy.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (чипсы)](*<-lang_ru;;*);
+		[Pic. (chips)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/chips.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

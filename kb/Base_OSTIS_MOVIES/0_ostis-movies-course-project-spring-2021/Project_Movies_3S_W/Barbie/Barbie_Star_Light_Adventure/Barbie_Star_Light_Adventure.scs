@@ -1,0 +1,65 @@
+Barbie_Star_Light_Adventure<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби и космическое приключение]
+	(* <- lang_ru;;	*);
+	[Barbie: Star Light Adventure]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби и космическое приключение)](*<-lang_ru;;*);
+		[Description (Barbie: Star Light Adventure)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_Star_Light_Adventure_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_Star_Light_Adventure_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби и космическое приключение)](*<-lang_ru;;*);
+		[Pic. (Barbie: Star Light Adventure)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_Star_Light_Adventure.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Andrew_Tan;
+=> nrel_production_designer: Alexandra_Kavalova;
+=> nrel_composer: Toby_Chu;
+
+=> nrel_screenwriter : Kacey_Arnold;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 30_07_2016;
+=> nrel_duration_of_showing : 1_15;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_travel;
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_superhero;
+=> nrel_keywords: concept_family;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;;
+
+concept_calendar_date -> 30_07_2016;;
+30_07_2016 => nrel_main_idtf : [30.07.2016](*<-lang_ru;;*);;
+30_07_2016 => nrel_main_idtf : [30.07.2016](*<-lang_en;;*);;

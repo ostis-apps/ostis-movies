@@ -1,0 +1,34 @@
+concept_pokeball_category -> concept_pokeball_category_A;;
+
+concept_pokeball_category_A
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Категория покебола A]
+	(* <- lang_ru;;	*);
+	[Pokeball category A]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Категория покебола A)](*<-lang_ru;;*);
+		[Description (Pokeball category A)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_category_A_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_category_A_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Категория покебола A)](*<-lang_ru;;*);
+		[Pic. (Pokeball category A)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/pokeball_category_A.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

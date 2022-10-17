@@ -1,0 +1,83 @@
+concept_The_Midnight_Meat_Train
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Полуночный экспресс] 
+(* <- lang_ru;; *); 
+[The Midnight Meat Train] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Полуночный экспресс)](*<-lang_ru;;*);
+[Description (The Midnight Meat Train)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_The_Midnight_Meat_Train_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_The_Midnight_Meat_Train_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["Осторожно! Двери закрываются. Следующая остановка - АД!."] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Caution! Doors are closing. Next stop - HELL!»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Ryhei_Kitamura; 
+=>nrel_producer: Clive_Barker; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Michael_Seresin; 
+=>nrel_editor: Gerry_Hambling; 
+=>nrel_genre:concept_horror;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2008
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 100
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 3533227
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Butcher;; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Полуночный экспресс)](*<-lang_ru;;*);
+		[Pic. (The Midnight Meat Train))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/The_Midnight_Meat_Train.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

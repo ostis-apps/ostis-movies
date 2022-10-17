@@ -1,0 +1,53 @@
+kingdom_Nilfgard
+=> nrel_main_idtf: 
+[ Нильфгард] (* <-lang_ru;; *); 
+[ Nilfgard ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Нильфгард )] (* <-lang_ru;; *); 
+[Description of character(Nilfgard)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_kingdom_Nilfgard_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_kingdom_Nilfgard_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+=>nrel_character:... 
+(* 
+->character_Emhir_Var_Emreis;; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Нильфгард)](*<-lang_ru;;*); 
+[Pic. (Nilfgard)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_kingdom_Nilfgard.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+
+character_Emhir_Var_Emreis
+=> nrel_main_idtf: 
+[ Эмгыр Вар Эмрейс ] (* <-lang_ru;; *); 
+[ Emhir Var Emreis ] (* <-lang_en;; *); 
+<- kingdom_Nilfgard; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Эмгыр Вар Эмрейс )] (* <-lang_ru;; *); 
+[Description of character(Emhir Var Emreis)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Emhir_Var_Emreis_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Emhir_Var_Emreis_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Эмгыр Вар Эмрейс )](*<-lang_ru;;*); 
+[Pic. ( Emhir Var Emreis )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Emhir_Var_Emreis.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 

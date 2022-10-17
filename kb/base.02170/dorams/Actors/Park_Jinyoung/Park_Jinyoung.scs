@@ -1,0 +1,54 @@
+Park_Jinyoung
+<-concept_human;
+=> nrel_main_idtf : [Пак Джинён](*<-lang_ru;;*);
+=> nrel_main_idtf : [Park Jin-young](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пак Джинён)](*<-lang_ru;;*);
+		[Description (Park Jin-young)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Park_Jinyoung_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Park_Jinyoung_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пак Джинён)](*<-lang_ru;;*);
+		[Pic. (Park Jin-young)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Park_Jinyoung.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 22_09_1994;
+=> nrel_place_of_birth : Changwon; 
+=> nrel_career_start_date : 2012;
+
+<= nrel_actor : Legend_of_the_Blue_Sea;;
+
+22_09_1994
+<- concept_calendar_date;
+=> nrel_main_idtf : [22 сентября 1994](*<-lang_ru;;*);
+=> nrel_main_idtf : [September 22, 1994](*<-lang_en;;*);;
+
+2012
+<- concept_calendar_date;
+=> nrel_main_idtf : [2012](*<-lang_en;;*);
+=> nrel_main_idtf : [2012](*<-lang_ru;;*);;
+
+

@@ -1,0 +1,32 @@
+section_subject_domain_of_pokemon_bug_type
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покемонов насекомого типа]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokemon bug type]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покемонов насекомого типа.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+
+	
+-> rrel_key_sc_element: 
+    concept_pure_bug_type;
+    concept_half_main_bug_type;
+    concept_half_secondary_bug_type;
+	
+    nrel_bug_bite_attack;
+    nrel_bug_buzz_attack;
+    nrel_fury_cutter_attack;
+    nrel_infestation_attack;
+    nrel_megahorn_attack;	
+    nrel_signal_beam_attack;	
+    nrel_silver_wind_attack;	
+    nrel_struggle_bug_attack;	
+    nrel_x_scissor_attack;	
+	subject_domain_of_pokemon_bug_type;;
+
+section_subject_domain_of_pokemon_bug_type = [*^"file://subject_domain_of_pokemon_bug_type.scsi"*];;

@@ -1,0 +1,40 @@
+Walter_Martishius <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Уолтер Мартишиус)](*<-lang_ru;;*);
+		[Description (Walter Martishius)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Walter_Martishius_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Walter_Martishius_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Уолтер Мартишиус)](*<-lang_ru;;*);
+		[Pic. (Walter Martishius)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Walter_Martishius.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1959;;
+Walter_Martishius=>nrel_date_of_birth: 1959;;
+1959=>nrel_main_idtf:[1959 год](*<-lang_ru;;*);;
+1959=>nrel_main_idtf:[year of 1959](*<-lang_en;;*);;
+
+Walter_Martishius 
+=>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_Mainframe_Studios;
+<-concept_production_designer;
+=>nrel_site:[http://www.waltermartishius.com/homepage.html](* <- lang_en;; *);;

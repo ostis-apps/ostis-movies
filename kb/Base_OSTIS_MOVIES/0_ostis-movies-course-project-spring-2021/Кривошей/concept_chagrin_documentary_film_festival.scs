@@ -1,0 +1,49 @@
+concept_chagrin_documentary_film_festival
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Чагринский фестиваль документального кино]
+	(* <- lang_ru;; *);
+	[Chagrin Documentary Film Festival ]
+	(* <- lang_en;; *);;
+
+concept_chagrin_documentary_film_festival<=nrel_inclusion: concept_documentary_film_festivals;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_chagrin_documentary_film_festival;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Чагринский фестиваль документального кино - кинофестиваль, проходящий в США.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Чагринский фестиваль документального кино)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_USA;;
+->concept_chagrin_documentary_film_festival;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_chagrin_documentary_film_festival;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Международный фестиваль документального кино.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О Чагринском фестивале документального кино)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_chagrin_documentary_film_festival;;
+        *);;
+*);;
+
+illustration->...
+(*
+    ->rrel_key_sc_element: concept_chagrin_documentary_film_festival;;
+	=>nrel_main_idtf:
+		[Рис. (Чагринский фестиваль документального кино)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/chagrin.png"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;

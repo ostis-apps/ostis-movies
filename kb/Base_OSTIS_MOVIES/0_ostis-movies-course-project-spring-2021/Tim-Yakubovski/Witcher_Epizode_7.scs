@@ -1,0 +1,255 @@
+concept_the_witcher_episode_7_before_a_fall
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Ведьмак: Перед падением] 
+(* <- lang_ru;; *); 
+[The Witcher: Before A Fall] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ведьмак: Перед падением)](*<-lang_ru;;*);
+[Description (The Witcher: Before A Fall)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Witcher_episode_7_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Witcher_episode_7_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+
+=>nrel_tag_line: ["Перед падением"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Before A Fall»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Mark_Jobst; 
+=>nrel_producer:Sean_Declan_De_Barra;Michel_Ostrowski; 
+=>nrel_production_country: USA;Poland;Africa;Australia;
+=>nrel_cameraman: Douglas_Slocombe; 
+=>nrel_editor: Michael_Kahn; 
+=>nrel_genre:concept_adventure;concept_fantasy;concept_dramma;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2019
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 54
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 490422646
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Geralt_of_Rivia;; 
+->character_Jaskier;; 
+->character_Yennifer;;
+->character_Cirilla;; 
+->character_Cahir;;       
+*); 
+=>nrel_age_rating: concept_PG;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ведьмак: Перед падением)](*<-lang_ru;;*);
+		[Pic. (The Witcher: Before A Fall))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_The_Witcher.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Geralt_of_Rivia
+=> nrel_main_idtf: 
+[ Ведьмак ] (* <-lang_ru;; *); 
+[ Withcer ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Ведьмак )] (* <-lang_ru;; *); 
+[Description of character(Witcher)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Geralt_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Geralt_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Геральт )](*<-lang_ru;;*); 
+[Pic. (Gerald)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Geralt.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Yennifer
+=> nrel_main_idtf: 
+[ Йеннифер ] (* <-lang_ru;; *); 
+[ Yennifer ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Йеннифер )] (* <-lang_ru;; *); 
+[Description of character(Yennifer)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Yennifer_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Yennifer_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Йеннифер )](*<-lang_ru;;*); 
+[Pic. (Yennifer)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Yennifer.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+character_Jaskier
+=> nrel_main_idtf: 
+[ Лютик ] (* <-lang_ru;; *); 
+[ Jaskier ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Лютик )] (* <-lang_ru;; *); 
+[Description of character(Jaskier)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Jaskier_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Jaskier_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Лютик )](*<-lang_ru;;*); 
+[Pic. (Jaskier)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Jaskier.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+character_Cirilla
+=> nrel_main_idtf: 
+[ Цирилла ] (* <-lang_ru;; *); 
+[ Сirirlla ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Цирилла )] (* <-lang_ru;; *); 
+[Description of character(Cirilla)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Cirilla_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Cirilla_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Цирилла )](*<-lang_ru;;*); 
+[Pic. (Cirilla)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Cirilla.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+character_Cahir
+=> nrel_main_idtf: 
+[ Кагыр ] (* <-lang_ru;; *); 
+[ Сahir ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Кагыр )] (* <-lang_ru;; *); 
+[Description of character(Cahir)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Cahir_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Cahir_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Кагыр )](*<-lang_ru;;*); 
+[Pic. (Cahir)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Cahir.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+Mark_Jobst
+  => nrel_main_idtf: 
+            [Марк Джобст] (* <-lang_ru;; *);
+		  [Mark Jobst] (* <-lang_en;; *);;
+
+Michel_Ostrowski
+  => nrel_main_idtf: 
+            [Майкл Островский] (* <-lang_ru;; *);
+		  [Michel Ostrowski] (* <-lang_en;; *);;
+
+Declan_De_Barra
+  => nrel_main_idtf: 
+            [Деклан Де Барра] (* <-lang_ru;; *);
+		  [Declan De Barra] (* <-lang_en;; *);;
+
+Michael_Kahn
+  => nrel_main_idtf: 
+            [Майкл Кан] (* <-lang_ru;; *);
+		  [Michael Kahn] (* <-lang_en;; *);;
+
+Douglas_Slocombe
+  => nrel_main_idtf: 
+            [Дуглас Слокомб] (* <-lang_ru;; *);
+		  [Douglas_Slocombe] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+Poland
+  => nrel_main_idtf: 
+            [Польша] (* <-lang_ru;; *);
+		  [Poland] (* <-lang_en;; *);;
+Africa
+  => nrel_main_idtf: 
+            [Африка] (* <-lang_ru;; *);
+		  [Africa] (* <-lang_en;; *);;
+
+
+Australia
+  => nrel_main_idtf: 
+            [Австралия] (* <-lang_ru;; *);
+		  [Australia] (* <-lang_en;; *);;
+
+
+

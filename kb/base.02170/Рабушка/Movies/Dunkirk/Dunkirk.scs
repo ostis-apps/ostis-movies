@@ -1,0 +1,93 @@
+Dunkirk <- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Дюнкерк](* <- lang_ru;;*);
+	[Dunkirk](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дюнкерк)](*<-lang_ru;;*);
+		[Description (Dunkirk)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Dunkirk_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Dunkirk_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дюнкерк)](*<-lang_ru;;*);
+		[Pic. (Dunkirk)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Dunkirk.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["Событие, которое изменило мир"] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«In the beginning...»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+	
+
+=>nrel_main_producer: christopher_nolan;
+=>nrel_screen_writer: christopher_nolan;
+=>nrel_production_country: USA;
+=>nrel_production_country: France;
+=>nrel_production_country: Netherlands;
+=>nrel_production_country: Great_Britan;
+=>nrel_film_critic_rating: 7.28;
+=>nrel_genre: concept_drama;
+=>nrel_genre: concept_war_film;
+=>nrel_genre: concept_historical_film;
+
+=>nrel_age_rating: concept_PG16;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_historical_film;
+=>nrel_keywords: concept_war_film;;
+
+
+Dunkirk => nrel_actor : Harry_Styles; tom_hardy; christopher_nolan;;
+
+concept_calendar_date -> 13_07_2017;;
+13_07_2017 => nrel_main_idtf : [13 июля 2017](*<-lang_ru;;*);;
+13_07_2017 => nrel_main_idtf : [13 July 2017](*<-lang_en;;*);;
+Dunkirk => nrel_release_date: 13_07_2017;;
+
+
+value -> 1_46;;
+1_46 => nrel_main_idtf : [1 час и 46 минут](*<-lang_ru;;*);;
+1_46 => nrel_main_idtf : [1 hour and 46 minutes](*<-lang_en;;*);;
+Dunkirk=> nrel_duration_of_showing : 1_46;;
+
+value -> 525_245_546;;
+525_245_546 => nrel_main_idtf : [525 245 546$](*<-lang_ru;;*);;
+525_245_546 => nrel_main_idtf : [525 245 546$](*<-lang_en;;*);;
+Dunkirk <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 525_245_546;;   
+*);;
+
+Netherlands<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Нидерланды](* <- lang_ru;;*);
+	[Netherlands](* <- lang_en;;*);;
+

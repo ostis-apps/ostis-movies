@@ -1,0 +1,173 @@
+concept_hellraiser4
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Восставший из ада: 4] 
+(* <- lang_ru;; *); 
+[Hellraiser IV: Bloodline] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Восставший из ада 4)](*<-lang_ru;;*);
+[Description (Hellraiser IV: Bloodline)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Hellraiser4_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Hellraiser4_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["В этом году прошлое, настоящее и будущее встретятся на перекрестке ада."] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«This year, the past, the present and the future will all meet at the crossroads of hell»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Kevin_Yagher; 
+=>nrel_producer: Clive_Barker ; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Gerry_Lively; 
+=>nrel_editor: Peter_Atkins; 
+=>nrel_genre:concept_horror;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1988
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 85
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 9336886
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Lead_Cenobite;; 
+->character_Angelique_Cenobite;; 
+->character_Bloodline_Twins_Cenobite;; 
+->character_Chatter_Beast_Cenobite;; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Восставший из ада 4)](*<-lang_ru;;*);
+		[Pic. (Hellraiser IV: Bloodline))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Hellraiser4.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Chatter_Beast_Cenobite
+=> nrel_main_idtf: 
+[ Стучащий Зубами Зверь ] (* <-lang_ru;; *); 
+[ Chatter Beast Cenobite ] (* <-lang_en;; *); 
+<- character_Lead_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Стучащий Зубами Зверь )] (* <-lang_ru;; *); 
+[Description of character(Chatter Beast Cenobite)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Chatter_Beast_Cenobite_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Chatter_Beast_Cenobite_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Кровные Близнецы )](*<-lang_ru;;*); 
+[Pic. ( Bloodline Twins )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Chatter_Beast_Cenobite.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Bloodline_Twins_Cenobite
+=> nrel_main_idtf: 
+[ Кровные Близнецы ] (* <-lang_ru;; *); 
+[ Bloodline Twins ] (* <-lang_en;; *); 
+<- character_Lead_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Кровные Близнецы )] (* <-lang_ru;; *); 
+[Description of character(Bloodline Twins)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Bloodline_Twins_Cenobite_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Bloodline_Twins_Cenobite_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Кровные Близнецы )](*<-lang_ru;;*); 
+[Pic. ( Bloodline Twins )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Bloodline_Twins_Cenobite.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Angelique_Cenobite
+=> nrel_main_idtf: 
+[ Синобит Анджелика ] (* <-lang_ru;; *); 
+[ Angelique Cenobite ] (* <-lang_en;; *); 
+<- character_Lead_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Синобит Анджелика )] (* <-lang_ru;; *); 
+[Description of character(Angelique Cenobite)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_AngeliaueCenobite_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_AngeliaueCenobite_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Анжелика )](*<-lang_ru;;*); 
+[Pic. ( Angelique )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Angelique.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;

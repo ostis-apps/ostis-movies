@@ -1,0 +1,49 @@
+concept_makedox_film_festival
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Международный фестиваль документального кино "MakeDox"]
+	(* <- lang_ru;; *);
+	[International Documentary Film Festival MakeDox]
+	(* <- lang_en;; *);;
+
+concept_makedox_film_festival<=nrel_inclusion: concept_documentary_film_festivals;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_makedox_film_festival;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Международный фестиваль документального кино "MakeDox" - кинофестиваль, проходящий в Македонии.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Международный фестиваль документального кино "MakeDox")](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_makedonia;;
+->concept_makedox_film_festival;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_makedox_film_festival;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Один из самых значимых фестивалей документального кино на Балканах. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О Международном фестивале документального кино "MakeDox")](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_makedox_film_festival;;
+        *);;
+*);;
+
+illustration->...
+(*
+    ->rrel_key_sc_element: concept_makedox_film_festival;;
+	=>nrel_main_idtf:
+		[Рис. (Международный фестиваль документального кино "MakeDox")](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/makedox.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

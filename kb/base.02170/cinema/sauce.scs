@@ -1,0 +1,40 @@
+concept_sauce <- sc_node_not_relation;
+
+=> nrel_main_idtf:[соус] (* <- lang_ru;; *);
+=> nrel_idtf:[sauce] (* <- lang_en;; *);
+
+->studied_object_class: concept_garlic_sauce;
+->studied_object_class: concept_cheese_sauce;
+->studied_object_class: concept_ketchup;
+->studied_object_class: concept_mexican_sauce;
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (соус)](* <- lang_ru;; *);
+		[Def. (sauce)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_sauce;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_sauce">Соус</sc_element></b> это жидкая, кремовая или полутвердая пища, подаваемая или используемая для приготовления других продуктов.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_sauce">Sauce</sc_element></b> is a liquid, cream, or semi-solid food, served on or used in preparing other foods. ](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (соус)](*<-lang_ru;;*);
+		[Pic. (sauce)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/sauce.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

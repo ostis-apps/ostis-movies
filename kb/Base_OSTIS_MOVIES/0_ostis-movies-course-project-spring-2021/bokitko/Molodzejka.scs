@@ -1,0 +1,88 @@
+Molodzejka
+=> nrel_main_idtf:
+	[Молодежка]
+	(* <- lang_ru;;	*);
+	[Molodzejka]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_ctc;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сериал Молодежка)](*<-lang_ru;;*);
+		[Description (Series Molodzejka)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_series
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Molodzejka_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Molodzejka_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Molodzejka)](*<-lang_ru;;*);
+		[Pic. (Molodzejka)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Molodzejka.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Russia;
+=> nrel_film_critic_rating : 8.5;
+=>nrel_keywords: hockey;
+=>nrel_keywords: sport;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Sergey_Nikiforov;
+=> nrel_producer : Fedor_Bondarchuk;
+=> nrel_screenwriter : Fedor_Bondarchuk;;	
+
+concept_calendar_date -> 25_12_2012;;
+25_12_2012 => nrel_main_idtf : [25.12.2012](*<-lang_ru;;*);;
+25_12_2012 => nrel_main_idtf : [25.12.2012](*<-lang_en;;*);;
+Molodzejka => nrel_release_date : 25_12_2012;;
+
+
+value -> 0_46;;
+0_46 => nrel_main_idtf : [46 минут](*<-lang_ru;;*);;
+0_46 => nrel_main_idtf : [46 minutes](*<-lang_en;;*);;
+Molodzejka=> nrel_duration_of_showing : 0_46;;
+
+value -> 5_000_000;;
+5_000_000 => nrel_main_idtf : [5 000 000$](*<-lang_ru;;*);;
+5_000_000 => nrel_main_idtf : [5 000 000$](*<-lang_en;;*);;
+Molodzejka <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 5_000_000;;   
+*);;
+
+
+Molodzejka => nrel_take_place: Russia;
+=> nrel_film_director: Fedor_Bondarchuk;;
+
+Russia <-concept_human;
+=> nrel_main_idtf:
+	[Россия]
+	(* <- lang_ru;;	*);
+	[Russia]
+	(* <- lang_en;;	*);;
+
+
+Sergey_Nikiforov <-concept_human;
+=> nrel_main_idtf:
+	[Сергей Никифоров]
+	(* <- lang_ru;;	*);
+	[Sergey_Nikiforov]
+	(* <- lang_en;;	*);;
+
+
+Fedor_Bondarchuk <-concept_human;
+=> nrel_main_idtf:
+	[Федор Бондарчук]
+	(* <- lang_ru;;	*);
+	[Fedor_Bondarchuk]
+	(* <- lang_en;;	*);;

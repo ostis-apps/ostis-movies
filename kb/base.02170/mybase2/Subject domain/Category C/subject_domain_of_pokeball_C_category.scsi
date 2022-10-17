@@ -1,0 +1,22 @@
+subject_domain_of_pokeball_C_category
+
+=> nrel_main_idtf:
+	[Предметная область покболов категории C]
+	(*<-lang_ru;;*);
+	[Subject domain of pokeball category C]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_pokeball_category_C;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_pokeball_of_eighth_generation;
+    	
+-> rrel_explored_relation:
+	nrel_place_of_use;
+
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

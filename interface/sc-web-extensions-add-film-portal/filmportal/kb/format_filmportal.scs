@@ -1,0 +1,27 @@
+format_filmportal
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf:
+	[формат компонентa]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[format of UI component]
+	(*
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/html];;
+
+filmportal_code <- ui_external_languages;
+=> nrel_main_idtf:
+	[Компонент добавления кинопортала]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[UI component for adding film portal]
+	(*
+	<- lang_en;;
+	*);;

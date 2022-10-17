@@ -1,0 +1,49 @@
+concept_human -> Richard_Marquand;;
+
+Richard_Marquand
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ричард Маркванд]
+	(* <- lang_ru;;	*);
+	[Richard Marquand]
+	(* <- lang_en;;	*);;
+	
+Richard_Marquand <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ричард Маркванд)](*<-lang_ru;;*);
+		[Description (Richard Marquand)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_director
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Richard_Marquand_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Richard_Marquand_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1937;;
+Richard_Marquand=>nrel_date_of_birth: 1937;;
+1937=>nrel_main_idtf:[1937 год](*<-lang_ru;;*);;
+1937=>nrel_main_idtf:[year of 1937](*<-lang_en;;*);;
+
+concept_calendar_date->1970;;
+Richard_Marquand=>nrel_career_start_date: 1970;;
+1970=>nrel_main_idtf:[1970 год](*<-lang_ru;;*);;
+1970=>nrel_main_idtf:[year of 1970](*<-lang_en;;*);;
+
+Richard_Marquand =>nrel_cityzenship: GB;
+<-concept_film_director;;
+
+GB
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Великобритания]
+	(* <- lang_ru;;	*);
+	[Great Britain]
+	(* <- lang_en;;	*);;
+	

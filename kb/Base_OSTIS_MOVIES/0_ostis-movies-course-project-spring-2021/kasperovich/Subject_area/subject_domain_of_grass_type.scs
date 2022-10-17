@@ -1,0 +1,29 @@
+subject_domain_of_pokemon_grass_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов травяного типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon grass type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_grass_type;
+
+-> rrel_explored_relation:
+    nrel_bullet_seed_attack;
+    nrel_energy_ball;
+    nrel_giga_drain_attack;
+    nrel_grass_knot_attack;
+    nrel_leaf_blade_attack;
+    nrel_mega_drain_attack;
+    nrel_petal_blizzard_attack;
+    nrel_power_whip_attack;
+    nrel_razor_leaf_attack;
+    nrel_seed_bomb_attack;
+    nrel_solar_beam_attack        ;
+    nrel_vine_whip_attack        ;
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

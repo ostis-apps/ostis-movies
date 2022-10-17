@@ -1,0 +1,25 @@
+section_subject_domain_of_pokemon_rock_type
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покемонов каменного типа]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokemon rock type]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покемонов каменного типа.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+
+	
+-> rrel_key_sc_element: 
+    nrel_ancient_power_attack     ;   
+    nrel_power_gem_attack        ;
+    nrel_rock_blast_attack        ;
+    nrel_rock_slide_attack        ;
+    nrel_rock_throw_attack        ;
+    nrel_rock_tomb_attack        ;
+    nrel_stone_edge_attack        ;;
+
+section_subject_domain_of_pokemon_rock_type   = [*^"file://subject_domain_of_rock_type.scs"*];;

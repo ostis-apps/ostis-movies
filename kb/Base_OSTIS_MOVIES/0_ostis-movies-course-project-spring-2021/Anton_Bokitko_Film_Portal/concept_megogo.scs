@@ -1,0 +1,47 @@
+concept_megogo <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Мегого] (* <- lang_ru;; *);
+=> nrel_main_idtf:[Megogo] (* <- lang_en;; *);
+
+=> nrel_idtf:[Megogo] (* <- lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Мегого)](*<-lang_ru;;*);
+		[Def. (Megogo)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_portal;        
+        concept_service;
+        concept_internet_service;
+        concept_subscription;
+        concept_library_with_licensed_content;
+        concept_paid_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_megogo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_megogo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мегого)](*<-lang_ru;;*);
+		[Pic. (Megogo)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_megogo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_megogo
+=>nrel_foundation_year:  04.06.2012;
+=>nrel_founder: concept_Vladimir_Borovik;
+=>nrel_site:[https://www.megogo.ru//](* <- lang_en;; *);
+=>nrel_count_films: 10000;;

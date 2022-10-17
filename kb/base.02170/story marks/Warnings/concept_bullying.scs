@@ -1,0 +1,21 @@
+concept_bullying
+<= nrel_inclusion: concept_warning;
+=> nrel_main_idtf: 
+	[буллинг] (*<- lang_ru;;*);
+	[bullying] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. буллинг] (*<- lang_ru;;*);
+		[Def. bullying] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_bullying_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_bullying_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       concept_moviegoer;
+       concept_character
+    };;
+*);;

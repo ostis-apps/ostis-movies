@@ -1,0 +1,26 @@
+concept_relationships
+
+=> nrel_main_idtf: 
+	[взаимоотношения] (*<- lang_ru;;*);
+	[relationships] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. взаимоотношения] (*<- lang_ru;;*);
+		[Def. relationships] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_relationships_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_relationships_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline
+    };;
+*);
+
+=> nrel_inclusion:
+	concept_from_enemies_to_lovers; 
+	concept_love_at_first_sight;
+	concept_love_polygon;
+	concept_rivalry;;

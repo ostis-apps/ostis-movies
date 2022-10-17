@@ -1,0 +1,51 @@
+Lee_Jieun
+<-concept_human;
+=> nrel_main_idtf : [Ли Джи Ын](*<-lang_ru;;*);
+=> nrel_main_idtf : [Lee Ji-eun](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ли Джи Ын)](*<-lang_ru;;*);
+		[Description (Lee Ji-eun)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Lee_Jieun_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Lee_Jieun_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ли Джи Ын)](*<-lang_ru;;*);
+		[Pic. (Lee Ji-eun)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Lee_Jieun.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 16_05_1993;
+=> nrel_place_of_birth : Seoul; 
+=> nrel_career_start_date : 2008;
+
+<= nrel_main_actor : The_Produsers;;
+
+16_05_1993
+<- concept_calendar_date;
+=> nrel_main_idtf : [16 мая 1993](*<-lang_ru;;*);
+=> nrel_main_idtf : [May 16, 1993](*<-lang_en;;*);;
+
+2008
+<- concept_calendar_date;
+=> nrel_main_idtf : [2008](*<-lang_en;;*);
+=> nrel_main_idtf : [2008](*<-lang_ru;;*);;

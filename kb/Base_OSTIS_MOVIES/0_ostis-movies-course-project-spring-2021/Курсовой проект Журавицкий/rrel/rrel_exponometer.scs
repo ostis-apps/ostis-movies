@@ -1,0 +1,46 @@
+rrel_exponometer <- sc_node_role_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+
+=> nrel_main_idtf:
+    [exponometer*](*<- lang_en;;*);
+    [экспонометр*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (экспонометр*)](*<- lang_ru;;*);
+        [Def. (exponometer*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/rrel_exponometer_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/rrel_exponometer_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+=> nrel_first_domain: concept_cinema_camera;
+=> nrel_second_domain: concept_mechanism;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_cinema_camera;;
+        -> concept_mechanism;;
+    *);;
+*);
+
+
+
+<- rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (экспонометр*)](*<-lang_ru;;*);
+		    [Pic. (exponometer*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/exponometer.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

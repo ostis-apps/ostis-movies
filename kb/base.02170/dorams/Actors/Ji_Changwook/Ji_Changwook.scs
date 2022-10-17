@@ -1,0 +1,55 @@
+Ji_Changwook
+<-concept_human;
+=> nrel_main_idtf : [Чжи Чан Ук](*<-lang_ru;;*);
+=> nrel_main_idtf : [Ji Chang-wook](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Чжи Чан Ук)](*<-lang_ru;;*);
+		[Description (Ji Chang-wook)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	
+<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Ji_Changwook_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Ji_Changwook_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чжи Чан Ук)](*<-lang_ru;;*);
+		[Pic. (Ji Chang-wook)](*<-lang_en;;*);;
+		
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Ji_Changwook.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+		
+*);
+
+
+=> nrel_date_of_birth : 05_07_1987;
+=> nrel_place_of_birth : Anyang;
+=> nrel_career_start_date : 2006;
+
+<= nrel_main_actor : Empress_Ki;
+<= nrel_main_actor : Suspicious_Partner;;
+
+05_07_1987
+<- concept_calendar_date;
+=> nrel_main_idtf : [5 июля 1987](*<-lang_ru;;*);
+=> nrel_main_idtf : [July 5, 1987](*<-lang_en;;*);;
+
+2006
+<- concept_calendar_date;
+=> nrel_main_idtf : [2006](*<-lang_en;;*);
+=> nrel_main_idtf : [2006](*<-lang_ru;;*);;

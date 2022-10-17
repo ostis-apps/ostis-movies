@@ -1,0 +1,33 @@
+concept_stand <- sc_node_not_relation;
+
+=> nrel_main_idtf:[подставка] (* <- lang_ru;; *);
+=> nrel_idtf:[stand] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (подставка)](* <- lang_ru;; *);
+		[Def. (stand)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_stand;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_stand">Подставка</sc_element></b> предмет, который подставляется подо что-нибудь, на который ставится что-нибудь. ](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_stand">Stand</sc_element></b> is an object that is substituted under something, on which something is placed.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (подставка)](*<-lang_ru;;*);
+		[Pic. (stand)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/stand.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

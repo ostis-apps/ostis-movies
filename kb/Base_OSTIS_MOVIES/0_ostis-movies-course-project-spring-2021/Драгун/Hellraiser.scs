@@ -1,0 +1,328 @@
+concept_hellraiser
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Восставший из ада] 
+(* <- lang_ru;; *); 
+[Hellraiser] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Восставший из ада)](*<-lang_ru;;*);
+[Description (Hellraiser)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Hellraiser_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Hellraiser_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+
+=>nrel_tag_line: ["Он уничтожит вашу душу"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«He will destroy your soul»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Clive_Barker; 
+=>nrel_producer:Mark_Armstrong; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Robin_Vidgeon; 
+=>nrel_editor: Richard_Marden; 
+=>nrel_genre:concept_horror;
+=>nrel_be_awarded:{Saturn}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1987
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 93
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 14564027
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Larry_Cotton;; 
+->character_Julia_Cotton;; 
+->character_Kirsty_Cotton;; 
+->character_Frank_Cotton;; 
+->character_Lead_Cenobite;; 
+->character_Chattering_Cenobite;; 
+->character_Butterball_Cenobite;; 
+->character_Female_Cenobite;; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Восставший из ада)](*<-lang_ru;;*);
+		[Pic. (Hellraiser))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Hellraiser.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Kirsty_Cotton
+=> nrel_main_idtf: 
+[ Кёрсти Коттон ] (* <-lang_ru;; *); 
+[ Kirsty Cotton ] (* <-lang_en;; *); 
+<- character_Larry_Cotton; 
+<- character_Julia_Cotton; 
+<- character_Frank_Cotton; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Кёрсти Коттон )] (* <-lang_ru;; *); 
+[Description of character(Kirsty Cotton)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Kirsty_Cotton_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Kirsty_Cotton_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Кёрсти Коттон )](*<-lang_ru;;*); 
+[Pic. ( Kirsty Cotton )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Kirsty_Cotton.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Larry_Cotton
+=> nrel_main_idtf: 
+[ Ларри Коттон ] (* <-lang_ru;; *); 
+[ Larry Cotton ] (* <-lang_en;; *); 
+<- character_Kirsty_Cotton; 
+<- character_Julia_Cotton; 
+<- character_Frank_Cotton; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Ларри Коттон )] (* <-lang_ru;; *); 
+[Description of character(Larry Cotton)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Larry_Cotton_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Larry_Cotton_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Ларри Коттон )](*<-lang_ru;;*); 
+[Pic. ( Larry Cotton )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Larry_Cotton.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Julia_Cotton
+=> nrel_main_idtf: 
+[ Джулия Коттон ] (* <-lang_ru;; *); 
+[ Julia Cotton ] (* <-lang_en;; *); 
+<- character_Kirsty_Cotton; 
+<- character_Larry_Cotton; 
+<- character_Frank_Cotton; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Джулия Коттон )] (* <-lang_ru;; *); 
+[Description of character(Julia Cotton)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Julia_Cotton_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Julia_Cotton_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Джулия Коттон )](*<-lang_ru;;*); 
+[Pic. ( Julia Cotton )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Julia_Cotton.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Frank_Cotton
+=> nrel_main_idtf: 
+[ Фрэнк Коттон ] (* <-lang_ru;; *); 
+[ Frank Cotton ] (* <-lang_en;; *); 
+<- character_Kirsty_Cotton; 
+<- character_Larry_Cotton; 
+<- character_Julia_Cotton; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Фрэнк Коттон )] (* <-lang_ru;; *); 
+[Description of character(Frank Cotton)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Frank_Cotton_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Frank_Cotton_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Фрэнк Коттон )](*<-lang_ru;;*); 
+[Pic. ( Frank Cotton )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Frank_Cotton.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+
+character_Lead_Cenobite
+=> nrel_main_idtf: 
+[ Булавочноголовый ] (* <-lang_ru;; *); 
+[ Pinhead ] (* <-lang_en;; *); 
+<- character_Chattering_Cenobite; 
+<- character_Butterball_Cenobite; 
+<- character_Female_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Пинхед )] (* <-lang_ru;; *); 
+[Description of character(Pinhead)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Pinhead_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Pinhead_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Пинхед )](*<-lang_ru;;*); 
+[Pic. ( Pinhead )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Pinhead.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Chattering_Cenobite
+=> nrel_main_idtf: 
+[Стучащий Зубами] (* <-lang_ru;; *); 
+[Chatterer] (* <-lang_en;; *); 
+<-character_Butterball_Cenobite; 
+<-character_Female_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Стучащий Зубами)] (* <-lang_ru;; *); 
+[Description of character(Chatterer)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Chattrer_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Chattrer_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Стучащий Зубами)](*<-lang_ru;;*); 
+[Pic. (Chatterer)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Chatterer.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Butterball_Cenobite
+        => nrel_main_idtf: 
+            [Толстяк] (* <-lang_ru;; *);
+		  [Butterball] (* <-lang_en;; *);
+        <- rrel_key_sc_element:...
+            (*
+                => nrel_main_idtf:
+                    [Описание персонажа(Толстяк)] (* <-lang_ru;; *);
+				[Description of character( Butterball)](*<-lang_en;;*);;
+                <= nrel_sc_text_translation: ...
+                    (*
+                        ->rrel_example:"file://HTML/concept_character_Butterball_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+				    ->rrel_example: "file://HTML/concept_character_Butterball_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+                    *);;
+		<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Толстяк)](*<-lang_ru;;*);
+		[Pic. (Butterball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_character_Butterball.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+            *);;
+			
+			
+			
+character_Female_Cenobite
+=> nrel_main_idtf: 
+[Женщина Сенобит] (* <-lang_ru;; *); 
+[Female Cenobite] (* <-lang_en;; *); 
+<-character_Butterball_Cenobite; 
+<-character_Female_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Женщина Сенобит)] (* <-lang_ru;; *); 
+[Description of character(Female Cenobite)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Female_Cenobite_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Female_Cenobite_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Женщина Сенобит)](*<-lang_ru;;*); 
+[Pic. (Female Cenobite)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Female_Cenobite.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+concept_hellraiser => nrel_actor : Andrew_Robinson;;
+concept_hellraiser => nrel_actor : Ashley_Laurence;;
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn
+ => nrel_main_idtf: 
+            [Сатурн, 1987 год] (* <-lang_ru;; *);
+		  [Saturn, 1987] (* <-lang_en;; *);;
+

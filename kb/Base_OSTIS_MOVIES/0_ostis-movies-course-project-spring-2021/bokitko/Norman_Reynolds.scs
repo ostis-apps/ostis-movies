@@ -1,0 +1,50 @@
+concept_human -> Norman_Reynolds;;
+
+Norman_Reynolds
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Норман Рейнолдс]
+	(* <- lang_ru;;	*);
+	[Norman Reynolds]
+	(* <- lang_en;;	*);;
+	
+Norman_Reynolds <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Норман Рейнолдс)](*<-lang_ru;;*);
+		[Description (Norman Reynolds)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_production_designer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Norman_Reynolds_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Norman_Reynolds_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1934;;
+Norman_Reynolds=>nrel_date_of_birth: 1934;;
+1934=>nrel_main_idtf:[1934 год](*<-lang_ru;;*);;
+1934=>nrel_main_idtf:[year of 1934](*<-lang_en;;*);;
+
+concept_calendar_date->1974;;
+Norman_Reynolds=>nrel_career_start_date: 1974;;
+1974=>nrel_main_idtf:[1974 год](*<-lang_ru;;*);;
+1974=>nrel_main_idtf:[year of 1974](*<-lang_en;;*);;
+
+Norman_Reynolds =>nrel_cityzenship: GB;
+=>nrel_production_link: concept_film_studio_lucasfilm;
+<-concept_production_designer;;
+
+GB
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Великобритания]
+	(* <- lang_ru;;	*);
+	[Great Britain]
+	(* <- lang_en;;	*);;
+

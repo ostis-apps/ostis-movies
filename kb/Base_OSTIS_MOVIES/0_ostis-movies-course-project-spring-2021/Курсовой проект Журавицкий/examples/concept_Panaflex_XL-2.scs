@@ -1,0 +1,151 @@
+concept_Panaflex_XL_2
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Moviecam Compact MkII]
+	(* <- lang_ru;;*);
+	[Moviecam Compact MkII]
+	(* <- lang_en;;*);
+
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Moviecam Compact MkII)](*<-lang_ru;;*);
+		[Description (Moviecam Compact MkII)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cinema_camera
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Moviecam_Compact_MkII_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Moviecam_Compact_MkII_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Moviecam Compact MkII)](*<-lang_ru;;*);
+		[Pic. (Moviecam Compact MkII)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Moviecam_Compact_MkII.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_tripod_cinema_camera;
+
+=> nrel_picture_format: Super35;
+
+=> nrel_frame_window_length:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 25
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_frame_window_width:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 18
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_minimal_filming_frequency:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_frames_per_second: 5
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_maximum_filming_frequency:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_frames_per_second: 50
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_length:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 180
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_width:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 160
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_height:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 300
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_weight:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_kilogram: 6
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);
+
+=>nrel_year_of_issue:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 2006
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=>nrel_manufacturer: Austria;;

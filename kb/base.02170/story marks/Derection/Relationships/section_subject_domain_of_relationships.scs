@@ -1,0 +1,25 @@
+section_subject_domain_of_relationships
+<- section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область взаимоотношений]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of relationships]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий взаимоотношения персонажей (сюжетные метки)]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element:
+	subject_domain_of_relationships;
+    concept_relationships;	
+    concept_from_enemies_to_lovers; 
+	concept_love_at_first_sight;
+	concept_love_polygon;
+	concept_rivalry;;
+
+section_subject_domain_of_relationships = [*^"file://subject_domain_of_relationships.scsi"*];;
+

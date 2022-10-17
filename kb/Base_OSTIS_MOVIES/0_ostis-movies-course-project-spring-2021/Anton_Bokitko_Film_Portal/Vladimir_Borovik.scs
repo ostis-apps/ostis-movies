@@ -1,0 +1,41 @@
+Vladimir_Borovik
+=>nrel_main_idtf:
+    [Владимир Боровик](*<-lang_ru;;*);
+    [Vladimir Borovik](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+    <-definition;;
+	=>nrel_main_idtf:
+		[Описание (Владимир Боровик)](*<-lang_ru;;*);
+		[Description (Vladimir Borovik)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_founder_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Vladimir_Borovik_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Vladimir_Borovik_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Владимир Боровик)](*<-lang_ru;;*);
+		[Pic. (Vladimir Borovik)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Vladimir_Borovik.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1980;;
+Vladimir_Borovik=>nrel_date_of_birth: 1980;;
+1966=>nrel_main_idtf:[1980 год](*<-lang_ru;;*);;
+1966=>nrel_main_idtf:[year of 1980](*<-lang_en;;*);;
+
+Vladimir_Borovik
+=>nrel_cityzenship: Russia;
+<-concept_founder_film_portal;;

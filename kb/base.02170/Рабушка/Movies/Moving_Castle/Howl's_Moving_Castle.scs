@@ -1,0 +1,82 @@
+Howls_Moving_Castle<-sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Ходячий замок](* <- lang_ru;;*);
+	[Howl's Moving Castle](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ходячий замок)](*<-lang_ru;;*);
+		[Description (Howl's Moving Castle)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon;
+        concept_anime
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Howl's_Moving_Castle_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Howl's_Moving_Castle_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ходячий замок)](*<-lang_ru;;*);
+		[Pic. (Howl's Moving Castle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Howl's_Moving_Castle.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+
+=>nrel_main_producer: Hayao_Miyazaki;
+=>nrel_screen_writer: Hayao_Miyazaki;
+=>nrel_production_country: Japan;
+=>nrel_film_critic_rating: 8.28;
+=>nrel_genre: concept_anime;
+=>nrel_genre: concept_fantasy;
+=>nrel_genre: concept_drama;
+=>nrel_genre: concept_adventure;
+=>nrel_genre: concept_melodrama;
+
+=>nrel_age_rating: concept_PG6;
+
+=>nrel_film_studio: concept_Ghibli_Studio;
+
+=>nrel_keywords: concept_anime;
+=>nrel_keywords: concept_adventure;
+=>nrel_keywords: concept_melodrama;
+=>nrel_keywords: concept_cartoon;;
+
+
+concept_calendar_date -> 05_09_2004;;
+05_09_2004 => nrel_main_idtf : [5 сентября 2004](*<-lang_ru;;*);;
+05_09_2004 => nrel_main_idtf : [5 September 2004](*<-lang_en;;*);;
+Howls_Moving_Castle => nrel_release_date: 05_09_2004;;
+
+
+value -> 1_59;;
+1_59 => nrel_main_idtf : [1 час и 59 минут](*<-lang_ru;;*);;
+1_59 => nrel_main_idtf : [1 hour and 59 minutes](*<-lang_en;;*);;
+Howls_Moving_Castle=> nrel_duration_of_showing : 1_59;;
+
+value -> 236_214_446;;
+236_214_446 => nrel_main_idtf : [236 214 446$](*<-lang_ru;;*);;
+236_214_446 => nrel_main_idtf : [236 214 446$](*<-lang_en;;*);;
+Howls_Moving_Castle <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 236_214_446;;   
+*);;
+

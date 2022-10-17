@@ -1,0 +1,33 @@
+concept_drinking_water <- sc_node_not_relation;
+
+=> nrel_main_idtf:[питьевая вода] (* <- lang_ru;; *);
+=> nrel_idtf:[drinking_water] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (питьевая вода)](* <- lang_ru;; *);
+		[Def. (drinking_water)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_drinking_water;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_drinking_water">Питьевая вода</sc_element></b> это вода, которая используется для питья или приготовления пищи; Питьевая вода – это вода, которую можно безопасно использовать в качестве питьевой воды.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_drinking_water">Drinking water</sc_element></b> is water that is used in drink or food preparation; potable water is water that is safe to be used as drinking water.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (питьевая вода)](*<-lang_ru;;*);
+		[Pic. (drinking_water)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/drinking_water.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,41 @@
+Ruslan_Kaftanatii
+=>nrel_main_idtf:
+    [Руслан Кафтанатий](*<-lang_ru;;*);
+    [Ruslan Kaftanatii](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+    <-definition;;
+	=>nrel_main_idtf:
+		[Описание (Руслан Канафтатий)](*<-lang_ru;;*);
+		[Description (Ruslan Kaftanatii)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_founder_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ruslan_Kaftanatii_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ruslan_Kaftanatii_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Руслан Канафтатий)](*<-lang_ru;;*);
+		[Pic. (Ruslan Kaftanatii)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Ruslan_Kaftanatii.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1964;;
+Ruslan_Kaftanatii=>nrel_date_of_birth: 1964;;
+1964=>nrel_main_idtf:[1964 год](*<-lang_ru;;*);;
+1964=>nrel_main_idtf:[year of 1964](*<-lang_en;;*);;
+
+Ruslan_Kaftanatii
+=>nrel_cityzenship: Russia;
+<-concept_founder_film_portal;;

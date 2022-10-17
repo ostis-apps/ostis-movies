@@ -1,0 +1,32 @@
+section_subject_domain_of_pokemon_ghost_type
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покемонов призрачного типа]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokemon ghost type]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покемонов призрачного типа.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element: 
+    concept_pure_ghost_type;
+    concept_half_main_ghost_type;
+    concept_half_secondary_ghost_type;
+
+    nrel_astonish_attack;
+    nrel_hex_attack;
+    nrel_lick_attack;
+    nrel_night_shade_attack;
+    nrel_ominous_wind_attack;
+    nrel_shadow_ball_attack;
+    nrel_shadow_claw_attack;
+    nrel_shadow_punch_attack;  
+    nrel_shadow_sneak_attack;     
+    
+	subject_domain_of_pokemon_ghost_type;;
+
+section_subject_domain_of_pokemon_ghost_type = [*^"file://subject_domain_of_pokemon_ghost_type.scsi"*];;

@@ -1,0 +1,33 @@
+nrel_shadow_claw_attack <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [атака теневой коготь*](*<- lang_ru;;*);
+    [shadow claw attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (атака теневой коготь*)](*<- lang_ru;;*);
+        [Def. (shadow claw attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>Атака теневой коготь</b> - удар когтями, созданными из тьмы. Легко нанести критический урон.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>Shadow claw attack</b> - strike with claws made of darkness. Easy to deal critical damage.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

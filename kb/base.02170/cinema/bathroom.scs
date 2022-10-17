@@ -1,0 +1,58 @@
+subject_domain_of_bathroom_in_cinema
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область санузла в кинотеатре] (*<- lang_ru;;*);
+	[Subject domain area of bathroom in cinema] (*<- lang_en;;*);
+	
+->rrel_maximum_studied_object_class: concept_bathroom;
+
+<= nrel_private_subject_domain: subject_domain_of_cinema_services;
+
+->rrel_not_maximum_studied_object_class: liquid_soap;
+->rrel_not_maximum_studied_object_class: hand_dryed;
+->rrel_not_maximum_studied_object_class: paper_napkins;
+->rrel_not_maximum_studied_object_class: toilet_paper;
+->rrel_not_maximum_studied_object_class: washstand;
+->rrel_not_maximum_studied_object_class: toilet_cubicle;;
+
+concept_bathroom <- sc_node_not_relation;
+
+=> nrel_main_idtf:[санузел] (* <- lang_ru;; *);
+=> nrel_idtf:[bathroom] (* <- lang_en;; *);
+
+->studied_object_class: concept_liquid_soap;
+->studied_object_class: concept_hand_dryed;
+->studied_object_class: concept_paper_napkins;
+->studied_object_class: concept_toilet_paper;
+->studied_object_class: concept_washstand;
+->studied_object_class: concept_toilet_cubicle;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (санузел)](* <- lang_ru;; *);
+		[Def. (bathroom)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_bathroom;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_bathroom">Санузел</sc_element></b> место для санитарных и гигиенических процедур.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_bathroom">Bathroom</sc_element></b> place for sanitary and hygienic procedures.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (санузел)](*<-lang_ru;;*);
+		[Pic. (bathroom)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/bathroom.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

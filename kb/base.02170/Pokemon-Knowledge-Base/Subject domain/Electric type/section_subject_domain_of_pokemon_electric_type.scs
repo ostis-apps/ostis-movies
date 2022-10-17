@@ -1,0 +1,33 @@
+section_subject_domain_of_pokemon_electric_type
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покемонов электрического типа]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokemon electric type]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покемонов электрического типа.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element: 
+    concept_pure_electric_type;
+    concept_half_main_electric_type;
+    concept_half_secondary_electric_type;
+
+    nrel_charge_beam_attack;
+    nrel_discharge_attack;
+    nrel_parabolic_charge_attack;
+    nrel_spark_attack;
+    nrel_thunder_attack;	
+    nrel_thunder_punch_attack;	
+    nrel_thunder_shock_attack;	
+    nrel_thunderbolt_attack;	
+    nrel_volt_switch_attack;	
+    nrel_wild_charge_attack;	
+    nrel_zap_cannon_attack;
+	subject_domain_of_pokemon_electric_type;;
+
+section_subject_domain_of_pokemon_electric_type = [*^"file://subject_domain_of_pokemon_electric_type.scsi"*];;

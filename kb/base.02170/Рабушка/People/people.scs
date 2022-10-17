@@ -1,0 +1,64 @@
+Robert_Pattinson<-concept_human;
+=> nrel_main_idtf:
+	[Роберт Паттинсон](* <- lang_ru;;*);
+	[Robert Pattinson](* <- lang_en;;*);;
+	
+Florence_Pugh<-concept_human;
+=> nrel_main_idtf:
+	[Флоренс Пью](* <- lang_ru;;*);
+	[Florence Pugh](* <- lang_en;;*);;
+	
+Timothee_Chalamet<-concept_human;
+=> nrel_main_idtf:
+	[Тимоти Шаламе](* <- lang_ru;;*);
+	[Timothee Chalamet](* <- lang_en;;*);;
+	
+Catherine_Hardwhicke<-concept_human;
+=> nrel_main_idtf:
+	[Кэтрин Хардвик](* <- lang_ru;;*);
+	[Catherine Hardwhicke](* <- lang_en;;*);;
+	
+Bill_Condon<-concept_human;
+=> nrel_main_idtf:
+	[Билл Кондон](* <- lang_ru;;*);
+	[Bill Condon](* <- lang_en;;*);;
+	
+David_Slade<-concept_human;
+=> nrel_main_idtf:
+	[Дэвид Слейд](* <- lang_ru;;*);
+	[David Slade](* <- lang_en;;*);;
+	
+Christopher_Weitz<-concept_human;
+=> nrel_main_idtf:
+	[Кристофер Вайц](* <- lang_ru;;*);
+	[Christopher Weitz](* <- lang_en;;*);;
+	
+Greta_Gerwig<-concept_human;
+=> nrel_main_idtf:
+	[Грета Гервиг](* <- lang_ru;;*);
+	[Greta Gerwig](* <- lang_en;;*);;
+	
+David_Washington<-concept_human;
+=> nrel_main_idtf:
+	[Дэвид Вашингтон](* <- lang_ru;;*);
+	[David Washington](* <- lang_en;;*);;
+	
+Denis_Villeneuve<-concept_human;
+=> nrel_main_idtf:
+	[Дени Вильнёв](* <- lang_ru;;*);
+	[Denis Villeneuve](* <- lang_en;;*);;
+	
+David_Michod<-concept_human;
+=> nrel_main_idtf:
+	[Дэвид Мишо](* <- lang_ru;;*);
+	[David Michod](* <- lang_en;;*);;
+	
+Harry_Styles<-concept_human;
+=> nrel_main_idtf:
+	[Гарри Стайлс](* <- lang_ru;;*);
+	[Harry Styles](* <- lang_en;;*);;
+	
+Hayao_Miyazaki<-concept_human;
+=> nrel_main_idtf:
+	[Хаяо Миядзаки](* <- lang_ru;;*);
+	[Hayao Miyazaki](* <- lang_en;;*);;

@@ -1,0 +1,52 @@
+Park_Gyuyoung
+<-concept_human;
+=> nrel_main_idtf : [Пак Гю Ён](*<-lang_ru;;*);
+=> nrel_main_idtf : [Park Gyu-young](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пак Гю Ён)](*<-lang_ru;;*);
+		[Description (Park Gyu-young)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Park_Gyuyoung_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Park_Gyuyoung_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пак Гю Ён)](*<-lang_ru;;*);
+		[Pic. (Park Gyu-young)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Park_Gyuyoung.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 27_07_1993;
+=> nrel_place_of_birth : Busan;
+=> nrel_career_start_date : 2016;
+
+<= nrel_actor : Suspicious_Partner;;
+
+27_07_1993
+<- concept_calendar_date;
+=> nrel_main_idtf : [27 июля 1993](*<-lang_ru;;*);
+=> nrel_main_idtf : [July 27, 1993](*<-lang_en;;*);;
+
+2016
+<- concept_calendar_date;
+=> nrel_main_idtf : [2016](*<-lang_en;;*);
+=> nrel_main_idtf : [2016](*<-lang_ru;;*);;

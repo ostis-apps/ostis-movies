@@ -1,0 +1,49 @@
+concept_human -> Chris_Terrio;;
+
+Chris_Terrio
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Крис Террио]
+	(* <- lang_ru;;	*);
+	[Chris Terrio]
+	(* <- lang_en;;	*);;
+	
+Chris_Terrio <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Крис Террио)](*<-lang_ru;;*);
+		[Description (Chris_Terrio)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_screenwriter
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Chris_Terrio_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Chris_Terrio_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1976;;
+Chris_Terrio=>nrel_date_of_birth: 1976;;
+1976=>nrel_main_idtf:[1976 год](*<-lang_ru;;*);;
+1976=>nrel_main_idtf:[year of 1976](*<-lang_en;;*);;
+
+concept_calendar_date->2002;;
+Chris_Terrio=>nrel_career_start_date: 2002;;
+2002=>nrel_main_idtf:[2002 год](*<-lang_ru;;*);;
+2002=>nrel_main_idtf:[year of 2002](*<-lang_en;;*);;
+
+Victor_Mercader =>nrel_cityzenship: Usa;
+<-concept_screenwriter;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+	

@@ -1,0 +1,76 @@
+concept_Hulu <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Hulu] (* <- lang_ru;; *);
+=> nrel_idtf:[Hulu] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Описание (Hulu)] (* <- lang_ru;; *);
+							   [Statement(Hulu)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_cinema_distribution_service
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_Hulu_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_Hulu_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Hulu)](*<-lang_ru;;*);
+		[Pic. (Hulu)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Hulu.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_cinema_distribution_service;
+=>nrel_site:[www.hulu.com ](*<-lang_en;;*);
+=>nrel_digital_distribution:concept_TV_series;
+=>nrel_digital_distribution:concept_film;
+=>nrel_digital_distribution:concept_original_series;
+=>nrel_owner:concept_film_studio_Walt_Disney_Pictures;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2007
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+=>nrel_users_count: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_measurement: 39000000
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_subscription_price: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_measurement: 12
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*);;
+
+
+
+

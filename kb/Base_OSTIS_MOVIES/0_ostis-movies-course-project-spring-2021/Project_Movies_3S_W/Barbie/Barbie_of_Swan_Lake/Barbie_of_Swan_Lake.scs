@@ -1,0 +1,85 @@
+Barbie_of_Swan_Lake <- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Лебединое озеро]
+	(* <- lang_ru;;	*);
+	[Barbie of Swan Lake]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Лебединое озеро)](*<-lang_ru;;*);
+		[Description (Barbie of Swan Lake)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_of_Swan_Lake_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_of_Swan_Lake_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Лебединое озеро)](*<-lang_ru;;*);
+		[Pic. (Barbie of Swan Lake)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_of_Swan_Lake.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Owen_Hurley;
+=> nrel_composer: Arnie_Roth;
+=> nrel_soundman: Troy_Allen;
+=> nrel_production_designer: Diana_Brostow;
+
+
+=> nrel_producer: Kim_Dent_Wilder;
+=> nrel_producer: Rob_Hudnut;
+=> nrel_screenwriter : Elana_Lesser;
+=> nrel_screenwriter : Cliff_Ruby;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 30_09_2003;
+=> nrel_duration_of_showing : 1_23;
+=> nrel_film_critic_rating : 7;
+=> nrel_age_rating: concept_G;
+
+
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_family_film;
+=> nrel_keywords: concept_swan;
+=> nrel_keywords: concept_dance;;
+
+Barbie_of_Swan_Lake=> nrel_tagline_of_film : slogan_Barbie_of_Swan_Lake;;
+slogan_Barbie_of_Swan_Lake => nrel_main_idtf : [Добро пожаловать в мир любви и волшебства!](*<-lang_ru;;*);;
+slogan_Barbie_of_Swan_Lakel => nrel_main_idtf : [Welcome to the world of love and magic!](*<-lang_en;;*);;
+
+concept_calendar_date -> 30_09_2003;;
+30_09_2003 => nrel_main_idtf : [30.09.2003](*<-lang_ru;;*);;
+30_09_2003 => nrel_main_idtf : [30.09.2003](*<-lang_en;;*);;
+
+concept_swan
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Лебедь]
+(* <- lang_ru;;	*);
+[Swan]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+

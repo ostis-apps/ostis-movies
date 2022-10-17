@@ -1,0 +1,33 @@
+concept_video_recorder 
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[кинорегистратор видео](*<-lang_ru;;*);
+	[video recorder](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (кинорегистратор видео)](*<-lang_ru;;*);
+		[Def. (video recorder)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cinema_camera
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_video_recorder_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_video_recorder_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кинорегистратор видео)](*<-lang_ru;;*);
+		[Pic. (video_recorder)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/video_recorder.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_cinema_camera;;	

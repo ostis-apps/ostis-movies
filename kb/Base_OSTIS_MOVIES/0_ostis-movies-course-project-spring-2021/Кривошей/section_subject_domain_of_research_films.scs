@@ -1,0 +1,62 @@
+section_subject_domain_of_research_films
+=> nrel_main_idtf:
+	[Раздел. Предметная область документальных фильмов жанра исследование]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of research films]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_of_research_films->rrel_key_sc_element:
+    concept_national_geographic;;
+
+section_subject_domain_of_research_films = [*
+subject_domain_of_research_films
+=> nrel_main_idtf:
+	[Предметная область документальных фильмов жанра исследование]
+	(* <- lang_ru;; *);
+	[ Subject domain of research films]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_of_research_films;
+-> rrel_maximum_studied_object_class: concept_research_film;
+-> rrel_not_maximum_studied_object_class:
+    concept_subgenre_of_documentary_film;
+    concept_national_geographic;;
+
+concept_research_film<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Документальный фильм исследование]
+	(* <- lang_ru;; *);
+	[Documentary research film]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_research_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальный фильм исследование-  вид кинематографа, в основу которого легло определенное исследование. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Документальный фильм-исследование)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_research_film;;
+->concept_documentary_film;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_research_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальный фильм исследованиe.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О документальном фильме-иследовании)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_film;;
+->concept_research;;
+        *);;
+*);;
+*];;

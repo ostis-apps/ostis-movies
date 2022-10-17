@@ -1,0 +1,33 @@
+nrel_water_gun_attack<- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [атака водяной пушкой*](*<- lang_ru;;*);
+    [water gun attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (атака водяной пушкой*)](*<- lang_ru;;*);
+        [Def. (water gun attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>атака водяной пушкой</b> - Неприятный для врага выстрел водной эмульсией.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>water gun attack</b> - Unpleasant for the enemy shot with water emulsion.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

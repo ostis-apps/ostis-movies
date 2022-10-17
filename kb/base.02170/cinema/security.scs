@@ -1,0 +1,33 @@
+concept_security <- sc_node_not_relation;
+
+=> nrel_main_idtf:[охрана] (* <- lang_ru;; *);
+=> nrel_idtf:[security] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (охрана)](* <- lang_ru;; *);
+		[Def. (security)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_security;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_security">Охрана</sc_element></b> это группа людей,охраняющих какой-либо объект.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_security"> Security</sc_element></b> is a group of people guarding an object. ](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (охрана)](*<-lang_ru;;*);
+		[Pic. (security)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/security.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,91 @@
+concept_Dread
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Страх] 
+(* <- lang_ru;; *); 
+[Dread] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Страх)](*<-lang_ru;;*);
+[Description (Dread)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Dread_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Dread_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["Твое время придет."] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [« Your Time Will Come.»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Anthony_DiBlasi; 
+=>nrel_producer: Clive_Barker ; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Sam_McCurdy; 
+=>nrel_editor: Celia_Haining; 
+=>nrel_genre:concept_horror;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2009
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 90
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 2336886
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Восставший из ада 4)](*<-lang_ru;;*);
+		[Pic. (Hellraiser IV: Bloodline))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Dread.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;

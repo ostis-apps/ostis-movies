@@ -1,0 +1,48 @@
+concept_human -> Tom_Bellfort;;
+
+Tom_Bellfort
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Том Белфорт]
+	(* <- lang_ru;;	*);
+	[Tom Bellfort]
+	(* <- lang_en;;	*);;
+	
+Tom_Bellfort <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Том Белфорт)](*<-lang_ru;;*);
+		[Description (Tom Bellfort)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Tom_Bellfort_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Tom_Bellfort_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1943;;
+Tom_Bellfort=>nrel_date_of_birth: 1943;;
+1943=>nrel_main_idtf:[1943 год](*<-lang_ru;;*);;
+1943=>nrel_main_idtf:[year of 1943](*<-lang_en;;*);;
+
+concept_calendar_date->1963;;
+Tom_Bellfort=>nrel_career_start_date: 1963;;
+1963=>nrel_main_idtf:[1963 год](*<-lang_ru;;*);;
+1963=>nrel_main_idtf:[year of 1963](*<-lang_en;;*);;
+
+Tom_Bellfort =>nrel_cityzenship: Usa;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+

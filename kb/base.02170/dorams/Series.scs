@@ -1,0 +1,64 @@
+Empress_Ki
+<- concept_series;
+=> nrel_main_idtf : [Императрица Ки](*<-lang_ru;;*);
+=> nrel_main_idtf : [Empress Ki](*<-lang_en;;*);;
+
+Suspicious_Partner
+<- concept_series;
+=> nrel_main_idtf : [Подозрительный партнёр](*<-lang_ru;;*);
+=> nrel_main_idtf : [Suspirious partner](*<-lang_en;;*);;
+
+Sity_Hanter
+<- concept_series;
+=> nrel_main_idtf : [Городской охотник](*<-lang_ru;;*);
+=> nrel_main_idtf : [Sity hanter](*<-lang_en;;*);;
+
+My_Name
+<- concept_series;
+=> nrel_main_idtf : [Моё имя](*<-lang_ru;;*);
+=> nrel_main_idtf : [My name](*<-lang_en;;*);;
+
+Are_You_Human
+<- concept_series;
+=> nrel_main_idtf : [Ты тоже человек?](*<-lang_ru;;*);
+=> nrel_main_idtf : [Are you human?](*<-lang_en;;*);;
+
+While_You_Were_Sleeping
+<- concept_series;
+=> nrel_main_idtf : [Пока ты спала](*<-lang_ru;;*);
+=> nrel_main_idtf : [While you were sleeping](*<-lang_en;;*);;
+
+The_Produsers
+<- concept_series;
+=> nrel_main_idtf : [Продюсеры](*<-lang_ru;;*);
+=> nrel_main_idtf : [The produsers](*<-lang_en;;*);;
+
+Flower_of_Evil
+<- concept_series;
+=> nrel_main_idtf : [Цвееток зла](*<-lang_ru;;*);
+=> nrel_main_idtf : [Flower of evil](*<-lang_en;;*);;
+
+Legend_of_the_Blue_Sea
+<-concept_series;
+=> nrel_main_idtf : [Легенда синего моря](*<-lang_ru;;*);
+=> nrel_main_idtf : [Legend of the blue sea](*<-lang_en;;*);;
+
+Sisyphus__The_Myth
+<- concept_series;
+=> nrel_main_idtf : [Миф о Сизифе](*<-lang_ru;;*);
+=> nrel_main_idtf : [Sisyphus: The myth](*<-lang_en;;*);;
+
+Kill_Me__Heal_Me
+<- concept_series;
+=> nrel_main_idtf : [Убей меня, исцели меня](*<-lang_ru;;*);
+=> nrel_main_idtf : [Kill me, heal me](*<-lang_en;;*);;
+
+Strong_Woman_Do_Bongsoon
+<- concept_series;
+=> nrel_main_idtf : [Силачка До Бон Сун](*<-lang_ru;;*);
+=> nrel_main_idtf : [Strong woman Do Bong-soon](*<-lang_en;;*);;
+
+W
+<- concept_series;
+=> nrel_main_idtf : [WWW: Меж двух миров](*<-lang_ru;;*);
+=> nrel_main_idtf : [W](*<-lang_en;;*);;

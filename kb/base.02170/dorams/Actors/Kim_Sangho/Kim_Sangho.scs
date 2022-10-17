@@ -1,0 +1,54 @@
+Kim_Sangho
+<-concept_human;
+=> nrel_main_idtf : [Ким Сан Хо](*<-lang_ru;;*);
+=> nrel_main_idtf : [Kim Sang-ho](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ким Сан Хо)](*<-lang_ru;;*);
+		[Description (Kim Sang-ho)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Kim_Sangho_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Kim_Sangho_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ким Сан Хо)](*<-lang_ru;;*);
+		[Pic. (Kim Sang-ho)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Kim_Sangho.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 24_07_1970;
+=> nrel_place_of_birth : Gyeongju;
+=> nrel_career_start_date : 1994;
+
+<= nrel_actor : Sity_Hanter;
+<= nrel_actor : My_Name;;
+
+
+24_07_1970
+<- concept_calendar_date;
+=> nrel_main_idtf : [24 июля 1970](*<-lang_ru;;*);
+=> nrel_main_idtf : [July 24, 1970](*<-lang_en;;*);;
+
+1994
+<- concept_calendar_date;
+=> nrel_main_idtf : [1994](*<-lang_en;;*);
+=> nrel_main_idtf : [1994](*<-lang_ru;;*);;
+

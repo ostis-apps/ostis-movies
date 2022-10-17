@@ -1,0 +1,27 @@
+concept_superpowers
+
+=> nrel_main_idtf: 
+	[суперспособности] (*<- lang_ru;;*);
+	[superpowers] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. суперспособности] (*<- lang_ru;;*);
+		[Def. superpowers] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_superpowers_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_superpowers_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       concept_film;
+	   concept_series;
+	   concept_character
+    };;
+*);
+
+=> nrel_inclusion:
+	concept_super_speed;
+	concept_psychometry;
+	concept_immortality;;

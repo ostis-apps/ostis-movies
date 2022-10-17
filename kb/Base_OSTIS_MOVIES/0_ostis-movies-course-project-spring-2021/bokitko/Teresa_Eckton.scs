@@ -1,0 +1,49 @@
+concept_human -> Teresa_Eckton;;
+
+Teresa_Eckton
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Тереза Эктон]
+	(* <- lang_ru;;	*);
+	[Teresa Eckton]
+	(* <- lang_en;;	*);;
+	
+Teresa_Eckton <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Тереза Эктон)](*<-lang_ru;;*);
+		[Description (Teresa_Eckton)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Teresa_Eckton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Teresa_Eckton_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1950;;
+Teresa_Eckton=>nrel_date_of_birth: 1950;;
+1950=>nrel_main_idtf:[1950 год](*<-lang_ru;;*);;
+1950=>nrel_main_idtf:[year of 1950](*<-lang_en;;*);;
+
+concept_calendar_date->1976;;
+Teresa_Eckton=>nrel_career_start_date: 1976;;
+1976=>nrel_main_idtf:[1976 год](*<-lang_ru;;*);;
+1976=>nrel_main_idtf:[year of 1976](*<-lang_en;;*);;
+
+Teresa_Eckton =>nrel_cityzenship: Usa;
+<-concept_soundman;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+	

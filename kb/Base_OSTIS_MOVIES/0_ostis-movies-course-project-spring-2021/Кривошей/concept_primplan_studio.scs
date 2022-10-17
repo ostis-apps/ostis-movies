@@ -1,0 +1,50 @@
+concept_primplan_studio
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Студия примплан]
+	(* <- lang_ru;; *);
+	[PrimPlan studio]
+	(* <- lang_en;; *);;
+
+concept_primplan_studio<=nrel_inclusion: concept_documentary_film_studio;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_primplan_studio;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Студия примплан - предоставляет услуги по производству фильмов.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Студия примплан)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_documentary_film_studio;;
+->concept_primplan_studio;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_primplan_studio;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Предоставляет услуги по производству фильмов...](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О Студии примплан)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_documentary_film_studio;;
+->concept_primplan_studio;;
+        *);;
+*);;
+
+illustration->...
+(*
+    ->rrel_key_sc_element: concept_primplan_studio;;
+	=>nrel_main_idtf:
+		[Рис. (Студия Видеотон)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/primplan.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

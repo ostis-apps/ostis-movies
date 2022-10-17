@@ -1,0 +1,53 @@
+kingdom_Kaer_Morhan
+=> nrel_main_idtf: 
+[ Каэр Морхен] (* <-lang_ru;; *); 
+[ Kaer Morhan ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Каэр Морхен )] (* <-lang_ru;; *); 
+[Description of character(Kaer_Morhan)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_kingdom_Kaer_Morhan_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_kingdom_Kaer_Morhan_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+=>nrel_character:... 
+(* 
+->character_Askeil;; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Каэр Морхен)](*<-lang_ru;;*); 
+[Pic. (Kaer_Morhan)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_kingdom_Kaer_Morhan.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+
+character_Askeilt
+=> nrel_main_idtf: 
+[ Эскель ] (* <-lang_ru;; *); 
+[ Askeilt ] (* <-lang_en;; *); 
+<- kingdom_Kaer_Morhan;
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Эскель )] (* <-lang_ru;; *); 
+[Description of character(Askeilt)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Askeilt_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Askeilt_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Эскель )](*<-lang_ru;;*); 
+[Pic. (Askeilt)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Askeilt.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 

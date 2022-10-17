@@ -1,0 +1,47 @@
+concept_derection
+<-sc_node_not_relation;
+<= nrel_inclusion: concept_story_mark;
+=> nrel_main_idtf: 
+	[направления] (*<- lang_ru;;*);
+	[derection] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. направления] (*<- lang_ru;;*);
+		[Def. derection] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_derection_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_derection_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline;
+       concept_moviegoer
+    };;
+*);
+
+<- rrel_key_sc_element:... (*
+    <- statement;;
+    => nrel_main_idtf: 
+        [Утв. направления] (*<- lang_ru;;*);
+		[Stat. derection] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_derection_stat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_derection_stat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       nrel_storyline;
+       concept_film;
+       concept_series
+    };;
+*);
+
+=> nrel_inclusion:
+	concept_diseases_disorders_phobias;
+	concept_occupations_and_professions;
+	concept_mustical_and_fantastic_creatures;
+	concept_trope;
+	concept_superpowers;
+	concept_sport_mark;
+	concept_relationships;;

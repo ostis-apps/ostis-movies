@@ -1,0 +1,28 @@
+subject_domain_of_pokemon_psychic_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов психического типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon psychic type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_psychic_type;
+	
+
+-> rrel_explored_relation:
+	nrel_confusion_attack;
+    nrel_extrasensory_attack;
+    nrel_future_sight_attack;
+    nrel_heart_stamp_attack;
+    nrel_mirror_coat_attack;
+    nrel_psybeam_attack        ;
+    nrel_psychic_attack        ;
+    mrel_psycho_cut_attack        ;
+    nrel_psyshock_attack;
+    nrel_psystrike_attack;
+    nrel_zen_headbutt_attack        ;
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

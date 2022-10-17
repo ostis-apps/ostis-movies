@@ -1,0 +1,54 @@
+concept_human -> Colleen_Atwood;;
+
+Colleen_Atwood
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Коллин Этвуд]
+	(* <- lang_ru;;*);
+	[Colleen Atwood]
+	(* <- lang_en;;*);;
+	
+Colleen_Atwood <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Коллин Этвуд)](*<-lang_ru;;*);
+		[Description (Colleen Atwood)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Colleen_Atwood_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Colleen_Atwood_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Colleen_Atwood 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Коллин Этвуд)](*<-lang_ru;;*);
+		[Pic. (Colleen Atwood)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Colleen_Atwood.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1948;;
+Colleen_Atwood=>nrel_date_of_birth: 1948;;
+1948=>nrel_main_idtf:[1948 год](*<-lang_ru;;*);;
+1948=>nrel_main_idtf:[year of 1948](*<-lang_en;;*);;
+
+concept_calendar_date->1984;;
+Colleen_Atwood=>nrel_career_start_date: 1984;;
+1984=>nrel_main_idtf:[1984 год](*<-lang_ru;;*);;
+1984=>nrel_main_idtf:[year of 1984](*<-lang_en;;*);;
+
+Colleen_Atwood =>nrel_cityzenship:USA;;
+USA<-concept_country;;
+

@@ -1,0 +1,35 @@
+concept_city -> Vermilion_City;;
+
+Vermilion_City
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Вермилион Сити]
+	(* <- lang_ru;;	*);
+	[Vermilion City]
+	(* <- lang_en;;	*);;
+	
+Vermilion_City <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Вермилион Сити)](*<-lang_ru;;*);
+		[Description (Vermilion City)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Vermilion_City_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Vermilion_City_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Vermilion_City <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Вермилион Сити)](*<-lang_ru;;*);
+		[Pic. (Vermilion City)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Vermilion_City.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

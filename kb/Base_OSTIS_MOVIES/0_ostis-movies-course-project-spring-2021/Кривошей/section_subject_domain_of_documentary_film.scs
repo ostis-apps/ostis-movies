@@ -1,0 +1,74 @@
+section_subject_domain_of_documentary_films
+=> nrel_main_idtf:
+	[Раздел. Предметная область документальных фильмов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of documentary films]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_of_documentary_films=>nrel_section_decomposition: {
+    section_subject_domain_genres_of_documentary_film;
+    section_subject_domain_of_documentary_films_studios;
+    section_subject_domain_of_documentary_films_subgenres;
+    section_subject_domain_general_taxonomy_of_documentary_films
+    };;
+
+section_subject_domain_of_documentary_films->rrel_key_sc_element:
+    subject_domain_of_documentary_films;
+    concept_genres_of_documentary_film;
+    concept_subgenre_of_documentary_film;
+    section_subject_domain_concept_documentary_film_festivals;
+    concept_documentary_film_festivals;;
+
+section_subject_domain_of_documentary_films = [*
+subject_domain_of_documentary_films
+=> nrel_main_idtf:
+	[Предметная область документальных фильмов]
+	(* <- lang_ru;; *);
+	[Subject domain of documentary films]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_of_documentary_films;
+-> rrel_maximum_studied_object_class: concept_documentary_film;
+-> rrel_not_maximum_studied_object_class:
+    concept_subgenre_of_documentary_film;
+    concept_documentary_film_studio;;
+
+concept_documentary_film<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Документальный фильм]
+	(* <- lang_ru;; *);
+	[Documentary film]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_documentary_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальный фильм -  вид кинематографа, в основу которого легли съёмки подлинных событий и лиц. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Документальный фильм)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_event;;
+->concept_cinema;;
+->concept_person;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_documentary_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальное кино - «творческая разработка действительности».](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О документальном фильме)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_development;;
+->concept_reality;;
+        *);;
+*);;
+*];;

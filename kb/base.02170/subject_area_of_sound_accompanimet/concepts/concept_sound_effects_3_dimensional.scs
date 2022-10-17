@@ -1,0 +1,20 @@
+concept_sound_effects_3_dimensional <- sc_node_norole_relation;
+
+<-nrel_inclusion: concept_sound_effects;
+
+=> nrel_main_idtf:
+	[3 dimensional sound effects] (*<- lang_en;;*);
+	[3-ёх мерные звуковые эффекты] (*<- lang_ru;;*);
+
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (3-ёх мерные звуковые эффекты)] (*<- lang_ru;;*);
+		[Def. (3 dimensional sound effects)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_sound_effects_3_dimensional_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_sound_effects_3_dimensional_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;
+

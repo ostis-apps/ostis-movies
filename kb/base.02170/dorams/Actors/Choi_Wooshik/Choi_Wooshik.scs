@@ -1,0 +1,53 @@
+Choi_Wooshik
+<-concept_human;
+=> nrel_main_idtf : [Чхве У Шик](*<-lang_ru;;*);
+=> nrel_main_idtf : [Choi Woo-shik](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Чхве У Шик)](*<-lang_ru;;*);
+		[Description (Choi Woo-shik)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Choi_Wooshik_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Choi_Wooshik_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Чхве У Шик)](*<-lang_ru;;*);
+		[Pic. (Choi Woo-shik)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Choi_Wooshik.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 26_03_1990;
+=> nrel_place_of_birth : Seoul; 
+=> nrel_career_start_date : 2011;
+
+<= nrel_actor : Flu;;
+
+
+26_03_1990
+<- concept_calendar_date;
+=> nrel_main_idtf : [26 марта 1990](*<-lang_ru;;*);
+=> nrel_main_idtf : [March 26, 1990](*<-lang_en;;*);;
+
+2011
+<- concept_calendar_date;
+=> nrel_main_idtf : [2011](*<-lang_en;;*);
+=> nrel_main_idtf : [2011](*<-lang_ru;;*);;

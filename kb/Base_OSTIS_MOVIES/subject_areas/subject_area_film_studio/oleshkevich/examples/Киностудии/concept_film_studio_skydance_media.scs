@@ -1,0 +1,66 @@
+concept_film_studio_skydance_media <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия skydance media] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio skydance media] (* <- lang_en;; *);
+=> nrel_idtf:[skydance media] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия skydance media] (* <- lang_ru;; *);
+							   [Statement(film studio skydance media)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio
+			
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_skydance_media_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_skydance_media_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия skydance media)](*<-lang_ru;;*);
+		[Pic. (film studio skydance media)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/skydance_media.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+=>nrel_fabricate:concept_film;
+<-concept_animation_film_studio;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2006
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+ 
+=>nrel_cinema_location: concept_USA;
+=>nrel_founder:concept_David_Allison;
+<=nrel_responsobility_zone: David_Allison;;
+
+concept_David_Allison <-concept_human;
+=> nrel_main_idtf: 
+[Дэвид Эллисон] (* <-lang_ru;; *); 
+[David Allison] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+
+USA <-concept_country;
+=> nrel_main_idtf: 
+[США] (* <-lang_ru;; *); 
+[USA] (* <-lang_en;; *);;
+

@@ -1,0 +1,50 @@
+concept_human -> Rick_Carter;;
+
+Rick_Carter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Рик Картер]
+	(* <- lang_ru;;	*);
+	[Rick Carter]
+	(* <- lang_en;;	*);;
+	
+Rick_Carter <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Рик Картер)](*<-lang_ru;;*);
+		[Description (Rick Carter)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_production_designer 
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Rick_Carter_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Rick_Carter_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1952;;
+Rick_Carter=>nrel_date_of_birth: 1952;;
+1952=>nrel_main_idtf:[1952 год](*<-lang_ru;;*);;
+1952=>nrel_main_idtf:[year of 1952](*<-lang_en;;*);;
+
+concept_calendar_date->1981;;
+Rick_Carter=>nrel_career_start_date: 1981;;
+1981=>nrel_main_idtf:[1981 год](*<-lang_ru;;*);;
+1981=>nrel_main_idtf:[year of 1981](*<-lang_en;;*);;
+
+Rick_Carter =>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_film_studio_lucasfilm;
+<-concept_production_designer;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+

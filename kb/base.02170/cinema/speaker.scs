@@ -1,0 +1,33 @@
+concept_speaker <- sc_node_not_relation;
+
+=> nrel_main_idtf:[колонка] (* <- lang_ru;; *);
+=> nrel_idtf:[speaker] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (колонка)](* <- lang_ru;; *);
+		[Def. (speaker)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_speaker;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_speaker">Колонка</sc_element></b> представляет собой электроакустический преобразователь, то есть устройство, преобразующее электрический звуковой сигнал в соответствующий звук.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_speaker">Speaker</sc_element></b> is an electroacoustic transducer, that is, a device that converts an electrical audio signal into a corresponding sound.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (колонка)](*<-lang_ru;;*);
+		[Pic. (speaker)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/speaker.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

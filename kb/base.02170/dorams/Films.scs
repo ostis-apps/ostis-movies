@@ -1,0 +1,15 @@
+Flu
+<- concept_film;
+=> nrel_main_idtf : [Грипп](*<-lang_ru;;*);
+=> nrel_main_idtf : [Fly](*<-lang_en;;*);;
+
+The_King_and_the_Clown
+<- concept_film ;
+=> nrel_main_idtf : [Король и шут](*<-lang_ru;;*);
+=> nrel_main_idtf : [The kinga and the clown](*<-lang_en;;*);;
+
+VIP
+<- concept_film;
+=> nrel_main_idtf : [VIP](*<-lang_ru;;*);
+=> nrel_main_idtf : [VIP](*<-lang_en;;*);;
+

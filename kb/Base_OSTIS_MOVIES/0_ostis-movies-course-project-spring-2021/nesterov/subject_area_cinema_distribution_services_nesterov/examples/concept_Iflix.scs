@@ -1,0 +1,84 @@
+concept_Iflix <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Iflix] (* <- lang_ru;; *);
+=> nrel_idtf:[Iflix] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Описание (Iflix)] (* <- lang_ru;; *);
+							   [Description (Iflix)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_cinema_distribution_service
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_Iflix_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_Iflix_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Iflix)](*<-lang_ru;;*);
+		[Pic. (Iflix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Iflix.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_cinema_distribution_service;
+=>nrel_site:[www.iflix.com](*<-lang_en;;*);
+=>nrel_digital_distribution:concept_TV_series;
+=>nrel_digital_distribution:concept_film;
+=>nrel_owner:concept_Tencent;
+=>nrel_founder:Mark_Britt;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2014 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+=>nrel_users_count: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_measurement: 25000000
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_subscription_price: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 12
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*);;
+
+concept_Tencent <- concept_company;
+ => nrel_main_idtf: 
+[Tencent] (* <-lang_ru;; *); 
+[Tencent] (* <-lang_en;; *);
+=>nrel_take_place: China;;
+
+Mark_Britt <- concept_human;
+=> nrel_main_idtf: 
+[Марк Бритт] (* <-lang_ru;; *); 
+[Mark Britt] (* <-lang_en;; *);
+=>nrel_cityzenship: Australia;;

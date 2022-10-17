@@ -1,0 +1,28 @@
+concept_composere <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [composer](*<- lang_en;;*);
+    [композер](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (композер)](*<- lang_ru;;*);
+        [Def. (composer)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_composer_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_composer_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+
+<- rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (композер)](*<-lang_ru;;*);
+		    [Pic. (composer)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/composer.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

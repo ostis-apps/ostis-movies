@@ -1,0 +1,35 @@
+concept_tape_recorder <- sc_node_norole_relation;
+
+<=nrel_storage_device:concept_digital_sound_recording;
+<=nrel_storage_device:concept_magnetic_sound_recording;
+
+=> nrel_main_idtf:
+	[tape recorder] (*<- lang_en;;*);
+	[магнитофон] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[recorder](*<- lang_en;;*);
+	[tape player] (*<- lang_ru;;*);
+
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (магнитофон)] (*<- lang_ru;;*);
+		[Def. (tape recorder)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_tape_recorder_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_tape_recorder_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (магнитофон)](*<-lang_ru;;*);
+		[Pic. (tape recorder)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_tape_recorder.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

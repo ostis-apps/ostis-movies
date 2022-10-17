@@ -1,0 +1,33 @@
+concept_glass_with_poster <- sc_node_not_relation;
+
+=> nrel_main_idtf:[стакан с афишей] (* <- lang_ru;; *);
+=> nrel_idtf:[glass_with_poster] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (стакан с афишей)](* <- lang_ru;; *);
+		[Def. (glass_with_poster)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_glass_with_poster;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_glass_with_poster">Стакан с афишей</sc_element></b> одно из направлений маркетингвой компании кинотеатра,направленное на привлечение посетителей к покупке напитком и еды в стаканах с изображением фильма или мультфильма,который они решили посетить. ](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_glass_with_poster">Glass with poster</sc_element></b>  one of the marketing directions of your cinema company, aimed at attracting visitors to buy a drink and food in glasses with the image of the movie or cartoon they decided to visit.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (стакан с афишей)](*<-lang_ru;;*);
+		[Pic. (glass_with_poster)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/glass_with_poster.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

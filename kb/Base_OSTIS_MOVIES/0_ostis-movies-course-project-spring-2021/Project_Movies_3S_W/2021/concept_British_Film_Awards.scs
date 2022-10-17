@@ -1,0 +1,28 @@
+concept_British_Film_Awards <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Британская кинопремия] (* <- lang_ru;; *);
+=> nrel_main_idtf:[British Film Award] (* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Британская кинопремия)](*<-lang_ru;;*);
+		[Def. (British Film Award)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        cocnept_award;
+		cocnept_award_ceremony;
+		concept_nomination
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_British_Film_Awards_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_British_Film_Awards_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_British_Film_Awards
+-> concept_film_award_BAFTA;
+-> concept_film_award_London_Critics_Circle;
+-> concept_film_award_Empire;;

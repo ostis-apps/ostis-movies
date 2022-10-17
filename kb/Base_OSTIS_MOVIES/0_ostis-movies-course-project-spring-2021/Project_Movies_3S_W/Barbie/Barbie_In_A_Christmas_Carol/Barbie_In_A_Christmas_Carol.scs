@@ -1,0 +1,72 @@
+Barbie_In_A_Christmas_Carol<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Рождественская история]
+	(* <- lang_ru;;	*);
+	[Barbie In A Christmas Carol]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Рождественская история)](*<-lang_ru;;*);
+		[Description (Barbie In A Christmas Carol)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_In_A_Christmas_Carol_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_In_A_Christmas_Carol_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Рождественская история)](*<-lang_ru;;*);
+		[Pic. (Barbie In A Christmas Carol)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_In_A_Christmas_Carol.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: William_Lau;
+=> nrel_production_designer: Pamela_ProStar;
+=> nrel_composer: Eric_Colvin;
+=> nrel_soundman: Anke_Bakker;
+
+
+=> nrel_producer: Anita_Lee;
+=> nrel_screenwriter : Elise_Allen;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 18_11_2008;
+=> nrel_duration_of_showing : 1_15;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_fairy;
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_fantasy;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family;
+=> nrel_keywords: concept_christmas;
+=> nrel_keywords: concept_songer;
+=> nrel_keywords: concept_family_film;;
+
+concept_calendar_date -> 18_11_2008;;
+18_11_2008 => nrel_main_idtf : [18.11.2008](*<-lang_ru;;*);;
+18_11_2008 => nrel_main_idtf : [18.11.2008](*<-lang_en;;*);;

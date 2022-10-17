@@ -1,0 +1,49 @@
+concept_human -> Lawrence_Kasdan;;
+
+Lawrence_Kasdan
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Лоуренс Касдан]
+	(* <- lang_ru;;	*);
+	[Lawrence Kasdan]
+	(* <- lang_en;;	*);;
+	
+Lawrence_Kasdan <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Лоуренс Касдан)](*<-lang_ru;;*);
+		[Description (Lawrence Kasdan)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_screenwriter
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Lawrence_Kasdan_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Lawrence_Kasdan_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1949;;
+Lawrence_Kasdan=>nrel_date_of_birth: 1949;;
+1949=>nrel_main_idtf:[1949 год](*<-lang_ru;;*);;
+1949=>nrel_main_idtf:[year of 1949](*<-lang_en;;*);;
+
+concept_calendar_date->1980;;
+Lawrence_Kasdan=>nrel_career_start_date: 1980;;
+1980=>nrel_main_idtf:[1980 год](*<-lang_ru;;*);;
+1980=>nrel_main_idtf:[year of 1980](*<-lang_en;;*);;
+
+Lawrence_Kasdan =>nrel_cityzenship: Usa;
+<-concept_screenwriter;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+	

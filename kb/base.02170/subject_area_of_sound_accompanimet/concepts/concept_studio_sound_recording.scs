@@ -1,0 +1,35 @@
+concept_studio_sound_recording <- sc_node_norole_relation;
+
+<- concept_soundtrack;
+
+=> nrel_main_idtf:
+	[sound recording] (*<- lang_en;;*);
+	[звукозапись] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (звукозапись)] (*<- lang_ru;;*);
+		[Def. (sound_recording)] (* <- lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+		-> concept_studio_headphones;;
+		-> concept_studio_microphone;;
+	*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_studio_sound_recording_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_studio_sound_recording_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (звукозапись)](*<-lang_ru;;*);
+		[Pic. (sound_recording)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_studio_sound_recording.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

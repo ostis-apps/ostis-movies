@@ -1,0 +1,30 @@
+concept_acoustic_foam_rubber <- sc_node_norole_relation;
+
+<- concept_sound_studio;
+
+=> nrel_main_idtf:
+	[acoustic foam rubber] (*<- lang_en;;*);
+	[акустический поролон] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (акустический поролон)] (*<- lang_ru;;*);
+		[Def. (acoustic foam rubber)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_acoustic_foam_rubber_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_acoustic_foam_rubber_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (акустический поролон)](*<-lang_ru;;*);
+		[Pic. (acoustic foam rubber)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_acoustic_foam_rubber.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

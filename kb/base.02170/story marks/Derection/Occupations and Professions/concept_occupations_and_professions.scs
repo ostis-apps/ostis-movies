@@ -1,0 +1,28 @@
+concept_occupations_and_professions
+
+=> nrel_main_idtf: 
+	[занятия и профессии] (*<- lang_ru;;*);
+	[occupations and professions] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. занятия и профессии] (*<- lang_ru;;*);
+		[Def. occupations and professions] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_occupations_and_professions_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_occupations_and_professions_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       concept_film;
+	   concept_series
+    };;
+*);
+
+=> nrel_inclusion:
+	concept_students;
+	concept_police_offecers; 
+	concept_celebrities;
+	concept_cerial_killers; 
+	concept_lawyers;;

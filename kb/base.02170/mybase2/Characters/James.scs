@@ -1,0 +1,64 @@
+concept_anime_character -> Kurt;;
+
+Kurt
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Курт]
+	(* <- lang_ru;;	*);
+	[Kurt]
+	(* <- lang_en;;	*);;
+	
+Kurt <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Курт)](*<-lang_ru;;*);
+		[Description (Kurt)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/James_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Kurt <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Курт)](*<-lang_ru;;*);
+		[Appearance (Kurt)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/James_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Kurt <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характер (Курт)](*<-lang_ru;;*);
+		[Character (Kurt)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/James_character_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+
+Kurt <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Курт)](*<-lang_ru;;*);
+		[Pic. (Kurt)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/James.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Kurt
+=> nrel_keywords: male;
+=> nrel_keywords: concept_pokemon_trainer;;

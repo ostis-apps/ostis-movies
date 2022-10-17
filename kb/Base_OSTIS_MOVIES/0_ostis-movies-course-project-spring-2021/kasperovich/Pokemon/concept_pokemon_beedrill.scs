@@ -1,0 +1,103 @@
+concept_pokemon -> concept_pokemon_beedrill;;
+
+concept_pokemon_beedrill
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бидрилл]
+	(* <- lang_ru;;	*);
+	[Beedrill]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_beedrill <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бидрилл)](*<-lang_ru;;*);
+		[Description (Beedrill)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_beedrill <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Бидрилл)](*<-lang_ru;;*);
+		[Appearance (Beedrill)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_beedrill <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Бидрилл)](*<-lang_ru;;*);
+		[Behavior (Beedrill)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_beedrill <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Бидрилл)](*<-lang_ru;;*);
+		[Natural ability (Beedrill)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_beedrill <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Бидрилл)](*<-lang_ru;;*);
+		[Habitat (Beedrill)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_beedrill_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_beedrill <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бидрилл)](*<-lang_ru;;*);
+		[Pic. (Beedrill)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_beedrill.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_beedrill <- concept_poison_type;;
+
+concept_pokemon_beedrill <- concept_bug_type;;
+
+concept_pokemon_beedrill <- concept_color_yellow;;
+
+value -> 15;;
+concept_pokemon_beedrill => nrel_pokedex_number: 15;;
+
+value -> 1;;
+concept_pokemon_beedrill => nrel_height: 1;;
+
+value -> 29.5;;
+concept_pokemon_beedrill => nrel_weight: 29.5;;

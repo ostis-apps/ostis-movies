@@ -1,0 +1,57 @@
+subject_domain_of_adverticing_in_cinema
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область реклама] (*<- lang_ru;;*);
+	[Subject domain area of adverticing] (*<- lang_en;;*);
+	
+->rrel_maximum_studied_object_class: concept_adverticing;
+
+<= nrel_private_subject_domain: subject_domain_of_cinema_services;
+
+->rrel_not_maximum_studied_object_class: concept_booklets;
+->rrel_not_maximum_studied_object_class: concept_glass_with_poster;
+->rrel_not_maximum_studied_object_class: concept_trailer;
+->rrel_not_maximum_studied_object_class: concept_poster;;
+
+
+concept_advertising 
+<- sc_node_not_relation;
+
+=> nrel_main_idtf:[реклама] (* <- lang_ru;; *);
+=> nrel_idtf:[advertising] (* <- lang_en;; *);
+
+->studied_object_class: concept_booklets;
+->studied_object_class: concept_glass_with_poster;
+->studied_object_class: concept_trailer;
+->studied_object_class: concept_poster;
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (реклама)](* <- lang_ru;; *);
+		[Def. (advertising)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_advertising;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_advertising">Реклама</sc_element></b> это место в кинотеатре,где люди могу купить себе еды или напитков к фильму.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_advertising">Food zone</sc_element></b> this is a place in the cinema where people can buy themselves food or drinks for the movie.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (реклама)](*<-lang_ru;;*);
+		[Pic. (advertising)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/advertising.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

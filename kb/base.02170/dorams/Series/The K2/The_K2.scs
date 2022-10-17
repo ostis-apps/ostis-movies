@@ -1,0 +1,63 @@
+The_K2
+<- concept_series;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[К2 телохранитель](* <- lang_ru;; *);
+	[The K2](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (К2 телохранитель)](*<-lang_ru;;*);
+		[Description (The K2)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_series
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://The_K2_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://The_K2_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (К2 телохранитель)](*<-lang_ru;;*);
+		[Pic. (The K2)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://The_K2.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_keywords: concept_action;
+=> nrel_keywords: concept_melodrama;
+
+
+=> nrel_production_year : 2016;
+=> nrel_num_of_seasons: 1;
+=> nrel_num_of_episodes: 16;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Kwak_Junghwan;
+=> nrel_screenwriter : Jang_Hyukrin;
+=> nrel_producer: Park_Hosik;
+=> nrel_composer : Choi_Cheolho;
+
+
+=> nrel_main_actor : Ji_Changwook;
+=> nrel_main_actor : Song_Yoonha;
+=> nrel_main_actor : Im_Yoonah;
+=> nrel_actor : Sung_Dongil;;
+
+
+2016
+<- concept_calendar_date;
+=> nrel_main_idtf : [2016](*<-lang_ru;;*);
+=> nrel_main_idtf : [2016](*<-lang_en;;*);;      

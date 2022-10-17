@@ -1,0 +1,186 @@
+concept_hellraiser3
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Восставший из ада: 3] 
+(* <- lang_ru;; *); 
+[Hellbound: Hellraiser III] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Восставший из ада 3)](*<-lang_ru;;*);
+[Description (Hellraiser III: Hell on Earth)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Hellraiser3_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Hellraiser3_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["То, что началось в аду, закончится на земле"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«What started in hell will end on earth »] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Anthony_Hickox; 
+=>nrel_producer: Clive_Barker ; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Gerry_Lively; 
+=>nrel_editor: Christopher_Cibelli; 
+=>nrel_genre:concept_horror;
+=>nrel_be_awarded:{Saturn}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1993
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 93
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 12534961
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Kirsty_Cotton;; 
+->character_Lead_Cenobite;;
+->character_Pistonhead_Cenobite;;  
+->character_Camerahead_Cenobite;;  
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Восставший из ада 3)](*<-lang_ru;;*);
+		[Pic. (Hellraiser III: Hell on Earth))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Hellraiser3.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+character_Camerahead_Cenobite
+=> nrel_main_idtf: 
+[ Голова-камера ] (* <-lang_ru;; *); 
+[ Camerahead   ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( ГГолова-камера )] (* <-lang_ru;; *); 
+[Description of character(Camerahead  )](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Camerahead_Cenobite_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Camerahead_Cenobite_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Голова-камера)](*<-lang_ru;;*); 
+[Pic. ( Camerahead   )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_pistonhead.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+
+
+character_Pistonhead_Cenobite
+=> nrel_main_idtf: 
+[ Голова-поршень ] (* <-lang_ru;; *); 
+[ Pistonhead  ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Голова-поршень )] (* <-lang_ru;; *); 
+[Description of character(Pistonhead )](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Camerahead_Cenobite_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Camerahead_Cenobite_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Голова-поршень)](*<-lang_ru;;*); 
+[Pic. ( Pistonhead  )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_Camerahead.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+
+character_Smoker_Cenobite
+=> nrel_main_idtf: 
+[ Курильщица ] (* <-lang_ru;; *); 
+[ Smoker   ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Курильщицаь )] (* <-lang_ru;; *); 
+[Description of character(Smoker  )](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Smoker_Cenobite_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Smoker_Cenobite_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Курильщица )](*<-lang_ru;;*); 
+[Pic. ( Smoker )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Smoker.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn
+ => nrel_main_idtf: 
+            [Сатурн, 1982 год] (* <-lang_ru;; *);
+		  [Saturn, 1982] (* <-lang_en;; *);;
+

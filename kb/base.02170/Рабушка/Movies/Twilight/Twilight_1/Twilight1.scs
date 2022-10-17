@@ -1,0 +1,85 @@
+Twilight<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Сумерки](* <- lang_ru;;*);
+	[Twilight](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сумерки)](*<-lang_ru;;*);
+		[Description (Twilight)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Twilight1_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Twilight1_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);	
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сумерки)](*<-lang_ru;;*);
+		[Pic. (Twilight)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Twilight.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_tag_line: ["Запретный плод сладок"] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Forbidden fruit is sweet»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+
+=>nrel_main_producer: Catherine_Hardwhicke;
+=>nrel_production_country: USA;
+=>nrel_film_critic_rating: 6.7;
+=>nrel_genre: concept_drama;
+=>nrel_genre: concept_melodrama;
+=>nrel_genre: concept_fantasy;
+
+=>nrel_age_rating: concept_PG16;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_drama;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_melodrama;
+=>nrel_keywords: concept_vampire;
+
+=>nrel_character: Edward_Cullen;
+=>nrel_character: Bella_Swan;;
+
+
+
+Twilight => nrel_actor : Robert_Pattinson;;
+Twilight => nrel_actor : kristen_stewart;;
+
+concept_calendar_date -> 17_11_2008;;
+17_11_2008 => nrel_main_idtf : [17.11.2008](*<-lang_ru;;*);;
+17_11_2008 => nrel_main_idtf : [17.11.2008](*<-lang_en;;*);;
+Twilight => nrel_release_date : 17_11_2008;;
+
+value -> 2_02;;
+2_02 => nrel_main_idtf : [2 часа и 2 минуты](*<-lang_ru;;*);;
+2_02 => nrel_main_idtf : [2 hours and 2 minutes](*<-lang_en;;*);;
+Twilight => nrel_duration_of_showing : 2_02;;
+
+value -> 192_769_854;;
+192_769_854 => nrel_main_idtf : [192 769 854$](*<-lang_ru;;*);;
+192_769_854 => nrel_main_idtf : [192 769 854$](*<-lang_en;;*);;
+Twilight <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 192_769_854;;   
+*);;

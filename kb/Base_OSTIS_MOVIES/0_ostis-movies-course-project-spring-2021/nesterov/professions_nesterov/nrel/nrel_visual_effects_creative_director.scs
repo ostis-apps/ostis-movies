@@ -1,0 +1,41 @@
+nrel_visual_effects_creative_director <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [Visual effects creative director](*<- lang_en;;*);
+    [Креативный директор по визуальным эффектам](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (Креативный директор по визуальным эффектам)](*<- lang_ru;;*);
+        [Def. (Visual effects creative director)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_visual_effects_creative_director_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_visual_effects_creative_director_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=> nrel_first_domain: concept_film;
+=> nrel_second_domain: concept_human;
+=> nrel_definitional_domain: concept_film;
+
+<-  rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (Креативный директор по визуальным эффектам)](*<-lang_ru;;*);
+		    [Pic. (Visual effects creative director)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/visual_effects_creative_director.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

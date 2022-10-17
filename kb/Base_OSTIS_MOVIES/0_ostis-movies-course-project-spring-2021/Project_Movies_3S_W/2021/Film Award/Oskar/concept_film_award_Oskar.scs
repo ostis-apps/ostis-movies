@@ -1,0 +1,156 @@
+concept_film_award_Oskar <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Кинопремия Оскар](*<-lang_ru;;*);
+	[Film Award Oskar](*<-lang_en;;*); 
+=> nrel_idtf:[Оскар] (* <- lang_ru;; *);
+=> nrel_idtf:[Oskar] (* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Кинопремия Оскар)](*<-lang_ru;;*);
+		[Def. (Film Award Oskar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_film_award_Oskar_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_film_award_Oskar_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кинопремия Оскар)](*<-lang_ru;;*);
+		[Pic. (Film Award Oskar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_film_award_Oskar.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_film_award_Oskar
+=>nrel_foundation_year: 1929;
+=>nrel_founder: concept_Louis_Mayer;
+=>nrel_site:[https://www.oscars.org/](* <- lang_en;; *);;
+
+concept_film_award_Oskar
+=>nrel_award_ceremony:concept_Oskar_award_ceremony;
+=>nrel_award:concept_award_oskar;
+
+=>nrel_nomination:concept_Oskar_Nomination_Best_Motion;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Director;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Actor_in_a_Leading_Role;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Actor_in_a_Supporting_Role;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Actress_in_a_Leading_Role;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Actress_in_a_Supporting_Role;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Original_Screenplay;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Adapted_Screenplay;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Animated_Feature;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Original_Score;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Original_Song;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Foreign_Language_Film;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Production_Design;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Cinematography;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Sound_Mixing;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Animated_Short_Film;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Live_Action_Short_Film;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Film_Editing;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Visual_Effects;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Documentary_Feature;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Documentary_Short_Subject;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Costume_Design;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Sound_Editing;
+=>nrel_nomination:concept_Oskar_Nomination_Best_Makeup;
+=>nrel_nomination:concept_Oskar_Nomination_Outstanding_Achievement_in_Popular_Film;;
+
+concept_Oskar_award_ceremony <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Оскар](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Oskar](*<-lang_en;;*); 
+=> nrel_idtf:[Церемния вручения Оскар] (* <- lang_ru;; *);
+=> nrel_idtf:[Award Ceremony of Oskar] (* <- lang_en;; *);
+
+<-concept_award_ceremony;
+<-concept_event;
+
+=>nrel_location_of_the_event:Los_Angeles;
+=>nrel_location_of_the_event:Dolby_Theater;
+=> nrel_award:concept_award_oskar;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Церемония вручения кинопремии Оскар)](*<-lang_ru;;*);
+		[Def. (Award Ceremony of Film Award Oskar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_award_ceremony_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_award_ceremony_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Церемония вручения кинопремии Оскар)](*<-lang_ru;;*);
+		[Pic. (Award Ceremony of Film Award Oskar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Oskar_award_ceremony.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Dolby_Theater<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Театр "Долби"](*<-lang_ru;;*);
+	[Dolby Theater](*<-lang_en;;*);;
+	
+concept_award_oskar<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Оскар"](*<-lang_ru;;*);
+	["Oscar" statuettes](*<-lang_en;;*); 
+
+<-concept_award;
+=>nrel_founder:concept_Cedric_Gibbons;
+=>nrel_founder:concept_George_Stanley;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Статуэтка "Оскар")](*<-lang_ru;;*);
+		[Def. ("Oscar" statuettes)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_award_oskar_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_award_oskar_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Статуэтка "Оскар")](*<-lang_ru;;*);
+		[Pic. ("Oscar" statuettes)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_award_oskar.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_Cedric_Gibbons<-sc_node_not_relation;
+<-concept_human;
+=>nrel_main_idtf:
+	[Седрик Гиббонc](*<-lang_ru;;*);
+	[Cedric Gibbons](*<-lang_en;;*);;
+	
+concept_George_Stanley<-sc_node_not_relation;
+<-concept_human;
+=>nrel_main_idtf:
+	[Джордж Стенли](*<-lang_ru;;*);
+	[George Stanley](*<-lang_en;;*);;

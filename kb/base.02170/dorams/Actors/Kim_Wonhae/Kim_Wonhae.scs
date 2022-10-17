@@ -1,0 +1,53 @@
+Kim_Wonhae
+<-concept_human;
+=> nrel_main_idtf : [Ким Вон Хэ](*<-lang_ru;;*);
+=> nrel_main_idtf : [Kim Won-hae](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ким Вон Хэ)](*<-lang_ru;;*);
+		[Description (Kim Won-hae)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Kim_Wonhae_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Kim_Wonhae_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ким Вон Хэ)](*<-lang_ru;;*);
+		[Pic. (Kim Won-hae)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Kim_Wonhae.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 06_04_1969;
+=> nrel_place_of_birth : Busan;
+=> nrel_career_start_date : 1991;
+
+<= nrel_actor : Are_You_Human;
+<= nrel_actor : While_You_Were_Sleeping;;
+
+06_04_1969
+<- concept_calendar_date;
+=> nrel_main_idtf : [6 апреля 1969](*<-lang_ru;;*);
+=> nrel_main_idtf : [April 6, 1969](*<-lang_en;;*);;
+
+1991
+<- concept_calendar_date;
+=> nrel_main_idtf : [1991](*<-lang_en;;*);
+=> nrel_main_idtf : [1991](*<-lang_ru;;*);;
+

@@ -1,0 +1,79 @@
+concept_Peacock <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Peacock] (* <- lang_ru;; *);
+=> nrel_idtf:[Peacock] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Описание (Peacock)] (* <- lang_ru;; *);
+							   [Statement(Peacock)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_cinema_distribution_service
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_Peacock_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_Peacock_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Peacock)](*<-lang_ru;;*);
+		[Pic. (Peacock)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Peacock.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_cinema_distribution_service;
+=>nrel_site:[ peacocktv.com](*<-lang_en;;*);
+=>nrel_digital_distribution:concept_TV_series;
+=>nrel_digital_distribution:concept_film;
+=>nrel_owner:concept_NBCUniversal;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2020 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+=>nrel_users_count: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_measurement: 33000000
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_subscription_price: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_measurement: 5
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*);;
+
+concept_NBCUniversal <-concept_company;
+ => nrel_main_idtf: 
+[Amazon] (* <-lang_ru;; *); 
+[Amazon] (* <-lang_en;; *);
+=>nrel_take_place: USA;;
+
+

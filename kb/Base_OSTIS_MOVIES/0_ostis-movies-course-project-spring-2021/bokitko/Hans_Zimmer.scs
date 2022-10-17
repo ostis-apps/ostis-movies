@@ -1,0 +1,49 @@
+concept_human -> Hans_Zimmer;;
+
+Hans_Zimmer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ханс Зиммер]
+	(* <- lang_ru;;	*);
+	[Hans Zimmer]
+	(* <- lang_en;;	*);;
+	
+Hans_Zimmer <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ханс Зиммер)](*<-lang_ru;;*);
+		[Description (Hans Zimmer)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Hans_Zimmer_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Hans_Zimmer_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1957;;
+Hans_Zimmer=>nrel_date_of_birth: 1957;;
+1957=>nrel_main_idtf:[1957 год](*<-lang_ru;;*);;
+1957=>nrel_main_idtf:[year of 1957](*<-lang_en;;*);;
+
+concept_calendar_date->1977;;
+Hans_Zimmer=>nrel_career_start_date: 1977;;
+1977=>nrel_main_idtf:[1977 год](*<-lang_ru;;*);;
+1977=>nrel_main_idtf:[year of 1977](*<-lang_en;;*);;
+
+Michael_Robert_Johnson =>nrel_cityzenship: Germany;
+<-concept_composer;;
+
+Germany
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Германия]
+	(* <- lang_ru;;	*);
+	[Germany]
+	(* <- lang_en;;	*);;
+	

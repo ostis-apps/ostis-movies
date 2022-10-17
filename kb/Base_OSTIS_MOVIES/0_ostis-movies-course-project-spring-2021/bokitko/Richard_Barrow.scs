@@ -1,0 +1,50 @@
+concept_human -> Richard_Barrow;;
+
+Richard_Barrow
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ричард Бэрроу]
+	(* <- lang_ru;;	*);
+	[Richard Barrow]
+	(* <- lang_en;;	*);;
+	
+Richard_Barrow <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ричард Бэрроу)](*<-lang_ru;;*);
+		[Description (Richard Barrow)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Richard_Barrow_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Richard_Barrow_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1938;;
+Richard_Barrow=>nrel_date_of_birth: 1938;;
+1938=>nrel_main_idtf:[1938 год](*<-lang_ru;;*);;
+1938=>nrel_main_idtf:[year of 1938](*<-lang_en;;*);;
+
+concept_calendar_date->1963;;
+Richard_Barrow=>nrel_career_start_date: 1963;;
+1963=>nrel_main_idtf:[1963 год](*<-lang_ru;;*);;
+1963=>nrel_main_idtf:[year of 1963](*<-lang_en;;*);;
+
+Richard_Barrow =>nrel_cityzenship: Usa;
+<-concept_soundman;;
+
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+

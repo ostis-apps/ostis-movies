@@ -1,0 +1,31 @@
+concept_American_Film_Awards <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Американская кинопремия] (* <- lang_ru;; *);
+=> nrel_main_idtf:[American Film Award] (* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Американская кинопремия)](*<-lang_ru;;*);
+		[Def. (American Film Award)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_award;
+		concept_award_ceremony;
+		concept_nomination
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_American_Film_Awards_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_American_Film_Awards_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_American_Film_Awards 
+-> concept_film_award_Oskar;
+-> concept_film_award_Golden_globe;
+-> concept_film_award_Saturn;
+-> concept_film_award_Emmy;
+-> concept_film_award_Satellite;
+-> concept_film_award_Independent_Spirit;;

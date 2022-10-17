@@ -1,0 +1,50 @@
+concept_human -> George_Lucas;;
+
+George_Lucas
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джордж Лукас]
+	(* <- lang_ru;;	*);
+	[George_Lucas]
+	(* <- lang_en;;	*);;
+	
+George_Lucas <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джордж Лукас)](*<-lang_ru;;*);
+		[Description (George_Lucas)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/George_Lucas_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/George_Lucas_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1944;;
+George_Lucas=>nrel_date_of_birth: 1944;;
+1932=>nrel_main_idtf:[1944 год](*<-lang_ru;;*);;
+1932=>nrel_main_idtf:[year of 1944](*<-lang_en;;*);;
+
+concept_calendar_date->1965;;
+George_Lucas=>nrel_career_start_date: 1965;;
+1960=>nrel_main_idtf:[1965 год](*<-lang_ru;;*);;
+1960=>nrel_main_idtf:[year of 1965](*<-lang_en;;*);;
+
+George_Lucas =>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_film_studio_lucasfilm;
+<-concept_producer;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+

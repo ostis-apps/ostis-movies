@@ -1,0 +1,46 @@
+David_Michod <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дэвид Мишо)](*<-lang_ru;;*);
+		[Description (David Michod)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://David_Michod_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://David_Michod_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дэвид Мишо)](*<-lang_ru;;*);
+		[Pic. (David Michod)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://David_Michod.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->30_11_1972;;
+David_Michod=>nrel_date_of_birth: 30_11_1972;;
+30_11_1972 => nrel_main_idtf:[30 ноября 1972](*<-lang_ru;;*);;
+30_11_1972 => nrel_main_idtf:[30 November 1972](*<-lang_en;;*);;
+
+David_Michod => nrel_place_of_birth : Sydney;;
+David_Michod => nrel_cityzenship : Australia;;
+
+
+
+Sydney<- concept_city;
+=> nrel_main_idtf:
+	[Сидней](* <- lang_ru;;*);
+	[Sydney](* <- lang_en;;*);;

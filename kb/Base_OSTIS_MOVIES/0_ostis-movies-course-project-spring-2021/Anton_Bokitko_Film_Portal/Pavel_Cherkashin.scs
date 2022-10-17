@@ -1,0 +1,41 @@
+Pavel_Cherkashin
+=>nrel_main_idtf:
+    [Павел Черкашин](*<-lang_ru;;*);
+    [Pavel Cherkashin](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+    <-definition;;
+	=>nrel_main_idtf:
+		[Описание (павел Черкашин)](*<-lang_ru;;*);
+		[Description (Pavel Cherkashin)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_founder_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Pavel_Cherkashin_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Pavel_Cherkashin_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Павел Черкашин)](*<-lang_ru;;*);
+		[Pic. (Pavel Cherkashin)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Pavel_Cherkashin.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1973;;
+Pavel_Cherkashin=>nrel_date_of_birth: 1973;;
+1973=>nrel_main_idtf:[1973 год](*<-lang_ru;;*);;
+1973=>nrel_main_idtf:[year of 1973](*<-lang_en;;*);;
+
+Pavel_Cherkashin
+=>nrel_cityzenship: Russia;
+<-concept_founder_film_portal;;

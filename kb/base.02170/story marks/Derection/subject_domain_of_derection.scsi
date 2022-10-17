@@ -1,0 +1,23 @@
+subject_domain_of_derection
+
+=> nrel_main_idtf:
+	[Предметная область направлений]
+	(*<-lang_ru;;*);
+	[Subject domain of derection]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	concept_derection;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_diseases_disorders_phobias;
+  	concept_occupations_and_professions;
+  	concept_mustical_and_fantastic_creatures;
+  	concept_trope;
+  	concept_superpowers;
+  	concept_sport_mark;
+  	concept_relationships;
+
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

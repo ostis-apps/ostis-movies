@@ -1,0 +1,50 @@
+concept_human -> Ewan_McGregor;;
+
+Ewan_McGregor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Юэн Макгрегор]
+	(* <- lang_ru;;	*);
+	[Ewan McGregor]
+	(* <- lang_en;;	*);;
+	
+Ewan_McGregor <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Юэн Макгрегор)](*<-lang_ru;;*);
+		[Description (Ewan McGregor)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ewan_McGregor_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ewan_McGregor_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1971;;
+Ewan_McGregor=>nrel_date_of_birth: 1971;;
+1971=>nrel_main_idtf:[1971 год](*<-lang_ru;;*);;
+1971=>nrel_main_idtf:[year of 1971](*<-lang_en;;*);;
+
+concept_calendar_date->1989;;
+Ewan_McGregor=>nrel_career_start_date: 1989;;
+1989=>nrel_main_idtf:[1989 год](*<-lang_ru;;*);;
+1989=>nrel_main_idtf:[year of 1989](*<-lang_en;;*);;
+
+Ewan_McGregor =>nrel_cityzenship: Scotland;
+=>nrel_production_link: concept_film_studio_lucasfilm;
+<-concept_main_actor;;
+
+Scotland
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Шотландия]
+	(* <- lang_ru;;	*);
+	[Scotland]
+	(* <- lang_en;;	*);;
+

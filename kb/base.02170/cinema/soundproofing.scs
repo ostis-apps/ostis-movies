@@ -1,0 +1,33 @@
+concept_soundproofing <- sc_node_not_relation;
+
+=> nrel_main_idtf:[звукоизоляция] (* <- lang_ru;; *);
+=> nrel_idtf:[soundproofing] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (звукоизоляция)](* <- lang_ru;; *);
+		[Def. (soundproofing)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_soundproofing;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_soundproofing">Звукоизоляция</sc_element></b> это любое средство снижения звукового давления по отношению к определенному источнику звука и приемнику.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_soundproofing">Soundproofing</sc_element></b> is any means of reducing the sound pressure with respect to a specified sound source and receptor.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (звукоизоляция)](*<-lang_ru;;*);
+		[Pic. (soundproofing)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/soundproofing.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

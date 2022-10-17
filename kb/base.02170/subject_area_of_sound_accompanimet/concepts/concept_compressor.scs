@@ -1,0 +1,33 @@
+concept_compressor <- sc_node_norole_relation;
+
+<- concept_sound_studio;
+
+=> nrel_main_idtf:
+	[compressor] (*<- lang_en;;*);
+	[компрессор аудиосигала] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[blower] (*<- lang_en;;*);
+	[компрессор] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (компрессор аудиосигнала)] (*<- lang_ru;;*);
+		[Def. (compressor)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_compressor_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_compressor_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (компрессор аудиосигнала)](*<-lang_ru;;*);
+		[Pic. (compressor)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_compressor.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,47 @@
+concept_kinogo <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Киного] (* <- lang_ru;; *);
+=> nrel_main_idtf:[Kinogo] (* <- lang_en;; *);
+
+=> nrel_idtf:[Kinogo] (* <- lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Киного)](*<-lang_ru;;*);
+		[Def. (Kinogo)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_portal;        
+        concept_service;
+        concept_internet_service;
+        concept_subscription;
+        concept_library_with_licensed_content;
+        concept_paid_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_kinogo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_kinogo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Киного)](*<-lang_ru;;*);
+		[Pic. (Kinogo)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_kinogo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_kinogo
+=>nrel_foundation_year:  2016;
+=>nrel_founder: concept_Victor_Osipov;
+=>nrel_site:[https://www.kinogo.la//](* <- lang_en;; *);
+=>nrel_count_films: 30000;;

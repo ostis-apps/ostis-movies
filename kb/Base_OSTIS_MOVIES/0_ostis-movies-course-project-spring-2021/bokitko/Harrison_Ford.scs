@@ -1,0 +1,50 @@
+concept_human -> Harrison_Ford;;
+
+Harrison_Ford
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Харрисон Форд]
+	(* <- lang_ru;;	*);
+	[Harrison Ford]
+	(* <- lang_en;;	*);;
+	
+Harrison_Ford <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Хариссон Форд)](*<-lang_ru;;*);
+		[Description (Harrison_Ford)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_production_designer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Harrison_Ford_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Harrison_Ford_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1942;;
+Harrison_Ford=>nrel_date_of_birth: 1942;;
+1942=>nrel_main_idtf:[1942 год](*<-lang_ru;;*);;
+1942=>nrel_main_idtf:[year of 1942](*<-lang_en;;*);;
+
+concept_calendar_date->1966;;
+Harrison_Ford=>nrel_career_start_date: 1966;;
+1966=>nrel_main_idtf:[1966 год](*<-lang_ru;;*);;
+1966=>nrel_main_idtf:[year of 1966](*<-lang_en;;*);;
+
+Harrison_Ford =>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_film_studio_lucasfilm;
+<-concept_main_actor;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+

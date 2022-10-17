@@ -1,0 +1,71 @@
+The_Barbie_Diaries<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Дневники Барби]
+	(* <- lang_ru;;	*);
+	[The Barbie Diaries]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дневники Барби)](*<-lang_ru;;*);
+		[Description (The Barbie Diaries)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://The_Barbie_Diaries_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://The_Barbie_Diaries_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дневники Барби)](*<-lang_ru;;*);
+		[Pic. (The Barbie Diaries)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://The_Barbie_Diaries.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Eric_Fogel;
+=> nrel_film_director: Kallen_Kagen;
+=> nrel_composer: Russ_DeSalvo;
+=> nrel_composer: Peter_Schwartz;
+
+=> nrel_producer: Kallen_Kagen;
+=> nrel_screenwriter : Elise_Allen;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 09_05_2006;
+=> nrel_duration_of_showing : 1_11;
+=> nrel_film_critic_rating : 5;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_fairy;
+=> nrel_keywords: concept_songer;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;
+=> nrel_budget:  ...
+(*
+	<- concept_quality;;
+	-> [12030000];;
+*);;
+
+12030000 <- concept_number;;
+
+concept_calendar_date -> 09_05_2006;;
+09_05_2006 => nrel_main_idtf : [09.05.2006](*<-lang_ru;;*);;
+09_05_2006 => nrel_main_idtf : [09.05.2006](*<-lang_en;;*);;

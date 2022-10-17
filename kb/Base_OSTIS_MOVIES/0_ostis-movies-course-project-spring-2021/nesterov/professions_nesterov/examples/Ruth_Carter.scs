@@ -1,0 +1,54 @@
+concept_human -> Ruth_Carter;;
+
+Ruth_Carter
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Рут Э. Картер]
+	(* <- lang_ru;;	*);
+	[Ruth E. Carter]
+	(* <- lang_en;;	*);;
+	
+Ruth_Carter <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Рут Э. Картер  )](*<-lang_ru;;*);
+		[Description (Ruth E. Carter)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ruth_Carter_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ruth_Carter_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ruth_Carter 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Рут Э. Картер  )](*<-lang_ru;;*);
+		[Pic. (Ruth E. Carter)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Ruth_Carter.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1960;;
+Ruth_Carter=>nrel_date_of_birth: 1960;;
+1960=>nrel_main_idtf:[1960 год](*<-lang_ru;;*);;
+1960=>nrel_main_idtf:[year of 1960](*<-lang_en;;*);;
+
+concept_calendar_date->1982;;
+Ruth_Carter=>nrel_career_start_date: 1982;;
+1982=>nrel_main_idtf:[1982 год](*<-lang_ru;;*);;
+1982=>nrel_main_idtf:[year of 1982](*<-lang_en;;*);;
+
+Ruth_Carter =>nrel_cityzenship:USA;;
+USA<-concept_country;;
+

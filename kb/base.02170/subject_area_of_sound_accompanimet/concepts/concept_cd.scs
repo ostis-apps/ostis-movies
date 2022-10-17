@@ -1,0 +1,33 @@
+concept_cd <- sc_node_norole_relation;
+
+
+<=nrel_storage_media:concept_laser_sound_recording;
+
+=> nrel_main_idtf:
+	[cd] (*<- lang_en;;*);
+	[компакт диск] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[compact disc] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (компакт диск)] (*<- lang_ru;;*);
+		[Def. (cd)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_cd_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_cd_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (компакт диск)](*<-lang_ru;;*);
+		[Pic. (cd)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_cd.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

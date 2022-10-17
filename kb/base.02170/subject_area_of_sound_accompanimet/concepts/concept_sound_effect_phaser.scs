@@ -1,0 +1,22 @@
+concept_sound_effect_phaser <- sc_node_norole_relation;
+
+<-nrel_inclusion: concept_sound_effects;
+
+=> nrel_main_idtf:
+	[sound effect phaser] (*<- lang_en;;*);
+	[звуковой эффект файзер] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[phaser] (*<- lang_en;;*);
+	[файзер] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (студийные звуковой эффект файзер)] (*<- lang_ru;;*);
+		[Def. (sound effect phaser)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_sound_effect_phaser_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_sound_effect_phaser_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,52 @@
+concept_human -> Azarovskiy_Vitaliy;;
+
+Azarovskiy_Vitaliy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Виталий Азаровский]
+	(* <- lang_ru;;	*);
+	[Azarovskiy Vitaliy]
+	(* <- lang_en;;	*);;
+	
+Azarovskiy_Vitaliy <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Виталий Азаровскийл)](*<-lang_ru;;*);
+		[Description (Azarovskiy Vitaliy)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_sound_engineer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Azarovskiy_Vitaliy_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Azarovskiy_Vitaliy_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1932;;
+Azarovskiy_Vitaliy=>nrel_date_of_birth: 1932;;
+1932=>nrel_main_idtf:[1932 год](*<-lang_ru;;*);;
+1932=>nrel_main_idtf:[year of 1932](*<-lang_en;;*);;
+
+concept_calendar_date->1960;;
+Azarovskiy_Vitaliy=>nrel_career_start_date: 1960;;
+1960=>nrel_main_idtf:[1960 год](*<-lang_ru;;*);;
+1960=>nrel_main_idtf:[year of 1960](*<-lang_en;;*);;
+
+Azarovskiy_Vitaliy =>nrel_cityzenship: Russia;
+=>nrel_production_link: concept_film_studio_display;
+<-concept_soundman;
+=>nrel_soundman: concept_cartoon_Nu_Pogodi;;
+
+Russia
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Россия]
+	(* <- lang_ru;;	*);
+	[Russia]
+	(* <- lang_en;;	*);;
+

@@ -1,0 +1,52 @@
+section_subject_domain_of_multilingual_film_portal <-non_atomic_section;
+
+=>nrel_main_idtf:
+[Раздел. Предметная область Многоязычных Кинопорталов] (*<-lang_ru;;*);
+[Section. Subject domain of Multilingua film Portal] (*<-lang_en;;*);
+
+<= nrel_section_decomposition:{
+concept_kinogo;
+concept_tvzavr;
+concept_tvigle
+
+};;
+
+section_subject_domain_of_multilingual_film_portal -> rrel_key_sc_element:
+subject_domain_of_multilingual_film_portal;
+
+concept_service;
+concept_internet_service;
+concept_subscription;
+concept_library_with_licensed_content;
+
+nrel_service;
+nrel_internet_service;
+nrel_subscription;
+nrel_library_with_licensed_content;;
+
+section_subject_domain_of_multilingual_film_portal= [*
+subject_domain_of_multilingual_film_portal
+<-subject_domain;
+
+=>nrel_main_idtf:
+[Предметная область Многоязычных Кинопорталов] (*<-lang_ru;;*);
+[Subject domain of Multilingual Fimp Portal] (*<-lang_en;;*);
+
+<= nrel_private_subject_domain:{
+subject_domain_of_multilingual_film_portal
+};;
+
+subject_domain_of_multilingual_film_portal->rrel_maximum_studied_object_class:concept_multilingual_film_portal;;
+subject_domain_of_multilingual_film_portal->rrel_not_maximum_studied_object_class:
+concept_service;
+concept_internet_service;
+concept_subscription;
+concept_library_with_licensed_content;;
+
+subject_domain_of_multilingual_film_portal->rrel_explored_relation:
+nrel_service;
+nrel_internet_service;
+nrel_subscription;
+nrel_library_with_licensed_content;;
+*];;
+

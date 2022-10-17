@@ -1,0 +1,63 @@
+Barbie_and_Her_Sisters_in_the_Great_Puppy_Adventure<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби и щенки в поисках сокровищ]
+	(* <- lang_ru;;	*);
+	[Barbie and Her Sisters in the Great Puppy Adventure]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби и щенки в поисках сокровищ)](*<-lang_ru;;*);
+		[Description (Barbie and Her Sisters in the Great Puppy Adventure)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_and_Her_Sisters_in_the_Great_Puppy_Adventure_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_and_Her_Sisters_in_the_Great_Puppy_Adventure_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби и щенки в поисках сокровищ)](*<-lang_ru;;*);
+		[Pic. (Barbie and Her Sisters in the Great Puppy Adventure)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_and_Her_Sisters_in_the_Great_Puppy_Adventure.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Andrew_Tan;
+=> nrel_composer: Christopher_Willis;
+
+=> nrel_screenwriter : Amy_Wolfram;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 28_09_2016;
+=> nrel_duration_of_showing : 1_15;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_puppies;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_family;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;;
+
+concept_calendar_date -> 28_09_2016;;
+28_09_2016 => nrel_main_idtf : [28.09.2016](*<-lang_ru;;*);;
+28_09_2016 => nrel_main_idtf : [28.09.2016](*<-lang_en;;*);;

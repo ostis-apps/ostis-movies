@@ -1,0 +1,49 @@
+concept_human -> Khris_Manro;;
+
+Khris_Manro
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Крис Манро]
+	(* <- lang_ru;;	*);
+	[Khris Manro]
+	(* <- lang_en;;	*);;
+	
+Khris_Manro <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Крис Манро)](*<-lang_ru;;*);
+		[Description (Khris Manro)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Khris_Manro_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Khris_Manro_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1985;;
+Khris_Manro=>nrel_date_of_birth: 1985;;
+1985=>nrel_main_idtf:[1985 год](*<-lang_ru;;*);;
+1985=>nrel_main_idtf:[year of 1985](*<-lang_en;;*);;
+
+concept_calendar_date->2009;;
+Khris_Manro=>nrel_career_start_date: 2009;;
+2009=>nrel_main_idtf:[2009 год](*<-lang_ru;;*);;
+2009=>nrel_main_idtf:[year of 2009](*<-lang_en;;*);;
+
+Khris_Manro =>nrel_cityzenship: GB;
+<-concept_soundman;;
+
+GB
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Великобритания]
+	(* <- lang_ru;;	*);
+	[Great Britain]
+	(* <- lang_en;;	*);;
+	

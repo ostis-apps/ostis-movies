@@ -1,0 +1,56 @@
+subject_domain_of_staff
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область персонал] (*<- lang_ru;;*);
+	[Subject domain area of staff] (*<- lang_en;;*);
+	
+->rrel_maximum_studied_object_class: concept_staff;
+
+<= nrel_private_subject_domain: subject_domain_of_cinema_services;
+
+->rrel_not_maximum_studied_object_class: concept_administrator;
+->rrel_not_maximum_studied_object_class: concept_cashier;
+->rrel_not_maximum_studied_object_class: concept_cleaner;
+->rrel_not_maximum_studied_object_class: concept_projectionist;
+->rrel_not_maximum_studied_object_class: concept_security;;
+
+concept_staff <- sc_node_not_relation;
+
+=> nrel_main_idtf:[персонал] (* <- lang_ru;; *);
+=> nrel_idtf:[staff] (* <- lang_en;; *);
+
+->studied_object_class: concept_administrator;
+->studied_object_class: concept_cashier;
+->studied_object_class: concept_cleaner;
+->studied_object_class: concept_projectionist;
+->studied_object_class: concept_security;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (персонал)](* <- lang_ru;; *);
+		[Def. (staff)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_staff;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_staff">Персонал</sc_element></b> коллектив работников или совокупность лиц, осуществляющих трудовые функции на основе трудового договора (контракта).](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_staff">Staff</sc_element></b> a team of employees or a set of persons performing labor functions on the basis of an employment contract (contract).](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (персонал)](*<-lang_ru;;*);
+		[Pic. (staff)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/staff.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

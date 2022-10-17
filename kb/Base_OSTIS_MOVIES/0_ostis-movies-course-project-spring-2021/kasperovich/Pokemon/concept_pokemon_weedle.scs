@@ -1,0 +1,93 @@
+concept_pokemon -> concept_pokemon_weedle;;
+
+concept_pokemon_weedle
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Видл]
+	(* <- lang_ru;;	*);
+	[Weedle]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_weedle <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Видл)](*<-lang_ru;;*);
+		[Description (Weedle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_weedle_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_weedle_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_weedle <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Видл)](*<-lang_ru;;*);
+		[Appearance (Weedle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_weedle_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_weedle_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_weedle <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Видл)](*<-lang_ru;;*);
+		[Natural ability (Weedle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_weedle_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_weedle_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_weedle <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Видл)](*<-lang_ru;;*);
+		[Habitat (Weedle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_weedle_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_weedle_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_weedle <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Видл)](*<-lang_ru;;*);
+		[Pic. (Weedle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_weedle.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_weedle <- concept_pokemon_kakuna;;
+
+
+concept_pokemon_weedle <- concept_poison_type;;
+
+concept_pokemon_weedle <- concept_bug_type;;
+
+concept_pokemon_weedle <- concept_color_brown;;
+
+value -> 13;;
+concept_pokemon_weedle => nrel_pokedex_number: 13;;
+
+value -> 0.3;;
+concept_pokemon_weedle => nrel_height: 0.3;;
+
+value -> 3.2;;
+concept_pokemon_weedle => nrel_weight: 3.2;;

@@ -1,0 +1,36 @@
+concept_double_armchair <- sc_node_not_relation;
+
+=> nrel_main_idtf:[двойное кресло] (* <- lang_ru;; *);
+=> nrel_idtf:[double_armchair] (* <- lang_en;; *);
+
+->studied_object_class: concept_sliding_chair;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (двойное кресло)](* <- lang_ru;; *);
+		[Def. (double_armchair)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_double_armchair;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_double_armchair">Двойное кресло</sc_element></b> это кресла для двоих людей,еще их часто называют "love sit",  так же устанавливаются в основном на последний ряд зала.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_double_armchair">Double armchair</sc_element></b> it is armchairs for two people, often called "love sit", are also installed mainly on the last row of the hall.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (двойное кресло)](*<-lang_ru;;*);
+		[Pic. (double_armchair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/double_armchair.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

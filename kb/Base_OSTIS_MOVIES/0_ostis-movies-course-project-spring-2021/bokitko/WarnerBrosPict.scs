@@ -1,0 +1,80 @@
+concept_film_studio_WarnerBrosPict <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия Warner Brothers Pictures] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio Warner Brothers Pictures] (* <- lang_en;; *);
+=> nrel_idtf:[WarnerBrosPict] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия Warner Brothers Pictures)] (* <- lang_ru;; *);
+							   [Statement(film studio Warner Brothers Pictures)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio;
+				concept_WarnerBrosPict
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_WarnerBrosPict_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_WarnerBrosPict_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Warner Bros. Pictures)](*<-lang_ru;;*);
+		[Pic. (film studio Warner Bros. Pictures)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/WarnerBrosPict.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+=>nrel_fabricate:{
+concept_TV_series;
+concept_anime;
+concept_film;
+concept_original_series;
+concept_web_series
+};
+<-concept_animation_film_studio;
+=>nrel_site:[https://https://www.warnerbros.com//](* <- lang_en;; *);
+
+=>nrel_foundation_year: 1923;
+=>nrel_founder:concept_Harry_Warner;
+=>nrel_founder:concept_Albert_Warner;
+=>nrel_founder:concept_Sam_Warner;
+=>nrel_founder:concept_Jack_Warner;
+=>nrel_take_place: Usa;;
+
+Usa <-concept_country;
+=> nrel_main_idtf: 
+[США] (* <-lang_ru;; *); 
+[USA] (* <-lang_en;; *);;
+
+concept_Harry_Warner <-concept_human;
+=> nrel_main_idtf: 
+[Гарри Уорнер] (* <-lang_ru;; *); 
+[Harry Warner] (* <-lang_en;; *);
+=>nrel_cityzenship: Usa;;
+
+concept_Albert_Warner <-concept_human;
+=> nrel_main_idtf: 
+[Альберт Уорнер] (* <-lang_ru;; *); 
+[Albert Warner] (* <-lang_en;; *);
+=>nrel_cityzenship: Usa;;
+
+concept_Sam_Warner <-concept_human;
+=> nrel_main_idtf: 
+[Сэм Уорнер] (* <-lang_ru;; *); 
+[Sam Warner] (* <-lang_en;; *);
+=>nrel_cityzenship: Usa;;
+
+concept_Jack_Warner <-concept_human;
+=> nrel_main_idtf: 
+[Джек Уорнер] (* <-lang_ru;; *); 
+[Jack Warner] (* <-lang_en;; *);
+=>nrel_cityzenship: Usa;;

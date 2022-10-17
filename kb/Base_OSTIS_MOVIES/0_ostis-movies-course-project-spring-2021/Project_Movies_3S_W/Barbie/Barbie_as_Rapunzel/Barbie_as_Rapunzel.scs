@@ -1,0 +1,101 @@
+Barbie_as_Rapunzel<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби и дракон]
+	(* <- lang_ru;;	*);
+	[Barbie as Rapunzel]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби и дракон)](*<-lang_ru;;*);
+		[Description (Barbie as Rapunzel)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_as_Rapunzel_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_as_Rapunzel_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби и дракон)](*<-lang_ru;;*);
+		[Pic. (Barbie as Rapunzel)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_as_Rapunzel.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Owen_Hurley;
+=> nrel_composer: Arnie_Roth;
+=> nrel_soundman: Troy_Allen;
+=> nrel_production_designer: Diana_Brostow;
+
+
+=> nrel_producer: Jesyca_Durchin;
+=> nrel_producer: Jennifer_Twiner_McCaron;
+=> nrel_screenwriter : Elana_Lesser;
+=> nrel_screenwriter : Cliff_Ruby;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 01_10_2002;
+=> nrel_duration_of_showing : 1_23;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+=> nrel_original_language: lang_en;
+
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_princess;
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_war;
+=> nrel_keywords: concept_family_film;
+=> nrel_keywords: concept_tower;
+=> nrel_keywords: concept_dragons;;
+
+Barbie_as_Rapunzel=> nrel_tagline_of_film : slogan_Barbie_as_Rapunzel;;
+slogan_Barbie_as_Rapunzel => nrel_main_idtf : [Волшебный поворот в классической сказке!](*<-lang_ru;;*);;
+slogan_Barbie_as_Rapunzel => nrel_main_idtf : [A Magical Twist on the Classic Fairy Tale!](*<-lang_en;;*);;
+
+concept_calendar_date -> 01_10_2002;;
+01_10_2002 => nrel_main_idtf : [01.10.2002](*<-lang_ru;;*);;
+01_10_2002 => nrel_main_idtf : [01.10.2002](*<-lang_en;;*);;
+
+duration -> 1_23;;
+1_23 => nrel_main_idtf : [1 час и 23 минуты](*<-lang_ru;;*);;
+1_23 => nrel_main_idtf : [1 hour and 23 minutes](*<-lang_en;;*);;
+
+concept_tower
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Башня]
+(* <- lang_ru;;	*);
+[Tower]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_dragons
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Драконы]
+(* <- lang_ru;;	*);
+[Tragons]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+

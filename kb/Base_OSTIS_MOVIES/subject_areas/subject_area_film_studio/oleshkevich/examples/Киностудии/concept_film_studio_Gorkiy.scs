@@ -1,0 +1,63 @@
+concept_film_studio_Gorkiy <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия им. М. Горького] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio named after Gorkiy] (* <- lang_en;; *);
+=> nrel_idtf:[киностудия им. М. Горького] (* <- lang_ru;; *);
+=> nrel_idtf:[Oriental Light and Magic] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия им. М. Горького)] (* <- lang_ru;; *);
+							   [Statement(film studio named after Gorkiy)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_Gorkiy_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_Gorkiy_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия им. М. Горького)](*<-lang_ru;;*);
+		[Pic. (film studio named after Gorkiy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Gorkiy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+=>nrel_fabricate:concept_TV_series;
+=>nrel_fabricate:concept_film;
+
+<-concept_art_film_studio;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1915 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+
+=>nrel_cinema_location: Moscow;
+
+<=nrel_responsobility_zone: Sergey_Zernov;;
+
+Sergey_Zernov <-concept_human;
+=> nrel_main_idtf: 
+[Сергей Зернов] (* <-lang_ru;; *); 
+[Sergey Zernov] (* <-lang_en;; *);
+=>nrel_cityzenship: Russia;;
+
+

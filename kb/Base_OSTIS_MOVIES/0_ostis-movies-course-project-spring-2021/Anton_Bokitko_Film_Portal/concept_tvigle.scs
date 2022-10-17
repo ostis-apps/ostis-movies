@@ -1,0 +1,47 @@
+concept_tvigle <- sc_node_not_relation;
+
+=> nrel_main_idtf:[TVigle] (* <- lang_ru;; *);
+=> nrel_main_idtf:[TVigle] (* <- lang_en;; *);
+
+=> nrel_idtf:[tvigle] (* <- lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (TVigle)](*<-lang_ru;;*);
+		[Def. (TVigle)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_portal;        
+        concept_service;
+        concept_internet_service;
+        concept_subscription;
+        concept_library_with_licensed_content
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_tvigle_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_tvigle_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (TVigle)](*<-lang_ru;;*);
+		[Pic. (TVigle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_TVigle.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_tvigle
+=>nrel_foundation_year:  01.01.2007;
+=>nrel_founder: Yegor_Yakovlev;
+=>nrel_founder: Pavel_Cherkashin;
+=>nrel_site:[https://www.tvigle.ru/](* <- lang_en;; *);
+=>nrel_count_films: 30000;;

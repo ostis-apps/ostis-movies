@@ -1,0 +1,54 @@
+concept_human -> William_Travilla;;
+
+William_Travilla
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Уильям Травилла ]
+	(* <- lang_ru;;	*);
+	[William Travilla]
+	(* <- lang_en;;	*);;
+	
+William_Travilla <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Уильям Травилла)](*<-lang_ru;;*);
+		[Description (William Travilla)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/William_Travilla_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/William_Travilla_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+William_Travilla 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Уильям Травилла)](*<-lang_ru;;*);
+		[Pic. (William Travilla)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/William_Travilla.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1920;;
+William_Travilla=>nrel_date_of_birth: 1920;;
+1920=>nrel_main_idtf:[1920 год](*<-lang_ru;;*);;
+1920=>nrel_main_idtf:[year of 1920](*<-lang_en;;*);;
+
+concept_calendar_date->1952;;
+William_Travilla=>nrel_career_start_date: 1952;;
+1952=>nrel_main_idtf:[1952 год](*<-lang_ru;;*);;
+1952=>nrel_main_idtf:[year of 1952](*<-lang_en;;*);;
+
+William_Travilla =>nrel_cityzenship:USA;;
+USA<-concept_country;;
+

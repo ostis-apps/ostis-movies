@@ -1,0 +1,31 @@
+concept_animatronics_specialist <- sc_node_norole_relation;
+
+
+
+=> nrel_main_idtf:
+    [animatronics_specialist](*<- lang_en;;*);
+    [специалист в аниматронике](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (специалист в аниматронике)](*<- lang_ru;;*);
+        [Def. (animatronics_specialist)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_animatronics_specialist_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_animatronics_specialist_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+
+
+<- rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (специалист в аниматронике)](*<-lang_ru;;*);
+		    [Pic. (animatronics_specialist)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/ani.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

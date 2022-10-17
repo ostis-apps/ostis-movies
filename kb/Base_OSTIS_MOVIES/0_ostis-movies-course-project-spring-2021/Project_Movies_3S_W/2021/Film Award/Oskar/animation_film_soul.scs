@@ -1,0 +1,75 @@
+animation_film_soul <- sc_node_not_relation;
+<- concept_cartoon;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Душа)](*<-lang_ru;;*);
+		[Description (Soul)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://animation_film_soul_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://animation_film_soul_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Душа)](*<-lang_ru;;*);
+		[Pic. (Soul)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://animation_film_soul.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;	
+
+Kevin_Nolting=> nrel_main_idtf:
+    [Kevin Nolting](*<- lang_en;;*);
+    [Кевин Нолтинг](*<- lang_ru;;*);
+<-concept_human;;
+Pete_Docter=> nrel_main_idtf:
+    [Pete Docter](*<- lang_en;;*);
+    [Пит Доктор](*<- lang_ru;;*);
+<-concept_human;;
+Dana_Murray=> nrel_main_idtf:
+    [Dana Murray](*<- lang_en;;*);
+    [Дана Мюррей](*<- lang_ru;;*);
+<-concept_human;;
+
+animation_film_soul
+=> nrel_film_studio: concept_film_studio_pixar;
+=> nrel_production_designer: Kevin_Nolting;
+=> nrel_film_director: Pete_Docter;
+=> nrel_composer: Arnie_Roth;
+=> nrel_producer: Dana_Murray;
+=> nrel_screenwriter : Pete_Docter;
+
+=> nrel_production_country: USA;
+=> nrel_release_date : 25_12_2020;
+=> nrel_duration_of_showing : 1_20;
+=> nrel_film_critic_rating : 4;
+=> nrel_age_rating: concept_G;;
+
+animation_film_soul => nrel_tagline_of_film : slogan_animation_film_soul;;
+slogan_animation_film_soul => nrel_main_idtf : [У каждого есть душа.](*<-lang_ru;;*);;
+slogan_animation_film_soul => nrel_main_idtf : [Everybody has a soul.](*<-lang_en;;*);;
+
+animation_film_soul => nrel_storyline : storyline_animation_film_soul;;
+storyline_animation_film_soul => nrel_main_idtf : [Joe is a middle-school band teacher whose life hasn't quite gone the way he expected. His true passion is jazz -- and he's good. But when he travels to another realm to help someone find their passion, he soon discovers what it means to have soul.](*<-lang_en;;*);;
+
+concept_calendar_date -> 25_12_2020;;
+25_12_2020 => nrel_main_idtf : [25.12.2020](*<-lang_ru;;*);;
+25_12_2020 => nrel_main_idtf : [25.12.2020](*<-lang_en;;*);;
+
+duration -> 1_20;;
+1_20 => nrel_main_idtf : [1 час и 29 минут](*<-lang_ru;;*);;
+1_20 => nrel_main_idtf : [1 hour and 20 minutes](*<-lang_en;;*);;
+

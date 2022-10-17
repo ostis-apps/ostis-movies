@@ -1,0 +1,21 @@
+concept_death_of_the_main_character
+<= nrel_inclusion: concept_warning;
+=> nrel_main_idtf: 
+	[смерть основного персонажа] (*<- lang_ru;;*);
+	[death of the main character] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. смерть основного персонажа] (*<- lang_ru;;*);
+		[Def. death of the main character] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_death_of_the_main_character_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_death_of_the_main_character_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       concept_moviegoer;
+       nrel_the_main_character
+    };;
+*);;

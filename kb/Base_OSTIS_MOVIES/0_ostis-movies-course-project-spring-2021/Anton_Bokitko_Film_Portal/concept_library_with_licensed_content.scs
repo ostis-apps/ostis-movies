@@ -1,0 +1,20 @@
+concept_library_with_licensed_content <- sc_node_not_relation;
+
+=>nrel_main_idtf:
+	[Библиотека с лицензированным контентом](*<-lang_ru;;*);
+	[Library with licensed content](*<-lang_en;;*); 
+=> nrel_idtf:[Библиотека с лицензированным контентом] (* <- lang_ru;; *);
+=> nrel_idtf:[Library with licensed content] (* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Библиотека с лицензированным контентом)](*<-lang_ru;;*);
+		[Def. (library with licensed content)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_library_with_licensed_content_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_library_with_licensed_content_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

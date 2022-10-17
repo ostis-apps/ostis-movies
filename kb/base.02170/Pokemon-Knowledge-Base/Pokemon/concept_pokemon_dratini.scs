@@ -1,0 +1,104 @@
+concept_pokemon -> concept_pokemon_dratini;;
+
+concept_pokemon_dratini
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дратини]
+	(* <- lang_ru;;	*);
+	[Dratini]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_dratini <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дратини)](*<-lang_ru;;*);
+		[Description (Dratini)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dratini_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dratini_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_dratini <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Дратини)](*<-lang_ru;;*);
+		[Appearance (Dratini)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dratini_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dratini_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_dratini <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Дратини)](*<-lang_ru;;*);
+		[Behavior (Dratini)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dratini_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dratini_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_dratini <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Дратини)](*<-lang_ru;;*);
+		[Natural ability (Dratini)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dratini_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dratini_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_dratini <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Дратини)](*<-lang_ru;;*);
+		[Habitat (Dratini)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_dratini_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_dratini_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_dratini <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дратини)](*<-lang_ru;;*);
+		[Pic. (Dratini)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_dratini.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_dratini 
+=> nrel_pokemon_evolution: concept_pokemon_dragonair;;
+
+value -> 147;;
+concept_pokemon_dratini => nrel_pokedex_number: 147;;
+
+value -> 1.8;;
+concept_pokemon_dratini => nrel_height: 1.8;;
+
+value -> 3.3;;
+concept_pokemon_dratini => nrel_weight: 3.3;;
+
+concept_dragon_type -> concept_pokemon_dratini;;
+
+concept_color_blue -> concept_pokemon_dratini;;

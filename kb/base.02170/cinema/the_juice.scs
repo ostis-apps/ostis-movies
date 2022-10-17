@@ -1,0 +1,33 @@
+concept_the_juice <- sc_node_not_relation;
+
+=> nrel_main_idtf:[сок] (* <- lang_ru;; *);
+=> nrel_idtf:[the_juice] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (сок)](* <- lang_ru;; *);
+		[Def. (the_juice)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_the_juice;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_the_juice">Сок</sc_element></b> это напиток, приготовленный путем экстракции или прессования натуральной жидкости, содержащейся во фруктах и ​​овощах.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_the_juice">The juice</sc_element></b> is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. ](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (сок)](*<-lang_ru;;*);
+		[Pic. (the_juice)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/the_juice.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

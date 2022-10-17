@@ -1,0 +1,22 @@
+concept_electric_type -> concept_half_main_electric_type;;
+
+concept_half_main_electric_type
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Наполовину основной электрический тип]
+	(* <- lang_ru;;	*);
+	[Half main electric type]
+	(* <- lang_en;;	*);;
+	
+concept_half_main_electric_type <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Наполовину основной электрический тип)](*<-lang_ru;;*);
+		[Description (Half main electric type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		-> rrel_example:[<sc_element sys_idtf="concept_pokemon_type">Тип покемонов</sc_element>, у которых <sc_element sys_idtf="concept_electric_type">электрический тип</sc_element> является основной половиной .](* <- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example:[<sc_element sys_idtf="concept_pokemon">The type of pokemon</sc_element> in which the <sc_element sys_idtf="concept_electric_type">electric type</sc_element> is the main half.](* <- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;

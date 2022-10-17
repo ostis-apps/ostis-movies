@@ -1,0 +1,21 @@
+concept_electromechanical_sound_recording <- sc_node_norole_relation;
+
+<- concept_analog_sound_recording;
+
+=> nrel_main_idtf:
+	[electromechanical sound recording] (*<- lang_en;;*);
+	[электромеханическая звукозапись] (*<- lang_ru;;*);
+
+
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (электромеханическая звукозапись)] (*<- lang_ru;;*);
+		[Def. (electromechanical sound recording)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_electromechanical_sound_recording_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_electromechanical_sound_recording_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,27 @@
+section_subject_domain_of_mustical_and_fantastic_creatures
+<- section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область мистических и фантастических существ]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of mustical and fantastic creatures]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий мистических и фантастических существ (сюжетные метки)]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element:
+	subject_domain_of_mustical_and_fantastic_creatures;
+    concept_mustical_and_fantastic_creatures;	
+    concept_zombies; 
+	concept_mermaids;
+	concept_androids;
+	concept_monsters;
+	concept_werewolves;
+	concept_vampires;
+	concept_ghosts;;
+
+section_subject_domain_of_mustical_and_fantastic_creatures = [*^"file://subject_domain_of_mustical_and_fantastic_creatures.scsi"*];;

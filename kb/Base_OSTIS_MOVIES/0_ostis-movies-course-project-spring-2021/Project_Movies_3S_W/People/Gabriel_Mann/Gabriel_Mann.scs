@@ -1,0 +1,40 @@
+Gabriel_Mann <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Габриэль Манн)](*<-lang_ru;;*);
+		[Description (Gabriel Mann)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Gabriel_Mann_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Gabriel_Mann_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Габриэль Манн)](*<-lang_ru;;*);
+		[Pic. (Gabriel Mann)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Gabriel_Mann.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1986;;
+Gabriel_Mann=>nrel_date_of_birth: 1986;;
+1986=>nrel_main_idtf:[1986 год](*<-lang_ru;;*);;
+1986=>nrel_main_idtf:[year of 1986](*<-lang_en;;*);;
+
+Gabriel_Mann
+=>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_Mainframe_Studios;
+<-concept_composer;
+=>nrel_site:[http://www.gabrielmann.com/#mobile-menu](* <- lang_en;; *);;

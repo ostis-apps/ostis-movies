@@ -1,0 +1,31 @@
+concept_dialogue_editor <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [Dialogue editor](*<- lang_en;;*);
+    [Редактор диалогов](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (Редактор диалогов)](*<- lang_ru;;*);
+        [Def. (Dialogue editor)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_dialogue_editor_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_dialogue_editor_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+<-  rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (Редактор диалогов)](*<-lang_ru;;*);
+		    [Pic. (Dialogue editor)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/Dialogue_editor.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

@@ -1,0 +1,35 @@
+nrel_internet_service <- sc_node_norole_relation;
+
+<- binary_relation;
+<- asymmetric_relation;
+<- notransitive_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+
+=> nrel_main_idtf:
+    [internet servise*](*<- lang_en;;*);
+    [интернет сервис*](*<- lang_ru;;*);
+=> nrel_idtf:[Онлайн кинотеатр*] (* <- lang_ru;; *);
+=> nrel_idtf:[Online cinema*] (* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Интернет Сервис*)](*<-lang_ru;;*);
+		[Def. (Internet Service*)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_internet_service_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_internet_service_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+=> nrel_first_domain:  concept_film_portal;
+=> nrel_second_domain: concept_internet_service;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_internet_service;;
+        -> concept_film_portal;;
+    *);;
+*);;

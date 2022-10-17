@@ -1,0 +1,25 @@
+concept_class_storage_media <- sc_node_not_relation;
+
+
+<=nrel_subdividing:
+{concept_cd;
+concept_blu_ray;
+concept_dvd;
+concept_gramophone_record;
+concept_mini_disc;
+concept_magnetic_tape};
+
+=> nrel_main_idtf:
+	[storage media] (*<- lang_en;;*);
+	[носитель информации] (*<- lang_ru;;*);
+	
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (носитель информации)] (*<- lang_ru;;*);
+		[Def. (storage media)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_class_storage_media_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_class_storage_media_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;

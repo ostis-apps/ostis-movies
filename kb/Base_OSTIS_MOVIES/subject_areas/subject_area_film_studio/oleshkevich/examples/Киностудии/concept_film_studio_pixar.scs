@@ -1,0 +1,96 @@
+concept_film_studio_pixar <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия pixar] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio pixar] (* <- lang_en;; *);
+=> nrel_idtf:[pixar] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия pixar)] (* <- lang_ru;; *);
+							   [Statement(film studio pixar)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio
+	
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_pixar_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_pixar_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия pixar)](*<-lang_ru;;*);
+		[Pic. (film studio pixar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/pixar.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+=>nrel_fabricate:{
+concept_TV_series;
+concept_film;
+concept_original_series
+};
+<-concept_animation_film_studio;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1979 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+=>nrel_cinema_location: USA;
+=>nrel_founder:concept_George_Lucas;
+ =>nrel_founder:concept_Alvey_Ray_Smith;
+ =>nrel_founder:concept_Ed_Catmell;
+ =>nrel_founder:concept_Steve_Jobs;
+ =>nrel_founder:concept_John_Lasseter;
+
+<=nrel_responsobility_zone: George_Lucas;
+ <=nrel_responsobility_zone: Alvey_Ray_Smith;
+ <=nrel_responsobility_zone: Ed_Catmell;
+ <=nrel_responsobility_zone: Steve_Jobs;
+ <=nrel_responsobility_zone: John_Lasseter;;
+
+concept_Alvey_Ray_Smith <-concept_human;
+=> nrel_main_idtf: 
+[Элви Рей Смит] (* <-lang_ru;; *); 
+[ Alvey Ray Smith] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+concept_George_Lucas<-concept_human;
+=> nrel_main_idtf: 
+[Джордж Лукас] (* <-lang_ru;; *); 
+[George Lucas] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+concept_Ed_Catmell<-concept_human;
+=> nrel_main_idtf: 
+[Эд Кэтмелл] (* <-lang_ru;; *); 
+[Ed Catmell] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+concept_Steve_Jobs<-concept_human;
+=> nrel_main_idtf: 
+[Стив Джобс] (* <-lang_ru;; *); 
+[Steve Jobs] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+concept_John_Lasseter<-concept_human;
+=> nrel_main_idtf: 
+[Джон Лассетер] (* <-lang_ru;; *); 
+[John Lasseter] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+

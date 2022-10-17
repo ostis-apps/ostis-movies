@@ -1,0 +1,47 @@
+concept_netflix <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Нетфликс] (* <- lang_ru;; *);
+=> nrel_main_idtf:[Netflix] (* <- lang_en;; *);
+
+=> nrel_idtf:[Netflix] (* <- lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Нетфликс)](*<-lang_ru;;*);
+		[Def. (Netflix)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_portal;        
+        concept_service;
+        concept_internet_service;
+        concept_subscription;
+        concept_library_with_licensed_content;
+        concept_paid_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_netflix_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_netflix_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Нетфликс)](*<-lang_ru;;*);
+		[Pic. (Netflix)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_netflix.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_netflix
+=>nrel_foundation_year:  29.08.1997;
+=>nrel_founder: concept_Rid_Hastings;
+=>nrel_site:[https://www.netflix.com//](* <- lang_en;; *);
+=>nrel_count_films: 8000;;

@@ -1,0 +1,53 @@
+Park_Hyungsik
+<-concept_human;
+=> nrel_main_idtf : [Пак Хён Сик](*<-lang_ru;;*);
+=> nrel_main_idtf : [Park Hyung-sik](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пак Хён Сик)](*<-lang_ru;;*);
+		[Description (Park Hyung-sik)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Park_Hyungsik_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Park_Hyungsik_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пак Хён Сик)](*<-lang_ru;;*);
+		[Pic. (Park Hyung-sik)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Park_Hyungsik.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 16_11_1991;
+=> nrel_place_of_birth : Yongin; 
+=> nrel_career_start_date : 2010;
+
+<= nrel_main_actor : Strong_Woman_Do_Bongsoon;;
+
+
+16_11_1991
+<- concept_calendar_date;
+=> nrel_main_idtf : [16 ноября 1991](*<-lang_ru;;*);
+=> nrel_main_idtf : [November 16, 1991](*<-lang_en;;*);;
+
+2010
+<- concept_calendar_date;
+=> nrel_main_idtf : [2010](*<-lang_en;;*);
+=> nrel_main_idtf : [2010](*<-lang_ru;;*);;

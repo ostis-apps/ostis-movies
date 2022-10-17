@@ -1,0 +1,146 @@
+section_subject_domain_of_cinema_cameras
+<- sc_node_struct;
+=> nrel_main_idtf:
+        [Предметная область кинокамер]
+	(* <- lang_ru;; *);
+	[Subject domain of cinema cameras]
+        (* <- lang_en;; *);
+<= nrel_section_decomposition:
+	{
+		section_subject_domain_of_professional_cinema_cameras;
+		section_subject_domain_of_amateur_cinema_cameras
+	};
+
+	-> rrel_key_sc_element:
+    concept_cinema_camera;
+    concept_3D_cinema_camera;
+    concept_amateur_cinema_camera;
+    concept_general_purpose_cinema_camera;
+    concept_hand_held_cinema_camera;
+    concept_medium_film_cinema_camera;
+    concept_motion_picture_cinema_camera;
+    concept_multi_film_cinema_camera;
+    concept_narrow_film_cinema_camera;
+    concept_professional_cinema_camera;
+    concept_special_cinema_camera;
+    concept_synchronous_cinema_camera;
+    concept_tripod_cinema_camera;
+    concept_tripod_shoulder_cinema_camera;
+    concept_video_recorder;
+    concept_wide_film_cinema_camera;
+    concept_1KSHR;
+    concept_1KSR;
+    concept_5KSN;
+    concept_16CX_2M_Kinor;
+    concept_ACTCAM;
+    concept_Arriflex_35_III;
+    concept_Arriflex_416;
+    concept_Arriflex_435_Xtreme;
+    concept_Arriflex_765;
+    concept_Moviecam_Compact_MkII;
+    concept_Panaflex_XL_2;
+    nrel_capacity_of_cassettes;
+    nrel_frame_window_length;
+    nrel_frame_window_width;
+    nrel_minimal_filming_frequency;
+    nrel_maximum_filming_frequency;
+    nrel_focusing_method;
+    nrel_manufacturer;
+    nrel_picture_format;
+    nrel_length;
+    nrel_width;
+    nrel_height;
+    nrel_weight;
+    nrel_year_of_issue;
+    rrel_viewfinder;
+    rrel_grab;
+    rrel_lens;
+    rrel_obturator;
+    rrel_autofocus;
+    rrel_film_channel;
+    rrel_cassette;
+    rrel_tape_drive;
+    rrel_drive_unit;
+    rrel_exponometer;
+    rrel_compendium;
+    rrel_follow_focus;
+    rrel_corps;
+    subject_domain_of_cinema_cameras;
+
+	<- non_atomic_section;;
+
+
+section_subject_domain_of_cinema_cameras =
+[*
+	subject_domain_of_cinema_cameras
+		=> nrel_main_idtf: [Предметная область кинокамер] (* <- lang_ru;; *);
+		=> nrel_main_idtf: [Subject domain of cinema cameras] (* <- lang_en;; *);
+			
+		=> nrel_private_subject_domain:
+		     section_subject_domain_of_professional_cinema_cameras;
+		     section_subject_domain_of_amateur_cinema_cameras;
+
+		<= nrel_private_subject_domain: 
+			section_subject_domain_cinema_cameras;
+		
+		-> rrel_maximum_studied_object_class: 
+			concept_cinema_camera;
+			
+		-> rrel_not_maximum_studied_object_class:
+		   concept_3D_cinema_camera;
+           concept_amateur_cinema_camera;
+           concept_general_purpose_cinema_camera;
+           concept_hand_held_cinema_camera;
+           concept_medium_film_cinema_camera; 
+           concept_motion_picture_cinema_camera;
+           concept_multi_film_cinema_camera;
+           concept_narrow_film_cinema_camera;
+           concept_professional_cinema_camera;
+           concept_special_cinema_camera;
+           concept_synchronous_cinema_camera;
+           concept_tripod_cinema_camera;
+           concept_tripod_shoulder_cinema_camera;
+           concept_video_recorder;
+           concept_wide_film_cinema_camera; 
+           concept_1KSHR;
+           concept_1KSR;
+           concept_5KSN;
+           concept_16CX_2M_Kinor;
+           concept_ACTCAM;
+           concept_Arriflex_35_III;
+           concept_Arriflex_416;
+           concept_Arriflex_435_Xtreme;
+           concept_Arriflex_765;
+           concept_Moviecam_Compact_MkII;
+           concept_Panaflex_XL_2;
+	
+	    -> rrel_explored_relation:
+	    nrel_capacity_of_cassettes;
+            nrel_frame_window_length;
+            nrel_frame_window_width;
+            nrel_minimal_filming_frequency;
+            nrel_maximum_filming_frequency;
+            nrel_focusing_method;
+            nrel_manufacturer;
+            nrel_picture_format;
+            nrel_length;
+            nrel_width;
+            nrel_height;
+            nrel_weight;
+            nrel_year_of_issue;
+            rrel_viewfinder;
+            rrel_grab;
+            rrel_lens;
+            rrel_obturator;
+            rrel_autofocus;
+            rrel_film_channel;
+            rrel_cassette;
+            rrel_tape_drive;
+            rrel_drive_unit;
+            rrel_exponometer;
+            rrel_compendium;
+            rrel_follow_focus;
+            rrel_corps;
+			
+		<- subject_domain;;
+*];;

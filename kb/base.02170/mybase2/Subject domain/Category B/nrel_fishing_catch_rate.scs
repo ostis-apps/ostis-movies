@@ -1,0 +1,33 @@
+nrel_fishing_catch_rate <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [коэфициент ловли во время рыбалки*](*<- lang_ru;;*);
+    [fishing catch rate*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (коэфициент ловли во время рыбалки*)](*<- lang_ru;;*);
+        [Def. (fishing catch rate*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>коэфициент ловли во время рыбалки</b> - используется, если покемон возникает во время рыбалки.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>fishing catch rate</b> - used if the pokemon spawns while fishing.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokeball
+    };;
+*);
+
+=> nrel_first_domain: ...;
+=> nrel_second_domain: ...;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokeball;;
+    *);;
+*);;

@@ -1,0 +1,73 @@
+concept_film_studio_EuropaCorp <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия EuropaCorp] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio EuropaCorp] (* <- lang_en;; *);
+=> nrel_idtf:[EuropaCorp] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия EuropaCorp)] (* <- lang_ru;; *);
+							   [Statement(film studio EuropaCorp)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_EuropaCorp_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_EuropaCorp_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия EuropaCorp)](*<-lang_ru;;*);
+		[Pic. (film studio EuropaCorp)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/EuropaCorp.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+=>nrel_fabricate:concept_TV_series;
+=>nrel_fabricate:concept_film;
+=>nrel_fabricate:concept_original_series;
+<-concept_art_film_studio;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2000 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+ 
+=>nrel_cinema_location:Paris;
+=>nrel_founder:Luc_Besson;
+
+<=nrel_responsobility_zone: Luc_Besson;;
+
+concept_Luc_Besson <-concept_human;
+=> nrel_main_idtf: 
+[Люк Бессон] (* <-lang_ru;; *); 
+[Luc Besson] (* <-lang_en;; *);
+=>nrel_cityzenship: France;;
+
+
+France<-concept_country;
+=> nrel_main_idtf: 
+[Франция] (* <-lang_ru;; *); 
+[France] (* <-lang_en;; *);;
+
+Paris<-concept_city;
+<-France;
+=> nrel_main_idtf: 
+[Париж] (* <-lang_ru;; *); 
+[Paris] (* <-lang_en;; *);;
+

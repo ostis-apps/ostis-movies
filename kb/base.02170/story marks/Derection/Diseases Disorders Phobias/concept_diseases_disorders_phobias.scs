@@ -1,0 +1,29 @@
+concept_diseases_disorders_phobias
+
+=> nrel_main_idtf: 
+	[заболевания, расстройства, фобии] (*<- lang_ru;;*);
+	[diseases disorders phobias] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. заболевания, расстройства, фобии] (*<- lang_ru;;*);
+		[Def. diseases disorders phobias] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_diseases_disorders_phobias_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_diseases_disorders_phobias_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       concept_film;
+	   concept_series
+    };;
+*);
+
+=> nrel_inclusion:
+	concept_memory_loss;
+	concept_deadly_diseases;
+	concept_phobias;
+	concept_epidemic;
+	concept_quarantine;
+	concept_changing_appearance;;

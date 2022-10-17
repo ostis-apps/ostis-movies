@@ -1,0 +1,33 @@
+nrel_dive_catch_rate <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [коэфициент ловли живущего в воде*](*<- lang_ru;;*);
+    [dive catch rate*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (коэфициент ловли живущего в воде*)](*<- lang_ru;;*);
+        [Def. (dive catch rate*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>коэфициент ловли живущего в воде</b> - если используется на Покемоне Водного и Насекомого типов  .] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>dive catch rate</b> - if used on a Water and Bug type Pokémon.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokeball
+    };;
+*);
+
+=> nrel_first_domain: ...;
+=> nrel_second_domain: ...;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokeball;;
+    *);;
+*);;

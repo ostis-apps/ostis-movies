@@ -1,0 +1,22 @@
+concept_audio_sequence<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[аудиоряд](*<-lang_ru;;*);
+	[audio sequence](*<-lang_en;;*);
+
+=>nrel_idtf:
+	[звукоряд](*<-lang_ru;;*);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (аудиоряд)](*<-lang_ru;;*);
+		[Def. (audio sequence)](*<-lang_en;;*);;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_audio_sequence_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_audio_sequence_en.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

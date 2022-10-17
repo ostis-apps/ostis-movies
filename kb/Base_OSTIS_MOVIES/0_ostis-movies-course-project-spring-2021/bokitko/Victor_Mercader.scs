@@ -1,0 +1,49 @@
+concept_human -> Victor_Mercader;;
+
+Victor_Mercader
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Виктор Меркадер]
+	(* <- lang_ru;;	*);
+	[Victor_Mercader]
+	(* <- lang_en;;	*);;
+	
+Victor_Mercader <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Виктор Меркадер)](*<-lang_ru;;*);
+		[Description (Victor Mercader)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Victor_Mercader_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Victor_Mercader_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1984;;
+Victor_Mercader=>nrel_date_of_birth: 1984;;
+1984=>nrel_main_idtf:[1984 год](*<-lang_ru;;*);;
+1984=>nrel_main_idtf:[year of 1984](*<-lang_en;;*);;
+
+concept_calendar_date->2018;;
+Victor_Mercader=>nrel_career_start_date: 2018;;
+2018=>nrel_main_idtf:[2018 год](*<-lang_ru;;*);;
+2018=>nrel_main_idtf:[year of 2018](*<-lang_en;;*);;
+
+Victor_Mercader =>nrel_cityzenship: Usa;
+<-concept_soundman;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+	

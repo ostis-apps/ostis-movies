@@ -1,0 +1,47 @@
+concept_human -> John_Williams;;
+
+John_Williams
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джон Уильямс]
+	(* <- lang_ru;;	*);
+	[John Williams]
+	(* <- lang_en;;	*);;
+	
+John_Williams <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джон Уильямс)](*<-lang_ru;;*);
+		[Description (John_Williams)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/John_Williams_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/John_Williams_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1932;;
+John_Williams=>nrel_date_of_birth: 1932;;
+1932=>nrel_main_idtf:[1932 год](*<-lang_ru;;*);;
+1932=>nrel_main_idtf:[year of 1932](*<-lang_en;;*);;
+
+concept_calendar_date->1954;;
+John_Williams=>nrel_career_start_date: 1954;;
+1960=>nrel_main_idtf:[1954 год](*<-lang_ru;;*);;
+1960=>nrel_main_idtf:[year of 1954](*<-lang_en;;*);;
+
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+

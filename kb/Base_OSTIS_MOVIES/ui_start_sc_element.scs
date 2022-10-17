@@ -1,0 +1,7 @@
+ui_start_sc_element 
+<- sc_node_not_relation;
+=> nrel_main_idtf: 
+    [База знаний ИСС по Кинофильмам](* <- lang_ru;; *);
+=> nrel_main_idtf: 
+    [Cinematograph knowledge base](* <- lang_en;; *);;
+

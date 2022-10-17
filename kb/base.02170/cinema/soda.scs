@@ -1,0 +1,33 @@
+concept_soda <- sc_node_not_relation;
+
+=> nrel_main_idtf:[газировка] (* <- lang_ru;; *);
+=> nrel_idtf:[soda] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (газировка)](* <- lang_ru;; *);
+		[Def. (soda)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_soda;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_soda">Газировка</sc_element></b> это вода, содержащая растворенный углекислый газ, искусственно закачанный под давлением или возникший в результате естественных геологических процессов,с добавлением разных ароматизаторов или красителей.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_soda">Soda</sc_element></b> it is water containing dissolved carbon dioxide, artificially pumped under pressure or resulting from natural geological processes, with the addition of various flavors or dyes.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (газировка)](*<-lang_ru;;*);
+		[Pic. (soda)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/soda.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

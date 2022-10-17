@@ -1,0 +1,83 @@
+concept_film_studio_legendary <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия legendary] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio legendary] (* <- lang_en;; *);
+=> nrel_idtf:[legendary] (* <- lang_en;; *);
+=> nrel_idtf:[Legendary Pictures] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия legendary)] (* <- lang_ru;; *);
+							   [Statement(film studio legendary)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_legendary_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_legendary_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия legendary)](*<-lang_ru;;*);
+		[Pic. (film studio legendary)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/legendary.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+=>nrel_fabricate:{
+concept_filmconcept_MTV_Films_ru
+};
+<-concept_art_film_studio;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2000
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+=>nrel_stuff_number: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_measurement: 2500
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_cinema_location: concept_Burbank;
+=>nrel_founder:{
+Thomas_Tull
+};
+
+<=nrel_responsobility_zone: Thomas_Tull;;
+
+concept_Thomas_Tull <-concept_human;
+=> nrel_main_idtf: 
+[Томас Тулл] (* <-lang_ru;; *); 
+[Thomas Tull] (* <-lang_en;; *);
+=>nrel_cityzenship: USA;;
+
+
+
+USA <-concept_country;
+=> nrel_main_idtf: 
+[США] (* <-lang_ru;; *); 
+[USA] (* <-lang_en;; *);;
+
+

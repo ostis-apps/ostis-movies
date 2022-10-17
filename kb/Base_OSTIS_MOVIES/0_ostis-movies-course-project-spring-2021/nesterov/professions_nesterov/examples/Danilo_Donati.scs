@@ -1,0 +1,54 @@
+concept_human -> Danilo_Donati;;
+
+Danilo_Donati
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Данило Донати ]
+	(* <- lang_ru;;	*);
+	[Danilo Donati]
+	(* <- lang_en;;	*);;
+	
+Danilo_Donati <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Данило Донати   )](*<-lang_ru;;*);
+		[Description (Danilo Donati)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Danilo_Donati_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Danilo_Donati_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Danilo_Donati 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Данило Донатиs)](*<-lang_ru;;*);
+		[Pic. (Danilo Donati)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Danilo_Donati.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1926;;
+Danilo_Donati=>nrel_date_of_birth: 1926;;
+1926=>nrel_main_idtf:[1926 год](*<-lang_ru;;*);;
+1926=>nrel_main_idtf:[year of 1926](*<-lang_en;;*);;
+
+concept_calendar_date->1959;;
+Danilo_Donati=>nrel_career_start_date: 1959;;
+1959=>nrel_main_idtf:[1959 год](*<-lang_ru;;*);;
+1959=>nrel_main_idtf:[year of 1959](*<-lang_en;;*);;
+
+Danilo_Donati =>nrel_cityzenship:Italy;;
+Italy<-concept_country;;
+

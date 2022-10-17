@@ -1,0 +1,331 @@
+concept_the_witcher_episode_4_of_banquets_bastards_and_burials
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Ведьмак: Банкеты, ублюдки и похороны] 
+(* <- lang_ru;; *); 
+[The Witcher: Banquets, Bastards and Burials] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Ведьмак: Банкеты, ублюдки и похороны)](*<-lang_ru;;*);
+[Description (The Witcher: Banquets, Bastards and Burials)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Witcher_episode_4_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Witcher_episode_4_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+
+=>nrel_tag_line: ["Львенок из Цинтры"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Lion from Cintra»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Mark_Jobst; 
+=>nrel_producer:Sean_Declan_De_Barra;Michel_Ostrowski; 
+=>nrel_production_country: USA;Poland;Africa;Australia;
+=>nrel_cameraman: Douglas_Slocombe; 
+=>nrel_editor: Michael_Kahn; 
+=>nrel_genre:concept_adventure;concept_fantasy;concept_dramma;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2019
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 65
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 490422646
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Geralt_of_Rivia;; 
+->character_Jaskier;; 
+->character_Yennifer;;
+->character_Cirilla;;
+->character_Calante;;
+->character_Pavetta;;
+->character_Yog;;
+->character_Crallah;;        
+*); 
+=>nrel_age_rating: concept_PG;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ведьмак: Четыре марки)](*<-lang_ru;;*);
+		[Pic. (The Witcher: Four marks))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_The_Witcher.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Geralt_of_Rivia
+=> nrel_main_idtf: 
+[ Ведьмак ] (* <-lang_ru;; *); 
+[ Withcer ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Ведьмак )] (* <-lang_ru;; *); 
+[Description of character(Witcher)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Geralt_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Geralt_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Геральт )](*<-lang_ru;;*); 
+[Pic. (Gerald)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Geralt.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Cirilla
+=> nrel_main_idtf: 
+[ Цирилла ] (* <-lang_ru;; *); 
+[ Сirirlla ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Цирилла )] (* <-lang_ru;; *); 
+[Description of character(Cirilla)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Cirilla_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Cirilla_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Цирилла )](*<-lang_ru;;*); 
+[Pic. (Cirilla)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Cirilla.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+character_Crallah
+=> nrel_main_idtf: 
+[ Краллах] (* <-lang_ru;; *); 
+[ Crallah ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Краллах )] (* <-lang_ru;; *); 
+[Description of character(Crallah)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Crallah_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Crallah_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Краллах)](*<-lang_ru;;*); 
+[Pic. (Crallah)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Crallah.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+character_Yennifer
+=> nrel_main_idtf: 
+[ Йеннифер ] (* <-lang_ru;; *); 
+[ Yennifer ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Йеннифер )] (* <-lang_ru;; *); 
+[Description of character(Yennifer)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Yennifer_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Yennifer_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Йеннифер )](*<-lang_ru;;*); 
+[Pic. (Yennifer)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Yennifer.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+character_Jaskier
+=> nrel_main_idtf: 
+[ Лютик ] (* <-lang_ru;; *); 
+[ Jaskier ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Лютик )] (* <-lang_ru;; *); 
+[Description of character(Jaskier)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Jaskier_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Jaskier_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Лютик )](*<-lang_ru;;*); 
+[Pic. (Jaskier)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Jaskier.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+character_Calante
+=> nrel_main_idtf: 
+[ Каланте ] (* <-lang_ru;; *); 
+[ Calante ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Каланте )] (* <-lang_ru;; *); 
+[Description of character(Calante)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Calante_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Calante_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Каланте )](*<-lang_ru;;*); 
+[Pic. (Calante)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Calante.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Pavetta
+=> nrel_main_idtf: 
+[ Паветта ] (* <-lang_ru;; *); 
+[ Pavetta ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Паветта )] (* <-lang_ru;; *); 
+[Description of character(Pavetta)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Pavetta_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Pavetta_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Паветта )](*<-lang_ru;;*); 
+[Pic. (Pavetta)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Pavetta.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+character_Yog
+=> nrel_main_idtf: 
+[ Йож ] (* <-lang_ru;; *); 
+[ Yog ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Йож )] (* <-lang_ru;; *); 
+[Description of character(Yog)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Yog_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Yog_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Йож )](*<-lang_ru;;*); 
+[Pic. (Yog)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Yog.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+
+Mark_Jobst
+  => nrel_main_idtf: 
+            [Марк Джобст] (* <-lang_ru;; *);
+		  [Mark Jobst] (* <-lang_en;; *);;
+
+Michel_Ostrowski
+  => nrel_main_idtf: 
+            [Майкл Островский] (* <-lang_ru;; *);
+		  [Michel Ostrowski] (* <-lang_en;; *);;
+
+Declan_De_Barra
+  => nrel_main_idtf: 
+            [Деклан Де Барра] (* <-lang_ru;; *);
+		  [Declan De Barra] (* <-lang_en;; *);;
+
+Michael_Kahn
+  => nrel_main_idtf: 
+            [Майкл Кан] (* <-lang_ru;; *);
+		  [Michael Kahn] (* <-lang_en;; *);;
+
+Douglas_Slocombe
+  => nrel_main_idtf: 
+            [Дуглас Слокомб] (* <-lang_ru;; *);
+		  [Douglas_Slocombe] (* <-lang_en;; *);;
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+Poland
+  => nrel_main_idtf: 
+            [Польша] (* <-lang_ru;; *);
+		  [Poland] (* <-lang_en;; *);;
+Africa
+  => nrel_main_idtf: 
+            [Африка] (* <-lang_ru;; *);
+		  [Africa] (* <-lang_en;; *);;
+
+
+Australia
+  => nrel_main_idtf: 
+            [Австралия] (* <-lang_ru;; *);
+		  [Australia] (* <-lang_en;; *);;
+
+
+

@@ -1,0 +1,32 @@
+concept_dvd <- sc_node_norole_relation;
+
+
+<=nrel_storage_media:concept_laser_sound_recording;
+
+=> nrel_main_idtf:
+	[dvd] (*<- lang_en;;*);
+	[цифровой диск] (*<- lang_ru;;*);
+
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (цифровой диск)] (*<- lang_ru;;*);
+		[Def. (dvd)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_dvd_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_dvd_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (цифровой диск)](*<-lang_ru;;*);
+		[Pic. (dvd)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_dvd.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,84 @@
+Black_Widow<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Черная вдова](* <- lang_ru;;*);
+	[Black_Widow](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Черная вдова)](*<-lang_ru;;*);
+		[Description (Black widow)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Black_Widow_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Black_Widow_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Черная вдова)](*<-lang_ru;;*);
+		[Pic. (Black widow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Black_Widow.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["Она устала бежать от прошлого"] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«She's Done Running From Her Past»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+
+
+=>nrel_production_country: USA;
+=>nrel_film_critic_rating: 6.7;
+=>nrel_genre: concept_adventure;
+=>nrel_genre: concept_action;
+=>nrel_genre: concept_fantasy;
+
+=>nrel_age_rating: concept_PG16;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_action;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_marvel;
+=>nrel_keywords: concept_adventure;;
+
+
+Black_Widow => nrel_actor : Florence_Pugh; Scarlett_Joh;david_harbour;;
+
+concept_calendar_date -> 30_06_2021;;
+30_06_2021 => nrel_main_idtf : [30 июня 2021](*<-lang_ru;;*);;
+30_06_2021 => nrel_main_idtf : [30 June 2021](*<-lang_en;;*);;
+Black_Widow => nrel_release_date: 30_06_2021;;
+
+
+value -> 2_13;;
+2_13 => nrel_main_idtf : [2 часа и 13 минут](*<-lang_ru;;*);;
+2_13 => nrel_main_idtf : [2 hours and 13 minutes](*<-lang_en;;*);;
+Black_Widow=> nrel_duration_of_showing : 2_13;;
+
+value -> 379_395_323;;
+379_395_323 => nrel_main_idtf : [379 395 323$](*<-lang_ru;;*);;
+379_395_323 => nrel_main_idtf : [379 395 323$](*<-lang_en;;*);;
+Black_Widow <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 379_395_323;;   
+*);;
+

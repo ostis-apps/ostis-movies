@@ -1,0 +1,53 @@
+Nam_Dareum
+<-concept_human;
+=> nrel_main_idtf : [Нам Да Рым](*<-lang_ru;;*);
+=> nrel_main_idtf : [Nam Da-reum](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пак Гю Ён)](*<-lang_ru;;*);
+		[Description (Nam Da-reum)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Nam_Dareum_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Nam_Dareum_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+
+	
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пак Гю Ён)](*<-lang_ru;;*);
+		[Pic. (Nam Da-reum)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Nam_Dareum.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 13_06_2002;
+=> nrel_place_of_birth : Suwon;
+=> nrel_career_start_date : 2009;
+
+<= nrel_actor : While_You_Were_Sleeping;;
+
+27_07_1993
+<- concept_calendar_date;
+=> nrel_main_idtf : [13 июня 2002](*<-lang_ru;;*);
+=> nrel_main_idtf : [Juny 13, 2002](*<-lang_en;;*);;
+
+2009
+<- concept_calendar_date;
+=> nrel_main_idtf : [2009](*<-lang_en;;*);
+=> nrel_main_idtf : [2009](*<-lang_ru;;*);;

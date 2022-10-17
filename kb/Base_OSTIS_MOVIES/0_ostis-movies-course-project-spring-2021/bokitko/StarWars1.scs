@@ -1,0 +1,124 @@
+StarWars1
+=> nrel_main_idtf:
+	[Звёздные войны. Эпизод I: Скрытая угроза]
+	(* <- lang_ru;;	*);
+	[Star wars. Episode I: the Hidden threat]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_lucasfilm;
+=> nrel_film_studio: concept_film_studio_20_century_fox;
+=>nrel_soundman: Tom_Bellfort;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Звёздные войны. Эпизод I: Скрытая угроза)](*<-lang_ru;;*);
+		[Description (Star wars. Episode I: the Hidden threat)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/StarWars1_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/StarWars1_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (StarWars1)](*<-lang_ru;;*);
+		[Pic. (StarWars1)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/StarWars1.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Usa;
+=> nrel_film_critic_rating : 7.9;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_keywords: alliens;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Liam_Nisson;
+=> nrel_producer : George_Lucas;
+=> nrel_screenwriter : David_Tattersall;;
+
+
+concept_calendar_date -> 19_05_1999;;
+19_06_2009 => nrel_main_idtf : [19.05.1999](*<-lang_ru;;*);;
+19_06_2009 => nrel_main_idtf : [19.05.1999](*<-lang_en;;*);;
+StarWars1 => nrel_release_date : 19_05_1999;;
+
+
+value -> 2_09;;
+2_09 => nrel_main_idtf : [2 часа и 09 минут](*<-lang_ru;;*);;
+2_09 => nrel_main_idtf : [2 hour and 09 minutes](*<-lang_en;;*);;
+StarWars1 => nrel_duration_of_showing : 2_09;;
+
+value -> 836_303_693;;
+115_000_000 => nrel_main_idtf : [115 000 000$](*<-lang_ru;;*);;
+115_000_000 => nrel_main_idtf : [115 000 000$](*<-lang_en;;*);;
+StarWars1 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 115_000_000;;   
+*);;
+
+
+Tom_Bellfort<-concept_human;
+=> nrel_main_idtf:
+	[Том Беллфорт]
+	(* <- lang_ru;;	*);
+	[Tom Bellfort]
+	(* <- lang_en;;	*);;
+
+StarWars1 => nrel_take_place: Tunis;
+=> nrel_take_place: GB;
+=> nrel_take_place: Italy;
+=> nrel_production_designer: Gavin_Boke;
+=> nrel_film_director: George_Lucas;
+=> nrel_composer: John_Williams;;
+
+George_Lucas <-concept_human;
+=> nrel_main_idtf:
+	[Джордж Лукас]
+	(* <- lang_ru;;	*);
+	[George Lucas]
+	(* <- lang_en;;	*);;
+
+
+John_Williams <-concept_human;
+=> nrel_main_idtf:
+	[Джон Уильямс]
+	(* <- lang_ru;;	*);
+	[John Williams]
+	(* <- lang_en;;	*);;
+
+
+Liam_Nisson <-concept_human;
+=> nrel_main_idtf:
+	[Лиам Нисон]
+	(* <- lang_ru;;	*);
+	[Liam Nisson]
+	(* <- lang_en;;	*);;
+
+
+David_Tattersall <-concept_human;
+=> nrel_main_idtf:
+	[Дэвид Тэттерсолл]
+	(* <- lang_ru;;	*);
+	[David Tattersall]
+	(* <- lang_en;;	*);;
+
+
+
+Gavin_Boke <-concept_human;
+=> nrel_main_idtf:
+	[Гэвин Боке]
+	(* <- lang_ru;;	*);
+	[Gavin Boke]
+	(* <- lang_en;;	*);;
+
+
+
+

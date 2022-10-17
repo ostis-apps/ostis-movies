@@ -1,0 +1,54 @@
+concept_human -> Milena_Canonero;;
+
+Milena_Canonero
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Милена Канонеро]
+	(* <- lang_ru;;	*);
+	[Milena Canonero]
+	(* <- lang_en;;	*);;
+	
+Milena_Canonero <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Милена Канонеро  )](*<-lang_ru;;*);
+		[Description (Milena Canonero)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Milena_Canonero_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Milena_Canonero_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Milena_Canonero 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Милена Канонеро  )](*<-lang_ru;;*);
+		[Pic. (Milena Canonero)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Milena_Canonero.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1949;;
+Milena_Canonero=>nrel_date_of_birth: 1949;;
+1949=>nrel_main_idtf:[1949 год](*<-lang_ru;;*);;
+1949=>nrel_main_idtf:[year of 1949](*<-lang_en;;*);;
+
+concept_calendar_date->1971;;
+Milena_Canonero=>nrel_career_start_date: 1971;;
+1971=>nrel_main_idtf:[1971 год](*<-lang_ru;;*);;
+1971=>nrel_main_idtf:[year of 1971](*<-lang_en;;*);;
+
+Milena_Canonero =>nrel_cityzenship:IT;;
+IT<-concept_country;;
+

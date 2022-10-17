@@ -1,0 +1,50 @@
+concept_human -> David_Tattersall;;
+
+David_Tattersall
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дэвид Таттерсолл]
+	(* <- lang_ru;;	*);
+	[David Tattersall]
+	(* <- lang_en;;	*);;
+	
+David_Tattersall <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дэвид Таттерсолл)](*<-lang_ru;;*);
+		[Description (David Tattersal)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cameraman
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/David_Tattersall_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/David_Tattersall_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1960;;
+David_Tattersall=>nrel_date_of_birth: 1960;;
+1960=>nrel_main_idtf:[1960 год](*<-lang_ru;;*);;
+1960=>nrel_main_idtf:[year of 1960](*<-lang_en;;*);;
+
+concept_calendar_date->19994;;
+David_Tattersall=>nrel_career_start_date: 1994;;
+1994=>nrel_main_idtf:[1994 год](*<-lang_ru;;*);;
+1994=>nrel_main_idtf:[year of 1994](*<-lang_en;;*);;
+
+David_Tattersall =>nrel_cityzenship: GB;
+=>nrel_production_link: concept_film_studio_lucasfilm;
+<-concept_cameraman;;
+
+GB
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Великобритания]
+	(* <- lang_ru;;	*);
+	[Great Britain]
+	(* <- lang_en;;	*);;
+

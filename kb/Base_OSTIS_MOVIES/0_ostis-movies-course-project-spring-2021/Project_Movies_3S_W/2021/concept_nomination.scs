@@ -1,0 +1,23 @@
+concept_nomination <- sc_node_not_relation;
+
+=>nrel_main_idtf:
+	[Номинация](*<-lang_ru;;*);
+	[Nomination](*<-lang_en;;*); 
+=> nrel_idtf:[Категория] (* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация)](*<-lang_ru;;*);
+		[Def. (Nomination)](*<-lang_en;;*);;
+	<=nrel_using_constants:...
+	(*
+        ->concept_award;;
+	*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_nomination_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_nomination_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

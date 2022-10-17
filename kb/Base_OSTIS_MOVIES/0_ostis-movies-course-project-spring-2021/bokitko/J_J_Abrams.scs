@@ -1,0 +1,49 @@
+concept_human -> J_J_Abrams;;
+
+J_J_Abrams
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дж. Дж. Абрамс]
+	(* <- lang_ru;;	*);
+	[J_J_Abrams]
+	(* <- lang_en;;	*);;
+	
+J_J_Abrams <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джей Джей Абрамс)](*<-lang_ru;;*);
+		[Description (J. J. Abrams)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_director
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/J_J_Abrams_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/J_J_Abrams_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1966;;
+J_J_Abrams=>nrel_date_of_birth: 1966;;
+1966=>nrel_main_idtf:[1966 год](*<-lang_ru;;*);;
+1966=>nrel_main_idtf:[year of 1966](*<-lang_en;;*);;
+
+concept_calendar_date->1982;;
+J_J_Abrams=>nrel_career_start_date: 1982;;
+1982=>nrel_main_idtf:[1982 год](*<-lang_ru;;*);;
+1982=>nrel_main_idtf:[year of 1982](*<-lang_en;;*);;
+
+J_J_Abrams =>nrel_cityzenship: Usa;
+<-concept_film_director;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+	

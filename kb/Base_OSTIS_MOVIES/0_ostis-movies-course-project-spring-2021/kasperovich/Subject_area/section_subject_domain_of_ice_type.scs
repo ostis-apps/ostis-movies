@@ -1,0 +1,28 @@
+section_subject_domain_of_pokemon_ice_type
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покемонов ледяного типа]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokemon ice type]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покемонов ледяного типа.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+
+	
+-> rrel_key_sc_element: 
+    concept_ice_type;
+    nrel_aurora_beam_attack;
+    nrel_avalanche_attack;
+    nrel_blizzard_attack;
+    nrel_frost_breath_attack;
+    nrel_ice_beam_attack        ;
+    nrel_ice_punch_attack        ;
+    nrel_ice_shard_attack        ;
+    nrel_icy_wind_attack        ;
+    nrel_powder_snow_attack        ;;
+
+section_subject_domain_of_pokemon_ice_type   = [*^"file://subject_domain_of_ice_type.scs"*];;

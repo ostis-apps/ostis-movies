@@ -1,0 +1,100 @@
+StarWars7
+=> nrel_main_idtf:
+	[Звёздные войны: Эпизод 7 — Пробуждение силы]
+	(* <- lang_ru;;	*);
+	[Star wars: Episode 7 - the force Awakens]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_lucasfilm;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Звёздные войны: Эпизод 7 — Пробуждение силы)](*<-lang_ru;;*);
+		[Description (Star wars: Episode 7 - the force Awakens)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/StarWars7_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/StarWars7_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (StarWars7)](*<-lang_ru;;*);
+		[Pic. (StarWars7)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/StarWars6.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Usa;
+=> nrel_film_critic_rating : 7.1;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_keywords: alliens;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Carrie_Fisher;
+=> nrel_producer : J_J_Abrams;
+=> nrel_screenwriter : Lawrence_Kasdan;;
+
+
+concept_calendar_date -> 17_12_2015;;
+17_12_2015 => nrel_main_idtf : [17.12.2015](*<-lang_ru;;*);;
+17_12_2015 => nrel_main_idtf : [17.12.2015](*<-lang_en;;*);;
+StarWars7 => nrel_release_date : 17_12_2015;;
+
+
+value -> 2_18;;
+2_18 => nrel_main_idtf : [2 часа и 18 минут](*<-lang_ru;;*);;
+2_18 => nrel_main_idtf : [2 hour and 18 minutes](*<-lang_en;;*);;
+StarWars7=> nrel_duration_of_showing : 2_18;;
+
+value -> 200_000_000;;
+200_000_000 => nrel_main_idtf : [200 000 000$](*<-lang_ru;;*);;
+200_000_000 => nrel_main_idtf : [200 000 000$](*<-lang_en;;*);;
+StarWars7 => nrel_cash_charge :...(*
+	->rrel_american_dollar : 200_000_000;;   
+*);;
+
+
+StarWars7 => nrel_take_place: GB;
+=> nrel_take_place: Usa;
+=> nrel_take_place: Iceland;
+=> nrel_film_director: J_J_Abrams;
+=> nrel_composer: John_Williams;;
+
+Carrie_Fisher <-concept_human;
+=> nrel_main_idtf:
+	[Тереза Эктон]
+	(* <- lang_ru;;	*);
+	[Кэрри Фишер]
+	(* <- lang_en;;	*);;
+
+J_J_Abrams <-concept_human;
+=> nrel_main_idtf:
+	[Дж. Дж. Абрамс]
+	(* <- lang_ru;;	*);
+	[J. J. Abrams]
+	(* <- lang_en;;	*);;
+
+Lawrence_Kasdan <-concept_human;
+=> nrel_main_idtf:
+	[Лоуренс Касдан]
+	(* <- lang_ru;;	*);
+	[Lawrence Kasdan]
+	(* <- lang_en;;	*);;
+
+Iceland
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Исландия]
+	(* <- lang_ru;;	*);
+	[Iceland]
+	(* <- lang_en;;	*);;
+	

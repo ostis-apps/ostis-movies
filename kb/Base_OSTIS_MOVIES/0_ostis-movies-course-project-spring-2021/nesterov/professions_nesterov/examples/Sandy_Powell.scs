@@ -1,0 +1,54 @@
+concept_human -> Sandy_Powell;;
+
+Sandy_Powell
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Сэнди Пауэлл]
+	(* <- lang_ru;;	*);
+	[Sandy Powell]
+	(* <- lang_en;;	*);;
+	
+Sandy_Powell <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сэнди Пауэлл)](*<-lang_ru;;*);
+		[Description (Sandy Powell)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sandy_Powell_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sandy_Powell_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Sandy_Powell 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сэнди Пауэлл)](*<-lang_ru;;*);
+		[Pic. (Sandy Powell)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Sandy_Powell.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1960;;
+Sandy_Powell=>nrel_date_of_birth: 1960;;
+1960=>nrel_main_idtf:[1960 год](*<-lang_ru;;*);;
+1960=>nrel_main_idtf:[year of 1960](*<-lang_en;;*);;
+
+concept_calendar_date->1985;;
+Sandy_Powell=>nrel_career_start_date: 1985;;
+1985=>nrel_main_idtf:[1985 год](*<-lang_ru;;*);;
+1985=>nrel_main_idtf:[year of 1985](*<-lang_en;;*);;
+
+Sandy_Powell =>nrel_cityzenship:UK;;
+UK<-concept_country;;
+

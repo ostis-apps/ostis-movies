@@ -1,0 +1,83 @@
+Little_Women<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Маленькие женщины](* <- lang_ru;;*);
+	[Little women](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Маленькие женщины)](*<-lang_ru;;*);
+		[Description (Little women)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Little_Women_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Little_Women_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Маленькие женщины)](*<-lang_ru;;*);
+		[Pic. (Little women)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Little_Women.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+
+=>nrel_tag_line: [«Own your story»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+
+=>nrel_main_producer: Greta_Gerwig;
+=>nrel_production_country: USA;
+=>nrel_film_critic_rating: 7.7;
+=>nrel_genre: concept_drama;
+=>nrel_genre: concept_melodrama;
+
+=>nrel_age_rating: concept_PG12;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_melodrama;
+=>nrel_keywords: concept_drama;;
+
+
+Little_Women => nrel_actor : Timothee_Chalamet;;
+Little_Women => nrel_actor : Florence_Pugh;;
+Little_Women => nrel_actor : saoirse_ronan;;
+Little_Women => nrel_actor : emma_watson;;
+
+concept_calendar_date -> 07_12_2019;;
+07_12_2019 => nrel_main_idtf : [07 декабря 2019](*<-lang_ru;;*);;
+07_12_2019 => nrel_main_idtf : [07 December 2019](*<-lang_en;;*);;
+Little_Women => nrel_release_date: 07_12_2019;;
+
+
+value -> 2_15;;
+2_15 => nrel_main_idtf : [2 часа и 15 минут](*<-lang_ru;;*);;
+2_15 => nrel_main_idtf : [2 hours and 15 minutes](*<-lang_en;;*);;
+Little_Women=> nrel_duration_of_showing : 2_15;;
+
+value -> 216_601_214;;
+216_601_214 => nrel_main_idtf : [216 601 214$](*<-lang_ru;;*);;
+216_601_214 => nrel_main_idtf : [216 601 214$](*<-lang_en;;*);;
+Little_Women <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 216_601_214;;   
+*);;
+

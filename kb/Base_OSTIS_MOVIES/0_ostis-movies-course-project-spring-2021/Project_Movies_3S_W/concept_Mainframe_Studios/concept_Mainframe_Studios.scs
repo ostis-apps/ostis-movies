@@ -1,0 +1,86 @@
+concept_Mainframe_Studios <- sc_node_not_relation;
+
+
+<-concept_film_studio;
+<-concept_animation_film_studio;
+
+
+=> nrel_main_idtf:[киностудия Mainframe Studios] (* <- lang_ru;; *);
+=> nrel_main_idtf:[film studio Mainframe Studios] (* <- lang_en;; *);
+
+=> nrel_idtf:[Rainmaker Studios] (* <- lang_en;; *);
+=> nrel_idtf:[Mainframe Entertainment] (* <- lang_en;; *);
+=> nrel_idtf:[Rainmaker Entertainment] (* <- lang_en;; *);
+
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия Mainframe Studios)] (* <-lang_ru;; *);
+							   [Statement (film studio Mainframe Studios)] (* <- lang_eng;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio;
+				concept_Mainframe_Studios
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://concept_Mainframe_Studios_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://concept_Mainframe_Studios_eng.html" (*<-lang_eng;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Mainframe Studios)](*<-lang_ru;;*);
+		[Pic. (film studio Mainframe Studios)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://concept_Mainframe_Studios.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_fabricate:concept_TV_series;
+=>nrel_fabricate:concept_film;
+=>nrel_fabricate:concept_web_series;
+
+=>nrel_site:[https://www.mainframe.ca/](* <- lang_en;; *);
+=>nrel_foundation_year: 1993;
+=>nrel_stuff_number: 400; 
+=>nrel_founder:concept_Ian_Pearson;
+=>nrel_founder:concept_Phil_Mitchell;
+=>nrel_founder:concept_Gavin_Blair;
+=>nrel_founder:concept_John_Grace;
+<=nrel_responsobility_zone: Michael_Hefferon;
+=>nrel_take_place: Canada;;
+
+
+concept_Ian_Pearson <-concept_human;
+=> nrel_main_idtf: 
+[Ян Пирсон] (* <-lang_ru;; *); 
+[Ian Pearson] (* <-lang_en;; *);;
+
+concept_Phil_Mitchell <-concept_human;
+=> nrel_main_idtf: 
+[Фил Митчелл] (* <-lang_ru;; *); 
+[Phil Mitchell] (* <-lang_en;; *);;
+
+concept_Gavin_Blair <-concept_human;
+=> nrel_main_idtf: 
+[Гэвин Блэр] (* <-lang_ru;; *); 
+[Gavin Blair] (* <-lang_en;; *);;
+
+concept_John_Grace <-concept_human;
+=> nrel_main_idtf: 
+[Джон Грейс] (* <-lang_ru;; *); 
+[John Grace] (* <-lang_en;; *);;
+
+Michael_Hefferon <-concept_human;
+=> nrel_main_idtf: 
+[Майкл Хефферон] (* <-lang_ru;; *); 
+[Michael Hefferon] (* <-lang_en;; *);;
+

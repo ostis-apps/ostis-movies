@@ -1,0 +1,21 @@
+subject_domain_of_relationships
+
+=> nrel_main_idtf:
+	[Предметная область взаимоотношений]
+	(*<-lang_ru;;*);
+	[Subject domain of relationships]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	concept_relationships;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_from_enemies_to_lovers; 
+	concept_love_at_first_sight;
+	concept_love_polygon;
+	concept_rivalry;
+
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;
+

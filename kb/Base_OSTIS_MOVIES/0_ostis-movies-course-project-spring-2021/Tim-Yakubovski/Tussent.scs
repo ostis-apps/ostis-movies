@@ -1,0 +1,53 @@
+kingdom_Tussent
+=> nrel_main_idtf: 
+[ Туссент] (* <-lang_ru;; *); 
+[ Tussent ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Туссент )] (* <-lang_ru;; *); 
+[Description of character(Tussent)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_kingdom_Tussent_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_kingdom_Tussent_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+=>nrel_character:... 
+(* 
+->character_Anna_Genrietta;; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Туссент)](*<-lang_ru;;*); 
+[Pic. (Tussent)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_kingdom_Tussent.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+
+character_Anna_Genrietta
+=> nrel_main_idtf: 
+[ Анна Генриетта ] (* <-lang_ru;; *); 
+[ Anna Genrietta ] (* <-lang_en;; *); 
+<- kingdom_Tussent; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Анна Генриетта )] (* <-lang_ru;; *); 
+[Description of character(Anna Genrietta)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Anna_Genrietta_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Anna_Genrietta_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Анна Генриетта )](*<-lang_ru;;*); 
+[Pic. ( Anna Genrietta )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Anna_Genrietta.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 

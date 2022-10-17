@@ -1,0 +1,33 @@
+concept_poster <- sc_node_not_relation;
+
+=> nrel_main_idtf:[афиша] (* <- lang_ru;; *);
+=> nrel_idtf:[poster] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (афиша)](* <- lang_ru;; *);
+		[Def. (poster)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_poster;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_poster">Афиша</sc_element></b> это плакат, используемый для продвижения и рекламы фильма, в первую очередь для того, чтобы убедить платных клиентов пойти в кинотеатр на его просмотр.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_poster">Poster</sc_element></b>  is a poster used to promote and advertise a film primarily to persuade paying customers into a theater to see it.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (афиша)](*<-lang_ru;;*);
+		[Pic. (poster)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/poster.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

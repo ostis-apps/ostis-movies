@@ -1,0 +1,105 @@
+concept_pokemon -> concept_pokemon_ivysaur;;
+
+concept_pokemon_ivysaur
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ивизавр]
+	(* <- lang_ru;;	*);
+	[Ivysaur]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_ivysaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ивизавр)](*<-lang_ru;;*);
+		[Description (Ivysaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_ivysaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Ивизавр)](*<-lang_ru;;*);
+		[Appearance (Ivysaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_ivysaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Ивизавр)](*<-lang_ru;;*);
+		[Behavior (Ivysaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_ivysaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Ивизавр)](*<-lang_ru;;*);
+		[Natural ability (Ivysaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_ivysaur <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Ивизавр)](*<-lang_ru;;*);
+		[Habitat (Ivysaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_ivysaur_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_ivysaur <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ивизавр)](*<-lang_ru;;*);
+		[Pic. (Ivysaur)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_ivysaur.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_ivysaur 
+=> nrel_pokemon_evolution: concept_pokemon_venusaur;;
+
+concept_color_green -> concept_pokemon_ivysaur;;
+
+concept_poison_type -> concept_pokemon_ivysaur;;
+concept_grass_type -> concept_pokemon_ivysaur;;
+
+value -> 2;;
+concept_pokemon_ivysaur => nrel_pokedex_number: 2;;
+
+value -> 1;;
+concept_pokemon_ivysaur => nrel_height: 1;;
+
+value -> 13;;
+concept_pokemon_ivysaur => nrel_weight: 13;;
+

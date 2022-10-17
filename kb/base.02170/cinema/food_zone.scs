@@ -1,0 +1,50 @@
+subject_domain_of_food_zone_in_cinema
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область еда в кинотеатре] (*<- lang_ru;;*);
+	[Subject domain area of food zone in cinema] (*<- lang_en;;*);
+	
+->rrel_maximum_studied_object_class: concept_food_zone;
+
+<= nrel_private_subject_domain: subject_domain_of_cinema_services;
+
+->rrel_not_maximum_studied_object_class: concept_food;
+->rrel_not_maximum_studied_object_class: concept_the_drinks;;
+
+concept_food_zone <- sc_node_not_relation;
+
+=> nrel_main_idtf:[зона еды] (* <- lang_ru;; *);
+=> nrel_idtf:[food_zone] (* <- lang_en;; *);
+
+->studied_object_class: concept_food;
+->studied_object_class: concept_the_drinks;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (зона еды)](* <- lang_ru;; *);
+		[Def. (food_zone)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_food_zone;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_food_zone">Зона еды</sc_element></b> это место в кинотеатре,где люди могу купить себе еды или напитков к фильму.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_food_zone">Food zone</sc_element></b> this is a place in the cinema where people can buy themselves food or drinks for the movie.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (зона еды)](*<-lang_ru;;*);
+		[Pic. (food_zone)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/food_zone.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,67 @@
+concept_pokeball -> concept_pokeball_beastball;;
+
+concept_pokeball_beastball
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бистбол]
+	(* <- lang_ru;;	*);
+	[Beastball]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball_beastball<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешний вид (Бистбол)](*<-lang_ru;;*);
+		[Appearance (beastball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_beastball_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_beastball_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokeball_beastball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характеристика (Бистбол)](*<-lang_ru;;*);
+		[Characteristic (beastball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_beastball_characteristic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_beastball_characteristic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_beastball <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бистбол)](*<-lang_ru;;*);
+		[Pic. (beastball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokeball_beastball.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_category_B -> concept_pokeball_beastball;;
+concept_pokeball_of_seventh_generation -> concept_pokeball_beastball;;
+concept_kurts_pokeball -> concept_pokeball_beastball;;
+
+concept_pokeball_beastball => nrel_top_cover_color:concept_color_blue;;
+concept_pokeball_beastball => nrel_bottom_cover_color:concept_color_yellow;;
+
+value -> 0.1 ;;
+concept_pokeball_quicball => nrel_catch_rate: 0.1 ;;
+
+value -> 5;;
+concept_pokeball_beastball => nrel_monster_catch_rate: 5;;
+
+
+
+
+

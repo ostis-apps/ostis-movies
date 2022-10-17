@@ -1,0 +1,65 @@
+Moon_Lovers__Scarlet_Heart_Ryeo
+<- concept_series;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Лунные влюблённые: Алые сердца Корё](* <- lang_ru;; *);
+	[Moon lovers: Scarlet heart ryeo](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Лунные влюблённые: Алые сердца Корё)](*<-lang_ru;;*);
+		[Description (Moon lovers: Scarlet heart ryeo)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_series
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Moon_Lovers__Scarlet_Heart_Ryeo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Moon_Lovers__Scarlet_Heart_Ryeo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Лунные влюблённые: Алые сердца Корё)](*<-lang_ru;;*);
+		[Pic. (Moon lovers: Scarlet heart ryeo)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Moon_Lovers__Scarlet_Heart_Ryeo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_keywords: concept_historical_film;
+=> nrel_keywords: concept_fantasy;
+=> nrel_keywords: concept_melodrama;
+
+
+=> nrel_production_year : 2016;
+=> nrel_num_of_seasons: 1;
+=> nrel_num_of_episodes: 20;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Kim_Kyutea;
+=> nrel_screenwriter : Cho_Yoonyoung;
+=> nrel_producer: Baek_Choonghwa;
+=> nrel_cameraman : Kim_Cheonsuk;
+=> nrel_editor : Kim_Hyangsuk;
+
+
+=> nrel_main_actor : Lee_Jieun; ///IU
+=> nrel_main_actor : Lee_Joongi;
+=> nrel_main_actor : Kang_Haneul;
+=> nrel_actor : Sung_Dongil;;
+
+
+2016
+<- concept_calendar_date;
+=> nrel_main_idtf : [2016](*<-lang_ru;;*);
+=> nrel_main_idtf : [2016](*<-lang_en;;*);;      

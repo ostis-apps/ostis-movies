@@ -1,0 +1,74 @@
+concept_Disney_Plus <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Disney+] (* <- lang_ru;; *);
+=> nrel_idtf:[Disney+] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Описание (Disney+)] (* <- lang_ru;; *);
+							   [Statement(Disney+)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_cinema_distribution_service
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_Disney_Plus_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_Disney_Plus_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Disney+)](*<-lang_ru;;*);
+		[Pic. (Disney+)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Disney+.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_cinema_distribution_service;
+=>nrel_site:[disneyplus.com](*<-lang_en;;*);
+=>nrel_digital_distribution:concept_TV_series;
+=>nrel_digital_distribution:concept_film;
+=>nrel_owner:concept_film_studio_Walt_Disney_Pictures;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2019 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+=>nrel_users_count: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_measurement: 110000000
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_subscription_price: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 12
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*);;
+
+
+

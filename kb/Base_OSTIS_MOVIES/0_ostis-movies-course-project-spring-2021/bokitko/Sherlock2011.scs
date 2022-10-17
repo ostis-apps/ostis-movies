@@ -1,0 +1,77 @@
+Sherlock2011
+=> nrel_main_idtf:
+	[Шерлок холмс]
+	(* <- lang_ru;;	*);
+	[Sherlock Holmes]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_WarnerBrosPict;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Шерлок холмс (2011))](*<-lang_ru;;*);
+		[Description (Sherlock Holmes (2011))](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sherlock2011_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sherlock2011_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Sherlock2011)](*<-lang_ru;;*);
+		[Pic. (Sherlock2011)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Sherlock2011.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Usa;
+=> nrel_film_critic_rating : 8.1;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Downey_Jr;
+=> nrel_soundman : Khris_Manro;
+=> nrel_producer : concept_Joel_Silver;
+=> nrel_screenwriter : Michael_Robert_Johnson;;
+
+
+concept_calendar_date -> 14_12_2011;;
+14_12_2011 => nrel_main_idtf : [14.12.2011](*<-lang_ru;;*);;
+11_12_2011 => nrel_main_idtf : [14.12.2011](*<-lang_en;;*);;
+Sherlock2011 => nrel_release_date : 14_12_2011;;
+
+
+value -> 2_09;;
+2_09 => nrel_main_idtf : [2 часа и 09 минут](*<-lang_ru;;*);;
+2_09 => nrel_main_idtf : [2 hour and 09 minutes](*<-lang_en;;*);;
+Sherlock2011=> nrel_duration_of_showing : 2_09;;
+
+value -> 125_000_000;;
+125_000_000 => nrel_main_idtf : [125 000 000$](*<-lang_ru;;*);;
+125_000_000 => nrel_main_idtf : [125 000 000$](*<-lang_en;;*);;
+Sherlock2011 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 125_000_000;;   
+*);;
+
+
+Sherlock2011 => nrel_take_place: GB;
+=> nrel_take_place: France;
+=> nrel_production_designer: Gavin_Boke;
+=> nrel_film_director: Guy_Ritchie;
+=> nrel_composer: Hans_Zimmer;;
+
+Khris_Manro <-concept_human;
+=> nrel_main_idtf:
+	[Крис Манро]
+	(* <- lang_ru;;	*);
+	[Khris_Manro]
+	(* <- lang_en;;	*);;

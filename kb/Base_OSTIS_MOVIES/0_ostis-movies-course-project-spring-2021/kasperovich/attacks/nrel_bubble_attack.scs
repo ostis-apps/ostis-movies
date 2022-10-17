@@ -1,0 +1,33 @@
+nrel_bubble_attack<- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [пузырьковая атака*](*<- lang_ru;;*);
+    [bubble attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (пузырьковая атака*)](*<- lang_ru;;*);
+        [Def. (bubble attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>пузырьковая атака</b> - Бесчисленное количество пузырей летит на врага.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>bubble attack</b> - Countless bubbles are thrown at the enemy.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

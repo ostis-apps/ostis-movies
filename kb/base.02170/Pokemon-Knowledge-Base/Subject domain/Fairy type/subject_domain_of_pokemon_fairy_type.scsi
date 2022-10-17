@@ -1,0 +1,27 @@
+subject_domain_of_pokemon_fairy_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов волшебного типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon fairy type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_fairy_type;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_pure_fairy_type;
+    concept_half_main_fairy_type;
+    concept_half_secondary_fairy_type;
+	
+-> rrel_explored_relation:
+	nrel_dazzling_gleam_attack;
+    nrel_disarming_voice_attack;
+    nrel_draining_kiss_attack;
+    nrel_moonblast_attack;
+    nrel_play_rough_attack;
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

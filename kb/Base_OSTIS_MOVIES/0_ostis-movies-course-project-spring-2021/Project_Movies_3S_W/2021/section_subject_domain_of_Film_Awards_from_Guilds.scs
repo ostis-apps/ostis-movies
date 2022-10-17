@@ -1,0 +1,52 @@
+section_subject_domain_of_Film_Awards_from_Guilds <-non_atomic_section;
+
+=>nrel_main_idtf:
+[Раздел. Предметная область Кинопремий от Гильдий] (*<-lang_ru;;*);
+[Section. Subject domain of film awards from Guilds] (*<-lang_en;;*);;
+
+section_subject_domain_of_Film_Awards_from_Guilds -> rrel_key_sc_element:
+subject_domain_of_Film_Awards_from_Guilds;
+concept_film_award;
+
+concept_nomination;
+concept_award;
+concept_award_ceremony;
+concept_award_nominee;
+concept_award_winner;
+
+nrel_nomination;
+nrel_award;
+nrel_award_ceremony;
+nrel_award_nominee;
+nrel_location_of_the_event;
+nrel_award_winner;;
+
+section_subject_domain_of_Film_Awards_from_Guilds= [*
+subject_domain_of_Film_Awards_from_Guilds
+<-subject_domain;
+
+=>nrel_main_idtf:
+[Предметная область Кинопремий от Гильдий] (*<-lang_ru;;*);
+[Subject domain of film awards from Guilds] (*<-lang_en;;*);
+
+<= nrel_private_subject_domain:{
+subject_domain_of_Film_Awards_from_Guilds
+};;
+
+subject_domain_of_Film_Awards_from_Guilds->rrel_maximum_studied_object_class:concept_Film_Awards_from_Guilds;;
+subject_domain_of_Film_Awards_from_Guilds->rrel_not_maximum_studied_object_class:
+concept_nomination;
+concept_award;
+concept_award_ceremony;
+concept_award_nominee;
+concept_award_winner;;
+
+subject_domain_of_Film_Awards_from_Guilds->rrel_explored_relation:
+nrel_nomination;
+nrel_award;
+nrel_award_ceremony;
+nrel_award_nominee;
+nrel_location_of_the_event;
+nrel_award_winner;;
+*];;
+

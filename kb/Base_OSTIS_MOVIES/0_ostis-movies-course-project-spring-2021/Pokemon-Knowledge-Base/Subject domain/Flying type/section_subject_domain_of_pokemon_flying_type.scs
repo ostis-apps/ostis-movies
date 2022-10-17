@@ -1,0 +1,32 @@
+section_subject_domain_of_pokemon_flying_type
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покемонов летающего типа]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokemon flying type]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покемонов летающего типа.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element: 
+    concept_pure_flying_type;
+    concept_half_main_flying_type;
+    concept_half_secondary_flying_type;
+
+    nrel_aerial_ace_attack;
+    nrel_air_cutter_attack;
+    nrel_air_slash_attack;
+    nrel_brave_bird_attack;
+    nrel_drill_peck_attack;
+    nrel_hurricane_attack;
+    nrel_peck_attack;
+    nrel_sky_attack;
+    nrel_wing_attack;
+    
+	subject_domain_of_pokemon_flying_type;;
+
+section_subject_domain_of_pokemon_flying_type = [*^"file://subject_domain_of_pokemon_flying_type.scsi"*];;

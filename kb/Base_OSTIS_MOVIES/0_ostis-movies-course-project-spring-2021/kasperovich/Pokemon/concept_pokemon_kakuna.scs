@@ -1,0 +1,92 @@
+concept_pokemon -> concept_pokemon_kakuna;;
+
+concept_pokemon_kakuna
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Какуна]
+	(* <- lang_ru;;	*);
+	[kakuna]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_kakuna <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Какуна)](*<-lang_ru;;*);
+		[Description (kakuna)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_kakuna_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_kakuna_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_kakuna <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Какуна)](*<-lang_ru;;*);
+		[Appearance (kakuna)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_kakuna_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_kakuna_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_kakuna <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Какуна)](*<-lang_ru;;*);
+		[Natural ability (kakuna)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_kakuna_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_kakuna_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_kakuna <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Какуна)](*<-lang_ru;;*);
+		[Habitat (kakuna)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_kakuna_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_kakuna_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_kakuna <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Какуна)](*<-lang_ru;;*);
+		[Pic. (kakuna)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_kakuna.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_pokemon_kakuna <- concept_pokemon_beedrill;;
+
+concept_pokemon_kakuna <- concept_poison_type;;
+
+concept_pokemon_kakuna <- concept_bug_type;;
+
+concept_pokemon_kakuna <- concept_color_yellow;;
+
+value -> 14;;
+concept_pokemon_kakuna => nrel_pokedex_number: 14;;
+
+value -> 0.6;;
+concept_pokemon_kakuna => nrel_height: 0.6;;
+
+value -> 10;;
+concept_pokemon_kakuna => nrel_weight: 10;;

@@ -1,0 +1,67 @@
+concept_pokeball -> concept_pokeball_levelball;;
+
+concept_pokeball_levelball
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Левелбол]
+	(* <- lang_ru;;	*);
+	[Levelball]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball_levelball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешний вид (Левелбол)](*<-lang_ru;;*);
+		[Appearance (levelball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_levelball_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_levelball_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokeball_levelball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характеристика (Левелбол)](*<-lang_ru;;*);
+		[Characteristic (levelball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_levelball_characteristic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_levelball_characteristic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_levelball <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Левелбол)](*<-lang_ru;;*);
+		[Pic. (levelball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokeball_levelball.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_category_B -> concept_pokeball_levelball;;
+concept_pokeball_of_second_generation -> concept_pokeball_levelball;;
+concept_kurts_pokeball -> concept_pokeball_levelball;;
+
+concept_pokeball_levelball => nrel_top_cover_color:concept_color_black;;
+concept_pokeball_levelball => nrel_bottom_cover_color:concept_color_white;;
+
+value -> 1;;
+concept_pokeball_levelball => nrel_catch_rate: 1;;
+
+value -> 8;;
+concept_pokeball_levelball => nrel_high_level_catch_rate: 8;;
+
+
+
+
+

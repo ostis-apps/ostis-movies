@@ -1,0 +1,62 @@
+concept_pokeball -> concept_pokeball_safariball;;
+
+concept_pokeball_safariball
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Сафарибол]
+	(* <- lang_ru;;	*);
+	[Safariball]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball_safariball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешний вид (Сафарибол)](*<-lang_ru;;*);
+		[Appearance (safariball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_safariball_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_safariball_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokeball_safariball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характеристика (Сафарибол)](*<-lang_ru;;*);
+		[Characteristic (safariball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_safariball_characteristic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_safariball_characteristic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_safariball <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сафарибол)](*<-lang_ru;;*);
+		[Pic. (safariball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokeball_safariball.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_category_C -> concept_pokeball_safariball;;
+
+concept_pokeball_safariball => nrel_top_cover_color:concept_color_green;;
+concept_pokeball_safariball => nrel_bottom_cover_color:concept_color_white;;
+
+concept_pokeball_safariball => nrel_place_of_use: Johto ;;
+concept_pokeball_safariball => nrel_place_of_use: Kanto ;;
+
+
+
+
+

@@ -1,0 +1,33 @@
+concept_studio_headphones <- sc_node_norole_relation;
+
+<- concept_sound_studio;
+
+=> nrel_main_idtf:
+	[studio headphones] (*<- lang_en;;*);
+	[студийные наушники] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[headphones] (*<- lang_en;;*);
+	[наушники] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (студийные наушники)] (*<- lang_ru;;*);
+		[Def. (studio headphones)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_studio_headphones_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_studio_headphones_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (студийные наушники)](*<-lang_ru;;*);
+		[Pic. (studio headphones)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_studio_headphones.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

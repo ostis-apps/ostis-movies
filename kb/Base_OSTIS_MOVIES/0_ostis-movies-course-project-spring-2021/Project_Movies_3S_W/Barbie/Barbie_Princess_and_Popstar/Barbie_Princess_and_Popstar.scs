@@ -1,0 +1,67 @@
+Barbie_Princess_and_Popstar<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Принцесса и поп-звезда]
+	(* <- lang_ru;;	*);
+	[Barbie: The Princess and the Popstar]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Принцесса и поп-звезда)](*<-lang_ru;;*);
+		[Description (Barbie: The Princess and the Popstar)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_Princess_and_Popstar_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_Princess_and_Popstar_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Принцесса и поп-звезда)](*<-lang_ru;;*);
+		[Pic. (Barbie: The Princess and the Popstar)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_Princess_and_Popstar.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Zeke_Norton;
+=> nrel_composer: Rebecca_Kneubuhl;
+=> nrel_composer: Gabriel_Mann;
+=> nrel_production_designer: Pamela_ProStar;
+
+
+=> nrel_producer: Shelley_Dvi_Vardhana;
+=> nrel_producer: Shawn_McCorkindale;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 27_08_2012;
+=> nrel_duration_of_showing : 1_15;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_fairy;
+=> nrel_keywords: concept_songer;
+=> nrel_keywords: concept_fashion;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;;
+
+concept_calendar_date -> 27_08_2012;;
+27_08_2012 => nrel_main_idtf : [27.08.2012](*<-lang_ru;;*);;
+27_08_2012 => nrel_main_idtf : [27.08.2012](*<-lang_en;;*);;

@@ -1,0 +1,159 @@
+concept_Candyman
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Кэндимэн] 
+(* <- lang_ru;; *); 
+[Candyman] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Кэндимэн)](*<-lang_ru;;*);
+[Description (Candyman)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Candyman_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Candyman_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+
+=>nrel_tag_line: ["Из леденящего кровь воображения Клайва Баркера"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«From The Chilling Imagination Of Clive Barker»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Bernard_Rose; 
+=>nrel_producer: Clive_Barker; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Anthony_B_Richmond; 
+=>nrel_editor: Dan_Rae; 
+=>nrel_genre:concept_horror;
+=>nrel_be_awarded:{Saturn}; 
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1992
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 99
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 25792310
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Candyman;; 
+->character_Helen_Lyle;; 
+->character_Trevor_Lyle;; 
+->character_Bernadette_Bernie_Walsh;; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кэндимэн)](*<-lang_ru;;*);
+		[Pic. (Candyman))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Candyman.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Candyman
+=> nrel_main_idtf: 
+[ Кэндимэн ] (* <-lang_ru;; *); 
+[ Candyman ] (* <-lang_en;; *); 
+<- character_Helen_Lyle; 
+<- character_Trevor_Lyle; 
+<- character_Bernadette_Bernie_Walsh; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Кэндимэн )] (* <-lang_ru;; *); 
+[Description of character( Candyman )](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Candyman_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Candyman_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Кэндимэн )](*<-lang_ru;;*); 
+[Pic. (Candyman)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Candyman.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+character_Helen_Lyle 
+=> nrel_main_idtf: 
+[Хелен Лайл] (* <-lang_ru;; *); 
+[Helen Lyle] (* <-lang_en;; *); 
+<- character_Regan_McNeill; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа(Хелен Лайл)] (* <-lang_ru;; *); 
+[Description of character(Helen Lyle)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Helen_Lyle_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Helen_Lyle_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Хелен Лайл)](*<-lang_ru;;*); 
+[Pic. (Helen Lyle)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Helen_Lyle.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+Saturn
+ => nrel_main_idtf: 
+            [Сатурн, 1982 год] (* <-lang_ru;; *);
+		  [Saturn, 1982] (* <-lang_en;; *);;
+

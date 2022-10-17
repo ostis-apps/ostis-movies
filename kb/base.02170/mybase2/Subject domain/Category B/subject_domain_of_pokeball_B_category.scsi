@@ -1,0 +1,39 @@
+subject_domain_of_pokeball_B_category
+
+=> nrel_main_idtf:
+	[Предметная область покболов категории В]
+	(*<-lang_ru;;*);
+	[Subject domain of pokeball category B]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_pokeball_category_B;
+	
+-> rrel_not_maximum_studied_object_class:
+    	concept_pokeball_of_second_generation;
+    	concept_pokeball_of_third_generation;
+    	concept_pokeball_of_fourth_generation;
+    	concept_pokeball_of_fifth_generation;
+    	concept_pokeball_of_seventh_generation;
+    	concept_kurts_pokeball;
+	
+-> rrel_explored_relation:
+	nrel_darkness_catch_rate;
+	nrel_dive_catch_rate;
+	nrel_fast_effect_catch_rate;
+	nrel_fishing_catch_rate;
+	nrel_heavy_catch_rate;
+	nrel_high_level_catch_rate;
+	nrel_love_catch_rate;
+    	nrel_monster_catch_rate;
+    	nrel_moon_stone_catch_rate;
+    	nrel_nature_catch_rate;
+    	nrel_quic_catch_rate;
+    	nrel_repeat_catch_rate;
+    	nrel_timer_catch_rate;
+
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

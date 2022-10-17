@@ -1,0 +1,22 @@
+concept_pokeball_category_C -> concept_pokeball_of_eighth_generation;;
+
+concept_pokeball_of_eighth_generation
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Покебол категории С восьмого поколения]
+	(* <- lang_ru;;	*);
+	[C category eighth generation pokeball]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball_of_eighth_generation <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Покебол категории B седьмого поколения)](*<-lang_ru;;*);
+		[Description (B category eighth generation pokeball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		-> rrel_example:[<sc_element sys_idtf="concept_pokeball_category">Категория покеболов</sc_element>, которые относятся к категории C и появились в седьмом поколении.](* <- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example:[<sc_element sys_idtf="concept_pokeball_category">The category of pokeball</sc_element> , which belong to category C and appeared in the eighth generation.](* <- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;

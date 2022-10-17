@@ -1,0 +1,39 @@
+nrel_award_nominee <- sc_node_norole_relation;
+
+<- binary_relation;
+<- asymmetric_relation;
+<- transitive_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+
+=>nrel_main_idtf:
+	[Номинант*](*<-lang_ru;;*);
+	[Nominee*](*<-lang_en;;*); 
+=> nrel_idtf:[Кандидат] (* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинант*)](*<-lang_ru;;*);
+		[Def. (Nominee*)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concepnt_award;
+		cocenpt_nomination
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_nominee_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_nominee_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+=> nrel_first_domain:  concept_film_award;
+=> nrel_second_domain: concept_award_nominee;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_award_nominee;;
+        -> concept_film_award;;
+    *);;
+*);;

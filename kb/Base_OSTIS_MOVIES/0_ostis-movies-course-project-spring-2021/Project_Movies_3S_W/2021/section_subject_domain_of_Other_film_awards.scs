@@ -1,0 +1,58 @@
+section_subject_domain_of_Other_film_awards <-non_atomic_section;
+
+=>nrel_main_idtf:
+[Раздел. Предметная область Других Кинопремий] (*<-lang_ru;;*);
+[Section. Subject domain of Other film awards] (*<-lang_en;;*);
+
+<= nrel_section_decomposition:{
+concept_film_award_European;
+concept_film_award_Asian;
+concept_film_award_AACTA
+};;
+
+section_subject_domain_of_Other_film_awards -> rrel_key_sc_element:
+subject_domain_of_Other_film_awards;
+concept_film_award;
+
+concept_nomination;
+concept_award;
+concept_award_ceremony;
+concept_award_nominee;
+concept_award_winner;
+
+nrel_nomination;
+nrel_award;
+nrel_location_of_the_event;
+nrel_award_ceremony;
+nrel_award_nominee;
+nrel_award_winner;;
+
+section_subject_domain_of_Other_film_awards= [*
+subject_domain_of_Other_film_awards
+<-subject_domain;
+
+=>nrel_main_idtf:
+[Предметная область Других Кинопремий] (*<-lang_ru;;*);
+[Subject domain of Other film awards] (*<-lang_en;;*);
+
+<= nrel_private_subject_domain:{
+subject_domain_of_Other_film_awards
+};;
+
+subject_domain_of_Other_film_awards->rrel_maximum_studied_object_class:concept_Other_Film_Awards;;
+subject_domain_of_Other_film_awards->rrel_not_maximum_studied_object_class:
+concept_nomination;
+concept_award;
+concept_award_ceremony;
+concept_award_nominee;
+concept_award_winner;;
+
+subject_domain_of_Other_film_awards->rrel_explored_relation:
+nrel_nomination;
+nrel_award;
+nrel_award_ceremony;
+nrel_award_nominee;
+nrel_location_of_the_event;
+nrel_award_winner;;
+*];;
+

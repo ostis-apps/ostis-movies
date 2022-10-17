@@ -1,0 +1,33 @@
+concept_garlic_sauce <- sc_node_not_relation;
+
+=> nrel_main_idtf:[чесночный соус] (* <- lang_ru;; *);
+=> nrel_idtf:[garlic_sauce] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (чесночный соус)](* <- lang_ru;; *);
+		[Def. (garlic_sauce)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_garlic_sauce;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_garlic_sauce">Чесночный соус</sc_element></b> соус, приготовленный с использованием чеснока в качестве основного ингредиента. Обычно это острый соус, глубина чесночного вкуса которого определяется количеством используемого чеснока.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_garlic_sauce">Garlic sauce</sc_element></b> is a sauce prepared using garlic as a primary ingredient. It is typically a pungent sauce, with the depth of garlic flavor determined by the amount of garlic used.  ](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (чесночный соус)](*<-lang_ru;;*);
+		[Pic. (garlic_sauce)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/garlic_sauce.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

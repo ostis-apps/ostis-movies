@@ -1,0 +1,64 @@
+section_subject_domain_of_newsreel_films
+=> nrel_main_idtf:
+	[Раздел. Предметная область документальных кинохроник]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of documentary Newsreels]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_of_newsreel_films->rrel_key_sc_element:
+	concept_city_24;
+	concept_the_force;;
+
+section_subject_domain_of_newsreel_films = [*
+subject_domain_of_newsreel_films
+=> nrel_main_idtf:
+	[Предметная область документальных кинохроник]
+	(* <- lang_ru;; *);
+	[Subject domain of documentary Newsreels]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_of_newsreel_films;
+-> rrel_maximum_studied_object_class: concept_newsreel_films;
+-> rrel_not_maximum_studied_object_class:
+    concept_subgenre_of_documentary_film;
+		concept_city_24;
+		concept_the_force;;
+
+concept_newsreel_films<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Документальная кинохроника]
+	(* <- lang_ru;; *);
+	[Documentary Newsreels]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_newsreel_films;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальная кинохроника -  хроника, в которую собраны несколько фильмов за определенный промежуток времени. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Документальная кинохроника)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_newsreel;;
+->concept_newsreel_films;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_newsreel_films;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальная кинохроника.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О документальной кинохронике)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_film;;
+->concept_newsreel_film;;
+        *);;
+*);;
+*];;

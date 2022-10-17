@@ -1,0 +1,77 @@
+Barbie_Fairytopia_Magic_of_the_Rainbow<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Сказочная страна. Волшебная радуга]
+	(* <- lang_ru;;	*);
+	[Barbie Fairytopia: Magic of the Rainbow]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Сказочная страна. Волшебная радуга)](*<-lang_ru;;*);
+		[Description (Barbie Fairytopia: Magic of the Rainbow)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_Fairytopia_Magic_of_the_Rainbow_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_Fairytopia_Magic_of_the_Rainbow_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Сказочная страна. Волшебная радуга)](*<-lang_ru;;*);
+		[Pic. (Barbie Fairytopia: Magic of the Rainbow)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_Fairytopia_Magic_of_the_Rainbow.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: William_Lau;
+=> nrel_production_designer: Walter_Martishius;
+=> nrel_composer: Eric_Colvin;
+=> nrel_soundman: Jeremy_Duayne_Elzinga;
+
+
+=> nrel_producer: Luke_Carroll;
+=> nrel_screenwriter : Diane_Duane;
+=> nrel_screenwriter : Elise_Allen;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 06_03_2007;
+=> nrel_duration_of_showing : 1_15;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_princess;
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_fairy;
+=> nrel_keywords: concept_flowers;
+=> nrel_keywords: concept_butterflies;
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_fantasy;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;;
+
+duration -> 1_15;;
+1_15 => nrel_main_idtf : [1 час и 15 минут](*<-lang_ru;;*);;
+1_15 => nrel_main_idtf : [1 hour and 15 minutes](*<-lang_en;;*);;
+
+concept_calendar_date -> 06_03_2007;;
+06_03_2007 => nrel_main_idtf : [06.03.2007](*<-lang_ru;;*);;
+06_03_2007 => nrel_main_idtf : [06.03.2007](*<-lang_en;;*);;

@@ -1,0 +1,41 @@
+nrel_post_production_supervisor <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [Post-production supervisor](*<- lang_en;;*);
+    [Руководитель постпродакшена](*<- lang_ru;;*);
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (Руководитель постпродакшена)](*<- lang_ru;;*);
+        [Def. (Post-production supervisor)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_post_production_supervisor_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_post_production_supervisor_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=> nrel_first_domain: concept_film;
+=> nrel_second_domain: concept_human;
+=> nrel_definitional_domain: concept_film;
+
+<-  rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (Руководитель постпродакшена)](*<-lang_ru;;*);
+		    [Pic. (Post-production supervisor)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/post_production_supervisor.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

@@ -1,0 +1,54 @@
+concept_human -> Oleg_Cassini;;
+
+Oleg_Cassini
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Олег Кассини ]
+	(* <- lang_ru;;	*);
+	[Oleg Cassini]
+	(* <- lang_en;;	*);;
+	
+Oleg_Cassini <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Олег Кассини)](*<-lang_ru;;*);
+		[Description (Oleg Cassini)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Oleg_Cassini_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Oleg_Cassini_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Oleg_Cassini 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Олег Кассини)](*<-lang_ru;;*);
+		[Pic. (Oleg Cassini)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Oleg_Cassini.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1913;;
+Oleg_Cassini=>nrel_date_of_birth: 1913;;
+1913=>nrel_main_idtf:[1913 год](*<-lang_ru;;*);;
+1913=>nrel_main_idtf:[year of 1913](*<-lang_en;;*);;
+
+concept_calendar_date->1941;;
+Oleg_Cassini=>nrel_career_start_date: 1941;;
+1941=>nrel_main_idtf:[1941 год](*<-lang_ru;;*);;
+1941=>nrel_main_idtf:[year of 1941](*<-lang_en;;*);;
+
+Oleg_Cassini =>nrel_cityzenship:France;;
+France<-concept_country;;
+

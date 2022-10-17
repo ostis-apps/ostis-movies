@@ -1,0 +1,32 @@
+concept_studio_monitor <- sc_node_norole_relation;
+
+<- concept_sound_studio;
+
+=> nrel_main_idtf:
+	[studio monitor] (*<- lang_en;;*);
+	[студийный монитор] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[монитор] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (студийный монитор)] (*<- lang_ru;;*);
+		[Def. (studio monitor)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_studio_monitor_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_studio_monitor_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (студийный монитор)](*<-lang_ru;;*);
+		[Pic. (studio monitor)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_studio_monitor.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

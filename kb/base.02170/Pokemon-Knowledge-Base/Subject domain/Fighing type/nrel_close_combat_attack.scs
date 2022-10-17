@@ -1,0 +1,33 @@
+nrel_close_combat_attack <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [атака ближний бой*](*<- lang_ru;;*);
+    [close combat attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (атака ближний бой*)](*<- lang_ru;;*);
+        [Def. (close combat attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>Атака ближний бой</b> - сражение на близкой дистанции без попыток защищаться.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>Close combat attack</b> - fight at close range without trying to defend.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

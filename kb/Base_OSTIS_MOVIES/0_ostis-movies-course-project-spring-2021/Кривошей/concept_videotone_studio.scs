@@ -1,0 +1,50 @@
+concept_videotone_studio
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Студия Видеотон]
+	(* <- lang_ru;; *);
+	[Videotone studio]
+	(* <- lang_en;; *);;
+
+concept_videotone_studio<=nrel_inclusion: concept_documentary_film_studio;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_videotone_studio;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Студия Видеотон единственная а России представляет полный комплекс услуг по проведению документальных, художественных и постановочных съемок под водой на глубинах до 100 метров.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Студия Видеотон)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_documentary_film_studio;;
+->concept_videotone_studio;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_videotone_studio;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Студия Видеотон осуществляем высококачественный цифровой нелинейный монтаж любой сложности, начиная от обычного удаления непонравившихся клиенту кадров и вставки фотографий, заканчивая монтажом полноценных телевизионных фильмов.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О Студии Видеотон)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_documentary_film_studio;;
+->concept_videotone_studio;;
+        *);;
+*);;
+
+illustration->...
+(*
+    ->rrel_key_sc_element: concept_videotone_studio;;
+	=>nrel_main_idtf:
+		[Рис. (Студия Видеотон)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/videoton.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

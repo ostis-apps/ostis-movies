@@ -1,0 +1,123 @@
+concept_hellraiser5
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Восставший из ада 5: Преисподняя] 
+(* <- lang_ru;; *); 
+[Hellraiser: Inferno] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Восставший из ада 5: Преисподняя)](*<-lang_ru;;*);
+[Description (Hellraiser: Inferno)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Hellraiser5_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Hellraiser5_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["Ужасающая новая глава в наследии "Восставшего из ада"!"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«The Terrifying New Chapter In The «Hellraiser» Legacy! »] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Scott_Derrickson; 
+=>nrel_producer: Clive_Barker ; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Nathan_Hope; 
+=>nrel_editor: Kirk_Morri; 
+=>nrel_genre:concept_horror;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2000
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 99
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 6090735
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Lead_Cenobite;; 
+->character_Wire_Twins_Cenobite;; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Восставший из ада 5: Преисподняя)](*<-lang_ru;;*);
+		[Pic. (Hellraiser: Inferno))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Hellraiser5.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+character_Wire_Twins_Cenobite
+=> nrel_main_idtf: 
+[ Стучащий Зубами Зверь ] (* <-lang_ru;; *); 
+[ Chatter Beast Cenobite ] (* <-lang_en;; *); 
+<- character_Lead_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Проволочные Близнецы )] (* <-lang_ru;; *); 
+[Description of character(Wire Twins)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Wire_Twins_Cenobite_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Wire_Twins_Cenobite_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Проволочные Близнецы )](*<-lang_ru;;*); 
+[Pic. ( Wire Twins )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Wire_Twins_Cenobite.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+

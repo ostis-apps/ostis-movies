@@ -1,0 +1,39 @@
+concept_food <- sc_node_not_relation;
+
+=> nrel_main_idtf:[еда] (* <- lang_ru;; *);
+=> nrel_idtf:[food] (* <- lang_en;; *);
+
+->studied_object_class: concept_nachos;
+->studied_object_class: concept_chips;
+->studied_object_class: concept_popcorn;
+
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (еда)](* <- lang_ru;; *);
+		[Def. (food)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_food;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_food">Еда</sc_element></b> это те конкретные продукты, которые поступают с пищей.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_food">Food</sc_element></b> these are the foods that enter the digestive tract.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (еда)](*<-lang_ru;;*);
+		[Pic. (food)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/food.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

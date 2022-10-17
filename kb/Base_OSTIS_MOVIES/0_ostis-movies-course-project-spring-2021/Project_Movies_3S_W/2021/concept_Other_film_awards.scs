@@ -1,0 +1,29 @@
+concept_Other_film_awards <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Другая кинопремия] (* <- lang_ru;; *);
+=> nrel_main_idtf:[Other Film Award] (* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Другая кинопремия)](*<-lang_ru;;*);
+		[Def. (Other Film Award)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_award;
+		concept_award_ceremony;
+		concept_nomination
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Other_film_awards_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Other_film_awards_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Other_film_awards
+-> concept_film_award_European;
+-> concept_film_award_Asian;
+-> concept_film_award_AACTA;;
+ 

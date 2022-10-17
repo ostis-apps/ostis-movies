@@ -1,0 +1,33 @@
+concept_cashier <- sc_node_not_relation;
+
+=> nrel_main_idtf:[кассир] (* <- lang_ru;; *);
+=> nrel_idtf:[cashier] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (кассир)](* <- lang_ru;; *);
+		[Def. (cashier)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_cashier;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cashier">Кассир</sc_element></b> должностное лицо, заведующее кассой, занимающееся выдачей и приёмом денег, ценных бумаг и продажей билетов.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cashier">Cashier</sc_element></b> this is an official in charge of a cash desk, engaged in the issuance and receipt of money, securities and the sale of tickets. ](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кассир)](*<-lang_ru;;*);
+		[Pic. (cashier)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/cashier.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

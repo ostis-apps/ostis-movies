@@ -1,0 +1,69 @@
+section_subject_domain_genres_of_documentary_film
+=> nrel_main_idtf:
+	[Раздел. Предметная область жанров документальных фильмов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of documentary film genres]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_genres_of_documentary_film=>nrel_section_decomposition: {
+    section_subject_domain_of_interview_films;
+    section_subject_domain_of_research_films;
+    section_subject_domain_of_newsreel_films;
+    section_subject_domain_of_biography_films
+    };;
+
+section_subject_domain_genres_of_documentary_film->rrel_key_sc_element:
+	 subject_domain_genres_of_documentary_film;;
+
+section_subject_domain_genres_of_documentary_film = [*
+subject_domain_genres_of_documentary_film
+=> nrel_main_idtf:
+	[Предметная область жанров документальных фильмов]
+	(* <- lang_ru;; *);
+	[Subject domain of documentary film genres]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_genres_of_documentary_film;
+-> rrel_maximum_studied_object_class: concept_genre;
+-> rrel_not_maximum_studied_object_class:
+    concept_genre_of_documentary_film;;
+
+concept_genres_of_documentary_film<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Жанр документального кино]
+	(* <- lang_ru;; *);
+	[Documentary film genre]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_genres_of_documentary_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Жанр документального кино -  общее понятие, отражающее наиболее существенные свойства и связи явлений документальных фильмов.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Жанр документального кино)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_features;;
+->concept_connections;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_genres_of_documentary_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Понятие «жанр» находится как бы вне любых морфологических систем и, одновременно, относится к любым её компонентам и системообразующим связям.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О жанре документального фильма)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_genre;;
+->concept_system;;
+->concept_component;;
+        *);;
+*);;
+*];;

@@ -1,0 +1,68 @@
+concept_film_studio_Letopis <- sc_node_not_relation;
+
+=> nrel_main_idtf:[киностудия Летопись] (* <- lang_ru;; *);
+=> nrel_idtf:[film studio Letopis] (* <- lang_en;; *);
+=> nrel_idtf:[Letopis] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: 
+        ... 
+        (*
+            <- definition;;
+			=> nrel_main_idtf: [Высказывание (киностудия Летопись)] (* <- lang_ru;; *);
+							   [Statement(film studio Letopis)] (* <- lang_en;; *);;
+			<=nrel_using_constants:
+			{
+				concept_film_studio
+			};;
+			<= nrel_sc_text_translation: ...(*
+				-> rrel_example: "file://HTML/concept_letapis_ru.html" (*<-lang_ru;; =>nrel_format:format_html;;*);;
+				-> rrel_example: "file://HTML/concept_letapis_en.html" (*<-lang_en;; =>nrel_format:format_html;;*);;
+			*);;
+		*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Летопись)](*<-lang_ru;;*);
+		[Pic. (film studio Letopis)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/letapis.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<-concept_film_studio;
+=>nrel_fabricate:{
+concept_documentary_film
+};
+<-concept_documentary_film_studio;
+=>nrel_foundation_year: ...
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1924 
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+
+
+=>nrel_cinema_location: Belarus;
+
+<=nrel_responsobility_zone: Oksana_Eyhart;;
+
+Oksana_Eyhart <-concept_human;
+=> nrel_main_idtf: 
+[Оксана Эйхарт] (* <-lang_ru;; *); 
+[Oksana Eyhart] (* <-lang_en;; *);
+=>nrel_cityzenship: Belarus;;
+
+
+Belarus <-concept_country;
+=> nrel_main_idtf: 
+[Беларусь] (* <-lang_ru;; *); 
+[Belarus] (* <-lang_en;; *);;
+
+

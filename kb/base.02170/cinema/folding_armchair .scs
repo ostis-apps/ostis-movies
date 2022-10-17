@@ -1,0 +1,36 @@
+concept_folding_armchair <- sc_node_not_relation;
+
+=> nrel_main_idtf:[раскладное кресло] (* <- lang_ru;; *);
+=> nrel_idtf:[folding_armchair] (* <- lang_en;; *);
+
+->studied_object_class: concept_sliding_chair;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (раскладное кресло)](* <- lang_ru;; *);
+		[Def. (folding_armchair)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_folding_armchair;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_folding_armchair">Раскладное кресло</sc_element></b> это кресло,предназначенное для просмотра кинофильма в лежачем состоянии.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_folding_armchair">Folding armchair</sc_element></b> it is a chair designed for watching a movie while lying down.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (раскладное кресло)](*<-lang_ru;;*);
+		[Pic. (folding_armchair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/folding_armchair.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

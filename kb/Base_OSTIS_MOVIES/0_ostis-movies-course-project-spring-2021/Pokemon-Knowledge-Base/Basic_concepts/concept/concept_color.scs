@@ -1,0 +1,31 @@
+concept_color 
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Цвет]
+	(* <- lang_ru;;	*);
+	[Color]
+	(* <- lang_en;;	*);;
+	
+concept_color <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Цвет)](*<-lang_ru;;*);
+		[Description (Color)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: [<b>Цвет</b> — качественная субъективная характеристика электромагнитного излучения оптического диапазона, определяемая на основании возникающего физиологического зрительного ощущения и зависящая от ряда физических, физиологических и психологических факторов.] (*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: [<b>Color</b> is a qualitative subjective characteristic of electromagnetic radiation in the optical range, determined on the basis of the emerging physiological visual sensation and depending on a number of physical, physiological and psychological factors.] (*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_color -> concept_color_blue;;
+concept_color -> concept_color_brown;;
+concept_color -> concept_color_yellow;;
+concept_color -> concept_color_red;;
+concept_color -> concept_color_green;;
+concept_color -> concept_color_black;;
+concept_color -> concept_color_purple;;
+concept_color -> concept_color_gray;;
+concept_color -> concept_color_white;;
+concept_color -> concept_color_pink;;

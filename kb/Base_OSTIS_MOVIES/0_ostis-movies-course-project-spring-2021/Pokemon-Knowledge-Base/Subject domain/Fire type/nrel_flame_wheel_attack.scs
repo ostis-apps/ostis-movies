@@ -1,0 +1,33 @@
+nrel_flame_wheel_attack <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [атака огненное колесо*](*<- lang_ru;;*);
+    [flame wheel attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (атака огненное колесо*)](*<- lang_ru;;*);
+        [Def. (flame wheel attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>Атака огненное колесо</b> - <sc_element sys_idtf="concept_pokemon">покемон</sc_element> покрывается пламенной завесой и устремляется к врагу.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>Flame wheel attack</b> - the <sc_element sys_idtf="concept_pokemon">pokemon</sc_element> is covered with a fiery curtain and rushes towards the enemy.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

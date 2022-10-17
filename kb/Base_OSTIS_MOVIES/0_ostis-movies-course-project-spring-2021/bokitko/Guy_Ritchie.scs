@@ -1,0 +1,49 @@
+concept_human -> Guy_Ritchie;;
+
+Guy_Ritchie
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Гай Ричи]
+	(* <- lang_ru;;	*);
+	[Guy Ritchie]
+	(* <- lang_en;;	*);;
+	
+Guy_Ritchie <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Гай Ричи)](*<-lang_ru;;*);
+		[Description (Guy Ritchie)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_director
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Guy_Ritchie_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Guy_Ritchie_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1968;;
+Guy_Ritchie=>nrel_date_of_birth: 1968;;
+1968=>nrel_main_idtf:[1968 год](*<-lang_ru;;*);;
+1968=>nrel_main_idtf:[year of 1968](*<-lang_en;;*);;
+
+concept_calendar_date->1995;;
+Guy_Ritchie=>nrel_career_start_date: 1995;;
+1995=>nrel_main_idtf:[1995 год](*<-lang_ru;;*);;
+1995=>nrel_main_idtf:[year of 1995](*<-lang_en;;*);;
+
+Michael_Robert_Johnson =>nrel_cityzenship: GB;
+<-concept_film_director;;
+
+BG
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Великобритания]
+	(* <- lang_ru;;	*);
+	[Great Britain]
+	(* <- lang_en;;	*);;
+	

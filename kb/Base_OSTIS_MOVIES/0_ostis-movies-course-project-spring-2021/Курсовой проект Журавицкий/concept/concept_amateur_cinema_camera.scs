@@ -1,0 +1,33 @@
+concept_amateur_cinema_camera
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[любительская кинокамера](*<-lang_ru;;*);
+	[amateur cinema camera](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (любительская кинокамера)](*<-lang_ru;;*);
+		[Def. (amateur cinema camera)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cinema_camera
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_amateur_cinema_camera_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_amateur_cinema_camera_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (любительская кинокамера)](*<-lang_ru;;*);
+		[Pic. (amateur cinema camera)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/amateur_cinema_camera.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<=nrel_inclusion:concept_cinema_camera;;	

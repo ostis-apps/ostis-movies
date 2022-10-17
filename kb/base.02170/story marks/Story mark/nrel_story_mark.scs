@@ -1,0 +1,59 @@
+nrel_story_mark
+<- sc_node_norole_relation;
+
+=> nrel_main_idtf: 
+	[сюжетная метка*] (*<- lang_ru;;*);
+	[story mark*] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. сюжетная метка*] (*<- lang_ru;;*);
+		[Def. story markа*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_story_mark_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_story_mark_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       nrel_storyline;
+       concept_film;
+       concept_series
+    };;
+*);
+
+<- rrel_key_sc_element:... (*
+    <- statement;;
+    => nrel_main_idtf: 
+        [Утв. сюжетная метка*] (*<- lang_ru;;*);
+		[Stat. story markа*] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_story_mark_stat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_story_mark_stat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       nrel_storyline;
+       concept_film;
+       concept_series
+    };;
+*);
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_first_domain: nrel_storyline;
+=> nrel_second_domain: {
+						concept_film;
+       				    concept_series
+       				   };
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> nrel_storyline;;
+        -> {
+            concept_film;
+            concept_series
+           };;
+    *);;
+*);;

@@ -1,0 +1,61 @@
+Itaewon_Class
+<- concept_series;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Итэвон класс](* <- lang_ru;; *);
+	[Itaewon class](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Итэвон класс)](*<-lang_ru;;*);
+		[Description (Itaewon class)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_series
+	};;
+
+<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Itaewon_Class_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Itaewon_Class_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Итэвон класс)](*<-lang_ru;;*);
+		[Pic. (Itaewon class)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Itaewon_Class.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_keywords: concept_drama;
+
+
+=> nrel_production_year : 2020;
+=> nrel_num_of_seasons: 1;
+=> nrel_num_of_episodes: 16;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Kim_Sungyoon;
+=> nrel_screenwriter : Gwang_Jin;
+=> nrel_producer: Lee_Sangyoon;
+
+
+=> nrel_main_actor : Park_Seojoon;
+=> nrel_main_actor : Kim_Dami;
+=> nrel_main_actor : Kwon_Nara;
+=> nrel_actor : Yoo_Jaemyung;;
+
+
+2020
+<- concept_calendar_date;
+=> nrel_main_idtf : [2020](*<-lang_ru;;*);
+=> nrel_main_idtf : [2020](*<-lang_en;;*);;      

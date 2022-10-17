@@ -1,0 +1,21 @@
+concept_magnetic_digital_sound_recording <- sc_node_norole_relation;
+
+<- concept_digital_sound_recording;
+
+=> nrel_main_idtf:
+	[magnetic digital sound recording] (*<- lang_en;;*);
+	[магнитная цифровая звукозапись] (*<- lang_ru;;*);
+
+
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (магнитная цифровая звукозапись)] (*<- lang_ru;;*);
+		[Def. (magnetic digital sound recording)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_magnetic_digital_sound_recording_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_magnetic_digital_sound_recording_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,47 @@
+concept_google_play_films <- sc_node_not_relation;
+
+=> nrel_main_idtf:[Google Play Фильмы] (* <- lang_ru;; *);
+=> nrel_main_idtf:[Google Play Films] (* <- lang_en;; *);
+
+=> nrel_idtf:[Google Play Films] (* <- lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Google Play Фильмы)](*<-lang_ru;;*);
+		[Def. (google Play Films)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_portal;        
+        concept_service;
+        concept_internet_service;
+        concept_subscription;
+        concept_library_with_licensed_content;
+        concept_paid_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_google_play_films_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_google_play_films_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Google Play Фильмы)](*<-lang_ru;;*);
+		[Pic. (Google Play Films)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Google_Play_Films.png"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+concept_google_play_films
+=>nrel_foundation_year:  2008;
+=>nrel_founder: Sergey_Brin;
+=>nrel_site:[https://www.play.google.com/store/movies?hl=ru&gl=US/](* <- lang_en;; *);
+=>nrel_count_films: 250000;;

@@ -1,0 +1,22 @@
+concept_ghost_type -> concept_half_secondary_ghost_type;;
+
+concept_half_secondary_ghost_type
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Наполовину второстепенный призрачный тип]
+	(* <- lang_ru;;	*);
+	[Half secondary ghost type]
+	(* <- lang_en;;	*);;
+	
+concept_half_secondary_ghost_type <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Наполовину второстепенный призрачный тип)](*<-lang_ru;;*);
+		[Description (Half secondary ghost type)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		-> rrel_example:[<sc_element sys_idtf="concept_pokemon_type">Тип покемонов</sc_element>, у которых <sc_element sys_idtf="concept_ghost_type">призрачный тип</sc_element> является второстепенной половиной .](* <- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example:[<sc_element sys_idtf="concept_pokemon">The type of pokemon</sc_element> in which the <sc_element sys_idtf="concept_ghost_type">ghost type</sc_element> is the secondary half.](* <- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;

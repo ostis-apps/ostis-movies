@@ -1,0 +1,85 @@
+The_King<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Король Англии](* <- lang_ru;;*);
+	[The King](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Король Англии)](*<-lang_ru;;*);
+		[Description (The King)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://The_King_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://The_King_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Король Англии)](*<-lang_ru;;*);
+		[Pic. (The King)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://The_King.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_main_producer: David_Michod;
+=>nrel_screenwriter: David_Michod;
+=>nrel_production_country: USA;
+=>nrel_production_country: Australia;
+=>nrel_production_country: Great_Britan;
+=>nrel_production_country: Hungary;
+=>nrel_film_critic_rating: 7.1;
+=>nrel_genre: concept_drama;
+=>nrel_genre: concept_biography_film;
+=>nrel_genre: concept_war_film;
+=>nrel_genre: concept_history;
+
+=>nrel_age_rating: concept_PG18;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_biography_film;
+=>nrel_keywards: concept_history;
+=>nrel_keywords: concept_war_film;
+=>nrel_keywords: concept_drama;;
+
+
+The_King => nrel_actor : Timothee_Chalamet;;
+The_King => nrel_actor : Robert_Pattinson;;
+
+concept_calendar_date -> 02_09_2019;;
+02_09_2019 => nrel_main_idtf : [2 сентября 2019](*<-lang_ru;;*);;
+02_09_2019 => nrel_main_idtf : [2 September 2019](*<-lang_en;;*);;
+The_King => nrel_release_date: 02_09_2019;;
+
+
+value -> 2_20;;
+2_20 => nrel_main_idtf : [2 часа и 20 минут](*<-lang_ru;;*);;
+2_20 => nrel_main_idtf : [2 hours and 20 minutes](*<-lang_en;;*);;
+The_King=> nrel_duration_of_showing : 2_20;;
+
+value -> 126_931;;
+126_931 => nrel_main_idtf : [126 931$](*<-lang_ru;;*);;
+126_931 => nrel_main_idtf : [126 931$](*<-lang_en;;*);;
+The_King <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 126_931;;   
+*);;
+

@@ -1,0 +1,50 @@
+concept_human -> Leigh_Brackett;;
+
+Leigh_Brackett
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ли Бреккет]
+	(* <- lang_ru;;	*);
+	[Leigh Brackett]
+	(* <- lang_en;;	*);;
+	
+Leigh_Brackett <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ли Брэккет)](*<-lang_ru;;*);
+		[Description (Leigh_Brackett)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_screenwriter 
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Leigh_Brackett_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Leigh_Brackett_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1915;;
+Leigh_Brackett=>nrel_date_of_birth: 1915;;
+1915=>nrel_main_idtf:[1915 год](*<-lang_ru;;*);;
+1915=>nrel_main_idtf:[year of 1915](*<-lang_en;;*);;
+
+concept_calendar_date->1940;;
+Leigh_Brackett=>nrel_career_start_date: 1940;;
+1940=>nrel_main_idtf:[1940 год](*<-lang_ru;;*);;
+1940=>nrel_main_idtf:[year of 19640](*<-lang_en;;*);;
+
+Leigh_Brackett =>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_film_studio_lucasfilm;
+<-concept_main_actor;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+

@@ -1,0 +1,46 @@
+concept_human -> Andrew_Robinson;;
+
+Andrew_Robinson <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эндрю Робинсон)](*<-lang_ru;;*);
+		[Description (Andrew Robinson)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_actor_Andrew_Robinson_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_actor_Andrew_Robinson_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Andrew_Robinson <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эндрю Робинсон)](*<-lang_ru;;*);
+		[Pic. (Andrew Robinson)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/actor_Andrew_Robinson.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Andrew_Robinson => nrel_main_idtf: [Эндрю Робинсон](*<-lang_ru;;*);;
+Andrew_Robinson => nrel_main_idtf: [Andrew Robinson](*<-lang_en;;*);;
+
+Andrew_Robinson => nrel_place_of_birth : New_York;;
+
+Andrew_Robinson => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 14_12_1942;;
+Andrew_Robinson => nrel_career_start_date : 08_03_1971;;
+08_03_1971 => nrel_main_idtf : [08.03.1971](*<-lang_en;;*);;
+08_03_1971 => nrel_main_idtf : [08.03.1971](*<-lang_ru;;*);;
+
+concept_film ->  Dirty_Harry;Hellraiser;;
+
+Andrew_Robinson => nrel_to_star_in : concept_hellraiser;;

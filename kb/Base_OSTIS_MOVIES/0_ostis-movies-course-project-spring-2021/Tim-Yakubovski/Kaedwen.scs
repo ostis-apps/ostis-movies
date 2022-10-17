@@ -1,0 +1,53 @@
+kingdom_Kaedwen
+=> nrel_main_idtf: 
+[ Каэдвен] (* <-lang_ru;; *); 
+[ Kaedwen ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Каэдвен )] (* <-lang_ru;; *); 
+[Description of character(Kaedwen)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_kingdom_Kaedwen_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_kingdom_Kaedwen_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+=>nrel_character:... 
+(* 
+->character_Henselt;; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Каэдвен)](*<-lang_ru;;*); 
+[Pic. (Kaedwen)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_kingdom_Kaedwen.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+
+character_Henselt
+=> nrel_main_idtf: 
+[ Хенсельт ] (* <-lang_ru;; *); 
+[ Henselt ] (* <-lang_en;; *);
+<- kingdom_Kaedwen; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Хенсельт )] (* <-lang_ru;; *); 
+[Description of character(Henselt)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Henselt_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Henselt_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Хенсельт )](*<-lang_ru;;*); 
+[Pic. (Henselt)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Henselt.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 

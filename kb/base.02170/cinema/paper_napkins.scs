@@ -1,0 +1,33 @@
+concept_paper_napkins <- sc_node_not_relation;
+
+=> nrel_main_idtf:[бумажные салфетки] (* <- lang_ru;; *);
+=> nrel_idtf:[paper_napkins] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (бумажные салфетки)](* <- lang_ru;; *);
+		[Def. (paper_napkins)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_paper_napkins;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_paper_napkins">Бумажные салфетки</sc_element></b> используется в основном в процессе еды и служат для протирки губ,рук и рта от жира и других пищевых загрязнений.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_paper_napkins">Napkins</sc_element></b> they are used mainly in the process of eating and serve to wipe the lips,hands and mouth from fat and other food contaminats.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (бумажные салфетки)](*<-lang_ru;;*);
+		[Pic. (paper_napkins)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/paper_napkins.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

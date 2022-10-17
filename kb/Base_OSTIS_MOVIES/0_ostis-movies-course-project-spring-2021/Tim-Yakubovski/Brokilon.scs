@@ -1,0 +1,53 @@
+kingdom_Brokilon
+=> nrel_main_idtf: 
+[ Брокилон] (* <-lang_ru;; *); 
+[ Brokilon ] (* <-lang_en;; *); 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Брокилон )] (* <-lang_ru;; *); 
+[Description of character(Brokilon)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_kingdom_Brokilon_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_kingdom_Brokilon_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+=>nrel_character:... 
+(* 
+->character_Eithne;; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Брокилон)](*<-lang_ru;;*); 
+[Pic. (Brokilon)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_kingdom_Brokilon.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);;
+
+
+character_Eithnet
+=> nrel_main_idtf: 
+[ Итхне ] (* <-lang_ru;; *); 
+[ Eithnet ] (* <-lang_en;; *);
+<- kingdom_Brokilon; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Итхне )] (* <-lang_ru;; *); 
+[Description of character(Eithnet)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Eithnet_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Eithnet_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Итхне )](*<-lang_ru;;*); 
+[Pic. (Eithnet)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Eithnet.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 

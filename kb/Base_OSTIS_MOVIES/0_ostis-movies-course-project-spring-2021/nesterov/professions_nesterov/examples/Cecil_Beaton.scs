@@ -1,0 +1,54 @@
+concept_human -> Cecil_Beaton;;
+
+Cecil_Beaton
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Сесил Битон]
+	(* <- lang_ru;;*);
+	[Cecil Beaton]
+	(* <- lang_en;;*);;
+	
+Cecil_Beaton <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сесил Битон)](*<-lang_ru;;*);
+		[Description (Cecil Beaton)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Cecil_Beaton_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Cecil_Beaton_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Cecil_Beaton 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сесил Битон)](*<-lang_ru;;*);
+		[Pic. (Cecil Beaton)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Cecil_Beaton.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1904;;
+Cecil_Beaton=>nrel_date_of_birth: 1904;;
+1904=>nrel_main_idtf:[1904 год](*<-lang_ru;;*);;
+1904=>nrel_main_idtf:[year of 1904](*<-lang_en;;*);;
+
+concept_calendar_date->1946;;
+Cecil_Beaton=>nrel_career_start_date: 1946;;
+1946=>nrel_main_idtf:[1946 год](*<-lang_ru;;*);;
+1946=>nrel_main_idtf:[year of 1946](*<-lang_en;;*);;
+
+Cecil_Beaton =>nrel_cityzenship:UK;;
+UK<-concept_country;;
+

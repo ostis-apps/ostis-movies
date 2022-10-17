@@ -1,0 +1,79 @@
+concept_Quicksilver_Highway
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Автострада] 
+(* <- lang_ru;; *); 
+[Quicksilver Highway] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Автострада)](*<-lang_ru;;*);
+[Description (Quicksilver Highway)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Quicksilver_Highway_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Quicksilver_Highway_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["Леденящие кровь истории от современных королей ужасов"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Chilling stories from modern horror kings»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Mick_Garris; 
+=>nrel_producer: Clive_Barker ; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: Shelley_Johnson; 
+=>nrel_editor: Norman_Hollin; 
+=>nrel_genre:concept_horror;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 1997
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 90
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 6345432
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Автострада)](*<-lang_ru;;*);
+		[Pic. (Quicksilver Highway))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Quicksilver_Highway.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

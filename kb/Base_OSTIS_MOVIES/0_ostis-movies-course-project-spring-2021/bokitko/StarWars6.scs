@@ -1,0 +1,93 @@
+StarWars6
+=> nrel_main_idtf:
+	[Звёздные войны: Эпизод 6 — Возвращение Джедая]
+	(* <- lang_ru;;	*);
+	[Star wars: Episode 6-Return of the Jedi]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_lucasfilm;
+=> nrel_film_studio: concept_film_studio_20_century_fox;
+=>nrel_soundman: Teresa_Eckton;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Звёздные войны: Эпизод 6 — Возвращение Джедая)](*<-lang_ru;;*);
+		[Description (Star wars: Episode 6-Return of the Jedi)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/StarWars6_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/StarWars6_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (StarWars6)](*<-lang_ru;;*);
+		[Pic. (StarWars6)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/StarWars6.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Usa;
+=> nrel_film_critic_rating : 8.1;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_keywords: alliens;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Mark_Hamill;
+=> nrel_producer : Rick_Carter;
+=> nrel_screenwriter : George_Lucas;;
+
+
+concept_calendar_date -> 25_05_1983;;
+25_05_1983 => nrel_main_idtf : [25.05.1983](*<-lang_ru;;*);;
+25_05_1983 => nrel_main_idtf : [25.05.1983](*<-lang_en;;*);;
+StarWars6 => nrel_release_date : 25_05_1983;;
+
+
+value -> 2_14;;
+2_14 => nrel_main_idtf : [2 часа и 14 минут](*<-lang_ru;;*);;
+2_14 => nrel_main_idtf : [2 hour and 14 minutes](*<-lang_en;;*);;
+StarWars6=> nrel_duration_of_showing : 2_14;;
+
+value -> 32_500_000;;
+32_500_000 => nrel_main_idtf : [32 500 000$](*<-lang_ru;;*);;
+32_500_000 => nrel_main_idtf : [32 500 000$](*<-lang_en;;*);;
+StarWars6 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 32_500_000;;   
+*);;
+
+
+StarWars6 => nrel_take_place: GB;
+=> nrel_take_place: Usa;
+=> nrel_production_designer: Norman_Reynolds;
+=> nrel_film_director: Richard_Marquand;
+=> nrel_composer: John_Williams;;
+
+Teresa_Eckton <-concept_human;
+=> nrel_main_idtf:
+	[Тереза Эктон]
+	(* <- lang_ru;;	*);
+	[Teresa Eckton]
+	(* <- lang_en;;	*);;
+
+Mark_Hamill <-concept_human;
+=> nrel_main_idtf:
+	[Марк Хамилл]
+	(* <- lang_ru;;	*);
+	[Mark Hamill]
+	(* <- lang_en;;	*);;
+
+Richard_Marquand <-concept_human;
+=> nrel_main_idtf:
+	[Ричард Маркуэнд]
+	(* <- lang_ru;;	*);
+	[Richard Marquand]
+	(* <- lang_en;;	*);;

@@ -1,0 +1,423 @@
+2017 <-concept_number;;
+
+Toby_Chu<-concept_human;
+=> nrel_main_idtf:
+	[Тоби Чу]
+	(* <- lang_ru;;	*);
+	[Toby Chu]
+	(* <- lang_en;;	*);;
+
+Alexandra_Kavalova<-concept_human;
+=> nrel_main_idtf:
+	[Александра Кавалова]
+	(* <- lang_ru;;	*);
+	[Alexandra Kavalova]
+	(* <- lang_en;;	*);;
+
+Kacey_Arnold<-concept_human;
+=> nrel_main_idtf:
+	[Кейси Арнольд]
+	(* <- lang_ru;;	*);
+	[Kacey Arnold]
+	(* <- lang_en;;	*);;
+
+Conrad_Helten<-concept_human;
+=> nrel_main_idtf:
+	[Конрад Хелтен]
+	(* <- lang_ru;;	*);
+	[Conrad Helten]
+	(* <- lang_en;;	*);;
+
+Christopher_Willis<-concept_human;
+=> nrel_main_idtf:
+	[Кристофер Уиллис]
+	(* <- lang_ru;;	*);
+	[Christopher Willis]
+	(* <- lang_en;;	*);;
+
+Andrew_Tan<-concept_human;
+=> nrel_main_idtf:
+	[Эндрю Тан]
+	(* <- lang_ru;;	*);
+	[Andrew Tan]
+	(* <- lang_en;;	*);;
+
+Marsha_Griffin<-concept_human;
+=> nrel_main_idtf:
+	[Марша Ф. Гриффин]
+	(* <- lang_ru;;	*);
+	[Marsha Griffin]
+	(* <- lang_en;;	*);;
+
+Patricia_Atchison<-concept_human;
+=> nrel_main_idtf:
+	[Патрисия Атчисон]
+	(* <- lang_ru;;	*);
+	[Patricia Atchison]
+	(* <- lang_en;;	*);;
+
+Milena_Zdravkovic<-concept_human;
+=> nrel_main_idtf:
+	[Милена Здравкович]
+	(* <- lang_ru;;	*);
+	[Milena Zdravkovic]
+	(* <- lang_en;;	*);;
+
+
+Brian_Hohlfeld<-concept_human;
+=> nrel_main_idtf:
+	[Брайан Хольфельд]
+	(* <- lang_ru;;	*);
+	[Brian_Hohlfeld]
+	(* <- lang_en;;	*);;
+
+Karen_Lloyd<-concept_human;
+=> nrel_main_idtf:
+	[Карен Дж. Ллойд]
+	(* <- lang_ru;;	*);
+	[Karen Lloyd]
+	(* <- lang_en;;	*);;
+
+Jim_Dooley<-concept_human;
+=> nrel_main_idtf:
+	[Джеймс Дули]
+	(* <- lang_ru;;	*);
+	[Jim Dooley]
+	(* <- lang_en;;	*);;
+
+Ryan_Nowak<-concept_human;
+=> nrel_main_idtf:
+	[Райан Новак]
+	(* <- lang_ru;;	*);
+	[Ryan Nowak]
+	(* <- lang_en;;	*);;
+
+Wes_Swales<-concept_human;
+=> nrel_main_idtf:
+	[Уэс Свалс]
+	(* <- lang_ru;;	*);
+	[Wes Swales]
+	(* <- lang_en;;	*);;
+
+Kyran_Kelly<-concept_human;
+=> nrel_main_idtf:
+	[Киран Келли]
+	(* <- lang_ru;;	*);
+	[Kyran Kelly]
+	(* <- lang_en;;	*);;
+
+Alison_Taylor<-concept_human;
+=> nrel_main_idtf:
+	[Элисон Тейлор]
+	(* <- lang_ru;;	*);
+	[Alison Taylor]
+	(* <- lang_en;;	*);;
+
+Sean_Platter<-concept_human;
+=> nrel_main_idtf:
+	[Шон Платтер ]
+	(* <- lang_ru;;	*);
+	[Sean Platter]
+	(* <- lang_en;;	*);;
+
+Tom_Hays<-concept_human;
+=> nrel_main_idtf:
+	[Том Хейс]
+	(* <- lang_ru;;	*);
+	[Tom Hays]
+	(* <- lang_en;;	*);;
+
+Rebecca_Kneubuhl<-concept_human;
+=> nrel_main_idtf:
+	[Ребекка Кнейбуль]
+	(* <- lang_ru;;	*);
+	[Rebecca Kneubuhl]
+	(* <- lang_en;;	*);;
+
+Gabriel_Mann<-concept_human;
+=> nrel_main_idtf:
+	[Габриэль Манн]
+	(* <- lang_ru;;	*);
+	[Gabriel Mann]
+	(* <- lang_en;;	*);;
+
+
+Mark_Baldo<-concept_human;
+=> nrel_main_idtf:
+	[Марк Бальдо]
+	(* <- lang_ru;;	*);
+	[Mark Baldo]
+	(* <- lang_en;;	*);;
+
+Zeke_Norton<-concept_human;
+=> nrel_main_idtf:
+	[Зик Нортон]
+	(* <- lang_ru;;	*);
+	[Zeke Norton]
+	(* <- lang_en;;	*);;
+
+Tiffany_Shuttleworth<-concept_human;
+=> nrel_main_idtf:
+	[Тиффани Дж. Шаттлворт]
+	(* <- lang_ru;;	*);
+	[Tiffany Shuttleworth]
+	(* <- lang_en;;	*);;
+
+Shelley_Dvi_Vardhana<-concept_human;
+=> nrel_main_idtf:
+	[Шелли Дви Вардхана]
+	(* <- lang_ru;;	*);
+	[Shelley Dvi-Vardhana]
+	(* <- lang_en;;	*);;
+
+Shawn_McCorkindale<-concept_human;
+=> nrel_main_idtf:
+	[Шон Маккоркиндейл]
+	(* <- lang_ru;;	*);
+	[Shawn McCorkindale]
+	(* <- lang_en;;	*);;
+
+Amy_Wolfram<-concept_human;
+=> nrel_main_idtf:
+	[Эми Вольфрам]
+	(* <- lang_ru;;	*);
+	[Amy Wolfram]
+	(* <- lang_en;;	*);;
+
+Lori_Forte<-concept_human;
+=> nrel_main_idtf:
+	[Лори Форте]
+	(* <- lang_ru;;	*);
+	[Lori Forte]
+	(* <- lang_en;;	*);;
+
+Anke_Bakker<-concept_human;
+=> nrel_main_idtf:
+	[Анке Баккер]
+	(* <- lang_ru;;	*);
+	[Anke Bakker]
+	(* <- lang_en;;	*);;
+
+Pamela_ProStar<-concept_human;
+=> nrel_main_idtf:
+	[Памела Простарр]
+	(* <- lang_ru;;	*);
+	[Pamela ProStar]
+	(* <- lang_en;;	*);;
+
+Harry_Linden<-concept_human;
+=> nrel_main_idtf:
+	[Гарри Линден]
+	(* <- lang_ru;;	*);
+	[Harry Linden]
+	(* <- lang_en;;	*);;
+
+Anita_Lee<-concept_human;
+=> nrel_main_idtf:
+	[Анита Ли]
+	(* <- lang_ru;;	*);
+	[Anita Lee]
+	(* <- lang_en;;	*);;
+
+Adam_Wood<-concept_human;
+=> nrel_main_idtf:
+	[Адам Вуд]
+	(* <- lang_ru;;	*);
+	[Adam Wood]
+	(* <- lang_en;;	*);;
+
+BC_Smith<-concept_human;
+=> nrel_main_idtf:
+	[БиСи Смит]
+	(* <- lang_ru;;	*);
+	[BC Smith]
+	(* <- lang_en;;	*);;
+
+Russ_DeSalvo<-concept_human;
+=> nrel_main_idtf:
+	[Расс ДеСальво]
+	(* <- lang_ru;;	*);
+	[Russ DeSalvo]
+	(* <- lang_en;;	*);;
+	
+Peter_Schwartz<-concept_human;
+=> nrel_main_idtf:
+	[Питер Шварц]
+	(* <- lang_ru;;	*);
+	[Peter Schwartz]
+	(* <- lang_en;;	*);;
+	
+Kallen_Kagen<-concept_human;
+=> nrel_main_idtf:
+	[Каллен Каген]
+	(* <- lang_ru;;	*);
+	[Kallen Kagen]
+	(* <- lang_en;;	*);;
+
+Eric_Fogel<-concept_human;
+=> nrel_main_idtf:
+	[Эрик Фогель]
+	(* <- lang_ru;;	*);
+	[Eric Fogel]
+	(* <- lang_en;;	*);;
+
+Conrad_Helten<-concept_human;
+=> nrel_main_idtf:
+	[Конрадом Хелтеном]
+	(* <- lang_ru;;	*);
+	[Conrad Helten]
+	(* <- lang_en;;	*);;
+
+Jeremy_Duayne_Elzinga<-concept_human;
+=> nrel_main_idtf:
+	[Джереми Дуэйн Эльзинга]
+	(* <- lang_ru;;	*);
+	[Jeremy Duayne Elzinga]
+	(* <- lang_en;;	*);;
+
+Elise_Allen<-concept_human;
+=> nrel_main_idtf:
+	[Элиза Аллен]
+	(* <- lang_ru;;	*);
+	[Elise Allen]
+	(* <- lang_en;;	*);;
+
+Diane_Duane<-concept_human;
+=> nrel_main_idtf:
+	[Диана Дуэйн]
+	(* <- lang_ru;;	*);
+	[Diane Duane]
+	(* <- lang_en;;	*);;
+
+Eric_Colvin<-concept_human;
+=> nrel_main_idtf:
+	[Эрик Колвин]
+	(* <- lang_ru;;	*);
+	[Eric Colvin]
+	(* <- lang_en;;	*);;
+
+Nancy_Bennett<-concept_human;
+=> nrel_main_idtf:
+	[Нэнси Беннетт]
+	(* <- lang_ru;;	*);
+	[Nancy Bennett]
+	(* <- lang_en;;	*);;
+
+Gino_Nichele<-concept_human;
+=> nrel_main_idtf:
+	[Джино Никел]
+	(* <- lang_ru;;	*);
+	[Gino Nichele]
+	(* <- lang_en;;	*);;
+
+Walter_Martishius<-concept_human;
+=> nrel_main_idtf:
+	[Уолтер П. Мартишиус]
+	(* <- lang_ru;;	*);
+	[Walter P. Martishius]
+	(* <- lang_en;;	*);;
+
+Luke_Carroll<-concept_human;
+=> nrel_main_idtf:
+	[Люк Кэрролл]
+	(* <- lang_ru;;	*);
+	[Luke Carroll]
+	(* <- lang_en;;	*);;
+
+Shea_Wageman<-concept_human;
+=> nrel_main_idtf:
+	[Шия Вагеман]
+	(* <- lang_ru;;	*);
+	[Shea Wageman]
+	(* <- lang_en;;	*);;
+
+Arnie_Roth<-concept_human;
+=> nrel_main_idtf:
+	[Арни Рот]
+	(* <- lang_ru;;	*);
+	[Arnie Roth]
+	(* <- lang_en;;	*);;
+
+Greg_Richardson<-concept_human;
+=> nrel_main_idtf:
+	[Грег Ричардсон]
+	(* <- lang_ru;;	*);
+	[Greg Richardson]
+	(* <- lang_en;;	*);;
+
+Diana_Brostow<-concept_human;
+=> nrel_main_idtf:
+	[Дайана Бростоу]
+	(* <- lang_ru;;	*);
+	[Diana Brostow]
+	(* <- lang_en;;	*);;
+
+Robert_Duran<-concept_human;
+=> nrel_main_idtf:
+	[Роберт Дюран]
+	(* <- lang_ru;;	*);
+	[Robert Duran]
+	(* <- lang_en;;	*);;
+
+Cliff_Ruby<-concept_human;
+=> nrel_main_idtf:
+	[Клифф Руби]
+	(* <- lang_ru;;	*);
+	[Cliff Ruby]
+	(* <- lang_en;;	*);;
+
+Elana_Lesser<-concept_human;
+=> nrel_main_idtf:
+	[Элана Лессер]
+	(* <- lang_ru;;	*);
+	[Elana Lesser]
+	(* <- lang_en;;	*);;
+
+Rob_Hudnut<-concept_human;
+=> nrel_main_idtf:
+	[Роб Хаднат]
+	(* <- lang_ru;;	*);
+	[Rob Hudnut]
+	(* <- lang_en;;	*);;
+
+Owen_Hurley<-concept_human;
+=> nrel_main_idtf:
+	[Оуэн Хёрли]
+	(* <- lang_ru;;	*);
+	[Owen Hurley]
+	(* <- lang_en;;	*);;
+
+Troy_Allen<-concept_human;
+=> nrel_main_idtf:
+	[Трой Аллен]
+	(* <- lang_ru;;	*);
+	[Troy Allen]
+	(* <- lang_en;;	*);;
+
+Jesyca_Durchin<-concept_human;
+=> nrel_main_idtf:
+	[Джесика К. Дарчин]
+	(* <- lang_ru;;	*);
+	[Jesyca Durchin]
+	(* <- lang_en;;	*);;
+
+Jennifer_Twiner_McCaron<-concept_human;
+=> nrel_main_idtf:
+	[Дженнифер Твинер МакКэррон]
+	(* <- lang_ru;;	*);
+	[Jennifer Twiner McCaron]
+	(* <- lang_en;;	*);;
+
+Kim_Dent_Wilder<-concept_human;
+=> nrel_main_idtf:
+	[Ким Дент Уайлдер]
+	(* <- lang_ru;;	*);
+	[Kim Dent Wilder]
+	(* <- lang_en;;	*);;
+	
+William_Lau<-concept_human;
+=> nrel_main_idtf:
+	[Уильям Лау]
+	(* <- lang_ru;;	*);
+	[William Lau]
+	(* <- lang_en;;	*);;

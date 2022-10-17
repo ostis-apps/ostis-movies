@@ -1,0 +1,40 @@
+Eric_Colvin <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эрик Колвин)](*<-lang_ru;;*);
+		[Description (Eric Colvin)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Eric_Colvin_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Eric_Colvin_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эрик Колвин)](*<-lang_ru;;*);
+		[Pic. (Eric Colvin)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Eric_Colvin.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1966;;
+Eric_Colvin=>nrel_date_of_birth: 1966;;
+1966=>nrel_main_idtf:[1966 год](*<-lang_ru;;*);;
+1966=>nrel_main_idtf:[year of 1966](*<-lang_en;;*);;
+
+Eric_Colvin 
+=>nrel_cityzenship: Great_Britan;
+=>nrel_production_link: concept_Mainframe_Studios;
+<-concept_soundman;
+<-concept_composer;;

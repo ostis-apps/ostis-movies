@@ -1,0 +1,31 @@
+concept_set_decorator <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [Set decorator](*<- lang_en;;*);
+    [Декоратор сцены](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (Декоратор сцены)](*<- lang_ru;;*);
+        [Def. (Set decorator)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_set_decorator_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_set_decorator_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+<-  rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (Декоратор сцены)](*<-lang_ru;;*);
+		    [Pic. (Set decorator)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/set_decorator.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

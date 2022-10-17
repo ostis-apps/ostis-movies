@@ -1,0 +1,63 @@
+Barbie_A_Perfect_Christmas<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Чудесное Рождество]
+	(* <- lang_ru;;	*);
+	[Barbie: A Perfect Christmas]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Чудесное Рождество)](*<-lang_ru;;*);
+		[Description (Barbie: A Perfect Christmas)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_A_Perfect_Christmas_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_A_Perfect_Christmas_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Чудесное Рождество)](*<-lang_ru;;*);
+		[Pic. (Barbie: A Perfect Christmas)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_A_Perfect_Christmas.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Mark_Baldo;
+=> nrel_production_designer: Walter_Martishius;
+
+=> nrel_screenwriter : Elise_Allen;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 03_11_2011;
+=> nrel_duration_of_showing : 1_15;
+=> nrel_film_critic_rating : 5;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_family;
+=> nrel_keywords: concept_christmas;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;;
+
+concept_calendar_date -> 03_11_2011;;
+03_11_2011 => nrel_main_idtf : [03.11.2011](*<-lang_ru;;*);;
+03_11_2011 => nrel_main_idtf : [03.11.2011](*<-lang_en;;*);;

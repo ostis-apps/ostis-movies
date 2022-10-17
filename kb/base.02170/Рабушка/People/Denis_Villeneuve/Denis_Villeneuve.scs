@@ -1,0 +1,38 @@
+Denis_Villeneuve <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дени Вильнёв)](*<-lang_ru;;*);
+		[Description (Denis Villeneuve)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+	concept_main_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Denis_Villeneuve_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Denis_Villeneuve_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дени Вильнёв)](*<-lang_ru;;*);
+		[Pic. (Denis Villeneuve)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Denis_Villeneuve.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Denis_Villeneuve => nrel_cityzenship: Canada;;
+
+concept_calendar_date -> 03_10_1967;;
+Denis_Villeneuve => nrel_date_of_birth: 03_10_1967;;
+03_10_1967 => nrel_main_idtf : [3 октября 1967](*<-lang_ru;;*);;
+03_10_1967 => nrel_main_idtf : [3 October 1967](*<-lang_en;;*);;
+

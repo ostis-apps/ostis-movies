@@ -1,0 +1,40 @@
+David_Washington <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дэвид Вашингтон)](*<-lang_ru;;*);
+		[Description (David Washington)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://David_Washington_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://David_Washington_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дэвид Вашингтон)](*<-lang_ru;;*);
+		[Pic. (David Washington)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://David_Washington.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->28_07_1984;;
+David_Washington=>nrel_date_of_birth: 28_07_1984;;
+28_07_1984 => nrel_main_idtf:[28 июля 1984](*<-lang_ru;;*);;
+28_07_1984 => nrel_main_idtf:[28 July 1984](*<-lang_en;;*);;
+
+
+David_Washington => nrel_cityzenship : USA;;
+David_Washington => nrel_to_star_in : Tenet;;

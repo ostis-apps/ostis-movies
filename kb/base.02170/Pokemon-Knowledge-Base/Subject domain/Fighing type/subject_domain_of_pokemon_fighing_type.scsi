@@ -1,0 +1,33 @@
+subject_domain_of_pokemon_fighing_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов боевого типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon fighing type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_fighing_type;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_pure_fighing_type;
+    concept_half_main_fighing_type;
+    concept_half_secondary_fighing_type;
+	
+-> rrel_explored_relation:
+	nrel_brick_break_attack;
+    nrel_close_combat_attack ;       
+    nrel_counter_attack;
+    nrel_cross_chop_attack;
+    nrel_dynamic_punch_attack;
+    nrel_karate_chop_attack ;       
+    nrel_focus_blast_attack;
+    nrel_low_kick_attack;
+    nrel_low_sweep_attack;    
+    nrel_rock_smash_attack;
+    nrel_submission_attack;
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

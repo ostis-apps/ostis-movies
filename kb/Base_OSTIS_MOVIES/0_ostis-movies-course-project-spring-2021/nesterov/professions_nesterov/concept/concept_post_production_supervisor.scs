@@ -1,0 +1,31 @@
+concept_post_production_supervisor <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [Post-production supervisor](*<- lang_en;;*);
+    [Руководитель постпродакшена](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (Руководитель постпродакшена)](*<- lang_ru;;*);
+        [Def. (Post-production supervisor)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_post_production_supervisor_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_post_production_supervisor_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+<- rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (Руководитель постпродакшена)](*<-lang_ru;;*);
+		    [Pic. (Post-production supervisor)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/post_production_supervisor.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

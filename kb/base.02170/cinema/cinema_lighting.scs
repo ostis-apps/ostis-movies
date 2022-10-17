@@ -1,0 +1,33 @@
+concept_cinema_lighting <- sc_node_not_relation;
+
+=> nrel_main_idtf:[освещение кинозала] (* <- lang_ru;; *);
+=> nrel_idtf:[cinema_lighting] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (освещение кинозала)](* <- lang_ru;; *);
+		[Def. (cinema_lighting)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_cinema_lighting;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cinema_lighting">Освещение кинозала</sc_element></b> это техническое оборудование, дающее свет внутри кинозала.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_cinema_lighting">Cinema lighting</sc_element></b> this is a technical equipment that gives light inside the cinema hall.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (освещение кинозала)](*<-lang_ru;;*);
+		[Pic. (cinema_lighting)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/cinema_lighting.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

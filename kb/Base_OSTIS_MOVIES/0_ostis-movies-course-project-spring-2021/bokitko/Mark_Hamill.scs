@@ -1,0 +1,49 @@
+concept_human -> Mark_Hamill;;
+
+Mark_Hamill
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Марк Хэмилл]
+	(* <- lang_ru;;	*);
+	[Mark_Hamill]
+	(* <- lang_en;;	*);;
+	
+Mark_Hamill <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Марк Хэмилл)](*<-lang_ru;;*);
+		[Description (Mark Hamill)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Mark_Hamill_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Mark_Hamill_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1951;;
+Mark_Hamill=>nrel_date_of_birth: 1951;;
+1951=>nrel_main_idtf:[1951 год](*<-lang_ru;;*);;
+1951=>nrel_main_idtf:[year of 1951](*<-lang_en;;*);;
+
+concept_calendar_date->1970;;
+Mark_Hamill=>nrel_career_start_date: 1970;;
+1970=>nrel_main_idtf:[1970 год](*<-lang_ru;;*);;
+1970=>nrel_main_idtf:[year of 1970](*<-lang_en;;*);;
+
+Mark_Hamill =>nrel_cityzenship: Usa;
+<-concept_soundman;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+	

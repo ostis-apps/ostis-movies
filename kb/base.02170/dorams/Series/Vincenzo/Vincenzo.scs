@@ -1,0 +1,62 @@
+Vincenzo
+<- concept_series;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Винченцо](* <- lang_ru;; *);
+	[Vincenzo](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Винченцо)](*<-lang_ru;;*);
+		[Description (Vincenzo)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_series
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Vincenzo_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Vincenzo_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Винченцо)](*<-lang_ru;;*);
+		[Pic. (Vincenzo)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Vincenzo.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_keywords: concept_comedy;
+=> nrel_keywords: concept_drama;
+
+
+=> nrel_production_year : 2021;
+=> nrel_num_of_seasons: 1;
+=> nrel_num_of_episodes: 20;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Kim_Heewon;
+=> nrel_screenwriter : Park_Jaebum;
+=> nrel_producer: Lee_Jangsoo;
+=> nrel_composer : Park_Sejoon;
+
+
+=> nrel_main_actor : Song_Joongki;
+=> nrel_main_actor : Jeon_Yeobeen;
+=> nrel_main_actor : Ok_Taecyeon;
+=> nrel_actor : Yoo_Jaemyung;;
+
+
+2021
+<- concept_calendar_date;
+=> nrel_main_idtf : [2021](*<-lang_ru;;*);
+=> nrel_main_idtf : [2021](*<-lang_en;;*);;      

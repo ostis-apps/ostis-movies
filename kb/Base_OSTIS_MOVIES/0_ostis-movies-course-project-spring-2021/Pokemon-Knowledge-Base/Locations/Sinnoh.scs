@@ -1,0 +1,47 @@
+concept_pokemon_region -> Sinnoh;;
+
+Sinnoh
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Синно]
+	(* <- lang_ru;;	*);
+	[Sinnoh]
+	(* <- lang_en;;	*);;
+
+Sinnoh <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Синно)](*<-lang_ru;;*);
+		[Description (Sinnoh)](*<-lang_en;;*);;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sinnoh_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sinnoh_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Sinnoh <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Синно)](*<-lang_ru;;*);
+		[Pic. (Sinnoh)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Sinnoh.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+Sinnoh
+=> nrel_town: twinleaf_town;
+=> nrel_town: sandgem_town;
+=> nrel_town: jubilife_city;
+=> nrel_town: oreburgh_city;
+=> nrel_town: floaroma_town;
+=> nrel_town: eterna_city;
+=> nrel_town: veilstone_city;
+=> nrel_town: hearthome_city;;

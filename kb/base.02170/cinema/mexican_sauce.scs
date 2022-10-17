@@ -1,0 +1,33 @@
+concept_mexican_sauce <- sc_node_not_relation;
+
+=> nrel_main_idtf:[мексиканский соус] (* <- lang_ru;; *);
+=> nrel_idtf:[mexican_sauce] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (мексиканский соус)](* <- lang_ru;; *);
+		[Def. (mexican_sauce)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_mexican_sauce;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_mexican_sauce">Мексиканский соус</sc_element></b> часто называют мексиканской сальсой, так как именно Мексика является родиной этого чудесного соуса.Готовится он с добавлением разных острых преправ,подается чаще всего с начос.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_mexican_sauce">Mexican sauce</sc_element></b> often called Mexican salsa, since Mexico is the birthplace of this wonderful sauce. It is prepared with the addition of various spicy seasonings, served most often with nachos. ](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (мексиканский соус)](*<-lang_ru;;*);
+		[Pic. (mexican_sauce)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/mexican_sauce.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

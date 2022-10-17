@@ -1,0 +1,33 @@
+concept_hand_dryed <- sc_node_not_relation;
+
+=> nrel_main_idtf:[сушилка для рук] (* <- lang_ru;; *);
+=> nrel_idtf:[hand_dryed] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (сушилка для рук)](* <- lang_ru;; *);
+		[Def. (hand_dryed)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_hand_dryed;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_hand_dryed">Сушилка для рук</sc_element></b> это электрический прибор,нагревающий воздух и подающий его вниз для сушки рук,после того,как руки были вымыты.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_hand_dryed">Liquid soap</sc_element></b> it is an electrical device that heats the air and feeds it down to dry the hands after the hands have been washed.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (сушилка для рук)](*<-lang_ru;;*);
+		[Pic. (hand_dryed)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/hand_dryed.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,80 @@
+StarWars4
+=> nrel_main_idtf:
+	[Звёздные войны: Эпизод 4 — Новая надежда]
+	(* <- lang_ru;;	*);
+	[Star wars: Episode 4 — a New hope]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_lucasfilm;
+=> nrel_film_studio: concept_film_studio_20_century_fox;
+=>nrel_soundman: Ben_Bertt;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Звёздные войны: Эпизод 4 — Новая надежда)](*<-lang_ru;;*);
+		[Description (Star wars: Episode 4 — a New hope)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/StarWars4_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/StarWars4_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (StarWars4)](*<-lang_ru;;*);
+		[Pic. (StarWars4)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/StarWars4.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Usa;
+=> nrel_film_critic_rating : 8.1;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_keywords: alliens;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Mark_Hamill;
+=> nrel_producer : George_Lucas;
+=> nrel_screenwriter : George_Lucas;;
+
+
+concept_calendar_date -> 25_05_1977;;
+25_05_1977 => nrel_main_idtf : [25.05.1977](*<-lang_ru;;*);;
+25_05_1977 => nrel_main_idtf : [25.05.1977](*<-lang_en;;*);;
+StarWars4 => nrel_release_date : 25_05_1977;;
+
+
+value -> 2_01;;
+2_01 => nrel_main_idtf : [2 часа и 01 минута](*<-lang_ru;;*);;
+2_01 => nrel_main_idtf : [2 hour and 01 minute](*<-lang_en;;*);;
+StarWars4=> nrel_duration_of_showing : 2_01;;
+
+value -> 11_000_000;;
+11_000_000 => nrel_main_idtf : [11 000 000$](*<-lang_ru;;*);;
+11_000_000 => nrel_main_idtf : [11 000 000$](*<-lang_en;;*);;
+StarWars4 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 11_000_000;;   
+*);;
+
+
+StarWars4 => nrel_take_place: Tunis;
+=> nrel_take_place: GB;
+=> nrel_take_place: Usa;
+=> nrel_production_designer: Norman_Reynolds;
+=> nrel_film_director: George_Lucas;
+=> nrel_composer: John_Williams;;
+
+Ben_Bertt <-concept_human;
+=> nrel_main_idtf:
+	[Бен Бертт]
+	(* <- lang_ru;;	*);
+	[Ben Bertt]
+	(* <- lang_en;;	*);;

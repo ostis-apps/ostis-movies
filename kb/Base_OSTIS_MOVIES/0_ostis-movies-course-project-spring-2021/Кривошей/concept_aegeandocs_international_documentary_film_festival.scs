@@ -1,0 +1,49 @@
+concept_aegeandocs_international_documentary_film_festival
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кинофестиваль документального кино AegeanDocs]
+	(* <- lang_ru;; *);
+	[AegeanDocs documentary film festival]
+	(* <- lang_en;; *);;
+
+concept_aegeandocs_international_documentary_film_festival<=nrel_inclusion: concept_documentary_film_festivals;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_aegeandocs_international_documentary_film_festival;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Кинофестиваль документального кино AegeanDocs - кинофестиваль, проходящий в Греции.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Кинофестиваль документального кино AegeanDocs)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_greece;;
+->concept_aegeandocs_international_documentary_film_festival;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_aegeandocs_international_documentary_film_festival;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Кинофестиваль документального кино AegeanDocs проходит в Афинах 15 мая 2021 года.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О кинофестивале документального кино AegeanDocs)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_aegeandocs_international_documentary_film_festival;;
+        *);;
+*);;
+
+illustration->...
+(*
+    ->rrel_key_sc_element: concept_aegeandocs_international_documentary_film_festival;;
+	=>nrel_main_idtf:
+		[Рис. (Кинофестиваль документального кино AegeanDocs)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/aegeandocs.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

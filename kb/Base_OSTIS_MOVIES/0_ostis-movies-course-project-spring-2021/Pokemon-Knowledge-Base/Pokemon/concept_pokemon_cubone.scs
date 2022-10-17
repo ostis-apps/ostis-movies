@@ -1,0 +1,105 @@
+concept_pokemon -> concept_pokemon_cubone;;
+
+concept_pokemon_cubone
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Кубон]
+	(* <- lang_ru;;	*);
+	[Cubone]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_cubone <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кубон)](*<-lang_ru;;*);
+		[Description (Cubone)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_cubone_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_cubone_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_cubone <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Кубон)](*<-lang_ru;;*);
+		[Appearance (Cubone)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_cubone_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_cubone_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_cubone <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Кубон)](*<-lang_ru;;*);
+		[Behavior (Cubone)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_cubone_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_cubone_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_cubone <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Кубон)](*<-lang_ru;;*);
+		[Natural ability (Cubone)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_cubone_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_cubone_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_cubone <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Кубон)](*<-lang_ru;;*);
+		[Habitat (Cubone)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_cubone_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_cubone_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_cubone <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кубон)](*<-lang_ru;;*);
+		[Pic. (Cubone)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_cubone.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_ground_type -> concept_pokemon_cubone;;
+
+concept_color_brown -> concept_pokemon_cubone;;
+
+value -> 104;;
+concept_pokemon_cubone => nrel_pokedex_number: 104;;
+
+value -> 0.41;;
+concept_pokemon_cubone => nrel_height: 0.41;;
+
+value -> 6.49;;
+concept_pokemon_cubone => nrel_weight: 6.49;;
+
+concept_pokemon_cubone
+=> nrel_pokemon_evolution: concept_pokemon_marowak;;

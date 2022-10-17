@@ -1,0 +1,46 @@
+concept_human -> Ashley_Laurence;;
+
+Ashley_Laurence <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Эшли Лоуренс)](*<-lang_ru;;*);
+		[Description (Ashley Laurence)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_actor_Ashley_Laurence_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_actor_Ashley_Laurence_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Ashley_Laurence <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Эшли Лоуренс)](*<-lang_ru;;*);
+		[Pic. (Ashley_Laurence)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/actor_Ashley_Laurence.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Ashley_Laurence => nrel_main_idtf: [Эшли Лоуренс](*<-lang_ru;;*);;
+Ashley_Laurence => nrel_main_idtf: [Ashley Laurence](*<-lang_en;;*);;
+
+Ashley_Laurence => nrel_place_of_birth : Los_Angeles;;
+
+Ashley_Laurence => nrel_cityzenship :Usa;;
+
+concept_calendar_date -> 28_05_1966;;
+Ashley_Laurence => nrel_career_start_date : 01_03_1984;;
+01_03_1984 => nrel_main_idtf : [01.03.1984](*<-lang_en;;*);;
+01_03_1984 => nrel_main_idtf : [01.03.1984](*<-lang_ru;;*);;
+
+concept_film ->  RED;Hellraiser;;
+
+Ashley_Laurence => nrel_to_star_in : concept_hellraiser;;

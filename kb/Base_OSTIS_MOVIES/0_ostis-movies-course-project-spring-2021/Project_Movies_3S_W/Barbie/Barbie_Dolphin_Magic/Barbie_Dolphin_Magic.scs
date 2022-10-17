@@ -1,0 +1,59 @@
+Barbie_Dolphin_Magic<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Волшебные дельфины]
+	(* <- lang_ru;;	*);
+	[Barbie Dolphin Magic]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Волшебные дельфины)](*<-lang_ru;;*);
+		[Description (Barbie Dolphin Magic)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_Dolphin_Magic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_Dolphin_Magic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Волшебные дельфины)](*<-lang_ru;;*);
+		[Pic. (Barbie Dolphin Magic)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_Dolphin_Magic.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Conrad_Helten;
+
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 17_09_2017;
+=> nrel_duration_of_showing : 1_15;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_mermaid ;
+=> nrel_keywords: concept_family_film;;
+
+concept_calendar_date -> 17_09_2017;;
+17_09_2017 => nrel_main_idtf : [17.09.2017](*<-lang_ru;;*);;
+17_09_2017 => nrel_main_idtf : [17.09.2017](*<-lang_en;;*);;

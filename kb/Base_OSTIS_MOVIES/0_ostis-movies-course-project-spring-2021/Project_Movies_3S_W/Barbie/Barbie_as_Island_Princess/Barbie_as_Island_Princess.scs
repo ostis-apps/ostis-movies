@@ -1,0 +1,70 @@
+Barbie_as_Island_Princess<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби в роли Принцессы Острова]
+	(* <- lang_ru;;	*);
+	[Barbie as the Island Princess]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби в роли Принцессы Острова)](*<-lang_ru;;*);
+		[Description (Barbie as the Island Princess)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_as_Island_Princess_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_as_Island_Princess_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби в роли Принцессы Острова)](*<-lang_ru;;*);
+		[Pic. (Barbie as the Island Princess)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_as_Island_Princess.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Greg_Richardson;
+=> nrel_production_designer: Walter_Martishius;
+=> nrel_composer: Arnie_Roth;
+=> nrel_soundman: Arnie_Roth;
+
+=> nrel_producer: Shea_Wageman;
+=> nrel_producer: Jesyca_Durchin;
+=> nrel_screenwriter : Elana_Lesser;
+=> nrel_screenwriter : Cliff_Ruby;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 18_09_2007;
+=> nrel_duration_of_showing : 1_25;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_princess;
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_family;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;;
+
+
+concept_calendar_date -> 18_09_2007;;
+18_09_2007 => nrel_main_idtf : [18.09.2007](*<-lang_ru;;*);;
+18_09_2007 => nrel_main_idtf : [18.09.2007](*<-lang_en;;*);;

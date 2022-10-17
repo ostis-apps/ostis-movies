@@ -1,0 +1,175 @@
+concept_hellraiser6
+<- sc_node_not_relation; 
+<-concept_film;
+=> nrel_main_idtf: 
+[Восставший из ада 6: Поиски ада] 
+(* <- lang_ru;; *); 
+[Hellraiser: Hellseeker] 
+(* <- lang_en;; *); 
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Описание (Восставший из ада 6: Поиски ада)](*<-lang_ru;;*);
+[Description (Hellraiser: Hellseeker)](*<-lang_en;;*);; 
+<=nrel_using_constants: 
+{ 
+concept_film 
+};; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Hellraiser6_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Hellraiser6_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+*); 
+
+=>nrel_tag_line: ["Смерть. Зло. Бессмертие"] (* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«Death. Evil. Immortality»] (* <- lang_en;; => nrel_format: format_html;; *);
+=>nrel_main_producer: Rick_Bota; 
+=>nrel_producer: Clive_Barker ; 
+=>nrel_production_country: USA; 
+=>nrel_cameraman: John_Drake; 
+=>nrel_editor: Anthony_Adler; 
+=>nrel_genre:concept_horror;
+
+=>nrel_production_year: ...(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_year: 2002
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_continuance: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_minute: 89
+(* 
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_handle: ... 
+(* 
+<- concept_quantity;; 
+<= nrel_relevance: ... 
+(* 
+-> rrel_american_dollar: 7034755
+(*
+<- concept_number;; 
+*);; 
+*);; 
+*); 
+=>nrel_character:... 
+(* 
+->character_Lead_Cenobite;; 
+->character_Stitch_cenobite;; 
+->character_Surgeon_cenobite;; 
+->character_Bound_Cenobite;; 
+*); 
+=>nrel_age_rating: concept_R;
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Восставший из ада 6: Поиски ада)](*<-lang_ru;;*);
+		[Pic. (Hellraiser: Hellseeker))](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_Hellraiser6.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+character_Stitch_cenobite 
+=> nrel_main_idtf: 
+[ Стёганный ] (* <-lang_ru;; *); 
+[ Stitch  ] (* <-lang_en;; *); 
+<- character_Lead_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Стёганный )] (* <-lang_ru;; *); 
+[Description of character(Stitch)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Stitch_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Stitch_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Стёганный )](*<-lang_ru;;*); 
+[Pic. ( Stitch )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_Stitch_cenobite.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Surgeon_cenobite 
+=> nrel_main_idtf: 
+[ Хирург ] (* <-lang_ru;; *); 
+[ Surgeon  ] (* <-lang_en;; *); 
+<- character_Lead_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Хирург )] (* <-lang_ru;; *); 
+[Description of character(Surgeon)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Surgeon_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Surgeon_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Хирург )](*<-lang_ru;;*); 
+[Pic. ( Surgeon )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Sergeon_cenobite.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+character_Bound_Cenobite
+=> nrel_main_idtf: 
+[ Хирург ] (* <-lang_ru;; *); 
+[ Surgeon  ] (* <-lang_en;; *); 
+<- character_Lead_Cenobite; 
+<- rrel_key_sc_element:... 
+(* 
+=> nrel_main_idtf: 
+[Описание персонажа( Хирург )] (* <-lang_ru;; *); 
+[Description of character(Surgeon)](*<-lang_en;;*);; 
+<= nrel_sc_text_translation: ... 
+(* 
+->rrel_example:"file://HTML/concept_character_Bound_Cenobite_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);; 
+->rrel_example: "file://HTML/concept_character_Bound_Cenobite_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. ( Связанный  )](*<-lang_ru;;*); 
+[Pic. ( Bound Cenobite )](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_character_Bound_Cenobite_cenobite.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+Clive_Barker
+  => nrel_main_idtf: 
+            [Клайв Баркер] (* <-lang_ru;; *);
+		  [Clive Barker] (* <-lang_en;; *);;
+
+
+USA
+  => nrel_main_idtf: 
+            [США] (* <-lang_ru;; *);
+		  [USA] (* <-lang_en;; *);;
+
+

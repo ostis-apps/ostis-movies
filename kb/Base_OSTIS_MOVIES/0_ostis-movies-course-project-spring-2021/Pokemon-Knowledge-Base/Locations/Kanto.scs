@@ -1,0 +1,50 @@
+concept_pokemon_region -> Kanto;;
+
+Kanto
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Канто]
+	(* <- lang_ru;;	*);
+	[Kanto]
+	(* <- lang_en;;	*);;
+
+Kanto <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Канто)](*<-lang_ru;;*);
+		[Description (Kanto)](*<-lang_en;;*);;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Kanto_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Kanto_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+Kanto <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Канто)](*<-lang_ru;;*);
+		[Pic. (Kanto)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Kanto.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+Kanto
+=> nrel_town: pallet_town;
+=> nrel_town: viridian_city;
+=> nrel_town: pewter_city;
+=> nrel_town: cerulean_city;
+=> nrel_town: vermilion_city;
+=> nrel_town: celadon_city;
+=> nrel_town: lavender_town;
+=> nrel_town: saffron_city;
+=> nrel_town: fuchsia_city;
+=> nrel_town: cinnabar_island;;

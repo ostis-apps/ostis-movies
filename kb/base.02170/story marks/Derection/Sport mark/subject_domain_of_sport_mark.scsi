@@ -1,0 +1,19 @@
+subject_domain_of_sport_mark
+
+=> nrel_main_idtf:
+	[Предметная область сюжетных меток по спорт]
+	(*<-lang_ru;;*);
+	[Subject domain of sport mark]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	concept_sport_mark;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_swimming;
+	concept_basketball;
+	concept_hockey;    
+
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

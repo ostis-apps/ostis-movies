@@ -1,0 +1,46 @@
+rrel_drive_unit <- sc_node_role_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+
+=> nrel_main_idtf:
+    [drive unit*](*<- lang_en;;*);
+    [привод*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (привод*)](*<- lang_ru;;*);
+        [Def. (drive unit*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/rrel_drive_unit_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/rrel_drive_unit_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+
+=> nrel_first_domain: concept_cinema_camera;
+=> nrel_second_domain: concept_mechanism;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_cinema_camera;;
+        -> concept_mechanism;;
+    *);;
+*);
+
+
+
+<- rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (привод*)](*<-lang_ru;;*);
+		    [Pic. (drive unit*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/drive_unit.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

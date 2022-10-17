@@ -1,0 +1,49 @@
+concept_human -> Daisy_Ridley;;
+
+Daisy_Ridley
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Дейзи Ридли]
+	(* <- lang_ru;;	*);
+	[Daisy Ridley]
+	(* <- lang_en;;	*);;
+	
+Daisy_Ridley <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дейси Ридли)](*<-lang_ru;;*);
+		[Description (Daisy Ridley)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Daisy_Ridley_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Daisy_Ridley_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1992;;
+Daisy_Ridley=>nrel_date_of_birth: 1992;;
+1992=>nrel_main_idtf:[1992 год](*<-lang_ru;;*);;
+1992=>nrel_main_idtf:[year of 1992](*<-lang_en;;*);;
+
+concept_calendar_date->2014;;
+Daisy_Ridley=>nrel_career_start_date: 2014;;
+2014=>nrel_main_idtf:[2014 год](*<-lang_ru;;*);;
+2014=>nrel_main_idtf:[year of 2014](*<-lang_en;;*);;
+
+Victor_Mercader =>nrel_cityzenship: GB;
+<-concept_main_actor;;
+
+GB
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Великобритания]
+	(* <- lang_ru;;	*);
+	[Great Britain]
+	(* <- lang_en;;	*);;
+	

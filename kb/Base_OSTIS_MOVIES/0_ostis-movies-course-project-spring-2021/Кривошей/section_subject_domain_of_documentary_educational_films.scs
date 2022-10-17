@@ -1,0 +1,46 @@
+section_subject_domain_of_documentary_educational_films
+=> nrel_main_idtf:
+	[Раздел. Предметная область образовательных документальных фильмов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of educational documentaries]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_of_documentary_educational_films->rrel_key_sc_element:
+	concept_future_learning_film;;
+
+section_subject_domain_of_documentary_educational_films = [*
+subject_domain_of_documentary_educational_films
+=> nrel_main_idtf:
+	[Предметная область образовательных документальных фильмов]
+	(* <- lang_ru;; *);
+	[Subject domain of educational documentaries]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_of_documentary_educational_films;
+-> rrel_maximum_studied_object_class: concept_subgenre_of_documentary_film;
+-> rrel_not_maximum_studied_object_class:
+  concept_future_learning_film;;
+
+concept_documentary_educational_films<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Документальные образовательные фильмы]
+	(* <- lang_ru;; *);
+	[Educational documentaries]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_documentary_educational_films;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальные образовательные фильмы - документальные фильмы, предназначенные для обучения.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Документальные образовательные фильмы)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_documentary_film;;
+->concept_documentary_educational_films;;
+        *);;
+*);;
+*];;

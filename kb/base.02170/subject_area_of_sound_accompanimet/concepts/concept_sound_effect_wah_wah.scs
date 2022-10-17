@@ -1,0 +1,21 @@
+concept_sound_effect_wah_wah <- sc_node_norole_relation;
+
+<-nrel_inclusion: concept_sound_effects;
+
+=> nrel_main_idtf:
+	[sound effect wah-wah] (*<- lang_en;;*);
+	[звуковой эффект wah-wah] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[wah-wah] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (студийные звуковой эффект wah-wah)] (*<- lang_ru;;*);
+		[Def. (sound effect wah-wah)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_sound_effect_wah_wah_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_sound_effect_wah_wah_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;
+

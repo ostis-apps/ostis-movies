@@ -1,0 +1,106 @@
+Barbie_Fairytopia<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Сказочная страна]
+	(* <- lang_ru;;	*);
+	[Barbie: Fairytopia]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Сказочная страна)](*<-lang_ru;;*);
+		[Description (Barbie: Fairytopia)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_Fairytopia_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_Fairytopia_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Сказочная страна)](*<-lang_ru;;*);
+		[Pic. (Barbie: Fairytopia)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_Fairytopia.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Walter_Martishius;
+=> nrel_film_director: William_Lau;
+=> nrel_production_designer: Walter_Martishius;
+=> nrel_composer: Eric_Colvin;
+
+
+=> nrel_producer: Nancy_Bennett;
+=> nrel_producer: Luke_Carroll;
+=> nrel_screenwriter : Diane_Duane;
+=> nrel_screenwriter : Elise_Allen;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 08_03_2005;
+=> nrel_duration_of_showing : 1_11;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_princess;
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_fairy;
+=> nrel_keywords: concept_flowers;
+=> nrel_keywords: concept_butterflies;
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_fantasy;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;;
+
+concept_butterflies
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Бабочки]
+(* <- lang_ru;;	*);
+[Butterflies]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_flowers
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Цветы]
+(* <- lang_ru;;	*);
+[Flowers]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_fairy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Фея]
+(* <- lang_ru;;	*);
+[Fairy]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+duration -> 1_11;;
+1_11 => nrel_main_idtf : [1 час и 11 минут](*<-lang_ru;;*);;
+1_11 => nrel_main_idtf : [1 hour and 11 minutes](*<-lang_en;;*);;
+
+
+concept_calendar_date -> 08_03_2005;;
+08_03_2005 => nrel_main_idtf : [08.03.2005](*<-lang_ru;;*);;
+08_03_2005 => nrel_main_idtf : [08.03.2005](*<-lang_en;;*);;

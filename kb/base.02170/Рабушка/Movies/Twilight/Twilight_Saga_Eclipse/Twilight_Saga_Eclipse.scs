@@ -1,0 +1,88 @@
+The_Twilight_Saga_Eclipse<- sc_node_not_relation;
+<- concept_film;
+
+=> nrel_main_idtf:
+	[Сумерки. Сага. Затмение](* <- lang_ru;;*);
+	[The Twilight Saga: Eclipse](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сумерки. Сага. Затмение)](*<-lang_ru;;*);
+		[Description (The Twilight Saga: Eclipse)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Twilight_Saga_Eclipse_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Twilight_Saga_Eclipse_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сумерки. Сага. Затмение)](*<-lang_ru;;*);
+		[Pic. (The Twilight Saga: Eclipse)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Twilight_Saga_Eclipse.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["Все начинается с выбора..."] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«It all begins ... With a choice»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+
+=>nrel_main_producer: David_Slade;
+=>nrel_production_country: USA;
+=>nrel_film_critic_rating: 5.96;
+=>nrel_genre: concept_thriller;
+=>nrel_genre: concept_melodrama;
+=>nrel_genre: concept_fantasy;
+
+=>nrel_age_rating: concept_PG16;
+
+=>nrel_keywords: concept_film;
+=>nrel_keywords: concept_thriller;
+=>nrel_keywords: concept_fantasy;
+=>nrel_keywords: concept_melodrama;
+=>nrel_keywords: concept_vampire;
+
+=>nrel_character: Edward_Cullen;
+=>nrel_character: Bella_Swan;;
+
+
+The_Twilight_Saga_Eclipse => nrel_actor : Robert_Pattinson;;
+The_Twilight_Saga_Eclipse => nrel_actor : kristen_stewart;;
+
+concept_calendar_date -> 30_06_2010;;
+30_06_2010 => nrel_main_idtf : [30 июня 2010](*<-lang_ru;;*);;
+30_06_2010 => nrel_main_idtf : [30 July 2010](*<-lang_en;;*);;
+The_Twilight_Saga_Eclipse => nrel_release_date: 30_06_2010;;
+
+
+value -> 2_04;;
+2_04 => nrel_main_idtf : [2 часа и 4 минуты](*<-lang_ru;;*);;
+2_04 => nrel_main_idtf : [2 hours and 4 minutes](*<-lang_en;;*);;
+The_Twilight_Saga_Eclipse => nrel_duration_of_showing : 2_04;;
+
+value -> 698_491_347;;
+698_491_347 => nrel_main_idtf : [698 491 347$](*<-lang_ru;;*);;
+698_491_347 => nrel_main_idtf : [698 491 347$](*<-lang_en;;*);;
+The_Twilight_Saga_Eclipse <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 698_491_347;;   
+*);;
+

@@ -1,0 +1,39 @@
+concept_propaganda
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Задача: пропаганда]
+	(* <- lang_ru;; *);
+	[Task: propaganda]
+	(* <- lang_en;; *);;
+
+concept_propaganda<=nrel_inclusion: section_subject_domain_of_documentary_tasks;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_propaganda;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Пропаганда - внушение чего-либо](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Задача: пропаганда)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_propaganda;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_propaganda;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Пропаганда включает в себя пропаганду науки, товара, технологии, религии и так далее.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О пропаганде)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->subject_domain_of_documentary_tasks;;
+->concept_propaganda;;
+        *);;
+*);;
+

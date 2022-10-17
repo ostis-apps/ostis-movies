@@ -1,0 +1,53 @@
+Lee_Jongsuk
+<-concept_human;
+=> nrel_main_idtf : [Ли Чон Сок](*<-lang_ru;;*);
+=> nrel_main_idtf : [Lee Jong-suk](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ли Чон Сок)](*<-lang_ru;;*);
+		[Description (Lee Jong-suk)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Lee_Jongsuk_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Lee_Jongsuk_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ли Чон Сок)](*<-lang_ru;;*);
+		[Pic. (Lee Jong-suk)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Lee_Jongsuk.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 14_09_1989;
+=> nrel_place_of_birth : Yongin; 
+=> nrel_career_start_date : 2005;
+
+<= nrel_main_actor : While_You_Were_Sleeping; VIP; W;;
+
+
+14_09_1989
+<- concept_calendar_date;
+=> nrel_main_idtf : [14 сентября 1989](*<-lang_ru;;*);
+=> nrel_main_idtf : [September 14, 1989](*<-lang_en;;*);;
+
+2005
+<- concept_calendar_date;
+=> nrel_main_idtf : [2005](*<-lang_en;;*);
+=> nrel_main_idtf : [2005](*<-lang_ru;;*);;

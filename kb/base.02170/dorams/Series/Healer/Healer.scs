@@ -1,0 +1,60 @@
+Healer
+<- concept_series;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Хилер](* <- lang_ru;; *);
+	[Healer](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Хилер)](*<-lang_ru;;*);
+		[Description (Healer)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_series
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Healer_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Healer_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Хилер)](*<-lang_ru;;*);
+		[Pic. (Healer)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Healer.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=> nrel_keywords: concept_thriller;
+=> nrel_keywords: concept_action;
+
+
+=> nrel_production_year : 2014_2015 ;
+=> nrel_num_of_seasons: 1;
+=> nrel_num_of_episodes: 20;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Lee_Jungsub;
+=> nrel_screenwriter : Song_Jina;
+=> nrel_producer: Bae_Kyungsoo;
+=> nrel_composer: Lee_Pilho;
+
+=> nrel_main_actor : Ji_Changwook;
+=> nrel_main_actor : Park_Minyoung;
+=> nrel_main_actor : Yoo_Jitae;;
+
+
+2014_2015
+<- concept_calendar_date;
+=> nrel_main_idtf : [2014 - 2015](*<-lang_ru;;*);
+=> nrel_main_idtf : [2014 - 2015 ](*<-lang_en;;*);;      

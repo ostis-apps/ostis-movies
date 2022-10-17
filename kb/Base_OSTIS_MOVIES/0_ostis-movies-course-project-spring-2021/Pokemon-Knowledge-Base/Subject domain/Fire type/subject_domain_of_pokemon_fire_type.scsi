@@ -1,0 +1,33 @@
+subject_domain_of_pokemon_fire_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов огненного типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon fire type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_fire_type;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_pure_fire_type;
+    concept_half_main_fire_type;
+    concept_half_secondary_fire_type;
+	
+-> rrel_explored_relation:
+	nrel_ember_attack;
+    nrel_fire_blast_attack;
+    nrel_fire_fang_attack;
+    nrel_fire_punch_attack;
+    nrel_fire_spin_attack;
+    nrel_flame_burst_attack;
+    nrel_flame_charge_attack;
+    nrel_flame_wheel_attack;
+    nrel_flamethrower_attack;
+    nrel_heat_wave_attack;
+    nrel_overheat_attack;     
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

@@ -1,0 +1,54 @@
+concept_human -> Bhanu_Athaiya;;
+
+Bhanu_Athaiya
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Бхану Атайя]
+	(* <- lang_ru;;	*);
+	[Bhanu Athaiya]
+	(* <- lang_en;;	*);;
+	
+Bhanu_Athaiya <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бхану Атайя)](*<-lang_ru;;*);
+		[Description (Bhanu Athaiya)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Bhanu_Athaiya_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Bhanu_Athaiya_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Bhanu_Athaiya 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бхану Атайя)](*<-lang_ru;;*);
+		[Pic. (Bhanu Athaiya)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Bhanu_Athaiya.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1929;;
+Bhanu_Athaiya=>nrel_date_of_birth: 1929;;
+1929=>nrel_main_idtf:[1929 год](*<-lang_ru;;*);;
+1929=>nrel_main_idtf:[year of 1929](*<-lang_en;;*);;
+
+concept_calendar_date->1956;;
+Bhanu_Athaiya=>nrel_career_start_date: 1956;;
+1956=>nrel_main_idtf:[1956 год](*<-lang_ru;;*);;
+1956=>nrel_main_idtf:[year of 1956](*<-lang_en;;*);;
+
+Bhanu_Athaiya =>nrel_cityzenship:India;;
+India<-concept_country;;
+

@@ -1,0 +1,54 @@
+concept_human -> Adrian_Greenberg;;
+
+Adrian_Greenberg
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Адриан Гринберг   ]
+	(* <- lang_ru;;	*);
+	[Adrian Greenberg]
+	(* <- lang_en;;	*);;
+	
+Adrian_Greenberg <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Адриан Гринберг)](*<-lang_ru;;*);
+		[Description (Adrian Greenberg)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Adrian_Greenberg_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Adrian_Greenberg_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Adrian_Greenberg 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Адриан Гринберг  )](*<-lang_ru;;*);
+		[Pic. (Adrian Greenberg)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/adrian_greenberg.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1903;;
+Adrian_Greenberg=>nrel_date_of_birth: 1903;;
+1903=>nrel_main_idtf:[1903 год](*<-lang_ru;;*);;
+1903=>nrel_main_idtf:[year of 1903](*<-lang_en;;*);;
+
+concept_calendar_date->1928;;
+Adrian_Greenberg=>nrel_career_start_date: 1928;;
+1928=>nrel_main_idtf:[1928 год](*<-lang_ru;;*);;
+1928=>nrel_main_idtf:[year of 1928](*<-lang_en;;*);;
+
+Adrian_Greenberg =>nrel_cityzenship:USA;;
+USA<-concept_country;;
+

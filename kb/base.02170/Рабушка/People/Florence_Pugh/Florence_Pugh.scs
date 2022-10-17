@@ -1,0 +1,46 @@
+Florence_Pugh <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Флоренс Пью)](*<-lang_ru;;*);
+		[Description (Florence Pugh)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Florence_Pugh_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Florence_Pugh_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Флоренс Пью)](*<-lang_ru;;*);
+		[Pic. (Florence Pugh)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Florence_Pugh.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Florence_Pugh => nrel_place_of_birth :Oxford;;
+Florence_Pugh => nrel_cityzenship :Great_Britan;;
+
+concept_calendar_date->03.01.1996;;
+Florence_Pugh=>nrel_date_of_birth: 03.01.1996;;
+03.01.1996=>nrel_main_idtf:[03 января 1996](*<-lang_ru;;*);;
+03.01.1996=>nrel_main_idtf:[03 january 1996](*<-lang_en;;*);;
+
+Florence_Pugh => nrel_to_star_in : Little_Women; Black_Widow;;
+
+
+Oxford<- concept_city;
+=> nrel_main_idtf:
+	[Оксфорд](* <- lang_ru;;*);
+	[Oxford](* <- lang_en;;*);;

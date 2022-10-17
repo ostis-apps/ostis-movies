@@ -1,0 +1,152 @@
+concept_16CX_2M_Kinor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[16СХ-2М Кинор]
+	(* <- lang_ru;;*);
+	[16СХ-2М Kinor]
+	(* <- lang_en;;*);
+
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (16СХ-2М Кинор)](*<-lang_ru;;*);
+		[Description (16СХ-2М Kinor)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cinema_camera
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/16СХ-2М_Kinor_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/16СХ-2М_Kinor_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (16СХ-2М Кинор)](*<-lang_ru;;*);
+		[Pic. (16СХ-2М Kinor)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/16СХ-2М_Kinor.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_hand_held_cinema_camera;
+
+=> nrel_picture_format: 16mm;
+
+=> nrel_frame_window_length:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 10
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_frame_window_width:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 7
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_minimal_filming_frequency:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_frames_per_second: 24
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_maximum_filming_frequency:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_frames_per_second: 25
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_length:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 360
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_width:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 145
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_height:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 180
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_weight:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_kilogram: 5
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);
+
+=>nrel_year_of_issue:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 1975
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=>nrel_manufacturer: USSR;;
+

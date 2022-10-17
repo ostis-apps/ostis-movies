@@ -1,0 +1,21 @@
+concept_cerial_killers
+
+=> nrel_main_idtf: 
+	[серийные убийцы] (*<- lang_ru;;*);
+	[cerial killers] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. серийные убийцы] (*<- lang_ru;;*);
+		[Def. cerial killers] (*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        ->rrel_example: "file://HTML/concept_cerial_killers_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_cerial_killers_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+    <= nrel_using_constants:{
+       concept_story_mark;
+       nrel_storyline;
+       concept_character
+    };;
+*);;

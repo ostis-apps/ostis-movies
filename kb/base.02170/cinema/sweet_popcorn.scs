@@ -1,0 +1,33 @@
+concept_sweet_popcorn <- sc_node_not_relation;
+
+=> nrel_main_idtf:[сладкий попкорн] (* <- lang_ru;; *);
+=> nrel_idtf:[sweet_popcorn] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (сладкий попкорн)](* <- lang_ru;; *);
+		[Def. (sweet_popcorn)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_sweet_popcorn;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_sweet_popcorn">Сладкий попкорн</sc_element></b> это один из разновидностей попкорна,при приготоволении которого используются различные подсластители.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_sweet_popcorn">Sweet popcorn</sc_element></b> this is a type of popcorn that uses a variety of sweeteners to make it.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (сладкий попкорн)](*<-lang_ru;;*);
+		[Pic. (sweet_popcorn)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/sweet_popcorn.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

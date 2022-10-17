@@ -1,0 +1,33 @@
+concept_mini_disc <- sc_node_norole_relation;
+
+
+<=nrel_storage_media:concept_magneto_optical_sound_recording;
+
+=> nrel_main_idtf:
+	[mini disc] (*<- lang_en;;*);
+	[мини диск] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[md] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (мини диск)] (*<- lang_ru;;*);
+		[Def. (mini disc)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_mini_disc_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_mini_disc_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (мини диск)](*<-lang_ru;;*);
+		[Pic. (mini disc)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_mini_disc.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

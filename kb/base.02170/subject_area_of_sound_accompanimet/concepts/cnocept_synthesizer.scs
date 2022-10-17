@@ -1,0 +1,32 @@
+concept_synthesizer <- sc_node_norole_relation;
+
+<- concept_sound_studio;
+
+=> nrel_main_idtf:
+	[synthesizer] (*<- lang_en;;*);
+	[синтезатор] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[synth] (*<- lang_en;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (синтезатор)] (*<- lang_ru;;*);
+		[Def. (synthesizer)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_synthesizer_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_synthesizer_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (синтезатор)](*<-lang_ru;;*);
+		[Pic. (synthesizer)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_synthesizer.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

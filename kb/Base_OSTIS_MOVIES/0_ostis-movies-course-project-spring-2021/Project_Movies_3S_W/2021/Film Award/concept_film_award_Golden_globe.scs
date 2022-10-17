@@ -1,0 +1,38 @@
+concept_film_award_Golden_globe <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Кинопремия Золотой Глобус](*<-lang_ru;;*);
+	[Film Award Golden globe](*<-lang_en;;*); 
+	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кинопремия Золотой Глобус)](*<-lang_ru;;*);
+		[Pic. (Film Award Golden globe)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_film_award_Golden_globe.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_film_award_Golden_globe
+=>nrel_foundation_year: 1944;
+=>nrel_site:[https://www.goldenglobes.com/](* <- lang_en;; *);;
+
+concept_film_award_Golden_globe
+=>nrel_award_ceremony:concept_Golden_globe_award_ceremony;
+=>nrel_award:concept_award_Golden_globe;;
+
+concept_Golden_globe_award_ceremony <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Золотой Глобус](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Golden_globe](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_award_Golden_globe<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Золотой Глобус"](*<-lang_ru;;*);
+	["Golden_globe" statuettes](*<-lang_en;;*); 
+<-concept_award;;
+

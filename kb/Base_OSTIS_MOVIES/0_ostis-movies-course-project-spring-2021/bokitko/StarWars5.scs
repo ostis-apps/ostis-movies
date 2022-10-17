@@ -1,0 +1,107 @@
+StarWars5
+=> nrel_main_idtf:
+	[Звёздные войны: Эпизод 5 — Империя наносит ответный удар]
+	(* <- lang_ru;;	*);
+	[Star wars: Episode 5 - The Empire Strikes Back]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_lucasfilm;
+=> nrel_film_studio: concept_film_studio_20_century_fox;
+=>nrel_soundman: Richard_Barrow;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Звёздные войны: Эпизод 5 — Империя наносит ответный удар)](*<-lang_ru;;*);
+		[Description (Star wars: Episode 5 - The Empire Strikes Back)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/StarWars5_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/StarWars5_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (StarWars5)](*<-lang_ru;;*);
+		[Pic. (StarWars5)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/StarWars5.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Usa;
+=> nrel_film_critic_rating : 8.1;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_keywords: alliens;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Harrison_Ford;
+=> nrel_producer : Irvin_Kershner;
+=> nrel_screenwriter : Leigh_Brackett;;
+
+
+concept_calendar_date -> 17_05_1980;;
+17_05_1980 => nrel_main_idtf : [17.05.1980](*<-lang_ru;;*);;
+17_05_1980 => nrel_main_idtf : [17.05.1980](*<-lang_en;;*);;
+StarWars5 => nrel_release_date : 17_05_1980;;
+
+
+value -> 2_04;;
+2_04 => nrel_main_idtf : [2 часа и 04 минутs](*<-lang_ru;;*);;
+2_04 => nrel_main_idtf : [2 hour and 04 minutes](*<-lang_en;;*);;
+StarWars5=> nrel_duration_of_showing : 2_04;;
+
+value -> 18_000_000;;
+18_000_000 => nrel_main_idtf : [18 000 000$](*<-lang_ru;;*);;
+18_000_000 => nrel_main_idtf : [18 000 000$](*<-lang_en;;*);;
+StarWars5 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 18_000_000;;   
+*);;
+
+
+StarWars5 => nrel_take_place: GB;
+=> nrel_take_place: Usa;
+=> nrel_production_designer: Rick_Carter;
+=> nrel_film_director: Irwin_Kershner;
+=> nrel_composer: John_Williams;;
+
+Richard_Barrow <-concept_human;
+=> nrel_main_idtf:
+	[Ричард Берроу]
+	(* <- lang_ru;;	*);
+	[Richard Barrow]
+	(* <- lang_en;;	*);;
+
+Harrison_Ford <-concept_human;
+=> nrel_main_idtf:
+	[Харисон Форд]
+	(* <- lang_ru;;	*);
+	[Harrison Ford]
+	(* <- lang_en;;	*);;
+
+Irvin_Kershner <-concept_human;
+=> nrel_main_idtf:
+	[Ирвин Кершнер]
+	(* <- lang_ru;;	*);
+	[Irvin_Kershner]
+	(* <- lang_en;;	*);;
+
+Leigh_Brackett <-concept_human;
+=> nrel_main_idtf:
+	[Ли Брэкетт]
+	(* <- lang_ru;;	*);
+	[Leigh Brackett]
+	(* <- lang_en;;	*);;
+
+Rick_Carter <-concept_human;
+=> nrel_main_idtf:
+	[Рик Картер]
+	(* <- lang_ru;;	*);
+	[Rick Carter]
+	(* <- lang_en;;	*);;

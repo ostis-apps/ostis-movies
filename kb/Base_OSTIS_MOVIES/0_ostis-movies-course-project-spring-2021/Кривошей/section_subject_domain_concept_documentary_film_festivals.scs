@@ -1,0 +1,65 @@
+section_subject_domain_concept_documentary_film_festivals
+=> nrel_main_idtf:
+	[Раздел. Предметная область документальных кинофестивалей]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of documental film festivals]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_concept_documentary_film_festivals->rrel_key_sc_element:
+    concept_aegeandocs_international_documentary_film_festival;
+    concept_krymdok_documentary_film_festival;
+    concept_makedox_film_festival;
+    concept_chagrin_documentary_film_festival;
+	subject_domain_concept_documentary_film_festivals;;
+
+section_subject_domain_concept_documentary_film_festivals = [*
+subject_domain_concept_documentary_film_festivals
+=> nrel_main_idtf:
+	[Предметная область документальных кинофестивалей]
+	(* <- lang_ru;; *);
+	[Subject domain of documentary film festivals]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_concept_documentary_film_festivals;
+-> rrel_maximum_studied_object_class:
+    concept_festival;
+-> rrel_not_maximum_studied_object_class:
+    concept_documentary_film_festivals;;
+
+concept_documentary_film_festivals<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Документальный кинофестиваль]
+	(* <- lang_ru;; *);
+	[Documentary films festival]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_documentary_film_festivals;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Фестиваль документального кино - массовое празднество, показ (смотр) достижений документальной кинематографии.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Фестиваль документального кино)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_documentary_film_festivals;;
+->concept_film;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_documentary_film_festivals;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Проводятся как в крупных закрытых помещениях, так и в современном формате на открытом воздухе: на полях, площадях, парках, в естественных архитектурно-исторических интерьерах замков и других достопримечательных мест.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О документальных кинофестивалях)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_documentary_film_festivals;;
+        *);;
+*);;
+*];;

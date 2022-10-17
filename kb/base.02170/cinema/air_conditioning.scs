@@ -1,0 +1,33 @@
+concept_air_conditioning <- sc_node_not_relation;
+
+=> nrel_main_idtf:[кондиционер] (* <- lang_ru;; *);
+=> nrel_idtf:[air_conditioning] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (кондиционер)](* <- lang_ru;; *);
+		[Def. (air_conditioning)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_air_conditioning;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_air_conditioning">Кондиционер</sc_element></b> это устройство для поддержания оптимальных климатических условий в помещениях строительных сооружений, транспортных средств и другой техники.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_air_conditioning">Air conditioning</sc_element></b> is a device for maintaining optimal climatic conditions in the premises of building structures, vehicles and other equipment.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кондиционер)](*<-lang_ru;;*);
+		[Pic. (air_conditioning)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/air_conditioning.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

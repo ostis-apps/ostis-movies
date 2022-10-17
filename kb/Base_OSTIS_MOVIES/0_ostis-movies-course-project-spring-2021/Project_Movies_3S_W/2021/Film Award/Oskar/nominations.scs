@@ -1,0 +1,478 @@
+concept_nomination->concept_Oskar_Nomination_Best_Motion;;
+concept_nomination->concept_Oskar_Nomination_Best_Director;;
+concept_nomination->concept_Oskar_Nomination_Best_Actor_in_a_Leading_Role;;
+concept_nomination->concept_Oskar_Nomination_Best_Actor_in_a_Supporting_Role;;
+concept_nomination->concept_Oskar_Nomination_Best_Actress_in_a_Leading_Role;;
+concept_nomination->concept_Oskar_Nomination_Best_Actress_in_a_Supporting_Role;;
+concept_nomination->concept_Oskar_Nomination_Best_Original_Screenplay;;
+concept_nomination->concept_Oskar_Nomination_Best_Adapted_Screenplay;;
+concept_nomination->concept_Oskar_Nomination_Best_Animated_Feature;;
+concept_nomination->concept_Oskar_Nomination_Best_Foreign_Language_Film;;
+
+concept_nomination->concept_Oskar_Nomination_Best_Original_Score;;
+concept_nomination->concept_Oskar_Nomination_Best_Original_Song;;
+
+concept_nomination->concept_Oskar_Nomination_Best_Production_Design;;
+concept_nomination->concept_Oskar_Nomination_Best_Cinematography;;
+concept_nomination->concept_Oskar_Nomination_Best_Sound_Mixing;;
+concept_nomination->concept_Oskar_Nomination_Best_Animated_Short_Film;;
+concept_nomination->concept_Oskar_Nomination_Best_Live_Action_Short_Film;;
+concept_nomination->concept_Oskar_Nomination_Best_Film_Editing;;
+concept_nomination->concept_Oskar_Nomination_Best_Visual_Effects;;
+concept_nomination->concept_Oskar_Nomination_Best_Documentary_Feature;;
+concept_nomination->concept_Oskar_Nomination_Best_Documentary_Short_Subject;;
+concept_nomination->concept_Oskar_Nomination_Best_Costume_Design;;
+concept_nomination->concept_Oskar_Nomination_Best_Sound_Editing;;
+concept_nomination->concept_Oskar_Nomination_Best_Makeup;;
+concept_nomination->concept_Oskar_Nomination_Outstanding_Achievement_in_Popular_Film;;
+
+
+concept_Oskar_Nomination_Best_Motion <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за Лучший фильм года](*<-lang_ru;;*);
+	[Nomination of Film Award Oskar for the Best (Motion) Picture](*<-lang_en;;*);
+=>nrel_foundation_year: 1929;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за Лучший фильм года)](*<-lang_ru;;*);
+		[Def. (Nomination of Film Award Oskar for the Best (Motion) Picture)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Motion_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Motion_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Director<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшую режиссуру](*<-lang_ru;;*);
+	[Nomination of Film Award Oskar for the best director](*<-lang_en;;*);
+=>nrel_foundation_year: 1929;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшую режиссуру)](*<-lang_ru;;*);
+		[Def. (Nomination of Film Award Oskar for the best director)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Director_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Director_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Actor_in_a_Leading_Role<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшую мужскую роль](*<-lang_ru;;*);
+	[Performance by an Actor in a Leading Role](*<-lang_en;;*);
+=>nrel_foundation_year: 1929;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшую мужскую роль)](*<-lang_ru;;*);
+		[Def. (Performance by an Actor in a Leading Role)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Actor_in_a_Leading_Role_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Actor_in_a_Leading_Role_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Actor_in_a_Supporting_Role<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшую мужскую роль второго плана](*<-lang_ru;;*);
+	[Performance by an Actor in a Supporting Role](*<-lang_en;;*);
+=>nrel_foundation_year: 1937;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшую мужскую роль второго плана)](*<-lang_ru;;*);
+		[Def. (Performance by an Actor in a Supporting Role)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Actor_in_a_Supporting_Role_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Actor_in_a_Supporting_Role_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Actress_in_a_Leading_Role<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшую женскую роль](*<-lang_ru;;*);
+	[Performance by an Actress in a Leading Role](*<-lang_en;;*);
+=>nrel_foundation_year: 1929;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшую женскую роль)](*<-lang_ru;;*);
+		[Def. (Performance by an Actress in a Leading Role)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Actress_in_a_Leading_Role_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Actress_in_a_Leading_Role_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Actress_in_a_Supporting_Role<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшую женскую роль второго плана](*<-lang_ru;;*);
+	[Performance by an Actress in a Supporting Role](*<-lang_en;;*);
+=>nrel_foundation_year: 1937;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшую женскую роль второго плана)](*<-lang_ru;;*);
+		[Def. (Performance by an Actress in a Supporting Role)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Actress_in_a_Supporting_Role_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Actress_in_a_Supporting_Role_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Original_Screenplay<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за оригинальный сценарий](*<-lang_ru;;*);
+	[Academy Award for Best Original Screenplay](*<-lang_en;;*);
+=>nrel_foundation_year: 1941;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за оригинальный сценарий)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Original Screenplay)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Original_Screenplay_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Original_Screenplay_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Adapted_Screenplay<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший адаптированный сценарий](*<-lang_ru;;*);
+	[Academy Award for Best Adapted Screenplay](*<-lang_en;;*);
+=>nrel_foundation_year: 1929;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший адаптированный сценарий)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Adapted Screenplay)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Adapted_Screenplay_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Adapted_Screenplay_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Animated_Feature<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший анимационный полнометражный фильм](*<-lang_ru;;*);
+	[Academy Award for Best Animated Feature Film](*<-lang_en;;*);
+=>nrel_foundation_year: 2002;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший анимационный полнометражный фильм)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Animated Feature Film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Animated_Feature_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Animated_Feature_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Original_Score<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшую оригинальную музыку к фильму](*<-lang_ru;;*);
+	[Academy Award for Best Original Score](*<-lang_en;;*);
+=>nrel_foundation_year: 1935;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшую оригинальную музыку к фильму)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Original Score)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Original_Score_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Original_Score_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Original_Song <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшую песню к фильму](*<-lang_ru;;*);
+	[Academy Award for Best Original Song](*<-lang_en;;*);
+=>nrel_foundation_year: 1935;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшую песню к фильму)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Original Song)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Original_Song_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Original_Song_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Foreign_Language_Film <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший фильм на иностранном языке](*<-lang_ru;;*);
+	[Academy Award for Best Foreign Language Film](*<-lang_en;;*);
+=>nrel_foundation_year: 1957;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший фильм на иностранном языке)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Foreign Language Film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Foreign_Language_Film_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Foreign_Language_Film_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Production_Design<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшую работу художника-постановщика](*<-lang_ru;;*);
+	[Academy Award for Best Production Design](*<-lang_en;;*);
+=>nrel_foundation_year: 1929;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшую работу художника-постановщика)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Production Design)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Production_Design_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Production_Design_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Cinematography <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшую операторскую работ](*<-lang_ru;;*);
+	[Academy Award for Best Cinematography](*<-lang_en;;*);
+=>nrel_foundation_year: 1929;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшую операторскую работ)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Cinematography)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Cinematography_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Cinematography_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Sound_Mixing<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший звук](*<-lang_ru;;*);
+	[Academy Award for Best Sound Mixing](*<-lang_en;;*);
+=>nrel_foundation_year: 1930;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший звук)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Sound Mixing)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Sound_Mixing_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Sound_Mixing_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Animated_Short_Film<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший анимационный короткометражный фильм](*<-lang_ru;;*);
+	[Academy Award for Best Animated Short Film](*<-lang_en;;*);
+=>nrel_foundation_year: 1932;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший анимационный короткометражный фильм)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Animated Short Film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Animated_Short_Film_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Animated_Short_Film_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Live_Action_Short_Film<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за художественный короткометражный фильм](*<-lang_ru;;*);
+	[Academy Award for Best Live Action Short Film](*<-lang_en;;*);
+=>nrel_foundation_year: 1932;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за художественный короткометражный фильм)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Live Action Short Film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Live_Action_Short_Film_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Live_Action_Short_Film_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Film_Editing<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший монтаж](*<-lang_ru;;*);
+	[Academy Award for Best Film Editing](*<-lang_en;;*);
+=>nrel_foundation_year: 1935;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший монтаж)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Film Editing)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Film_Editing_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Film_Editing_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Visual_Effects<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучшие визуальные эффекты](*<-lang_ru;;*);
+	[Academy Award for Best Visual Effects](*<-lang_en;;*);
+=>nrel_foundation_year: 1935;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучшие визуальные эффекты)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Visual Effects)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Visual_Effects_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Visual_Effects_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Documentary_Feature<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший документальный полнометражный фильм](*<-lang_ru;;*);
+	[Academy Award for Best Documentary Feature](*<-lang_en;;*);
+=>nrel_foundation_year: 1943;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший документальный полнометражный фильм)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Documentary Feature)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Documentary_Feature_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Documentary_Feature_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Documentary_Short_Subject<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший документальный короткометражный фильм](*<-lang_ru;;*);
+	[Academy Award for Best Short Documentary Feature](*<-lang_en;;*);
+=>nrel_foundation_year: 1943;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший документальный короткометражный фильм)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Short Documentary Feature)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Documentary_Short_Subject_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Documentary_Short_Subject_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Costume_Design<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший дизайн костюмов](*<-lang_ru;;*);
+	[Academy Award for Best Costume Design](*<-lang_en;;*);
+=>nrel_foundation_year: 1949;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший дизайн костюмов)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Costume Design)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Costume_Design_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Costume_Design_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Sound_Editing <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший звуковой монтаж](*<-lang_ru;;*);
+	[Academy Award for Best Sound Editing](*<-lang_en;;*);
+=>nrel_foundation_year: 1964;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший звуковой монтаж)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Sound Editing)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Sound_Editing_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Sound_Editing_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Best_Makeup<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший грим и причёски](*<-lang_ru;;*);
+	[Academy Award for Best Makeup and Hairstyling](*<-lang_en;;*);
+=>nrel_foundation_year: 1982;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший грим и причёски)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Makeup and Hairstyling)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Makeup_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Best_Makeup_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_Oskar_Nomination_Outstanding_Achievement_in_Popular_Film<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Номинация кинопремии Оскар за лучший популярный фильм](*<-lang_ru;;*);
+	[Academy Award for Best Popular Film](*<-lang_en;;*);
+=>nrel_foundation_year: 2019;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (Номинация кинопремии Оскар за лучший популярный фильм)](*<-lang_ru;;*);
+		[Def. (Academy Award for Best Popular Film)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Outstanding_Achievement_in_Popular_Film_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_Oskar_Nomination_Outstanding_Achievement_in_Popular_Film_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

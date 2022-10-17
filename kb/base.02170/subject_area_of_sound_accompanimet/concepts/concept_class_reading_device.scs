@@ -1,0 +1,20 @@
+concept_class_reading_device <- sc_node_not_relation;
+
+
+<=nrel_subdividing:
+{concept_disk_drive};
+
+=> nrel_main_idtf:
+	[reading devie] (*<- lang_en;;*);
+	[считывающее устройство] (*<- lang_ru;;*);
+	
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtfconcept_streamer:
+		[Опр. (считывающее устройство)] (*<- lang_ru;;*);
+		[Def. (reading device)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_class_reading_device_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_class_reading_device_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;

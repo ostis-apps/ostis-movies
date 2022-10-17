@@ -1,0 +1,31 @@
+section_subject_domain_of_pokemon_dark_type
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покемонов темного типа]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokemon dark type]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покемонов темного типа.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+
+	
+-> rrel_key_sc_element: 
+    concept_pure_dark_type;
+    concept_half_main_dark_type;
+    concept_half_secondary_dark_type;
+
+    nrel_dark_pulse_attack;
+    nrel_bite_attack;
+    nrel_crunch_attack;
+    nrel_feint_attack;
+    nrel_foul_play_attack;	
+    nrel_sucker_punch_attack;	
+    nrel_night_slash_attack;	
+    nrel_snarl_attack;	
+	subject_domain_of_pokemon_dark_type;;
+
+section_subject_domain_of_pokemon_dark_type = [*^"file://subject_domain_of_pokemon_dark_type.scsi"*];;

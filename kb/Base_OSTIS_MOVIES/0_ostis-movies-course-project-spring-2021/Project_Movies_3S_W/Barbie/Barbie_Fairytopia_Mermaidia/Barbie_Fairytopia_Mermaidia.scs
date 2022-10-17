@@ -1,0 +1,80 @@
+Barbie_Fairytopia_Mermaidia<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Сказочная страна Мермедия]
+	(* <- lang_ru;;	*);
+	[Barbie Fairytopia: Mermaidia]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Сказочная страна Мермедия)](*<-lang_ru;;*);
+		[Description (Barbie Fairytopia: Mermaidia)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_Fairytopia_Mermaidia_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_Fairytopia_Mermaidia_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Сказочная страна Мермедия)](*<-lang_ru;;*);
+		[Pic. (Barbie Fairytopia: Mermaidia)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_Fairytopia_Mermaidia.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Walter_Martishius;
+=> nrel_film_director: William_Lau;
+=> nrel_production_designer: Walter_Martishius;
+=> nrel_composer: Eric_Colvin;
+
+
+=> nrel_producer: Luke_Carroll;
+=> nrel_screenwriter : Elise_Allen;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 14_03_2006;
+=> nrel_duration_of_showing : 1_25;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_princess;
+=> nrel_keywords: concept_mermaid;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_fairy;
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_fantasy;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family_film;;
+
+concept_mermaid
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Русалка]
+(* <- lang_ru;;	*);
+[Mermaid]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_calendar_date -> 14_03_2006;;
+14_03_2006 => nrel_main_idtf : [14.03.2006](*<-lang_ru;;*);;
+14_03_2006 => nrel_main_idtf : [14.03.2006](*<-lang_en;;*);;

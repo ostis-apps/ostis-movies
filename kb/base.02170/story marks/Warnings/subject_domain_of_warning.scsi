@@ -1,0 +1,25 @@
+subject_domain_of_warning
+
+=> nrel_main_idtf:
+	[Предметная область предупреждений]
+	(*<-lang_ru;;*);
+	[Subject domain of warnings]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	concept_warning;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_death_of_the_main_character; 
+	concept_death_of_the_minor_character; 
+	concept_bullying;
+	concept_open_final;
+	concept_mental_disorders;
+	concept_temporary_death_of_the_character;
+	concept_a_good_bad_ending;
+	concept_violent_actions;
+  
+ 
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

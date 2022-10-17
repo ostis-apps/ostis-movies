@@ -1,0 +1,22 @@
+subject_domain_of_occupations_and_professions
+
+=> nrel_main_idtf:
+	[Предметная область занятий и профессий]
+	(*<-lang_ru;;*);
+	[Subject domain of occupations and professions ]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	concept_occupations_and_professions;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_students;
+	concept_police_offecers; 
+	concept_celebrities;
+	concept_cerial_killers;
+	concept_lawyers;
+
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;
+

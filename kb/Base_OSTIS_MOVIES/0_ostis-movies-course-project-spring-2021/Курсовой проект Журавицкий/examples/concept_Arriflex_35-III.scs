@@ -1,0 +1,151 @@
+concept_Arriflex_35_III
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Arriflex 35-III]
+	(* <- lang_ru;;*);
+	[Arriflex 35-III]
+	(* <- lang_en;;*);
+
+	
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Arriflex 35-III)](*<-lang_ru;;*);
+		[Description (Arriflex 35-III)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cinema_camera
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Arriflex_35-III_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Arriflex_35-III_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Arriflex 35-III)](*<-lang_ru;;*);
+		[Pic. (Arriflex 35-III)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Arriflex_35-III.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<- concept_hand_held_cinema_camera;
+
+=> nrel_picture_format: 35mm;
+
+=> nrel_frame_window_length:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 21
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_frame_window_width:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 15
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_minimal_filming_frequency:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_frames_per_second: 5
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_maximum_filming_frequency:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_frames_per_second: 50
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_length:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 291
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_width:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 405
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_height:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_millimeter: 330
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=> nrel_weight:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_kilogram: 6
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*);
+
+=>nrel_year_of_issue:  ...
+(* 
+	<- concept_quantity;; 
+	<= nrel_relevance: ... 
+	(* 
+		-> rrel_year: 1986
+		(* 
+			<- concept_number;; 
+		*);; 
+	*);; 
+*); 
+
+=>nrel_manufacturer: Germany;;

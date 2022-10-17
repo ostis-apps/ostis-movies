@@ -1,0 +1,65 @@
+Barbie_in_Princess_Power<- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби: Супер Принцесса]
+	(* <- lang_ru;;	*);
+	[Barbie in Princess Power]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби: Супер Принцесса)](*<-lang_ru;;*);
+		[Description (Barbie in Princess Power)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_in_Princess_Power_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_in_Princess_Power_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби: Супер Принцесса)](*<-lang_ru;;*);
+		[Pic. (Barbie in Princess Power)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_in_Princess_Power.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_film_director: Zeke_Norton;
+=> nrel_composer: Jim_Dooley;
+=> nrel_production_designer: Patricia_Atchison;
+
+=> nrel_screenwriter : Marsha_Griffin;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 15_03_2015;
+=> nrel_duration_of_showing : 1_15;
+=> nrel_film_critic_rating : 5;
+=> nrel_age_rating: concept_G;
+
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_superhero;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_fashion;
+=> nrel_keywords: concept_friendship;
+=> nrel_keywords: concept_family;
+=> nrel_keywords: concept_family_film;;
+
+concept_calendar_date -> 15_03_2015;;
+15_03_2015 => nrel_main_idtf : [15.03.2015](*<-lang_ru;;*);;
+15_03_2015 => nrel_main_idtf : [15.03.2015](*<-lang_en;;*);;

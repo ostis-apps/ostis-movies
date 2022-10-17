@@ -1,0 +1,49 @@
+concept_human -> Ben_Bertt;;
+
+Ben_Bertt
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бен Бертт]
+	(* <- lang_ru;;	*);
+	[Ben Bertt]
+	(* <- lang_en;;	*);;
+	
+Ben_Bertt <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бен Бертт)](*<-lang_ru;;*);
+		[Description (Ben Bertt)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Ben_Bertt_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Ben_Bertt_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1948;;
+Ben_Bertt=>nrel_date_of_birth: 1948;;
+1948=>nrel_main_idtf:[1948 год](*<-lang_ru;;*);;
+1948=>nrel_main_idtf:[year of 1948](*<-lang_en;;*);;
+
+concept_calendar_date->1975;;
+Ben_Bertt=>nrel_career_start_date: 1975;;
+1975=>nrel_main_idtf:[1975 год](*<-lang_ru;;*);;
+1975=>nrel_main_idtf:[year of 1975](*<-lang_en;;*);;
+
+Ben_Bertt =>nrel_cityzenship: Usa;
+<-concept_soundman;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+	

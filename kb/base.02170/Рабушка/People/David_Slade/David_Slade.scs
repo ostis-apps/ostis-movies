@@ -1,0 +1,38 @@
+David_Slade <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Дэвид Слейд)](*<-lang_ru;;*);
+		[Description (David Slade)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_main_producer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://David_Slade_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://David_Slade_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Дэвид Слейд)](*<-lang_ru;;*);
+		[Pic. (David Slade)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://David_Slade.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+David_Slade => nrel_cityzenship : Great_Britan;;
+
+concept_calendar_date -> 26_09_1969;;
+David_Slade=>nrel_date_of_birth: 26_09_1969;;
+26_09_1969 => nrel_main_idtf:[26 сентября 1969](*<-lang_ru;;*);;
+26_09_1969 => nrel_main_idtf:[26 september 1969](*<-lang_en;;*);;
+

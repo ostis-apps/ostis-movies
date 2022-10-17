@@ -1,0 +1,30 @@
+concept_Thw_Witcher_cinema_universe
+=> nrel_main_idtf:
+	[Киновселенная Ведьмака]
+	(*<-lang_ru;;*);
+     [The witcher cinema universe]
+ 	(*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+<-definition;;
+=>nrel_main_idtf:
+[Опр. (Киновселенная Ведьмака)](*<-lang_ru;;*);
+[Definition (The witcher cinema universe)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->rrel_example: "file://HTML/concept_Thw_Witcher_cinema_universe_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+->rrel_example: "file://HTML/concept_Thw_Witcher_cinema_universe_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);; 
+*);; 
+<-illustration;; 
+=>nrel_main_idtf: 
+[Рис. (Киновселенная Ведьмака)](*<-lang_ru;;*); 
+[Pic. (The witcher cinema universe)](*<-lang_en;;*);; 
+<=nrel_sc_text_translation:... 
+(* 
+->"file://IMG/concept_Disney_Pixar_cinema_universe.jpg"(*=>nrel_format:format_jpg;;*);; 
+*);; 
+*);; 
+
+concept_cinema_universe ->concept_Disney_Pixar_cinema_universe;;
+concept_Disney_Pixar_cinema_universe <-Subject_domain_Cinema_Universe;;

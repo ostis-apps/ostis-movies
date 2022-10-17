@@ -1,0 +1,40 @@
+Arnie_Roth <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Арни Рот)](*<-lang_ru;;*);
+		[Description (Arnie Roth)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman;
+        concept_composer
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Arnie_Roth_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Arnie_Roth_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Арни Рот)](*<-lang_ru;;*);
+		[Pic. (Arnie Roth)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Arnie_Roth.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1953;;
+Arnie_Roth=>nrel_date_of_birth: 1953;;
+1932=>nrel_main_idtf:[1953 год](*<-lang_ru;;*);;
+1932=>nrel_main_idtf:[year of 1953](*<-lang_en;;*);;
+
+Arnie_Roth
+=>nrel_cityzenship: Usa;
+=>nrel_production_link: concept_Mainframe_Studios;
+<-concept_soundman;
+<-concept_composer;;

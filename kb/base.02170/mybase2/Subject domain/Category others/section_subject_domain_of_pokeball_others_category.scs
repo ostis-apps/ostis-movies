@@ -1,0 +1,20 @@
+section_subject_domain_of_pokeball_others_category
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область покеболов категории другие]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of pokeballs category others]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по Кинофильмам, описывающий покеболы категории другие.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+
+	
+-> rrel_key_sc_element: 
+    
+	subject_domain_of_pokeball_others_category;;
+
+section_subject_domain_of_pokeball_others_category = [*^"file://subject_domain_of_pokeball_others_category.scsi"*];;

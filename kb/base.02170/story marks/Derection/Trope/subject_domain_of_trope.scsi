@@ -1,0 +1,21 @@
+subject_domain_of_trope
+
+=> nrel_main_idtf:
+	[Предметная область троп]
+	(*<-lang_ru;;*);
+	[Subject domain of trope]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	concept_trope;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_parallel_worlds; 
+	concept_opposite; 
+	concept_political_intrigues;
+	concept_family_secrets; 
+	concept_new_life; 
+
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

@@ -1,0 +1,36 @@
+concept_gramophone_record <- sc_node_norole_relation;
+
+
+<=nrel_storage_media:concept_electromechanical_sound_recording;
+
+=> nrel_main_idtf:
+	[gramophone record] (*<- lang_en;;*);
+	[грампластинка] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[record](*<- lang_en;;*);
+	[пластинка] (*<- lang_ru;;*);
+	[граммофонная пластинка] (*<- lang_ru;;*);
+
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (грампластинка)] (*<- lang_ru;;*);
+		[Def. (gramophone record)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_gramophone_record_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_gramophone_record_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (грампластинка)](*<-lang_ru;;*);
+		[Pic. (gramophone record)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_gramophone_record.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

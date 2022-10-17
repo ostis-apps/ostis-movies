@@ -1,0 +1,39 @@
+concept_cinema_distribution_service
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[сервис цифровой дистрибуции](*<-lang_ru;;*);
+	[Cinema distribution service](*<-lang_en;;*);
+=>nrel_idtf:
+	[сервис цифровой дистрибуции](*<-lang_ru;;*);
+   	[film distribution service](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (сервис цифровой дистрибуции)](*<-lang_ru;;*);
+		[Def. (Cinema distribution service)](*<-lang_en;;*);;
+	<=nrel_using_constants:{
+		concept_company;
+        	concept_film;
+        	concept_serials
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_film_distribution_service_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_film_distribution_service_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (сервис цифровой дистрибуции)](*<-lang_ru;;*);
+		[Pic. (Cinema distribution service)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/cinema_distribution_service.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+<=nrel_inclusion:concept_company;;

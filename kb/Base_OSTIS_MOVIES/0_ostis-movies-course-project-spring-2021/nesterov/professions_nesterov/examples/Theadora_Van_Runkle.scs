@@ -1,0 +1,54 @@
+concept_human -> Theadora_Van_Runkle;;
+
+Theadora_Van_Runkle
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Теадора Ван Ранкл ]
+	(* <- lang_ru;;	*);
+	[Theadora Van Runkle]
+	(* <- lang_en;;	*);;
+	
+Theadora_Van_Runkle <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Теадора Ван Ранкл)](*<-lang_ru;;*);
+		[Description (Theadora Van Runkle)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Theadora_Van_Runkle_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Theadora_Van_Runkle_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Theadora_Van_Runkle 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Теадора Ван Ранкл)](*<-lang_ru;;*);
+		[Pic. (Theadora Van Runkle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Theadora_Van_Runkle.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1928;;
+Theadora_Van_Runkle=>nrel_date_of_birth: 1928;;
+1928=>nrel_main_idtf:[1928 год](*<-lang_ru;;*);;
+1928=>nrel_main_idtf:[year of 1928](*<-lang_en;;*);;
+
+concept_calendar_date->1967;;
+Theadora_Van_Runkle=>nrel_career_start_date: 1967;;
+1967=>nrel_main_idtf:[1967 год](*<-lang_ru;;*);;
+1967=>nrel_main_idtf:[year of 1967](*<-lang_en;;*);;
+
+Theadora_Van_Runkle =>nrel_cityzenship:USA;;
+USA<-concept_country;;
+

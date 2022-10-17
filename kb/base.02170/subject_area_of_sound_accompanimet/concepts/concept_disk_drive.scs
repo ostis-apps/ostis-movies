@@ -1,0 +1,32 @@
+concept_disk_drive <- sc_node_norole_relation;
+
+<=nrel_reading_device:concept_digital_sound_recording;
+
+=> nrel_main_idtf:
+	[привод оптических дисков](*<- lang_ru;;*);
+	[disk drive] (*<- lang_en;;*);
+=> nrel_idtf:
+	[привод] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (привод оптических дисков)] (*<- lang_ru;;*);
+		[Def. (disk drive)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_disk_drive_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_disk_drive_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (привод оптических дисков)](*<-lang_ru;;*);
+		[Pic. (disk drive)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_disk_drive.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,22 @@
+concept_sound_effect_resonance <- sc_node_norole_relation;
+
+<-nrel_inclusion: concept_sound_effects;
+
+=> nrel_main_idtf:
+	[sound effect resonance] (*<- lang_en;;*);
+	[звуковой эффект резонанс] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[resonance] (*<- lang_en;;*);
+	[резонанс] (*<- lang_ru;;*);
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (звуковой эффект резонанс)] (*<- lang_ru;;*);
+		[Def. (sound effect resonance)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_sound_effect_resonance_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_sound_effect_resonance_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);;
+

@@ -1,0 +1,23 @@
+subject_domain_of_story_mark
+
+=> nrel_main_idtf:
+	[Предметная область сюжетных меток]
+	(*<-lang_ru;;*);
+	[Subject domain of story mark]
+	(*<-lang_en;;*);
+	
+=> nrel_private_subject_domain:
+	subject_domain_of_derection;
+	subject_domain_of_warning;
+	
+-> rrel_maximum_studied_object_class: 
+	concept_story_mark;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_warning;
+    concept_derection;
+  
+
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

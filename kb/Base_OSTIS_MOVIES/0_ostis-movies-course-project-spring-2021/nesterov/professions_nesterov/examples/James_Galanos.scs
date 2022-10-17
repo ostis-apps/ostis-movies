@@ -1,0 +1,54 @@
+concept_human -> James_Galanos;;
+
+James_Galanos
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Джеймс Галанос]
+	(* <- lang_ru;;	*);
+	[James Galanos]
+	(* <- lang_en;;	*);;
+	
+James_Galanos <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джеймс Галанос)](*<-lang_ru;;*);
+		[Description (James Galanos)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/James_Galanos_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/James_Galanos_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+James_Galanos 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джеймс Галанос)](*<-lang_ru;;*);
+		[Pic. (James Galanos)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/James_Galanos.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1924;;
+James_Galanos=>nrel_date_of_birth: 1924;;
+1924=>nrel_main_idtf:[1924 год](*<-lang_ru;;*);;
+1924=>nrel_main_idtf:[year of 1924](*<-lang_en;;*);;
+
+concept_calendar_date->1953;;
+James_Galanos=>nrel_career_start_date: 1953;;
+1953=>nrel_main_idtf:[1953 год](*<-lang_ru;;*);;
+1953=>nrel_main_idtf:[year of 1953](*<-lang_en;;*);;
+
+James_Galanos =>nrel_cityzenship:USA;;
+USA<-concept_country;;
+

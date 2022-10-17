@@ -1,0 +1,54 @@
+Lee_Joongi
+<-concept_human;
+=> nrel_main_idtf : [Ли Джун Ги](*<-lang_ru;;*);
+=> nrel_main_idtf : [Lee Joon-gi](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ли Джун Ги)](*<-lang_ru;;*);
+		[Description (Lee Joon-gi)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Lee_Joongi_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Lee_Joongi_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+	
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ли Джун Ги)](*<-lang_ru;;*);
+		[Pic. (Lee Joon-gi)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Lee_Joongi.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 17_04_1982;
+=> nrel_place_of_birth : Busan;
+=> nrel_career_start_date : 2001;
+
+<= nrel_main_actor : Flower_of_Evil;
+<= nrel_main_actor : The_King_and_the_Clown;;
+
+
+17_04_1982
+<- concept_calendar_date;
+=> nrel_main_idtf : [17 апреля 1982](*<-lang_ru;;*);
+=> nrel_main_idtf : [April 17, 1982](*<-lang_en;;*);;
+
+2001
+<- concept_calendar_date;
+=> nrel_main_idtf : [2001](*<-lang_en;;*);
+=> nrel_main_idtf : [2001](*<-lang_ru;;*);;

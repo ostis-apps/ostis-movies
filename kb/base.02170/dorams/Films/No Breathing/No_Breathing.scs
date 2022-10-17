@@ -1,0 +1,66 @@
+No_Breathing
+<- concept_film;
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Не дыша](* <- lang_ru;; *);
+	[No breathing](* <- lang_en;; *);
+
+<-rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Описание (Не дыша)](*<-lang_ru;;*);
+		[Description (No breathing)](*<-lang_en;;*);;
+	<= nrel_using_constants:
+	{
+        concept_film
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://No_Breathing_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://No_Breathing_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+
+*); 
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Не дыша)](*<-lang_ru;;*);
+		[Pic. (No breathing)](*<-lang_en;;*);;
+		
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://No_Breathing.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+		
+*);
+
+=> nrel_keywords: concept_drama;
+
+
+=> nrel_release_date : 30_10_2013;
+=> nrel_duration_of_showing : 1_58;
+=> nrel_production_country: South_Korea;
+
+=> nrel_film_director: Jo_Yongsun;
+=> nrel_screenwriter : Yoo_Youngah;
+=> nrel_screenwriter : Jo_Yongsun;
+=> nrel_producer: Lee_Songjoon;
+=> nrel_cameraman : Lee_Joongyn;
+=> nrel_composer: Marco;
+=> nrel_editor : Heo_Sunmi;
+
+=> nrel_actor : Nam_Dareum;
+=> nrel_main_actor : Seo_Inguk;
+=> nrel_main_actor : Lee_Jongsuk;
+=> nrel_main_actor : Kwon_Yuri;;
+
+
+
+30_10_2013
+<- concept_calendar_date;
+=> nrel_main_idtf : [30 Октября 2013](*<-lang_ru;;*);
+=> nrel_main_idtf : [October 30, 2013](*<-lang_en;;*);;

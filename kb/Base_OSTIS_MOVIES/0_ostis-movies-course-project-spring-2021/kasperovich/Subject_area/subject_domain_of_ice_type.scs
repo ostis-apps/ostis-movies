@@ -1,0 +1,25 @@
+subject_domain_of_pokemon_ice_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов ледного типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon ice type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_ice_type;
+	
+-> rrel_explored_relation:
+	 nrel_aurora_beam_attack;
+    nrel_avalanche_attack;
+    nrel_blizzard_attack;
+    nrel_frost_breath_attack;
+    nrel_ice_beam_attack        ;
+    nrel_ice_punch_attack        ;
+    nrel_ice_shard_attack        ;
+    nrel_icy_wind_attack        ;
+    nrel_powder_snow_attack        ;
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

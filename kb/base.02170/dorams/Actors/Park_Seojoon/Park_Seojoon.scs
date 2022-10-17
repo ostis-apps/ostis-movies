@@ -1,0 +1,53 @@
+Park_Seojoon
+<-concept_human;
+=> nrel_main_idtf : [Пак Со Джун](*<-lang_ru;;*);
+=> nrel_main_idtf : [Park Seo-joon](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Пак Со Джун)](*<-lang_ru;;*);
+		[Description (Park Seo-joon)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	
+<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Park_Seojoon_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Park_Seojoon_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Пак Со Джун)](*<-lang_ru;;*);
+		[Pic. (Park Seo-joon)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Park_Seojoon.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+		
+*);
+
+
+=> nrel_date_of_birth : 16_12_1988;
+=> nrel_place_of_birth : Seoul;
+=> nrel_career_start_date : 2011;
+
+<= nrel_actor : Kill_Me__Heal_Me;;
+
+16_12_1988
+<- concept_calendar_date;
+=> nrel_main_idtf : [16 декабря 1988](*<-lang_ru;;*);
+=> nrel_main_idtf : [December 16, 1988](*<-lang_en;;*);;
+
+2011
+<- concept_calendar_date;
+=> nrel_main_idtf : [2011](*<-lang_en;;*);
+=> nrel_main_idtf : [2011](*<-lang_ru;;*);;

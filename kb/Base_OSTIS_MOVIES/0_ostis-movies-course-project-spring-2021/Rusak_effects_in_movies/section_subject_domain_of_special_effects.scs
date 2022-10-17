@@ -1,0 +1,35 @@
+section_subject_domain_of_special_effects
+=> nrel_main_idtf: 
+	[Раздел. Предметная область спецэффектов]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[Section. Subject domain of special effects]
+	(* <- lang_en;; *);
+	
+<= nrel_section_decomposition: 
+	{
+		section_subject_domain_of_makeup;
+		section_subject_domain_of_pyrotechnics;
+		section_subject_domain_of_animatronics;
+		section_subject_domain_of_creating_models;
+		section_subject_domain_of_tricks
+	};
+
+
+<- rrel_key_sc_element:
+		concept_special_effect;
+		concept_special_effects_specialist;
+		subject_domain_of_special_effects;
+		concept_requisite;
+		concept_special_effects_vendor;
+		nrel_special_effects_specialist;
+                nrel_organizing_committee;
+		nrel_special_effects_vendor;
+		nrel_cost_of_special_effect;;
+		
+	
+		
+
+section_subject_domain_of_special_effects = [*^"file://subject_domain_of_special_effects.scs"*];;
+
+

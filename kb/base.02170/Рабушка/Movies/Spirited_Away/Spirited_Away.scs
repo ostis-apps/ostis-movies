@@ -1,0 +1,82 @@
+Spirited_Away<-sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Унесенные призраками](* <- lang_ru;;*);
+	[Spirited Away](* <- lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Унесенные призраками)](*<-lang_ru;;*);
+		[Description (Spirited Away)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon;
+        concept_anime
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Spirited_Away_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;   
+		->rrel_example: "file://Spirited_Away_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);; 
+	*);;
+*);		
+
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Унесенные призраками)](*<-lang_ru;;*);
+		[Pic. (Spirited Away)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Spirited_Away.jpg"
+		(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=>nrel_tag_line: ["Туннель привел Тихиро в таинственный город..."] 
+	(* <- lang_ru;; => nrel_format: format_html;; *);
+=>nrel_tag_line: [«The tunnel led Chihiro to a mysterious town...»] 
+	(* <- lang_en;; => nrel_format: format_html;;*);
+	
+
+=>nrel_main_producer: Hayao_Miyazaki;
+=>nrel_screen_writer: Hayao_Miyazaki;
+=>nrel_production_country: Japan;
+=>nrel_film_critic_rating: 8.44;
+=>nrel_genre: concept_anime;
+=>nrel_genre: concept_cartoon;
+
+=>nrel_age_rating: concept_PG12;
+=>nrel_film_studio: concept_Ghibli_Studio;
+
+=>nrel_keywords: concept_anime;
+=>nrel_keywords: concept_cartoon;;
+
+
+concept_calendar_date -> 20_07_2001;;
+20_07_2001 => nrel_main_idtf : [20 июля 2001](*<-lang_ru;;*);;
+20_07_2001 => nrel_main_idtf : [20 July 2001](*<-lang_en;;*);;
+Spirited_Away => nrel_release_date: 20_07_2001;;
+
+
+value -> 2_05;;
+2_05 => nrel_main_idtf : [2 часа и 5 минут](*<-lang_ru;;*);;
+2_05 => nrel_main_idtf : [2 hours and 5 minutes](*<-lang_en;;*);;
+Spirited_Away=> nrel_duration_of_showing : 2_05;;
+
+value -> 355_467_076;;
+355_467_076 => nrel_main_idtf : [355 467 076$](*<-lang_ru;;*);;
+355_467_076 => nrel_main_idtf : [355 467 076$](*<-lang_en;;*);;
+Spirited_Away <= nrel_cash_charge :...
+(*
+	->rrel_american_dollar : 355_467_076;;   
+*);;
+

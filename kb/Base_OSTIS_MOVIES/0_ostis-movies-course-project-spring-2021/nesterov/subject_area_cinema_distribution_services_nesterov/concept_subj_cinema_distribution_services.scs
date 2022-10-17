@@ -1,0 +1,9 @@
+concept_subj_cinema_distribution_service
+<- sc_node_struct;
+
+=> nrel_main_idtf:
+	[Предметная область видеосервисов]
+	(* <- lang_ru;; *);
+	[Subject domain of cinema distribution service]
+    	(* <- lang_en;; *);;
+

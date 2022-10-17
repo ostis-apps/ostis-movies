@@ -1,0 +1,33 @@
+concept_ketchup <- sc_node_not_relation;
+
+=> nrel_main_idtf:[кетчуп] (* <- lang_ru;; *);
+=> nrel_idtf:[ketchup] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (кетчуп соус)](* <- lang_ru;; *);
+		[Def. (ketchup)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_ketchup;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_ketchup">Кетчуп соус</sc_element></b> соус, основными составляющими которого являются томаты, уксус, сахар и специи (соль, красный и чёрный перец и многие другие).](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_ketchup">Ketchup</sc_element></b> sauce, the main components of which are tomatoes, vinegar, sugar and spices (salt, red and black pepper and many others).](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кетчуп соус)](*<-lang_ru;;*);
+		[Pic. (ketchup)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/ketchup.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

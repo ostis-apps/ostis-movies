@@ -1,0 +1,33 @@
+concept_liquid_soap <- sc_node_not_relation;
+
+=> nrel_main_idtf:[жидкое мыло] (* <- lang_ru;; *);
+=> nrel_idtf:[liquid_soap] (* <- lang_en;; *);
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (жидкое мыло)](* <- lang_ru;; *);
+		[Def. (liquid_soap)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_liquid_soap;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_liquid_soap">Жидкое мыло</sc_element></b> это косметический продукт,предназначенный для очищения и ухода за кожей.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_liquid_soap">Liquid soap</sc_element></b> it is a cosmetic product designed for cleaning and skin.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (жидкое мыло)](*<-lang_ru;;*);
+		[Pic. (liquid_soap)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/liquid_soap.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

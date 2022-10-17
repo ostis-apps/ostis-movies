@@ -1,0 +1,47 @@
+concept_peerstv <- sc_node_not_relation;
+
+=> nrel_main_idtf:[PeersTV] (* <- lang_ru;; *);
+=> nrel_main_idtf:[PeersTV] (* <- lang_en;; *);
+
+=> nrel_idtf:[peerstv] (* <- lang_en;; *);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Опр. (PeersTV)](*<-lang_ru;;*);
+		[Def. (PeersTV)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film_portal;        
+        concept_service;
+        concept_internet_service;
+        concept_subscription;
+        concept_library_with_licensed_content;
+        concept_paid_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_peerstv_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_peerstv_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (PeersTV)](*<-lang_ru;;*);
+		[Pic. (PeersTV)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_PeersTV.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_peerstv
+=>nrel_foundation_year:  13.08.2012;
+=>nrel_founder: Irina_Staculo;
+=>nrel_site:[https://www.peers.tv/](* <- lang_en;; *);
+=>nrel_count_films: 15000;;

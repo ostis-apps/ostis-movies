@@ -1,0 +1,27 @@
+nrel_storage_media <- sc_node_norole_relation;
+
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [sound storage media*](*<- lang_en;;*);
+    [носитель звуковой информации*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (носитель звуковой информации*)](*<- lang_ru;;*);
+        [Def. (sound storage media*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://nrel_storage_media_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://nrel_storage_media_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+
+*);
+    
+=> nrel_first_domain: concept_soundtrack;
+=> nrel_second_domain: concept_class_storage_media;;

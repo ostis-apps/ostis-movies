@@ -1,0 +1,20 @@
+subject_domain_of_pokeball_others_category
+
+=> nrel_main_idtf:
+	[Предметная область покболов категории другие]
+	(*<-lang_ru;;*);
+	[Subject domain of pokeball category others]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_pokeball_category_others;
+	
+
+    	
+
+
+
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

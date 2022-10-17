@@ -1,0 +1,66 @@
+concept_pokeball -> concept_pokeball_greatball;;
+
+concept_pokeball_greatball
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Грейтбол]
+	(* <- lang_ru;;	*);
+	[Greatball]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball_greatball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешний вид (Грейтбол)](*<-lang_ru;;*);
+		[Appearance (Greatball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_greatball_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_greatball_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokeball_pokeball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характеристика (Грейтбол)](*<-lang_ru;;*);
+		[Characteristic (Greatball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_greatball_characteristic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_greatball_characteristic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_greatball <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Грейтбол)](*<-lang_ru;;*);
+		[Pic. (Greatball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokeball_greatball.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_category_A -> concept_pokeball_greatball;;
+
+concept_pokeball_greatball => nrel_top_cover_color:concept_color_blue;;
+concept_pokeball_greatball => nrel_bottom_cover_color:concept_color_white;;
+
+value -> 600;;
+concept_pokeball_greatball => nrel_price_in_pokedollars: 600;;
+
+value -> 1.5 ;;
+concept_pokeball_greatball => nrel_catch_rate: 1.5 ;;
+
+
+
+
+
+

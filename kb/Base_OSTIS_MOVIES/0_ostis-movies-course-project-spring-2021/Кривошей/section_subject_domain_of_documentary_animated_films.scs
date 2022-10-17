@@ -1,0 +1,63 @@
+section_subject_domain_of_documentary_animated_films
+=> nrel_main_idtf:
+	[Раздел. Предметная область анимационных документальных фильмов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of animated documentaries]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_of_documentary_animated_films->rrel_key_sc_element:
+  concept_sinking_of_the_rms_lusitania;;
+
+section_subject_domain_of_documentary_animated_films = [*
+subject_domain_of_documentary_animated_films
+=> nrel_main_idtf:
+	[Предметная область анимационных документальных фильмов]
+	(* <- lang_ru;; *);
+	[Subject domain of animated documentaries]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_of_documentary_animated_films;
+-> rrel_maximum_studied_object_class: concept_documentary_animated_film;
+-> rrel_not_maximum_studied_object_class:
+    concept_genres_of_documentary_film;
+    concept_sinking_of_the_rms_lusitania;;
+
+concept_documentary_animated_film<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Документальный анимационный фильм]
+	(* <- lang_ru;; *);
+	[Documentary animated film]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_documentary_animated_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Документальный анимационный фильм -  жанр документальных фильмов, особенностью которго являеся выполнение его в анимационном виде. ](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Документальный анимационный фильм)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_genres_of_documentary_film;;
+->concept_cartoon;;
+->concept_film;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_documentary_animated_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Анимационные документальные фильмы не всегда снимаются для детей.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О документальном анимационном фильме)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_film;;
+->concept_cartoon;;
+        *);;
+*);;
+*];;

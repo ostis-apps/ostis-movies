@@ -1,0 +1,48 @@
+concept_Ghibli_Studio <- sc_node_not_relation;
+
+=> nrel_main_idtf:[студия Гибли] (* <- lang_ru;; *);
+=> nrel_idtf:[Ghibli Studio] (* <- lang_en;; *);
+=> nrel_idtf:[Ghibli_Studio] (* <- lang_en;; *);
+
+<- rrel_key_sc_element: ... 
+(*
+	<- definition;;
+	=> nrel_main_idtf: 
+	[Высказывание (киностудия Ghibli Studio)] (* <- lang_ru;; *);
+	[Statement(Ghibli Studio)] (* <- lang_en;; *);;
+	<=nrel_using_constants:
+	{
+	nrel_anime_studio
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		-> rrel_example: "file://Ghibli_Studio_def_ru.html" 
+		(*<-lang_ru;; =>nrel_format:format_html;;*);;
+		-> rrel_example: "file://Ghibli_Studio_def_en.html"
+		(*<-lang_en;; =>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (киностудия Warner Bros. Pictures)](*<-lang_ru;;*);
+		[Pic. (film studio Warner Bros. Pictures)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Ghibli_Studio.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+<-nrel_anime_studio;
+=>nrel_fabricate:{
+concept_anime;
+concept_cartoon
+};
+
+<-concept_animation_film_studio;
+
+=>nrel_foundation_year: 1985;
+=>nrel_founder: Hayao_Miyazaki;
+=>nrel_take_place: Japan;;

@@ -1,0 +1,236 @@
+concept_film_award_Emmy <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Эмми](*<-lang_ru;;*);
+	[Film Award Emmy](*<-lang_en;;*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кинопремия Эмми)](*<-lang_ru;;*);
+		[Pic. (Film Award Emmy)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_film_award_Emmy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+=>nrel_foundation_year: 1949;
+=>nrel_site:[https://www.emmys.com/](* <- lang_en;; *);;
+
+concept_film_award_Emmy
+=>nrel_award_ceremony:concept_Emmy_award_ceremony;
+=>nrel_award:concept_award_emmy;;
+
+concept_Emmy_award_ceremony <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Эмми](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Emmy](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_award_emmy<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Эмми"](*<-lang_ru;;*);
+	["Emmy" statuettes](*<-lang_en;;*); 
+<-concept_award;;
+
+concept_film_award_Satellite <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Спутник](*<-lang_ru;;*);
+	[Film Award Satellite](*<-lang_en;;*);
+=>nrel_award_ceremony:concept_Satellite_award_ceremony;
+=>nrel_award:concept_award_Satellite;;
+	
+concept_Satellite_award_ceremony <- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Спутник](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Satellite ](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_award_Satellite<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Спутник"](*<-lang_ru;;*);
+	["Satellite " statuettes](*<-lang_en;;*); 
+<-concept_award;;
+
+concept_film_award_Independent_Spirit <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Независимый дух](*<-lang_ru;;*);
+	[Film Award Independent Spirit](*<-lang_en;;*);
+=>nrel_award_ceremony:concept_Independent_Spirit_award_ceremony;
+=>nrel_award:concept_award_Independent_Spirit;;
+	
+concept_Independent_pirit_award_ceremony<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Независимый дух](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Independent Spirit](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_award_Independent_Spirit<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Независимый дух"](*<-lang_ru;;*);
+	["Independent Spirit" statuettes](*<-lang_en;;*); 
+<-concept_award;;
+
+
+concept_film_award_BAFTA <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Британская академия кино и телевизионных искусств](*<-lang_ru;;*);
+	[Film Award BAFTA](*<-lang_en;;*);
+=>nrel_award_ceremony:concept_BAFTA_award_ceremony;;
+	
+concept_BAFTA_award_ceremony<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Британской академия кино и телевизионных искусств](*<-lang_ru;;*);
+	[Award Ceremony of Film Award BAFTA](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_film_award_Empire <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Империя](*<-lang_ru;;*);
+	[Film Award Empire](*<-lang_en;;*);
+=>nrel_award_ceremony:concept_Empire_award_ceremony;
+=>nrel_award:concept_award_Empire;;
+	
+concept_Empire_award_ceremony<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Империя](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Empire](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_award_Empire<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Империя"](*<-lang_ru;;*);
+	["Empire" statuettes](*<-lang_en;;*); 
+<-concept_award;;
+
+concept_film_award_London_Critics_Circle <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Лондонского кружка кинокритиков ](*<-lang_ru;;*);
+	[London Critics Circle Film Awards](*<-lang_en;;*);;
+
+concept_film_award_European <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Премия Европейской киноакадемии](*<-lang_ru;;*);
+	[European Film Awards](*<-lang_en;;*);;
+	
+concept_film_award_Asian <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Азиатская Кинопремия](*<-lang_ru;;*);
+	[Asian Film Awards](*<-lang_en;;*);;
+	
+concept_film_award_AACTA <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия AACTA](*<-lang_ru;;*);
+	[AACTA Film Awards](*<-lang_en;;*);;
+	
+concept_film_award_anti_award <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Антипремия](*<-lang_ru;;*);
+	[Anti-Awards](*<-lang_en;;*);;
+
+
+concept_film_award_Golden_Eagle <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Золотой Орёл](*<-lang_ru;;*);
+	[Film Award Golden Eagle](*<-lang_en;;*);
+=>nrel_award_ceremony:concept_Golden_Eagle_award_ceremony;
+=>nrel_award:concept_award_Golden_Eagle;;
+	
+concept_Golden_Eagle_award_ceremony<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Золотой Орёл](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Golden_Eagle](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_award_Golden_Eagle<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Золотой Орёл"](*<-lang_ru;;*);
+	["Golden Eagle" statuettes](*<-lang_en;;*); 
+<-concept_award;;
+
+concept_film_award_Nika <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Ника](*<-lang_ru;;*);
+	[Film Award Nika](*<-lang_en;;*);
+=>nrel_award_ceremony:concept_Nika_award_ceremony;
+=>nrel_award:concept_award_Nika;;
+	
+concept_Nika_award_ceremony<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Ника](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Nika](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_award_Nika<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Ника"](*<-lang_ru;;*);
+	["Nika" statuettes](*<-lang_en;;*); 
+<-concept_award;;
+
+concept_film_award_TEFI <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия ТЭФИ](*<-lang_ru;;*);
+	[Film Award TEFI](*<-lang_en;;*);;
+	
+concept_film_award_Saturn <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Сатурн](*<-lang_ru;;*);
+	[Film Award Saturn](*<-lang_en;;*);
+=>nrel_award_ceremony:concept_Saturn_award_ceremony;
+=>nrel_award:concept_award_Saturn;;
+	
+concept_Saturn_award_ceremony<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Сатурн](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Saturn](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_award_Saturn<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Сатурн"](*<-lang_ru;;*);
+	["Saturn" statuettes](*<-lang_en;;*); 
+<-concept_award;;
+
+concept_film_award_Golden_Raspberry <- sc_node_not_relation;
+<- concept_film_award;
+=>nrel_main_idtf:
+	[Кинопремия Золотая Малина](*<-lang_ru;;*);
+	[Film Award Golden Raspberry](*<-lang_en;;*);
+=>nrel_award_ceremony:concept_Golden_Raspberry_award_ceremony;
+=>nrel_award:concept_award_Golden_Raspberry;;
+
+concept_Golden_Raspberry_award_ceremony<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Церемония вручения кинопремии Золотая Малина](*<-lang_ru;;*);
+	[Award Ceremony of Film Award Golden_Raspberry](*<-lang_en;;*); 
+<-concept_award_ceremony;
+<-concept_event;;
+
+concept_award_Golden_Raspberry<- sc_node_not_relation;
+=>nrel_main_idtf:
+	[Статуэтка "Золотая Малина"](*<-lang_ru;;*);
+	["Golden_Raspberry" statuettes](*<-lang_en;;*); 
+<-concept_award;;

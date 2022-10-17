@@ -1,0 +1,41 @@
+Robert_Pattinson <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Роберт Паттинсон)](*<-lang_ru;;*);
+		[Description (Robert Pattinson)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Robert_Pattinson_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Robert_Pattinson_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Роберт Паттинсон)](*<-lang_ru;;*);
+		[Pic. (Robert Pattinson)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Robert_Pattinson.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->13_05_1986;;
+Robert_Pattinson=>nrel_date_of_birth: 13_05_1986;;
+13_05_1986 => nrel_main_idtf:[13 мая 1986](*<-lang_ru;;*);;
+13_05_1986 => nrel_main_idtf:[13 May 1986](*<-lang_en;;*);;
+
+Robert_Pattinson => nrel_cityzenship : Great_Britan;;
+Robert_Pattinson => nrel_to_star_in : Twilight; The_Twilight_Saga_New_Moon;
+	The_Twilight_Saga_Eclipse; The_Twilight_Saga_Breaking_Dawn_Part1;
+	The_Twilight_Saga_Breaking_Dawn_Part2; Tenet; The_King;;

@@ -1,0 +1,92 @@
+StarWars9
+=> nrel_main_idtf:
+	[Звёздные войны: Эпизод 9 — Скайуокер. Восход]
+	(* <- lang_ru;;	*);
+	[Star wars: Episode 9- Skywalker. Sunrise]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_lucasfilm;
+=>nrel_soundman: Victor_Mercader;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Звёздные войны: Эпизод 9 — Скайуокер. Восход)](*<-lang_ru;;*);
+		[Description (Star wars: Episode 9- Skywalker. Sunrise)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/StarWars9_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/StarWars9_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (StarWars9)](*<-lang_ru;;*);
+		[Pic. (StarWars9)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/StarWars9.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Usa;
+=> nrel_film_critic_rating : 6;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_keywords: alliens;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Daisy_Ridley;
+=> nrel_producer : J_J_Abrams;
+=> nrel_screenwriter : Chris_Terrio;;
+
+
+concept_calendar_date -> 19_12_2019;;
+19_12_2019 => nrel_main_idtf : [19.12.2019](*<-lang_ru;;*);;
+19_12_2019 => nrel_main_idtf : [19.12.2019](*<-lang_en;;*);;
+StarWars9 => nrel_release_date : 19_12_2019;;
+
+
+value -> 2_21;;
+2_21 => nrel_main_idtf : [2 часа и 21 минута](*<-lang_ru;;*);;
+2_21 => nrel_main_idtf : [2 hour and 21 minutes](*<-lang_en;;*);;
+StarWars9=> nrel_duration_of_showing : 2_21;;
+
+value -> 275_000_000;;
+275_000_000 => nrel_main_idtf : [275 000 000$](*<-lang_ru;;*);;
+275_000_000 => nrel_main_idtf : [275 000 000$](*<-lang_en;;*);;
+StarWars9 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 275_000_000;;   
+*);;
+
+
+StarWars9 => nrel_take_place: GB;
+=> nrel_take_place: Usa;
+=> nrel_production_designer: Norman_Reynolds;
+=> nrel_film_director: Richard_Marquand;
+=> nrel_composer: John_Williams;;
+
+Victor_Mercader <-concept_human;
+=> nrel_main_idtf:
+	[Виктор Меркадер]
+	(* <- lang_ru;;	*);
+	[Victor Mercader]
+	(* <- lang_en;;	*);;
+
+Daisy_Ridley <-concept_human;
+=> nrel_main_idtf:
+	[Дейзи Ридли]
+	(* <- lang_ru;;	*);
+	[Daisy_Ridley]
+	(* <- lang_en;;	*);;
+
+Chris_Terrio <-concept_human;
+=> nrel_main_idtf:
+	[Крис Террио]
+	(* <- lang_ru;;	*);
+	[Chris Terrio]
+	(* <- lang_en;;	*);;

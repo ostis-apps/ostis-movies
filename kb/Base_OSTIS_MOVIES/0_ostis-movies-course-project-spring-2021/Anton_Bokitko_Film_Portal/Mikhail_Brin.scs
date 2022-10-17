@@ -1,0 +1,41 @@
+Sergey_Brin 
+=>nrel_main_idtf:
+    [Сергей Брин](*<-lang_ru;;*);
+    [Sergey Brin](*<-lang_en;;*);
+<-rrel_key_sc_element:...
+(*
+    <-definition;;
+	=>nrel_main_idtf:
+		[Описание (Сергей Брин)](*<-lang_ru;;*);
+		[Description (Sergey Brin)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_founder_film_portal
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Sergey_Brin_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Sergey_Brin_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Сергей Брин)](*<-lang_ru;;*);
+		[Pic. (Sergey Brin)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/Sergey_Brin.png"(*=>nrel_format:format_png;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1948;;
+Sergey_Brin=>nrel_date_of_birth: 1948;;
+1948=>nrel_main_idtf:[1948 год](*<-lang_ru;;*);;
+1948=>nrel_main_idtf:[year of 1948](*<-lang_en;;*);;
+
+Sergey_Brin
+=>nrel_cityzenship: Russia;
+<-concept_founder_film_portal;;

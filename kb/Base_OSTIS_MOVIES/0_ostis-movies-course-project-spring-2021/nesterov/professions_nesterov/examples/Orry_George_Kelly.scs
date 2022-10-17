@@ -1,0 +1,54 @@
+concept_human -> Orry_George_Kelly;;
+
+Orry_George_Kelly
+<- sc_node_not_relation;
+<- concept_costume_designer;
+=> nrel_main_idtf:
+	[Орри Джордж Келли]
+	(* <- lang_ru;;	*);
+	[Orry George Kelly]
+	(* <- lang_en;;	*);;
+	
+Orry_George_Kelly <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Орри Джордж Келли)](*<-lang_ru;;*);
+		[Description (Orry George Kelly)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Orry_George_Kelly_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Orry_George_Kelly_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Orry_George_Kelly 
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Орри Джордж Келли)](*<-lang_ru;;*);
+		[Pic. (Orry George Kelly)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Orry_George_Kelly.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date->1897;;
+Orry_George_Kelly=>nrel_date_of_birth: 1897;;
+1897=>nrel_main_idtf:[1897 год](*<-lang_ru;;*);;
+1897=>nrel_main_idtf:[year of 1897](*<-lang_en;;*);;
+
+concept_calendar_date->1932;;
+Orry_George_Kelly=>nrel_career_start_date: 1932;;
+1932=>nrel_main_idtf:[1932 год](*<-lang_ru;;*);;
+1932=>nrel_main_idtf:[year of 1932](*<-lang_en;;*);;
+
+Orry_George_Kelly =>nrel_cityzenship:Australia;;
+Australia<-concept_country;;
+

@@ -1,0 +1,21 @@
+subject_domain_of_optical_effects
+
+=> nrel_main_idtf: 
+	[Предметная область оптических эффектов]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[Subject domain of optical effects]
+	(* <- lang_en;; *);
+
+		
+-> rrel_maximum_studied_object_class:
+	concept_optical_effects;
+	
+
+		
+	
+<- subject_domain;;
+
+
+
+

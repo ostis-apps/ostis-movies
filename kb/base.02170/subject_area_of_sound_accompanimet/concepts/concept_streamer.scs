@@ -1,0 +1,33 @@
+concept_streamer <- sc_node_norole_relation;
+
+<=nrel_storage_device:concept_magnetic_digital_sound_recording;
+
+=> nrel_main_idtf:
+	[streamer] (*<- lang_en;;*);
+	[ленточный накопитель] (*<- lang_ru;;*);
+=> nrel_idtf:
+	[стример](*<- lang_ru;;*);
+
+
+<- rrel_key_sc_element:...(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (ленточный накопитель)] (*<- lang_ru;;*);
+		[Def. (streamer)] (* <- lang_en;;*);;
+	<= nrel_sc_text_translation:...(*
+		-> rrel_example: "file://HTML/concept_streamer_ru.html" (*<- lang_ru;; => nrel_format: format_html;;*);;
+		-> rrel_example: "file://HTML//concept_streamer_en.html" (*<- lang_en;; => nrel_format: format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (ленточный накопитель)](*<-lang_ru;;*);
+		[Pic. (streamer)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_streamer.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

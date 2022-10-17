@@ -1,0 +1,25 @@
+ui_employee_text_component <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Компонент добавления работника кинематографа.]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[This is a component for adding cinema worker.]
+	(*
+	<- lang_en;;
+	*);;
+
+ui_employee_answer_button <- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Создать]
+	(*
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf:
+	[Create]
+	(*
+	<- lang_en;;
+	*);;
+
+

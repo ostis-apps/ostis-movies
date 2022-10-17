@@ -1,0 +1,44 @@
+Bella_Swan<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Белла Свон](*<-lang_ru;;*);
+	[Bella Swan](*<-lang_en;;*);
+
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Белла Свон)](*<-lang_ru;;*);
+		[Description (Bella Swan)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+	concept_actor
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Bella_Swan_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Bella_Swan_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Белла Свон)](*<-lang_ru;;*);
+		[Pic. (Bella Swan)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Bella_Swan.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+Bella_Swan => nrel_cityzenship: USA;;
+
+concept_calendar_date -> 13_09_1987;;
+Bella_Swan => nrel_date_of_birth: 13_09_1987;;
+13_09_1987 => nrel_main_idtf : [13 сентября 1987](*<-lang_ru;;*);;
+13_09_1987 => nrel_main_idtf : [13 September 1987](*<-lang_en;;*);;
+

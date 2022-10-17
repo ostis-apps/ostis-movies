@@ -1,0 +1,87 @@
+StarWars3
+=> nrel_main_idtf:
+	[Звёздные войны: Эпизод 3 — Месть Ситхов]
+	(* <- lang_ru;;	*);
+	[Star wars: Episode 3 - Revenge of the Sith]
+	(* <- lang_en;;	*);
+<-concept_film;
+=> nrel_film_studio: concept_film_studio_lucasfilm;
+=> nrel_film_studio: concept_film_studio_20_century_fox;
+=>nrel_soundman: Larry_Hopkins;
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Звёздные войны: Эпизод 3 — Месть Ситхов)](*<-lang_ru;;*);
+		[Description (Star wars: Episode 3 - Revenge of the Sith)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_film
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/StarWars3_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/StarWars3_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (StarWars3)](*<-lang_ru;;*);
+		[Pic. (StarWars3)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/StarWars3.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+=> nrel_producing_country : Usa;
+=> nrel_film_critic_rating : 8.1;
+=>nrel_keywords: fantasy;
+=>nrel_keywords: super_people;
+=>nrel_keywords: alliens;
+=>nrel_age_rating: concept_PG16;
+=> nrel_main_actor : Ewan_McGregor;
+=> nrel_producer : George_Lucas;
+=> nrel_screenwriter : George_Lucas;;
+
+
+concept_calendar_date -> 19_05_2005;;
+19_06_2005 => nrel_main_idtf : [19.05.2005](*<-lang_ru;;*);;
+19_06_2005 => nrel_main_idtf : [19.05.2005](*<-lang_en;;*);;
+StarWars1 => nrel_release_date : 19_05_2005;;
+
+
+value -> 2_20;;
+2_20 => nrel_main_idtf : [2 часа и 20 минут](*<-lang_ru;;*);;
+2_20 => nrel_main_idtf : [2 hour and 20 minutes](*<-lang_en;;*);;
+StarWars1 => nrel_duration_of_showing : 2_20;;
+
+value -> 113_000_000;;
+113_000_000 => nrel_main_idtf : [113 000 000$](*<-lang_ru;;*);;
+113_000_000 => nrel_main_idtf : [113 000 000$](*<-lang_en;;*);;
+StarWars2 <= nrel_cash_charge :...(*
+	->rrel_american_dollar : 113_000_000;;   
+*);;
+
+
+StarWars2 => nrel_take_place: Tunis;
+=> nrel_take_place: GB;
+=> nrel_take_place: Italy;
+=> nrel_production_designer: Norman_Reynolds;
+=> nrel_film_director: George_Lucas;
+=> nrel_composer: John_Williams;;
+
+Larry_Hopkins <-concept_human;
+=> nrel_main_idtf:
+	[Ларри Хопкинс]
+	(* <- lang_ru;;	*);
+	[Larry Hopkins]
+	(* <- lang_en;;	*);;
+
+Norman_Reynolds <-concept_human;
+=> nrel_main_idtf:
+	[Норман Рейнольдс]
+	(* <- lang_ru;;	*);
+	[Norman Reynolds]
+	(* <- lang_en;;	*);;

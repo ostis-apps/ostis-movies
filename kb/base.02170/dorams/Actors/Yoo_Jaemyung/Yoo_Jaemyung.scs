@@ -1,0 +1,53 @@
+Yoo_Jaemyung
+<-concept_human;
+=> nrel_main_idtf : [Ю Джэ Мён](*<-lang_ru;;*);
+=> nrel_main_idtf : [Yoo Jae-myung](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ю Джэ Мён)](*<-lang_ru;;*);
+		[Description (Yoo Jae-myung)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_actor
+	};;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Yoo_Jaemyung_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Yoo_Jaemyung_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Ю Джэ Мён)](*<-lang_ru;;*);
+		[Pic. (Yoo Jae-myung)](*<-lang_en;;*);;
+		<=nrel_sc_text_translation:...
+	(*
+		->"file://Yoo_Jaemyung.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+
+=> nrel_date_of_birth : 03_06_1973;
+=> nrel_place_of_birth : Busan;
+=> nrel_career_start_date : 2001;
+
+<= nrel_actor : VIP;
+<= nrel_actor : Strong_Woman_Do_Bongsoon;;
+
+03_06_1973
+<- concept_calendar_date;
+=> nrel_main_idtf : [3 июня 1973](*<-lang_ru;;*);
+=> nrel_main_idtf : [Juny 3, 1973](*<-lang_en;;*);;
+
+2001
+<- concept_calendar_date;
+=> nrel_main_idtf : [2001](*<-lang_en;;*);
+=> nrel_main_idtf : [2001](*<-lang_ru;;*);;
+

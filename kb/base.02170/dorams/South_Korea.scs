@@ -1,0 +1,48 @@
+South_Korea
+=> nrel_main_idtf : [Южная Корея](*<-lang_ru;;*);
+=> nrel_main_idtf : [South Korea](*<-lang_en;;*);;
+
+Anyang
+<- concept_city;
+=> nrel_main_idtf : [Анян](*<-lang_ru;;*);
+=> nrel_main_idtf : [Anyang](*<-lang_en;;*);;
+
+Seoul
+<- concept_city;
+=> nrel_main_idtf : [Сеул](*<-lang_ru;;*);
+=> nrel_main_idtf : [Seoul](*<-lang_en;;*);;
+
+Gyeongju
+<- concept_city;
+=> nrel_main_idtf : [Кёнджу](*<-lang_ru;;*);
+=> nrel_main_idtf : [Gyeongju](*<-lang_en;;*);;
+
+Busan
+<- concept_city;
+=> nrel_main_idtf : [Пусан](*<-lang_ru;;*);
+=> nrel_main_idtf : [Busan](*<-lang_en;;*);;
+
+Goyang
+<- concept_city;
+=> nrel_main_idtf : [Коян](*<-lang_ru;;*);
+=> nrel_main_idtf : [Goyang](*<-lang_en;;*);;
+
+Suwon
+<- concept_city;
+=> nrel_main_idtf : [Сувон](*<-lang_ru;;*);
+=> nrel_main_idtf : [Suwon](*<-lang_en;;*);;
+
+Changwon
+<- concept_city;
+=> nrel_main_idtf : [Чханвон](*<-lang_ru;;*);
+=> nrel_main_idtf : [Changwon](*<-lang_en;;*);;
+
+Incheon
+<- concept_city;
+=> nrel_main_idtf : [Инчхон](*<-lang_ru;;*);
+=> nrel_main_idtf : [Incheon](*<-lang_en;;*);;
+
+Yongin
+<- concept_city;
+=> nrel_main_idtf : [Йонъин](*<-lang_ru;;*);
+=> nrel_main_idtf : [Yongin](*<-lang_en;;*);;

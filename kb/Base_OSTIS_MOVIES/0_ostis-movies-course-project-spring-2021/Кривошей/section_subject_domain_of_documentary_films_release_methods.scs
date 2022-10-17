@@ -1,0 +1,47 @@
+section_subject_domain_of_documentary_films_release_methods
+=> nrel_main_idtf:
+	[Раздел. Предметная область средства проката документальных фильмов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of documentary films release methods]
+	(* <- lang_en;; *);
+<- non_atomic_section;;
+
+section_subject_domain_of_documentary_films_release_methods->rrel_key_sc_element:
+	concept_television;
+    concept_cinema;;
+
+section_subject_domain_of_documentary_films_release_methods = [*
+subject_domain_of_documentary_films_release_methods
+=> nrel_main_idtf:
+	[Предметная область средства проката документальных фильмов]
+	(* <- lang_ru;; *);
+	[Subject domain of documentary films release methods]
+	(* <- lang_en;; *);
+<- subject_domain;
+-> rrel_key_sc_element: section_subject_domain_of_documentary_films_release_methods;
+-> rrel_maximum_studied_object_class: concept_of_documentary_films_release_methods;
+-> rrel_not_maximum_studied_object_class:
+   	concept_television;
+    concept_cinema;;
+
+concept_of_documentary_films_release_methods<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Cредства проката документальных фильмов]
+	(* <- lang_ru;; *);
+	[Documentary films release methods]
+	(* <- lang_en;; *);;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_of_documentary_films_release_methods;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Cредства проката документальных фильмов - объекты для предоставления доступа к документалным фильмам в частном или публичном порядке.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Cредства проката документальных фильмов)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_of_documentary_films_release_methods;;
+        *);;
+*);;
+*];;

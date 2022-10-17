@@ -1,0 +1,14 @@
+section_subject_domain_of_pyrotechnics
+=> nrel_main_idtf: 
+	[Раздел. Предметная область пиротехники]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf: 
+	[Section. Subject domain of pyrotechnics]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	concept_pyrotechnician;
+	nrel_pyrotechnician;
+	concept_permission;
+	concept_pyrotechnics;;
+
+section_subject_domain_of_pyrotechnics = [*^"file://subject_domain_of_pyrotechnics.scs"*];;

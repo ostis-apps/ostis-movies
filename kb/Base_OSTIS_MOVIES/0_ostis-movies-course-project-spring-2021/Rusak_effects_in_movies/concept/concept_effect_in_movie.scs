@@ -1,0 +1,31 @@
+concept_effect_in_movie <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [effect_in_movie](*<- lang_en;;*);
+    [эффект в кино](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (эффект в кино)](*<- lang_ru;;*);
+        [Def. (effect_in_movie)](*<- lang_en;;*);;
+    <=nrel_using_constants:...
+	(*
+        -> concept_event;;
+	*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/concept_effect_in_movie_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/concept_effect_in_movie_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+<- rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (эффект в кино)](*<-lang_ru;;*);
+		    [Pic. (effect_in_movie)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/effect_in_movie.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

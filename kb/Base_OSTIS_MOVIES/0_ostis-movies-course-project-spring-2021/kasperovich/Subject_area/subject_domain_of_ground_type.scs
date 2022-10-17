@@ -1,0 +1,25 @@
+subject_domain_of_pokemon_ground_type
+
+=> nrel_main_idtf:
+	[Предметная область покемонов земляного типа]
+	(*<-lang_ru;;*);
+	[Subject domain of pokemon ground type]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+    concept_ground_type;
+	
+
+-> rrel_explored_relation:
+	nrel_bone_club_attack;
+    nrel_bulldoze_attack;
+    nrel_dig_attack;
+    nrel_drill_run_attack        ;
+    nrel_earthquake_attack        ;
+    nrel_mud_bomb_attack        ;
+    nrel_mud_shot_attack        ;
+    nrel_mud_slap_attack;
+		
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

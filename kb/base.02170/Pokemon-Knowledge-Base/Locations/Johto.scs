@@ -1,0 +1,49 @@
+concept_pokemon_region -> Johto;;
+
+Johto
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Джото]
+	(* <- lang_ru;;	*);
+	[Johto]
+	(* <- lang_en;;	*);;
+
+Johto <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Джото)](*<-lang_ru;;*);
+		[Description (Johto)](*<-lang_en;;*);;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Johto_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Johto_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+Johto <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Джото)](*<-lang_ru;;*);
+		[Pic. (Johto)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/Johto.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+Johto
+=> nrel_town: new_bark_town;
+=> nrel_town: cherrygrove_city;
+=> nrel_town: violet_city;
+=> nrel_town: azalea_town;
+=> nrel_town: goldenrod_city;
+=> nrel_town: ecruteak_city;
+=> nrel_town: cianwood_city;
+=> nrel_town: olivine_city;
+=> nrel_town: mahogany_town;
+=> nrel_town: blackthorn_city;;

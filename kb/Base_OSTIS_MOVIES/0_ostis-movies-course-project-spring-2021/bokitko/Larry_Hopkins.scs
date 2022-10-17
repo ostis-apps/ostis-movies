@@ -1,0 +1,49 @@
+concept_human -> Larry_Hopkins;;
+
+Larry_Hopkins
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Ларри Хопкинс]
+	(* <- lang_ru;;	*);
+	[Larry Hopkins]
+	(* <- lang_en;;	*);;
+	
+Larry_Hopkins <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Ларри Хопкинс)](*<-lang_ru;;*);
+		[Description (Larry Hopkins)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_soundman
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/Larry_Hopkins_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/Larry_Hopkins_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_calendar_date->1967;;
+Larry_Hopkins=>nrel_date_of_birth: 1967;;
+1967=>nrel_main_idtf:[1967 год](*<-lang_ru;;*);;
+1967=>nrel_main_idtf:[year of 1967](*<-lang_en;;*);;
+
+concept_calendar_date->1988;;
+Larry_Hopkins=>nrel_career_start_date: 1988;;
+1988=>nrel_main_idtf:[1988 год](*<-lang_ru;;*);;
+1988=>nrel_main_idtf:[year of 1988](*<-lang_en;;*);;
+
+Larry_Hopkins =>nrel_cityzenship: Usa;
+<-concept_soundman;;
+
+Usa
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[США]
+	(* <- lang_ru;;	*);
+	[USA]
+	(* <- lang_en;;	*);;
+

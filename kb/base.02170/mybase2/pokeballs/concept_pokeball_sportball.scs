@@ -1,0 +1,62 @@
+concept_pokeball -> concept_pokeball_sportball;;
+
+concept_pokeball_sportball
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Спортбол]
+	(* <- lang_ru;;	*);
+	[Sportball]
+	(* <- lang_en;;	*);;
+	
+concept_pokeball_sportball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешний вид (Спортбол)](*<-lang_ru;;*);
+		[Appearance (sportball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_sportball_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_sportball_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokeball_sportball <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Характеристика (Спортбол)](*<-lang_ru;;*);
+		[Characteristic (sportball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokeball_sportball_characteristic_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokeball_sportball_characteristic_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_sportball <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Спортбол)](*<-lang_ru;;*);
+		[Pic. (sportball)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokeball_sportball.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+concept_pokeball_category_C -> concept_pokeball_sportball;;
+
+concept_pokeball_sportball => nrel_top_cover_color:concept_color_red;;
+concept_pokeball_sportball => nrel_bottom_cover_color:concept_color_white;;
+
+concept_pokeball_sportball => nrel_place_of_use: goldenrod_city ;;
+
+
+
+
+
+

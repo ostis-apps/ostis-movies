@@ -1,0 +1,33 @@
+nrel_shadow_ball_attack <- sc_node_norole_relation;
+
+<- binary_relation;
+<- oriented_relation;
+<- antireflexive_relation;
+<- antisymmetric_relation;
+<- antitransitive_relation;
+
+=> nrel_main_idtf:
+    [атака теневой мяч*](*<- lang_ru;;*);
+    [shadow ball attack*](*<- lang_en;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (атака теневой мяч*)](*<- lang_ru;;*);
+        [Def. (shadow ball attack*)](*<- lang_en;;*);;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: [<b>Атака теневой мяч</b> - <sc_element sys_idtf="concept_pokemon">покемон</sc_element> швыряет темный шар во врага.] (*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: [<b>Shadow ball attack</b> - the <sc_element sys_idtf="concept_pokemon">pokemon</sc_element> hurls a dark ball at an enemy.] (*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+    <= nrel_using_constants:{
+       concept_pokemon
+    };;
+*);
+
+=> nrel_first_domain: concept_pokemon;
+=> nrel_second_domain: concept_pokemon;
+=> nrel_definitional_domain:...(*
+    <= nrel_combination: ...(* 
+        -> concept_pokemon;;
+    *);;
+*);;

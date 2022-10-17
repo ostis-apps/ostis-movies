@@ -1,0 +1,103 @@
+concept_pokemon -> concept_pokemon_blastoise;;
+
+concept_pokemon_blastoise
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Бластойз]
+	(* <- lang_ru;;	*);
+	[Blastoise]
+	(* <- lang_en;;	*);;
+	
+concept_pokemon_blastoise <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Бластойз)](*<-lang_ru;;*);
+		[Description (Blastoise)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_blastoise <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Внешность (Бластойз)](*<-lang_ru;;*);
+		[Appearance (Blastoise)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_appearance_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_appearance_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_blastoise <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Поведение (Бластойз)](*<-lang_ru;;*);
+		[Behavior (Blastoise)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_behavior_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_behavior_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_blastoise <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Природная способность (Бластойз)](*<-lang_ru;;*);
+		[Natural ability (Blastoise)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_natural_ability_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_natural_ability_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_pokemon_blastoise <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Среда обитания (Бластойз)](*<-lang_ru;;*);
+		[Habitat (Blastoise)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_habitat_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_pokemon_blastoise_habitat_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+
+concept_pokemon_blastoise <-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Бластойз)](*<-lang_ru;;*);
+		[Pic. (Blastoise)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://IMG/concept_pokemon_blastoise.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+
+
+concept_water_type -> concept_pokemon_blastoise;;
+
+concept_color_blue -> concept_pokemon_blastoise;;
+
+value -> 9;;
+concept_pokemon_blastoise => nrel_pokedex_number: 9;;
+
+value -> 1.6;;
+concept_pokemon_blastoise => nrel_height: 1.6;;
+
+value -> 85.5;;
+concept_pokemon_blastoise => nrel_weight: 85.5;;

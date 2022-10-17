@@ -1,0 +1,50 @@
+concept_maat_film
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Студия Maat]
+	(* <- lang_ru;; *);
+	[Maat film studio]
+	(* <- lang_en;; *);;
+
+concept_maat_film<=nrel_inclusion: concept_documentary_film_studio;;
+
+definition -> ...
+(*
+    -> rrel_key_sc_element: concept_maat_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Maat film успешно развивающаяся компания, сфера деятельности которой киновидео производство.](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Опр.(Студия Maat)](*<- lang_ru;;*);;
+    <= nrel_using_constants: ...
+        (*
+->concept_documentary_film_studio;;
+->concept_maat_film;;
+        *);;
+*);;
+
+statement -> ...
+(*
+    -> rrel_key_sc_element: concept_maat_film;;
+    <= nrel_sc_text_translation: ...
+        (*
+            -> [Предоставляет услуги по производству фильмов...](*<- lang_ru;;*);;
+        *);;
+    => nrel_main_idtf: [Утв.(О Студии Maat)](*<- lang_ru;;*);;
+<= nrel_using_constants: ...
+        (*
+->concept_documentary_film_studio;;
+->concept_maat_film;;
+        *);;
+*);;
+
+illustration->...
+(*
+    ->rrel_key_sc_element: concept_maat_film;;
+	=>nrel_main_idtf:
+		[Рис. (Студия Maat)](*<-lang_ru;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://images/maat.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,103 @@
+Barbie_in_the_Nutcracker <- sc_node_not_relation;
+<- concept_cartoon;
+
+=> nrel_main_idtf:
+	[Барби и Щелкунчик]
+	(* <- lang_ru;;	*);
+	[Barbie in the Nutcracker]
+	(* <- lang_en;;	*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Барби и Щелкунчик)](*<-lang_ru;;*);
+		[Description (Barbie in the Nutcracker)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+        concept_cartoon
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Barbie_in_the_Nutcracker_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Barbie_in_the_Nutcracker_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Барби и Щелкунчик)](*<-lang_ru;;*);
+		[Pic. (Barbie in the Nutcracker)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-concept_poster;;
+		->"file://Barbie_in_the_Nutcracker.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+
+
+=> nrel_film_studio: concept_Mainframe_Studios;
+=> nrel_soundman: Troy_Allen;
+=> nrel_production_designer: Diana_Brostow;
+=> nrel_film_director: Owen_Hurley;
+=> nrel_composer: Arnie_Roth;
+
+
+=> nrel_producer: Jesyca_Durchin;
+=> nrel_producer: Jennifer_Twiner_McCaron;
+=> nrel_screenwriter : Rob_Hudnut;
+=> nrel_production_country: USA;
+=> nrel_production_country: Canada;
+=> nrel_release_date : 23_10_2001;
+=> nrel_duration_of_showing : 1_18;
+=> nrel_film_critic_rating : 6;
+=> nrel_age_rating: concept_G;
+=> nrel_original_language: lang_en;
+
+=> nrel_keywords: concept_magic;
+=> nrel_keywords: concept_princess;
+=> nrel_keywords: concept_animals;
+=> nrel_keywords: concept_trip;
+=> nrel_keywords: concept_christmas;
+=> nrel_keywords: concept_cartoon;
+=> nrel_keywords: concept_barbie;
+=> nrel_keywords: concept_dance;
+=> nrel_keywords: concept_war;
+=> nrel_keywords: concept_family_film;;
+
+
+Barbie_in_the_Nutcracker=> nrel_tagline_of_film : slogan_Barbie_in_the_Nutcracker;;
+slogan_Barbie_in_the_Nutcracker => nrel_main_idtf : [В главной роли в ее первом фильме!](*<-lang_ru;;*);;
+slogan_Barbie_in_the_Nutcracker => nrel_main_idtf : [Starring in Her First Movie!](*<-lang_en;;*);;
+
+
+
+concept_nutcracker
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Щелкунчик]
+(* <- lang_ru;;	*);
+[Nutcracker]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+concept_barbie
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+[Барби]
+(* <- lang_ru;;	*);
+[Barbie]
+(* <- lang_en;;	*);
+<= nrel_inclusion: concept_keywords;;
+
+
+concept_calendar_date -> 23_10_2001;;
+23_10_2001 => nrel_main_idtf : [23.10.2001](*<-lang_ru;;*);;
+23_10_2001 => nrel_main_idtf : [23.10.2001](*<-lang_en;;*);;
+
+duration -> 1_18;;
+1_18 => nrel_main_idtf : [1 час и 18 минут](*<-lang_ru;;*);;
+1_18 => nrel_main_idtf : [1 hour and 18 minutes](*<-lang_en;;*);;
+

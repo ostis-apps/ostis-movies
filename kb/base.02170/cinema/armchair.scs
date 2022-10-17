@@ -1,0 +1,38 @@
+concept_armchair <- sc_node_not_relation;
+
+=> nrel_main_idtf:[кресло] (* <- lang_ru;; *);
+=> nrel_idtf:[armchair] (* <- lang_en;; *);
+
+->studied_object_class: concept_folding_armchair;
+->studied_object_class: concept_single_armchair;
+->studied_object_class: concept_double_armchair;
+
+<- rrel_key_sc_element:...
+(*
+	<- definition;;
+	=> nrel_main_idtf:
+		[Опр. (кресло)](* <- lang_ru;; *);
+		[Def. (armchair)](* <- lang_en;; *);;
+	<= nrel_using_constants:...
+	(*
+		-> concept_armchair;;
+	*);;
+	<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:[<b><sc_element sys_idtf="concept_armchair">Кресло</sc_element></b> это специальная мебель, которая имеет раскладывающуюся конструкцию и обеспечивает Вам максимальную функциональность и комфорт во время просмотра фильма.](* <- lang_ru;; => nrel_format: format_html;;*);;
+			-> rrel_example:[<b><sc_element sys_idtf="concept_armchair">Armchair</sc_element></b> this is a special furniture that has a folding design and provides you with maximum functionality and comfort while watching a movie.](* <- lang_en;; => nrel_format: format_html;;*);;
+		*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (кресло)](*<-lang_ru;;*);
+		[Pic. (armchair)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://img/armchair.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

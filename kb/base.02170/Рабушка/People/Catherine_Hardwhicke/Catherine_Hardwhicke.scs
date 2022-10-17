@@ -1,0 +1,41 @@
+Catherine_Hardwhicke <-rrel_key_sc_element:...
+(*
+	<-definition;;
+	=>nrel_main_idtf:
+		[Описание (Кэтрин Хардвик)](*<-lang_ru;;*);
+		[Description (Catherine Hardwhicke)](*<-lang_en;;*);;
+	<=nrel_using_constants:
+	{
+	concept_main_producer;
+	concept_screenwriter
+	};;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://Catherine_Hardwhicke_def_ru.html"
+		(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://Catherine_Hardwhicke_def_en.html"
+		(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Кэтрин Хардвик)](*<-lang_ru;;*);
+		[Pic. (Catherine Hardwhicke)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://Catherine_Hardwhicke.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_calendar_date -> 21_10_1955;;
+21_10_1955 => nrel_main_idtf : [21 октября 1955](*<-lang_ru;;*);;
+21_10_1955 => nrel_main_idtf : [21 October 1955](*<-lang_en;;*);;
+Catherine_Hardwhicke => nrel_date_of_birth: 21_10_1955;;
+
+Catherine_Hardwhicke => nrel_place_of_birth: Cameron_City;;
+Catherine_Hardwhicke => nrel_cityzenship: USA;;
+
+Catherine_Hardwhicke => nrel_main_producer: Twilight;;
